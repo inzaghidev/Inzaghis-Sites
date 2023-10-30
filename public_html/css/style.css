@@ -184,6 +184,15 @@ svg:not(:root) {
   vertical-align: middle;
 }
 
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 20px;
+}
+
 .nav-menu ul {
   list-style: none;
   margin: 0;
@@ -254,6 +263,13 @@ svg:not(:root) {
   padding: 10px;
   color: black;
   text-decoration: none;
+}
+
+.bar {
+  width: 30px;
+  height: 4px;
+  background-color: #000;
+  margin: 6px 0;
 }
 
 .contact-button {
@@ -630,7 +646,7 @@ svg:not(:root) {
 }
 
 /* Responsive Styles for Tablet */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .w-layout-blockcontainer {
     max-width: 90%; /* Adjust as needed */
     margin: 0 auto; /* Center-align the container */
@@ -795,53 +811,39 @@ svg:not(:root) {
   }
 
   .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1680px;
-    padding: 30px;
-    background-color: #ffffff;
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
+    flex-direction: column;
+    padding: 20px;
   }
 
   #logo img {
     vertical-align: middle;
   }
 
+  .nav-menu {
+    margin-top: 20px;
+  }
+
   .nav-menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+    display: none;
+    flex-direction: column;
     align-items: center;
   }
 
+  .nav-menu ul.active {
+    display: flex;
+  }
+
+  .nav-menu ul li {
+    margin-bottom: 10px;
+  }
+
   .nav-menu li {
-    margin-right: 20px;
-    border-radius: 20px;
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 
-  .nav-menu .dropdown {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-  }
-
-  .nav-menu a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-  }
-
-  .nav-dropdown-toggle {
-    letter-spacing: 0.25px;
-    margin-right: 10px;
-    padding: 5px 30px 5px 20px;
-    font-size: 14px;
-    line-height: 20px;
-    cursor: pointer;
+  .nav-dropdown-list {
+    top: 0;
   }
 
   .w-dropdown-toggle {
@@ -883,17 +885,12 @@ svg:not(:root) {
     text-decoration: none;
   }
 
+  .menu-toggle {
+    display: block;
+  }
+
   .contact-button {
-    display: inline-block;
-    padding: 12px 20px;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    background-color: #1a1b1f;
-    color: #fff;
-    transition: all 0.2s;
-    text-decoration: none; /* Added */
+    margin-top: 20px;
   }
 
   .contact-button:hover {
@@ -1014,6 +1011,7 @@ svg:not(:root) {
   .inzaghisblog {
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
   }
 
   .inzaghis-blog-legacy,
@@ -1198,7 +1196,7 @@ svg:not(:root) {
 }
 
 /* Responsive Styles for Mobile */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .w-layout-blockcontainer {
     max-width: 90%; /* Adjust as needed */
     margin: 0 auto; /* Center-align the container */
@@ -1373,28 +1371,13 @@ svg:not(:root) {
     transform-origin: 0px 0px;
   }
 
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1680px;
-    padding: 30px;
-    background-color: #ffffff;
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   #logo img {
     vertical-align: middle;
   }
 
   .nav-menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+    display: none;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -1598,6 +1581,7 @@ svg:not(:root) {
   .teknoblog-inzaghis-blog,
   .miniblog-inzaghis-blog {
     max-width: 350px;
+    margin: 0 auto; /* Tengahkan elemen-elemen ini dengan margin auto */
   }
 
   .inzaghis-blog-legacy img,
@@ -1664,6 +1648,7 @@ svg:not(:root) {
   .youtube,
   .twitter {
     max-width: 200px;
+    margin: 0 auto;
   }
 
   .socmed-name {
@@ -1684,7 +1669,7 @@ svg:not(:root) {
 
   .inzaghis-group-network {
     background-color: rgba(239, 231, 254, 0.522);
-    height: 480px;
+    height: 600px;
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -1753,32 +1738,38 @@ svg:not(:root) {
   }
 
   .footer-wrapper {
-    justify-content: space-between;
-    align-items: flex-start;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .special-pages,
   .network,
   .quick-link {
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 14px;
     display: flex;
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   .footer-bottom {
     justify-content: space-between;
     align-items: center;
     display: flex;
+    flex-wrap: wrap; /* Menggunakan flex-wrap agar item-item bisa berjajar pada perangkat kecil */
   }
 
   .footer-copyright {
     color: #3a4554;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 14px;
+    width: 100%; /* Mengisi seluruh lebar pada perangkat mobile */
+    text-align: center; /* Center-align teks pada perangkat mobile */
   }
 
   /* Adjust other styles for mobile here */
