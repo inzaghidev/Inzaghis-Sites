@@ -1019,7 +1019,7 @@ svg:not(:root) {
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
   .inzaghis-blog-slider {
-    background-color: white;
+    background-color: #fff6f0;
     height: 540px;
     display: flex;
     justify-content: space-around;
@@ -1595,7 +1595,7 @@ svg:not(:root) {
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
   .inzaghis-blog-slider {
-    background-color: white;
+    background-color: #fff6f0;
     height: 1400px;
     display: flex;
     justify-content: space-around;
