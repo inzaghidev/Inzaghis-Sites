@@ -206,6 +206,13 @@ svg:not(:root) {
   border-radius: 20px;
 }
 
+.nav-menu ul li {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .nav-menu .dropdown {
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -293,7 +300,6 @@ svg:not(:root) {
 .about-inzaghis-sites {
   background-color: #f5f7fa;
   border-bottom: 1px solid #e4ebf3;
-  max-width: 1680px;
   padding: 60px 30px;
   position: relative;
   margin-left: auto;
@@ -303,7 +309,6 @@ svg:not(:root) {
 .welcome {
   background-color: #f5f7fa;
   border-bottom: 1px solid #e4ebf3;
-  max-width: 1680px;
   padding: 60px 30px;
   position: relative;
   margin-left: auto;
@@ -311,6 +316,14 @@ svg:not(:root) {
 }
 
 .welcome-container {
+  max-width: 1680px;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcome-title {
   width: 100%;
   max-width: 1080px;
   margin: 0 auto;
@@ -329,9 +342,6 @@ svg:not(:root) {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
 .welcome-to-inzaghis-sites {
@@ -377,7 +387,6 @@ svg:not(:root) {
 .about-us {
   background-color: #efe7fe;
   border-bottom: 1px solid #e4ebf3;
-  max-width: 1680px;
   padding: 60px 30px;
   position: relative;
   margin-left: auto;
@@ -385,6 +394,16 @@ svg:not(:root) {
 }
 
 .about-us-container {
+  background-color: #efe7fe;
+  border-bottom: 1px solid #e4ebf3;
+  max-width: 1680px;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us-title {
   width: 100%;
   max-width: 1080px;
   margin: 0 auto;
@@ -403,9 +422,6 @@ svg:not(:root) {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
 .about-us-to-inzaghis-group {
@@ -434,12 +450,11 @@ svg:not(:root) {
 /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
 .inzaghis-blog-slider {
-  background-color: white;
+  background-color: #fff6f0;
   height: 540px;
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  max-width: 1680px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -451,6 +466,14 @@ svg:not(:root) {
 
 .centered-subheading {
   text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.left-subheading {
+  text-align: left;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -497,7 +520,6 @@ svg:not(:root) {
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  max-width: 1680px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -555,7 +577,6 @@ svg:not(:root) {
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  max-width: 1680px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -821,20 +842,29 @@ svg:not(:root) {
 
   .nav-menu {
     margin-top: 20px;
+    padding: 10px; /* Tambahkan padding */
   }
 
   .nav-menu ul {
     display: none;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   .nav-menu ul.active {
     display: flex;
+    margin-top: 10px; /* Tambahkan margin top untuk jarak antar elemen */
   }
 
   .nav-menu ul li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .nav-menu li.active {
+    margin: 1px;
   }
 
   .nav-menu li {
@@ -911,7 +941,6 @@ svg:not(:root) {
   .welcome {
     background-color: #f5f7fa;
     border-bottom: 1px solid #e4ebf3;
-    max-width: 1680px;
     padding: 60px 30px;
     position: relative;
     margin-left: auto;
@@ -919,6 +948,14 @@ svg:not(:root) {
   }
 
   .welcome-container {
+    max-width: 1680px;
+    padding: 60px 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .welcome-title {
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
@@ -937,9 +974,6 @@ svg:not(:root) {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
   }
 
   .welcome-to-inzaghis-sites {
@@ -1008,6 +1042,14 @@ svg:not(:root) {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   }
 
+  .left-subheading {
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  }
+
   .inzaghisblog {
     margin-left: auto;
     margin-right: auto;
@@ -1017,7 +1059,7 @@ svg:not(:root) {
   .inzaghis-blog-legacy,
   .teknoblog-inzaghis-blog,
   .miniblog-inzaghis-blog {
-    max-width: 200px;
+    max-width: 230px;
   }
 
   .inzaghis-blog-legacy img,
@@ -1050,7 +1092,6 @@ svg:not(:root) {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1100,7 +1141,7 @@ svg:not(:root) {
 
   .inzaghis-group-network {
     background-color: rgba(239, 231, 254, 0.522);
-    height: 480px;
+    height: 500px;
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -1476,7 +1517,6 @@ svg:not(:root) {
   .welcome {
     background-color: #f5f7fa;
     border-bottom: 1px solid #e4ebf3;
-    max-width: 1680px;
     padding: 60px 30px;
     position: relative;
     margin-left: auto;
@@ -1484,6 +1524,14 @@ svg:not(:root) {
   }
 
   .welcome-container {
+    max-width: 1680px;
+    padding: 60px 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .welcome-title {
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
@@ -1502,9 +1550,6 @@ svg:not(:root) {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
   }
 
   .welcome-to-inzaghis-sites {
@@ -1573,6 +1618,14 @@ svg:not(:root) {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   }
 
+  .left-subheading {
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  }
+
   .inzaghisblog {
     display: block;
   }
@@ -1610,11 +1663,10 @@ svg:not(:root) {
 
   .inzaghis-media-info {
     background-color: #ffe3e3;
-    height: 1250px;
+    height: 1300px;
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1669,10 +1721,10 @@ svg:not(:root) {
 
   .inzaghis-group-network {
     background-color: rgba(239, 231, 254, 0.522);
-    height: 600px;
+    height: 750px;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 40px;
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
