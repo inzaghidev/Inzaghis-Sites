@@ -881,7 +881,6 @@ svg:not(:root) {
 
   .arrow-embed {
     margin-left: 2px;
-    display: flex;
   }
 
   svg:not(:root) {
@@ -1559,7 +1558,6 @@ svg:not(:root) {
 
   .arrow-embed {
     margin-left: 2px;
-    display: flex;
   }
 
   svg:not(:root) {
