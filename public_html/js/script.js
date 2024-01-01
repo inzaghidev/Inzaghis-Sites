@@ -26,4 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
   networksLink.addEventListener("click", function () {
     window.location.href = "./pages/networks.html";
   });
+
+  networksLink.addEventListener("click", function () {
+    window.location.href = "./pages/contact.html";
+  });
 });

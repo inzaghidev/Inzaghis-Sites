@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+    <script src="../js/script.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -31,7 +33,7 @@
     />
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
       <a href="../public/index.html" id="logo">
         <img
           src="../images/inzaghis-sites-logo-vertical-transparent.png"
@@ -44,6 +46,7 @@
         <div class="bar"></div>
         <div class="bar"></div>
       </button>
+      <a href="#" class="main-button sign-in-button">Sign in</a>
       <div class="nav-menu">
         <ul>
           <li><a href="../public/index.html">Home</a></li>
@@ -93,8 +96,6 @@
           </li>
         </ul>
       </div>
-      <a href="#" class="main-button">Sign in</a>
-      <script src="../js/script.js"></script>
     </nav>
     <section class="privacy-policy">
       <div class="welcome-container">
@@ -130,6 +131,7 @@
                 Our Privacy Policy was created with the help of the
                 <a
                   href="https://www.privacypolicyonline.com/privacy-policy-generator"
+                  target="_blank"
                   >Privacy Policy Generator</a
                 >.
               </p>
