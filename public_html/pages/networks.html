@@ -31,6 +31,11 @@
       rel="shortcut icon"
       href="../images/inzaghis-sites-favicon-36x36-icon-only.png"
     />
+    <!--script>
+      $(document).ready(function () {
+        window.location.replace("../pages/networks.php");
+      });
+    </script-->
   </head>
   <body>
     <nav class="navbar" id="navbar">
@@ -97,7 +102,8 @@
         </ul>
       </div>
     </nav>
-    <section class="about-us">
+    <div class="navbar-border border"></div>
+    <section class="about-us shadow">
       <section class="about-us-container">
         <div class="about-us-title">
           <h1 class="about-us-title">TENTANG KAMI</h1>
@@ -125,8 +131,8 @@
     </section>
     <section class="inzaghisblog-slider">
       <div class="inzaghisblog-container">
-        <section class="inzaghisblog-wrapper">
-          <section class="group-inzaghisblog">
+        <section class="group-wrapper">
+          <section class="group-content">
             <section class="group-image">
               <img
                 src="../images/inzaghis-blog-by-inzaghis-group-corp.png"
@@ -148,78 +154,84 @@
             </section>
           </section>
         </section>
-        <section class="inzaghisblog">
-          <section class="inzaghis-blog-legacy">
-            <img
-              src="../images/inzaghis-blog-legacy.png"
-              alt="Inzaghi's Blog Legacy"
-            />
-            <section class="blog-text">
-              <h3 class="blog-name">Inzaghi's Blog Legacy</h3>
-              <button class="btn btn-secondary" id="button">
-                <a
-                  href="https://inzaghiposuma.blogspot.com"
-                  class="blog-link"
-                  target="_blank"
-                  >Klik di sini</a
-                >
-              </button>
-              <section class="blog-description">
-                Merupakan Blog Lama yang sudah tersedia sejak Tahun 2018, tempat
-                untuk memposting apapun itu.
-              </section>
-            </section>
-          </section>
-          <section class="teknoblog-inzaghis-blog">
-            <img
-              src="../images/teknoblog-by-inzaghis-blog.png"
-              alt="Teknoblog - Inzaghi's Blog"
-            />
-            <section class="blog-text">
-              <h3 class="blog-name">Teknoblog</h3>
-              <button class="btn btn-secondary" id="button">
-                <a
-                  href="https://enzatech.blogspot.com"
-                  class="blog-link"
-                  target="_blank"
-                  >Klik di sini</a
-                >
-              </button>
-              <section class="blog-description">
-                Merupakan Pindahan dari Blog Lama yang bernama Inzaghi's Blog
-                (Legacy), dan Artikel yang dikhususkan tentang Teknologi.
-              </section>
-            </section>
-          </section>
-          <section class="miniblog-inzaghis-blog">
-            <img
-              src="../images/miniblog-by-inzaghis-blog.png"
-              alt="Miniblog - Inzaghi's Blog"
-            />
-            <section class="blog-text">
-              <h3 class="blog-name">Miniblog</h3>
-              <button class="btn btn-secondary" id="button">
-                <a
-                  href="https://enzashorts.blogspot.com"
-                  class="blog-link"
-                  target="_blank"
-                  >Klik di sini</a
-                >
-              </button>
-              <section class="blog-description">
-                Merupakan Blog khusus Microblogging, terutama untuk menyimpan
-                Postingan Sederhana seperti Kode Program Sederhana, hingga Teks
-                dan Tutorial Singkat.
-              </section>
-            </section>
-          </section>
-        </section>
+        <div class="container inzaghisblog">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card border-0 shadow">
+                <img
+                  src="../images/inzaghis-blog-legacy.png"
+                  class="card-img-top"
+                  alt="Inzaghi's Blog Legacy"
+                />
+                <div class="card-body text-center blog-text">
+                  <h5 class="card-title blog-name">Inzaghi's Blog Legacy</h5>
+                  <a
+                    href="https://inzaghiposuma.blogspot.com"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Klik di sini</a
+                  >
+                  <p class="card-text blog-description">
+                    Merupakan Blog Lama yang sudah tersedia sejak Tahun 2018,
+                    tempat untuk memposting apapun itu.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card border-0 shadow">
+                <img
+                  src="../images/teknoblog-by-inzaghis-blog.png"
+                  class="card-img-top"
+                  alt="Teknoblog - Inzaghi's Blog"
+                />
+                <div class="card-body text-center blog-text">
+                  <h5 class="card-title blog-name">Teknoblog</h5>
+                  <a
+                    href="https://enzatech.blogspot.com"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Klik di sini</a
+                  >
+                  <p class="card-text blog-description">
+                    Merupakan Pindahan dari Blog Lama yang bernama Inzaghi's
+                    Blog (Legacy), dan Artikel yang dikhususkan tentang
+                    Teknologi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card border-0 shadow">
+                <img
+                  src="../images/miniblog-by-inzaghis-blog.png"
+                  class="card-img-top"
+                  alt="Miniblog - Inzaghi's Blog"
+                />
+                <div class="card-body text-center blog-text">
+                  <h5 class="card-title blog-name">Miniblog</h5>
+                  <a
+                    href="https://enzashorts.blogspot.com"
+                    target="_blank"
+                    class="btn btn-secondary"
+                    >Klik di sini</a
+                  >
+                  <p class="card-text blog-description">
+                    Merupakan Blog khusus Microblogging, terutama untuk
+                    menyimpan Postingan Sederhana seperti Kode Program
+                    Sederhana, hingga Teks dan Tutorial Singkat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section class="inzaghismedia-info">
       <div class="inzaghis-media-container">
-        <section class="inzaghismedia-wrapper">
-          <section class="group-inzaghismedia">
+        <section class="group-wrapper">
+          <section class="group-content reverse-content">
             <section class="group-image">
               <img
                 src="../images/inzaghis-media-by-inzaghis-group-corp.png"
@@ -239,100 +251,104 @@
             </section>
           </section>
         </section>
-        <section class="inzaghismedia">
-          <section class="instagram">
-            <img
-              src="../images/instagram-logo-icon.png"
-              alt="Instagram Logo"
-              class="socmed-icon"
-            />
-            <section class="socmed-text">
-              <h3 class="socmed-name">Instagram</h3>
-              <button class="btn btn-primary" id="button">
-                <a
-                  href="https://www.instagram.com/enzapost"
-                  class="blog-link"
-                  target="_blank"
-                  >@enzapost</a
-                >
-              </button>
-              <section class="socmed-description">
-                Sebagai Postingan berbentuk Gambar Persegi dan sebagai Asisten
-                dari Inzaghi's Blog.
-              </section>
-            </section>
-          </section>
-          <section class="tiktok">
-            <img
-              src="../images/tiktok-logo-icon.png"
-              alt="TikTok Logo"
-              class="socmed-icon"
-            />
-            <section class="socmed-text">
-              <h3 class="socmed-name">TikTok</h3>
-              <button class="btn btn-primary" id="button">
-                <a
-                  href="https://www.tiktok.com/@enzapostmedia"
-                  class="blog-link"
-                  target="_blank"
-                  >@enzapostmedia</a
-                >
-              </button>
-              <section class="socmed-description">
-                Sebagai Postingan berbentuk Video Vertikal (Portrait) yang dapat
-                di-Scrolling seperti Video Tutorial/Tips dan Informasi Singkat.
-              </section>
-            </section>
-          </section>
-          <section class="youtube">
-            <img
-              src="../images/youtube-logo-icon.png"
-              alt="YouTube Logo"
-              class="socmed-icon"
-            />
-            <section class="socmed-text">
-              <h3 class="socmed-name">YouTube</h3>
-              <button class="btn btn-primary" id="button">
-                <a
-                  href="https://www.youtube.com/@enzavlogpost"
-                  class="blog-link"
-                  target="_blank"
-                  >Inzaghi's Media</a
-                >
-              </button>
-              <section class="socmed-description">
-                Sebagai sebuah Channel yang berbentuk Video seperti Tutorial.
-              </section>
-            </section>
-          </section>
-          <section class="twitter">
-            <img
-              src="../images/twitter-x-logo.png"
-              alt="Twitter Logo"
-              class="socmed-icon"
-            />
-            <section class="socmed-text">
-              <h3 class="socmed-name">X (Twitter)</h3>
-              <button class="btn btn-primary" id="button">
-                <a
-                  href="https://x.com/iposhaf2917"
-                  class="blog-link"
-                  target="_blank"
-                  >@iposhaf2917</a
-                >
-              </button>
-              <section class="socmed-description">
-                Sebagai Postingan berbentuk Infografis, Tweet, hingga
-                Postingan-postingan dari Inzaghi's Blog.
-              </section>
-            </section>
-          </section>
-        </section>
+        <div class="container inzaghismedia">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+              <div class="card border-0 shadow opacity-75">
+                <img
+                  src="../images/instagram-logo-icon.png"
+                  class="card mt-4 socmed-icon"
+                  alt="Instagram Logo"
+                />
+                <div class="card-body text-center socmed-text">
+                  <h5 class="card-title socmed-name">Instagram</h5>
+                  <a
+                    href="https://www.instagram.com/enzapost"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >@enzapost</a
+                  >
+                  <p class="card-text socmed-description">
+                    Sebagai Postingan berbentuk Gambar Persegi dan sebagai
+                    Asisten dari Inzaghi's Blog.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+              <div class="card border-0 shadow opacity-75">
+                <img
+                  src="../images/tiktok-logo-icon.png"
+                  class="card mt-4 socmed-icon"
+                  alt="TikTok Logo"
+                />
+                <div class="card-body text-center socmed-text">
+                  <h5 class="card-title socmed-name">TikTok</h5>
+                  <a
+                    href="https://www.tiktok.com/@enzapostmedia"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >@enzapostmedia</a
+                  >
+                  <p class="card-text socmed-description">
+                    Sebagai Postingan berbentuk Video Vertikal (Portrait) yang
+                    dapat di-Scrolling seperti Video Tutorial/Tips dan Informasi
+                    Singkat.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+              <div class="card border-0 shadow opacity-75">
+                <img
+                  src="../images/youtube-logo-icon.png"
+                  class="card mt-4 socmed-icon"
+                  alt="YouTube Logo"
+                />
+                <div class="card-body text-center socmed-text">
+                  <h5 class="card-title socmed-name">YouTube</h5>
+                  <a
+                    href="https://www.youtube.com/@enzavlogpost"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Inzaghi's Media</a
+                  >
+                  <p class="card-text socmed-description">
+                    Sebagai sebuah Channel yang berbentuk Video seperti
+                    Tutorial.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+              <div class="card border-0 shadow opacity-75">
+                <img
+                  src="../images/twitter-x-logo.png"
+                  class="card mt-4 socmed-icon"
+                  alt="Twitter Logo"
+                />
+                <div class="card-body text-center socmed-text">
+                  <h5 class="card-title socmed-name">X (Twitter)</h5>
+                  <a
+                    href="https://x.com/iposhaf2917"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >@iposhaf2917</a
+                  >
+                  <p class="card-text socmed-description">
+                    Sebagai Postingan berbentuk Infografis, Tweet, hingga
+                    Postingan-postingan dari Inzaghi's Blog.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section class="inzaghis-dev">
       <section class="group-wrapper">
-        <section class="group-content reverse-content">
+        <section class="group-content">
           <section class="group-image">
             <img
               src="../images/inzaghis-dev-by-inzaghis-group-corp.png"
@@ -361,7 +377,7 @@
     </section>
     <section class="inzaghis-app">
       <section class="group-wrapper">
-        <section class="group-content">
+        <section class="group-content reverse-content">
           <section class="group-image">
             <img
               src="../images/inzaghis-app-by-inzaghis-group-corp.png"
@@ -386,7 +402,7 @@
     </section>
     <section class="inzaghis-archives">
       <section class="group-wrapper">
-        <section class="group-content reverse-content">
+        <section class="group-content">
           <section class="group-image">
             <img
               src="../images/inzaghis-archives-by-inzaghis-group-corp.png"
@@ -418,7 +434,7 @@
     </section>
     <section class="inzaghis-ai">
       <section class="group-wrapper">
-        <section class="group-content">
+        <section class="group-content reverse-content">
           <section class="group-image">
             <img
               src="../images/inzaghis-ai-by-inzaghis-group-corp.png"
@@ -431,10 +447,10 @@
             <p class="left-subheading">
               Inzaghi’s AI merupakan Platform berbasis Kecerdasan Buatan (AI)
               yang akan tersedia di Inzaghi’s Sites (Web) dan Inzaghi’s App
-              (Mobile) pada Tahun 2024 depan. Inzaghi’s AI juga menyediakan
-              Chatbot Artificial Intelligence (AI) seperti ChatGPT, Image
-              Generator berbasis AI, hingga Aplikasi lainnya yang berbasis AI
-              dan menggunakan API Key-nya OpenAI.
+              (Mobile). Inzaghi’s AI juga menyediakan Chatbot Artificial
+              Intelligence (AI) seperti ChatGPT, Image Generator berbasis AI,
+              hingga Aplikasi lainnya yang berbasis AI dan menggunakan API
+              Key-nya OpenAI dan sumber lainnya.
             </p>
             <section class="group-button">
               <a href="#" class="main-button">Click here</a>
@@ -467,7 +483,7 @@
                 <a href="../pages/privacy-policy.html">Privacy Policy</a>
               </li>
               <li><a href="../pages/contact.html">Contact</a></li>
-              <li><a href="../pages/about.html">Apps</a></li>
+              <li><a href="../pages/pages.html">Apps</a></li>
               <li>
                 <a href="https://medium.com/@izzumiposhaf29" target="_blank"
                   >Blog</a
@@ -528,9 +544,11 @@
       </section>
       <section class="footer-bottom">
         <div class="footer-copyright">
-          © 2023 Inzaghi's Corp. All rights reserved.
+          © 2024 Inzaghi's Corp. All rights reserved.
         </div>
       </section>
     </section>
   </body>
 </html>
+
+<!-- https://freefrontend.com/bootstrap-grid-examples -->

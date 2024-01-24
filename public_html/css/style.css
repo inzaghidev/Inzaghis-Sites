@@ -174,7 +174,7 @@ svg:not(:root) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 95%;
+  width: 98%;
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.5);
   color: black;
@@ -186,6 +186,17 @@ svg:not(:root) {
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   font-size: 14px;
 }
+
+.navbar-border {
+  border-bottom: 1px solid #e4ebf3;
+  border-style: solid;
+}
+
+/*.navbar-border {
+  border-bottom: 1px solid rgb(228, 235, 243, 0.5);
+  border-style: solid;
+  box-shadow: 0 0 5px;
+}*/
 
 .nav-menu {
   display: flex;
@@ -238,25 +249,41 @@ svg:not(:root) {
   background: white;
 }
 
-.navbar .nav-menu a::after {
+.navbar .nav-menu a::before {
   content: "";
   background: #000;
   display: block;
   position: absolute;
   left: 0;
-  bottom: -2px;
+  bottom: 0;
   width: 100%;
   height: 2px;
   opacity: 0;
-  transition: all 0.2s;
+  transition: 0.2s transform ease;
+  transform: scale3d(0, 1, 1);
+  transform-origin: 0 50%;
+}
+
+.navbar .nav-menu a:hover::before {
+  transform: scale3d(1, 1, 1);
+  opacity: 1;
 }
 
 .navbar .nav-menu a:hover::after {
+  transform: scale3d(1, 1, 1);
   opacity: 1;
 }
 
 #logo img {
   vertical-align: middle;
+}
+
+.pages {
+  max-width: 1680px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
 }
 
 .menu-toggle {
@@ -285,16 +312,6 @@ svg:not(:root) {
   order: 2; /* Mengatur urutan tombol "Sign in" menjadi ke-2 (sebelah kanan) */
 }
 
-/*
-.nav-dropdown-toggle {
-  letter-spacing: 0.25px;
-  margin-right: 10px;
-  padding: 5px 30px 5px 20px;
-  font-size: 14px;
-  line-height: 20px;
-  cursor: pointer;
-}*/
-
 .w-dropdown-toggle {
   text-align: left;
   z-index: 900;
@@ -308,10 +325,16 @@ svg:not(:root) {
   display: none;
   position: absolute;
   background-color: #c7c7c7;
-  border: 1px solid white;
+  border: 0 solid white;
   top: 100%;
   left: 0;
   padding: 10px 0;
+  /*padding: inherit;*/
+}
+
+.nav-dropdown-list--open {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .nav-dropdown-toggle {
@@ -401,14 +424,11 @@ svg:not(:root) {
   width: 100%;
   max-width: 1080px;
   margin: 0 auto;
-  text-align: center;
-}
-
-.welcome-title {
   margin-bottom: 32px;
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 700;
+  text-align: center;
 }
 
 .welcome-wrapper {
@@ -504,7 +524,141 @@ svg:not(:root) {
   float: right;
 }
 
+.text-title {
+  text-align: center;
+  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#hcg-slider-1 .hcg-slide-container {
+  width: auto;
+  height: auto;
+}
+.hcg-slider {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hcg-slide-container {
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.hcg-slides {
+  display: none;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: solid 1px #a0a0a0;
+}
+.hcg-slides img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+.hcg-slide-text {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 3px 5px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px;
+  left: 50%;
+  text-align: center;
+  text-shadow: 0 0 2px #000;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  transform: translate(-50%, -5px);
+}
+#hcg-slide-prev,
+#hcg-slide-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  text-decoration: none;
+  text-shadow: 1px 1px 5px #686868;
+}
+#hcg-slide-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+#hcg-slide-prev {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+#hcg-slide-prev:hover,
+#hcg-slide-next:hover {
+  background-color: #000c;
+}
+.hcg-slide-dot-control {
+  margin-top: 10px;
+  text-align: center;
+}
+.hcg-slide-dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.hcg-slide-dot.dot-active {
+  background-color: #717171;
+}
+.hcg-slide-number {
+  color: black;
+  font-size: 12px;
+  padding: 4px 7px;
+  position: absolute;
+  border-radius: 5px;
+  top: 5px;
+  left: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+/************CSS Animation***********/
+
+.animated {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation-name: fadeIn;
+}
+
 /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
+
+.page-apps {
+  background-color: #f5faf5;
+  border-bottom: 1px solid #e4f3e5;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-apps-container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .inzaghis-blog-slider {
   background-color: #fff6f0;
@@ -516,7 +670,7 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.blog-heading {
+.title-heading {
   text-align: center;
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   font-size: 34px;
@@ -554,7 +708,9 @@ svg:not(:root) {
 
 .group-content {
   display: flex;
+  align-items: center;
   max-width: 100%;
+  margin-top: 20px;
 }
 
 .reverse-content {
@@ -571,20 +727,6 @@ svg:not(:root) {
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 34px;
   font-weight: bold;
-}
-
-.group-inzaghisblog {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.group-inzaghismedia {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
 }
 
 .group-image img {
@@ -631,16 +773,6 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.inzaghisblog-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .inzaghisblog-description {
   max-width: 600px;
   margin-left: 20px;
@@ -663,16 +795,6 @@ svg:not(:root) {
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.inzaghismedia-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -800,13 +922,6 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.socmed-heading {
-  text-align: center;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 34px;
-  font-weight: bold;
-}
-
 .socmed-icon {
   width: 80px;
   height: 80px;
@@ -829,6 +944,10 @@ svg:not(:root) {
 .youtube,
 .twitter {
   max-width: 200px;
+}
+
+.socmed {
+  background-color: rgba(255, 227, 227, 0.8);
 }
 
 .socmed-name {
@@ -938,6 +1057,8 @@ svg:not(:root) {
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 14px;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-bottom {
@@ -1168,6 +1289,7 @@ svg:not(:root) {
 
   .nav-dropdown-list {
     top: 0;
+    /*padding: inherit;*/
   }
 
   .w-dropdown-toggle {
@@ -1260,14 +1382,11 @@ svg:not(:root) {
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
-    text-align: center;
-  }
-
-  .welcome-title {
     margin-bottom: 32px;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 700;
+    text-align: center;
   }
 
   .welcome-wrapper {
@@ -1384,7 +1503,7 @@ svg:not(:root) {
     margin-right: auto;
   }
 
-  .blog-heading {
+  .title-heading {
     text-align: center;
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   }
@@ -1407,19 +1526,6 @@ svg:not(:root) {
     margin-left: auto;
     margin-right: auto;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-  }
-
-  .group-inzaghisblog {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-  }
-
-  .group-inzaghismedia {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
   }
 
   .group-image img {
@@ -1465,16 +1571,6 @@ svg:not(:root) {
     margin-right: auto;
   }
 
-  .inzaghisblog-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .inzaghisblog-description {
     max-width: 100%;
     margin-left: 20px;
@@ -1501,16 +1597,6 @@ svg:not(:root) {
   .inzaghismedia-slider {
     padding: 10px;
     height: auto;
-  }
-
-  .inzaghismedia-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .inzaghismedia-description {
@@ -1578,11 +1664,6 @@ svg:not(:root) {
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .socmed-heading {
-    text-align: center;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   }
 
   .socmed-icon {
@@ -1946,6 +2027,7 @@ svg:not(:root) {
     top: 100%;
     left: 0;
     padding: 10px 0;
+    /*padding: inherit;*/
   }
 
   .dropdown:hover .nav-dropdown-list {
@@ -2008,14 +2090,11 @@ svg:not(:root) {
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
-    text-align: center;
-  }
-
-  .welcome-title {
     margin-bottom: 32px;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 700;
+    text-align: center;
   }
 
   .welcome-wrapper {
@@ -2132,7 +2211,7 @@ svg:not(:root) {
     margin-right: auto;
   }
 
-  .blog-heading {
+  .title-heading {
     text-align: center;
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   }
@@ -2160,15 +2239,6 @@ svg:not(:root) {
   .group-content {
     display: block;
     max-width: 100%;
-  }
-
-  .group-inzaghisblog {
-    margin-top: 40px;
-    flex-direction: column;
-  }
-
-  .group-inzaghismedia {
-    flex-direction: column;
   }
 
   .group-image img {
@@ -2209,16 +2279,6 @@ svg:not(:root) {
   .inzaghisblog-slider {
     padding: 10px;
     height: auto;
-  }
-
-  .inzaghisblog-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .inzaghisblog {
@@ -2287,16 +2347,6 @@ svg:not(:root) {
     height: auto;
   }
 
-  .inzaghismedia-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .inzaghis-media-info {
     background-color: #ffe3e3;
     height: auto;
@@ -2311,11 +2361,6 @@ svg:not(:root) {
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .socmed-heading {
-    text-align: center;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   }
 
   .socmed-icon {
