@@ -8,4 +8,4 @@ Link : [inzaghisites.000webhostapp.com](https://inzaghisites.000webhostapp.com)
 ## Inzaghi's Sites Homepage
 Berikut ini adalah Tampilan Utama dari Inzaghi's Sites :
 
-![Inzaghi's Sites Homepage](/public_html/images/inzaghis-sites-homepage.jpg)
+![Inzaghi's Sites Homepage](/public_html/images/inzaghis-sites-homepage-202401.jpg)
