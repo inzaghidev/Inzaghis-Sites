@@ -47,6 +47,16 @@ li {
   margin-bottom: 10px;
 }
 
+a {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+ul li a {
+  /* color: #1a1b1f; */
+  margin-top: 5px;
+  text-decoration: none;
+}
+
 p {
   margin-bottom: 10px;
 }
@@ -170,19 +180,28 @@ svg:not(:root) {
   transform-origin: 0px 0px;
 }
 
+.nav-header {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  transition: background-color 0.3s ease;
+  position: relative; /* fixed will be floating */
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 98%;
   padding: 30px;
-  background-color: rgba(255, 255, 255, 0.5);
   color: black;
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   position: relative;
   z-index: 1000;
-  transition: background-color 0.3s ease;
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   font-size: 14px;
 }
@@ -536,11 +555,11 @@ svg:not(:root) {
   height: auto;
 }
 .hcg-slider {
-  text-align: center;
+  text-align: right;
   font-family: Arial, Helvetica, sans-serif;
 }
 .hcg-slide-container {
-  max-width: 100%;
+  max-width: 50%;
   display: inline-block;
   position: relative;
 }
@@ -1046,6 +1065,11 @@ svg:not(:root) {
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   font-size: 20px;
   margin-bottom: 20px;
+}
+
+.footer-title nav ul li {
+  padding: 0;
+  text-decoration: none;
 }
 
 .special-pages,
@@ -1955,6 +1979,10 @@ svg:not(:root) {
 
   :not(svg) {
     transform-origin: 0px 0px;
+  }
+
+  .nav-header {
+    position: relative;
   }
 
   .navbar {
