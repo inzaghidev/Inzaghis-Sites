@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const profileLink = document.querySelector(".profile-link");
   const pagesLink = document.querySelector(".pages-link");
   const networksLink = document.querySelector(".networks-link");
+  const contactLink = document.querySelector(".contact");
 
   aboutLink.addEventListener("click", function () {
     window.location.href = "./pages/about.html";
@@ -27,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "./pages/networks.html";
   });
 
-  networksLink.addEventListener("click", function () {
+  contactLink.addEventListener("click", function () {
     window.location.href = "./pages/contact.html";
   });
 });
@@ -63,3 +64,34 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((data) => generateSitemap(sitemapContainer, data))
     .catch((error) => console.error("Error fetching sitemap:", error));
 });
+
+$(document).ready(function () {
+  console.log("Document Ready");
+
+  // Memuat header ke dalam halaman
+  $("#header-container").load("../layouts/header.html", function () {
+    // Call this function after the header is loaded
+    setupMenuToggle();
+  });
+
+  // Memuat footer ke dalam halaman
+  $("#footer-container").load("../layouts/footer.html");
+});
+
+function setupMenuToggle() {
+  const menuToggle = document.getElementById("menu-toggle");
+  const navMenu = document.querySelector(".nav-menu ul");
+
+  menuToggle.addEventListener("click", function () {
+    navMenu.classList.toggle("active");
+  });
+
+  // Handle clicking on menu items, adjust the selector accordingly
+  $(".nav-menu ul li a").on("click", function () {
+    // Close the menu when a menu item is clicked
+    navMenu.classList.remove("active");
+
+    // Add additional logic if needed when a menu item is clicked
+    // For example, scrolling to the corresponding section on the page
+  });
+}

@@ -555,11 +555,10 @@ svg:not(:root) {
   height: auto;
 }
 .hcg-slider {
-  text-align: right;
+  text-align: left;
   font-family: Arial, Helvetica, sans-serif;
 }
 .hcg-slide-container {
-  max-width: 50%;
   display: inline-block;
   position: relative;
 }
@@ -692,12 +691,20 @@ svg:not(:root) {
 .title-heading {
   text-align: center;
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 34px;
+  font-size: 36px;
   font-weight: bold;
 }
 
 .centered-subheading {
   text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.text-description {
+  text-align: left;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -1033,7 +1040,14 @@ svg:not(:root) {
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  /*display: flex;*/
+  display: flex;
+}
+
+.text-container {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
 }
 
 .logo-grid {
@@ -1508,6 +1522,12 @@ svg:not(:root) {
     margin-top: 20px;
   }
 
+  .text-container {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+
   .about-us-image-to-inzaghis-group img {
     max-width: 100%;
     height: auto;
@@ -1538,6 +1558,14 @@ svg:not(:root) {
     margin-left: auto;
     margin-right: auto;
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  }
+
+  .text-description {
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   }
 
   .group-title {
@@ -2218,6 +2246,14 @@ svg:not(:root) {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    display: block;
+  }
+
+  .text-container {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    display: block;
   }
 
   .about-us-image-to-inzaghis-group img {
