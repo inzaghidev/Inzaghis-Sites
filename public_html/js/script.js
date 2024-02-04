@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Fetch the project directory structure
-  fetch("../includes/sitemap.php")
+  fetch("../includes/sitemap-generator.php")
     .then((response) => response.json())
     .then((data) => generateSitemap(sitemapContainer, data))
     .catch((error) => console.error("Error fetching sitemap:", error));

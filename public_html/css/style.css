@@ -204,7 +204,7 @@ svg:not(:root) {
 
 /* Transparency Effect */
 .nav-header:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
@@ -287,6 +287,12 @@ svg:not(:root) {
   transition: 0.2s transform ease;
   transform: scale3d(0, 1, 1);
   transform-origin: 0 50%;
+}
+
+.navbar .nav-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .navbar .nav-menu a:hover::before {
@@ -432,6 +438,15 @@ svg:not(:root) {
   margin-right: auto;
 }
 
+.inzaghis-group-pages {
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #e4ebf3;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .welcome {
   background-color: #f5f7fa;
   border-bottom: 1px solid #e4ebf3;
@@ -469,12 +484,43 @@ svg:not(:root) {
   align-items: center;
 }
 
+.welcome-description {
+  padding: 20px;
+  border-radius: 8px;
+}
+
 .welcome-to-inzaghis-sites {
   flex: 1;
   /*padding: 20px;*/
 }
 
-.welcome-description {
+.page-container {
+  max-width: 1680px;
+  /*padding: 60px 30px;*/
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-title {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-description {
   padding: 20px;
   border-radius: 8px;
 }
@@ -700,6 +746,11 @@ svg:not(:root) {
   margin-right: auto;
 }
 
+#inzaghis-blog-embed {
+  height: 1000px;
+  width: 700px;
+}
+
 .title-heading {
   text-align: center;
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
@@ -762,14 +813,13 @@ svg:not(:root) {
 
 .group-title {
   text-align: center;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   font-size: 34px;
   font-weight: bold;
 }
 
-.page-title {
-  text-align: left;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+.title-page {
+  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   font-size: 38px;
   font-weight: bold;
 }
@@ -1459,12 +1509,42 @@ svg:not(:root) {
     align-items: center;
   }
 
+  .welcome-description {
+    padding: 20px;
+    border-radius: 8px;
+  }
+
   .welcome-to-inzaghis-sites {
     flex: 1;
     /*padding: 20px;*/
   }
 
-  .welcome-description {
+  .page-container {
+    max-width: 1680px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-title {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .page-description {
     padding: 20px;
     border-radius: 8px;
   }
@@ -1570,6 +1650,11 @@ svg:not(:root) {
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #inzaghis-blog-embed {
+    height: 1000px;
+    width: 500px;
   }
 
   .title-heading {
@@ -2190,12 +2275,42 @@ svg:not(:root) {
     align-items: center;
   }
 
+  .welcome-description {
+    padding: 20px;
+    border-radius: 8px;
+  }
+
   .welcome-to-inzaghis-sites {
     flex: 1;
     /*padding: 20px;*/
   }
 
-  .welcome-description {
+  .page-container {
+    max-width: 1680px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-title {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .page-description {
     padding: 20px;
     border-radius: 8px;
   }
@@ -2303,6 +2418,11 @@ svg:not(:root) {
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #inzaghis-blog-embed {
+    height: 1000px;
+    width: 100%;
   }
 
   .title-heading {
