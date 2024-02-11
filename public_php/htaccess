@@ -5,7 +5,7 @@ php_value display_errors 1
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:22180163:
 
 RewriteEngine On
-RewriteBase /inzaghis-sites/
+RewriteBase /
 
 # RewriteCond %{THE_REQUEST} /public_html/([^\s?]*) [NC]
 # RewriteRule ^ %1 [L,NE,R=302]

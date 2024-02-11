@@ -39,7 +39,7 @@
             <h2 class="my-4">Inzaghi's Blog (Legacy)</h2>
             <div class="text-container">
               <p class="inzaghis-sites-description">
-                Merupakan Laman Inzaghi's Blog yang lama.
+                Merupakan Blog Lama yang sudah tersedia sejak Tahun 2018, tempat untuk memposting apapun itu.
               </p>
               <section class="group-button">
                 <a
@@ -55,8 +55,7 @@
             <h2 class="my-4">Teknoblog</h2>
             <div class="text-container">
               <p class="inzaghis-sites-description">
-                Merupakan Laman Inzaghi's Blog yang baru dan lebih khusus ke
-              Teknologi.
+                Merupakan Pindahan dari Blog Lama yang bernama Inzaghi's Blog (Legacy), dan Artikel yang dikhususkan tentang Teknologi.
               </p>
               <section class="group-button">
                 <a
@@ -67,11 +66,12 @@
                 >
               </section>
             </div>
+            <br/>
             <iframe src="https://enzatech.blogspot.com" id="inzaghis-blog-embed" title="Teknoblog"></iframe>
             <h2 class="my-4">Miniblog</h2>
             <div class="text-container">
               <p class="inzaghis-sites-description">
-                Merupakan Laman Inzaghi's Blog yang lebih khusus ke Microblogging.
+              Merupakan Blog khusus Microblogging, terutama untuk menyimpan Postingan Sederhana seperti Kode Program Sederhana, hingga Teks dan Tutorial Singkat.
               </p>
               <section class="group-button">
                 <a
@@ -82,6 +82,7 @@
                 >
               </section>
             </div>
+            <br/>
             <iframe src="https://enzashorts.blogspot.com" id="inzaghis-blog-embed" title="Miniblog"></iframe>
         </div>
       </div>

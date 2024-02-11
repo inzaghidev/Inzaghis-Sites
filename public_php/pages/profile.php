@@ -2,6 +2,19 @@
 	$page_title = "Profile";
 	include('../layouts/header.php');
 ?>
+  <style>
+    ul {
+      display: block;
+      list-style-type: disc;
+      margin-top: 1em;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 40px;
+    }
+    li {
+      list-style-type: circle;
+    }
+  </style>
   <div class="container-top"></div>
   <section class="pages">
     <h1 class="my-4 title-page">

@@ -17,18 +17,24 @@
         <div class="welcome-to-inzaghis-sites">
           <div class="welcome-description">
             <p class="inzaghis-sites-description">
-              Inzaghi's Sites merupakan Platform Layanan Situs Web untuk dapat
-              diakses ke semua layanan Inzaghi's Group. Inzaghi's Sites juga
-              menyimpan beberapa Layanan di Inzaghi's Group seperti Inzaghi's
-              Blog dan Inzaghi's Media (Juga Inzaghi's Dev). Kami bekerja
-              untuk mengubah hasrat kami untuk menjadi Situs Web Online yang
-              berkembang pesat.
-              <br />
-              <br />
-              Inzaghi's Sites yang baru ini digunakan sebagai Situs Web untuk
-              mengakses Konten-konten apapun, baik itu dari Inzaghi's Blog
-              maupun di Inzaghi's Media. Dan juga, Situs kami di sini akan
-              menggantikan Website yang lama di Google Sites.
+            Inzaghi's Sites merupakan Platform Layanan Situs Web untuk dapat
+                diakses ke semua layanan Inzaghi's Group. Inzaghi's Sites juga
+                menyimpan beberapa Layanan di Inzaghi's Group seperti Inzaghi's
+                Blog dan Inzaghi's Media (Juga Inzaghi's Dev). Kami bekerja
+                untuk mengubah hasrat kami untuk menjadi Situs Web Online yang
+                berkembang pesat.
+                <br />
+                <br />
+                Inzaghi's Sites yang baru ini digunakan sebagai Situs Web untuk
+                mengakses Konten-konten apapun, baik itu dari Inzaghi's Blog
+                maupun di Inzaghi's Media. Dan juga, Situs kami di sini akan
+                menggantikan Website yang lama di Google Sites.
+                <br />
+                <br />
+                Inzaghi's Sites juga memudahkan Anda untuk mengakses Aplikasi
+                apapun yang berbasis Web seperti yang tersedia pada Pages Apps
+                seperti Halaman, Widget, Konverter, Kalkulator, dan
+                lain-lainnya.
               <br />
               <br />
               Inzaghi's Sites Baru dibuat dan diluncurkan pada Tanggal 28

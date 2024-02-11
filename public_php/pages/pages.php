@@ -26,14 +26,15 @@
               alt=""
           /></a>
           <div class="card-body">
-            <h4 class="card-title text-title">
-              <a href="#">Pages</a>
+            <h4 class="card-title text-title card-name page-apps-card">
+              <a>Pages</a>
             </h4>
             <p class="card-text">
               Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
               Inzaghi's Sites. Dan juga sebagai kumpulan Materi dan Tutorial
               Pemrograman.
             </p>
+            <button type="button" class="btn btn-primary btn-md">Click here</button>
           </div>
         </div>
       </div>
@@ -46,14 +47,15 @@
               alt=""
           /></a>
           <div class="card-body">
-            <h4 class="card-title text-title">
-              <a href="#">Widgets</a>
+            <h4 class="card-title text-title card-name page-apps-card">
+              <a>Widgets</a>
             </h4>
             <p class="card-text">
               Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
               Informasi seakurat mungin. Widget di sini juga termasuk yang
               sedang heboh saat ini.
             </p>
+            <button type="button" class="btn btn-primary btn-md">Click here</button>
           </div>
         </div>
       </div>
@@ -66,14 +68,15 @@
               alt=""
           /></a>
           <div class="card-body">
-            <h4 class="card-title text-title">
-              <a href="#">Converters</a>
+            <h4 class="card-title text-title card-name page-apps-card">
+              <a>Converters</a>
             </h4>
             <p class="card-text">
               Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu,
               Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian
               dari Aplikasi Konverter ini akan sedikit menggunakan API.
             </p>
+            <button type="button" class="btn btn-primary btn-md">Click here</button>
           </div>
         </div>
       </div>
@@ -86,14 +89,56 @@
               alt=""
           /></a>
           <div class="card-body">
-            <h4 class="card-title text-title">
-              <a href="#">Calculators</a>
+            <h4 class="card-title text-title card-name page-apps-card">
+              <a>Calculators</a>
             </h4>
             <p class="card-text">
               Merupakan kumpulan dari beberapa jenis Kalkulator seperti
               Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan,
               hinga Kalkulator untuk Keseharian.
             </p>
+            <button type="button" class="btn btn-primary btn-md">Click here</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100 border-success shadow">
+          <a href="#"
+            ><img
+              class="card-img-top"
+              src="../images/generators-by-pages-apps.png"
+              alt=""
+          /></a>
+          <div class="card-body">
+            <h4 class="card-title text-title card-name page-apps-card">
+              <a>Generators</a>
+            </h4>
+            <p class="card-text">
+                Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti
+                Text Generator hingga Image Generator, dan dapat dibuat secara
+                acak.
+            </p>
+            <button type="button" class="btn btn-primary btn-md">Click here</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100 border-success shadow">
+          <a href="#"
+            ><img
+              class="card-img-top"
+              src="../images/file-converters-by-pages-apps.png"
+              alt=""
+          /></a>
+          <div class="card-body">
+            <h4 class="card-title text-title card-name page-apps-card">
+              <a>File Converter</a>
+            </h4>
+            <p class="card-text">
+              Merupakan portal untuk melakukan konversi format File apapun
+              seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.
+            </p>
+            <button type="button" class="btn btn-primary btn-md">Click here</button>
           </div>
         </div>
       </div>
@@ -106,13 +151,14 @@
               alt=""
           /></a>
           <div class="card-body">
-            <h4 class="card-title text-title">
-              <a href="#">Coming Soon</a>
+            <h4 class="card-title text-title card-name page-apps-card">
+              <a>Coming Soon</a>
             </h4>
             <p class="card-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
               viverra euismod odio, gravida pellentesque urna varius vitae.
             </p>
+            <button type="button" class="btn btn-primary btn-md">Click here</button>
           </div>
         </div>
       </div>
@@ -125,48 +171,8 @@
               alt=""
           /></a>
           <div class="card-body">
-            <h4 class="card-title text-title">
-              <a href="#">Coming Soon</a>
-            </h4>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
-              earum nostrum suscipit ducimus nihil provident, perferendis rem
-              illo, voluptate atque, sit eius in voluptates, nemo repellat
-              fugiat excepturi! Nemo, esse.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <div class="card h-100 border-success shadow">
-          <a href="#"
-            ><img
-              class="card-img-top"
-              src="https://via.placeholder.com/700x400"
-              alt=""
-          /></a>
-          <div class="card-body">
-            <h4 class="card-title text-title">
-              <a href="#">Coming Soon</a>
-            </h4>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-              viverra euismod odio, gravida pellentesque urna varius vitae.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <div class="card h-100 border-success shadow">
-          <a href="#"
-            ><img
-              class="card-img-top"
-              src="https://via.placeholder.com/700x400"
-              alt=""
-          /></a>
-          <div class="card-body">
-            <h4 class="card-title text-title">
-              <a href="#">Coming Soon</a>
+            <h4 class="card-title text-title card-name page-apps-card">
+              <a>Coming Soon</a>
             </h4>
             <p class="card-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
@@ -174,6 +180,7 @@
               hic consequatur ut esse! Commodi ea consequatur accusantium,
               beatae qui deserunt tenetur ipsa.
             </p>
+            <button type="button" class="btn btn-primary btn-md">Click here</button>
           </div>
         </div>
       </div>

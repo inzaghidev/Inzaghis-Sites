@@ -11,13 +11,22 @@
         <div class="welcome-to-inzaghis-sites">
           <div class="welcome-description">
             <p class="inzaghis-sites-description">
-              Inzaghi's Sites merupakan Platform Layanan Situs Web untuk dapat
-              diakses ke semua layanan Inzaghi's Group. Kini, Inzaghi's Sites
-              telah hadir dengan menggunakan Layanan Hosting yang akan
-              tersedia mulai September 2023, dan sebagai Pengganti Situs lama
-              kami di Google Sites.
+                Inzaghi's Sites merupakan Platform Layanan Situs Web untuk dapat
+                diakses ke semua layanan Inzaghi's Group. Kini, Inzaghi's Sites
+                telah hadir dengan menggunakan Layanan Hosting yang akan
+                tersedia mulai September 2023, dan sebagai Pengganti Situs lama
+                kami di Google Sites.
+                <br />
+                <br />
+                Inzaghi's Sites juga memudahkan Anda untuk mengakses Aplikasi
+                apapun yang berbasis Web seperti yang tersedia pada Pages Apps
+                seperti Halaman, Widget, Konverter, Kalkulator, dan
+                lain-lainnya.
+              </p>
             </p>
-            <a href="../pages/about.php" class="main-button">ABOUT</a>
+              <section class="group-button about-inzaghis-sites-button">
+                <a href="../pages/about.php" class="main-button">ABOUT</a>
+              </section>
           </div>
         </div>
         <div class="welcome-image-to-inzaghis-sites">
@@ -32,10 +41,10 @@
   </section>
     <section class="page-apps shadow">
       <div class="page-apps-container">
-        <h2 class="title-heading">Pages Apps</h2>
+        <h2 class="title-heading">Page Apps</h2>
         <div class="text-container">
           <p class="text-description">
-            Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
+            Page Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
             kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman,
             Widget, Konverter, dan Kalkulator.
           </p>
@@ -261,7 +270,9 @@
             berbasis Teknologi dan Sains yang memudahkan Anda untuk mengakses
             Informasi yang bermanfaat.
           </p>
-          <a href="../pages/networks.php" class="main-button">DETAILS</a>
+            <section class="group-button inzaghis-group-button">
+              <a href="../pages/networks.php" class="main-button">DETAILS</a>
+            </section>
         </div>
       </div>
       <div class="logo-grid">

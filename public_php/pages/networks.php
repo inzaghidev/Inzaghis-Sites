@@ -154,7 +154,7 @@
         <div class="container inzaghismedia">
           <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-              <div class="card border-0 shadow opacity-75">
+              <div class="border-0 shadow opacity-75 socmed-card">
                 <img
                   src="../images/instagram-logo-icon.png"
                   class="card mt-4 socmed-icon"
@@ -176,7 +176,7 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-              <div class="card border-0 shadow opacity-75">
+              <div class="border-0 shadow opacity-75 socmed-card">
                 <img
                   src="../images/tiktok-logo-icon.png"
                   class="card mt-4 socmed-icon"
@@ -199,7 +199,7 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-              <div class="card border-0 shadow opacity-75">
+              <div class="border-0 shadow opacity-75 socmed-card">
                 <img
                   src="../images/youtube-logo-icon.png"
                   class="card mt-4 socmed-icon"
@@ -221,7 +221,7 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-              <div class="card border-0 shadow opacity-75">
+              <div class="border-0 shadow opacity-75 socmed-card">
                 <img
                   src="../images/twitter-x-logo.png"
                   class="card mt-4 socmed-icon"
