@@ -24,6 +24,18 @@
       alt: "",
       link: "",
     },
+    {
+      name: "Generators",
+      url: "../images/generators-by-pages-apps.png",
+      alt: "",
+      link: "",
+    },
+    {
+      name: "FileConverters",
+      url: "../images/file-converters-by-pages-apps.png",
+      alt: "",
+      link: "",
+    },
   ];
 
   let slider_id = document.querySelector("#hcg-slider-1");
@@ -130,7 +142,10 @@
     const leftSubheading = document.querySelector(".left-subheading");
 
     // Update content based on the selected image
-    groupTitle.textContent = image.name;
+    groupTitle.textContent = image.name.replace(
+      "FileConverters",
+      "File Converters"
+    );
     leftSubheading.textContent = getContentDescription(image.name);
   };
 
@@ -146,6 +161,10 @@
         "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
       Calculators:
         "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
+      Generators:
+        "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
+      FileConverters:
+        "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
     };
 
     return contentData[imageName] || "";

@@ -34,12 +34,34 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const menuToggle = document.querySelector(".menu-toggle");
-  const sidebar = document.querySelector(".sidebar");
+  const navHeader = document.getElementById("navHeader");
 
-  menuToggle.addEventListener("click", function () {
-    sidebar.classList.toggle("open");
-  });
+  // Function to handle scroll event
+  function handleScroll() {
+    if (window.scrollY > 0) {
+      navHeader.classList.add("transparency"); // Add transparency class when scrolling down
+    } else {
+      navHeader.classList.remove("transparency"); // Remove transparency class when at the top
+    }
+  }
+
+  // Add scroll event listener
+  window.addEventListener("scroll", handleScroll);
+
+  // Initial check on page load in case page is scrolled
+  handleScroll();
+
+  // Additional CSS added dynamically
+  const additionalCSS = `
+    .nav-header.transparency {
+      background-color: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+    }
+  `;
+  const style = document.createElement("style");
+  style.textContent = additionalCSS;
+  document.head.appendChild(style);
 });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -66,12 +88,6 @@ document.addEventListener("DOMContentLoaded", function () {
       ul.appendChild(li);
     });
   }
-
-  // Fetch the project directory structure
-  fetch("../includes/sitemap-generator.php")
-    .then((response) => response.json())
-    .then((data) => generateSitemap(sitemapContainer, data))
-    .catch((error) => console.error("Error fetching sitemap:", error));
 });
 
 $(document).ready(function () {
