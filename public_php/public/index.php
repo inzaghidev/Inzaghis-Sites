@@ -1,5 +1,5 @@
 <?php
-	$page_title = "Inzaghi's Sites";
+	$page_title = "Home";
 	include('../layouts/header.php');
 ?>
   <section class="welcome shadow">

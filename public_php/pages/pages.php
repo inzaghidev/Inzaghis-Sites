@@ -1,5 +1,5 @@
 <?php
-	$page_title = "Profile";
+	$page_title = "Pages Apps";
 	include('../layouts/header.php');
 ?>
   <div class="container-top"></div>
