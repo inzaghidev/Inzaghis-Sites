@@ -13,23 +13,23 @@ document.addEventListener("DOMContentLoaded", function () {
   const contactLink = document.querySelector(".contact");
 
   aboutLink.addEventListener("click", function () {
-    window.location.href = "./pages/about.html";
+    window.location.href = "./pages/about.php";
   });
 
   profileLink.addEventListener("click", function () {
-    window.location.href = "./pages/profile.html";
+    window.location.href = "./pages/profile.php";
   });
 
   pagesLink.addEventListener("click", function () {
-    window.location.href = "./pages/pages.html";
+    window.location.href = "./pages/apps.php";
   });
 
   networksLink.addEventListener("click", function () {
-    window.location.href = "./pages/networks.html";
+    window.location.href = "./pages/networks.php";
   });
 
   contactLink.addEventListener("click", function () {
-    window.location.href = "./pages/contact.html";
+    window.location.href = "./pages/contact.php";
   });
 });
 
@@ -94,13 +94,13 @@ $(document).ready(function () {
   console.log("Document Ready");
 
   // Memuat header ke dalam halaman
-  $("#header-container").load("../layouts/header.html", function () {
+  $("#header-container").load("../layouts/header.php", function () {
     // Call this function after the header is loaded
     setupMenuToggle();
   });
 
   // Memuat footer ke dalam halaman
-  $("#footer-container").load("../layouts/footer.html");
+  $("#footer-container").load("../layouts/footer.php");
 });
 
 function setupMenuToggle() {

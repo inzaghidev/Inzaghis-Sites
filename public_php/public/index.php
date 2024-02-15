@@ -49,7 +49,7 @@
             Widget, Konverter, dan Kalkulator.
           </p>
           <section class="group-button">
-            <a href="../pages/pages.php" class="main-button"
+            <a href="../pages/apps.php" class="main-button"
               >Click here</a
             >
           </section>

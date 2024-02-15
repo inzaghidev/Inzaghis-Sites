@@ -23,7 +23,7 @@
                         <li><a href="<?php echo $pathToWebRoot.'/pages/disclaimer.php'; ?>">Disclaimer</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/pages/privacy-policy.php'; ?>">Privacy Policy</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>">Contact</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/pages.php'; ?>">Apps</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/pages/apps.php'; ?>">Apps</a></li>
                         <li><a href="https://medium.com/@izzumiposhaf29" target="_blank">Blog</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/pages/sitemap.php'; ?>">Sitemap</a></li>
                     </ul>
