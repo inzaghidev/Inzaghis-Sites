@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   pagesLink.addEventListener("click", function () {
-    window.location.href = "./pages/pages.html";
+    window.location.href = "./pages/apps.html";
   });
 
   networksLink.addEventListener("click", function () {
