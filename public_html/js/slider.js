@@ -4,7 +4,7 @@
       name: "Pages",
       url: "../images/pages-by-pages-apps.png",
       alt: "",
-      link: "",
+      link: "../page-apps/page.php",
     },
     {
       name: "Widgets",
@@ -140,6 +140,7 @@
   const updateGroupTitleAndSubheading = (image) => {
     const groupTitle = document.querySelector(".group-title");
     const leftSubheading = document.querySelector(".left-subheading");
+    const blogLink = document.querySelector(".blog-link");
 
     // Update content based on the selected image
     groupTitle.textContent = image.name.replace(
@@ -147,6 +148,23 @@
       "File Converters"
     );
     leftSubheading.textContent = getContentDescription(image.name);
+
+    // Update blog link href based on the selected image
+    const link = getBlogLink(image.name);
+    blogLink.setAttribute("href", link);
+  };
+
+  // Function to get blog link based on the image name
+  const getBlogLink = (imageName) => {
+    // Define the mapping of image name to blog link
+    const blogLinkMap = {
+      Pages: "../page-apps/page.php",
+      Widgets: "../page-apps/widgets.php",
+      // Add more mappings here as needed
+    };
+
+    // Return the blog link based on the image name, or a default value if not found
+    return blogLinkMap[imageName] || "#";
   };
 
   // Function to get content description based on the image name
