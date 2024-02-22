@@ -57,70 +57,84 @@
         <div class="container inzaghisblog">
           <div class="row">
             <div class="col-md-4 col-sm-6 mb-4">
-              <div class="card border-0 shadow">
+              <div class="card h-100 border-0 shadow">
                 <img
                   src="../images/inzaghis-blog-legacy.png"
                   class="card-img-top"
                   alt="Inzaghi's Blog Legacy"
                 />
                 <div class="card-body text-center blog-text">
-                  <h5 class="card-title blog-name">Inzaghi's Blog Legacy</h5>
-                  <a
-                    href="https://inzaghiposuma.blogspot.com"
-                    target="_blank"
-                    class="btn btn-secondary"
-                    >Klik di sini</a
+                  <div class="card-apps">
+                    <h5 class="card-title blog-name">Inzaghi's Blog Legacy</h5>
+                    <p class="card-text blog-description">
+                      Merupakan Blog Lama yang sudah tersedia sejak Tahun 2018,
+                      tempat untuk memposting apapun itu.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-secondary btn-md secondary-button"
                   >
-                  <p class="card-text blog-description">
-                    Merupakan Blog Lama yang sudah tersedia sejak Tahun 2018,
-                    tempat untuk memposting apapun itu.
-                  </p>
+                    <a
+                      href="https://inzaghiposuma.blogspot.com"
+                      class="blog-link"
+                      >Klik di sini</a
+                    >
+                  </button>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-sm-6 mb-4">
-              <div class="card border-0 shadow">
+              <div class="card h-100 border-0 shadow">
                 <img
                   src="../images/teknoblog-by-inzaghis-blog.png"
                   class="card-img-top"
                   alt="Teknoblog - Inzaghi's Blog"
                 />
                 <div class="card-body text-center blog-text">
-                  <h5 class="card-title blog-name">Teknoblog</h5>
-                  <a
-                    href="https://enzatech.blogspot.com"
-                    target="_blank"
-                    class="btn btn-secondary"
-                    >Klik di sini</a
+                  <div class="card-apps">
+                    <h5 class="card-title blog-name">Teknoblog</h5>
+                    <p class="card-text blog-description">
+                      Merupakan Pindahan dari Blog Lama yang bernama Inzaghi's
+                      Blog (Legacy), dan Artikel yang dikhususkan tentang
+                      Teknologi.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-secondary btn-md secondary-button"
                   >
-                  <p class="card-text blog-description">
-                    Merupakan Pindahan dari Blog Lama yang bernama Inzaghi's
-                    Blog (Legacy), dan Artikel yang dikhususkan tentang
-                    Teknologi.
-                  </p>
+                    <a href="https://enzatech.blogspot.com" class="blog-link"
+                      >Klik di sini</a
+                    >
+                  </button>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-sm-6 mb-4">
-              <div class="card border-0 shadow">
+              <div class="card h-100 border-0 shadow">
                 <img
                   src="../images/miniblog-by-inzaghis-blog.png"
                   class="card-img-top"
                   alt="Miniblog - Inzaghi's Blog"
                 />
                 <div class="card-body text-center blog-text">
-                  <h5 class="card-title blog-name">Miniblog</h5>
-                  <a
-                    href="https://enzashorts.blogspot.com"
-                    target="_blank"
-                    class="btn btn-secondary"
-                    >Klik di sini</a
+                  <div class="card-apps">
+                    <h5 class="card-title blog-name">Miniblog</h5>
+                    <p class="card-text blog-description">
+                      Merupakan Blog khusus Microblogging, terutama untuk
+                      menyimpan Postingan Sederhana seperti Kode Program
+                      Sederhana, hingga Teks dan Tutorial Singkat.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-secondary btn-md secondary-button"
                   >
-                  <p class="card-text blog-description">
-                    Merupakan Blog khusus Microblogging, terutama untuk
-                    menyimpan Postingan Sederhana seperti Kode Program
-                    Sederhana, hingga Teks dan Tutorial Singkat.
-                  </p>
+                    <a href="https://enzashorts.blogspot.com" class="blog-link"
+                      >Klik di sini</a
+                    >
+                  </button>
                 </div>
               </div>
             </div>
@@ -146,7 +160,7 @@
                 terutama seputar IT.
               </p>
               <section class="group-button">
-                <a href="#" class="main-button">Click here</a>
+                <a href="../pages/inzaghis-group/inzaghis-media.php" class="main-button">Click here</a>
               </section>
             </section>
           </section>
@@ -154,91 +168,99 @@
         <div class="container inzaghismedia">
           <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-              <div class="border-0 shadow opacity-75 socmed-card">
+              <div class="border-0 h-100 shadow opacity-75 socmed-card">
                 <img
                   src="../images/instagram-logo-icon.png"
                   class="card mt-4 socmed-icon"
                   alt="Instagram Logo"
                 />
                 <div class="card-body text-center socmed-text">
-                  <h5 class="card-title socmed-name">Instagram</h5>
+                  <div class="card-apps">
+                    <h5 class="card-title socmed-name">Instagram</h5>
+                    <p class="card-text socmed-description">
+                      Sebagai Postingan berbentuk Gambar Persegi dan sebagai
+                      Asisten dari Inzaghi's Blog.
+                    </p>
+                  </div>
                   <a
                     href="https://www.instagram.com/enzapost"
                     target="_blank"
-                    class="btn btn-primary"
+                    class="btn btn-primary primary-button"
                     >@enzapost</a
                   >
-                  <p class="card-text socmed-description">
-                    Sebagai Postingan berbentuk Gambar Persegi dan sebagai
-                    Asisten dari Inzaghi's Blog.
-                  </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-              <div class="border-0 shadow opacity-75 socmed-card">
+              <div class="border-0 h-100 shadow opacity-75 socmed-card">
                 <img
                   src="../images/tiktok-logo-icon.png"
                   class="card mt-4 socmed-icon"
                   alt="TikTok Logo"
                 />
                 <div class="card-body text-center socmed-text">
-                  <h5 class="card-title socmed-name">TikTok</h5>
+                  <div class="card-apps">
+                    <h5 class="card-title socmed-name">TikTok</h5>
+                    <p class="card-text socmed-description">
+                      Sebagai Postingan berbentuk Video Vertikal (Portrait) yang
+                      dapat di-Scrolling seperti Video Tutorial/Tips dan
+                      Informasi Singkat.
+                    </p>
+                  </div>
                   <a
                     href="https://www.tiktok.com/@enzapostmedia"
                     target="_blank"
-                    class="btn btn-primary"
+                    class="btn btn-primary primary-button"
                     >@enzapostmedia</a
                   >
-                  <p class="card-text socmed-description">
-                    Sebagai Postingan berbentuk Video Vertikal (Portrait) yang
-                    dapat di-Scrolling seperti Video Tutorial/Tips dan Informasi
-                    Singkat.
-                  </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-              <div class="border-0 shadow opacity-75 socmed-card">
+              <div class="border-0 h-100 shadow opacity-75 socmed-card">
                 <img
                   src="../images/youtube-logo-icon.png"
                   class="card mt-4 socmed-icon"
                   alt="YouTube Logo"
                 />
                 <div class="card-body text-center socmed-text">
-                  <h5 class="card-title socmed-name">YouTube</h5>
+                  <div class="card-apps">
+                    <h5 class="card-title socmed-name">YouTube</h5>
+                    <p class="card-text socmed-description">
+                      Sebagai sebuah Channel yang berbentuk Video seperti
+                      Tutorial.
+                    </p>
+                  </div>
                   <a
                     href="https://www.youtube.com/@enzavlogpost"
                     target="_blank"
-                    class="btn btn-primary"
+                    class="btn btn-primary primary-button"
                     >Inzaghi's Media</a
                   >
-                  <p class="card-text socmed-description">
-                    Sebagai sebuah Channel yang berbentuk Video seperti
-                    Tutorial.
-                  </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-              <div class="border-0 shadow opacity-75 socmed-card">
+              <div class="border-0 h-100 shadow opacity-75 socmed-card">
                 <img
                   src="../images/twitter-x-logo.png"
                   class="card mt-4 socmed-icon"
                   alt="Twitter Logo"
                 />
                 <div class="card-body text-center socmed-text">
-                  <h5 class="card-title socmed-name">X (Twitter)</h5>
+                  <div class="card-apps">
+                    <h5 class="card-title socmed-name">X (Twitter)</h5>
+                    <p class="card-text socmed-description">
+                      Sebagai Postingan berbentuk Infografis, Tweet, hingga
+                      Postingan-postingan dari Inzaghi's Blog.
+                    </p>
+                  </div>
                   <a
                     href="https://x.com/iposhaf2917"
                     target="_blank"
-                    class="btn btn-primary"
+                    class="btn btn-primary primary-button"
                     >@iposhaf2917</a
                   >
-                  <p class="card-text socmed-description">
-                    Sebagai Postingan berbentuk Infografis, Tweet, hingga
-                    Postingan-postingan dari Inzaghi's Blog.
-                  </p>
                 </div>
               </div>
             </div>

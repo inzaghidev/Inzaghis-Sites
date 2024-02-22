@@ -10,7 +10,7 @@
         </div>
         <div class="page-wrapper">
           <div class="page-description">
-            <p class="inzaghis-sites-description">
+            <p class="is-desc">
               At Inzaghi's Sites, accessible from
               https://inzaghisites.000webhostapp.com, one of our main priorities
               is the privacy of our visitors. This Privacy Policy document
@@ -22,7 +22,7 @@
 
             <h2>Log Files</h2>
 
-            <p class="inzaghis-sites-description">
+            <p class="is-desc">
               Inzaghi's Sites follows a standard procedure of using log files.
               These files log visitors when they visit websites. All hosting
               companies do this and a part of hosting services' analytics. The
@@ -43,7 +43,7 @@
 
             <h2>Privacy Policies</h2>
 
-            <p class="inzaghis-sites-description">
+            <p class="is-desc">
               You may consult this list to find the Privacy Policy for each of
               the advertising partners of Inzaghi's Sites. Third-party ad
               servers or ad networks uses technologies like cookies, JavaScript,
@@ -59,7 +59,7 @@
 
             <h2>Third Party Privacy Policies</h2>
 
-            <p class="inzaghis-sites-description">
+            <p class="is-desc">
               Inzaghi's Sites's Privacy Policy does not apply to other
               advertisers or websites. Thus, we are advising you to consult the
               respective Privacy Policies of these third-party ad servers for
@@ -73,7 +73,7 @@
 
             <h2>Children's Information</h2>
 
-            <p class="inzaghis-sites-description">
+            <p class="is-desc">
               Another part of our priority is adding protection for children
               while using the internet. We encourage parents and guardians to
               observe, participate in, and/or monitor and guide their online
@@ -87,7 +87,7 @@
 
             <h2>Online Privacy Policy Only</h2>
 
-            <p class="inzaghis-sites-description">
+            <p class="is-desc">
               This Privacy Policy applies only to our online activities and is
               valid for visitors to our website with regards to the information
               that they shared and/or collect in Inzaghi's Sites. This policy is
@@ -97,7 +97,7 @@
 
             <h2>Consent</h2>
 
-            <p class="inzaghis-sites-description">
+            <p class="is-desc">
               By using our website, you hereby consent to our Privacy Policy and
               agree to its Terms and Conditions.
             </p>

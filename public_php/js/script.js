@@ -55,8 +55,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const additionalCSS = `
     .nav-header.transparency {
       background-color: rgba(255, 255, 255, 0.6);
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
     }
   `;
   const style = document.createElement("style");

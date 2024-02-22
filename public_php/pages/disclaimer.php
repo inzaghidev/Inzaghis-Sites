@@ -12,7 +12,7 @@
           <div class="page-description">
             <h2>Disclaimer for Inzaghi's Group (Inzaghi's Corp.)</h2>
 
-            <p class="inzaghis-sites-description">
+            <p class="is-desc">
               If you require any more information or have any questions about
               our site's disclaimer, please feel free to contact us by email at
               izzumiposhaf29@gmail.com. Our Disclaimer was generated with the
@@ -24,7 +24,7 @@
 
             <h2>Disclaimers for Inzaghi's Sites</h2>
 
-            <p class="inzaghis-sites-description">
+            <p class="is-desc">
               All the information on this website -
               https://inzaghisites.000webhostapp.com - is published in good
               faith and for general information purpose only. Inzaghi's Sites
@@ -53,14 +53,14 @@
 
             <h2>Consent</h2>
 
-            <p class="inzaghis-sites-description">
+            <p class="is-desc">
               By using our website, you hereby consent to our disclaimer and
               agree to its terms.
             </p>
 
             <h2>Update</h2>
 
-            <p class="inzaghis-sites-description">
+            <p class="is-desc">
               Should we update, amend or make any changes to this document,
               those changes will be prominently posted here.
             </p>
