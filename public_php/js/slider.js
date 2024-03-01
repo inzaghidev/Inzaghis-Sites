@@ -4,37 +4,37 @@
       name: "Pages",
       url: "../images/pages-by-pages-apps.png",
       alt: "",
-      link: "",
+      link: "../page-apps/pages.php",
     },
     {
       name: "Widgets",
       url: "../images/widgets-by-pages-apps.png",
       alt: "",
-      link: "",
+      link: "../page-apps/widgets.php",
     },
     {
       name: "Converters",
       url: "../images/converters-by-pages-apps.png",
       alt: "",
-      link: "",
+      link: "../page-apps/converter.php",
     },
     {
       name: "Calculators",
       url: "../images/calculators-by-pages-apps.png",
       alt: "",
-      link: "",
+      link: "../page-apps/calculators.php",
     },
     {
       name: "Generators",
       url: "../images/generators-by-pages-apps.png",
       alt: "",
-      link: "",
+      link: "../page-apps/generators.php",
     },
     {
       name: "FileConverters",
       url: "../images/file-converters-by-pages-apps.png",
       alt: "",
-      link: "",
+      link: "../page-apps/file-converter.php",
     },
   ];
 
@@ -140,6 +140,7 @@
   const updateGroupTitleAndSubheading = (image) => {
     const groupTitle = document.querySelector(".group-title");
     const leftSubheading = document.querySelector(".left-subheading");
+    const blogLink = document.querySelector(".blog-link");
 
     // Update content based on the selected image
     groupTitle.textContent = image.name.replace(
@@ -147,6 +148,30 @@
       "File Converters"
     );
     leftSubheading.textContent = getContentDescription(image.name);
+
+    // Update blog link href based on the selected image
+    const link = getBlogLink(image.name);
+    blogLink.setAttribute("href", link);
+
+    // Update button link based on the selected image
+    const buttonLink = document.querySelector(".btn a");
+    buttonLink.setAttribute("href", link);
+  };
+
+  // Function to get blog link based on the image name
+  const getBlogLink = (imageName) => {
+    // Define the mapping of image name to blog link
+    const blogLinkMap = {
+      Pages: "../page-apps/page.php",
+      Widgets: "../page-apps/widgets.php",
+      Converters: "../page-apps/converter.php",
+      Calculators: "../page-apps/calculators.php",
+      Generators: "../page-apps/generators.php",
+      FileConverters: "../page-apps/file-converter.php",
+    };
+
+    // Return the blog link based on the image name, or a default value if not found
+    return blogLinkMap[imageName] || "#";
   };
 
   // Function to get content description based on the image name

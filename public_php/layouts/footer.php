@@ -34,7 +34,7 @@
                 <nav>
                     <ul>
                         <li><a href="<?php echo $pathToWebRoot.'/pages/inzaghis-group/inzaghis-blog.php'; ?>">Inzaghi's Blog</a></li>
-                        <li><a href="#">Inzaghi's Media</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/pages/inzaghis-group/inzaghis-media.php'; ?>">Inzaghi's Media</a></li>
                         <li><a href="https://github.com/inzaghidev" target="_blank">Inzaghi's Dev (GitHub)</a></li>
                         <li><a href="https://sites.google.com/view/inzaghis-sites" target="_blank">Inzaghi's Sites (Old)</a></li>
                         <li><a href="#">Inzaghi's Archives</a></li>
