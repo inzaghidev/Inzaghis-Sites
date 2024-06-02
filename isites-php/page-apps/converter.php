@@ -21,35 +21,50 @@
                 // Data for the apps
                 $apps = [
                     [
-                        "title" => "App 1",
-                        "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-                        "link" => "#"
+                      "title" => "Basic Converters",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+                      "link" => "#"
                     ],
                     [
-                        "title" => "App 2",
-                        "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "link" => "#"
+                      "title" => "Engineering Converters",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                      "link" => "#"
                     ],
                     [
-                        "title" => "App 3",
-                        "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "link" => "#"
+                      "title" => "Electricity Converters",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                      "link" => "#"
                     ],
                     [
-                        "title" => "App 4",
-                        "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-                        "link" => "#"
+                      "title" => "Fluid Converters",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+                      "link" => "#"
                     ],
                     [
-                        "title" => "App 5",
-                        "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "link" => "#"
+                      "title" => "App 5",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                      "link" => "#"
                     ],
                     [
-                        "title" => "App 6",
-                        "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "link" => "#"
-                    ]
+                      "title" => "App 6",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                      "link" => "#"
+                    ],
+                    [
+                      "title" => "App 7",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+                      "link" => "#"
+                    ],
+                    [
+                      "title" => "App 8",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                      "link" => "#"
+                    ],
+                    [
+                      "title" => "App 9",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                      "link" => "#"
+                    ],
                 ];
 
                 // Loop through each app data and create the HTML structure
