@@ -1,4 +1,4 @@
-DirectoryIndex public/index.html
+DirectoryIndex public/index.php
 
 # HTID:22180163: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
 php_value display_errors 1
