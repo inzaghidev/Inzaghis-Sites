@@ -313,7 +313,7 @@
               Inzaghi's App merupakan Aplikasi Konten-konten yang menyajikan
               apapun dengan Tampilan Versi Mobile dari Inzaghi's Sites, seperti
               Inzaghi's Blog, Inzaghi's Media, dan Inzaghi's Group. Nantinya,
-              Inzaghi's App akan tersedia dalam Versi Android dan iOS.
+              Inzaghi's App akan tersedia dalam Versi Android.
             </p>
             <section class="group-button">
               <a href="#" class="main-button">Click here</a>

@@ -41,7 +41,7 @@
                 <div class="bar"></div>
                 <div class="bar"></div>
             </button>
-            <a href="../includes/signin.php" class="main-button sign-in-button">Sign in</a>
+            <a href="#" class="main-button sign-in-button">Sign in</a>
             <div class="nav-menu">
                 <ul>
                     <li><a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>">Home</a></li>
