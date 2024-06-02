@@ -58,26 +58,32 @@
     <body>
         <div id="header-container"></div>
         <div class="container-top"></div>
-        <form>
-        <div class="container">
-            <center>
-            <h1>Sign in</h1>
-            </center>
-            <hr>
-            <label>Username :</label>
-            <input type="text" autocomplete="username" />
-            <br />
-            <div>
-            <b>Password</b>
-            </label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-            <label for="psw-repeat">
-            </label>
-            <div class="submitbtn">
-            <button type="submit" class="registerbtn">Sign in</button>
-            <button type="submit" class="registerbtn">Register</button>
+        <form id="authForm" method="post">
+            <div class="container">
+                <center>
+                <h1>Sign in</h1>
+                </center>
+                <hr>
+                <label>Username :</label>
+                <input type="text" autocomplete="username" />
+                <br />
+                <div>
+                    <b>Password</b>
+                    <input type="password" placeholder="Enter Password" name="psw">
+                </div>
+                <div class="submitbtn">
+                    <button type="submit" class="signinbtn">Sign in</button>
+                    <button class="registerbtn" onclick="handleRegister()" href="../includes/register-form.php">Register</button>
+                </div>
             </div>
         </form>
+    </div>
+    <script>
+        function handleRegister() {
+            document.getElementById('authForm').action = '../includes/register-form.html';
+            document.getElementById('authForm').submit();
+        }
+    </script>
     </body>
     <div id="footer-container"></div>
 </html>
