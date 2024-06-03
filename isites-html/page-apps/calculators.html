@@ -69,92 +69,92 @@
               Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan,
               hingga Kalkulator untuk Keseharian.
             </p>
-            <div class="row">
-              <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card h-100">
-                  <div class="card-body card-apps-body">
-                    <h5 class="card-title">App 1</h5>
-                    <p class="card-text card-apps">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nam viverra euismod odio, gravida pellentesque urna varius
-                      vitae.
-                    </p>
-                    <a href="#" class="btn btn-primary apps-button"
-                      >Click here</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card h-100">
-                  <div class="card-body card-apps-body">
-                    <h5 class="card-title">App 2</h5>
-                    <p class="card-text card-apps">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                    <a href="#" class="btn btn-primary apps-button"
-                      >Click here</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card h-100">
-                  <div class="card-body card-apps-body">
-                    <h5 class="card-title">App 3</h5>
-                    <p class="card-text card-apps">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                    <a href="#" class="btn btn-primary apps-button"
-                      >Click here</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card h-100">
-                  <div class="card-body card-apps-body">
-                    <h5 class="card-title">App 4</h5>
-                    <p class="card-text card-apps">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nam viverra euismod odio, gravida pellentesque urna varius
-                      vitae.
-                    </p>
-                    <a href="#" class="btn btn-primary apps-button"
-                      >Click here</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card h-100">
-                  <div class="card-body card-apps-body">
-                    <h5 class="card-title">App 5</h5>
-                    <p class="card-text card-apps">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                    <a href="#" class="btn btn-primary apps-button"
-                      >Click here</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 mb-4">
-                <div class="card h-100">
-                  <div class="card-body card-apps-body">
-                    <h5 class="card-title">App 6</h5>
-                    <p class="card-text card-apps">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nam viverra euismod odio, gravida pellentesque urna varius
-                      vitae.
-                    </p>
-                    <a href="#" class="btn btn-primary apps-button"
-                      >Click here</a
-                    >
-                  </div>
-                </div>
-              </div>
+            <div class="row" id="app-container">
+              <!-- Dynamic content will be inserted here -->
             </div>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+              $(document).ready(function () {
+                // Data for the apps
+                const apps = [
+                  {
+                    title: "App 1",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 2",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 3",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 4",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 5",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 6",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 7",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 8",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 9",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                ];
+
+                // Get the container where the cards will be appended
+                const appContainer = $("#app-container");
+
+                // Loop through the apps data and create the HTML elements
+                apps.forEach((app) => {
+                  const column = $("<div></div>").addClass(
+                    "col-md-4 col-sm-6 mb-4"
+                  );
+                  const card = $("<div></div>").addClass("card h-100");
+                  const cardBody = $("<div></div>").addClass(
+                    "card-body card-apps-body"
+                  );
+
+                  const cardTitle = $("<h5></h5>")
+                    .addClass("card-title")
+                    .text(app.title);
+                  const cardText = $("<p></p>")
+                    .addClass("card-text card-apps")
+                    .text(app.text);
+                  const cardLink = $("<a></a>")
+                    .addClass("btn btn-primary apps-button")
+                    .attr("href", app.link)
+                    .text("Click here");
+
+                  cardBody.append(cardTitle, cardText, cardLink);
+                  card.append(cardBody);
+                  column.append(card);
+                  appContainer.append(column);
+                });
+              });
+            </script>
           </section>
         </div>
       </div>
