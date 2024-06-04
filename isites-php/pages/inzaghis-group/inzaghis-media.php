@@ -1,5 +1,5 @@
 <?php
-	$page_title = "Inzaghi's Blog";
+	$page_title = "Inzaghi's Media";
     include '../../layouts/header.php';
 ?>
     <div class="container-top"></div>
