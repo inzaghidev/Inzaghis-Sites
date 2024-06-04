@@ -46,7 +46,7 @@
                         "link" => "#"
                     ],
                     [
-                        "title" => "App 6",
+                        "title" => "Islamic Portal",
                         "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                         "link" => "#"
                     ],
