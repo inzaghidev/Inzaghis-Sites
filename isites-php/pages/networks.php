@@ -1,6 +1,7 @@
 <?php
 	$page_title = "Inzaghi's Group Network";
 	include('../layouts/header.php');
+  include('../layouts/navbar.php');
 ?>
   <div class="container-top"></div>
   <section class="about-us">

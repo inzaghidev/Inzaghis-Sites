@@ -1,6 +1,7 @@
 <?php
     $page_title = "Converters";
     include('../layouts/header.php');
+    include('../layouts/navbar.php');
 ?>
 
 <div class="container-top"></div>

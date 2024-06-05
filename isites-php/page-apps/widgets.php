@@ -1,6 +1,7 @@
 <?php
     $page_title = "Widgets";
     include('../layouts/header.php');
+    include('../layouts/navbar.php');
 ?>
 
 <div class="container-top"></div>
@@ -23,6 +24,11 @@
                     [
                         "title" => "Calendar System",
                         "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+                        "link" => "https://sites.google.com/view/inzaghis-sites/widgets/calendar-system"
+                    ],
+                    [
+                        "title" => "Date Time",
+                        "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                         "link" => "#"
                     ],
                     [
@@ -32,21 +38,16 @@
                     ],
                     [
                         "title" => "Stocks",
-                        "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                        "link" => "#"
-                    ],
-                    [
-                        "title" => "Maps",
                         "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
                         "link" => "#"
                     ],
                     [
-                        "title" => "App 5",
+                        "title" => "Maps",
                         "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                         "link" => "#"
                     ],
                     [
-                        "title" => "App 6",
+                        "title" => "Islamic Portal",
                         "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                         "link" => "#"
                     ],
