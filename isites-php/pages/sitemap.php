@@ -64,7 +64,6 @@
               echo "</ul>";
             ?>
           </ul>
-          <script src="../js/script.js"></script>
         </div>
       </div>
     </div>
