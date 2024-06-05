@@ -1,6 +1,7 @@
 <?php
     $page_title = "Sitemap";
     include('../layouts/header.php');
+    include('../layouts/navbar.php');
 ?>
 <section class="sitemap">
   <div class="container-top"></div>
@@ -64,7 +65,6 @@
               echo "</ul>";
             ?>
           </ul>
-          <script src="../js/script.js"></script>
         </div>
       </div>
     </div>
