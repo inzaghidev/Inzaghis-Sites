@@ -4,7 +4,10 @@ This Repository is for storing all Source Codes from Inzaghi's Sites.
 
 ![Inzaghi's Sites](/isites-php/images/inzaghis-sites-by-inzaghis-group-corp.png)
 
-Link : [inzaghisites.000webhostapp.com](https://inzaghisites.000webhostapp.com)
+Link :
+
+- [inzaghisites.000webhostapp.com (Old)](https://inzaghisites.000webhostapp.com)
+- [inzaghi.wuaze.com (New)](https://inzaghi.wuaze.com)
 
 ## Inzaghi's Sites Homepage
 
