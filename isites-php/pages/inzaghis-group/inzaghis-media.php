@@ -1,6 +1,7 @@
 <?php
 	$page_title = "Inzaghi's Media";
-    include '../../layouts/header.php';
+  include('../../layouts/navbar.php');
+  include('../../layouts/header.php');
 ?>
     <div class="container-top"></div>
     <section class="inzaghis-group-pages inzaghismedia-slider">

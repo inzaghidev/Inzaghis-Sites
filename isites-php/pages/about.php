@@ -1,6 +1,7 @@
 <?php
 	$page_title = "About Inzaghi's Sites";
 	include('../layouts/header.php');
+  include('../layouts/navbar.php');
 ?>
   <!--script>
     $(document).ready(function () {
@@ -35,13 +36,15 @@
                 apapun yang berbasis Web seperti yang tersedia pada Pages Apps
                 seperti Halaman, Widget, Konverter, Kalkulator, dan
                 lain-lainnya.
-              <br />
-              <br />
-              Inzaghi's Sites Baru dibuat dan diluncurkan pada Tanggal 28
-              Agustus 2023 (11 Shafar 1445 H) dan beralamat Link
-              <a href="http://inzaghisites.000webhostapp.com"
-                >inzaghisites.000webhostapp.com</a
-              >.
+                <br />
+                <br />
+                Inzaghi's Sites Baru dibuat dan diluncurkan pada Tanggal 28
+                Agustus 2023 (11 Shafar 1445 H) dan beralamat Link
+                <a href="http://inzaghisites.000webhostapp.com"
+                  >inzaghisites.000webhostapp.com</a
+                >, dan juga pada Tanggal 6 April 2024 (26 Ramadhan 1445 H) yang
+                beralamat Link
+                <a href="http://inzaghi.wuaze.com">inzaghi.wuaze.com</a>.
             </p>
           </div>
         </div>

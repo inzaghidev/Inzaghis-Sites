@@ -1,6 +1,7 @@
 <?php
 	$page_title = "Profile";
 	include('../layouts/header.php');
+  include('../layouts/navbar.php');
 ?>
   <style>
     ul.a {
