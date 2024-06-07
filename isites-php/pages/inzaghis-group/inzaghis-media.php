@@ -1,6 +1,5 @@
 <?php
 	$page_title = "Inzaghi's Media";
-  include('../../layouts/navbar.php');
   include('../../layouts/header.php');
 ?>
     <div class="container-top"></div>

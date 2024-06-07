@@ -1,7 +1,6 @@
 <?php
 	$page_title = "About Inzaghi's Sites";
 	include('../layouts/header.php');
-  include('../layouts/navbar.php');
 ?>
   <!--script>
     $(document).ready(function () {

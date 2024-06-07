@@ -1,7 +1,6 @@
 <?php
 	$page_title = "Pages Apps";
 	include('../layouts/header.php');
-  include('../layouts/navbar.php');
 ?>
   <div class="container-top"></div>
   <section class="pages">
