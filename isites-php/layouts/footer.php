@@ -7,7 +7,6 @@
     $pathToWebRoot = substr($webRoot, strlen($serverRoot) + 1);
 ?>
 
-<body>
     <section class="footer">
         <section class="footer-wrapper">
             <section class="inzaghis-corp-logo">
@@ -62,18 +61,3 @@
     </section>
 </body>
 </html>
-
-<?php
-
-//$d = dir(getcwd());
-//
-//echo "Handle: " . $d->handle . "<br>";
-//echo "Path: " . $d->path . "<br>";
-//
-//echo getcwd() . "<br>";
-//
-//while (($file = $d->read()) !== false){
-//  echo "filename: " . $file . "<br>";
-//}
-
-?>

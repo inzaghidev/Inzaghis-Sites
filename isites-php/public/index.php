@@ -1,6 +1,7 @@
 <?php
 	$page_title = "Home";
 	include('../layouts/header.php');
+	include('../layouts/navbar.php');
 ?>
   <section class="welcome shadow">
     <div class="welcome-container">
