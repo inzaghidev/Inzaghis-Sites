@@ -31,6 +31,12 @@
       link: "../page-apps/generators.php",
     },
     {
+      name: "Formatters",
+      url: "../images/formatters-by-pages-apps.png",
+      alt: "",
+      link: "../page-apps/formatters.php",
+    },
+    {
       name: "FileConverters",
       url: "../images/file-converters-by-pages-apps.png",
       alt: "",
@@ -136,7 +142,7 @@
     showSlides();
   }, 10000);
 
-  // Function to update group-title and left-subheading
+  // Function to update group-title and subheading
   const updateGroupTitleAndSubheading = (image) => {
     const groupTitle = document.querySelector(".group-title");
     const leftSubheading = document.querySelector(".left-subheading");
@@ -167,6 +173,7 @@
       Converters: "../page-apps/converter.php",
       Calculators: "../page-apps/calculators.php",
       Generators: "../page-apps/generators.php",
+      Formatters: "../page-apps/formatters.php",
       FileConverters: "../page-apps/file-converter.php",
     };
 
@@ -188,6 +195,8 @@
         "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
       Generators:
         "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
+      Formatters:
+        "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
       FileConverters:
         "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
     };

@@ -59,6 +59,19 @@
               </div>
             </div>
           </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card h-100">
+              <div class="card-body card-apps-body">
+                <h5 class="card-title">Link Page</h5>
+                <p class="card-text card-apps">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="https://bit.ly/Bookmark-Manager-Links-Notion-Inzaghi" class="btn btn-primary apps-button"
+                  >Click here</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

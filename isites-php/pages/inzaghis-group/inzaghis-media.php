@@ -2,8 +2,8 @@
 	$page_title = "Inzaghi's Media";
 
   include_once __DIR__ . '/../../includes/config.php';
-  include('../../layouts/navbar.php');
   include('../../layouts/header.php');
+  include('../../layouts/navbar.php');
 ?>
     <div class="container-top"></div>
     <section class="inzaghis-group-pages inzaghismedia-slider">

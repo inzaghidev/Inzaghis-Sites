@@ -52,16 +52,16 @@
             "link" => "../page-apps/generators.php"
         ],
         [
+            "name" => "Formatters",
+            "imgSrc" => "../images/formatters-by-pages-apps.png",
+            "description" => "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
+            "link" => "../page-apps/formatters.php"
+        ],
+        [
             "name" => "File Converter",
             "imgSrc" => "../images/file-converters-by-pages-apps.png",
             "description" => "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
             "link" => "../page-apps/file-converter.php"
-        ],
-        [
-            "name" => "Coming Soon",
-            "imgSrc" => "https://via.placeholder.com/700x400",
-            "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-            "link" => ""
         ],
         [
             "name" => "Coming Soon",

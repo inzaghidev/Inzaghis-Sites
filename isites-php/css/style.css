@@ -480,10 +480,26 @@ svg:not(:root) {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Tambahan styling untuk memastikan elemen terpusat */
+.hcg-slider-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Jika Anda ingin memastikan tombol atau elemen lainnya juga konsisten */
+.hcg-slider-body a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .hcg-slide-container {
   display: inline-block;
   position: relative;
 }
+
 .hcg-slides {
   display: none;
   overflow: hidden;
@@ -499,11 +515,12 @@ svg:not(:root) {
 }
 .hcg-slide-text {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 16px; /* Samakan ukuran font */
   padding: 3px 5px;
   position: absolute;
   bottom: 0;
   border-radius: 5px;
+  margin-top: 10px;
   left: 50%;
   text-align: center;
   text-shadow: 0 0 2px #000;
