@@ -1,6 +1,15 @@
 <?php
+	//$page_title = "Inzaghi's Blog";
+  //include_once __DIR__ . '/../includes/config.php';
+
+  //include __DIR__ . '/../layouts/navbar.php';
+  //include __DIR__ . '/../layouts/header.php';
+
 	$page_title = "Inzaghi's Blog";
+
+  include_once __DIR__ . '/../../includes/config.php';
   include('../../layouts/header.php');
+  include('../../layouts/navbar.php');
 ?>
     <div class="container-top"></div>
     <section class="inzaghis-group-pages inzaghisblog-slider">

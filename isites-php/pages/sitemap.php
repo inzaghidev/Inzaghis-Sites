@@ -1,6 +1,7 @@
 <?php
     $page_title = "Sitemap";
     include('../layouts/header.php');
+    include('../layouts/navbar.php');
 ?>
 <section class="sitemap">
   <div class="container-top"></div>

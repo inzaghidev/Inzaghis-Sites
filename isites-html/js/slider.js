@@ -4,37 +4,43 @@
       name: "Pages",
       url: "../images/pages-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/pages.php",
+      link: "../page-apps/pages.html",
     },
     {
       name: "Widgets",
       url: "../images/widgets-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/widgets.php",
+      link: "../page-apps/widgets.html",
     },
     {
       name: "Converters",
       url: "../images/converters-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/converter.php",
+      link: "../page-apps/converter.html",
     },
     {
       name: "Calculators",
       url: "../images/calculators-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/calculators.php",
+      link: "../page-apps/calculators.html",
     },
     {
       name: "Generators",
       url: "../images/generators-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/generators.php",
+      link: "../page-apps/generators.html",
+    },
+    {
+      name: "Formatters",
+      url: "../images/formatters-by-pages-apps.png",
+      alt: "",
+      link: "../page-apps/formatters.html",
     },
     {
       name: "FileConverters",
       url: "../images/file-converters-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/file-converter.php",
+      link: "../page-apps/file-converter.html",
     },
   ];
 
@@ -136,7 +142,7 @@
     showSlides();
   }, 10000);
 
-  // Function to update group-title and left-subheading
+  // Function to update group-title and subheading
   const updateGroupTitleAndSubheading = (image) => {
     const groupTitle = document.querySelector(".group-title");
     const leftSubheading = document.querySelector(".left-subheading");
@@ -162,12 +168,13 @@
   const getBlogLink = (imageName) => {
     // Define the mapping of image name to blog link
     const blogLinkMap = {
-      Pages: "../page-apps/pages.php",
-      Widgets: "../page-apps/widgets.php",
-      Converters: "../page-apps/converter.php",
-      Calculators: "../page-apps/calculators.php",
-      Generators: "../page-apps/generators.php",
-      FileConverters: "../page-apps/file-converter.php",
+      Pages: "../page-apps/pages.html",
+      Widgets: "../page-apps/widgets.html",
+      Converters: "../page-apps/converter.html",
+      Calculators: "../page-apps/calculators.html",
+      Generators: "../page-apps/generators.html",
+      Formatters: "../page-apps/formatters.html",
+      FileConverters: "../page-apps/file-converter.html",
     };
 
     // Return the blog link based on the image name, or a default value if not found
@@ -188,6 +195,8 @@
         "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
       Generators:
         "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
+      Formatters:
+        "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
       FileConverters:
         "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
     };
