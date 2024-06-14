@@ -21,7 +21,7 @@
       echo "<script src='$pathToWebRoot/js/script.js'></script>";
       echo "<script src='$pathToWebRoot/jquery/jquery-3.7.1.js'></script>";
     ?>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionimages/2.0.1/css/ionicons.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">

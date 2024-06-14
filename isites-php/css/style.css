@@ -201,28 +201,6 @@ svg:not(:root) {
   padding: 40px;
 }
 
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  letter-spacing: 0.25px;
-  padding: 10px 20px 10px 20px;
-  font-size: 14px;
-  line-height: 20px;
-  cursor: pointer;
-}
-
-.menu-toggle:active {
-  color: #000;
-  background-color: #a6b1bf;
-}
-
-#logo .menu-toggle {
-  display: flex;
-}
-
 .sign-in-button {
   order: 2; /* Mengatur urutan tombol "Sign in" menjadi ke-2 (sebelah kanan) */
 }
@@ -234,6 +212,7 @@ svg:not(:root) {
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  border-radius: 5px;
   background-color: #1a1b1f;
   color: #fff;
   transition: all 0.2s;
@@ -243,6 +222,7 @@ svg:not(:root) {
 .main-button:hover {
   background-color: #555555;
   color: white;
+  border-radius: 5px;
 }
 
 .about-inzaghis-sites {
@@ -1307,11 +1287,13 @@ svg:not(:root) {
   .main-button {
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 5px;
   }
 
   .main-button:hover {
     background-color: #555555;
     color: white;
+    border-radius: 5px;
   }
 
   .about-inzaghis-sites {
@@ -2009,6 +1991,7 @@ svg:not(:root) {
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    border-radius: 5px;
     background-color: #1a1b1f;
     color: #fff;
     transition: all 0.2s;
@@ -2018,6 +2001,7 @@ svg:not(:root) {
   .main-button:hover {
     background-color: #555555;
     color: white;
+    border-radius: 5px;
   }
 
   .about-inzaghis-sites {

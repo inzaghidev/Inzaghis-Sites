@@ -11,9 +11,9 @@
   --border-color: #c8cacc;
   --dropdown-background-color: rgba(199, 199, 199, 0.9);
   --dropdown-hover-background-color: white;
-  --bar-width: 30px;
-  --bar-height: 4px;
-  --bar-margin: 6px 0;
+  --bar-width: 16px;
+  --bar-height: 10px;
+  --bar-margin: 10px 0;
 }
 
 .nav-header {
@@ -203,8 +203,29 @@
 .bar {
   width: var(--bar-width);
   height: var(--bar-height);
-  background-color: var(--color-black);
   margin: var(--bar-margin);
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  letter-spacing: 0.25px;
+  padding: 10px 20px 10px 20px;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.menu-toggle:active {
+  color: #000;
+  background-color: #a6b1bf;
+}
+
+#logo .menu-toggle {
+  display: flex;
 }
 
 @media screen and (max-width: 1140px) {
@@ -321,13 +342,6 @@
     align-items: center;
   }
 
-  .menu-toggle {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    order: 2;
-  }
-
   #logo img {
     vertical-align: middle;
   }
@@ -398,5 +412,12 @@
     padding: 10px;
     color: var(--color-black);
     text-decoration: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    order: 2;
   }
 }

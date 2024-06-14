@@ -412,10 +412,10 @@ svg:not(:root) {
 }
 
 .bar {
-  width: 30px;
-  height: 4px;
-  background-color: #000;
-  margin: 6px 0;
+  width: 16px;
+  height: 10px;
+  /*background-color: #000;*/
+  margin: 10px 0;
 }
 
 .main-button {
@@ -425,6 +425,7 @@ svg:not(:root) {
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  border-radius: 5px;
   background-color: #1a1b1f;
   color: #fff;
   transition: all 0.2s;
@@ -434,6 +435,7 @@ svg:not(:root) {
 .main-button:hover {
   background-color: #555555;
   color: white;
+  border-radius: 5px;
 }
 
 .about-inzaghis-sites {
@@ -1582,11 +1584,13 @@ svg:not(:root) {
   .main-button {
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 5px;
   }
 
   .main-button:hover {
     background-color: #555555;
     color: white;
+    border-radius: 5px;
   }
 
   .about-inzaghis-sites {
@@ -2374,6 +2378,7 @@ svg:not(:root) {
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    border-radius: 5px;
     background-color: #1a1b1f;
     color: #fff;
     transition: all 0.2s;
@@ -2383,6 +2388,7 @@ svg:not(:root) {
   .main-button:hover {
     background-color: #555555;
     color: white;
+    border-radius: 5px;
   }
 
   .about-inzaghis-sites {
