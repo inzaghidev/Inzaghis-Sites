@@ -189,38 +189,12 @@ svg:not(:root) {
   padding: 2.9em;
 }
 
-#logo img {
-  vertical-align: middle;
-}
-
 .pages {
   max-width: 1680px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
-}
-
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  letter-spacing: 0.25px;
-  padding: 10px 20px 10px 20px;
-  font-size: 14px;
-  line-height: 20px;
-  cursor: pointer;
-}
-
-.menu-toggle:active {
-  color: #000;
-  background-color: #a6b1bf;
-}
-
-#logo .menu-toggle {
-  display: flex;
 }
 
 .sign-in-button {
@@ -234,6 +208,7 @@ svg:not(:root) {
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  border-radius: 5px;
   background-color: #1a1b1f;
   color: #fff;
   transition: all 0.2s;
@@ -243,6 +218,7 @@ svg:not(:root) {
 .main-button:hover {
   background-color: #555555;
   color: white;
+  border-radius: 5px;
 }
 
 .about-inzaghis-sites {
@@ -1296,22 +1272,16 @@ svg:not(:root) {
     padding: 3.7em;
   }
 
-  #logo {
-    order: 1;
-  }
-
-  #logo img {
-    vertical-align: middle;
-  }
-
   .main-button {
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 5px;
   }
 
   .main-button:hover {
     background-color: #555555;
     color: white;
+    border-radius: 5px;
   }
 
   .about-inzaghis-sites {
@@ -2009,6 +1979,7 @@ svg:not(:root) {
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    border-radius: 5px;
     background-color: #1a1b1f;
     color: #fff;
     transition: all 0.2s;
@@ -2018,6 +1989,7 @@ svg:not(:root) {
   .main-button:hover {
     background-color: #555555;
     color: white;
+    border-radius: 5px;
   }
 
   .about-inzaghis-sites {

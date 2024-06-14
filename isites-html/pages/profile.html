@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/navbar.css" type="text/css" />
     <link rel="stylesheet" href="../css/reset.css" type="text/css" />
     <script src="../js/script.js"></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <link
       rel="stylesheet"
@@ -67,20 +68,24 @@
             alt="logo"
           />
         </a>
-        <button class="menu-toggle" id="menu-toggle">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </button>
-        <a href="#" class="main-button sign-in-button">Sign in</a>
         <div class="nav-menu">
           <ul>
-            <li><a href="../public/index.html">Home</a></li>
+            <li>
+              <a href="../public/index.html">Home</a>
+            </li>
             <li><a href="https://medium.com/@izzumiposhaf29">Blog</a></li>
-            <li><a href="../pages/apps.html">Page Apps</a></li>
-            <li><a href="../pages/contact.html">Contact</a></li>
-            <li><a href="../pages/profile.html">Profile</a></li>
-            <li><a href="../pages/about.html">About</a></li>
+            <li>
+              <a href="../pages/apps.html">Page Apps</a>
+            </li>
+            <li>
+              <a href="../pages/contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="../pages/profile.html">Profile</a>
+            </li>
+            <li>
+              <a href="../pages/about.html">About</a>
+            </li>
             <li>
               <a href="../pages/networks.html">Inzaghi's Group Network</a>
             </li>
@@ -124,11 +129,19 @@
                 </nav>
               </div>
             </li>
+            <div class="sign-in-button">
+              <a href="../includes/signin.html" class="main-button">Sign in</a>
+            </div>
           </ul>
+        </div>
+        <button class="menu-toggle" id="menu-toggle">
+          <span class="fas fa-bars bar"></span>
+        </button>
+        <div class="cancel-icon">
+          <span class="fas fa-times"></span>
         </div>
       </nav>
     </div>
-
     <div class="container-top"></div>
 
     <section class="pages">

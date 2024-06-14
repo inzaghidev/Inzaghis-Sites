@@ -1,57 +1,34 @@
 document.addEventListener("DOMContentLoaded", function () {
   const menuToggle = document.getElementById("menu-toggle");
+  const cancelIcon = document.querySelector(".cancel-icon");
   const navMenu = document.querySelector(".nav-menu ul");
+  const navbar = document.querySelector(".navbar");
 
   menuToggle.addEventListener("click", function () {
     navMenu.classList.toggle("active");
+    navbar.classList.toggle("menu-active");
   });
 
-  const aboutLink = document.querySelector(".about-link");
-  const profileLink = document.querySelector(".profile-link");
-  const pagesLink = document.querySelector(".pages-link");
-  const networksLink = document.querySelector(".networks-link");
-  const contactLink = document.querySelector(".contact");
-
-  aboutLink.addEventListener("click", function () {
-    window.location.href = "./pages/about.html";
-  });
-
-  profileLink.addEventListener("click", function () {
-    window.location.href = "./pages/profile.html";
-  });
-
-  pagesLink.addEventListener("click", function () {
-    window.location.href = "./pages/apps.html";
-  });
-
-  networksLink.addEventListener("click", function () {
-    window.location.href = "./pages/networks.html";
-  });
-
-  contactLink.addEventListener("click", function () {
-    window.location.href = "./pages/contact.html";
+  cancelIcon.addEventListener("click", function () {
+    navMenu.classList.remove("active");
+    navbar.classList.remove("menu-active");
   });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
   const navHeader = document.getElementById("navHeader");
 
-  // Function to handle scroll event
   function handleScroll() {
     if (window.scrollY > 0) {
-      navHeader.classList.add("transparency"); // Add transparency class when scrolling down
+      navHeader.classList.add("transparency");
     } else {
-      navHeader.classList.remove("transparency"); // Remove transparency class when at the top
+      navHeader.classList.remove("transparency");
     }
   }
 
-  // Add scroll event listener
   window.addEventListener("scroll", handleScroll);
-
-  // Initial check on page load in case page is scrolled
   handleScroll();
 
-  // Additional CSS added dynamically
   const additionalCSS = `
     .nav-header.transparency {
       background-color: rgba(255, 255, 255, 0.6);

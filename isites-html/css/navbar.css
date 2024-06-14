@@ -1,37 +1,79 @@
+:root {
+  --background-color: white;
+  --background-color-transparent: rgba(255, 255, 255, 0.6);
+  --blur-effect: blur(10px);
+  --navbar-padding: 30px;
+  --font-family: "Inter", "Helvetica Neue", Helvetica, sans-serif;
+  --font-size: 14px;
+  --transition-duration: 0.3s;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --nav-link-hover-color: rgba(255, 255, 255, 0.6);
+  --border-color: #c8cacc;
+  --dropdown-background-color: rgba(199, 199, 199, 0.9);
+  --dropdown-hover-background-color: white;
+  --bar-width: 16px;
+  --bar-height: 10px;
+  --bar-margin: 10px 0;
+}
+
+/* Tambahan untuk animasi */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .nav-header {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 0.5rem 1rem;
-  background-color: white; /* Transparent background */
-  transition: background-color 0.3s ease;
+  background-color: var(--background-color);
+  transition: background-color var(--transition-duration) ease;
   position: fixed;
   z-index: 10;
-  border-bottom: 2px solid #c8cacc;
+  border-bottom: 2px solid var(--border-color);
   border-style: solid;
 }
 
 /* Transparency Effect */
 .nav-header.transparency {
-  background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: var(--background-color-transparent);
+  backdrop-filter: var(--blur-effect);
+  -webkit-backdrop-filter: var(--blur-effect);
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
-  color: black;
+  padding: var(--navbar-padding);
+  color: var(--color-black);
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
   position: relative;
   z-index: 1000;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+#logo img {
+  vertical-align: middle;
 }
 
 .nav-menu {
@@ -41,7 +83,6 @@
 
 .navbar .nav-menu {
   text-decoration: none;
-  color: rgb(0, 0, 0);
   position: relative;
 }
 
@@ -53,41 +94,40 @@
   align-items: center;
 }
 
-.navbar .nav-menu li {
+.nav-menu li {
   margin-right: 20px;
   border-radius: 20px;
 }
 
-.navbar .nav-menu ul li {
+.nav-menu ul li {
   margin-bottom: 5px;
   margin-top: 5px;
   margin-left: 8px;
   margin-right: 8px;
 }
 
-.navbar .nav-menu .dropdown {
+.nav-menu .dropdown {
   text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  color: var(--color-black);
+  font-family: var(--font-family);
   margin-bottom: 5px;
   margin-top: 5px;
 }
 
 .navbar .nav-menu a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
   position: relative;
 }
 
-.navbar .nav-menu a::before {
-  background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+li a::before {
+  background-color: var(--nav-link-hover-color);
+  backdrop-filter: var(--blur-effect);
+  -webkit-backdrop-filter: var(--blur-effect);
 }
 
-.navbar .nav-menu a::before {
+li a::before {
   content: "";
-  background: black;
+  background: var(--color-black);
   display: block;
   position: absolute;
   left: 0;
@@ -100,14 +140,18 @@
   transform-origin: 0 50%;
 }
 
-.navbar .nav-menu a:hover::before {
+li a:hover::before {
   transform: scale3d(1, 1, 1);
   opacity: 1;
 }
 
-.navbar .nav-menu a:hover::after {
+li a:hover::after {
   transform: scale3d(1, 1, 1);
   opacity: 1;
+}
+
+.nav-menu li a {
+  color: var(--color-black);
 }
 
 .w-dropdown-toggle {
@@ -123,7 +167,7 @@
 .nav-dropdown-list {
   display: none;
   position: absolute;
-  background-color: rgba(199, 199, 199, 0.9);
+  background-color: var(--dropdown-background-color);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 0 solid white;
@@ -143,7 +187,7 @@
   letter-spacing: 0.25px;
   margin-right: 10px;
   padding: 5px 30px 5px 20px;
-  font-size: 14px;
+  font-size: var(--font-size);
   line-height: 20px;
 }
 
@@ -155,7 +199,7 @@
 .dropdown-link {
   display: block;
   padding: 10px;
-  color: black;
+  color: var(--color-black);
   text-decoration: none;
   position: absolute;
   transition: all 0.2s;
@@ -164,12 +208,12 @@
 }
 
 .dropdown-link:hover {
-  background-color: white;
+  background-color: var(--dropdown-hover-background-color);
 }
 
 .navbar .nav-menu .dropdown-link::before {
   content: "";
-  background: white;
+  background: var(--dropdown-hover-background-color);
   display: block;
   position: absolute;
   left: 0;
@@ -183,10 +227,105 @@
 }
 
 .bar {
-  width: 30px;
-  height: 4px;
-  background-color: #000;
-  margin: 6px 0;
+  width: var(--bar-width);
+  height: var(--bar-height);
+  margin: var(--bar-margin);
+}
+
+.cancel-icon {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 5px;
+  letter-spacing: 0.25px;
+  padding: 10px 20px 10px 20px;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  order: 0;
+  transition: all 0.3s ease;
+}
+
+.cancel-icon:active {
+  color: #ffffff;
+  background-color: #a6b1bf;
+}
+
+.cancel-icon:hover {
+  background-color: #a6b1bf;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 5px;
+  letter-spacing: 0.25px;
+  padding: 10px 20px 10px 20px;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  order: 0;
+  transition: all 0.3s ease;
+}
+
+/* Tampilkan cancel-icon dan sembunyikan menu-toggle saat aktif */
+.navbar.menu-active .menu-toggle {
+  display: none;
+}
+
+.navbar.menu-active .cancel-icon {
+  display: none;
+  animation: fadeIn 0.3s;
+  order: 0;
+}
+
+.menu-toggle:active {
+  color: #ffffff;
+  background-color: #a6b1bf;
+}
+
+.menu-toggle:hover {
+  background-color: #a6b1bf;
+}
+
+#logo {
+  order: 0;
+}
+
+#logo img {
+  vertical-align: middle;
+}
+
+#logo .menu-toggle {
+  display: flex;
+}
+
+.sign-in-button {
+  color: var(--color-white); /* Mengubah warna teks menjadi putih */
+  text-decoration: none; /* Untuk memastikan tidak ada garis bawah pada teks */
+}
+
+.sign-in-button .main-button {
+  display: block;
+  padding: 8px 16px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in-button .main-button:hover {
+  background-color: #555555;
+  color: var(--color-white);
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 1140px) {
@@ -195,10 +334,11 @@
     padding: 20px;
     position: relative;
     align-items: center;
+    justify-content: space-between;
   }
 
   .nav-menu {
-    order: 3;
+    order: 5;
     justify-content: space-around;
   }
 
@@ -206,12 +346,13 @@
     display: none;
     flex-direction: row;
     align-items: center;
-    margin-top: 0; /* Hapus margin top untuk jarak yang lebih konsisten */
+    opacity: 0;
+    transition: opacity 0.3s ease;
   }
 
   .nav-menu ul.active {
     display: flex;
-    margin-top: 10px; /* Tambahkan margin top untuk jarak antar elemen */
+    opacity: 1;
     margin-left: auto;
     margin-right: auto;
   }
@@ -249,7 +390,7 @@
   .nav-dropdown-list {
     display: none;
     position: absolute;
-    background-color: rgba(199, 199, 199, 0.9);
+    background-color: var(--dropdown-background-color);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid white;
@@ -263,7 +404,7 @@
     letter-spacing: 0.25px;
     margin-right: 10px;
     padding: 5px 30px 5px 20px;
-    font-size: 14px;
+    font-size: var(--font-size);
     line-height: 20px;
   }
 
@@ -275,7 +416,7 @@
   .dropdown-link {
     display: block;
     padding: 10px;
-    color: black;
+    color: var(--color-black);
     text-decoration: none;
   }
 
@@ -283,11 +424,47 @@
     display: block;
     margin-left: auto;
     margin-right: 20px;
-    order: 2;
+    order: 0;
+  }
+
+  .navbar.menu-active .menu-toggle {
+    display: none;
+  }
+
+  .navbar.menu-active .cancel-icon {
+    display: block;
+  }
+
+  .cancel-icon {
+    display: none;
+    margin-left: auto;
+    margin-right: 20px;
   }
 
   #logo .menu-togle {
     display: flex;
+  }
+
+  .sign-in-button {
+    order: 3;
+  }
+
+  .sign-in-button.active {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #1a1b1f;
+    color: #fff;
+    transition: all 0.2s;
+    text-decoration: none;
+  }
+
+  .sign-in-button:hover .active {
+    background-color: #555555;
+    color: white;
   }
 }
 
@@ -303,25 +480,23 @@
     align-items: center;
   }
 
-  .menu-toggle {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    order: 2;
-  }
-
   #logo img {
     vertical-align: middle;
   }
 
-  .sign-in-button {
-    order: 4;
+  .nav-menu {
+    order: 2;
+    justify-content: space-around;
   }
 
   .nav-menu ul {
     display: none;
     flex-direction: column;
     align-items: center;
+  }
+
+  .nav-menu ul.active {
+    display: flex;
   }
 
   .nav-menu li {
@@ -331,20 +506,20 @@
 
   .nav-menu .dropdown {
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    color: var(--color-black);
+    font-family: var(--font-family);
   }
 
   .nav-menu a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: var(--color-black);
   }
 
   .nav-dropdown-toggle {
     letter-spacing: 0.25px;
     margin-right: 10px;
     padding: 5px 30px 5px 20px;
-    font-size: 14px;
+    font-size: var(--font-size);
     line-height: 20px;
     cursor: pointer;
   }
@@ -361,7 +536,7 @@
   .nav-dropdown-list {
     display: none;
     position: absolute;
-    background-color: #c7c7c7;
+    background-color: var(--dropdown-background-color);
     border: 1px solid white;
     top: 100%;
     left: auto;
@@ -378,7 +553,32 @@
   .dropdown-link {
     display: block;
     padding: 10px;
-    color: black;
+    color: var(--color-black);
     text-decoration: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    order: 0;
+  }
+
+  .cancel-icon {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar.menu-active .menu-toggle {
+    display: none;
+  }
+
+  .navbar.menu-active .cancel-icon {
+    display: block;
+  }
+
+  .sign-in-button {
+    order: 3;
   }
 }

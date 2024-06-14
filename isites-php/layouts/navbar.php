@@ -3,12 +3,6 @@
         <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" id="logo">
             <img src="<?php echo $pathToWebRoot.'/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi&apos;s Sites" height="60px" alt="logo" />
         </a>
-        <button class="menu-toggle" id="menu-toggle">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </button>
-        <a href="#" class="main-button sign-in-button">Sign in</a>
         <div class="nav-menu">
             <ul>
                 <li><a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>">Home</a></li>
@@ -36,7 +30,16 @@
                         </nav>
                     </div>
                 </li>
+                <div class="sign-in-button">
+                    <a href="<?php echo $pathToWebRoot.'../includes/signin.php'; ?>" class="main-button">Sign in</a>
+                </div>
             </ul>
+        </div>
+        <button class="menu-toggle" id="menu-toggle">
+            <span class="fas fa-bars bar"></span>
+        </button>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
         </div>
     </nav>
 </div>
