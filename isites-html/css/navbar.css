@@ -211,16 +211,20 @@
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0;
+  border-radius: 5px;
   letter-spacing: 0.25px;
-  padding: 10px 20px 10px 20px;
+  padding: 8px 16px 8px 16px;
   font-size: 14px;
   line-height: 20px;
   cursor: pointer;
 }
 
 .menu-toggle:active {
-  color: #000;
+  color: #ffffff;
+  background-color: #a6b1bf;
+}
+
+.menu-toggle:hover {
   background-color: #a6b1bf;
 }
 
@@ -348,6 +352,10 @@
 
   .sign-in-button {
     order: 4;
+  }
+
+  .nav-menu {
+    margin-bottom: 20px;
   }
 
   .nav-menu ul {

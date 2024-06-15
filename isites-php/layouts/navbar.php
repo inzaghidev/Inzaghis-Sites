@@ -6,7 +6,7 @@
         <button class="menu-toggle" id="menu-toggle">
           <span class="fas fa-bars bar"></span>
         </button>
-        <a href="#" class="main-button sign-in-button">Sign in</a>
+        <a href="<?php echo $pathToWebRoot.'../includes/signin.php'; ?>" class="main-button sign-in-button">Sign in</a>
         <div class="nav-menu">
             <ul>
                 <li><a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>">Home</a></li>

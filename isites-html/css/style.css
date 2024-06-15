@@ -319,6 +319,7 @@ svg:not(:root) {
   border: none;
   cursor: pointer;
   padding: 0;
+  border-radius: 5px;
   letter-spacing: 0.25px;
   padding: 10px 20px 10px 20px;
   font-size: 14px;
@@ -327,7 +328,11 @@ svg:not(:root) {
 }
 
 .menu-toggle:active {
-  color: #000;
+  color: #ffffff;
+  background-color: #a6b1bf;
+}
+
+.menu-toggle:hover {
   background-color: #a6b1bf;
 }
 
@@ -430,12 +435,14 @@ svg:not(:root) {
   color: #fff;
   transition: all 0.2s;
   text-decoration: none;
+  text-decoration: none;
 }
 
 .main-button:hover {
   background-color: #555555;
   color: white;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .about-inzaghis-sites {
@@ -1469,10 +1476,6 @@ svg:not(:root) {
     transform-origin: 0px 0px;
   }
 
-  .container-top {
-    padding: 3.7em;
-  }
-
   .navbar {
     flex-direction: row;
     padding: 20px;
@@ -1582,15 +1585,15 @@ svg:not(:root) {
   }
 
   .main-button {
-    margin-top: 20px;
-    margin-bottom: 20px;
     border-radius: 5px;
+    text-decoration: none;
   }
 
   .main-button:hover {
     background-color: #555555;
     color: white;
     border-radius: 5px;
+    text-decoration: none;
   }
 
   .about-inzaghis-sites {
@@ -2307,6 +2310,10 @@ svg:not(:root) {
     order: 4;
   }
 
+  .nav-menu {
+    margin-bottom: 20px;
+  }
+
   .nav-menu ul {
     display: none;
     flex-direction: column;
@@ -2382,13 +2389,14 @@ svg:not(:root) {
     background-color: #1a1b1f;
     color: #fff;
     transition: all 0.2s;
-    text-decoration: none; /* Added */
+    text-decoration: none;
   }
 
   .main-button:hover {
     background-color: #555555;
     color: white;
     border-radius: 5px;
+    text-decoration: none;
   }
 
   .about-inzaghis-sites {
