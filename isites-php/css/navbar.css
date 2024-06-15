@@ -232,29 +232,10 @@ li a:hover::after {
   margin: var(--bar-margin);
 }
 
-.cancel-icon {
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  border-radius: 5px;
-  letter-spacing: 0.25px;
-  padding: 10px 20px 10px 20px;
-  font-size: 14px;
-  line-height: 20px;
-  cursor: pointer;
-  order: 0;
-  transition: all 0.3s ease;
-}
-
-.cancel-icon:active {
-  color: #ffffff;
-  background-color: #a6b1bf;
-}
-
-.cancel-icon:hover {
-  background-color: #a6b1bf;
+.cross {
+  width: var(--bar-width);
+  height: var(--bar-height);
+  margin: var(--bar-margin);
 }
 
 .menu-toggle {
@@ -262,10 +243,9 @@ li a:hover::after {
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0;
   border-radius: 5px;
   letter-spacing: 0.25px;
-  padding: 10px 20px 10px 20px;
+  padding: 8px 16px 8px 16px;
   font-size: 14px;
   line-height: 20px;
   cursor: pointer;
@@ -290,6 +270,30 @@ li a:hover::after {
 }
 
 .menu-toggle:hover {
+  background-color: #a6b1bf;
+}
+
+.cancel-icon {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  letter-spacing: 0.25px;
+  padding: 8px 16px 8px 16px;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  order: 0;
+  transition: all 0.3s ease;
+}
+
+.cancel-icon:active {
+  color: #ffffff;
+  background-color: #a6b1bf;
+}
+
+.cancel-icon:hover {
   background-color: #a6b1bf;
 }
 
@@ -439,6 +443,7 @@ li a:hover::after {
     display: none;
     margin-left: auto;
     margin-right: 20px;
+    order: 0;
   }
 
   #logo .menu-togle {
@@ -568,6 +573,7 @@ li a:hover::after {
     display: none;
     margin-left: auto;
     margin-right: auto;
+    order: 0;
   }
 
   .navbar.menu-active .menu-toggle {
@@ -579,6 +585,7 @@ li a:hover::after {
   }
 
   .sign-in-button {
+    margin-top: 20px;
     order: 3;
   }
 }

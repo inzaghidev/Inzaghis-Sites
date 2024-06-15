@@ -1268,20 +1268,16 @@ svg:not(:root) {
     transform-origin: 0px 0px;
   }
 
-  .container-top {
-    padding: 3.7em;
-  }
-
   .main-button {
-    margin-top: 20px;
-    margin-bottom: 20px;
     border-radius: 5px;
+    text-decoration: none;
   }
 
   .main-button:hover {
     background-color: #555555;
     color: white;
     border-radius: 5px;
+    text-decoration: none;
   }
 
   .about-inzaghis-sites {
