@@ -420,11 +420,16 @@ li a:hover::after {
     border-radius: 8px;
   }
 
-  .dropdown-link {
+  .menu-toggle {
     display: block;
-    padding: 10px;
-    color: var(--color-black);
-    text-decoration: none;
+    margin-left: auto;
+    margin-right: 20px;
+    order: 2;
+    color: initial; /* Ensure default color is set */
+  }
+
+  .navbar.menu-active .menu-toggle {
+    color: #818181;
   }
 
   .menu-toggle {
@@ -439,6 +444,7 @@ li a:hover::after {
   }
 
   .navbar.menu-active .cancel-icon {
+    background-color: #c9c9c9;
     display: block;
   }
 

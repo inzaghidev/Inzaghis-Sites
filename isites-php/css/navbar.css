@@ -15,6 +15,9 @@
   --bar-width: 16px;
   --bar-height: 10px;
   --bar-margin: 10px 0;
+  --cross-width: 11px;
+  --cross-height: 10px;
+  --cross-margin: 10px 0;
 }
 
 /* Tambahan untuk animasi */
@@ -233,9 +236,9 @@ li a:hover::after {
 }
 
 .cross {
-  width: var(--bar-width);
-  height: var(--bar-height);
-  margin: var(--bar-margin);
+  width: var(--cross-width);
+  height: var(--cross-height);
+  margin: var(--cross-margin);
 }
 
 .menu-toggle {
@@ -280,7 +283,7 @@ li a:hover::after {
   cursor: pointer;
   border-radius: 5px;
   letter-spacing: 0.25px;
-  padding: 8px 16px 8px 16px;
+  padding: 8px 19px 8px 18px;
   font-size: 14px;
   line-height: 20px;
   cursor: pointer;
@@ -417,11 +420,16 @@ li a:hover::after {
     border-radius: 8px;
   }
 
-  .dropdown-link {
+  .menu-toggle {
     display: block;
-    padding: 10px;
-    color: var(--color-black);
-    text-decoration: none;
+    margin-left: auto;
+    margin-right: 20px;
+    order: 2;
+    color: initial; /* Ensure default color is set */
+  }
+
+  .navbar.menu-active .menu-toggle {
+    color: #818181;
   }
 
   .menu-toggle {
@@ -436,6 +444,7 @@ li a:hover::after {
   }
 
   .navbar.menu-active .cancel-icon {
+    background-color: #c9c9c9;
     display: block;
   }
 
