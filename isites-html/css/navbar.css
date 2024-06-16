@@ -492,6 +492,7 @@ li a:hover::after {
     padding: 20px;
     position: relative;
     align-items: center;
+    justify-content: space-between;
   }
 
   #logo img {
@@ -575,6 +576,8 @@ li a:hover::after {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     order: 0;
   }
 
@@ -582,6 +585,8 @@ li a:hover::after {
     display: none;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     order: 0;
   }
 
