@@ -1,9 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
   const menuToggle = document.getElementById("menu-toggle");
   const navMenu = document.querySelector(".nav-menu ul");
+  const navbar = document.querySelector(".navbar .menu-toggle"); // Add this line to select the navbar
 
   menuToggle.addEventListener("click", function () {
     navMenu.classList.toggle("active");
+    navbar.classList.toggle("menu-active");
+
+    // Toggle the color of menu-toggle button
+    if (navbar.classList.contains("menu-active")) {
+      menuToggle.style.color = "#818181"; // Change to desired color when menu is active
+    } else {
+      menuToggle.style.color = ""; // Reset to default color when menu is not active
+    }
   });
 
   const aboutLink = document.querySelector(".about-link");

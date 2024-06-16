@@ -220,7 +220,7 @@
 }
 
 .menu-toggle:active {
-  color: #ffffff;
+  color: #818181;
   background-color: #a6b1bf;
 }
 
@@ -327,9 +327,14 @@
     margin-left: auto;
     margin-right: 20px;
     order: 2;
+    color: initial; /* Ensure default color is set */
   }
 
-  #logo .menu-togle {
+  .navbar.menu-active .menu-toggle {
+    color: #818181;
+  }
+
+  #logo .menu-toggle {
     display: flex;
   }
 }

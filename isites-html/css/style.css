@@ -1578,6 +1578,11 @@ svg:not(:root) {
     margin-left: auto;
     margin-right: 20px;
     order: 2;
+    color: initial; /* Ensure default color is set */
+  }
+
+  .navbar.menu-active .menu-toggle {
+    color: #818181;
   }
 
   #logo .menu-togle {
