@@ -29,6 +29,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet"> 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title><?php echo $page_title . " - Inzaghi's Sites"; ?></title>
     <link rel="shortcut icon" href="<?php echo $pathToWebRoot.'/images/inzaghis-sites-favicon-36x36-icon-only.png'; ?>" />
 </head>
