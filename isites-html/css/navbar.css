@@ -79,6 +79,12 @@
   vertical-align: middle;
 }
 
+.nav-menu-container {
+  order: 5;
+  margin: auto;
+  width: 75vw;
+}
+
 .nav-menu {
   display: flex;
   justify-content: center; /* Menu di tengah */
@@ -264,7 +270,6 @@ li a:hover::after {
 .navbar.menu-active .cancel-icon {
   display: none;
   animation: fadeIn 0.3s;
-  order: 0;
 }
 
 .menu-toggle:active {
@@ -315,6 +320,7 @@ li a:hover::after {
 .sign-in-button {
   color: var(--color-white); /* Mengubah warna teks menjadi putih */
   text-decoration: none; /* Untuk memastikan tidak ada garis bawah pada teks */
+  display: block;
 }
 
 .sign-in-button .main-button {
@@ -344,8 +350,12 @@ li a:hover::after {
     justify-content: space-between;
   }
 
-  .nav-menu {
+  .nav-menu-container {
     order: 5;
+    width: 100vw;
+  }
+
+  .nav-menu {
     justify-content: space-around;
   }
 
@@ -424,19 +434,12 @@ li a:hover::after {
     display: block;
     margin-left: auto;
     margin-right: 20px;
-    order: 2;
+    order: 4;
     color: initial; /* Ensure default color is set */
   }
 
   .navbar.menu-active .menu-toggle {
     color: #818181;
-  }
-
-  .menu-toggle {
-    display: block;
-    margin-left: auto;
-    margin-right: 20px;
-    order: 0;
   }
 
   .navbar.menu-active .menu-toggle {
@@ -446,6 +449,10 @@ li a:hover::after {
   .navbar.menu-active .cancel-icon {
     background-color: #c9c9c9;
     display: block;
+  }
+
+  .nav-menu.active ~ .sign-in-button {
+    display: block; /* Show when nav menu is active */
   }
 
   .cancel-icon {
@@ -461,10 +468,11 @@ li a:hover::after {
 
   .sign-in-button {
     order: 3;
+    display: none;
   }
 
   .sign-in-button.active {
-    display: inline-block;
+    display: block;
     padding: 12px 20px;
     font-size: 12px;
     line-height: 20px;
@@ -499,8 +507,11 @@ li a:hover::after {
     vertical-align: middle;
   }
 
+  .nav-menu-container {
+    order: 5;
+  }
+
   .nav-menu {
-    order: 2;
     justify-content: space-around;
   }
 
@@ -511,7 +522,7 @@ li a:hover::after {
   }
 
   .nav-menu ul.active {
-    display: flex;
+    display: flex; /* Bisa diganti menjadi None */
   }
 
   .nav-menu li {
@@ -575,16 +586,16 @@ li a:hover::after {
   .menu-toggle {
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    order: 5;
+    order: 4;
   }
 
   .cancel-icon {
     display: none;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     order: 0;
@@ -602,8 +613,13 @@ li a:hover::after {
     display: block;
   }
 
+  .nav-menu.active .sign-in-button {
+    display: block; /* Show when nav menu is active */
+  }
+
   .sign-in-button {
     margin-top: 20px;
     order: 3;
+    display: none;
   }
 }

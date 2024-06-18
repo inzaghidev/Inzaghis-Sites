@@ -197,10 +197,6 @@ svg:not(:root) {
   padding: 40px;
 }
 
-.sign-in-button {
-  order: 2; /* Mengatur urutan tombol "Sign in" menjadi ke-2 (sebelah kanan) */
-}
-
 .main-button {
   display: inline-block;
   padding: 12px 20px;

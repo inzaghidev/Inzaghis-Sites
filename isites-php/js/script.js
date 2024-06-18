@@ -3,16 +3,45 @@ document.addEventListener("DOMContentLoaded", function () {
   const cancelIcon = document.querySelector(".cancel-icon");
   const navMenu = document.querySelector(".nav-menu ul");
   const navbar = document.querySelector(".navbar");
+  const signInButton = document.querySelector(".sign-in-button");
 
   menuToggle.addEventListener("click", function () {
     navMenu.classList.toggle("active");
     navbar.classList.toggle("menu-active");
+
+    // Show or hide sign-in button based on nav menu state and screen size
+    if (navMenu.classList.contains("active") && window.innerWidth <= 1140) {
+      signInButton.style.display = "block";
+    } else if (window.innerWidth <= 1140) {
+      signInButton.style.display = "none";
+    }
   });
 
   cancelIcon.addEventListener("click", function () {
     navMenu.classList.remove("active");
     navbar.classList.remove("menu-active");
+
+    // Hide sign-in button when nav menu is closed on tablet and mobile
+    if (window.innerWidth <= 1140) {
+      signInButton.style.display = "none";
+    }
   });
+
+  // Ensure sign-in button is displayed on desktop resize
+  window.addEventListener("resize", function () {
+    if (window.innerWidth > 1140) {
+      signInButton.style.display = "block";
+    } else if (!navMenu.classList.contains("active")) {
+      signInButton.style.display = "none";
+    }
+  });
+
+  // Initial check to set correct display state
+  if (window.innerWidth > 1140) {
+    signInButton.style.display = "block";
+  } else {
+    signInButton.style.display = "none";
+  }
 });
 
 document.addEventListener("DOMContentLoaded", function () {
