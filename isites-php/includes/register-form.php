@@ -1,6 +1,7 @@
 <?php
 	$page_title = "Home";
 	include('../layouts/header.php');
+    include('../layouts/navbar.php');
 ?>
     <link rel="stylesheet" href="../css/form.css" type="text/css" />
     <div class="container-top"></div>
