@@ -104,7 +104,8 @@
 }
 
 .nav-menu li {
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   border-radius: 20px;
 }
 
@@ -119,7 +120,6 @@
   text-decoration: none;
   color: var(--color-black);
   font-family: var(--font-family);
-  margin-bottom: 5px;
   margin-top: 5px;
 }
 
@@ -325,7 +325,7 @@ li a:hover::after {
 
 .sign-in-button .main-button {
   display: block;
-  padding: 8px 16px;
+  padding: 9px 18px;
   background-color: var(--color-black);
   color: var(--color-white);
   text-align: center;
@@ -370,6 +370,8 @@ li a:hover::after {
   .nav-menu ul.active {
     display: flex;
     opacity: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -386,8 +388,9 @@ li a:hover::after {
   }
 
   .nav-menu li {
-    margin-right: 20px; /* Tambahkan margin right agar ada jarak antar elemen */
-    margin-bottom: 0; /* Hapus margin bottom untuk jarak yang lebih konsisten */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
   }
 
   .nav-dropdown-list {
@@ -468,6 +471,7 @@ li a:hover::after {
 
   .sign-in-button {
     order: 3;
+    margin: auto;
     display: none;
   }
 
@@ -503,6 +507,12 @@ li a:hover::after {
     justify-content: space-between;
   }
 
+  .navbar .nav-menu {
+    display: grid;
+    text-decoration: none;
+    position: relative;
+  }
+
   #logo img {
     vertical-align: middle;
   }
@@ -526,7 +536,8 @@ li a:hover::after {
   }
 
   .nav-menu li {
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 20px;
   }
 
@@ -619,6 +630,7 @@ li a:hover::after {
 
   .sign-in-button {
     margin-top: 20px;
+    margin-bottom: 10px;
     order: 3;
     display: none;
   }
