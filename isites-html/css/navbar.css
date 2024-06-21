@@ -1,5 +1,5 @@
 :root {
-  --background-color: white;
+  --background-color: #edfbee;
   --background-color-transparent: rgba(255, 255, 255, 0.6);
   --blur-effect: blur(10px);
   --navbar-padding: 30px;
@@ -12,6 +12,7 @@
   --border-color: #c8cacc;
   --dropdown-background-color: rgba(199, 199, 199, 0.9);
   --dropdown-hover-background-color: white;
+  --side-navbar-background-color: #80bc4e;
   --bar-width: 16px;
   --bar-height: 10px;
   --bar-margin: 10px 0;
@@ -47,6 +48,7 @@
   background-color: var(--background-color);
   transition: background-color var(--transition-duration) ease;
   position: fixed;
+  top: 0;
   z-index: 10;
   border-bottom: 2px solid var(--border-color);
   border-style: solid;
@@ -498,7 +500,13 @@ li a:hover::after {
 
 @media screen and (max-width: 720px) {
   .nav-header {
-    position: relative;
+    position: fixed;
+  }
+
+  .nav-header.transparency {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 
   .navbar {
@@ -520,7 +528,26 @@ li a:hover::after {
   }
 
   .nav-menu-container {
-    order: 5;
+    position: fixed;
+    top: 100px;
+    left: -100%; /* Hide by default */
+    height: 100%;
+    width: 300px;
+    background-color: var(--side-navbar-background-color); /* Background */
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+
+  .nav-menu-container.active {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    height: -webkit-fill-available;
+    width: 300px;
+    background-color: var(--side-navbar-background-color);
+    transition: left 0.3s ease;
+    z-index: 1000;
+    overflow-y: auto;
   }
 
   .nav-menu {
@@ -528,9 +555,31 @@ li a:hover::after {
   }
 
   .nav-menu ul {
-    display: none;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  .nav-menu ul li {
+    margin: 5px 0;
+    width: 100%;
+  }
+
+  .nav-menu ul li a {
+    color: black; /* Text Color */
+    padding: 15px;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .nav-header.transparency {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  li a::before {
+    color: #ff3d00;
   }
 
   .nav-menu ul.active {
@@ -547,6 +596,7 @@ li a:hover::after {
     text-decoration: none;
     color: var(--color-black);
     font-family: var(--font-family);
+    margin: 10px 0px;
   }
 
   .nav-menu a {
@@ -618,16 +668,8 @@ li a:hover::after {
     display: flex;
   }
 
-  .navbar.menu-active .menu-toggle {
-    display: none;
-  }
-
-  .navbar.menu-active .cancel-icon {
+  .nav-menu-container.active ~ .cancel-icon {
     display: block;
-  }
-
-  .nav-menu.active .sign-in-button {
-    display: block; /* Show when nav menu is active */
   }
 
   .sign-in-button {

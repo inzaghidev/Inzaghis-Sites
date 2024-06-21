@@ -3,10 +3,45 @@ document.addEventListener("DOMContentLoaded", function () {
   const cancelIcon = document.querySelector(".cancel-icon");
   const navMenu = document.querySelector(".nav-menu ul");
   const navbar = document.querySelector(".navbar");
+  const navMenuContainer = document.querySelector(".nav-menu-container");
   const signInButton = document.querySelector(".sign-in-button");
+
+  function updateBeforeStyles() {
+    const existingStyle = document.getElementById("dynamic-mobile-style");
+    if (window.innerWidth < 720) {
+      if (!existingStyle) {
+        const mobileStyle = document.createElement("style");
+        mobileStyle.id = "dynamic-mobile-style";
+        mobileStyle.textContent = `
+          .nav-menu ul li a::before {
+            content: "";
+            background: none;
+            color: #ff3d00;
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            opacity: 0;
+            transition: 0.2s transform ease;
+            transform: scale3d(0, 1, 1);
+            transform-origin: 0 50%;
+          }
+        `;
+        document.head.appendChild(mobileStyle);
+      }
+    } else if (existingStyle) {
+      existingStyle.remove();
+    }
+  }
+
+  updateBeforeStyles();
+  window.addEventListener("resize", updateBeforeStyles);
 
   menuToggle.addEventListener("click", function () {
     navMenu.classList.toggle("active");
+    navMenuContainer.classList.toggle("active");
     navbar.classList.toggle("menu-active");
 
     // Show or hide sign-in button based on nav menu state and screen size
@@ -14,16 +49,21 @@ document.addEventListener("DOMContentLoaded", function () {
       signInButton.style.display = "block";
     } else if (window.innerWidth <= 1140) {
       signInButton.style.display = "none";
+    } else {
+      cancelIcon.style.display = "block";
     }
   });
 
   cancelIcon.addEventListener("click", function () {
     navMenu.classList.remove("active");
+    navMenuContainer.classList.remove("active");
     navbar.classList.remove("menu-active");
 
     // Hide sign-in button when nav menu is closed on tablet and mobile
     if (window.innerWidth <= 1140) {
       signInButton.style.display = "none";
+    } else {
+      cancelIcon.style.display = "none";
     }
   });
 
@@ -49,9 +89,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function handleScroll() {
     if (window.scrollY > 0) {
-      navHeader.classList.add("transparency");
+      // navHeader.classList.add("transparency");
     } else {
-      navHeader.classList.remove("transparency");
+      // navHeader.classList.remove("transparency");
     }
   }
 

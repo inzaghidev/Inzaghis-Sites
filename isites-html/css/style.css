@@ -5,6 +5,14 @@
   text-decoration: none;
 }
 
+:root {
+  --font-family: "Inter", "Helvetica Neue", Helvetica, sans-serif;
+  --background-color: var(--color-white);
+  --color-white: white;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -19,10 +27,10 @@ html {
 body {
   margin: auto;
   padding: 0;
-  font-size: 16px;
+  font-size: var(--font-size-16);
   font-family: Arial, sans-serif;
   position: relative;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 dl {
@@ -114,7 +122,7 @@ h5 {
 h6 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: var(--font-size-16);
   font-weight: 500;
   line-height: 28px;
   font-family: Arial, sans-serif;
@@ -125,7 +133,7 @@ a {
   text-decoration: none;
   transition: opacity 0.2s;
   display: block;
-  font-size: 16px;
+  font-size: var(--font-size-16);
 }
 
 a:hover {
@@ -151,7 +159,7 @@ label {
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: var(--font-size-14);
   font-weight: 500px;
   line-height: 20px;
 }
@@ -169,7 +177,7 @@ figcaption {
   opacity: 1;
   text-align: center;
   margin-top: 5px;
-  font-size: 14px;
+  font-size: var(--font-size-14);
   line-height: 26px;
 }
 
@@ -213,7 +221,7 @@ svg:not(:root) {
 
 .main-button:hover {
   background-color: #555555;
-  color: white;
+  color: var(--color-white);
   border-radius: 5px;
 }
 
@@ -268,7 +276,7 @@ svg:not(:root) {
   max-width: 1080px;
   margin: 0 auto;
   margin-bottom: 32px;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -312,7 +320,7 @@ svg:not(:root) {
   max-width: 1080px;
   margin: 0 auto;
   margin-bottom: 32px;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -337,17 +345,17 @@ svg:not(:root) {
 }
 
 .inzaghis-sites-description {
-  font-size: 14px;
+  font-size: var(--font-size-14);
   line-height: 1.6;
   margin-bottom: 20px;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
 }
 
 .is-desc {
-  font-size: 14px;
+  font-size: var(--font-size-14);
   line-height: 1.6;
   margin-bottom: 20px;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
 }
 
 .welcome-image-to-inzaghis-sites img {
@@ -384,7 +392,7 @@ svg:not(:root) {
 
 .about-us-title {
   margin-bottom: 32px;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 40px;
   font-weight: 700;
 }
@@ -415,7 +423,7 @@ svg:not(:root) {
 
 .text-title {
   text-align: center;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 24px;
   font-weight: bold;
 }
@@ -423,7 +431,7 @@ svg:not(:root) {
 .card-name {
   margin-bottom: 12px;
   text-align: center;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-weight: 600;
   font-size: 28px;
 }
@@ -487,7 +495,7 @@ svg:not(:root) {
 }
 .hcg-slide-text {
   color: #ffffff;
-  font-size: 16px; /* Samakan ukuran font */
+  font-size: var(--font-size-16); /* Samakan ukuran font */
   padding: 3px 5px;
   position: absolute;
   bottom: 0;
@@ -620,7 +628,7 @@ svg:not(:root) {
 
 .title-heading {
   text-align: center;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 36px;
   font-weight: bold;
 }
@@ -630,7 +638,8 @@ svg:not(:root) {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
+  font-size: var(--font-size-16);
 }
 
 .text-description {
@@ -638,7 +647,8 @@ svg:not(:root) {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
+  font-size: var(--font-size-16);
 }
 
 .left-subheading {
@@ -648,8 +658,8 @@ svg:not(:root) {
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 20px;
-  font-size: 16px;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: var(--font-size-14);
+  font-family: var(--font-family);
 }
 
 .group-wrapper {
@@ -680,13 +690,13 @@ svg:not(:root) {
 
 .group-title {
   text-align: center;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 34px;
   font-weight: bold;
 }
 
 .title-page {
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 38px;
   font-weight: bold;
 }
@@ -846,7 +856,7 @@ svg:not(:root) {
   margin-top: 12px;
   margin-bottom: 12px;
   text-align: center;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-weight: 600;
   font-size: 28px;
 }
@@ -873,7 +883,7 @@ svg:not(:root) {
 }
 
 .blog-link {
-  color: white;
+  color: var(--color-white);
 }
 
 .blog-link:hover {
@@ -882,7 +892,7 @@ svg:not(:root) {
 }
 
 .apps-link {
-  color: white;
+  color: var(--color-white);
   margin-top: 0;
 }
 
@@ -894,8 +904,8 @@ svg:not(:root) {
 .blog-description {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 16px;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: var(--font-size-14);
+  font-family: var(--font-family);
   word-wrap: break-word;
 }
 
@@ -962,7 +972,7 @@ svg:not(:root) {
 .socmed-name {
   margin-bottom: 12px;
   text-align: center;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-weight: 600;
   font-size: 28px;
 }
@@ -971,8 +981,8 @@ svg:not(:root) {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 16px;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: var(--font-size-14);
+  font-family: var(--font-family);
   word-wrap: break-word;
 }
 
@@ -996,7 +1006,7 @@ svg:not(:root) {
 
 .inzaghis-group-heading {
   text-align: center;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 34px;
   font-weight: bold;
 }
@@ -1017,12 +1027,12 @@ svg:not(:root) {
 .inzaghis-group-description {
   width: 100%;
   max-width: 1080px;
-  font-size: 14px;
+  font-size: var(--font-size-14);
   line-height: 1.6;
   margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
 }
 
 .inzaghis-group-container {
@@ -1065,7 +1075,7 @@ svg:not(:root) {
 }
 
 .footer-title {
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 20px;
   margin-bottom: 20px;
 }
@@ -1081,8 +1091,8 @@ svg:not(:root) {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: var(--font-family);
+  font-size: var(--font-size-14);
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -1096,8 +1106,8 @@ svg:not(:root) {
 
 .footer-copyright {
   color: #3a4554;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: var(--font-family);
+  font-size: var(--font-size-14);
 }
 
 /* Responsive Styles for Tablet */
@@ -1110,10 +1120,10 @@ svg:not(:root) {
   body {
     margin: auto;
     padding: 0;
-    font-size: 16px;
+    font-size: var(--font-size-16);
     font-family: Arial, sans-serif;
     position: relative;
-    background-color: #ffffff;
+    background-color: var(--background-color);
   }
 
   dl {
@@ -1195,7 +1205,7 @@ svg:not(:root) {
   h6 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: var(--font-size-16);
     font-weight: 500;
     line-height: 28px;
     font-family: Arial, sans-serif;
@@ -1206,7 +1216,7 @@ svg:not(:root) {
     text-decoration: none;
     transition: opacity 0.2s;
     display: block;
-    font-size: 16px;
+    font-size: var(--font-size-16);
   }
 
   a:hover {
@@ -1230,7 +1240,7 @@ svg:not(:root) {
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: var(--font-size-14);
     font-weight: 500px;
     line-height: 20px;
   }
@@ -1248,7 +1258,7 @@ svg:not(:root) {
     opacity: 1;
     text-align: center;
     margin-top: 5px;
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 26px;
   }
 
@@ -1271,7 +1281,7 @@ svg:not(:root) {
 
   .main-button:hover {
     background-color: #555555;
-    color: white;
+    color: var(--color-white);
     border-radius: 5px;
     text-decoration: none;
   }
@@ -1308,7 +1318,7 @@ svg:not(:root) {
     max-width: 1080px;
     margin: 0 auto;
     margin-bottom: 32px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -1343,7 +1353,7 @@ svg:not(:root) {
     max-width: 1080px;
     margin: 0 auto;
     margin-bottom: 32px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -1361,17 +1371,17 @@ svg:not(:root) {
   }
 
   .inzaghis-sites-description {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .is-desc {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .welcome-image-to-inzaghis-sites img {
@@ -1408,7 +1418,7 @@ svg:not(:root) {
 
   .about-us-title {
     margin-bottom: 32px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
   }
@@ -1431,12 +1441,12 @@ svg:not(:root) {
   }
 
   .inzaghis-group-description {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .inzaghis-group-container {
@@ -1491,7 +1501,7 @@ svg:not(:root) {
 
   .title-heading {
     text-align: center;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .centered-subheading {
@@ -1499,7 +1509,8 @@ svg:not(:root) {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
   }
 
   .text-description {
@@ -1507,7 +1518,8 @@ svg:not(:root) {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
   }
 
   .group-title {
@@ -1519,7 +1531,8 @@ svg:not(:root) {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
   }
 
   .group-image img {
@@ -1622,13 +1635,13 @@ svg:not(:root) {
     margin-top: 12px;
     margin-bottom: 12px;
     text-align: center;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 600;
     font-size: 20px;
   }
 
   .blog-link {
-    color: white;
+    color: var(--color-white);
   }
 
   .blog-link:hover {
@@ -1637,7 +1650,7 @@ svg:not(:root) {
   }
 
   .apps-link {
-    color: white;
+    color: var(--color-white);
   }
 
   .apps-link:hover {
@@ -1648,8 +1661,8 @@ svg:not(:root) {
   .blog-description {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 16px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: var(--font-size-14);
+    font-family: var(--font-family);
     word-wrap: break-word;
   }
 
@@ -1695,7 +1708,7 @@ svg:not(:root) {
   .socmed-name {
     margin-bottom: 12px;
     text-align: center;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 600;
     font-size: 24px;
   }
@@ -1704,8 +1717,8 @@ svg:not(:root) {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 16px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: var(--font-size-14);
+    font-family: var(--font-family);
     word-wrap: break-word;
   }
 
@@ -1756,7 +1769,7 @@ svg:not(:root) {
   }
 
   .footer-title {
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 20px;
     margin-bottom: 20px;
   }
@@ -1767,8 +1780,8 @@ svg:not(:root) {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
     display: flex;
   }
 
@@ -1780,8 +1793,8 @@ svg:not(:root) {
 
   .footer-copyright {
     color: #3a4554;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
   }
 }
 
@@ -1806,10 +1819,10 @@ svg:not(:root) {
   body {
     margin: auto;
     padding: 0;
-    font-size: 16px;
+    font-size: var(--font-size-16);
     font-family: Arial, sans-serif;
     position: relative;
-    background-color: #ffffff;
+    background-color: var(--background-color);
   }
 
   dl {
@@ -1891,7 +1904,7 @@ svg:not(:root) {
   h6 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: var(--font-size-16);
     font-weight: 500;
     line-height: 28px;
     font-family: Arial, sans-serif;
@@ -1902,7 +1915,7 @@ svg:not(:root) {
     text-decoration: none;
     transition: opacity 0.2s;
     display: block;
-    font-size: 16px;
+    font-size: var(--font-size-16);
   }
 
   a:hover {
@@ -1926,7 +1939,7 @@ svg:not(:root) {
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: var(--font-size-14);
     font-weight: 500px;
     line-height: 20px;
   }
@@ -1944,7 +1957,7 @@ svg:not(:root) {
     opacity: 1;
     text-align: center;
     margin-top: 5px;
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 26px;
   }
 
@@ -1961,7 +1974,7 @@ svg:not(:root) {
   }
 
   .container-top {
-    padding: 0;
+    padding: 2.9em;
   }
 
   .main-button {
@@ -1979,7 +1992,7 @@ svg:not(:root) {
 
   .main-button:hover {
     background-color: #555555;
-    color: white;
+    color: var(--color-white);
   }
 
   .about-inzaghis-sites {
@@ -1996,6 +2009,7 @@ svg:not(:root) {
     background-color: #f5f7fa;
     border-bottom: 1px solid #e4ebf3;
     padding: 60px 30px;
+    padding-top: 10em;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -2013,7 +2027,7 @@ svg:not(:root) {
     max-width: 1080px;
     margin: 0 auto;
     margin-bottom: 32px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -2048,7 +2062,7 @@ svg:not(:root) {
     max-width: 1080px;
     margin: 0 auto;
     margin-bottom: 32px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -2066,17 +2080,17 @@ svg:not(:root) {
   }
 
   .inzaghis-sites-description {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .is-desc {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .about-inzaghis-sites-button {
@@ -2118,7 +2132,7 @@ svg:not(:root) {
 
   .about-us-title {
     margin-bottom: 32px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
   }
@@ -2141,13 +2155,13 @@ svg:not(:root) {
   }
 
   .inzaghis-group-description {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 1.6;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .inzaghis-group-container {
@@ -2214,7 +2228,7 @@ svg:not(:root) {
 
   .title-heading {
     text-align: center;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .centered-subheading {
@@ -2222,7 +2236,7 @@ svg:not(:root) {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .group-title {
@@ -2234,7 +2248,7 @@ svg:not(:root) {
     max-width: 800px;
     margin-left: 10px;
     margin-right: auto;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .group-content {
@@ -2310,13 +2324,13 @@ svg:not(:root) {
     margin-top: 12px;
     margin-bottom: 12px;
     text-align: center;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 600;
     font-size: 28px;
   }
 
   .blog-link {
-    color: white;
+    color: var(--color-white);
   }
 
   .blog-link:hover {
@@ -2325,7 +2339,7 @@ svg:not(:root) {
   }
 
   .apps-link {
-    color: white;
+    color: var(--color-white);
   }
 
   .apps-link:hover {
@@ -2337,8 +2351,7 @@ svg:not(:root) {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
-    font-size: 16px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     word-wrap: break-word;
   }
 
@@ -2397,7 +2410,7 @@ svg:not(:root) {
   .socmed-name {
     margin-bottom: 12px;
     text-align: center;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 600;
     font-size: 28px;
   }
@@ -2406,8 +2419,8 @@ svg:not(:root) {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 16px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: var(--font-size-14);
+    font-family: var(--font-family);
     word-wrap: break-word;
   }
 
@@ -2470,7 +2483,7 @@ svg:not(:root) {
   }
 
   .footer-title {
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 20px;
     margin-bottom: 20px;
   }
@@ -2481,8 +2494,8 @@ svg:not(:root) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
     display: flex;
     width: 100%;
     margin-bottom: 20px;
@@ -2497,8 +2510,8 @@ svg:not(:root) {
 
   .footer-copyright {
     color: #3a4554;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
     width: 100%; /* Mengisi seluruh lebar pada perangkat mobile */
     text-align: center; /* Center-align teks pada perangkat mobile */
   }
