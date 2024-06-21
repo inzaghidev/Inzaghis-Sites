@@ -189,20 +189,12 @@ svg:not(:root) {
   padding: 2.9em;
 }
 
-#logo img {
-  vertical-align: middle;
-}
-
 .pages {
   max-width: 1680px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
-}
-
-.sign-in-button {
-  order: 2; /* Mengatur urutan tombol "Sign in" menjadi ke-2 (sebelah kanan) */
 }
 
 .main-button {
@@ -223,7 +215,6 @@ svg:not(:root) {
   background-color: #555555;
   color: white;
   border-radius: 5px;
-  text-decoration: none;
 }
 
 .about-inzaghis-sites {
@@ -1273,14 +1264,6 @@ svg:not(:root) {
     transform-origin: 0px 0px;
   }
 
-  #logo {
-    order: 1;
-  }
-
-  #logo img {
-    vertical-align: middle;
-  }
-
   .main-button {
     border-radius: 5px;
     text-decoration: none;
@@ -1992,14 +1975,13 @@ svg:not(:root) {
     background-color: #1a1b1f;
     color: #fff;
     transition: all 0.2s;
-    text-decoration: none;
+    text-decoration: none; /* Added */
   }
 
   .main-button:hover {
     background-color: #555555;
     color: white;
     border-radius: 5px;
-    text-decoration: none;
   }
 
   .about-inzaghis-sites {

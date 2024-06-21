@@ -1,66 +1,63 @@
 document.addEventListener("DOMContentLoaded", function () {
   const menuToggle = document.getElementById("menu-toggle");
+  const cancelIcon = document.querySelector(".cancel-icon");
   const navMenu = document.querySelector(".nav-menu ul");
-  const navbar = document.querySelector(".navbar .menu-toggle"); // Add this line to select the navbar
+  const navbar = document.querySelector(".navbar");
+  const signInButton = document.querySelector(".sign-in-button");
 
   menuToggle.addEventListener("click", function () {
     navMenu.classList.toggle("active");
     navbar.classList.toggle("menu-active");
 
-    // Toggle the color of menu-toggle button
-    if (navbar.classList.contains("menu-active")) {
-      menuToggle.style.color = "#818181"; // Change to desired color when menu is active
-    } else {
-      menuToggle.style.color = ""; // Reset to default color when menu is not active
+    // Show or hide sign-in button based on nav menu state and screen size
+    if (navMenu.classList.contains("active") && window.innerWidth <= 1140) {
+      signInButton.style.display = "block";
+    } else if (window.innerWidth <= 1140) {
+      signInButton.style.display = "none";
     }
   });
 
-  const aboutLink = document.querySelector(".about-link");
-  const profileLink = document.querySelector(".profile-link");
-  const pagesLink = document.querySelector(".pages-link");
-  const networksLink = document.querySelector(".networks-link");
-  const contactLink = document.querySelector(".contact");
+  cancelIcon.addEventListener("click", function () {
+    navMenu.classList.remove("active");
+    navbar.classList.remove("menu-active");
 
-  aboutLink.addEventListener("click", function () {
-    window.location.href = "./pages/about.php";
+    // Hide sign-in button when nav menu is closed on tablet and mobile
+    if (window.innerWidth <= 1140) {
+      signInButton.style.display = "none";
+    }
   });
 
-  profileLink.addEventListener("click", function () {
-    window.location.href = "./pages/profile.php";
+  // Ensure sign-in button is displayed on desktop resize
+  window.addEventListener("resize", function () {
+    if (window.innerWidth > 1140) {
+      signInButton.style.display = "block";
+    } else if (!navMenu.classList.contains("active")) {
+      signInButton.style.display = "none";
+    }
   });
 
-  pagesLink.addEventListener("click", function () {
-    window.location.href = "./pages/apps.php";
-  });
-
-  networksLink.addEventListener("click", function () {
-    window.location.href = "./pages/networks.php";
-  });
-
-  contactLink.addEventListener("click", function () {
-    window.location.href = "./pages/contact.php";
-  });
+  // Initial check to set correct display state
+  if (window.innerWidth > 1140) {
+    signInButton.style.display = "block";
+  } else {
+    signInButton.style.display = "none";
+  }
 });
 
 document.addEventListener("DOMContentLoaded", function () {
   const navHeader = document.getElementById("navHeader");
 
-  // Function to handle scroll event
   function handleScroll() {
     if (window.scrollY > 0) {
-      navHeader.classList.add("transparency"); // Add transparency class when scrolling down
+      navHeader.classList.add("transparency");
     } else {
-      navHeader.classList.remove("transparency"); // Remove transparency class when at the top
+      navHeader.classList.remove("transparency");
     }
   }
 
-  // Add scroll event listener
   window.addEventListener("scroll", handleScroll);
-
-  // Initial check on page load in case page is scrolled
   handleScroll();
 
-  // Additional CSS added dynamically
   const additionalCSS = `
     .nav-header.transparency {
       background-color: rgba(255, 255, 255, 0.6);
@@ -103,13 +100,13 @@ $(document).ready(function () {
   console.log("Document Ready");
 
   // Memuat header ke dalam halaman
-  $("#header-container").load("../layouts/header.php", function () {
+  $("#header-container").load("../layouts/header.html", function () {
     // Call this function after the header is loaded
     setupMenuToggle();
   });
 
   // Memuat footer ke dalam halaman
-  $("#footer-container").load("../layouts/footer.php");
+  $("#footer-container").load("../layouts/footer.html");
 });
 
 function setupMenuToggle() {
