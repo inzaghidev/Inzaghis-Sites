@@ -1,5 +1,5 @@
 :root {
-  --background-color: white;
+  --background-color: #edfbee;
   --background-color-transparent: rgba(255, 255, 255, 0.6);
   --blur-effect: blur(10px);
   --navbar-padding: 30px;
@@ -48,6 +48,7 @@
   background-color: var(--background-color);
   transition: background-color var(--transition-duration) ease;
   position: fixed;
+  top: 0;
   z-index: 10;
   border-bottom: 2px solid var(--border-color);
   border-style: solid;
@@ -528,24 +529,21 @@ li a:hover::after {
 
   .nav-menu-container {
     position: fixed;
-    top: 0;
-    left: -100%; /* Hide by default */
+    top: 100px;
+    left: -100%;
     height: 100%;
     width: 300px;
-    background-color: var(--side-navbar-background-color); /* Background */
+    background-color: var(--side-navbar-background-color);
     transition: left 0.3s ease;
     z-index: 1000;
   }
 
   .nav-menu-container.active {
-    position: fixed;
-    top: 100px;
     left: 0;
-    height: -webkit-fill-available;
+    top: 100px;
+    bottom: auto;
+    height: 100vh;
     width: 300px;
-    background-color: var(--side-navbar-background-color);
-    transition: left 0.3s ease;
-    z-index: 1000;
     overflow-y: auto;
   }
 
@@ -559,7 +557,7 @@ li a:hover::after {
   }
 
   .nav-menu ul li {
-    margin: 10px 0;
+    margin: 5px 0;
     width: 100%;
   }
 
@@ -595,6 +593,7 @@ li a:hover::after {
     text-decoration: none;
     color: var(--color-black);
     font-family: var(--font-family);
+    margin: 10px 0px;
   }
 
   .nav-menu a {

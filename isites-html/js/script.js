@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const navbar = document.querySelector(".navbar");
   const navMenuContainer = document.querySelector(".nav-menu-container");
   const signInButton = document.querySelector(".sign-in-button");
+  const navHeader = document.getElementById("navHeader");
 
   function updateBeforeStyles() {
     const existingStyle = document.getElementById("dynamic-mobile-style");
@@ -36,15 +37,24 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  function handleScroll() {
+    if (window.scrollY > 0) {
+      navHeader.classList.add("transparency");
+    } else {
+      navHeader.classList.remove("transparency");
+    }
+  }
+
   updateBeforeStyles();
   window.addEventListener("resize", updateBeforeStyles);
+  window.addEventListener("scroll", handleScroll);
+  handleScroll();
 
   menuToggle.addEventListener("click", function () {
     navMenu.classList.toggle("active");
     navMenuContainer.classList.toggle("active");
     navbar.classList.toggle("menu-active");
 
-    // Show or hide sign-in button based on nav menu state and screen size
     if (navMenu.classList.contains("active") && window.innerWidth <= 1140) {
       signInButton.style.display = "block";
     } else if (window.innerWidth <= 1140) {
@@ -59,7 +69,6 @@ document.addEventListener("DOMContentLoaded", function () {
     navMenuContainer.classList.remove("active");
     navbar.classList.remove("menu-active");
 
-    // Hide sign-in button when nav menu is closed on tablet and mobile
     if (window.innerWidth <= 1140) {
       signInButton.style.display = "none";
     } else {
@@ -67,7 +76,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Ensure sign-in button is displayed on desktop resize
   window.addEventListener("resize", function () {
     if (window.innerWidth > 1140) {
       signInButton.style.display = "block";
@@ -76,7 +84,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Initial check to set correct display state
   if (window.innerWidth > 1140) {
     signInButton.style.display = "block";
   } else {
