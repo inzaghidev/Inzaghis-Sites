@@ -13,7 +13,7 @@
                     <li><a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>">Profile</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>">About</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group Network</a></li>
-                    <li class="dropdown">
+                    <div class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
                             <div class="nav-dropdown-icon">
                                 <div class="text-block">
@@ -28,7 +28,7 @@
                                 <a href="https://inzaghi-site.webflow.io" class="dropdown-link">Preview (Webflow)</a>
                             </nav>
                         </div>
-                    </li>
+                    </div>
                 </ul>
                 <div class="sign-in-button">
                     <a href="<?php echo $pathToWebRoot.'../includes/signin.php'; ?>" class="main-button">Sign in</a>

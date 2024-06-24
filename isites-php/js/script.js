@@ -100,13 +100,13 @@ $(document).ready(function () {
   console.log("Document Ready");
 
   // Memuat header ke dalam halaman
-  $("#header-container").load("../layouts/header.html", function () {
+  $("#header-container").load("../layouts/header.php", function () {
     // Call this function after the header is loaded
     setupMenuToggle();
   });
 
   // Memuat footer ke dalam halaman
-  $("#footer-container").load("../layouts/footer.html");
+  $("#footer-container").load("../layouts/footer.php");
 });
 
 function setupMenuToggle() {
