@@ -904,7 +904,7 @@ svg:not(:root) {
 .blog-description {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: var(--font-size-16);
+  font-size: var(--font-size-14);
   font-family: var(--font-family);
   word-wrap: break-word;
 }
@@ -981,7 +981,7 @@ svg:not(:root) {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: var(--font-size-16);
+  font-size: var(--font-size-14);
   font-family: var(--font-family);
   word-wrap: break-word;
 }
@@ -1717,7 +1717,7 @@ svg:not(:root) {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: var(--font-size-16);
+    font-size: var(--font-size-14);
     font-family: var(--font-family);
     word-wrap: break-word;
   }
