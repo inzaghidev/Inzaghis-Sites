@@ -1,5 +1,6 @@
 :root {
-  --background-color: #edfbee;
+  /*--background-color: #edfbee;*/
+  --background-color: #ffffff;
   --background-color-transparent: rgba(255, 255, 255, 0.6);
   --blur-effect: blur(10px);
   --navbar-padding: 30px;

@@ -223,6 +223,7 @@ svg:not(:root) {
   background-color: #555555;
   color: var(--color-white);
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .about-inzaghis-sites {
@@ -1993,6 +1994,7 @@ svg:not(:root) {
   .main-button:hover {
     background-color: #555555;
     color: var(--color-white);
+    text-decoration: none;
   }
 
   .about-inzaghis-sites {
