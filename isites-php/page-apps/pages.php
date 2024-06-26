@@ -21,7 +21,7 @@
           <div class="col-md-4 col-sm-6 mb-4">
             <div class="card h-100">
               <div class="card-body card-apps-body">
-                <h5 class="card-title">Programming Tutorials</h5>
+                <h5 class="card-title">Technology Tutorials</h5>
                 <p class="card-text card-apps">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Nam viverra euismod odio, gravida pellentesque urna varius
