@@ -49,7 +49,7 @@
   background-color: var(--background-color);
   transition: background-color var(--transition-duration) ease;
   position: fixed;
-  top: 0;
+  /* top: 0; */
   z-index: 10;
   border-bottom: 2px solid var(--border-color);
   border-style: solid;
