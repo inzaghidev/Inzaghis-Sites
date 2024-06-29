@@ -9,8 +9,15 @@
   --font-family: "Inter", "Helvetica Neue", Helvetica, sans-serif;
   --background-color: var(--color-white);
   --color-white: white;
+  --font-size-12: 12px;
   --font-size-14: 14px;
   --font-size-16: 16px;
+  --font-size-24: 24px;
+  --font-size-28: 28px;
+  --font-size-36: 36px;
+  --padding-20: 20px;
+  --margin-top-10: 10px;
+  --margin-bottom-10: 10px;
 }
 
 html {
@@ -50,14 +57,14 @@ dd {
 
 ul {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-bottom-10);
   list-style-type: disc;
   padding-left: 40px;
 }
 
 li {
   display: inline;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-bottom-10);
 }
 
 a {
@@ -71,7 +78,7 @@ ul li a {
 }
 
 p {
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-bottom-10);
 }
 
 h1 {
@@ -84,17 +91,17 @@ h1 {
 }
 
 h2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 36px;
+  margin-bottom: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
+  font-size: var(--font-size-36);
   font-weight: 400;
   line-height: 50px;
   font-family: Arial, sans-serif;
 }
 
 h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
   font-size: 30px;
   font-weight: 400;
   line-height: 46px;
@@ -102,17 +109,17 @@ h3 {
 }
 
 h4 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 24px;
+  margin-bottom: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
+  font-size: var(--font-size-24);
   font-weight: 400;
   line-height: 38px;
   font-family: Arial, sans-serif;
 }
 
 h5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
   font-size: 20px;
   font-weight: 500;
   line-height: 34px;
@@ -120,8 +127,8 @@ h5 {
 }
 
 h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
   font-size: var(--font-size-16);
   font-weight: 500;
   line-height: 28px;
@@ -158,7 +165,7 @@ img {
 label {
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-bottom-10);
   font-size: var(--font-size-14);
   font-weight: 500px;
   line-height: 20px;
@@ -208,7 +215,7 @@ svg:not(:root) {
 .main-button {
   display: inline-block;
   padding: 12px 20px;
-  font-size: 12px;
+  font-size: var(--font-size-12);
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -291,13 +298,13 @@ svg:not(:root) {
 }
 
 .welcome-description {
-  padding: 20px;
+  padding: var(--padding-20);
   border-radius: 8px;
 }
 
 .welcome-to-inzaghis-sites {
   flex: 1;
-  /*padding: 20px;*/
+  /*padding: var(--padding-20);*/
 }
 
 .page-container {
@@ -335,14 +342,13 @@ svg:not(:root) {
 }
 
 .page-description {
-  padding: 20px;
+  padding: var(--padding-20);
   border-radius: 8px;
 }
 
 .content-description {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .inzaghis-sites-description {
@@ -408,11 +414,11 @@ svg:not(:root) {
 
 .about-us-to-inzaghis-group {
   flex: 1;
-  /*padding: 20px;*/
+  /*padding: var(--padding-20);*/
 }
 
 .about-us-description {
-  padding: 20px;
+  padding: var(--padding-20);
   border-radius: 8px;
 }
 
@@ -425,7 +431,7 @@ svg:not(:root) {
 .text-title {
   text-align: center;
   font-family: var(--font-family);
-  font-size: 24px;
+  font-size: var(--font-size-24);
   font-weight: bold;
 }
 
@@ -434,7 +440,7 @@ svg:not(:root) {
   text-align: center;
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 28px;
+  font-size: var(--font-size-28);
 }
 
 .card-apps {
@@ -495,13 +501,13 @@ svg:not(:root) {
   display: inline-block;
 }
 .hcg-slide-text {
-  color: #ffffff;
+  color: var(--color-white);
   font-size: var(--font-size-16); /* Samakan ukuran font */
   padding: 3px 5px;
   position: absolute;
   bottom: 0;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-bottom: var(--margin-top-10);
   left: 50%;
   text-align: center;
   text-shadow: 0 0 2px #000;
@@ -538,7 +544,7 @@ svg:not(:root) {
   background-color: #000c;
 }
 .hcg-slide-dot-control {
-  margin-top: 10px;
+  margin-bottom: var(--margin-top-10);
   text-align: center;
 }
 .hcg-slide-dot {
@@ -555,7 +561,7 @@ svg:not(:root) {
 }
 .hcg-slide-number {
   color: black;
-  font-size: 12px;
+  font-size: var(--font-size-12);
   padding: 4px 7px;
   position: absolute;
   border-radius: 5px;
@@ -593,7 +599,7 @@ svg:not(:root) {
 }
 
 .page-apps-container {
-  max-width: 1080px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -612,7 +618,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -630,7 +636,7 @@ svg:not(:root) {
 .title-heading {
   text-align: center;
   font-family: var(--font-family);
-  font-size: 36px;
+  font-size: var(--font-size-36);
   font-weight: bold;
 }
 
@@ -668,7 +674,7 @@ svg:not(:root) {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: var(--padding-20);
   box-sizing: border-box;
   max-width: 1080px;
 }
@@ -757,7 +763,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -767,7 +773,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -783,7 +789,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -793,7 +799,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -803,7 +809,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -813,14 +819,14 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
 
 .about-us-to-inzaghis-group {
   flex: 1;
-  /*padding: 20px;*/
+  /*padding: var(--padding-20);*/
 }
 
 .inzaghisblog {
@@ -829,24 +835,6 @@ svg:not(:root) {
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
-}
-
-.inzaghis-blog-legacy,
-.teknoblog-inzaghis-blog,
-.miniblog-inzaghis-blog {
-  max-width: 350px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.inzaghis-blog-legacy img,
-.teknoblog-inzaghis-blog img,
-.miniblog-inzaghis-blog img {
-  margin-left: auto;
-  margin-right: auto;
-  height: 192px;
-  width: 300px;
 }
 
 .blog-text {
@@ -859,7 +847,7 @@ svg:not(:root) {
   text-align: center;
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 28px;
+  font-size: var(--font-size-28);
 }
 
 .apps-button {
@@ -915,7 +903,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -975,7 +963,7 @@ svg:not(:root) {
   text-align: center;
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 28px;
+  font-size: var(--font-size-28);
 }
 
 .socmed-description {
@@ -1075,6 +1063,13 @@ svg:not(:root) {
   margin-bottom: 20px;
 }
 
+.footer-container {
+  max-width: 1200px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer-title {
   font-family: var(--font-family);
   font-size: 20px;
@@ -1087,6 +1082,7 @@ svg:not(:root) {
 }
 
 .special-pages,
+.apps-tools,
 .network,
 .quick-link {
   flex-direction: column;
@@ -1144,18 +1140,18 @@ svg:not(:root) {
 
   ul {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
     list-style-type: disc;
     padding-left: 40px;
   }
 
   li {
     display: inline;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
   }
 
   p {
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
   }
 
   h1 {
@@ -1168,17 +1164,17 @@ svg:not(:root) {
   }
 
   h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 36px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-36);
     font-weight: 400;
     line-height: 50px;
     font-family: Arial, sans-serif;
   }
 
   h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: 30px;
     font-weight: 400;
     line-height: 46px;
@@ -1186,17 +1182,17 @@ svg:not(:root) {
   }
 
   h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 24px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-24);
     font-weight: 400;
     line-height: 38px;
     font-family: Arial, sans-serif;
   }
 
   h5 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: 20px;
     font-weight: 500;
     line-height: 34px;
@@ -1204,8 +1200,8 @@ svg:not(:root) {
   }
 
   h6 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: var(--font-size-16);
     font-weight: 500;
     line-height: 28px;
@@ -1240,7 +1236,7 @@ svg:not(:root) {
   label {
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
     font-size: var(--font-size-14);
     font-weight: 500px;
     line-height: 20px;
@@ -1308,7 +1304,7 @@ svg:not(:root) {
   }
 
   .welcome-container {
-    max-width: 1680px;
+    max-width: 1080px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -1333,13 +1329,13 @@ svg:not(:root) {
   }
 
   .welcome-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
   .welcome-to-inzaghis-sites {
     flex: 1;
-    /*padding: 20px;*/
+    /*padding: var(--padding-20);*/
   }
 
   .page-container {
@@ -1367,8 +1363,13 @@ svg:not(:root) {
   }
 
   .page-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
+  }
+
+  .content-description {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .inzaghis-sites-description {
@@ -1433,11 +1434,11 @@ svg:not(:root) {
 
   .about-us-to-inzaghis-group {
     flex: 1;
-    /*padding: 20px;*/
+    /*padding: var(--padding-20);*/
   }
 
   .about-us-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
@@ -1477,6 +1478,12 @@ svg:not(:root) {
 
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
+  .page-apps-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .page-apps-wrapper {
     background-color: #f5faf5;
     border-bottom: 1px solid #e4f3e5;
@@ -1489,7 +1496,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
@@ -1597,7 +1604,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
@@ -1612,24 +1619,6 @@ svg:not(:root) {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-  }
-
-  .inzaghis-blog-legacy,
-  .teknoblog-inzaghis-blog,
-  .miniblog-inzaghis-blog {
-    max-width: 230px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .inzaghis-blog-legacy img,
-  .teknoblog-inzaghis-blog img,
-  .miniblog-inzaghis-blog img {
-    margin-left: auto;
-    margin-right: auto;
-    height: 128px;
-    width: 200px;
   }
 
   .blog-name {
@@ -1672,7 +1661,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
@@ -1711,7 +1700,7 @@ svg:not(:root) {
     text-align: center;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 24px;
+    font-size: var(--font-size-24);
   }
 
   .socmed-description {
@@ -1746,7 +1735,7 @@ svg:not(:root) {
     max-width: 600px;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 10px;
+    margin-bottom: var(--margin-top-10);
     margin-bottom: 20px;
     display: flex;
   }
@@ -1762,6 +1751,13 @@ svg:not(:root) {
     position: relative;
   }
 
+  .footer-container {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .footer-wrapper {
     justify-content: space-between;
     align-items: flex-start;
@@ -1769,13 +1765,28 @@ svg:not(:root) {
     margin-bottom: 20px;
   }
 
+  .footer-container {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .footer-title {
     font-family: var(--font-family);
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
 
+  .special-pages ul li a,
+  .apps-tools ul li a,
+  .network ul li a,
+  .quick-link ul li a {
+    font-size: 12px;
+  }
+
   .special-pages,
+  .apps-tools,
   .network,
   .quick-link {
     flex-direction: column;
@@ -1784,6 +1795,8 @@ svg:not(:root) {
     font-family: var(--font-family);
     font-size: var(--font-size-14);
     display: flex;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .footer-bottom {
@@ -1813,7 +1826,7 @@ svg:not(:root) {
   }
 
   h2 {
-    font-size: 24px;
+    font-size: var(--font-size-24);
     line-height: 34px;
   }
 
@@ -1843,18 +1856,18 @@ svg:not(:root) {
 
   ul {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
     list-style-type: disc;
     padding-left: 40px;
   }
 
   li {
     display: inline;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
   }
 
   p {
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
   }
 
   h1 {
@@ -1867,17 +1880,17 @@ svg:not(:root) {
   }
 
   h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 36px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-36);
     font-weight: 400;
     line-height: 50px;
     font-family: Arial, sans-serif;
   }
 
   h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: 30px;
     font-weight: 400;
     line-height: 46px;
@@ -1885,17 +1898,17 @@ svg:not(:root) {
   }
 
   h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 24px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-24);
     font-weight: 400;
     line-height: 38px;
     font-family: Arial, sans-serif;
   }
 
   h5 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: 20px;
     font-weight: 500;
     line-height: 34px;
@@ -1903,8 +1916,8 @@ svg:not(:root) {
   }
 
   h6 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: var(--font-size-16);
     font-weight: 500;
     line-height: 28px;
@@ -1939,7 +1952,7 @@ svg:not(:root) {
   label {
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
     font-size: var(--font-size-14);
     font-weight: 500px;
     line-height: 20px;
@@ -1981,7 +1994,7 @@ svg:not(:root) {
   .main-button {
     display: inline-block;
     padding: 12px 20px;
-    font-size: 12px;
+    font-size: var(--font-size-12);
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -2018,7 +2031,7 @@ svg:not(:root) {
   }
 
   .welcome-container {
-    max-width: 1680px;
+    max-width: max-content;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -2043,13 +2056,13 @@ svg:not(:root) {
   }
 
   .welcome-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
   .welcome-to-inzaghis-sites {
     flex: 1;
-    /*padding: 20px;*/
+    /*padding: var(--padding-20);*/
   }
 
   .page-container {
@@ -2077,7 +2090,7 @@ svg:not(:root) {
   }
 
   .page-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
@@ -2148,11 +2161,11 @@ svg:not(:root) {
 
   .about-us-to-inzaghis-group {
     flex: 1;
-    /*padding: 20px;*/
+    /*padding: var(--padding-20);*/
   }
 
   .about-us-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
@@ -2217,7 +2230,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
@@ -2302,33 +2315,13 @@ svg:not(:root) {
     display: block;
   }
 
-  .inzaghis-blog-legacy,
-  .teknoblog-inzaghis-blog,
-  .miniblog-inzaghis-blog {
-    max-width: 350px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-
-  .inzaghis-blog-legacy img,
-  .teknoblog-inzaghis-blog img,
-  .miniblog-inzaghis-blog img {
-    margin-left: auto;
-    margin-right: auto;
-    height: 192px;
-    width: 300px;
-  }
-
   .blog-name {
     margin-top: 12px;
     margin-bottom: 12px;
     text-align: center;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 28px;
+    font-size: var(--font-size-28);
   }
 
   .blog-link {
@@ -2362,7 +2355,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
@@ -2377,7 +2370,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
@@ -2414,7 +2407,7 @@ svg:not(:root) {
     text-align: center;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 28px;
+    font-size: var(--font-size-28);
   }
 
   .socmed-description {
@@ -2480,6 +2473,13 @@ svg:not(:root) {
     margin-bottom: 20px;
   }
 
+  .footer-container {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .footer-wrapper .inzaghis-corp-logo {
     margin-bottom: 20px;
   }
@@ -2491,6 +2491,7 @@ svg:not(:root) {
   }
 
   .special-pages,
+  .apps-tools,
   .network,
   .quick-link {
     flex-direction: column;
