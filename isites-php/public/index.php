@@ -40,54 +40,54 @@
       </div>
     </div>
   </section>
-    <section class="page-apps shadow">
-      <div class="page-apps-container">
-        <h2 class="title-heading">Page Apps</h2>
-        <div class="text-container">
-          <p class="text-description">
-            Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
-            kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman,
-            Widget, Konverter, Kalkulator, dan lainnya.
-          </p>
-          <section class="group-button">
-            <a href="../pages/apps.php" class="main-button"
-              >Click here</a
-            >
-          </section>
-        </div>
-        <section class="group-content">
-          <div id="hcg-slider-1" class="hcg-slider">
-            <div class="hcg-slide-container">
-              <div class="hcg-slider-body">
-                <a class="hcg-slides animated" style="display: flex">
-                  <span class="hcg-slide-number">1/6</span>
-                  <img src="../images/pages-by-pages-apps.png" alt="" />
-                  <span class="hcg-slide-text">Pages</span>
-                </a>
-              </div>
-              <a href="#" id="hcg-slide-prev">&#10094;</a>
-              <a href="#" id="hcg-slide-next">&#10095;</a>
-            </div>
-            <div class="hcg-slide-dot-control"></div>
-          </div>
-          <section class="content-description">
-            <h2 class="group-title">Pages</h2>
-            <p class="left-subheading">
-              Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
-              Inzaghi's Sites. Dan juga sebagai kumpulan Materi dan Tutorial
-              Pemrograman.
-            </p>
-            <button type="button" class="btn btn-primary btn-md">
-              <a href="../page-apps/pages.php" class="blog-link">Click here</a>
-            </button>
-            <!--button type="button" class="btn btn-primary btn-md">
-              <a class="blog-link">Click here</a>
-            </button-->
-          </section>
+  <section class="page-apps shadow">
+    <div class="page-apps-container">
+      <h2 class="title-heading">Page Apps</h2>
+      <div class="text-container">
+        <p class="text-description">
+          Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
+          kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman,
+          Widget, Konverter, Kalkulator, dan lainnya.
+        </p>
+        <section class="group-button">
+          <a href="../pages/apps.php" class="main-button"
+            >Click here</a
+          >
         </section>
       </div>
-      <script src="../js/slider.js"></script>
-    </section>
+      <section class="group-content">
+        <div id="hcg-slider-1" class="hcg-slider">
+          <div class="hcg-slide-container">
+            <div class="hcg-slider-body">
+              <a class="hcg-slides animated" style="display: flex">
+                <span class="hcg-slide-number">1/6</span>
+                <img src="../images/pages-by-pages-apps.png" alt="" />
+                <span class="hcg-slide-text">Pages</span>
+              </a>
+            </div>
+            <a href="#" id="hcg-slide-prev">&#10094;</a>
+            <a href="#" id="hcg-slide-next">&#10095;</a>
+          </div>
+          <div class="hcg-slide-dot-control"></div>
+        </div>
+        <section class="content-description">
+          <h2 class="group-title">Pages</h2>
+          <p class="left-subheading">
+            Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
+            Inzaghi's Sites. Dan juga sebagai kumpulan Materi dan Tutorial
+            Pemrograman.
+          </p>
+          <button type="button" class="btn btn-primary btn-md">
+            <a href="../page-apps/pages.php" class="blog-link">Click here</a>
+          </button>
+          <!--button type="button" class="btn btn-primary btn-md">
+            <a class="blog-link">Click here</a>
+          </button-->
+        </section>
+      </section>
+    </div>
+    <script src="../js/slider.js"></script>
+  </section>
   <section class="inzaghis-blog-slider shadow">
     <div class="inzaghis-blog-container">
       <h2 class="title-heading">Our Blog</h2>

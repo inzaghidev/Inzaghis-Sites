@@ -128,13 +128,13 @@
   position: relative;
 }
 
-li a::before {
+.nav-menu li a::before {
   background-color: var(--nav-link-hover-color);
   backdrop-filter: var(--blur-effect);
   -webkit-backdrop-filter: var(--blur-effect);
 }
 
-li a::before {
+.nav-menu li a::before {
   content: "";
   background: var(--color-black);
   display: block;
