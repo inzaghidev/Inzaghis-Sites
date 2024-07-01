@@ -2490,6 +2490,13 @@ svg:not(:root) {
     margin-bottom: 20px;
   }
 
+  .special-pages ul li a,
+  .apps-tools ul li a,
+  .network ul li a,
+  .quick-link ul li a {
+    font-size: 14px;
+  }
+
   .special-pages,
   .apps-tools,
   .network,

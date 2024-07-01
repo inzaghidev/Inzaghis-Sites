@@ -1795,6 +1795,8 @@ svg:not(:root) {
     font-family: var(--font-family);
     font-size: var(--font-size-14);
     display: flex;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .footer-bottom {
@@ -2486,6 +2488,13 @@ svg:not(:root) {
     font-family: var(--font-family);
     font-size: 20px;
     margin-bottom: 20px;
+  }
+
+  .special-pages ul li a,
+  .apps-tools ul li a,
+  .network ul li a,
+  .quick-link ul li a {
+    font-size: 14px;
   }
 
   .special-pages,
