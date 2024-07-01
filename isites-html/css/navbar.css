@@ -179,7 +179,6 @@ li a:hover::after {
   background-color: var(--dropdown-background-color);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 0 solid white;
   top: 100%;
   left: auto;
   right: auto;
@@ -194,8 +193,7 @@ li a:hover::after {
 
 .nav-dropdown-toggle {
   letter-spacing: 0.25px;
-  margin-right: 10px;
-  padding: 5px 30px 5px 20px;
+  padding: 5px 20px 5px 20px;
   font-size: var(--font-size);
   line-height: 20px;
 }
@@ -415,7 +413,6 @@ li a:hover::after {
     background-color: var(--dropdown-background-color);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid white;
     top: 100%;
     left: auto;
     right: auto;
@@ -424,8 +421,7 @@ li a:hover::after {
 
   .nav-dropdown-toggle {
     letter-spacing: 0.25px;
-    margin-right: 10px;
-    padding: 5px 30px 5px 20px;
+    padding: 5px 20px 5px 20px;
     font-size: var(--font-size);
     line-height: 20px;
   }
@@ -556,8 +552,7 @@ li a:hover::after {
 
   .nav-dropdown-toggle {
     letter-spacing: 0.25px;
-    margin-right: 10px;
-    padding: 5px 30px 5px 20px;
+    padding: 5px 20px 5px 20px;
     font-size: var(--font-size);
     line-height: 20px;
     cursor: pointer;
@@ -576,7 +571,6 @@ li a:hover::after {
     display: none;
     position: absolute;
     background-color: var(--dropdown-background-color);
-    border: 1px solid white;
     top: 100%;
     left: auto;
     right: auto;
