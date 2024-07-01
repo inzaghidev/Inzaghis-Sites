@@ -180,7 +180,6 @@ li a:hover::after {
   background-color: var(--dropdown-background-color);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 0 solid white;
   top: 100%;
   left: auto;
   right: auto;
@@ -195,15 +194,14 @@ li a:hover::after {
 
 .nav-dropdown-toggle {
   letter-spacing: 0.25px;
-  margin-right: 10px;
-  padding: 5px 30px 5px 20px;
+  padding: 5px 20px 5px 20px;
   font-size: var(--font-size);
   line-height: 20px;
 }
 
 .dropdown:hover .nav-dropdown-list {
   display: block;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .dropdown-link {
@@ -416,7 +414,6 @@ li a:hover::after {
     background-color: var(--dropdown-background-color);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid white;
     top: 100%;
     left: auto;
     right: auto;
@@ -425,15 +422,14 @@ li a:hover::after {
 
   .nav-dropdown-toggle {
     letter-spacing: 0.25px;
-    margin-right: 10px;
-    padding: 5px 30px 5px 20px;
+    padding: 5px 20px 5px 20px;
     font-size: var(--font-size);
     line-height: 20px;
   }
 
   .dropdown:hover .nav-dropdown-list {
     display: block;
-    border-radius: 8px;
+    border-radius: 10px;
   }
 
   .menu-toggle {
@@ -529,10 +525,10 @@ li a:hover::after {
 
   .nav-menu-container {
     position: fixed;
-    top: 100px;
+    top: 83px;
     left: -1000%;
-    height: calc(100vh - 99px);
-    width: 300px;
+    height: calc(100vh - 83px);
+    width: 250px;
     background-color: var(--side-navbar-background-color);
     transition: left 0.3s ease;
     z-index: 1000;
@@ -543,7 +539,7 @@ li a:hover::after {
     top: 83px;
     bottom: auto;
     height: calc(100vh - 83px);
-    width: 300px;
+    width: 250px;
     overflow-y: auto;
   }
 
@@ -563,7 +559,7 @@ li a:hover::after {
 
   .nav-menu ul li a {
     color: black; /* Text Color */
-    padding: 15px;
+    padding: 10px;
     display: block;
     width: 100%;
     text-align: left;
@@ -598,7 +594,7 @@ li a:hover::after {
     text-decoration: none;
     color: var(--color-black);
     font-family: var(--font-family);
-    margin: 10px 0px;
+    margin: 5px 0;
   }
 
   .nav-menu a {
@@ -608,8 +604,7 @@ li a:hover::after {
 
   .nav-dropdown-toggle {
     letter-spacing: 0.25px;
-    margin-right: 10px;
-    padding: 5px 30px 5px 20px;
+    padding: 5px 0 5px 0;
     font-size: var(--font-size);
     line-height: 20px;
     cursor: pointer;
@@ -628,18 +623,16 @@ li a:hover::after {
     display: none;
     position: absolute;
     background-color: var(--dropdown-background-color);
-    border: 1px solid white;
     top: 100%;
     left: auto;
     right: auto;
-    padding: 10px 0;
-    /* padding: 8px 8px; */
+    padding: 10px 20px;
     transition: all 1s ease;
   }
 
   .dropdown:hover .nav-dropdown-list {
     display: block;
-    border-radius: 8px;
+    border-radius: 10px;
     transition: all 0.3s ease;
   }
 
