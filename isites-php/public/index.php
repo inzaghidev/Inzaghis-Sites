@@ -301,10 +301,10 @@
                     class="btn btn-primary btn-md primary-button"
                   >
                     <a
-                      href="https://x.com/iposhaf2917"
+                      href="https://x.com/lPosumA0209"
                       target="_blank"
                       class="blog-link"
-                      >@iposhaf2917</a
+                      >@lPosumA0209</a
                     >
                   </button>
                 </div>

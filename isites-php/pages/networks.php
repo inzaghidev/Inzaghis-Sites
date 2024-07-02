@@ -257,10 +257,10 @@
                     </p>
                   </div>
                   <a
-                    href="https://x.com/iposhaf2917"
+                    href="https://x.com/lPosumA0209"
                     target="_blank"
                     class="btn btn-primary primary-button"
-                    >@iposhaf2917</a
+                    >@lPosumA0209</a
                   >
                 </div>
               </div>
@@ -314,7 +314,7 @@
               Inzaghi's App merupakan Aplikasi Konten-konten yang menyajikan
               apapun dengan Tampilan Versi Mobile dari Inzaghi's Sites, seperti
               Inzaghi's Blog, Inzaghi's Media, dan Inzaghi's Group. Nantinya,
-              Inzaghi's App akan tersedia dalam Versi Android.
+              Inzaghi's App akan tersedia dalam Versi Android dan iOS.
             </p>
             <section class="group-button">
               <a href="#" class="main-button">Click here</a>
