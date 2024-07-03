@@ -202,6 +202,7 @@ li a:hover::after {
 .dropdown:hover .nav-dropdown-list {
   display: block;
   border-radius: 10px;
+  transition: all 0.3s ease;
 }
 
 .dropdown-link {
@@ -619,6 +620,16 @@ li a:hover::after {
     position: relative;
   }
 
+  /* chevron-down-outline */
+  .rotate-icon {
+    /* transform: rotate(180deg); */
+    transition: transform 0.3s ease;
+  }
+
+  .rotate-icon .dropdown:active {
+    margin: auto;
+  }
+
   .nav-dropdown-list {
     display: none;
     position: absolute;
@@ -631,9 +642,13 @@ li a:hover::after {
   }
 
   .dropdown:hover .nav-dropdown-list {
-    display: block;
+    display: none; /* Disable hover on mobile */
     border-radius: 10px;
-    transition: all 0.3s ease;
+  }
+
+  .dropdown.active .nav-dropdown-list {
+    display: block; /* Enable display on click */
+    border-radius: 10px;
   }
 
   .dropdown-link {

@@ -6,6 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const navMenuContainer = document.querySelector(".nav-menu-container");
   const signInButton = document.querySelector(".sign-in-button");
   const navHeader = document.getElementById("navHeader");
+  const dropdownToggle = document.querySelector(".nav-dropdown-toggle");
+  const dropdownMenu = document.querySelector(".nav-dropdown-list");
+  const chevronIcon = dropdownToggle.querySelector(
+    "ion-icon[name='chevron-down-outline']"
+  );
 
   function updateBeforeStyles() {
     const existingStyle = document.getElementById("dynamic-mobile-style");
@@ -42,6 +47,17 @@ document.addEventListener("DOMContentLoaded", function () {
       navHeader.classList.add("transparency");
     } else {
       navHeader.classList.remove("transparency");
+    }
+  }
+
+  function updateElementPositions() {
+    const dropdownOpen = dropdownToggle.parentNode.classList.contains("active");
+    const dropdownHeight = dropdownMenu.offsetHeight;
+
+    if (dropdownOpen && window.innerWidth < 720) {
+      dropdownToggle.parentNode.style.marginBottom = `${dropdownHeight}px`;
+    } else {
+      dropdownToggle.parentNode.style.marginBottom = "0";
     }
   }
 
@@ -82,6 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (!navMenu.classList.contains("active")) {
       signInButton.style.display = "none";
     }
+    updateElementPositions();
   });
 
   if (window.innerWidth > 1140) {
@@ -89,6 +106,16 @@ document.addEventListener("DOMContentLoaded", function () {
   } else {
     signInButton.style.display = "none";
   }
+
+  // Add click event listener for dropdown toggle on mobile
+  dropdownToggle.addEventListener("click", function (e) {
+    if (window.innerWidth < 720) {
+      e.preventDefault(); // Prevent default action if it's a link
+      dropdownToggle.parentNode.classList.toggle("active");
+      chevronIcon.classList.toggle("rotate-icon");
+      updateElementPositions();
+    }
+  });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
