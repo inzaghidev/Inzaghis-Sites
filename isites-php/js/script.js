@@ -1,3 +1,5 @@
+// UNDER CONSTRUCTION !!!!
+
 document.addEventListener("DOMContentLoaded", function () {
   const menuToggle = document.getElementById("menu-toggle");
   const cancelIcon = document.querySelector(".cancel-icon");
@@ -200,3 +202,5 @@ function setupMenuToggle() {
     // For example, scrolling to the corresponding section on the page
   });
 }
+
+// UNDER CONSTRUCTION !!!!
