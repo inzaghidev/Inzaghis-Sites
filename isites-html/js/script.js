@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (dropdownOpen && window.innerWidth < 720) {
       dropdownToggle.parentNode.style.marginBottom = `${dropdownHeight}px`;
     } else {
-      dropdownToggle.parentNode.style.marginBottom = "0";
+      dropdownToggle.parentNode.style.marginBottom = "3px";
     }
   }
 

@@ -119,10 +119,7 @@
 }
 
 .nav-menu li a {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
   color: var(--color-black);
 }
 
@@ -202,8 +199,7 @@ li a:hover::after {
 }
 
 .nav-dropdown-list--open {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 10px;
 }
 
 .nav-dropdown-toggle {
@@ -228,11 +224,13 @@ li a:hover::after {
   transition: all 0.2s;
   margin-left: 5px;
   margin-right: 5px;
+  margin: auto;
 }
 
 .dropdown-link:hover {
   background-color: var(--dropdown-hover-background-color);
   border-radius: 10px;
+  padding: 10px 10px;
 }
 
 .nav-menu .dropdown-link::before {
@@ -396,8 +394,8 @@ li a:hover::after {
   .nav-menu ul li {
     padding: 0px;
     margin: auto;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    /*margin-bottom: 5px;
+    margin-top: 5px;*/
   }
 
   .nav-menu li a {
@@ -446,7 +444,7 @@ li a:hover::after {
     top: 100%;
     left: auto;
     right: auto;
-    padding: 5px 10px 5px 10px;
+    padding: 10px; /* Samakan padding dengan .dropdown */
   }
 
   .nav-dropdown-toggle {
@@ -458,6 +456,7 @@ li a:hover::after {
   .dropdown:hover .nav-dropdown-list {
     display: block;
     border-radius: 10px;
+    padding: 10px 10px;
   }
 
   .menu-toggle {
@@ -669,7 +668,7 @@ li a:hover::after {
     text-decoration: none;
     color: var(--color-black);
     font-family: var(--font-family);
-    margin: 5px 0;
+    margin: 0 0;
   }
 
   .navbar .nav-menu a {
@@ -683,7 +682,7 @@ li a:hover::after {
 
   .nav-dropdown-toggle {
     letter-spacing: 0.25px;
-    padding: 5px 0 5px 0;
+    padding: 0;
     font-size: var(--font-size);
     line-height: 20px;
     cursor: pointer;
@@ -715,7 +714,7 @@ li a:hover::after {
     top: 100%;
     left: auto;
     right: auto;
-    padding: 10px 20px;
+    padding: 10px; /* Samakan padding dengan .dropdown */
     transition: all 1s ease;
   }
 
@@ -727,12 +726,19 @@ li a:hover::after {
   .dropdown.active .nav-dropdown-list {
     display: block; /* Enable display on click */
     border-radius: 10px;
+    padding: 10px 20px;
   }
 
   .dropdown-link {
     display: block;
     color: var(--color-black);
     text-decoration: none;
+  }
+
+  .dropdown-link:hover {
+    background-color: var(--dropdown-hover-background-color);
+    border-radius: 10px;
+    padding: 10px 10px;
   }
 
   .menu-toggle {
