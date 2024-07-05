@@ -42,6 +42,12 @@
       alt: "",
       link: "../page-apps/file-converter.php",
     },
+    {
+      name: "Utilities",
+      url: "../images/utilities-by-pages-apps.png",
+      alt: "",
+      link: "../page-apps/utilities.php",
+    },
   ];
 
   let slider_id = document.querySelector("#hcg-slider-1");
@@ -175,6 +181,7 @@
       Generators: "../page-apps/generators.php",
       Formatters: "../page-apps/formatters.php",
       FileConverters: "../page-apps/file-converter.php",
+      Utilities: "../page-apps/utilities.php",
     };
 
     // Return the blog link based on the image name, or a default value if not found
@@ -199,6 +206,8 @@
         "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
       FileConverters:
         "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
+      Utilities:
+        "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
     };
 
     return contentData[imageName] || "";
