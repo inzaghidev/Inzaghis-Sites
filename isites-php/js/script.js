@@ -1,5 +1,3 @@
-// UNDER CONSTRUCTION !!!!
-
 document.addEventListener("DOMContentLoaded", function () {
   const menuToggle = document.getElementById("menu-toggle");
   const cancelIcon = document.querySelector(".cancel-icon");
@@ -59,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (dropdownOpen && window.innerWidth < 720) {
       dropdownToggle.parentNode.style.marginBottom = `${dropdownHeight}px`;
     } else {
-      dropdownToggle.parentNode.style.marginBottom = "0";
+      dropdownToggle.parentNode.style.marginBottom = "3px";
     }
   }
 
@@ -202,5 +200,3 @@ function setupMenuToggle() {
     // For example, scrolling to the corresponding section on the page
   });
 }
-
-// UNDER CONSTRUCTION !!!!
