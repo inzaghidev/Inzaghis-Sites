@@ -773,4 +773,9 @@ li a:hover::after {
     order: 3;
     display: none;
   }
+
+  .sign-in-button .main-button {
+    font-size: 12px;
+    padding: 9px 18px;
+  }
 }
