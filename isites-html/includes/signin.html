@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
+        <link rel="stylesheet" href="../css/form.css" type="text/css" />
+        <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+        <script src="../js/script.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="../bootstrap/css/bootstrap.min.css"
+            type="text/css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/ionimages/2.0.1/css/ionicons.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="../jquery/jquery-3.7.1.js"></script>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+        <title>Sign in</title>
+        <link
+        rel="shortcut icon"
+        href="../images/inzaghis-sites-favicon-36x36-icon-only.png"
+        />
+        <script type="text/javascript">
+            $(document).ready(function () {
+            console.log("Document Ready");
+    
+            // Memuat header ke dalam halaman
+            $("#header-container").load("../layouts/header.html");
+    
+            // Memuat footer ke dalam halaman
+            $("#footer-container").load("../layouts/footer.html");
+            });
+        </script>
+        <!--script>
+            $(document).ready(function () {
+            window.location.replace("../pages/sitemap.php");
+            });
+        </script-->
+    </head>
+    <body>
+        <div id="header-container"></div>
+        <div class="container-top"></div>
+        <form id="authForm" method="post">
+            <div class="container">
+                <center>
+                <h1>Sign in</h1>
+                </center>
+                <hr>
+                <label>Username :</label>
+                <input type="text" autocomplete="username" />
+                <br />
+                <div>
+                    <b>Password</b>
+                    <input type="password" placeholder="Enter Password" name="psw">
+                </div>
+                <div class="submitbtn">
+                    <button type="submit" class="signinbtn">Sign in</button>
+                    <button class="registerbtn" onclick="handleRegister()" href="../includes/register-form.php">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        function handleRegister() {
+            document.getElementById('authForm').action = '../includes/register-form.html';
+            document.getElementById('authForm').submit();
+        }
+    </script>
+    </body>
+    <div id="footer-container"></div>
+</html>
+
+<!-- https://www.javatpoint.com/html-registration-form -->
+<!-- https://www.w3schools.com/howto/howto_css_register_form.asp -->
