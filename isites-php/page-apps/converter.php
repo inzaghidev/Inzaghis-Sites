@@ -42,27 +42,7 @@
                       "link" => "#"
                     ],
                     [
-                      "title" => "App 5",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                      "link" => "#"
-                    ],
-                    [
-                      "title" => "App 6",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                      "link" => "#"
-                    ],
-                    [
-                      "title" => "App 7",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-                      "link" => "#"
-                    ],
-                    [
-                      "title" => "App 8",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                      "link" => "#"
-                    ],
-                    [
-                      "title" => "App 9",
+                      "title" => "Light Converters",
                       "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                       "link" => "#"
                     ],
