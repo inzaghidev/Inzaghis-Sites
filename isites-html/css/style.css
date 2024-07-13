@@ -216,6 +216,7 @@ svg:not(:root) {
   display: inline-block;
   padding: 12px 20px;
   font-size: var(--font-size-12);
+  font-family: var(--font-family);
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -1049,64 +1050,6 @@ svg:not(:root) {
   justify-items: center;
 }
 
-.footer {
-  background-color: #efe7fe;
-  padding: 40px 30px;
-  border-bottom: 1px solid #e4ebf3;
-  position: relative;
-}
-
-.footer-wrapper {
-  justify-content: space-between;
-  align-items: flex-start;
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.footer-container {
-  max-width: 1200px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.footer-title {
-  font-family: var(--font-family);
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.footer-title nav ul li {
-  padding: 0;
-  text-decoration: none;
-}
-
-.special-pages,
-.apps-tools,
-.network,
-.quick-link {
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  font-family: var(--font-family);
-  font-size: var(--font-size-14);
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.footer-bottom {
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-}
-
-.footer-copyright {
-  color: #3a4554;
-  font-family: var(--font-family);
-  font-size: var(--font-size-14);
-}
-
 /* Responsive Styles for Tablet */
 @media screen and (max-width: 1140px) {
   .w-layout-blockcontainer {
@@ -1742,73 +1685,6 @@ svg:not(:root) {
 
   .logo-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .footer {
-    background-color: #efe7fe;
-    padding: 40px 30px;
-    border-bottom: 1px solid #e4ebf3;
-    position: relative;
-  }
-
-  .footer-container {
-    max-width: 1200px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .footer-wrapper {
-    justify-content: space-between;
-    align-items: flex-start;
-    display: flex;
-    margin-bottom: 20px;
-  }
-
-  .footer-container {
-    max-width: 1200px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .footer-title {
-    font-family: var(--font-family);
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-
-  .special-pages ul li a,
-  .apps-tools ul li a,
-  .network ul li a,
-  .quick-link ul li a {
-    font-size: 12px;
-  }
-
-  .special-pages,
-  .apps-tools,
-  .network,
-  .quick-link {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    font-family: var(--font-family);
-    font-size: var(--font-size-14);
-    display: flex;
-    grid-template-rows: auto auto;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .footer-bottom {
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-  }
-
-  .footer-copyright {
-    color: #3a4554;
-    font-family: var(--font-family);
-    font-size: var(--font-size-14);
   }
 }
 
@@ -2457,74 +2333,4 @@ svg:not(:root) {
     max-height: 60px;
     width: auto;
   }
-
-  .footer {
-    background-color: #efe7fe;
-    padding: 40px 30px;
-    border-bottom: 1px solid #e4ebf3;
-    position: relative;
-  }
-
-  .footer-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-
-  .footer-container {
-    max-width: 1200px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .footer-wrapper .inzaghis-corp-logo {
-    margin-bottom: 20px;
-  }
-
-  .footer-title {
-    font-family: var(--font-family);
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-
-  .special-pages ul li a,
-  .apps-tools ul li a,
-  .network ul li a,
-  .quick-link ul li a {
-    font-size: 14px;
-  }
-
-  .special-pages,
-  .apps-tools,
-  .network,
-  .quick-link {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--font-family);
-    font-size: var(--font-size-14);
-    display: flex;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .footer-bottom {
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap; /* Menggunakan flex-wrap agar item-item bisa berjajar pada perangkat kecil */
-  }
-
-  .footer-copyright {
-    color: #3a4554;
-    font-family: var(--font-family);
-    font-size: var(--font-size-14);
-    width: 100%; /* Mengisi seluruh lebar pada perangkat mobile */
-    text-align: center; /* Center-align teks pada perangkat mobile */
-  }
-
-  /* Adjust other styles for mobile here */
 }

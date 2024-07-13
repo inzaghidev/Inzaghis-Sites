@@ -1,7 +1,7 @@
 <?php
 	$page_title = "Home";
     include('../layouts/header.php');
-	include('../layouts/navbar.php');
+	include('../components/navbar/navbar.php');
 ?>
     <link rel="stylesheet" href="../css/form.css" type="text/css" />
     <div class="container-top"></div>
@@ -32,6 +32,7 @@
         }
     </script>
 <?php
+	include('../components/footsite/footsite.php');
 	include('../layouts/footer.php');
 ?>
 

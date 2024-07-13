@@ -1,7 +1,7 @@
 <?php
 	$page_title = "Profile";
 	include('../layouts/header.php');
-  include('../layouts/navbar.php');
+  include('../components/navbar/navbar.php');
 ?>
   <style>
     ul.a {
@@ -54,5 +54,6 @@
     </div>
   </section>
 <?php
+	include('../components/footsite/footsite.php');
 	include('../layouts/footer.php');
 ?>

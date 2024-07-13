@@ -1,7 +1,7 @@
 <?php
     $page_title = "Converters";
     include('../layouts/header.php');
-    include('../layouts/navbar.php');
+    include('../components/navbar/navbar.php');
 ?>
 
 <div class="container-top"></div>
@@ -68,5 +68,6 @@
 </section>
 
 <?php
+    include('../components/footsite/footsite.php');
     include('../layouts/footer.php');
 ?>
