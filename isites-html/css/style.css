@@ -209,6 +209,7 @@ svg:not(:root) {
   display: inline-block;
   padding: 12px 20px;
   font-size: 12px;
+  font-family: var(--font-family);
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -1996,6 +1997,7 @@ svg:not(:root) {
     display: inline-block;
     padding: 12px 20px;
     font-size: 12px;
+    font-family: var(--font-family);
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
