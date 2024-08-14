@@ -389,16 +389,16 @@
                 </p>
                 <section class="group-button">
                   <a
-                    href="https://twitter.com/iposhaf2917"
+                    href="https://x.com/lPosumA0209"
                     target="_blank"
                     class="btn btn-primary"
-                    >@iposhaf2917</a
+                    >@lPosumA0209</a
                   >
                   <br />
                 </section>
               </div>
               <iframe
-                src="https://twitter.com/iposhaf2917"
+                src="https://x.com/lPosumA0209"
                 id="inzaghis-media-embed"
                 title="Inzaghi's Media Twitter"
               ></iframe>
