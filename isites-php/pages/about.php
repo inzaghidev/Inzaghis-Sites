@@ -40,11 +40,16 @@
                 <br />
                 Inzaghi's Sites Baru dibuat dan diluncurkan pada Tanggal 28
                 Agustus 2023 (11 Shafar 1445 H) dan beralamat Link
-                <a href="http://inzaghisites.000webhostapp.com"
-                  >inzaghisites.000webhostapp.com</a
+                <a href="http://inzaghisites.000webhostapp.com" target="_blank"
+                  >inzaghisites.000webhostapp.com (000webhost)</a
                 >, dan juga pada Tanggal 6 April 2024 (26 Ramadhan 1445 H) yang
                 beralamat Link
-                <a href="http://inzaghi.wuaze.com">inzaghi.wuaze.com</a>.
+                <a href="http://inzaghi.wuaze.com"
+                  >inzaghi.wuaze.com (InfinityFree)</a
+                >. Mulai Tanggal 12 Agustus 2024 (7 Shafar 1446 H), Inzaghi's
+                Sites Resmi Pindah ke Situs Barunya di InfinityFree, dikarenakan
+                di Situs Percobaan kami di 000webhost sudah tidak dapat diakses
+                lagi.
             </p>
           </div>
         </div>

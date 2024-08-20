@@ -31,7 +31,7 @@
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/generators.php'; ?>">Generators</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/formatters.php'; ?>">Formatters</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/file-converter.php'; ?>">File Converter</a></li>
-                    <li><a href="#">Other Tools</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/pages/apps.php'; ?>">Other Tools</a></li>
                     </ul>
                 </nav>
             </section>
