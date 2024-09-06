@@ -13,14 +13,12 @@
                     <li><a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>">Profile</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>">About</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group Network</a></li>
-                    <div class="dropdown">
+                    <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
-                            <div class="nav-dropdown-icon">
-                                <div class="text-block">
-                                    <a>Switch to Another Site
-                                        <ion-icon name="chevron-down-outline"></ion-icon>
-                                    </a>
-                                </div>
+                            <div class="text-block">
+                                <a>Switch to Another Site
+                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                </a>
                             </div>
                             <nav class="nav-dropdown-list nav-dropdown-list--open">
                                 <a href="https://sites.google.com/view/inzaghis-sites" class="dropdown-link">Old Inzaghi's Sites</a>
@@ -28,7 +26,7 @@
                                 <a href="https://inzaghi-site.webflow.io" class="dropdown-link">Preview (Webflow)</a>
                             </nav>
                         </div>
-                    </div>
+                    </li>
                 </ul>
                 <div class="sign-in-button">
                     <a href="<?php echo $pathToWebRoot.'../includes/signin.php'; ?>" class="main-button">Sign in</a>

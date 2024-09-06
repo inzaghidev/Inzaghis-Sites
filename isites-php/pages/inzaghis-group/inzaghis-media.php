@@ -3,7 +3,7 @@
 
   include_once __DIR__ . '/../../includes/config.php';
   include('../../layouts/header.php');
-  include('../../layouts/navbar.php');
+  include('../../components/navbar/navbar.php');
 ?>
     <div class="container-top"></div>
     <section class="inzaghis-group-pages inzaghismedia-slider">
@@ -408,5 +408,6 @@
       </div>
     </section>
 <?php
-    include '../../layouts/footer.php';
+	include('../components/footsite/footsite.php');
+  include('../../layouts/footer.php');
 ?>

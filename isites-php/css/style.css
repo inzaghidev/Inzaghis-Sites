@@ -9,8 +9,15 @@
   --font-family: "Inter", "Helvetica Neue", Helvetica, sans-serif;
   --background-color: var(--color-white);
   --color-white: white;
+  --font-size-12: 12px;
   --font-size-14: 14px;
   --font-size-16: 16px;
+  --font-size-24: 24px;
+  --font-size-28: 28px;
+  --font-size-36: 36px;
+  --padding-20: 20px;
+  --margin-top-10: 10px;
+  --margin-bottom-10: 10px;
 }
 
 html {
@@ -50,14 +57,14 @@ dd {
 
 ul {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-bottom-10);
   list-style-type: disc;
   padding-left: 40px;
 }
 
 li {
   display: inline;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-bottom-10);
 }
 
 a {
@@ -71,7 +78,7 @@ ul li a {
 }
 
 p {
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-bottom-10);
 }
 
 h1 {
@@ -84,17 +91,17 @@ h1 {
 }
 
 h2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 36px;
+  margin-bottom: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
+  font-size: var(--font-size-36);
   font-weight: 400;
   line-height: 50px;
   font-family: Arial, sans-serif;
 }
 
 h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
   font-size: 30px;
   font-weight: 400;
   line-height: 46px;
@@ -102,17 +109,17 @@ h3 {
 }
 
 h4 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 24px;
+  margin-bottom: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
+  font-size: var(--font-size-24);
   font-weight: 400;
   line-height: 38px;
   font-family: Arial, sans-serif;
 }
 
 h5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
   font-size: 20px;
   font-weight: 500;
   line-height: 34px;
@@ -120,8 +127,8 @@ h5 {
 }
 
 h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
   font-size: var(--font-size-16);
   font-weight: 500;
   line-height: 28px;
@@ -158,7 +165,7 @@ img {
 label {
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-bottom-10);
   font-size: var(--font-size-14);
   font-weight: 500px;
   line-height: 20px;
@@ -208,21 +215,21 @@ svg:not(:root) {
 .main-button {
   display: inline-block;
   padding: 12px 20px;
-  font-size: 12px;
+  font-size: var(--font-size-12);
   font-family: var(--font-family);
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
   border-radius: 5px;
   background-color: #1a1b1f;
-  color: var(--color-white);
+  color: #fff;
   transition: all 0.2s;
   text-decoration: none;
 }
 
 .main-button:hover {
   background-color: #555555;
-  color: white;
+  color: var(--color-white);
   border-radius: 5px;
   text-decoration: none;
 }
@@ -278,7 +285,7 @@ svg:not(:root) {
   max-width: 1080px;
   margin: 0 auto;
   margin-bottom: 32px;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -292,13 +299,13 @@ svg:not(:root) {
 }
 
 .welcome-description {
-  padding: 20px;
+  padding: var(--padding-20);
   border-radius: 8px;
 }
 
 .welcome-to-inzaghis-sites {
   flex: 1;
-  /*padding: 20px;*/
+  /*padding: var(--padding-20);*/
 }
 
 .page-container {
@@ -322,7 +329,7 @@ svg:not(:root) {
   max-width: 1080px;
   margin: 0 auto;
   margin-bottom: 32px;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -336,7 +343,7 @@ svg:not(:root) {
 }
 
 .page-description {
-  padding: 20px;
+  padding: var(--padding-20);
   border-radius: 8px;
 }
 
@@ -349,14 +356,14 @@ svg:not(:root) {
   font-size: var(--font-size-14);
   line-height: 1.6;
   margin-bottom: 20px;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
 }
 
 .is-desc {
   font-size: var(--font-size-14);
   line-height: 1.6;
   margin-bottom: 20px;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
 }
 
 .welcome-image-to-inzaghis-sites img {
@@ -408,11 +415,11 @@ svg:not(:root) {
 
 .about-us-to-inzaghis-group {
   flex: 1;
-  /*padding: 20px;*/
+  /*padding: var(--padding-20);*/
 }
 
 .about-us-description {
-  padding: 20px;
+  padding: var(--padding-20);
   border-radius: 8px;
 }
 
@@ -424,17 +431,17 @@ svg:not(:root) {
 
 .text-title {
   text-align: center;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 24px;
+  font-family: var(--font-family);
+  font-size: var(--font-size-24);
   font-weight: bold;
 }
 
 .card-name {
   margin-bottom: 12px;
   text-align: center;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-weight: 600;
-  font-size: 28px;
+  font-size: var(--font-size-28);
 }
 
 .card-apps {
@@ -501,7 +508,7 @@ svg:not(:root) {
   position: absolute;
   bottom: 0;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-bottom: var(--margin-top-10);
   left: 50%;
   text-align: center;
   text-shadow: 0 0 2px #000;
@@ -517,7 +524,7 @@ svg:not(:root) {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: var(--color-white);
+  color: #fff;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -538,7 +545,7 @@ svg:not(:root) {
   background-color: #000c;
 }
 .hcg-slide-dot-control {
-  margin-top: 10px;
+  margin-bottom: var(--margin-top-10);
   text-align: center;
 }
 .hcg-slide-dot {
@@ -555,7 +562,7 @@ svg:not(:root) {
 }
 .hcg-slide-number {
   color: black;
-  font-size: 12px;
+  font-size: var(--font-size-12);
   padding: 4px 7px;
   position: absolute;
   border-radius: 5px;
@@ -612,7 +619,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -629,8 +636,8 @@ svg:not(:root) {
 
 .title-heading {
   text-align: center;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 36px;
+  font-family: var(--font-family);
+  font-size: var(--font-size-36);
   font-weight: bold;
 }
 
@@ -640,6 +647,7 @@ svg:not(:root) {
   margin-left: auto;
   margin-right: auto;
   font-family: var(--font-family);
+  font-size: var(--font-size-16);
 }
 
 .text-description {
@@ -648,6 +656,7 @@ svg:not(:root) {
   margin-left: auto;
   margin-right: auto;
   font-family: var(--font-family);
+  font-size: var(--font-size-16);
 }
 
 .left-subheading {
@@ -657,7 +666,7 @@ svg:not(:root) {
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 20px;
-  font-size: var(--font-size-16);
+  font-size: var(--font-size-14);
   font-family: var(--font-family);
 }
 
@@ -666,7 +675,7 @@ svg:not(:root) {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: var(--padding-20);
   box-sizing: border-box;
   max-width: 1080px;
 }
@@ -689,13 +698,13 @@ svg:not(:root) {
 
 .group-title {
   text-align: center;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 34px;
   font-weight: bold;
 }
 
 .title-page {
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 38px;
   font-weight: bold;
 }
@@ -755,7 +764,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -765,7 +774,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -781,7 +790,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -791,7 +800,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -801,7 +810,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -811,14 +820,14 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
 
 .about-us-to-inzaghis-group {
   flex: 1;
-  /*padding: 20px;*/
+  /*padding: var(--padding-20);*/
 }
 
 .inzaghisblog {
@@ -827,24 +836,6 @@ svg:not(:root) {
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
-}
-
-.inzaghis-blog-legacy,
-.teknoblog-inzaghis-blog,
-.miniblog-inzaghis-blog {
-  max-width: 350px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.inzaghis-blog-legacy img,
-.teknoblog-inzaghis-blog img,
-.miniblog-inzaghis-blog img {
-  margin-left: auto;
-  margin-right: auto;
-  height: 192px;
-  width: 300px;
 }
 
 .blog-text {
@@ -857,7 +848,7 @@ svg:not(:root) {
   text-align: center;
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 28px;
+  font-size: var(--font-size-28);
 }
 
 .apps-button {
@@ -882,7 +873,7 @@ svg:not(:root) {
 }
 
 .blog-link {
-  color: white;
+  color: var(--color-white);
 }
 
 .blog-link:hover {
@@ -891,7 +882,7 @@ svg:not(:root) {
 }
 
 .apps-link {
-  color: white;
+  color: var(--color-white);
   margin-top: 0;
 }
 
@@ -903,7 +894,7 @@ svg:not(:root) {
 .blog-description {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: var(--font-size-16);
+  font-size: var(--font-size-14);
   font-family: var(--font-family);
   word-wrap: break-word;
 }
@@ -913,7 +904,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -973,14 +964,14 @@ svg:not(:root) {
   text-align: center;
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 28px;
+  font-size: var(--font-size-28);
 }
 
 .socmed-description {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: var(--font-size-16);
+  font-size: var(--font-size-14);
   font-family: var(--font-family);
   word-wrap: break-word;
 }
@@ -1005,7 +996,7 @@ svg:not(:root) {
 
 .inzaghis-group-heading {
   text-align: center;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 34px;
   font-weight: bold;
 }
@@ -1031,7 +1022,7 @@ svg:not(:root) {
   margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
 }
 
 .inzaghis-group-container {
@@ -1057,57 +1048,6 @@ svg:not(:root) {
   grid-auto-columns: 1fr;
   align-items: center;
   justify-items: center;
-}
-
-.footer {
-  background-color: #efe7fe;
-  padding: 40px 30px;
-  border-bottom: 1px solid #e4ebf3;
-  position: relative;
-}
-
-.footer-wrapper {
-  justify-content: space-between;
-  align-items: flex-start;
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.footer-title {
-  font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.footer-title nav ul li {
-  padding: 0;
-  text-decoration: none;
-}
-
-.special-pages,
-.apps-tools,
-.network,
-.quick-link {
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  font-family: var(--font-family);
-  font-size: var(--font-size-14);
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.footer-bottom {
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-}
-
-.footer-copyright {
-  color: #3a4554;
-  font-family: var(--font-family);
-  font-size: var(--font-size-14);
 }
 
 /* Responsive Styles for Tablet */
@@ -1143,18 +1083,18 @@ svg:not(:root) {
 
   ul {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
     list-style-type: disc;
     padding-left: 40px;
   }
 
   li {
     display: inline;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
   }
 
   p {
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
   }
 
   h1 {
@@ -1167,17 +1107,17 @@ svg:not(:root) {
   }
 
   h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 36px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-36);
     font-weight: 400;
     line-height: 50px;
     font-family: Arial, sans-serif;
   }
 
   h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: 30px;
     font-weight: 400;
     line-height: 46px;
@@ -1185,17 +1125,17 @@ svg:not(:root) {
   }
 
   h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 24px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-24);
     font-weight: 400;
     line-height: 38px;
     font-family: Arial, sans-serif;
   }
 
   h5 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: 20px;
     font-weight: 500;
     line-height: 34px;
@@ -1203,8 +1143,8 @@ svg:not(:root) {
   }
 
   h6 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: var(--font-size-16);
     font-weight: 500;
     line-height: 28px;
@@ -1239,7 +1179,7 @@ svg:not(:root) {
   label {
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
     font-size: var(--font-size-14);
     font-weight: 500px;
     line-height: 20px;
@@ -1281,7 +1221,7 @@ svg:not(:root) {
 
   .main-button:hover {
     background-color: #555555;
-    color: white;
+    color: var(--color-white);
     border-radius: 5px;
     text-decoration: none;
   }
@@ -1332,13 +1272,13 @@ svg:not(:root) {
   }
 
   .welcome-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
   .welcome-to-inzaghis-sites {
     flex: 1;
-    /*padding: 20px;*/
+    /*padding: var(--padding-20);*/
   }
 
   .page-container {
@@ -1366,7 +1306,7 @@ svg:not(:root) {
   }
 
   .page-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
@@ -1379,14 +1319,14 @@ svg:not(:root) {
     font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .is-desc {
     font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .welcome-image-to-inzaghis-sites img {
@@ -1437,11 +1377,11 @@ svg:not(:root) {
 
   .about-us-to-inzaghis-group {
     flex: 1;
-    /*padding: 20px;*/
+    /*padding: var(--padding-20);*/
   }
 
   .about-us-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
@@ -1451,7 +1391,7 @@ svg:not(:root) {
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .inzaghis-group-container {
@@ -1499,7 +1439,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
@@ -1512,7 +1452,7 @@ svg:not(:root) {
 
   .title-heading {
     text-align: center;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .centered-subheading {
@@ -1520,7 +1460,8 @@ svg:not(:root) {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
   }
 
   .text-description {
@@ -1529,6 +1470,7 @@ svg:not(:root) {
     margin-left: auto;
     margin-right: auto;
     font-family: var(--font-family);
+    font-size: var(--font-size-14);
   }
 
   .group-title {
@@ -1541,6 +1483,7 @@ svg:not(:root) {
     margin-left: auto;
     margin-right: auto;
     font-family: var(--font-family);
+    font-size: var(--font-size-14);
   }
 
   .group-image img {
@@ -1604,7 +1547,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
@@ -1621,24 +1564,6 @@ svg:not(:root) {
     margin-top: 20px;
   }
 
-  .inzaghis-blog-legacy,
-  .teknoblog-inzaghis-blog,
-  .miniblog-inzaghis-blog {
-    max-width: 230px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .inzaghis-blog-legacy img,
-  .teknoblog-inzaghis-blog img,
-  .miniblog-inzaghis-blog img {
-    margin-left: auto;
-    margin-right: auto;
-    height: 128px;
-    width: 200px;
-  }
-
   .blog-name {
     margin-top: 12px;
     margin-bottom: 12px;
@@ -1649,7 +1574,7 @@ svg:not(:root) {
   }
 
   .blog-link {
-    color: white;
+    color: var(--color-white);
   }
 
   .blog-link:hover {
@@ -1658,7 +1583,7 @@ svg:not(:root) {
   }
 
   .apps-link {
-    color: white;
+    color: var(--color-white);
   }
 
   .apps-link:hover {
@@ -1669,7 +1594,7 @@ svg:not(:root) {
   .blog-description {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: var(--font-size-16);
+    font-size: var(--font-size-14);
     font-family: var(--font-family);
     word-wrap: break-word;
   }
@@ -1679,7 +1604,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
@@ -1718,14 +1643,14 @@ svg:not(:root) {
     text-align: center;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 24px;
+    font-size: var(--font-size-24);
   }
 
   .socmed-description {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: var(--font-size-16);
+    font-size: var(--font-size-14);
     font-family: var(--font-family);
     word-wrap: break-word;
   }
@@ -1753,64 +1678,13 @@ svg:not(:root) {
     max-width: 600px;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 10px;
+    margin-bottom: var(--margin-top-10);
     margin-bottom: 20px;
     display: flex;
   }
 
   .logo-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .footer {
-    background-color: #efe7fe;
-    padding: 40px 30px;
-    border-bottom: 1px solid #e4ebf3;
-    position: relative;
-  }
-
-  .footer-wrapper {
-    justify-content: space-between;
-    align-items: flex-start;
-    display: flex;
-    margin-bottom: 20px;
-  }
-
-  .footer-title {
-    font-family: var(--font-family);
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-
-  .special-pages ul li a,
-  .apps-tools ul li a,
-  .network ul li a,
-  .quick-link ul li a {
-    font-size: 12px;
-  }
-
-  .special-pages,
-  .apps-tools,
-  .network,
-  .quick-link {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    font-family: var(--font-family);
-    font-size: var(--font-size-14);
-    display: flex;
-  }
-
-  .footer-bottom {
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-  }
-
-  .footer-copyright {
-    color: #3a4554;
-    font-family: var(--font-family);
-    font-size: var(--font-size-14);
   }
 }
 
@@ -1828,7 +1702,7 @@ svg:not(:root) {
   }
 
   h2 {
-    font-size: 24px;
+    font-size: var(--font-size-24);
     line-height: 34px;
   }
 
@@ -1858,18 +1732,18 @@ svg:not(:root) {
 
   ul {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
     list-style-type: disc;
     padding-left: 40px;
   }
 
   li {
     display: inline;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
   }
 
   p {
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
   }
 
   h1 {
@@ -1882,17 +1756,17 @@ svg:not(:root) {
   }
 
   h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 36px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-36);
     font-weight: 400;
     line-height: 50px;
     font-family: Arial, sans-serif;
   }
 
   h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: 30px;
     font-weight: 400;
     line-height: 46px;
@@ -1900,17 +1774,17 @@ svg:not(:root) {
   }
 
   h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 24px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-24);
     font-weight: 400;
     line-height: 38px;
     font-family: Arial, sans-serif;
   }
 
   h5 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: 20px;
     font-weight: 500;
     line-height: 34px;
@@ -1918,8 +1792,8 @@ svg:not(:root) {
   }
 
   h6 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: var(--font-size-16);
     font-weight: 500;
     line-height: 28px;
@@ -1954,7 +1828,7 @@ svg:not(:root) {
   label {
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
     font-size: var(--font-size-14);
     font-weight: 500px;
     line-height: 20px;
@@ -1990,25 +1864,25 @@ svg:not(:root) {
   }
 
   .container-top {
-    padding: 0;
+    padding: 2.5em;
   }
 
   .main-button {
     display: inline-block;
     padding: 12px 20px;
-    font-size: 12px;
+    font-size: var(--font-size-12);
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     background-color: #1a1b1f;
-    color: var(--color-white);
+    color: #fff;
     transition: all 0.2s;
     text-decoration: none; /* Added */
   }
 
   .main-button:hover {
     background-color: #555555;
-    color: white;
+    color: var(--color-white);
     text-decoration: none;
   }
 
@@ -2026,6 +1900,7 @@ svg:not(:root) {
     background-color: #f5f7fa;
     border-bottom: 1px solid #e4ebf3;
     padding: 60px 30px;
+    padding-top: 10em;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -2057,13 +1932,13 @@ svg:not(:root) {
   }
 
   .welcome-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
   .welcome-to-inzaghis-sites {
     flex: 1;
-    /*padding: 20px;*/
+    /*padding: var(--padding-20);*/
   }
 
   .page-container {
@@ -2091,7 +1966,7 @@ svg:not(:root) {
   }
 
   .page-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
@@ -2099,14 +1974,14 @@ svg:not(:root) {
     font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .is-desc {
     font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .about-inzaghis-sites-button {
@@ -2162,11 +2037,11 @@ svg:not(:root) {
 
   .about-us-to-inzaghis-group {
     flex: 1;
-    /*padding: 20px;*/
+    /*padding: var(--padding-20);*/
   }
 
   .about-us-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
@@ -2177,7 +2052,7 @@ svg:not(:root) {
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .inzaghis-group-container {
@@ -2231,7 +2106,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
@@ -2244,7 +2119,7 @@ svg:not(:root) {
 
   .title-heading {
     text-align: center;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .centered-subheading {
@@ -2252,7 +2127,7 @@ svg:not(:root) {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .group-title {
@@ -2316,37 +2191,17 @@ svg:not(:root) {
     display: block;
   }
 
-  .inzaghis-blog-legacy,
-  .teknoblog-inzaghis-blog,
-  .miniblog-inzaghis-blog {
-    max-width: 350px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-
-  .inzaghis-blog-legacy img,
-  .teknoblog-inzaghis-blog img,
-  .miniblog-inzaghis-blog img {
-    margin-left: auto;
-    margin-right: auto;
-    height: 192px;
-    width: 300px;
-  }
-
   .blog-name {
     margin-top: 12px;
     margin-bottom: 12px;
     text-align: center;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 28px;
+    font-size: var(--font-size-28);
   }
 
   .blog-link {
-    color: white;
+    color: var(--color-white);
   }
 
   .blog-link:hover {
@@ -2355,7 +2210,7 @@ svg:not(:root) {
   }
 
   .apps-link {
-    color: white;
+    color: var(--color-white);
   }
 
   .apps-link:hover {
@@ -2367,7 +2222,6 @@ svg:not(:root) {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
-    font-size: var(--font-size-16);
     font-family: var(--font-family);
     word-wrap: break-word;
   }
@@ -2377,7 +2231,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
@@ -2392,7 +2246,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
@@ -2429,14 +2283,14 @@ svg:not(:root) {
     text-align: center;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 28px;
+    font-size: var(--font-size-28);
   }
 
   .socmed-description {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: var(--font-size-16);
+    font-size: var(--font-size-14);
     font-family: var(--font-family);
     word-wrap: break-word;
   }
@@ -2479,60 +2333,4 @@ svg:not(:root) {
     max-height: 60px;
     width: auto;
   }
-
-  .footer {
-    background-color: #efe7fe;
-    padding: 40px 30px;
-    border-bottom: 1px solid #e4ebf3;
-    position: relative;
-  }
-
-  .footer-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-
-  .footer-wrapper .inzaghis-corp-logo {
-    margin-bottom: 20px;
-  }
-
-  .footer-title {
-    font-family: var(--font-family);
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-
-  .special-pages,
-  .apps-tools,
-  .network,
-  .quick-link {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--font-family);
-    font-size: var(--font-size-14);
-    display: flex;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .footer-bottom {
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap; /* Menggunakan flex-wrap agar item-item bisa berjajar pada perangkat kecil */
-  }
-
-  .footer-copyright {
-    color: #3a4554;
-    font-family: var(--font-family);
-    font-size: var(--font-size-14);
-    width: 100%; /* Mengisi seluruh lebar pada perangkat mobile */
-    text-align: center; /* Center-align teks pada perangkat mobile */
-  }
-
-  /* Adjust other styles for mobile here */
 }

@@ -1,7 +1,7 @@
 <?php
 	$page_title = "About Inzaghi's Sites";
 	include('../layouts/header.php');
-  include('../layouts/navbar.php');
+  include('../components/navbar/navbar.php');
 ?>
   <!--script>
     $(document).ready(function () {
@@ -59,5 +59,6 @@
     </div>
   </section>
 <?php
+  include('../components/footsite/footsite.php');
 	include('../layouts/footer.php');
 ?>

@@ -1,7 +1,7 @@
 <?php
     $page_title = "Pages";
     include('../layouts/header.php');
-    include('../layouts/navbar.php');
+    include('../components/navbar/navbar.php');
 ?>
 
 <div class="container-top"></div>
@@ -42,17 +42,12 @@
                       "link" => "https://bit.ly/Bookmark-Manager-Links-Notion-Inzaghi"
                     ],
                     [
-                      "title" => "Calendar & Event Summary",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                      "link" => "https://inzaghi-poshaf.notion.site/Calendar-Summary-Events-2fdf303bab424c1ca6f8d7210c016128"
-                    ],
-                    [
                       "title" => "Programming Codes & UI Elements",
                       "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                       "link" => "https://inzaghi-poshaf.notion.site/Programming-Codes-UI-Elements-a99dadc9f4e84480b705f05e35e67270"
                     ],
                     [
-                      "title" => "AppName",
+                      "title" => "App 6",
                       "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                       "link" => "#"
                     ],
@@ -78,5 +73,6 @@
 </section>
 
 <?php
+    include('../components/footsite/footsite.php');
     include('../layouts/footer.php');
 ?>

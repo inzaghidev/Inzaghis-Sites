@@ -1,7 +1,7 @@
 <?php
 	$page_title = "Inzaghi's Group Network";
 	include('../layouts/header.php');
-  include('../layouts/navbar.php');
+  include('../components/navbar/navbar.php');
 ?>
   <div class="container-top"></div>
   <section class="about-us">
@@ -391,5 +391,6 @@
   </section>
   <section class="inzaghis-shop"></section>
 <?php
+	include('../components/footsite/footsite.php');
 	include('../layouts/footer.php');
 ?>

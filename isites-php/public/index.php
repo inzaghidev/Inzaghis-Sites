@@ -1,7 +1,7 @@
 <?php
 	$page_title = "Home";
 	include('../layouts/header.php');
-	include('../layouts/navbar.php');
+	include('../components/navbar/navbar.php');
 ?>
   <section class="welcome shadow">
     <div class="welcome-container">
@@ -386,7 +386,8 @@
     </div>
   </section>
 <?php
-	include('../layouts/footer.php');
+  include('../components/footsite/footsite.php');
+  include('../layouts/footer.php');
 ?>
 
 
