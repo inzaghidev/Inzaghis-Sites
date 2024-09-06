@@ -5,6 +5,14 @@
   text-decoration: none;
 }
 
+:root {
+  --font-family: "Inter", "Helvetica Neue", Helvetica, sans-serif;
+  --background-color: var(--color-white);
+  --color-white: white;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -19,10 +27,10 @@ html {
 body {
   margin: auto;
   padding: 0;
-  font-size: 16px;
+  font-size: var(--font-size-16);
   font-family: Arial, sans-serif;
   position: relative;
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 dl {
@@ -114,7 +122,7 @@ h5 {
 h6 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: var(--font-size-16);
   font-weight: 500;
   line-height: 28px;
   font-family: Arial, sans-serif;
@@ -125,7 +133,7 @@ a {
   text-decoration: none;
   transition: opacity 0.2s;
   display: block;
-  font-size: 16px;
+  font-size: var(--font-size-16);
 }
 
 a:hover {
@@ -151,7 +159,7 @@ label {
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: var(--font-size-14);
   font-weight: 500px;
   line-height: 20px;
 }
@@ -169,7 +177,7 @@ figcaption {
   opacity: 1;
   text-align: center;
   margin-top: 5px;
-  font-size: 14px;
+  font-size: var(--font-size-14);
   line-height: 26px;
 }
 
@@ -189,10 +197,6 @@ svg:not(:root) {
   padding: 2.9em;
 }
 
-#logo img {
-  vertical-align: middle;
-}
-
 .pages {
   max-width: 1680px;
   position: relative;
@@ -201,20 +205,17 @@ svg:not(:root) {
   padding: 40px;
 }
 
-.sign-in-button {
-  order: 2; /* Mengatur urutan tombol "Sign in" menjadi ke-2 (sebelah kanan) */
-}
-
 .main-button {
   display: inline-block;
   padding: 12px 20px;
   font-size: 12px;
+  font-family: var(--font-family);
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
   border-radius: 5px;
   background-color: #1a1b1f;
-  color: #fff;
+  color: var(--color-white);
   transition: all 0.2s;
   text-decoration: none;
 }
@@ -340,19 +341,19 @@ svg:not(:root) {
 }
 
 .content-description {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .inzaghis-sites-description {
-  font-size: 14px;
+  font-size: var(--font-size-14);
   line-height: 1.6;
   margin-bottom: 20px;
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
 }
 
 .is-desc {
-  font-size: 14px;
+  font-size: var(--font-size-14);
   line-height: 1.6;
   margin-bottom: 20px;
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
@@ -392,7 +393,7 @@ svg:not(:root) {
 
 .about-us-title {
   margin-bottom: 32px;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-size: 40px;
   font-weight: 700;
 }
@@ -494,8 +495,8 @@ svg:not(:root) {
   display: inline-block;
 }
 .hcg-slide-text {
-  color: #ffffff;
-  font-size: 16px; /* Samakan ukuran font */
+  color: var(--color-white);
+  font-size: var(--font-size-16); /* Samakan ukuran font */
   padding: 3px 5px;
   position: absolute;
   bottom: 0;
@@ -516,7 +517,7 @@ svg:not(:root) {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: #fff;
+  color: var(--color-white);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -592,7 +593,7 @@ svg:not(:root) {
 }
 
 .page-apps-container {
-  max-width: 1080px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -638,7 +639,7 @@ svg:not(:root) {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
 }
 
 .text-description {
@@ -646,7 +647,7 @@ svg:not(:root) {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
 }
 
 .left-subheading {
@@ -656,8 +657,8 @@ svg:not(:root) {
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 20px;
-  font-size: 16px;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: var(--font-size-16);
+  font-family: var(--font-family);
 }
 
 .group-wrapper {
@@ -854,7 +855,7 @@ svg:not(:root) {
   margin-top: 12px;
   margin-bottom: 12px;
   text-align: center;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-weight: 600;
   font-size: 28px;
 }
@@ -902,8 +903,8 @@ svg:not(:root) {
 .blog-description {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 16px;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: var(--font-size-16);
+  font-family: var(--font-family);
   word-wrap: break-word;
 }
 
@@ -970,7 +971,7 @@ svg:not(:root) {
 .socmed-name {
   margin-bottom: 12px;
   text-align: center;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: var(--font-family);
   font-weight: 600;
   font-size: 28px;
 }
@@ -979,8 +980,8 @@ svg:not(:root) {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 16px;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: var(--font-size-16);
+  font-family: var(--font-family);
   word-wrap: break-word;
 }
 
@@ -1025,7 +1026,7 @@ svg:not(:root) {
 .inzaghis-group-description {
   width: 100%;
   max-width: 1080px;
-  font-size: 14px;
+  font-size: var(--font-size-14);
   line-height: 1.6;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -1084,13 +1085,14 @@ svg:not(:root) {
 }
 
 .special-pages,
+.apps-tools,
 .network,
 .quick-link {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: var(--font-family);
+  font-size: var(--font-size-14);
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -1104,8 +1106,8 @@ svg:not(:root) {
 
 .footer-copyright {
   color: #3a4554;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: var(--font-family);
+  font-size: var(--font-size-14);
 }
 
 /* Responsive Styles for Tablet */
@@ -1118,10 +1120,10 @@ svg:not(:root) {
   body {
     margin: auto;
     padding: 0;
-    font-size: 16px;
+    font-size: var(--font-size-16);
     font-family: Arial, sans-serif;
     position: relative;
-    background-color: #ffffff;
+    background-color: var(--background-color);
   }
 
   dl {
@@ -1203,7 +1205,7 @@ svg:not(:root) {
   h6 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: var(--font-size-16);
     font-weight: 500;
     line-height: 28px;
     font-family: Arial, sans-serif;
@@ -1214,7 +1216,7 @@ svg:not(:root) {
     text-decoration: none;
     transition: opacity 0.2s;
     display: block;
-    font-size: 16px;
+    font-size: var(--font-size-16);
   }
 
   a:hover {
@@ -1238,7 +1240,7 @@ svg:not(:root) {
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: var(--font-size-14);
     font-weight: 500px;
     line-height: 20px;
   }
@@ -1256,7 +1258,7 @@ svg:not(:root) {
     opacity: 1;
     text-align: center;
     margin-top: 5px;
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 26px;
   }
 
@@ -1270,14 +1272,6 @@ svg:not(:root) {
 
   :not(svg) {
     transform-origin: 0px 0px;
-  }
-
-  #logo {
-    order: 1;
-  }
-
-  #logo img {
-    vertical-align: middle;
   }
 
   .main-button {
@@ -1324,7 +1318,7 @@ svg:not(:root) {
     max-width: 1080px;
     margin: 0 auto;
     margin-bottom: 32px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -1359,7 +1353,7 @@ svg:not(:root) {
     max-width: 1080px;
     margin: 0 auto;
     margin-bottom: 32px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -1376,15 +1370,20 @@ svg:not(:root) {
     border-radius: 8px;
   }
 
+  .content-description {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   .inzaghis-sites-description {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   }
 
   .is-desc {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
@@ -1424,7 +1423,7 @@ svg:not(:root) {
 
   .about-us-title {
     margin-bottom: 32px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
   }
@@ -1447,7 +1446,7 @@ svg:not(:root) {
   }
 
   .inzaghis-group-description {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -1481,6 +1480,12 @@ svg:not(:root) {
   }
 
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
+
+  .page-apps-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .page-apps-wrapper {
     background-color: #f5faf5;
@@ -1523,7 +1528,7 @@ svg:not(:root) {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .group-title {
@@ -1535,7 +1540,7 @@ svg:not(:root) {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .group-image img {
@@ -1638,7 +1643,7 @@ svg:not(:root) {
     margin-top: 12px;
     margin-bottom: 12px;
     text-align: center;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 600;
     font-size: 20px;
   }
@@ -1664,8 +1669,8 @@ svg:not(:root) {
   .blog-description {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 16px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: var(--font-size-16);
+    font-family: var(--font-family);
     word-wrap: break-word;
   }
 
@@ -1711,7 +1716,7 @@ svg:not(:root) {
   .socmed-name {
     margin-bottom: 12px;
     text-align: center;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 600;
     font-size: 24px;
   }
@@ -1720,8 +1725,8 @@ svg:not(:root) {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 16px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: var(--font-size-16);
+    font-family: var(--font-family);
     word-wrap: break-word;
   }
 
@@ -1772,19 +1777,27 @@ svg:not(:root) {
   }
 
   .footer-title {
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: var(--font-family);
+    font-size: 16px;
     margin-bottom: 20px;
   }
 
+  .special-pages ul li a,
+  .apps-tools ul li a,
+  .network ul li a,
+  .quick-link ul li a {
+    font-size: 12px;
+  }
+
   .special-pages,
+  .apps-tools,
   .network,
   .quick-link {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
     display: flex;
   }
 
@@ -1796,8 +1809,8 @@ svg:not(:root) {
 
   .footer-copyright {
     color: #3a4554;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
   }
 }
 
@@ -1822,10 +1835,10 @@ svg:not(:root) {
   body {
     margin: auto;
     padding: 0;
-    font-size: 16px;
+    font-size: var(--font-size-16);
     font-family: Arial, sans-serif;
     position: relative;
-    background-color: #ffffff;
+    background-color: var(--background-color);
   }
 
   dl {
@@ -1907,7 +1920,7 @@ svg:not(:root) {
   h6 {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: var(--font-size-16);
     font-weight: 500;
     line-height: 28px;
     font-family: Arial, sans-serif;
@@ -1918,7 +1931,7 @@ svg:not(:root) {
     text-decoration: none;
     transition: opacity 0.2s;
     display: block;
-    font-size: 16px;
+    font-size: var(--font-size-16);
   }
 
   a:hover {
@@ -1942,7 +1955,7 @@ svg:not(:root) {
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: var(--font-size-14);
     font-weight: 500px;
     line-height: 20px;
   }
@@ -1960,7 +1973,7 @@ svg:not(:root) {
     opacity: 1;
     text-align: center;
     margin-top: 5px;
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 26px;
   }
 
@@ -1987,17 +2000,15 @@ svg:not(:root) {
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    border-radius: 5px;
     background-color: #1a1b1f;
-    color: #fff;
+    color: var(--color-white);
     transition: all 0.2s;
-    text-decoration: none;
+    text-decoration: none; /* Added */
   }
 
   .main-button:hover {
     background-color: #555555;
     color: white;
-    border-radius: 5px;
     text-decoration: none;
   }
 
@@ -2032,7 +2043,7 @@ svg:not(:root) {
     max-width: 1080px;
     margin: 0 auto;
     margin-bottom: 32px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -2067,7 +2078,7 @@ svg:not(:root) {
     max-width: 1080px;
     margin: 0 auto;
     margin-bottom: 32px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -2085,14 +2096,14 @@ svg:not(:root) {
   }
 
   .inzaghis-sites-description {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   }
 
   .is-desc {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: 20px;
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
@@ -2137,7 +2148,7 @@ svg:not(:root) {
 
   .about-us-title {
     margin-bottom: 32px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
   }
@@ -2160,7 +2171,7 @@ svg:not(:root) {
   }
 
   .inzaghis-group-description {
-    font-size: 14px;
+    font-size: var(--font-size-14);
     line-height: 1.6;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -2253,7 +2264,7 @@ svg:not(:root) {
     max-width: 800px;
     margin-left: 10px;
     margin-right: auto;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
   }
 
   .group-content {
@@ -2329,7 +2340,7 @@ svg:not(:root) {
     margin-top: 12px;
     margin-bottom: 12px;
     text-align: center;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 600;
     font-size: 28px;
   }
@@ -2356,8 +2367,8 @@ svg:not(:root) {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
-    font-size: 16px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: var(--font-size-16);
+    font-family: var(--font-family);
     word-wrap: break-word;
   }
 
@@ -2416,7 +2427,7 @@ svg:not(:root) {
   .socmed-name {
     margin-bottom: 12px;
     text-align: center;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-weight: 600;
     font-size: 28px;
   }
@@ -2425,8 +2436,8 @@ svg:not(:root) {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 16px;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: var(--font-size-16);
+    font-family: var(--font-family);
     word-wrap: break-word;
   }
 
@@ -2489,19 +2500,20 @@ svg:not(:root) {
   }
 
   .footer-title {
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: var(--font-family);
     font-size: 20px;
     margin-bottom: 20px;
   }
 
   .special-pages,
+  .apps-tools,
   .network,
   .quick-link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
     display: flex;
     width: 100%;
     margin-bottom: 20px;
@@ -2516,8 +2528,8 @@ svg:not(:root) {
 
   .footer-copyright {
     color: #3a4554;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 14px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
     width: 100%; /* Mengisi seluruh lebar pada perangkat mobile */
     text-align: center; /* Center-align teks pada perangkat mobile */
   }
