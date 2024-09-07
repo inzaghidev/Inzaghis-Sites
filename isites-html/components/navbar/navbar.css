@@ -74,7 +74,6 @@
   z-index: 1000;
   font-family: var(--font-family);
   font-size: var(--font-size);
-  max-width: 1680px;
 }
 
 #logo img {
@@ -84,7 +83,7 @@
 .nav-menu-container {
   order: 5;
   margin: auto;
-  max-width: 75vw;
+  width: 75vw;
 }
 
 .nav-menu {
