@@ -29,12 +29,12 @@ Tampilan Aplikasi dari Contact :
 
 ## Inzaghi's Sites Profile
 
-Tampilan Aplikasi dari Contact :
+Tampilan Aplikasi dari Profile :
 
 ![]()
 
 ## Inzaghi's Sites Networks (Inzaghi's Group)
 
-Tampilan Aplikasi dari Contact :
+Tampilan Aplikasi dari Networks :
 
 ![]()
