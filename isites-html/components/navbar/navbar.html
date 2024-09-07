@@ -39,13 +39,14 @@
   src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
 ></script>
 
-<div class="nav-header" id="navHeader">
+<!-- BORDER -->
+<!--div class="nav-header" id="navHeader">
   <nav class="navbar" id="navbar">
     <a href="../public/index.html" id="logo">
       <img
-        src="../images/inzaghis-sites-logo-dengan-hut-ri-79.png"
-        title="Inzaghi's Sites | Dirgahayu Republik Indonesia! #79"
-        height="60px"
+        src="../images/inzaghis-sites-logo-vertical-transparent.png"
+        title="Inzaghi's Sites"
+        class="h-16 w-auto"
         alt="logo"
       />
     </a>
@@ -90,7 +91,9 @@
                   class="dropdown-link"
                   >WordPress Site</a
                 >
-                <a href="https://inzaghi-site.webflow.io" class="dropdown-link"
+                <a
+                  href="https://inzaghi-site.webflow.io"
+                  class="dropdown-link"
                   >Preview (Webflow)</a
                 >
               </nav>
@@ -109,153 +112,146 @@
       <span class="fas fa-times cross"></span>
     </div>
   </nav>
-</div>
-
-<!--div class="nav-header bg-white fixed w-full z-10 shadow-md">
-  <nav class="navbar container mx-auto flex justify-between items-center p-4">
-    <a href="../public/index.html" id="logo" class="flex items-center">
-      <img
-        src="../images/inzaghis-sites-logo-dengan-hut-ri-79.png"
-        title="Inzaghi's Sites | Dirgahayu Republik Indonesia! #79"
-        class="h-12"
-        alt="logo"
-      />
-    </a>
-    <div class="hidden lg:flex space-x-6">
-      <a
-        href="../public/index.html"
-        class="text-black hover:bg-gray-200 px-3 py-2 rounded"
-        >Home</a
-      >
-      <a
-        href="https://medium.com/@izzumiposhaf29"
-        class="text-black hover:bg-gray-200 px-3 py-2 rounded"
-        >Blog</a
-      >
-      <a
-        href="../pages/apps.html"
-        class="text-black hover:bg-gray-200 px-3 py-2 rounded"
-        >Page Apps</a
-      >
-      <a
-        href="../pages/contact.html"
-        class="text-black hover:bg-gray-200 px-3 py-2 rounded"
-        >Contact</a
-      >
-      <a
-        href="../pages/profile.html"
-        class="text-black hover:bg-gray-200 px-3 py-2 rounded"
-        >Profile</a
-      >
-      <a
-        href="../pages/about.html"
-        class="text-black hover:bg-gray-200 px-3 py-2 rounded"
-        >About</a
-      >
-      <a
-        href="../pages/networks.html"
-        class="text-black hover:bg-gray-200 px-3 py-2 rounded"
-        >Inzaghi's Group Network</a
-      >
-      <div class="dropdown relative">
-        <button
-          class="text-black hover:bg-gray-200 px-3 py-2 rounded inline-flex items-center"
+</div-->
+<!-- BORDER -->
+<div class="navbar bg-white bg-opacity-60 fixed w-full z-10 shadow-md">
+  <nav
+    class="bg-gray-100 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md"
+  >
+    <div
+      class="container mx-auto px-4 lg:flex items-center justify-center gap-6 w-full"
+    >
+      <!-- Logo -->
+      <div class="flex items-center justify-between lg:w-auto w-full">
+        <a
+          href="../public/index.html"
+          id="logo"
+          class="flex items-center py-5 px-2"
         >
-          Switch to Another Site
-          <ion-icon name="chevron-down-outline" class="ml-1"></ion-icon>
-        </button>
-        <div class="absolute hidden bg-gray-100 mt-2 rounded shadow-lg py-2">
-          <a
-            href="https://sites.google.com/view/inzaghis-sites"
-            class="block px-4 py-2 text-black hover:bg-gray-200 rounded"
-            >Old Inzaghi's Sites</a
-          >
-          <a
-            href="https://inzaghiposuma.wordpress.com"
-            class="block px-4 py-2 text-black hover:bg-gray-200 rounded"
-            >WordPress Site</a
-          >
-          <a
-            href="https://inzaghi-site.webflow.io"
-            class="block px-4 py-2 text-black hover:bg-gray-200 rounded"
-            >Preview (Webflow)</a
-          >
+          <img
+            src="../images/inzaghis-sites-logo-vertical-transparent.png"
+            title="Inzaghi's Sites"
+            class="h-12"
+            alt="logo"
+          />
+        </a>
+        <!-- Mobile Menu Button -->
+        <div class="lg:hidden flex items-center">
+          <button class="mobile-menu-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <title>bars-3-bottom-left</title>
+              <g fill="none">
+                <path
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+          </button>
         </div>
       </div>
-    </div>
-    <a
-      href="../includes/signin.html"
-      class="hidden lg:block bg-black text-white px-4 py-2 rounded hover:bg-gray-600"
-      >Sign in</a
-    >
-    <button id="menu-toggle" class="lg:hidden text-black">
-      <span class="fas fa-bars"></span>
-    </button>
-  </nav>
-  <div id="mobile-menu" class="hidden lg:hidden bg-white shadow-lg">
-    <a
-      href="../public/index.html"
-      class="block px-4 py-2 text-black hover:bg-gray-200"
-      >Home</a
-    >
-    <a
-      href="https://medium.com/@izzumiposhaf29"
-      class="block px-4 py-2 text-black hover:bg-gray-200"
-      >Blog</a
-    >
-    <a
-      href="../pages/apps.html"
-      class="block px-4 py-2 text-black hover:bg-gray-200"
-      >Page Apps</a
-    >
-    <a
-      href="../pages/contact.html"
-      class="block px-4 py-2 text-black hover:bg-gray-200"
-      >Contact</a
-    >
-    <a
-      href="../pages/profile.html"
-      class="block px-4 py-2 text-black hover:bg-gray-200"
-      >Profile</a
-    >
-    <a
-      href="../pages/about.html"
-      class="block px-4 py-2 text-black hover:bg-gray-200"
-      >About</a
-    >
-    <a
-      href="../pages/networks.html"
-      class="block px-4 py-2 text-black hover:bg-gray-200"
-      >Inzaghi's Group Network</a
-    >
-    <div class="relative">
-      <button
-        class="block w-full text-left px-4 py-2 text-black hover:bg-gray-200"
+      <!-- Primary Navigation -->
+      <div
+        class="hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 navigation-menu pb-3 lg:pb-0 navigation-menu"
       >
-        Switch to Another Site
-      </button>
-      <div class="hidden bg-gray-100 mt-2 rounded shadow-lg py-2">
         <a
-          href="https://sites.google.com/view/inzaghis-sites"
-          class="block px-4 py-2 text-black hover:bg-gray-200"
-          >Old Inzaghi's Sites</a
+          href="./public/index.html"
+          class="py-2 py-2 px-3 hover:bg-gray-200 gap-2 rounded block"
+          >Home</a
         >
         <a
-          href="https://inzaghiposuma.wordpress.com"
-          class="block px-4 py-2 text-black hover:bg-gray-200"
-          >WordPress Site</a
+          href="https://medium.com/@izzumiposhaf29"
+          class="py-2 px-3 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
+          >Blog</a
         >
         <a
-          href="https://inzaghi-site.webflow.io"
-          class="block px-4 py-2 text-black hover:bg-gray-200"
-          >Preview (Webflow)</a
+          href="../pages/apps.html"
+          class="py-2 px-3 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
+          >Page Apps</a
         >
+        <a
+          href="../pages/contact.html"
+          class="py-2 px-3 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
+          >Contact</a
+        >
+        <a
+          href="../pages/profile.html"
+          class="py-2 px-3 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
+          >Profile</a
+        >
+        <a
+          href="../pages/about.html"
+          class="py-2 px-3 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
+          >About</a
+        >
+        <a
+          href="../pages/networks.html"
+          class="py-2 px-3 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
+          >Inzaghi's Group Network</a
+        >
+        <!-- Dropdown Menu -->
+        <div class="hover:bg-gray-200 gap-2 rounded-lg block">
+          <button
+            class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg"
+          >
+            <span class="pointer-events-none">Switch to Another Site</span>
+            <svg
+              class="w-3 h-3 pointer-events-none"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <title>chevron-down</title>
+              <g fill="none">
+                <path
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+          </button>
+          <div
+            class="dropdown-menu absolute hidden bg-gray-300 text-white rounded-lg py-2 w-48"
+          >
+            <a
+              href="https://sites.google.com/view/inzaghis-sites"
+              class="block px-6 py-2 text-black hover:bg-gray-200"
+              >Old Inzaghi's Sites</a
+            >
+            <a
+              href="https://inzaghiposuma.wordpress.com"
+              class="block px-6 py-2 text-black hover:bg-gray-200"
+              >WordPress Site</a
+            >
+            <a
+              href="https://inzaghi-site.webflow.io"
+              class="block px-6 py-2 text-black hover:bg-gray-200"
+              >Preview (Webflow)</a
+            >
+          </div>
+        </div>
+        <button
+          class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800"
+        >
+          <span
+            class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
+          >
+            Sign in
+          </span>
+        </button>
       </div>
     </div>
-    <a
-      href="../includes/signin.html"
-      class="block bg-black hover:bg-gray-400 text-white px-4 py-2 rounded mt-2"
-      >Sign in</a
-    >
-  </div>
-</div-->
+  </nav>
+</div>
