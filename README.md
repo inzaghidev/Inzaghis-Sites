@@ -13,29 +13,29 @@ Link :
 
 Berikut ini adalah Tampilan Utama dari Inzaghi's Sites :
 
-![Inzaghi's Sites Homepage](/isites-php/images/inzaghis-sites-homepage-202409.png)
+![Inzaghi's Sites Homepage](/isites-php/images/inzaghis-sites-homepage-202409.jpg)
 
 ## Inzaghi's Sites Page Apps
 
 Tampilan Aplikasi dari Page Apps :
 
-![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps-1.png)
-![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps-2.png)
+![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps-1.jpg)
+![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps-2.jpg)
 
 ## Inzaghi's Sites Contact
 
 Tampilan Aplikasi dari Contact :
 
-![Contact us Inzaghi's Sites](/isites-php/images/inzaghis-sites-contact.png)
+![Contact us Inzaghi's Sites](/isites-php/images/inzaghis-sites-contact.jpg)
 
 ## Inzaghi's Sites Profile
 
 Tampilan Aplikasi dari Profile :
 
-![Profile Inzaghi's Sites](/isites-php/images/inzaghis-sites-profile.png)
+![Profile Inzaghi's Sites](/isites-php/images/inzaghis-sites-profile.jpg)
 
 ## Inzaghi's Sites Networks (Inzaghi's Group)
 
 Tampilan Aplikasi dari Networks :
 
-![Networks Inzaghi's Sites](/isites-php/images/inzaghis-sites-networks.png)
+![Networks Inzaghi's Sites](/isites-php/images/inzaghis-sites-networks.jpg)
