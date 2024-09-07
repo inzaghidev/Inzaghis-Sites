@@ -11,7 +11,7 @@ Link :
 
 ## WARNING!!
 
-This Branch is Under Construction, and will Rebuilded using Tailwind CSS.
+This Branch is Under Construction, and will Rebuilded soon using Tailwind CSS.
 
 ## Inzaghi's Sites Homepage
 
