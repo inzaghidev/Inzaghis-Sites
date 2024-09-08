@@ -59,10 +59,10 @@
         <div class="flex flex-wrap -mx-4">
           <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
             <div
-              class="relative flex flex-col text-gray-700 bg-gray-50 shadow-lg bg-clip-border rounded-xl h-full"
+              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full"
             >
               <div
-                class="relative h-56 mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
+                class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
               >
                 <img
                   src="../images/inzaghis-blog-legacy.png"
@@ -100,10 +100,10 @@
 
           <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
             <div
-              class="relative flex flex-col text-gray-700 bg-gray-50 shadow-lg bg-clip-border rounded-xl h-full"
+              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full"
             >
               <div
-                class="relative h-56 mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
+                class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
               >
                 <img
                   src="../images/teknoblog-by-inzaghis-blog.png"
@@ -142,10 +142,10 @@
 
           <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
             <div
-              class="relative flex flex-col text-gray-700 bg-gray-50 shadow-lg bg-clip-border rounded-xl h-full"
+              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full"
             >
               <div
-                class="relative h-56 mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
+                class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
               >
                 <img
                   src="../images/miniblog-by-inzaghis-blog.png"
@@ -214,7 +214,7 @@
             class="grid md:gap-8 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3"
           >
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-gray-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
             >
               <div class="p-6">
                 <svg
@@ -245,7 +245,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Instagram
                 </h5>
@@ -286,7 +286,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-gray-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
             >
               <div class="p-6">
                 <svg
@@ -306,7 +306,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   TikTok
                 </h5>
@@ -348,7 +348,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-gray-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
             >
               <div class="p-6">
                 <svg
@@ -372,7 +372,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   YouTube
                 </h5>
@@ -413,7 +413,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-gray-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
             >
               <div class="p-6">
                 <svg
@@ -433,7 +433,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   X (Twitter)
                 </h5>
@@ -474,7 +474,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-gray-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
             >
               <div class="p-6">
                 <svg
@@ -500,7 +500,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Threads
                 </h5>

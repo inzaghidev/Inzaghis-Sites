@@ -324,6 +324,13 @@ svg:not(:root) {
   padding: 40px;
 }
 
+.page-sub-container-full {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
 .page-title {
   width: 100%;
   max-width: 1080px;
@@ -615,7 +622,6 @@ svg:not(:root) {
 }
 
 .inzaghis-blog-slider {
-  background-color: #fff6f0;
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -744,7 +750,6 @@ svg:not(:root) {
 }
 
 .inzaghisblog-slider {
-  background-color: #fff6f0;
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -760,7 +765,6 @@ svg:not(:root) {
 }
 
 .inzaghismedia-info {
-  background-color: #ffe3e3;
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -900,7 +904,6 @@ svg:not(:root) {
 }
 
 .inzaghis-media-info {
-  background-color: #ffe3e3;
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -1435,7 +1438,6 @@ svg:not(:root) {
   }
 
   .inzaghis-blog-slider {
-    background-color: fff6f0;
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -1543,7 +1545,6 @@ svg:not(:root) {
   }
 
   .inzaghismedia-info {
-    background-color: #ffe3e3;
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -1600,7 +1601,6 @@ svg:not(:root) {
   }
 
   .inzaghis-media-info {
-    background-color: #ffe3e3;
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -2102,7 +2102,6 @@ svg:not(:root) {
   }
 
   .inzaghis-blog-slider {
-    background-color: fff6f0;
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -2227,7 +2226,6 @@ svg:not(:root) {
   }
 
   .inzaghismedia-info {
-    background-color: #ffe3e3;
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -2239,16 +2237,6 @@ svg:not(:root) {
   .inzaghismedia-slider {
     padding: 10px;
     height: auto;
-  }
-
-  .inzaghis-media-info {
-    background-color: #ffe3e3;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    padding: var(--padding-20);
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .inzaghis-media-container {

@@ -90,7 +90,7 @@
   </section>
   <section class="inzaghis-blog-slider shadow">
     <div class="inzaghis-blog-container">
-      <h2 class="title-heading">Our Blog</h2>
+      <h2 class="title-heading text-yellow-600">Our Blog</h2>
       <p class="centered-subheading">
         Inzaghi's Blog merupakan Platform Blogging sebagai tempat untuk
         berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog lebih
@@ -100,10 +100,10 @@
         <div class="flex flex-wrap -mx-4">
           <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
             <div
-              class="relative flex flex-col text-gray-700 bg-gray-50 shadow-lg bg-clip-border rounded-xl h-full"
+              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full"
             >
               <div
-                class="relative h-56 mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
+                class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
               >
                 <img
                   src="../images/inzaghis-blog-legacy.png"
@@ -141,10 +141,10 @@
 
           <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
             <div
-              class="relative flex flex-col text-gray-700 bg-gray-50 shadow-lg bg-clip-border rounded-xl h-full"
+              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full"
             >
               <div
-                class="relative h-56 mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
+                class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
               >
                 <img
                   src="../images/teknoblog-by-inzaghis-blog.png"
@@ -183,10 +183,10 @@
 
           <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
             <div
-              class="relative flex flex-col text-gray-700 bg-gray-50 shadow-lg bg-clip-border rounded-xl h-full"
+              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full"
             >
               <div
-                class="relative h-56 mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
+                class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
               >
                 <img
                   src="../images/miniblog-by-inzaghis-blog.png"
@@ -228,7 +228,7 @@
   </section>
   <section class="inzaghis-media-info shadow">
     <div class="inzaghis-media-container">
-      <h2 class="title-heading">Our Social Media</h2>
+      <h2 class="title-heading text-red-600">Our Social Media</h2>
       <p class="centered-subheading">
         Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
         terutama seputar IT.
@@ -239,7 +239,7 @@
             class="grid md:gap-8 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3"
           >
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-gray-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
             >
               <div class="p-6">
                 <svg
@@ -270,7 +270,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Instagram
                 </h5>
@@ -311,7 +311,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-gray-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
             >
               <div class="p-6">
                 <svg
@@ -331,7 +331,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   TikTok
                 </h5>
@@ -373,7 +373,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-gray-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
             >
               <div class="p-6">
                 <svg
@@ -397,7 +397,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   YouTube
                 </h5>
@@ -438,7 +438,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-gray-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
             >
               <div class="p-6">
                 <svg
@@ -458,7 +458,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   X (Twitter)
                 </h5>
@@ -499,7 +499,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-gray-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
             >
               <div class="p-6">
                 <svg
@@ -525,7 +525,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Threads
                 </h5>
@@ -638,8 +638,3 @@
   include('../components/footsite/footsite.php');
   include('../layouts/footer.php');
 ?>
-
-
-<!-- https://stackoverflow.com/questions/32537477/how-to-use-dir -->
-<!-- https://stackoverflow.com/questions/55026758/php-file-cannot-load-css-or-javascript-files-present-in-another-directory -->
-<!-- https://www.phptutorial.net/php-tutorial/php-__dir__ -->

@@ -40,7 +40,7 @@
               </g>
             </svg>
           </button>
-          <div class="dropdown-menu absolute hidden bg-gray-300 text-white rounded-lg py-2 w-48">
+          <div class="dropdown-menu lg:absolute hidden bg-gray-300 text-white rounded-lg py-2">
             <a href="https://sites.google.com/view/inzaghis-sites" class="block px-6 py-2 text-black hover:bg-gray-200">Old Inzaghi's Sites</a>
             <a href="https://inzaghiposuma.wordpress.com" class="block px-6 py-2 text-black hover:bg-gray-200">WordPress Site</a>
             <a href="https://inzaghi-site.webflow.io" class="block px-6 py-2 text-black hover:bg-gray-200">Preview (Webflow)</a>
@@ -56,3 +56,6 @@
     </div>
   </nav>
 </div>
+
+<!-- https://tailwindflex.com/tag/navbar -->
+<!-- https://tailwindflex.com/@piet-vriend/responsive-navbar -->

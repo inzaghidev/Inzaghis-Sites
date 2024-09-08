@@ -63,7 +63,6 @@
 .navbar {
   font-family: var(--font-family);
   font-size: var(--font-size);
-  max-width: 1680px;
 }
 
 #logo img {
