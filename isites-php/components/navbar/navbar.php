@@ -8,7 +8,7 @@
                 <ul>
                     <li><a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>">Home</a></li>
                     <li><a href="https://medium.com/@izzumiposhaf29">Blog</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/pages/apps.php'; ?>">Page Apps</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Page Apps</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>">Contact</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>">Profile</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>">About</a></li>

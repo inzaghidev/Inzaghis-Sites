@@ -28,6 +28,7 @@
                     type="text"
                     class="form-control"
                     id="name"
+                    name="name"
                     aria-describedby="emailHelp"
                     placeholder="Enter Name"
                     required
@@ -39,6 +40,7 @@
                     type="email"
                     class="form-control"
                     id="email"
+                    name="email"
                     aria-describedby="emailHelp"
                     placeholder="Enter Email"
                     required
@@ -52,6 +54,7 @@
                   <textarea
                     class="form-control"
                     id="message"
+                    name="message"
                     rows="6"
                     required
                   ></textarea>
