@@ -23,7 +23,7 @@
       <div class="lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 navigation-menu pb-3 lg:pb-0 hidden">
         <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">Home</a>
         <a href="https://medium.com/@izzumiposhaf29" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">Blog</a>
-        <a href="<?php echo $pathToWebRoot.'/pages/apps.php'; ?>" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">Page Apps</a>
+        <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">Page Apps</a>
         <a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">Contact</a>
         <a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">Profile</a>
         <a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">About</a>

@@ -1,0 +1,6 @@
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+DirectoryIndex /page-apps/ /page-apps/index.php
+
+# Redirect /pages/apps.php https://www.inzaghi.wuaze.com/page-apps/index.php
