@@ -49,7 +49,10 @@
   position: fixed;
   /* top: 0; */
   z-index: 10;
-  border-bottom: 2px solid var(--border-color);
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px #fff, 0 2px 4px -2px #fff;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   border-style: solid;
 }
 
@@ -93,7 +96,7 @@
   display: flex;
   align-items: center;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 2em;
 }
 
 .nav-menu li {
@@ -546,7 +549,7 @@ li a:hover::after {
 
   .nav-menu-container {
     position: fixed;
-    top: 83px;
+    top: 82px;
     left: -1000%;
     height: calc(100vh - 83px);
     width: 250px;
@@ -557,7 +560,7 @@ li a:hover::after {
 
   .nav-menu-container.active {
     left: 0;
-    top: 83px;
+    top: 82px;
     bottom: auto;
     height: calc(100vh - 83px);
     width: 250px;

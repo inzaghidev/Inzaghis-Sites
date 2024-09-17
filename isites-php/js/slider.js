@@ -4,49 +4,49 @@
       name: "Pages",
       url: "../images/pages-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/pages.html",
+      link: "../page-apps/pages.php",
     },
     {
       name: "Widgets",
       url: "../images/widgets-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/widgets.html",
+      link: "../page-apps/widgets.php",
     },
     {
       name: "Converters",
       url: "../images/converters-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/converter.html",
+      link: "../page-apps/converter.php",
     },
     {
       name: "Calculators",
       url: "../images/calculators-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/calculators.html",
+      link: "../page-apps/calculators.php",
     },
     {
       name: "Generators",
       url: "../images/generators-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/generators.html",
+      link: "../page-apps/generators.php",
     },
     {
       name: "Formatters",
       url: "../images/formatters-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/formatters.html",
+      link: "../page-apps/formatters.php",
     },
     {
       name: "FileConverters",
       url: "../images/file-converters-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/file-converter.html",
+      link: "../page-apps/file-converter.php",
     },
     {
       name: "Utilities",
       url: "../images/utilities-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/utilities.html",
+      link: "../page-apps/utilities.php",
     },
   ];
 
@@ -174,14 +174,14 @@
   const getBlogLink = (imageName) => {
     // Define the mapping of image name to blog link
     const blogLinkMap = {
-      Pages: "../page-apps/pages.html",
-      Widgets: "../page-apps/widgets.html",
-      Converters: "../page-apps/converter.html",
-      Calculators: "../page-apps/calculators.html",
-      Generators: "../page-apps/generators.html",
-      Formatters: "../page-apps/formatters.html",
-      FileConverters: "../page-apps/file-converter.html",
-      Utilities: "../page-apps/utilities.html",
+      Pages: "../page-apps/pages.php",
+      Widgets: "../page-apps/widgets.php",
+      Converters: "../page-apps/converter.php",
+      Calculators: "../page-apps/calculators.php",
+      Generators: "../page-apps/generators.php",
+      Formatters: "../page-apps/formatters.php",
+      FileConverters: "../page-apps/file-converter.php",
+      Utilities: "../page-apps/utilities.php",
     };
 
     // Return the blog link based on the image name, or a default value if not found
