@@ -199,6 +199,7 @@ li a:hover::after {
   letter-spacing: 0.25px;
   font-size: var(--font-size);
   line-height: 20px;
+  cursor: pointer;
 }
 
 .dropdown:hover .nav-dropdown-list {
@@ -444,6 +445,7 @@ li a:hover::after {
     letter-spacing: 0.25px;
     font-size: var(--font-size);
     line-height: 15px;
+    cursor: pointer;
   }
 
   .dropdown:hover .nav-dropdown-list {
@@ -551,7 +553,7 @@ li a:hover::after {
     position: fixed;
     top: 82px;
     left: -1000%;
-    height: calc(100vh - 83px);
+    height: calc(100vh - 82px);
     width: 250px;
     background-color: var(--side-navbar-background-color);
     transition: left 0.3s ease;
@@ -562,7 +564,7 @@ li a:hover::after {
     left: 0;
     top: 82px;
     bottom: auto;
-    height: calc(100vh - 83px);
+    height: calc(100vh - 82px);
     width: 250px;
     overflow-y: auto;
   }

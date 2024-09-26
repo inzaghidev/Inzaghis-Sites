@@ -7,8 +7,8 @@
           <img src="<?php echo $pathToWebRoot.'/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" alt="logo" />
         </a>
         <!-- Mobile Menu Button -->
-        <div class="lg:hidden flex items-center">
-          <button class="mobile-menu-button">
+        <div class="lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
+          <button class="mobile-menu-button py-3 px-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <title>bars-3-bottom-left</title>
               <g fill="none">
@@ -47,8 +47,8 @@
           </div>
         </div>
         
-        <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
-          <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 text-white rounded-md group-hover:bg-opacity-0">
+        <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
+          <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0">
             Sign in
           </span>
         </button>

@@ -32,7 +32,7 @@
         </div>
         <div class="welcome-image-to-inzaghis-sites">
           <img
-            src="../images/website-illustration-transparent.png"
+            src="../images/website-illustration-transparent-3d.png"
             alt="Inzaghi's Sites"
             style="width: 600px"
           />
