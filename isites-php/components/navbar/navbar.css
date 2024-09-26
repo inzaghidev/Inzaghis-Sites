@@ -207,6 +207,7 @@ li a:hover::after {
   letter-spacing: 0.25px;
   font-size: var(--font-size);
   line-height: 20px;
+  cursor: pointer;
 }
 
 .dropdown:hover .nav-dropdown-list {
