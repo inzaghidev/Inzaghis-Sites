@@ -261,6 +261,18 @@ svg:not(:root) {
   margin-right: auto;
 }
 
+.row-text {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
 .welcome {
   background-color: #f5f7fa;
   border-bottom: 1px solid #e4ebf3;
@@ -741,6 +753,19 @@ svg:not(:root) {
 .btn.btn-secondary:hover {
   background-color: #ff6600;
   border-color: #ff6600;
+}
+
+.text-start {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
 }
 
 .inzaghisblog-slider {
@@ -2332,5 +2357,42 @@ svg:not(:root) {
   .logo-grid img {
     max-height: 60px;
     width: auto;
+  }
+
+  .resume-wrapper {
+    padding: 15px !important; /* Kurangi padding di layar kecil */
+    margin-bottom: 10px; /* Kurangi margin bawah di layar kecil */
+  }
+
+  .resume-header,
+  .resume-body,
+  .resume-footer {
+    padding: 0 !important; /* Kurangi padding untuk menghemat ruang */
+  }
+
+  .resume-profile-image {
+    width: 100% !important; /* Buat gambar profil memenuhi lebar kolom */
+    max-width: 100px; /* Maksimalkan ukuran gambar */
+  }
+
+  .resume-title h2 {
+    font-size: 1.5rem !important; /* Kurangi ukuran font di layar kecil */
+  }
+
+  .resume-tagline {
+    font-size: 0.9rem !important; /* Kurangi ukuran tagline */
+  }
+
+  .resume-contact ul {
+    padding: 0 !important;
+    font-size: 0.85rem; /* Kurangi ukuran font pada kontak */
+  }
+
+  .resume-aside {
+    padding: 10px !important; /* Kurangi padding pada aside */
+  }
+
+  .resume-footer {
+    padding-top: 10px;
   }
 }

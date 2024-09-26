@@ -42,6 +42,23 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  // Function to toggle dropdown on click for all screen sizes
+  function toggleDropdown(e) {
+    e.preventDefault(); // Mencegah aksi default, jika diperlukan
+    dropdownToggle.parentNode.classList.toggle("active");
+    dropdownMenu.classList.toggle("show");
+    chevronIcon.classList.toggle("rotate-icon");
+  }
+
+  // Tambahkan satu event listener untuk klik dropdown pada semua ukuran layar
+  dropdownToggle.addEventListener("click", toggleDropdown);
+
+  // Update dropdown behavior (menghapus hover pada layar besar)
+  function updateDropdownBehavior() {
+    dropdownToggle.removeEventListener("mouseenter", toggleDropdown);
+    dropdownToggle.removeEventListener("mouseleave", toggleDropdown);
+  }
+
   function handleScroll() {
     if (window.scrollY > 0) {
       navHeader.classList.add("transparency");
@@ -50,22 +67,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  function updateElementPositions() {
-    const dropdownOpen = dropdownToggle.parentNode.classList.contains("active");
-    const dropdownHeight = dropdownMenu.offsetHeight;
-
-    if (dropdownOpen && window.innerWidth < 720) {
-      dropdownToggle.parentNode.style.marginBottom = `${dropdownHeight}px`;
-    } else {
-      dropdownToggle.parentNode.style.marginBottom = "3px";
-    }
-  }
-
+  // Update dropdown behavior based on screen size
+  updateDropdownBehavior();
   updateBeforeStyles();
+  window.addEventListener("resize", updateDropdownBehavior);
   window.addEventListener("resize", updateBeforeStyles);
   window.addEventListener("scroll", handleScroll);
   handleScroll();
 
+  // Handle menu toggle for mobile
   menuToggle.addEventListener("click", function () {
     navMenu.classList.toggle("active");
     navMenuContainer.classList.toggle("active");
@@ -98,7 +108,6 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (!navMenu.classList.contains("active")) {
       signInButton.style.display = "none";
     }
-    updateElementPositions();
   });
 
   if (window.innerWidth > 1140) {
@@ -106,15 +115,6 @@ document.addEventListener("DOMContentLoaded", function () {
   } else {
     signInButton.style.display = "none";
   }
-
-  dropdownToggle.addEventListener("click", function (e) {
-    if (window.innerWidth < 720) {
-      e.preventDefault(); // Prevent default action if it's a link
-      dropdownToggle.parentNode.classList.toggle("active");
-      chevronIcon.classList.toggle("rotate-icon");
-      updateElementPositions();
-    }
-  });
 });
 
 document.addEventListener("DOMContentLoaded", function () {

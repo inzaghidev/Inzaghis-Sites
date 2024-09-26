@@ -212,12 +212,24 @@ li a:hover::after {
   letter-spacing: 0.25px;
   font-size: var(--font-size);
   line-height: 20px;
+  cursor: pointer;
+}
+
+.nav-dropdown-list {
+  border-radius: 10px;
+  transition: all 0.3s ease;
 }
 
 .dropdown:hover .nav-dropdown-list {
-  display: block;
+  display: none;
   border-radius: 10px;
   transition: all 0.3s ease;
+}
+
+.dropdown.active .nav-dropdown-list {
+  display: block; /* Tampilkan dropdown saat aktif (klik) */
+  z-index: 1000; /* Pastikan dropdown berada di atas elemen lainnya */
+  position: absolute; /* Absolute untuk menyesuaikan dengan parent */
 }
 
 .dropdown-link {
@@ -457,12 +469,19 @@ li a:hover::after {
     letter-spacing: 0.25px;
     font-size: var(--font-size);
     line-height: 15px;
+    cursor: pointer;
   }
 
   .dropdown:hover .nav-dropdown-list {
-    display: block;
+    display: none;
     border-radius: 10px;
     padding: 10px 10px;
+  }
+
+  .dropdown.active .nav-dropdown-list {
+    display: block; /* Tampilkan dropdown saat aktif (klik) */
+    z-index: 1000;
+    position: absolute;
   }
 
   .menu-toggle {
@@ -565,7 +584,7 @@ li a:hover::after {
     position: fixed;
     top: 82px;
     left: -1000%;
-    height: calc(100vh - 83px);
+    height: calc(100vh - 82px);
     width: 250px;
     background-color: var(--side-navbar-background-color);
     transition: left 0.3s ease;
@@ -576,7 +595,7 @@ li a:hover::after {
     left: 0;
     top: 82px;
     bottom: auto;
-    height: calc(100vh - 83px);
+    height: calc(100vh - 82px);
     width: 250px;
     overflow-y: auto;
   }
@@ -725,12 +744,14 @@ li a:hover::after {
   }
 
   .dropdown:hover .nav-dropdown-list {
-    display: none; /* Disable hover on mobile */
+    display: none;
     border-radius: 10px;
   }
 
   .dropdown.active .nav-dropdown-list {
-    display: block; /* Enable display on click */
+    display: block; /* Enable dropdown on click */
+    z-index: 1000;
+    position: relative; /* Relative agar dropdown mengikuti parent */
     border-radius: 10px;
     padding: 10px 20px;
   }

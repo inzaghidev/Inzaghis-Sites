@@ -394,3 +394,6 @@
 <!-- https://stackoverflow.com/questions/32537477/how-to-use-dir -->
 <!-- https://stackoverflow.com/questions/55026758/php-file-cannot-load-css-or-javascript-files-present-in-another-directory -->
 <!-- https://www.phptutorial.net/php-tutorial/php-__dir__ -->
+
+<!-- Create Responsive Card Slider in HTML CSS & JavaScript : -->
+<!-- https://www.codingnepalweb.com/create-responsive-card-slider-html-javascript -->
