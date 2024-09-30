@@ -141,116 +141,80 @@
         help you.
       </p>
 
-      <secion class="page-sub-container">
+      <div class="container">
         <div class="row">
-          <!--Grid column-->
-          <div class="col-md-9 mb-md-0 mb-5">
-            <form
-              id="contact-form"
-              name="contact-form"
-              action="../includes/mail.php"
-              method="POST"
-            >
-              <!--Grid row-->
-              <div class="row">
-                <!--Grid column-->
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
+          <div class="col">
+            <div class="card">
+              <div class="card-header bg-primary text-white">
+                <i class="fa fa-envelope"></i> Contact us.
+              </div>
+              <div class="card-body">
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name</label>
                     <input
                       type="text"
+                      class="form-control"
                       id="name"
                       name="name"
-                      class="form-control"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter Name"
+                      required
                     />
-                    <label for="name" class="">Your name</label>
                   </div>
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
+                  <div class="form-group">
+                    <label for="email">Email address</label>
                     <input
-                      type="text"
+                      type="email"
+                      class="form-control"
                       id="email"
                       name="email"
-                      class="form-control"
+                      aria-describedby="emailHelp"
+                      placeholder="Enter Email"
+                      required
                     />
-                    <label for="email" class="">Your email</label>
+                    <small id="emailHelp" class="form-text text-muted"
+                      >We'll never share your email with anyone else.</small
+                    >
                   </div>
-                </div>
-                <!--Grid column-->
-              </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="md-form mb-0">
-                    <input
-                      type="text"
-                      id="subject"
-                      name="subject"
-                      class="form-control"
-                    />
-                    <label for="subject" class="">Subject</label>
-                  </div>
-                </div>
-              </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-                <!--Grid column-->
-                <div class="col-md-12">
-                  <div class="md-form">
+                  <div class="form-group">
+                    <label for="message">Message</label>
                     <textarea
-                      type="text"
+                      class="form-control"
                       id="message"
                       name="message"
-                      rows="2"
-                      class="form-control md-textarea"
+                      rows="6"
+                      required
                     ></textarea>
-                    <label for="message">Your message</label>
                   </div>
-                </div>
+                  <div class="mx-auto">
+                    <button type="submit" class="btn btn-primary text-right">
+                      Submit
+                    </button>
+                  </div>
+                </form>
               </div>
-              <!--Grid row-->
-            </form>
-
-            <div class="text-center text-md-left">
-              <a
-                class="btn btn-primary"
-                onclick="document.getElementById('contact-form').submit();"
-                >Send</a
-              >
             </div>
-            <div class="status"></div>
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <i class="fas fa-map-marker-alt fa-2x"></i>
-                <p>Tangerang, Banten 15142, Indonesia</p>
-              </li>
-
-              <li>
-                <i class="fas fa-phone mt-4 fa-2x"></i>
-                <p>+ 01 234 567 89</p>
-              </li>
-
-              <li>
-                <i class="fas fa-envelope mt-4 fa-2x"></i>
-                <p>izzumiposhaf29@gmail.com</p>
-              </li>
-            </ul>
+          <div class="col-12 col-sm-4">
+            <div class="card bg-light mb-3">
+              <div class="card-header bg-success text-white text-uppercase">
+                <i class="fa fa-home"></i> Address
+              </div>
+              <div class="card-body">
+                <p>
+                  Jl. K. H. Hasyim Ashari Perum. Banjar Wijaya Cluster Cemara 1
+                  RT. 04/RW. 013 Blok. B1. No. 32
+                </p>
+                <p>Tangerang, Banten 15142</p>
+                <p>Indonesia</p>
+                <p>Email : izzumiposhaf29@gmail.com</p>
+                <p>Tel. (+62) 813 4396 1494</p>
+              </div>
+            </div>
           </div>
-          <!--Grid column-->
         </div>
-      </secion>
+      </div>
     </section>
     <section class="footer">
       <div class="footer-container">
