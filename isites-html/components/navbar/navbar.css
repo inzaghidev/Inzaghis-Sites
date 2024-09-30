@@ -9,7 +9,7 @@
   --color-black: #000000;
   --color-white: #ffffff;
   --border-color: #c8cacc;
-  --dropdown-background-color: rgba(199, 199, 199, 0.9);
+  --dropdown-background-color: rgba(218, 222, 218, 0.9);
   --dropdown-hover-background-color: white;
   --side-navbar-background-color: #80bc4e;
   --bar-width: 16px;
@@ -182,8 +182,8 @@ li a:hover::after {
   display: none;
   position: absolute;
   background-color: var(--dropdown-background-color);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   top: 100%;
   left: auto;
   right: auto;
@@ -415,11 +415,6 @@ li a:hover::after {
     margin-bottom: 0;
   }
 
-  .nav-dropdown-list {
-    top: 0;
-    /*padding: inherit;*/
-  }
-
   .w-dropdown-toggle {
     text-align: left;
     z-index: 900;
@@ -433,8 +428,8 @@ li a:hover::after {
     display: none;
     position: absolute;
     background-color: var(--dropdown-background-color);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     top: 100%;
     left: auto;
     right: auto;
@@ -718,9 +713,12 @@ li a:hover::after {
   }
 
   .dropdown.active .nav-dropdown-list {
-    display: block; /* Enable display on click */
+    display: block; /* Enable dropdown on click */
+    z-index: 1000;
+    position: relative; /* Relative agar dropdown mengikuti parent */
     border-radius: 10px;
     padding: 10px 20px;
+    background-color: #c1e0d1;
   }
 
   .dropdown-link {
@@ -729,7 +727,12 @@ li a:hover::after {
     text-decoration: none;
   }
 
-  .dropdown-link:hover {
+  .dropdown .dropdown-link {
+    border-radius: 10px;
+    padding: 10px 10px;
+  }
+
+  .dropdown.active .dropdown-link:hover {
     background-color: var(--dropdown-hover-background-color);
     border-radius: 10px;
     padding: 10px 10px;

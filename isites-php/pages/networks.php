@@ -211,10 +211,10 @@
       <div class="container inzaghismedia">
         <div class="row">
           <div
-            class="grid md:gap-8 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3"
+            class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border rounded-xl w-full"
             >
               <div class="p-6">
                 <svg
@@ -286,7 +286,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border rounded-xl w-full"
             >
               <div class="p-6">
                 <svg
@@ -348,7 +348,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border rounded-xl w-full"
             >
               <div class="p-6">
                 <svg
@@ -413,7 +413,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border rounded-xl w-full"
             >
               <div class="p-6">
                 <svg
@@ -474,7 +474,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border rounded-xl w-full"
             >
               <div class="p-6">
                 <svg

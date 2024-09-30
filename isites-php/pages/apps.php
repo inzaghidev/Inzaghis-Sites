@@ -82,3 +82,5 @@
   include('../components/footsite/footsite.php');
   include('../layouts/footer.php');
 ?>
+
+<!-- https://preline.co/examples/icon-sections.html -->

@@ -3,7 +3,7 @@
 	include('../layouts/header.php');
 	include('../components/navbar/navbar.php');
 ?>
-  <section class="welcome shadow">
+  <section class="welcome">
     <div class="welcome-container">
       <div class="welcome-title">
         <h1 class="welcome-title">WELCOME TO INZAGHI'S SITES!</h1>
@@ -40,7 +40,7 @@
       </div>
     </div>
   </section>
-  <section class="page-apps shadow">
+  <section class="page-apps">
     <div class="page-apps-container">
       <h2 class="title-heading">Page Apps</h2>
       <div class="text-container">
@@ -88,7 +88,7 @@
     </div>
     <script src="../js/slider.js"></script>
   </section>
-  <section class="inzaghis-blog-slider shadow">
+  <section class="inzaghis-blog-slider">
     <div class="inzaghis-blog-container">
       <h2 class="title-heading text-yellow-600">Our Blog</h2>
       <p class="centered-subheading">
@@ -226,7 +226,7 @@
       </div>
     </div>
   </section>
-  <section class="inzaghis-media-info shadow">
+  <section class="inzaghis-media-info">
     <div class="inzaghis-media-container">
       <h2 class="title-heading text-red-600">Our Social Media</h2>
       <p class="centered-subheading">
@@ -236,10 +236,10 @@
       <div class="container inzaghismedia">
         <div class="row">
           <div
-            class="grid md:gap-8 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3"
+            class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full"
             >
               <div class="p-6">
                 <svg
@@ -311,7 +311,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full"
             >
               <div class="p-6">
                 <svg
@@ -373,7 +373,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full"
             >
               <div class="p-6">
                 <svg
@@ -438,7 +438,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full"
             >
               <div class="p-6">
                 <svg
@@ -499,7 +499,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-96"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full"
             >
               <div class="p-6">
                 <svg
@@ -570,7 +570,7 @@
       </div>
     </div>
   </section>
-  <section class="inzaghis-group-network shadow">
+  <section class="inzaghis-group-network">
     <div class="inzaghis-group-wrapper">
       <div class="inzaghis-group-network-description">
         <h2 class="inzaghis-group-heading">Inzaghi's Group Network</h2>

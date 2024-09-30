@@ -380,7 +380,13 @@ svg:not(:root) {
 }
 
 .about-us {
-  background-color: #efe7fe;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(239, 231, 254, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
   border-bottom: 1px solid #e4ebf3;
   padding: 60px 30px;
   position: relative;
@@ -389,8 +395,6 @@ svg:not(:root) {
 }
 
 .about-us-container {
-  background-color: #efe7fe;
-  border-bottom: 1px solid #e4ebf3;
   max-width: 1680px;
   padding: 60px 30px;
   position: relative;
@@ -598,8 +602,13 @@ svg:not(:root) {
 /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
 .page-apps {
-  background-color: #f5faf5;
-  border-bottom: 1px solid #e4f3e5;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
   padding: 60px 30px;
   position: relative;
   margin-left: auto;
@@ -614,7 +623,6 @@ svg:not(:root) {
 
 .page-apps-wrapper {
   background-color: #f5faf5;
-  border-bottom: 1px solid #e4f3e5;
   padding: 60px 0;
   position: relative;
   margin-left: auto;
@@ -628,6 +636,13 @@ svg:not(:root) {
   padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 #inzaghis-blog-embed {
@@ -756,6 +771,13 @@ svg:not(:root) {
   padding: 40px;
   margin-left: auto;
   margin-right: auto;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 246, 240, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .inzaghisblog-description {
@@ -771,6 +793,13 @@ svg:not(:root) {
   padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 227, 227, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .inzaghismedia-slider {
@@ -910,6 +939,13 @@ svg:not(:root) {
   padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .inzaghis-media-container {
@@ -980,7 +1016,13 @@ svg:not(:root) {
 }
 
 .inzaghis-group-network {
-  background-color: rgba(239, 231, 254, 0.522);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(239, 231, 254, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -1240,7 +1282,13 @@ svg:not(:root) {
   }
 
   .welcome {
-    background-color: #f5f7fa;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     border-bottom: 1px solid #e4ebf3;
     padding: 4em 2em;
     padding-top: 10em;
@@ -1339,7 +1387,13 @@ svg:not(:root) {
   }
 
   .about-us {
-    background-color: #efe7fe;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(239, 231, 254, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     border-bottom: 1px solid #e4ebf3;
     padding: 60px 30px;
     position: relative;
@@ -1348,8 +1402,6 @@ svg:not(:root) {
   }
 
   .about-us-container {
-    background-color: #efe7fe;
-    border-bottom: 1px solid #e4ebf3;
     max-width: 1680px;
     padding: 60px 30px;
     position: relative;
@@ -1432,7 +1484,6 @@ svg:not(:root) {
 
   .page-apps-wrapper {
     background-color: #f5faf5;
-    border-bottom: 1px solid #e4f3e5;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1445,6 +1496,13 @@ svg:not(:root) {
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
   }
 
   #inzaghis-blog-embed {
@@ -1529,6 +1587,13 @@ svg:not(:root) {
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 246, 240, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
   }
 
   .inzaghisblog-description {
@@ -1551,6 +1616,13 @@ svg:not(:root) {
     padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 227, 227, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
   }
 
   .inzaghismedia-slider {
@@ -1607,6 +1679,13 @@ svg:not(:root) {
     padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
   }
 
   .inzaghis-media-container {
@@ -1656,7 +1735,13 @@ svg:not(:root) {
   }
 
   .inzaghis-group-network {
-    background-color: rgba(239, 231, 254, 0.522);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(239, 231, 254, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -1897,7 +1982,13 @@ svg:not(:root) {
   }
 
   .welcome {
-    background-color: #f5f7fa;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     border-bottom: 1px solid #e4ebf3;
     padding: 60px 30px;
     padding-top: 10em;
@@ -1996,7 +2087,13 @@ svg:not(:root) {
   }
 
   .about-us {
-    background-color: #efe7fe;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(239, 231, 254, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     border-bottom: 1px solid #e4ebf3;
     padding: 60px 30px;
     position: relative;
@@ -2005,8 +2102,6 @@ svg:not(:root) {
   }
 
   .about-us-container {
-    background-color: #efe7fe;
-    border-bottom: 1px solid #e4ebf3;
     max-width: 1680px;
     padding: 60px 30px;
     position: relative;
@@ -2093,7 +2188,6 @@ svg:not(:root) {
 
   .page-apps-wrapper {
     background-color: #f5faf5;
-    border-bottom: 1px solid #e4f3e5;
     max-width: 1680px;
     padding: 60px 0;
     position: relative;
@@ -2232,6 +2326,13 @@ svg:not(:root) {
     padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 227, 227, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
   }
 
   .inzaghismedia-slider {
@@ -2284,7 +2385,13 @@ svg:not(:root) {
   }
 
   .inzaghis-group-network {
-    background-color: rgba(239, 231, 254, 0.522);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(239, 231, 254, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     height: auto;
     display: flex;
     justify-content: space-around;
