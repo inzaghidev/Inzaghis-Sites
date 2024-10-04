@@ -84,3 +84,8 @@
 ?>
 
 <!-- https://preline.co/examples/icon-sections.html -->
+<!-- https://flowbite.com/docs/components/card -->
+
+<!-- Tools : -->
+<!-- https://www.utilities-online.info -->
+<!-- https://tools.picsart.com -->

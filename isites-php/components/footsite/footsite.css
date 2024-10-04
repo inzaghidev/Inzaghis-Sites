@@ -1,5 +1,11 @@
 .footer {
-  background-color: #efe7fe;
+  background: rgb(239, 231, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(239, 231, 254, 1) 0%,
+    rgba(235, 235, 238, 1) 40%,
+    rgba(239, 231, 254, 1) 100%
+  );
   padding: 40px 30px;
   border-bottom: 1px solid #e4ebf3;
   position: relative;
@@ -58,7 +64,13 @@
 
 @media screen and (max-width: 1140px) {
   .footer {
-    background-color: #efe7fe;
+    background: rgb(239, 231, 254);
+    background: linear-gradient(
+      90deg,
+      rgba(239, 231, 254, 1) 0%,
+      rgba(235, 235, 238, 1) 40%,
+      rgba(239, 231, 254, 1) 100%
+    );
     padding: 40px 30px;
     border-bottom: 1px solid #e4ebf3;
     position: relative;
@@ -127,7 +139,13 @@
 
 @media screen and (max-width: 720px) {
   .footer {
-    background-color: #efe7fe;
+    background: rgb(239, 231, 254);
+    background: linear-gradient(
+      90deg,
+      rgba(239, 231, 254, 1) 0%,
+      rgba(235, 235, 238, 1) 40%,
+      rgba(239, 231, 254, 1) 100%
+    );
     padding: 40px 30px;
     border-bottom: 1px solid #e4ebf3;
     position: relative;

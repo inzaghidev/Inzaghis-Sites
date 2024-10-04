@@ -262,7 +262,13 @@ svg:not(:root) {
 }
 
 .welcome {
-  background-color: #f5f7fa;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
   border-bottom: 1px solid #e4ebf3;
   padding: 4em 2em;
   padding-top: 8em;

@@ -12,6 +12,7 @@
   --dropdown-background-color: rgba(218, 222, 218, 0.9);
   --dropdown-hover-background-color: white;
   --side-navbar-background-color: #80bc4e;
+  --hover-highlight: #c1e0d1;
   --bar-width: 16px;
   --bar-height: 10px;
   --bar-margin: 10px 0;
@@ -133,7 +134,7 @@
 }
 
 .nav-menu li:hover {
-  background: #c1e0d1;
+  background: var(--hover-highlight);
   border-radius: 10px;
 }
 
@@ -603,7 +604,7 @@ li a:hover::after {
   }
 
   .nav-menu li a:hover {
-    background: #c1e0d1;
+    background: var(--hover-highlight);
     border-radius: 10px;
   }
 
@@ -639,7 +640,7 @@ li a:hover::after {
   }
 
   .nav-menu li:hover {
-    background: #c1e0d1;
+    background: var(--hover-highlight);
     border-radius: 10px;
   }
 
@@ -718,7 +719,7 @@ li a:hover::after {
     position: relative; /* Relative agar dropdown mengikuti parent */
     border-radius: 10px;
     padding: 10px 20px;
-    background-color: #c1e0d1;
+    background-color: var(--hover-highlight);
   }
 
   .dropdown-link {
