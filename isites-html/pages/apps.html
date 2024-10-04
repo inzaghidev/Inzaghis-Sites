@@ -4,10 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" type="text/css" />
-    <link rel="stylesheet" href="../css/navbar.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="../components/navbar/navbar.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="../components/footsite/footsite.css"
+      type="text/css"
+    />
     <link rel="stylesheet" href="../css/reset.css" type="text/css" />
     <script src="../js/script.js"></script>
-    <script src="../js/navbar.js"></script>
+    <script src="../components/navbar/navbar.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -47,11 +56,6 @@
       rel="shortcut icon"
       href="../images/inzaghis-sites-favicon-36x36-icon-only.png"
     />
-    <!--script>
-      $(document).ready(function () {
-        window.location.replace("../pages/apps.html");
-      });
-    </script-->
   </head>
   <body>
     <div class="nav-header" id="navHeader">
@@ -65,7 +69,7 @@
           />
         </a>
         <div class="nav-menu-container">
-          <div ulass="nav-menu">
+          <div class="nav-menu">
             <ul>
               <li>
                 <a href="../public/index.html">Home</a>
@@ -88,13 +92,11 @@
               </li>
               <li class="dropdown">
                 <div class="nav-dropdown-toggle w-dropdown-toggle">
-                  <div class="nav-dropdown-icon">
-                    <div class="text-block">
-                      <a
-                        >Switch to Another Site
-                        <ion-icon name="chevron-down-outline"></ion-icon>
-                      </a>
-                    </div>
+                  <div class="text-block">
+                    <a
+                      >Switch to Another Site
+                      <ion-icon name="chevron-down-outline"></ion-icon>
+                    </a>
                   </div>
                   <nav class="nav-dropdown-list nav-dropdown-list--open">
                     <a
@@ -428,7 +430,11 @@
                     >WordPress Blog</a
                   >
                 </li>
-                <li><a href="#">Inzaghi's Sites Blog</a></li>
+                <li>
+                  <a href="https://medium.com/@izzumiposhaf29"
+                    >Inzaghi's Sites Blog</a
+                  >
+                </li>
                 <li>
                   <a href="https://linktr.ee/inzaghigroup" target="_blank"
                     >Linktree Inzaghi's Group</a
