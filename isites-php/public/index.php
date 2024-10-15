@@ -199,8 +199,8 @@
         terutama seputar IT.
       </p>
       <div class="container inzaghismedia">
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
                 src="../images/instagram-logo-icon.png"
@@ -228,93 +228,121 @@
                 </button>
               </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-            <div class="border-0 h-100 shadow opacity-75 socmed-card">
-              <img
-                src="../images/tiktok-logo-icon.png"
-                class="card mt-4 socmed-icon"
-                alt="TikTok Logo"
-              />
-              <div class="card-body text-center socmed-text">
-                <div class="card-apps">
-                  <h5 class="card-title socmed-name">TikTok</h5>
-                  <p class="card-text socmed-description">
-                    Sebagai Postingan berbentuk Video Vertikal (Portrait) yang
-                    dapat di-Scrolling seperti Video Tutorial/Tips dan
-                    Informasi Singkat.
-                  </p>
-                </div>
-                <button
-                  type="button"
-                  class="btn btn-primary btn-md primary-button"
-                >
-                  <a
-                    href="https://www.tiktok.com/@enzapostmedia"
-                    target="_blank"
-                    class="blog-link"
-                    >@enzapostmedia</a
-                  >
-                </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="border-0 h-100 shadow opacity-75 socmed-card">
+            <img
+              src="../images/tiktok-logo-icon.png"
+              class="card mt-4 socmed-icon"
+              alt="TikTok Logo"
+            />
+            <div class="card-body text-center socmed-text">
+              <div class="card-apps">
+                <h5 class="card-title socmed-name">TikTok</h5>
+                <p class="card-text socmed-description">
+                  Sebagai Postingan berbentuk Video Vertikal (Portrait) yang
+                  dapat di-Scrolling seperti Video Tutorial/Tips dan
+                  Informasi Singkat.
+                </p>
               </div>
+              <button
+                type="button"
+                class="btn btn-primary btn-md primary-button"
+              >
+                <a
+                  href="https://www.tiktok.com/@enzapostmedia"
+                  target="_blank"
+                  class="blog-link"
+                  >@enzapostmedia</a
+                >
+              </button>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-            <div class="border-0 h-100 shadow opacity-75 socmed-card">
-              <img
-                src="../images/youtube-logo-icon.png"
-                class="card mt-4 socmed-icon"
-                alt="YouTube Logo"
-              />
-              <div class="card-body text-center socmed-text">
-                <div class="card-apps">
-                  <h5 class="card-title socmed-name">YouTube</h5>
-                  <p class="card-text socmed-description">
-                    Sebagai sebuah Channel yang berbentuk Video seperti
-                    Tutorial.
-                  </p>
-                </div>
-                <button
-                  type="button"
-                  class="btn btn-primary btn-md primary-button"
-                >
-                  <a
-                    href="https://www.youtube.com/@enzavlogpost"
-                    target="_blank"
-                    class="blog-link"
-                    >Inzaghi's Media</a
-                  >
-                </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="border-0 h-100 shadow opacity-75 socmed-card">
+            <img
+              src="../images/youtube-logo-icon.png"
+              class="card mt-4 socmed-icon"
+              alt="YouTube Logo"
+            />
+            <div class="card-body text-center socmed-text">
+              <div class="card-apps">
+                <h5 class="card-title socmed-name">YouTube</h5>
+                <p class="card-text socmed-description">
+                  Sebagai sebuah Channel yang berbentuk Video seperti
+                  Tutorial.
+                </p>
               </div>
+              <button
+                type="button"
+                class="btn btn-primary btn-md primary-button"
+              >
+                <a
+                  href="https://www.youtube.com/@enzavlogpost"
+                  target="_blank"
+                  class="blog-link"
+                  >Inzaghi's Media</a
+                >
+              </button>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-            <div class="border-0 h-100 shadow opacity-75 socmed-card">
-              <img
-                src="../images/twitter-x-logo.png"
-                class="card mt-4 socmed-icon"
-                alt="Twitter Logo"
-              />
-              <div class="card-body text-center socmed-text">
-                <div class="card-apps">
-                  <h5 class="card-title socmed-name">X (Twitter)</h5>
-                  <p class="card-text socmed-description">
-                    Sebagai Postingan berbentuk Infografis, Tweet, hingga
-                    Postingan-postingan dari Inzaghi's Blog.
-                  </p>
-                </div>
-                <button
-                  type="button"
-                  class="btn btn-primary btn-md primary-button"
-                >
-                  <a
-                    href="https://x.com/lPosumA0209"
-                    target="_blank"
-                    class="blog-link"
-                    >@lPosumA0209</a
-                  >
-                </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="border-0 h-100 shadow opacity-75 socmed-card">
+            <img
+              src="../images/twitter-x-logo.png"
+              class="card mt-4 socmed-icon"
+              alt="Twitter Logo"
+            />
+            <div class="card-body text-center socmed-text">
+              <div class="card-apps">
+                <h5 class="card-title socmed-name">X (Twitter)</h5>
+                <p class="card-text socmed-description">
+                  Sebagai Postingan berbentuk Infografis, Tweet, hingga
+                  Postingan-postingan dari Inzaghi's Blog.
+                </p>
               </div>
+              <button
+                type="button"
+                class="btn btn-primary btn-md primary-button"
+              >
+                <a
+                  href="https://x.com/lPosumA0209"
+                  target="_blank"
+                  class="blog-link"
+                  >@lPosumA0209</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="border-0 h-100 shadow opacity-75 socmed-card">
+            <img
+              src="../images/threads-logo-icon.png"
+              class="card mt-4 socmed-icon"
+              alt="Twitter Logo"
+            />
+            <div class="card-body text-center socmed-text">
+              <div class="card-apps">
+                <h5 class="card-title socmed-name">Threads</h5>
+                <p class="card-text socmed-description">
+                  Sama seperti di X, Sebagai Postingan berbentuk Infografis,
+                  Tulisan, hingga Postingan-postingan dari Inzaghi's Blog.
+                </p>
+              </div>
+              <button
+                type="button"
+                class="btn btn-primary btn-md primary-button"
+              >
+                <a
+                  href="https://www.threads.net/@enzapost"
+                  target="_blank"
+                  class="blog-link"
+                  >@lPosumA0209</a
+                >
+              </button>
             </div>
           </div>
         </div>
