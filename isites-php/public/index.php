@@ -322,7 +322,7 @@
             <img
               src="../images/threads-logo-icon.png"
               class="card mt-4 socmed-icon"
-              alt="Twitter Logo"
+              alt="Threads Logo"
             />
             <div class="card-body text-center socmed-text">
               <div class="card-apps">
@@ -340,7 +340,7 @@
                   href="https://www.threads.net/@enzapost"
                   target="_blank"
                   class="blog-link"
-                  >@lPosumA0209</a
+                  >@enzapost</a
                 >
               </button>
             </div>
