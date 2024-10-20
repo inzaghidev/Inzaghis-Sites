@@ -58,80 +58,6 @@
   </head>
   <body>
     <!-- BORDER -->
-    <!--div class="nav-header" id="navHeader">
-      <nav class="navbar" id="navbar">
-        <a href="../public/index.html" id="logo">
-          <img
-            src="../images/inzaghis-sites-logo-vertical-transparent.png"
-            title="Inzaghi's Sites"
-            class="h-16 w-auto"
-            alt="logo"
-          />
-        </a>
-        <div class="nav-menu-container">
-          <div class="nav-menu">
-            <ul>
-              <li>
-                <a href="../public/index.html">Home</a>
-              </li>
-              <li><a href="https://medium.com/@izzumiposhaf29">Blog</a></li>
-              <li>
-                <a href="../pages/apps.html">Page Apps</a>
-              </li>
-              <li>
-                <a href="../pages/contact.html">Contact</a>
-              </li>
-              <li>
-                <a href="../pages/profile.html">Profile</a>
-              </li>
-              <li>
-                <a href="../pages/about.html">About</a>
-              </li>
-              <li>
-                <a href="../pages/networks.html">Inzaghi's Group Network</a>
-              </li>
-              <li class="dropdown">
-                <div class="nav-dropdown-toggle w-dropdown-toggle">
-                  <div class="text-block">
-                    <a
-                      >Switch to Another Site
-                      <ion-icon name="chevron-down-outline"></ion-icon>
-                    </a>
-                  </div>
-                  <nav class="nav-dropdown-list nav-dropdown-list--open">
-                    <a
-                      href="https://sites.google.com/view/inzaghis-sites"
-                      class="dropdown-link"
-                      >Old Inzaghi's Sites</a
-                    >
-                    <a
-                      href="https://inzaghiposuma.wordpress.com"
-                      class="dropdown-link"
-                      >WordPress Site</a
-                    >
-                    <a
-                      href="https://inzaghi-site.webflow.io"
-                      class="dropdown-link"
-                      >Preview (Webflow)</a
-                    >
-                  </nav>
-                </div>
-              </li>
-            </ul>
-            <div class="sign-in-button">
-              <a href="../includes/signin.html" class="main-button">Sign in</a>
-            </div>
-          </div>
-        </div>
-        <button class="menu-toggle" id="menu-toggle">
-          <span class="fas fa-bars bar"></span>
-        </button>
-        <div class="cancel-icon">
-          <span class="fas fa-times cross"></span>
-        </div>
-      </nav>
-    </div-->
-    <!-- BORDER -->
     <div class="navbar bg-white bg-opacity-60 fixed w-full z-10 shadow-md">
       <nav
         class="bg-gray-100 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md"
@@ -183,7 +109,7 @@
             class="hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 navigation-menu pb-3 lg:pb-0 navigation-menu"
           >
             <a
-              href="./public/index.html"
+              href="../public/index.html"
               class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded block"
               >Home</a
             >
@@ -212,11 +138,41 @@
               class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
               >About</a
             >
-            <a
-              href="../pages/networks.html"
-              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
-              >Inzaghi's Group Network</a
-            >
+            <div class="hover:bg-gray-300 gap-2 rounded-lg block">
+              <button
+                class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+              >
+                <a href="../pages/networks.html">Inzaghi's Group</a>
+                <svg
+                  class="w-3 h-3 pointer-events-none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <title>chevron-down</title>
+                  <g fill="none">
+                    <path
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <div
+                class="dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2"
+              >
+                <a href="#" class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Inzaghi's Blog</a
+                >
+                <a href="#" class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Inzaghi's Media</a
+                >
+              </div>
+            </div>
             <!-- Dropdown Menu -->
             <div class="hover:bg-gray-300 gap-2 rounded-lg block">
               <button
