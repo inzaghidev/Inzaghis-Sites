@@ -9,8 +9,27 @@
   --font-family: "Inter", "Helvetica Neue", Helvetica, sans-serif;
   --background-color: var(--color-white);
   --color-white: white;
+  --font-size-12: 12px;
   --font-size-14: 14px;
   --font-size-16: 16px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-28: 28px;
+  --font-size-36: 36px;
+  --padding-10: 10px;
+  --padding-20: 20px;
+  --padding-40: 40px;
+  --margin-top-5: 5px;
+  --margin-top-10: 10px;
+  --margin-top-12: 12px;
+  --margin-top-20: 20px;
+  --margin-top-25: 25px;
+  --margin-bottom-10: 10px;
+  --margin-bottom-12: 12px;
+  --margin-bottom-15: 15px;
+  --margin-bottom-20: 20px;
+  --margin-bottom-25: 25px;
+  --margin-bottom-32: 32px;
 }
 
 html {
@@ -49,15 +68,15 @@ dd {
 }
 
 ul {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: var(--margin-top-20);
+  margin-bottom: var(--margin-bottom-10);
   list-style-type: disc;
   padding-left: 40px;
 }
 
 li {
   display: inline;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-bottom-10);
 }
 
 a {
@@ -66,17 +85,17 @@ a {
 
 ul li a {
   /* color: #1a1b1f; */
-  margin-top: 5px;
+  margin-top: var(--margin-top-5);
   text-decoration: none;
 }
 
 p {
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-bottom-10);
 }
 
 h1 {
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-top: var(--margin-top-20);
+  margin-bottom: var(--margin-bottom-15);
   font-size: 44px;
   font-weight: 400;
   line-height: 62px;
@@ -84,17 +103,17 @@ h1 {
 }
 
 h2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 36px;
+  margin-top: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
+  font-size: var(--font-size-36);
   font-weight: 400;
   line-height: 50px;
   font-family: Arial, sans-serif;
 }
 
 h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
   font-size: 30px;
   font-weight: 400;
   line-height: 46px;
@@ -102,26 +121,26 @@ h3 {
 }
 
 h4 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 24px;
+  margin-top: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
+  font-size: var(--font-size-24);
   font-weight: 400;
   line-height: 38px;
   font-family: Arial, sans-serif;
 }
 
 h5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 20px;
+  margin-top: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
+  font-size: var(--font-size-20);
   font-weight: 500;
   line-height: 34px;
   font-family: Arial, sans-serif;
 }
 
 h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: var(--margin-top-10);
+  margin-bottom: var(--margin-bottom-10);
   font-size: var(--font-size-16);
   font-weight: 500;
   line-height: 28px;
@@ -158,7 +177,7 @@ img {
 label {
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: var(--margin-bottom-10);
   font-size: var(--font-size-14);
   font-weight: 500px;
   line-height: 20px;
@@ -166,17 +185,17 @@ label {
 
 blockquote {
   border-left: 5px solid #e2e2e2;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: var(--margin-top-25);
+  margin-bottom: var(--margin-bottom-25);
   padding: 15px 30px;
-  font-size: 20px;
+  font-size: var(--font-size-20);
   line-height: 34px;
 }
 
 figcaption {
   opacity: 1;
   text-align: center;
-  margin-top: 5px;
+  margin-top: var(--margin-top-5);
   font-size: var(--font-size-14);
   line-height: 26px;
 }
@@ -202,13 +221,13 @@ svg:not(:root) {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px;
+  padding: var(--padding-40);
 }
 
 .main-button {
   display: inline-block;
   padding: 12px 20px;
-  font-size: 12px;
+  font-size: var(--font-size-12);
   font-family: var(--font-family);
   line-height: 20px;
   letter-spacing: 2px;
@@ -277,7 +296,7 @@ svg:not(:root) {
   width: 100%;
   max-width: 1080px;
   margin: 0 auto;
-  margin-bottom: 32px;
+  margin-bottom: var(--margin-bottom-32);
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -292,13 +311,13 @@ svg:not(:root) {
 }
 
 .welcome-description {
-  padding: 20px;
+  padding: var(--padding-20);
   border-radius: 8px;
 }
 
 .welcome-to-inzaghis-sites {
   flex: 1;
-  /*padding: 20px;*/
+  /*padding: var(--padding-20);;*/
 }
 
 .page-container {
@@ -314,14 +333,14 @@ svg:not(:root) {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px;
+  padding: var(--padding-40);
 }
 
 .page-title {
   width: 100%;
   max-width: 1080px;
   margin: 0 auto;
-  margin-bottom: 32px;
+  margin-bottom: var(--margin-bottom-32);
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -336,7 +355,7 @@ svg:not(:root) {
 }
 
 .page-description {
-  padding: 20px;
+  padding: var(--padding-20);
   border-radius: 8px;
 }
 
@@ -348,14 +367,14 @@ svg:not(:root) {
 .inzaghis-sites-description {
   font-size: var(--font-size-14);
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-bottom: var(--margin-bottom-20);
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
 }
 
 .is-desc {
   font-size: var(--font-size-14);
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-bottom: var(--margin-bottom-20);
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
 }
 
@@ -392,7 +411,7 @@ svg:not(:root) {
 }
 
 .about-us-title {
-  margin-bottom: 32px;
+  margin-bottom: var(--margin-bottom-32);
   font-family: var(--font-family);
   font-size: 40px;
   font-weight: 700;
@@ -408,11 +427,11 @@ svg:not(:root) {
 
 .about-us-to-inzaghis-group {
   flex: 1;
-  /*padding: 20px;*/
+  /*padding: var(--padding-20);;*/
 }
 
 .about-us-description {
-  padding: 20px;
+  padding: var(--padding-20);
   border-radius: 8px;
 }
 
@@ -425,16 +444,16 @@ svg:not(:root) {
 .text-title {
   text-align: center;
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: var(--font-size-24);
   font-weight: bold;
 }
 
 .card-name {
-  margin-bottom: 12px;
+  margin-bottom: var(--margin-bottom-12);
   text-align: center;
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 28px;
+  font-size: var(--font-size-28);
 }
 
 .card-apps {
@@ -501,7 +520,7 @@ svg:not(:root) {
   position: absolute;
   bottom: 0;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: var(--margin-top-10);
   left: 50%;
   text-align: center;
   text-shadow: 0 0 2px #000;
@@ -538,7 +557,7 @@ svg:not(:root) {
   background-color: #000c;
 }
 .hcg-slide-dot-control {
-  margin-top: 10px;
+  margin-top: var(--margin-top-10);
   text-align: center;
 }
 .hcg-slide-dot {
@@ -555,7 +574,7 @@ svg:not(:root) {
 }
 .hcg-slide-number {
   color: black;
-  font-size: 12px;
+  font-size: var(--font-size-12);
   padding: 4px 7px;
   position: absolute;
   border-radius: 5px;
@@ -612,7 +631,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -630,7 +649,7 @@ svg:not(:root) {
 .title-heading {
   text-align: center;
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 36px;
+  font-size: var(--font-size-36);
   font-weight: bold;
 }
 
@@ -656,7 +675,7 @@ svg:not(:root) {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: var(--margin-bottom-20);
   font-size: var(--font-size-16);
   font-family: var(--font-family);
 }
@@ -666,7 +685,7 @@ svg:not(:root) {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: var(--padding-20);
   box-sizing: border-box;
   max-width: 1080px;
 }
@@ -675,7 +694,7 @@ svg:not(:root) {
   display: flex;
   align-items: center;
   max-width: 100%;
-  margin-top: 20px;
+  margin-top: var(--margin-top-20);
 }
 
 .reverse-content {
@@ -739,7 +758,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 40px;
+  padding: var(--padding-40);
   margin-left: auto;
   margin-right: auto;
 }
@@ -755,7 +774,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -765,7 +784,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -781,7 +800,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -791,7 +810,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -801,7 +820,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -811,14 +830,14 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
 
 .about-us-to-inzaghis-group {
   flex: 1;
-  /*padding: 20px;*/
+  /*padding: var(--padding-20);;*/
 }
 
 .inzaghisblog {
@@ -852,12 +871,12 @@ svg:not(:root) {
 }
 
 .blog-name {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: var(--margin-top-12);
+  margin-bottom: var(--margin-bottom-12);
   text-align: center;
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 28px;
+  font-size: var(--font-size-28);
 }
 
 .apps-button {
@@ -901,8 +920,8 @@ svg:not(:root) {
 }
 
 .blog-description {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: var(--margin-top-20);
+  margin-bottom: var(--margin-bottom-20);
   font-size: var(--font-size-16);
   font-family: var(--font-family);
   word-wrap: break-word;
@@ -913,7 +932,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -950,7 +969,7 @@ svg:not(:root) {
 }
 
 .inzaghismedia {
-  margin-top: 20px;
+  margin-top: var(--margin-top-20);
   display: flex;
   justify-content: space-around;
   margin-left: auto;
@@ -969,16 +988,16 @@ svg:not(:root) {
 }
 
 .socmed-name {
-  margin-bottom: 12px;
+  margin-bottom: var(--margin-bottom-12);
   text-align: center;
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 28px;
+  font-size: var(--font-size-28);
 }
 
 .socmed-description {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: var(--margin-top-20);
+  margin-bottom: var(--margin-bottom-20);
   text-align: center;
   font-size: var(--font-size-16);
   font-family: var(--font-family);
@@ -1013,7 +1032,7 @@ svg:not(:root) {
 .inzaghis-group-network-description {
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: var(--margin-bottom-20);
   display: flex;
 }
 
@@ -1028,7 +1047,7 @@ svg:not(:root) {
   max-width: 1080px;
   font-size: var(--font-size-14);
   line-height: 1.6;
-  margin-bottom: 20px;
+  margin-bottom: var(--margin-bottom-20);
   margin-left: 10px;
   margin-right: 10px;
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
@@ -1037,14 +1056,14 @@ svg:not(:root) {
 .inzaghis-group-container {
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: var(--margin-top-20);
   display: flex;
 }
 
 .text-container {
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: var(--margin-top-20);
   display: flex;
 }
 
@@ -1070,13 +1089,13 @@ svg:not(:root) {
   justify-content: space-between;
   align-items: flex-start;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: var(--margin-bottom-20);
 }
 
 .footer-title {
   font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: var(--font-size-20);
+  margin-bottom: var(--margin-bottom-20);
 }
 
 .footer-title nav ul li {
@@ -1142,24 +1161,24 @@ svg:not(:root) {
   }
 
   ul {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-10);
     list-style-type: disc;
     padding-left: 40px;
   }
 
   li {
     display: inline;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
   }
 
   p {
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
   }
 
   h1 {
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-15);
     font-size: 44px;
     font-weight: 400;
     line-height: 62px;
@@ -1167,17 +1186,17 @@ svg:not(:root) {
   }
 
   h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 36px;
+    margin-top: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-36);
     font-weight: 400;
     line-height: 50px;
     font-family: Arial, sans-serif;
   }
 
   h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: 30px;
     font-weight: 400;
     line-height: 46px;
@@ -1185,26 +1204,26 @@ svg:not(:root) {
   }
 
   h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 24px;
+    margin-top: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-24);
     font-weight: 400;
     line-height: 38px;
     font-family: Arial, sans-serif;
   }
 
   h5 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-top: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-20);
     font-weight: 500;
     line-height: 34px;
     font-family: Arial, sans-serif;
   }
 
   h6 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: var(--font-size-16);
     font-weight: 500;
     line-height: 28px;
@@ -1239,7 +1258,7 @@ svg:not(:root) {
   label {
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
     font-size: var(--font-size-14);
     font-weight: 500px;
     line-height: 20px;
@@ -1247,17 +1266,17 @@ svg:not(:root) {
 
   blockquote {
     border-left: 5px solid #e2e2e2;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: var(--margin-top-25);
+    margin-bottom: var(--margin-bottom-25);
     padding: 15px 30px;
-    font-size: 20px;
+    font-size: var(--font-size-20);
     line-height: 34px;
   }
 
   figcaption {
     opacity: 1;
     text-align: center;
-    margin-top: 5px;
+    margin-top: var(--margin-top-5);
     font-size: var(--font-size-14);
     line-height: 26px;
   }
@@ -1317,7 +1336,7 @@ svg:not(:root) {
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
-    margin-bottom: 32px;
+    margin-bottom: var(--margin-bottom-32);
     font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
@@ -1332,13 +1351,13 @@ svg:not(:root) {
   }
 
   .welcome-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
   .welcome-to-inzaghis-sites {
     flex: 1;
-    /*padding: 20px;*/
+    /*padding: var(--padding-20);;*/
   }
 
   .page-container {
@@ -1352,7 +1371,7 @@ svg:not(:root) {
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
-    margin-bottom: 32px;
+    margin-bottom: var(--margin-bottom-32);
     font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
@@ -1366,7 +1385,7 @@ svg:not(:root) {
   }
 
   .page-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
@@ -1378,14 +1397,14 @@ svg:not(:root) {
   .inzaghis-sites-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-20);
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   }
 
   .is-desc {
     font-size: var(--font-size-14);
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-20);
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   }
 
@@ -1422,7 +1441,7 @@ svg:not(:root) {
   }
 
   .about-us-title {
-    margin-bottom: 32px;
+    margin-bottom: var(--margin-bottom-32);
     font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
@@ -1437,18 +1456,18 @@ svg:not(:root) {
 
   .about-us-to-inzaghis-group {
     flex: 1;
-    /*padding: 20px;*/
+    /*padding: var(--padding-20);;*/
   }
 
   .about-us-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
   .inzaghis-group-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-20);
     margin-left: 10px;
     margin-right: 10px;
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
@@ -1457,13 +1476,13 @@ svg:not(:root) {
   .inzaghis-group-container {
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: var(--margin-top-20);
   }
 
   .text-container {
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: var(--margin-top-20);
   }
 
   .about-us-image-to-inzaghis-group img {
@@ -1499,7 +1518,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
@@ -1578,9 +1597,9 @@ svg:not(:root) {
   }
 
   .inzaghisblog-slider {
-    padding: 10px;
+    padding: var(--padding-10);
     height: auto;
-    padding: 40px;
+    padding: var(--padding-40);
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
@@ -1590,7 +1609,7 @@ svg:not(:root) {
     max-width: 100%;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: var(--margin-top-20);
   }
 
   .inzaghisblog {
@@ -1604,13 +1623,13 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
 
   .inzaghismedia-slider {
-    padding: 10px;
+    padding: var(--padding-10);
     height: auto;
   }
 
@@ -1618,7 +1637,7 @@ svg:not(:root) {
     max-width: 100%;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: var(--margin-top-20);
   }
 
   .inzaghis-blog-legacy,
@@ -1640,12 +1659,12 @@ svg:not(:root) {
   }
 
   .blog-name {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: var(--margin-top-12);
+    margin-bottom: var(--margin-bottom-12);
     text-align: center;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 20px;
+    font-size: var(--font-size-20);
   }
 
   .blog-link {
@@ -1667,8 +1686,8 @@ svg:not(:root) {
   }
 
   .blog-description {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-20);
     font-size: var(--font-size-16);
     font-family: var(--font-family);
     word-wrap: break-word;
@@ -1679,7 +1698,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
@@ -1714,16 +1733,16 @@ svg:not(:root) {
   }
 
   .socmed-name {
-    margin-bottom: 12px;
+    margin-bottom: var(--margin-bottom-12);
     text-align: center;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 24px;
+    font-size: var(--font-size-24);
   }
 
   .socmed-description {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-20);
     text-align: center;
     font-size: var(--font-size-16);
     font-family: var(--font-family);
@@ -1753,8 +1772,8 @@ svg:not(:root) {
     max-width: 600px;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-20);
     display: flex;
   }
 
@@ -1773,20 +1792,20 @@ svg:not(:root) {
     justify-content: space-between;
     align-items: flex-start;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-20);
   }
 
   .footer-title {
     font-family: var(--font-family);
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-20);
   }
 
   .special-pages ul li a,
   .apps-tools ul li a,
   .network ul li a,
   .quick-link ul li a {
-    font-size: 12px;
+    font-size: var(--font-size-12);
   }
 
   .special-pages,
@@ -1828,7 +1847,7 @@ svg:not(:root) {
   }
 
   h2 {
-    font-size: 24px;
+    font-size: var(--font-size-24);
     line-height: 34px;
   }
 
@@ -1857,24 +1876,24 @@ svg:not(:root) {
   }
 
   ul {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-10);
     list-style-type: disc;
     padding-left: 40px;
   }
 
   li {
     display: inline;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
   }
 
   p {
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
   }
 
   h1 {
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-15);
     font-size: 44px;
     font-weight: 400;
     line-height: 62px;
@@ -1882,17 +1901,17 @@ svg:not(:root) {
   }
 
   h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 36px;
+    margin-top: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-36);
     font-weight: 400;
     line-height: 50px;
     font-family: Arial, sans-serif;
   }
 
   h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: 30px;
     font-weight: 400;
     line-height: 46px;
@@ -1900,26 +1919,26 @@ svg:not(:root) {
   }
 
   h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 24px;
+    margin-top: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-24);
     font-weight: 400;
     line-height: 38px;
     font-family: Arial, sans-serif;
   }
 
   h5 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-top: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
+    font-size: var(--font-size-20);
     font-weight: 500;
     line-height: 34px;
     font-family: Arial, sans-serif;
   }
 
   h6 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: var(--margin-top-10);
+    margin-bottom: var(--margin-bottom-10);
     font-size: var(--font-size-16);
     font-weight: 500;
     line-height: 28px;
@@ -1954,7 +1973,7 @@ svg:not(:root) {
   label {
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-bottom-10);
     font-size: var(--font-size-14);
     font-weight: 500px;
     line-height: 20px;
@@ -1962,17 +1981,17 @@ svg:not(:root) {
 
   blockquote {
     border-left: 5px solid #e2e2e2;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: var(--margin-top-25);
+    margin-bottom: var(--margin-bottom-25);
     padding: 15px 30px;
-    font-size: 20px;
+    font-size: var(--font-size-20);
     line-height: 34px;
   }
 
   figcaption {
     opacity: 1;
     text-align: center;
-    margin-top: 5px;
+    margin-top: var(--margin-top-5);
     font-size: var(--font-size-14);
     line-height: 26px;
   }
@@ -1996,7 +2015,7 @@ svg:not(:root) {
   .main-button {
     display: inline-block;
     padding: 12px 20px;
-    font-size: 12px;
+    font-size: var(--font-size-12);
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -2042,7 +2061,7 @@ svg:not(:root) {
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
-    margin-bottom: 32px;
+    margin-bottom: var(--margin-bottom-32);
     font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
@@ -2057,13 +2076,13 @@ svg:not(:root) {
   }
 
   .welcome-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
   .welcome-to-inzaghis-sites {
     flex: 1;
-    /*padding: 20px;*/
+    /*padding: var(--padding-20);;*/
   }
 
   .page-container {
@@ -2077,7 +2096,7 @@ svg:not(:root) {
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
-    margin-bottom: 32px;
+    margin-bottom: var(--margin-bottom-32);
     font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
@@ -2091,21 +2110,21 @@ svg:not(:root) {
   }
 
   .page-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
   .inzaghis-sites-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-20);
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   }
 
   .is-desc {
     font-size: var(--font-size-14);
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-20);
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
   }
 
@@ -2147,7 +2166,7 @@ svg:not(:root) {
   }
 
   .about-us-title {
-    margin-bottom: 32px;
+    margin-bottom: var(--margin-bottom-32);
     font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
@@ -2162,19 +2181,19 @@ svg:not(:root) {
 
   .about-us-to-inzaghis-group {
     flex: 1;
-    /*padding: 20px;*/
+    /*padding: var(--padding-20);;*/
   }
 
   .about-us-description {
-    padding: 20px;
+    padding: var(--padding-20);
     border-radius: 8px;
   }
 
   .inzaghis-group-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-20);
     margin-left: 10px;
     margin-right: 10px;
     font-family: Inter, Helvetica Neue, Helvetica, sans-serif;
@@ -2183,7 +2202,7 @@ svg:not(:root) {
   .inzaghis-group-container {
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: var(--margin-top-20);
     display: block;
   }
 
@@ -2194,7 +2213,7 @@ svg:not(:root) {
 
   .text-container {
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: var(--margin-top-20);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2231,7 +2250,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
@@ -2308,7 +2327,7 @@ svg:not(:root) {
   }
 
   .inzaghisblog-slider {
-    padding: 10px;
+    padding: var(--padding-10);
     height: auto;
   }
 
@@ -2337,12 +2356,12 @@ svg:not(:root) {
   }
 
   .blog-name {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: var(--margin-top-12);
+    margin-bottom: var(--margin-bottom-12);
     text-align: center;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 28px;
+    font-size: var(--font-size-28);
   }
 
   .blog-link {
@@ -2364,8 +2383,8 @@ svg:not(:root) {
   }
 
   .blog-description {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-20);
     text-align: left;
     font-size: var(--font-size-16);
     font-family: var(--font-family);
@@ -2377,13 +2396,13 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
 
   .inzaghismedia-slider {
-    padding: 10px;
+    padding: var(--padding-10);
     height: auto;
   }
 
@@ -2392,7 +2411,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
@@ -2425,16 +2444,16 @@ svg:not(:root) {
   }
 
   .socmed-name {
-    margin-bottom: 12px;
+    margin-bottom: var(--margin-bottom-12);
     text-align: center;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 28px;
+    font-size: var(--font-size-28);
   }
 
   .socmed-description {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-20);
     text-align: center;
     font-size: var(--font-size-16);
     font-family: var(--font-family);
@@ -2492,17 +2511,17 @@ svg:not(:root) {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-20);
   }
 
   .footer-wrapper .inzaghis-corp-logo {
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-20);
   }
 
   .footer-title {
     font-family: var(--font-family);
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: var(--font-size-20);
+    margin-bottom: var(--margin-bottom-20);
   }
 
   .special-pages,
@@ -2516,7 +2535,7 @@ svg:not(:root) {
     font-size: var(--font-size-14);
     display: flex;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-20);
   }
 
   .footer-bottom {
