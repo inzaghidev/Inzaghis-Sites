@@ -419,6 +419,9 @@
   include('../layouts/footer.php');
 ?>
 
+<!-- Multi Item Carousel CSS : -->
+<!-- https://bootsnipp.com/snippets/zDQkr -->
+<!-- https://www.codingnepalweb.com/responsive-card-slider-javascript -->
 
 <!-- https://stackoverflow.com/questions/32537477/how-to-use-dir -->
 <!-- https://stackoverflow.com/questions/55026758/php-file-cannot-load-css-or-javascript-files-present-in-another-directory -->
