@@ -490,8 +490,3 @@
 	include('../components/footsite/footsite.php');
 	include('../layouts/footer.php');
 ?>
-
-<!-- References : -->
-<!-- https://cssauthor.com/bootstrap-resume-templates -->
-<!-- https://themes.3rdwavemedia.com/demo/bs5/devresume -->
-<!-- https://themes.3rdwavemedia.com/bootstrap-templates/resume/devresume-free-bootstrap-5-resume-cv-template-for-developers -->

@@ -21,7 +21,7 @@
       <section class="pages">
         <p class="is-desc">
             Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
-            Inzaghi's Sites. Dan juga sebagai kumpulan Materi dan Tutorial
+            Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek, hingga Tutorial
             Pemrograman.
         </p>
         <div class="row">
