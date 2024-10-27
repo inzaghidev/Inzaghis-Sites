@@ -193,7 +193,7 @@
     // You can replace this with your actual data source or API call
     const contentData = {
       Pages:
-        "Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di Inzaghi's Sites. Dan juga sebagai kumpulan Materi dan Tutorial Pemrograman.",
+        "Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek, hingga Tutorial Pemrograman.",
       Widgets:
         "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
       Converters:
