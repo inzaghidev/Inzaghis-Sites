@@ -27,9 +27,24 @@
                       "link" => "https://bit.ly/Tech-and-IT-Tutorials-Notion-Inzaghi"
                     ],
                     [
+                      "title" => "IT Project Lists",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                      "link" => "https://inzaghi-poshaf.notion.site/IT-Projects-List-11fb4c85740a80299195e71ddb61d808"
+                    ],
+                    [
+                      "title" => "Interviews and Career Preparations",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                      "link" => "#"
+                    ],
+                    [
                       "title" => "Materi Pembelajaran",
                       "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                       "link" => "https://sites.google.com/view/inzaghis-sites/pages/materi-pembelajaran"
+                    ],
+                    [
+                      "title" => "Programming Codes & UI Elements",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                      "link" => "https://inzaghi-poshaf.notion.site/Programming-Codes-UI-Elements-a99dadc9f4e84480b705f05e35e67270"
                     ],
                     [
                       "title" => "Video Page",
@@ -43,16 +58,11 @@
                     ],
                     [
                       "title" => "Calendar & Event Summary",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
                       "link" => "https://inzaghi-poshaf.notion.site/Calendar-Summary-Events-2fdf303bab424c1ca6f8d7210c016128"
                     ],
                     [
-                      "title" => "Programming Codes & UI Elements",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                      "link" => "https://inzaghi-poshaf.notion.site/Programming-Codes-UI-Elements-a99dadc9f4e84480b705f05e35e67270"
-                    ],
-                    [
-                      "title" => "AppName",
+                      "title" => "AppName1",
                       "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                       "link" => "#"
                     ],
