@@ -5,18 +5,15 @@
 ?>
   <section class="welcome">
     <div class="welcome-container">
-      <div class="welcome-title">
-        <h1 class="welcome-title">WELCOME TO INZAGHI'S SITES!</h1>
-      </div>
       <div class="welcome-wrapper">
         <div class="welcome-to-inzaghis-sites">
+        <div class="welcome-title">
+          <h1>WELCOME TO INZAGHI'S SITES!</h1>
+        </div>
           <div class="welcome-description">
             <p class="inzaghis-sites-description">
                 Inzaghi's Sites merupakan Platform Layanan Situs Web untuk dapat
-                diakses ke semua layanan Inzaghi's Group. Kini, Inzaghi's Sites
-                telah hadir dengan menggunakan Layanan Hosting yang akan
-                tersedia mulai September 2023, dan sebagai Pengganti Situs lama
-                kami di Google Sites.
+                diakses ke semua layanan Inzaghi's Group.
                 <br />
                 <br />
                 Inzaghi's Sites juga memudahkan Anda untuk mengakses Aplikasi
@@ -74,15 +71,18 @@
           <h2 class="group-title">Pages</h2>
           <p class="left-subheading">
             Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
-            Inzaghi's Sites. Dan juga sebagai kumpulan Materi dan Tutorial
-            Pemrograman.
+            Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek,
+            hingga Tutorial Pemrograman.
           </p>
-          <button type="button" class="btn btn-primary btn-md">
-            <a href="../page-apps/pages.php" class="align-middle select-none font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none">Click here</a>
-          </button>
-          <!--button type="button" class="btn btn-primary btn-md">
-            <a class="blog-link">Click here</a>
-          </button-->
+          <div class="flex justify-center mt-4">
+            <a
+              href="../page-apps/pages.html"
+              target="_blank"
+              class="inline-flex items-center justify-center font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+            >
+              Click here
+            </a>
+          </div>
         </section>
       </section>
     </div>
@@ -239,7 +239,7 @@
             class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600"
             >
               <div class="p-6">
                 <svg
@@ -285,10 +285,10 @@
                 <a
                   href="https://www.instagram.com/enzapost"
                   target="_blank"
-                  class="inline-block"
+                  class="flex justify-center"
                 >
                   <button
-                    class="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     type="button"
                   >
                     @enzapost
@@ -311,7 +311,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600"
             >
               <div class="p-6">
                 <svg
@@ -347,10 +347,10 @@
                 <a
                   href="https://www.tiktok.com/@enzapostmedia"
                   target="_blank"
-                  class="inline-block"
+                  class="flex justify-center"
                 >
                   <button
-                    class="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     type="button"
                   >
                     @enzapostmedia
@@ -373,7 +373,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600"
             >
               <div class="p-6">
                 <svg
@@ -412,10 +412,10 @@
                 <a
                   href="https://www.youtube.com/@enzavlogpost"
                   target="_blank"
-                  class="inline-block"
+                  class="flex justify-center"
                 >
                   <button
-                    class="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     type="button"
                   >
                     Inzaghi's Media
@@ -438,7 +438,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600"
             >
               <div class="p-6">
                 <svg
@@ -473,10 +473,10 @@
                 <a
                   href="https://x.com/lPosumA0209"
                   target="_blank"
-                  class="inline-block"
+                  class="flex justify-center"
                 >
                   <button
-                    class="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     type="button"
                   >
                     @lPosumA0209
@@ -499,7 +499,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600"
             >
               <div class="p-6">
                 <svg
@@ -540,10 +540,10 @@
                 <a
                   href="https://www.threads.net/@enzapost"
                   target="_blank"
-                  class="inline-block"
+                  class="flex justify-center"
                 >
                   <button
-                    class="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     type="button"
                   >
                     @enzapost

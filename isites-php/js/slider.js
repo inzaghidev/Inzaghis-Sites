@@ -93,23 +93,17 @@
   const images = slider_id.querySelectorAll(".hcg-slides");
   const dots = slider_id.querySelectorAll(".hcg-slide-dot");
   const showSlides = () => {
-    if (slide_index > images.length - 1) {
-      slide_index = 0;
-    }
-    if (slide_index < 0) {
-      slide_index = images.length - 1;
-    }
-    for (let i = 0; i < images.length; i++) {
-      images[i].style.display = "none";
-      dots[i].classList.remove("dot-active");
-      if (i == slide_index) {
-        images[i].style.display = "flex";
-        dots[i].classList.add("dot-active");
+    // Reset all images and dots
+    images.forEach((img, index) => {
+      img.style.display = index === slide_index ? "flex" : "none";
+    });
 
-        // Update group-title and left-subheading
-        updateGroupTitleAndSubheading(images_list[i]);
-      }
-    }
+    dots.forEach((dot, index) => {
+      dot.classList.toggle("dot-active", index === slide_index);
+    });
+
+    // Update group-title and left-subheading
+    updateGroupTitleAndSubheading(images_list[slide_index]);
   };
 
   const prevButton = slider_id.querySelector("#hcg-slide-prev");
@@ -118,14 +112,14 @@
   // Function to handle previous slide
   const prevSlide = (event) => {
     event.preventDefault();
-    slide_index--;
+    slide_index = (slide_index - 1 + images.length) % images.length; // Ensures wrap-around to the last slide if it goes below 0
     showSlides();
   };
 
   // Function to handle next slide
   const nextSlide = (event) => {
     event.preventDefault();
-    slide_index++;
+    slide_index = (slide_index + 1) % images.length; // Wraps around to the first slide if it exceeds images.length - 1
     showSlides();
   };
 
@@ -144,7 +138,7 @@
   }
 
   setInterval(() => {
-    slide_index++;
+    slide_index = (slide_index + 1) % images.length; // Ensure it loops back to the start
     showSlides();
   }, 10000);
 
@@ -193,7 +187,7 @@
     // You can replace this with your actual data source or API call
     const contentData = {
       Pages:
-        "Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di Inzaghi's Sites. Dan juga sebagai kumpulan Materi dan Tutorial Pemrograman.",
+        "Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek, hingga Tutorial Pemrograman.",
       Widgets:
         "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
       Converters:

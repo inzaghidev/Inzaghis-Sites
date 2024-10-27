@@ -214,6 +214,12 @@ svg:not(:root) {
 
 .container-top {
   padding: 2.8em;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .pages {
@@ -247,7 +253,12 @@ svg:not(:root) {
 }
 
 .about-inzaghis-sites {
-  background-color: #f5f7fa;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
   border-bottom: 1px solid #e4ebf3;
   padding: 60px 30px;
   position: relative;
@@ -283,7 +294,7 @@ svg:not(:root) {
   );
   border-bottom: 1px solid #e4ebf3;
   padding: 4em 2em;
-  padding-top: 8em;
+  padding-top: 10em;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -291,7 +302,7 @@ svg:not(:root) {
 }
 
 .welcome-container {
-  max-width: 1680px;
+  max-width: 1440px;
   /*padding: 60px 30px;*/
   position: relative;
   margin-left: auto;
@@ -301,12 +312,12 @@ svg:not(:root) {
 .welcome-title {
   width: 100%;
   max-width: 1080px;
-  margin: 0 auto;
+  margin: 0 0.5em auto;
   margin-bottom: var(--margin-bottom-32);
   font-family: var(--font-family);
   font-size: 40px;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
 }
 
 .welcome-wrapper {
@@ -378,9 +389,9 @@ svg:not(:root) {
 }
 
 .inzaghis-sites-description {
-  font-size: var(--font-size-14);
+  font-size: var(--font-size-16);
   line-height: 1.6;
-  margin-bottom: var(--margin-bottom-20);
+  margin-bottom: 40px;
   font-family: var(--font-family);
 }
 
@@ -641,6 +652,12 @@ svg:not(:root) {
 
 .page-apps-wrapper {
   background-color: #f5faf5;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
   padding: 60px 0;
   position: relative;
   margin-left: auto;
@@ -808,7 +825,7 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: var(--padding-20);
+  padding: var(--padding-40);
   margin-left: auto;
   margin-right: auto;
   background: rgb(255, 255, 255);
@@ -968,6 +985,7 @@ svg:not(:root) {
 
 .inzaghis-media-container {
   max-width: 1200px;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -1290,7 +1308,12 @@ svg:not(:root) {
   }
 
   .about-inzaghis-sites {
-    background-color: #f5f7fa;
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     border-bottom: 1px solid #e4ebf3;
     max-width: 1680px;
     padding: 60px 30px;
@@ -1325,12 +1348,12 @@ svg:not(:root) {
   .welcome-title {
     width: 100%;
     max-width: 1080px;
-    margin: 0 auto;
+    margin: 0 0.5em auto;
     margin-bottom: var(--margin-bottom-32);
     font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
   }
 
   .welcome-wrapper {
@@ -1387,7 +1410,7 @@ svg:not(:root) {
   .inzaghis-sites-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
-    margin-bottom: var(--margin-bottom-20);
+    margin-bottom: 40px;
     font-family: var(--font-family);
   }
 
@@ -1502,6 +1525,12 @@ svg:not(:root) {
 
   .page-apps-wrapper {
     background-color: #f5faf5;
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     margin-left: auto;
     margin-right: auto;
   }
@@ -1631,7 +1660,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: var(--padding-20);
+    padding: var(--padding-40);
     margin-left: auto;
     margin-right: auto;
     background: rgb(255, 255, 255);
@@ -1708,6 +1737,7 @@ svg:not(:root) {
 
   .inzaghis-media-container {
     max-width: 1080px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }
@@ -1968,6 +1998,12 @@ svg:not(:root) {
 
   .container-top {
     padding: 2.5em;
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
   }
 
   .main-button {
@@ -1990,7 +2026,12 @@ svg:not(:root) {
   }
 
   .about-inzaghis-sites {
-    background-color: #f5f7fa;
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     border-bottom: 1px solid #e4ebf3;
     max-width: 1680px;
     padding: 60px 30px;
@@ -2025,12 +2066,12 @@ svg:not(:root) {
   .welcome-title {
     width: 100%;
     max-width: 1080px;
-    margin: 0 auto;
+    margin: 0 0.5em auto;
     margin-bottom: var(--margin-bottom-32);
     font-family: var(--font-family);
     font-size: 40px;
     font-weight: 700;
-    text-align: center;
+    text-align: left;
   }
 
   .welcome-wrapper {
@@ -2082,7 +2123,7 @@ svg:not(:root) {
   .inzaghis-sites-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
-    margin-bottom: var(--margin-bottom-20);
+    margin-bottom: 40px;
     font-family: var(--font-family);
   }
 
@@ -2206,6 +2247,12 @@ svg:not(:root) {
 
   .page-apps-wrapper {
     background-color: #f5faf5;
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     max-width: 1680px;
     padding: 60px 0;
     position: relative;
@@ -2341,7 +2388,7 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: var(--padding-20);
+    padding: var(--padding-40);
     margin-left: auto;
     margin-right: auto;
     background: rgb(255, 255, 255);
@@ -2360,6 +2407,7 @@ svg:not(:root) {
 
   .inzaghis-media-container {
     max-width: 1080px;
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
   }

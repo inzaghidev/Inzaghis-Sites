@@ -260,10 +260,10 @@
                 <a
                   href="https://www.instagram.com/enzapost"
                   target="_blank"
-                  class="inline-block"
+                  class="flex justify-center"
                 >
                   <button
-                    class="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     type="button"
                   >
                     @enzapost
@@ -322,10 +322,10 @@
                 <a
                   href="https://www.tiktok.com/@enzapostmedia"
                   target="_blank"
-                  class="inline-block"
+                  class="flex justify-center"
                 >
                   <button
-                    class="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     type="button"
                   >
                     @enzapostmedia
@@ -387,10 +387,10 @@
                 <a
                   href="https://www.youtube.com/@enzavlogpost"
                   target="_blank"
-                  class="inline-block"
+                  class="flex justify-center"
                 >
                   <button
-                    class="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     type="button"
                   >
                     Inzaghi's Media
@@ -448,10 +448,10 @@
                 <a
                   href="https://x.com/lPosumA0209"
                   target="_blank"
-                  class="inline-block"
+                  class="flex justify-center"
                 >
                   <button
-                    class="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     type="button"
                   >
                     @lPosumA0209
@@ -515,10 +515,10 @@
                 <a
                   href="https://www.threads.net/@enzapost"
                   target="_blank"
-                  class="inline-block"
+                  class="flex justify-center"
                 >
                   <button
-                    class="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     type="button"
                   >
                     @enzapost

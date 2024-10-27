@@ -174,6 +174,3 @@
   include('../components/footsite/footsite.php');
 	include('../layouts/footer.php');
 ?>
-
-<!-- https://mdbootstrap.com/docs/b4/jquery/forms/contact -->
-<!-- https://bootsnipp.com/tags/contact -->

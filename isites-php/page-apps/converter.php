@@ -19,25 +19,22 @@
           Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian
           dari Aplikasi Konverter ini akan sedikit menggunakan API.
         </p>
-           <div class="row">
-            <?php
-                // Loop through each app data and create the HTML structure
-                foreach ($apps as $app) {
-                  $title = isset($app['title']) ? $app['title'] : 'N/A';
-                  $text = isset($app['text']) ? $app['text'] : '';
-                  $link = isset($app['link']) ? $app['link'] : '#';
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <?php
+          foreach ($apps as $app) {
+            $title = isset($app['title']) ? $app['title'] : 'N/A';
+            $text = isset($app['text']) ? $app['text'] : '';
+            $link = isset($app['link']) ? $app['link'] : '#';
 
-                  echo '<div class="col-md-4 col-sm-6 mb-4">';
-                  echo '  <div class="card h-100">';
-                  echo '    <div class="card-body card-apps-body">';
-                  echo '      <h5 class="card-title">' . $app["title"] . '</h5>';
-                  echo '      <p class="card-text card-apps">' . $app["text"] . '</p>';
-                  echo '      <a href="' . $app["link"] . '" class="btn btn-primary apps-button">Click here</a>';
-                  echo '    </div>';
-                  echo '  </div>';
-                  echo '</div>';
-                }
-            ?>
+            echo '<div class="bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-400">';
+            echo '  <h5 class="text-lg font-bold text-gray-800">' . $title . '</h5>';
+            echo '  <p class="text-gray-600 mt-2">' . $text . '</p>';
+            echo '  <div class="flex justify-center">';
+            echo '    <a href="' . $link . '" class="inline-block mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">Click here</a>';
+            echo '  </div>';
+            echo '</div>';
+          }
+        ?>
         </div>
       </section>
     </div>

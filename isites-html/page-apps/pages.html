@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="../css/style.css" type="text/css" />
     <link rel="stylesheet" href="../css/reset.css" type="text/css" />
     <script src="../js/script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link
+    <!--link
       rel="stylesheet"
       href="../bootstrap/css/bootstrap.min.css"
       type="text/css"
@@ -18,7 +19,7 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css"
-    />
+    /-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
@@ -74,16 +75,18 @@
           <section class="pages">
             <p class="is-desc">
               Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
-              Inzaghi's Sites. Dan juga sebagai kumpulan Materi dan Tutorial
-              Pemrograman.
+              Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek,
+              hingga Tutorial Pemrograman.
             </p>
-            <div class="row" id="app-container">
+            <div
+              class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+              id="app-container"
+            >
               <!-- Dynamic content will be inserted here -->
             </div>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
             <script>
               $(document).ready(function () {
-                // Data for the apps
                 const apps = [
                   {
                     title: "Technology Tutorials",
@@ -91,9 +94,24 @@
                     link: "https://bit.ly/Tech-and-IT-Tutorials-Notion-Inzaghi",
                   },
                   {
+                    title: "IT Project Lists",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "https://inzaghi-poshaf.notion.site/IT-Projects-List-11fb4c85740a80299195e71ddb61d808",
+                  },
+                  {
+                    title: "Interviews and Career Preparations",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                  {
                     title: "Materi Pembelajaran",
                     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                     link: "https://sites.google.com/view/inzaghis-sites/pages/materi-pembelajaran",
+                  },
+                  {
+                    title: "Programming Codes & UI Elements",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "https://inzaghi-poshaf.notion.site/Programming-Codes-UI-Elements-a99dadc9f4e84480b705f05e35e67270",
                   },
                   {
                     title: "Video Page",
@@ -111,45 +129,26 @@
                     link: "https://inzaghi-poshaf.notion.site/Calendar-Summary-Events-2fdf303bab424c1ca6f8d7210c016128",
                   },
                   {
-                    title: "Programming Codes & UI Elements",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    link: "https://inzaghi-poshaf.notion.site/Programming-Codes-UI-Elements-a99dadc9f4e84480b705f05e35e67270",
-                  },
-                  {
-                    title: "AppName",
+                    title: "AppName1",
                     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                     link: "#",
                   },
                 ];
 
-                // Get the container where the cards will be appended
                 const appContainer = $("#app-container");
 
-                // Loop through the apps data and create the HTML elements
                 apps.forEach((app) => {
-                  const column = $("<div></div>").addClass(
-                    "col-md-4 col-sm-6 mb-4"
-                  );
-                  const card = $("<div></div>").addClass("card h-100");
-                  const cardBody = $("<div></div>").addClass(
-                    "card-body card-apps-body"
-                  );
+                  const card = $(`
+                    <div class="bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-400">
+                      <h5 class="text-lg font-bold text-gray-800">${app.title}</h5>
+                      <p class="text-gray-600 mt-2">${app.text}</p>
+                      <div class="flex justify-center">
+                        <a href="${app.link}" class="inline-block mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">Click here</a>
+                      </div>
+                    </div>
+                  `);
 
-                  const cardTitle = $("<h5></h5>")
-                    .addClass("card-title")
-                    .text(app.title);
-                  const cardText = $("<p></p>")
-                    .addClass("card-text card-apps")
-                    .text(app.text);
-                  const cardLink = $("<a></a>")
-                    .addClass("btn btn-primary apps-button")
-                    .attr("href", app.link)
-                    .text("Click here");
-
-                  cardBody.append(cardTitle, cardText, cardLink);
-                  card.append(cardBody);
-                  column.append(card);
-                  appContainer.append(column);
+                  appContainer.append(card);
                 });
               });
             </script>
