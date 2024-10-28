@@ -275,7 +275,7 @@
                   Instagram
                 </h5>
                 <p
-                  class="socmed-description block font-sans text-base antialiased font-light leading-relaxed text-inherit"
+                  class="socmed-description block antialiased leading-relaxed text-inherit"
                 >
                   Sebagai Postingan berbentuk Gambar Persegi dan sebagai
                   Asisten dari Inzaghi's Blog.
@@ -336,7 +336,7 @@
                   TikTok
                 </h5>
                 <p
-                  class="socmed-description block font-sans text-base antialiased font-light leading-relaxed text-inherit"
+                  class="socmed-description block antialiased leading-relaxed text-inherit"
                 >
                   Sebagai Postingan berbentuk Video Vertikal (Portrait) yang
                   dapat di-Scrolling seperti Video Tutorial/Tips dan Informasi
@@ -402,7 +402,7 @@
                   YouTube
                 </h5>
                 <p
-                  class="socmed-description block font-sans text-base antialiased font-light leading-relaxed text-inherit"
+                  class="socmed-description block antialiased leading-relaxed text-inherit"
                 >
                   Sebagai sebuah Channel yang berbentuk Video seperti
                   Tutorial.
@@ -463,7 +463,7 @@
                   X (Twitter)
                 </h5>
                 <p
-                  class="socmed-description block font-sans text-base antialiased font-light leading-relaxed text-inherit"
+                  class="socmed-description block antialiased leading-relaxed text-inherit"
                 >
                   Sebagai Postingan berbentuk Infografis, Tweet, hingga
                   Postingan-postingan dari Inzaghi's Blog.
@@ -471,7 +471,7 @@
               </div>
               <div class="p-6 pt-0">
                 <a
-                  href="https://x.com/lPosumA0209"
+                  href="https://x.com/InzaTechMedia"
                   target="_blank"
                   class="flex justify-center"
                 >
@@ -479,7 +479,7 @@
                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     type="button"
                   >
-                    @lPosumA0209
+                    @InzaTechMedia
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -530,7 +530,7 @@
                   Threads
                 </h5>
                 <p
-                  class="socmed-description block font-sans text-base antialiased font-light leading-relaxed text-inherit"
+                  class="socmed-description block antialiased leading-relaxed text-inherit"
                 >
                   Sama seperti di X, Sebagai Postingan berbentuk Infografis,
                   Tulisan, hingga Postingan-postingan dari Inzaghi's Blog.

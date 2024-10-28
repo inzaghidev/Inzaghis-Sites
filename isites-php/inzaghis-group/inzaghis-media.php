@@ -1,9 +1,9 @@
 <?php
 	$page_title = "Inzaghi's Media";
 
-  include_once __DIR__ . '/../../includes/config.php';
-  include('../../layouts/header.php');
-  include('../../components/navbar/navbar.php');
+  include_once __DIR__ . '/../includes/config.php';
+  include('../layouts/header.php');
+  include('../components/navbar/navbar.php');
 ?>
     <div class="container-top"></div>
     <section class="inzaghis-group-pages inzaghismedia-slider">
@@ -389,16 +389,16 @@
                 </p>
                 <section class="group-button">
                   <a
-                    href="https://x.com/lPosumA0209"
+                    href="https://x.com/InzaTechMedia"
                     target="_blank"
                     class="btn btn-primary"
-                    >@lPosumA0209</a
+                    >@InzaTechMedia</a
                   >
                   <br />
                 </section>
               </div>
               <iframe
-                src="https://x.com/lPosumA0209"
+                src="https://x.com/InzaTechMedia"
                 id="inzaghis-media-embed"
                 title="Inzaghi's Media Twitter"
               ></iframe>
@@ -409,5 +409,5 @@
     </section>
 <?php
 	include('../components/footsite/footsite.php');
-  include('../../layouts/footer.php');
+  include('../layouts/footer.php');
 ?>
