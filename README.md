@@ -19,23 +19,4 @@ Berikut ini adalah Tampilan Utama dari Inzaghi's Sites :
 
 Tampilan Aplikasi dari Page Apps :
 
-![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps-1.jpg)
-![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps-2.jpg)
-
-## Inzaghi's Sites Contact
-
-Tampilan Aplikasi dari Contact :
-
-![Contact us Inzaghi's Sites](/isites-php/images/inzaghis-sites-contact.jpg)
-
-## Inzaghi's Sites Profile
-
-Tampilan Aplikasi dari Profile :
-
-![Profile Inzaghi's Sites](/isites-php/images/inzaghis-sites-profile.jpg)
-
-## Inzaghi's Sites Networks (Inzaghi's Group)
-
-Tampilan Aplikasi dari Networks :
-
-![Networks Inzaghi's Sites](/isites-php/images/inzaghis-sites-networks.jpg)
+![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps.png)
