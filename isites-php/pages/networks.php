@@ -264,10 +264,10 @@
                   </p>
                 </div>
                 <a
-                  href="https://x.com/lPosumA0209"
+                  href="https://x.com/InzaTechMedia"
                   target="_blank"
                   class="btn btn-primary primary-button"
-                  >@lPosumA0209</a
+                  >@InzaTechMedia</a
                 >
               </div>
             </div>
