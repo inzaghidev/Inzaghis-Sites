@@ -408,6 +408,6 @@
       </div>
     </section>
 <?php
-	include('../components/footsite/footsite.php');
+	include('../../components/footsite/footsite.php');
   include('../../layouts/footer.php');
 ?>
