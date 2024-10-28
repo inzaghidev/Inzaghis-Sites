@@ -922,7 +922,7 @@ svg:not(:root) {
 .blog-description {
   margin-top: var(--margin-top-20);
   margin-bottom: var(--margin-bottom-20);
-  font-size: var(--font-size-16);
+  text-align: left;
   font-family: var(--font-family);
   word-wrap: break-word;
 }
@@ -999,7 +999,7 @@ svg:not(:root) {
   margin-top: var(--margin-top-20);
   margin-bottom: var(--margin-bottom-20);
   text-align: center;
-  font-size: var(--font-size-16);
+  font-size: var(--font-size-14);
   font-family: var(--font-family);
   word-wrap: break-word;
 }
@@ -1688,7 +1688,7 @@ svg:not(:root) {
   .blog-description {
     margin-top: var(--margin-top-20);
     margin-bottom: var(--margin-bottom-20);
-    font-size: var(--font-size-16);
+    font-size: var(--font-size-14);
     font-family: var(--font-family);
     word-wrap: break-word;
   }
@@ -1744,7 +1744,7 @@ svg:not(:root) {
     margin-top: var(--margin-top-20);
     margin-bottom: var(--margin-bottom-20);
     text-align: center;
-    font-size: var(--font-size-16);
+    font-size: var(--font-size-14);
     font-family: var(--font-family);
     word-wrap: break-word;
   }
@@ -2387,7 +2387,7 @@ svg:not(:root) {
     margin-top: var(--margin-top-20);
     margin-bottom: var(--margin-bottom-20);
     text-align: left;
-    font-size: var(--font-size-16);
+    font-size: var(--font-size-14);
     font-family: var(--font-family);
     word-wrap: break-word;
   }
@@ -2456,7 +2456,7 @@ svg:not(:root) {
     margin-top: var(--margin-top-20);
     margin-bottom: var(--margin-bottom-20);
     text-align: center;
-    font-size: var(--font-size-16);
+    font-size: var(--font-size-14);
     font-family: var(--font-family);
     word-wrap: break-word;
   }

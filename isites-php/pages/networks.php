@@ -264,11 +264,40 @@
                   </p>
                 </div>
                 <a
-                  href="https://x.com/lPosumA0209"
+                  href="https://x.com/InzaTechMedia"
                   target="_blank"
                   class="btn btn-primary primary-button"
-                  >@lPosumA0209</a
+                  >@InzaTechMedia</a
                 >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="border-0 h-100 shadow opacity-75 socmed-card">
+              <img
+                src="../images/threads-logo-icon.png"
+                class="card mt-4 socmed-icon"
+                alt="Threads Logo"
+              />
+              <div class="card-body text-center socmed-text">
+                <div class="card-apps">
+                  <h5 class="card-title socmed-name">Threads</h5>
+                  <p class="card-text socmed-description">
+                    Sama seperti di X, Sebagai Postingan berbentuk Infografis,
+                    Tulisan, hingga Postingan-postingan dari Inzaghi's Blog.
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary btn-md primary-button"
+                >
+                  <a
+                    href="https://www.threads.net/@enzapost"
+                    target="_blank"
+                    class="blog-link"
+                    >@enzapost</a
+                  >
+                </button>
               </div>
             </div>
           </div>
