@@ -1,5 +1,4 @@
 :root {
-  /*--background-color: #edfbee;*/
   --background-color: #ffffff;
   --background-color-transparent: rgba(255, 255, 255, 0.6);
   --blur-effect: blur(10px);
@@ -50,7 +49,10 @@
   position: fixed;
   /* top: 0; */
   z-index: 10;
-  border-bottom: 2px solid var(--border-color);
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px #fff, 0 2px 4px -2px #fff;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   border-style: solid;
 }
 
@@ -457,6 +459,7 @@ li a:hover::after {
     letter-spacing: 0.25px;
     font-size: var(--font-size);
     line-height: 15px;
+    cursor: pointer;
   }
 
   .dropdown:hover .nav-dropdown-list {
@@ -624,7 +627,7 @@ li a:hover::after {
     border-radius: 10px;
   }
 
-  .nav-menu li a::before {
+  /*.nav-menu li a::before {
     background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter: var(--blur-effect);
     -webkit-backdrop-filter: var(--blur-effect);
@@ -643,7 +646,7 @@ li a:hover::after {
     transition: 0.2s transform ease;
     transform: scale3d(0, 1, 1);
     transform-origin: 0 50%;
-  }
+  }*/
 
   .dropdown-link li a::before {
     padding: 5px 10px 5px 10px;
