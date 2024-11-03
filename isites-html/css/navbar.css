@@ -85,6 +85,13 @@
   width: 75vw;
 }
 
+.nav-menu ul li a,
+.dropdown,
+.dropdown-link,
+.text-block a {
+  font-size: 14px;
+}
+
 .nav-menu {
   display: flex;
   justify-content: center; /* Menu di tengah */
@@ -126,6 +133,7 @@
 .navbar .nav-menu a {
   text-decoration: none;
   position: relative;
+  text-align: center;
 }
 
 .nav-menu li a::before {
@@ -356,6 +364,13 @@ li a:hover::after {
     width: 100vw;
   }
 
+  .nav-menu ul li a,
+  .dropdown,
+  .dropdown-link,
+  .text-block a {
+    font-size: 12px;
+  }
+
   .nav-menu {
     justify-content: space-around;
   }
@@ -425,6 +440,7 @@ li a:hover::after {
     padding: 5px 20px 5px 20px;
     font-size: var(--font-size);
     line-height: 20px;
+    cursor: pointer;
   }
 
   .dropdown:hover .nav-dropdown-list {
@@ -518,6 +534,13 @@ li a:hover::after {
 
   .nav-menu-container {
     order: 5;
+  }
+
+  .nav-menu ul li a,
+  .dropdown,
+  .dropdown-link,
+  .text-block a {
+    font-size: 14px;
   }
 
   .nav-menu {
