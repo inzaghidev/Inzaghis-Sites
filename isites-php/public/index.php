@@ -5,11 +5,11 @@
 ?>
   <section class="welcome">
     <div class="welcome-container">
+      <div class="welcome-title">
+        <h1>WELCOME TO INZAGHI'S SITES!</h1>
+      </div>
       <div class="welcome-wrapper">
         <div class="welcome-to-inzaghis-sites">
-        <div class="welcome-title">
-          <h1>WELCOME TO INZAGHI'S SITES!</h1>
-        </div>
           <div class="welcome-description">
             <p class="inzaghis-sites-description">
                 Inzaghi's Sites merupakan Platform Layanan Situs Web untuk dapat

@@ -10,8 +10,8 @@
 <section class="page-apps-wrapper">
   <div class="page-apps-container">
     <div class="welcome-container">
-      <div class="welcome-title">
-        <h1 class="welcome-title">Generators</h1>
+      <div class="page-title">
+        <h1 class="page-title">Generators</h1>
       </div>
       <section class="pages">
         <p class="is-desc">

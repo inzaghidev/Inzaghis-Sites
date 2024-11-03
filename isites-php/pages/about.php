@@ -10,9 +10,9 @@
   </script-->
   <div class="container-top"></div>
   <section class="about-inzaghis-sites">
-    <div class="welcome-container">
-      <div class="welcome-title">
-        <h1 class="welcome-title">ABOUT</h1>
+    <div class="page-container">
+      <div class="page-title">
+        <h1 class="page-title">ABOUT</h1>
       </div>
       <div class="welcome-wrapper">
         <div class="welcome-to-inzaghis-sites">

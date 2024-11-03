@@ -59,3 +59,4 @@
 
 <!-- https://tailwindflex.com/tag/navbar -->
 <!-- https://tailwindflex.com/@piet-vriend/responsive-navbar -->
+<!-- https://tailwindflex.com/@team-tailwindflex/responsive-navbar-with-dark-mode-support -->

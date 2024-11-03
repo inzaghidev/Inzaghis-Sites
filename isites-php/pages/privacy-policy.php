@@ -4,7 +4,7 @@
   include('../components/navbar/navbar.php');
 ?>
     <div class="container-top"></div>
-    <section class="privacy-policy">
+    <section class="page-background">
       <div class="page-container">
         <div class="page-title">
           <h1 class="page-title">PRIVACY POLICY</h1>
@@ -12,13 +12,12 @@
         <div class="page-wrapper">
           <div class="page-description">
             <p class="is-desc">
-              At Inzaghi's Sites, accessible from
-              https://inzaghisites.000webhostapp.com and https://inzaghi.wuaze.com, one of our main priorities
-              is the privacy of our visitors. This Privacy Policy document
-              contains types of information that is collected and recorded by
-              Inzaghi's Sites and how we use it. If you have additional
-              questions or require more information about our Privacy Policy, do
-              not hesitate to contact us.
+              At Inzaghi's Sites, accessible from https://inzaghi.wuaze.com, one
+              of our main priorities is the privacy of our visitors. This
+              Privacy Policy document contains types of information that is
+              collected and recorded by Inzaghi's Sites and how we use it. If
+              you have additional questions or require more information about
+              our Privacy Policy, do not hesitate to contact us.
             </p>
 
             <h2>Log Files</h2>

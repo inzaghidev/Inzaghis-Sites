@@ -223,6 +223,12 @@ svg:not(:root) {
 }
 
 .pages {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
   max-width: 1680px;
   position: relative;
   margin-left: auto;
@@ -266,8 +272,13 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.privacy-policy {
-  background-color: #f5f7fa;
+.page-background {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
   border-bottom: 1px solid #e4ebf3;
   padding: 60px 30px;
   position: relative;
@@ -294,7 +305,8 @@ svg:not(:root) {
   );
   border-bottom: 1px solid #e4ebf3;
   padding: 4em 2em;
-  padding-top: 10em;
+  padding-top: 12em;
+  padding-bottom: 7em;
   position: relative;
   margin-left: auto;
   margin-right: auto;
