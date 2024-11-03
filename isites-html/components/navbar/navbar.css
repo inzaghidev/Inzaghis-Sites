@@ -2,6 +2,7 @@
   /*--background-color: #edfbee;*/
   --background-color: #ffffff;
   --background-color-transparent: rgba(255, 255, 255, 0.6);
+  --blur-effect: blur(10px);
   --navbar-padding: 30px;
   --font-family: "Inter", "Helvetica Neue", Helvetica, sans-serif;
   --font-size: 14px;
@@ -47,7 +48,6 @@
   background-color: var(--background-color);
   transition: background-color var(--transition-duration) ease;
   position: fixed;
-  /* top: 0; */
   z-index: 10;
   border-bottom: 2px solid var(--border-color);
   border-style: solid;
@@ -56,8 +56,8 @@
 /* Transparency Effect */
 .nav-header.transparency {
   background-color: var(--background-color-transparent);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: var(--blur-effect);
+  -webkit-backdrop-filter: var(--blur-effect);
 }
 
 .navbar {
@@ -147,8 +147,8 @@
 
 /* .nav-menu li a::before {
   background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: var(--blur-effect);
+  -webkit-backdrop-filter: var(--blur-effect);
 }
 
 .nav-menu li a::before {
@@ -538,8 +538,8 @@ li a:hover::after {
 
   .nav-header.transparency {
     background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: var(--blur-effect);
+    -webkit-backdrop-filter: var(--blur-effect);
   }
 
   .navbar {
@@ -625,8 +625,8 @@ li a:hover::after {
 
   .nav-menu li a::before {
     background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: var(--blur-effect);
+    -webkit-backdrop-filter: var(--blur-effect);
   }
 
   .nav-menu li a::before {
@@ -650,8 +650,8 @@ li a:hover::after {
 
   .nav-header.transparency {
     background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: var(--blur-effect);
+    -webkit-backdrop-filter: var(--blur-effect);
   }
 
   .nav-menu li:hover {
