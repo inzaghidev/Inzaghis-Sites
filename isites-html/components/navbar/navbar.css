@@ -179,6 +179,11 @@ li a:hover::after {
   transition: none;
 }
 
+.nav-drpdwn-list {
+  width: 180px;
+  text-align: center;
+}
+
 .nav-dropdown-list {
   display: none;
   position: absolute;

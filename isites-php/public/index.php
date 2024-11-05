@@ -67,7 +67,7 @@
           </div>
           <div class="hcg-slide-dot-control"></div>
         </div>
-        <section class="content-description">
+        <section class="content-description bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-400">
           <h2 class="group-title">Pages</h2>
           <p class="left-subheading">
             Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
