@@ -70,9 +70,9 @@
             "link" => ""
         ],
         [
-            "name" => "Coming Soon",
-            "imgSrc" => "https://via.placeholder.com/700x400",
-            "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+            "name" => "Tester Tools",
+            "imgSrc" => "../images/tester-tools-by-pages-apps.png",
+            "description" => "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
             "link" => ""
         ],
         [
