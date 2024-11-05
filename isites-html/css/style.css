@@ -667,6 +667,7 @@ svg:not(:root) {
   margin-left: auto;
   margin-right: auto;
   font-family: var(--font-family);
+  font-size: var(--font-size-16);
 }
 
 .left-subheading {
@@ -676,7 +677,7 @@ svg:not(:root) {
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: var(--margin-bottom-20);
-  font-size: var(--font-size-16);
+  font-size: var(--font-size-14);
   font-family: var(--font-family);
 }
 
@@ -1548,6 +1549,7 @@ svg:not(:root) {
     margin-left: auto;
     margin-right: auto;
     font-family: var(--font-family);
+    font-size: var(--font-size-14);
   }
 
   .group-title {
@@ -1560,6 +1562,7 @@ svg:not(:root) {
     margin-left: auto;
     margin-right: auto;
     font-family: var(--font-family);
+    font-size: var(--font-size-14);
   }
 
   .group-image img {

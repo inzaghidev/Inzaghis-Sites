@@ -48,6 +48,12 @@
       alt: "",
       link: "../page-apps/utilities.php",
     },
+    {
+      name: "TesterTools",
+      url: "../images/tester-tools-by-pages-apps.png",
+      alt: "",
+      link: "../page-apps/tester-tools.php",
+    },
   ];
 
   let slider_id = document.querySelector("#hcg-slider-1");
@@ -182,6 +188,7 @@
       Formatters: "../page-apps/formatters.php",
       FileConverters: "../page-apps/file-converter.php",
       Utilities: "../page-apps/utilities.php",
+      TesterTools: "../page-apps/tester-tools.php",
     };
 
     // Return the blog link based on the image name, or a default value if not found
@@ -208,6 +215,8 @@
         "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
       Utilities:
         "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
+      TesterTools:
+        "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
     };
 
     return contentData[imageName] || "";
