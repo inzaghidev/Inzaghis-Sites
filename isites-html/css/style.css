@@ -2007,6 +2007,10 @@ svg:not(:root) {
     border-radius: 8px;
   }
 
+  .content-description {
+    margin-top: 15px;
+  }
+
   .inzaghis-sites-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
