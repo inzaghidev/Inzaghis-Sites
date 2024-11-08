@@ -155,10 +155,10 @@
     const blogLink = document.querySelector(".blog-link");
 
     // Update content based on the selected image
-    groupTitle.textContent = image.name.replace(
-      "FileConverters",
-      "File Converters"
-    );
+    groupTitle.textContent = image.name
+      .replace("FileConverters", "File Converters")
+      .replace("TesterTools", "Tester Tools");
+
     leftSubheading.textContent = getContentDescription(image.name);
 
     // Update blog link href based on the selected image

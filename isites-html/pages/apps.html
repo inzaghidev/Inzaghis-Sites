@@ -72,7 +72,6 @@
         <div
           class="container mx-auto px-4 lg:flex items-center justify-center gap-6 w-full"
         >
-          <!-- Logo -->
           <div class="flex items-center justify-between lg:w-auto w-full">
             <a
               href="../public/index.html"
@@ -86,7 +85,6 @@
                 alt="logo"
               />
             </a>
-            <!-- Mobile Menu Button -->
             <div
               class="lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block"
             >
@@ -111,49 +109,81 @@
               </button>
             </div>
           </div>
-          <!-- Primary Navigation -->
           <div
             class="hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 navigation-menu pb-3 lg:pb-0 navigation-menu"
           >
             <a
               href="../public/index.html"
-              class="py-2 py-2 px-3 hover:bg-gray-200 gap-2 rounded block"
+              class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded block"
               >Home</a
             >
             <a
               href="https://medium.com/@izzumiposhaf29"
-              class="py-2 px-3 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
+              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
               >Blog</a
             >
             <a
               href="../pages/apps.html"
-              class="py-2 px-3 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
+              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
               >Page Apps</a
             >
             <a
               href="../pages/contact.html"
-              class="py-2 px-3 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
+              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
               >Contact</a
             >
             <a
               href="../pages/profile.html"
-              class="py-2 px-3 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
+              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
               >Profile</a
             >
             <a
               href="../pages/about.html"
-              class="py-2 px-3 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
+              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
               >About</a
             >
-            <a
-              href="../pages/networks.html"
-              class="py-2 px-3 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
-              >Inzaghi's Group Network</a
-            >
-            <!-- Dropdown Menu -->
-            <div class="hover:bg-gray-200 gap-2 rounded-lg block">
+            <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
               <button
-                class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg"
+                class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+              >
+                <a href="../pages/networks.html">Inzaghi's Group</a>
+                <svg
+                  class="w-3 h-3 pointer-events-none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <title>chevron-down</title>
+                  <g fill="none">
+                    <path
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <div
+                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block"
+              >
+                <a
+                  href="../inzaghis-group/inzaghis-blog.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Inzaghi's Blog</a
+                >
+                <a
+                  href="../inzaghis-group/inzaghis-media.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Inzaghi's Media</a
+                >
+              </div>
+            </div>
+            <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
+              <button
+                class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
               >
                 <span class="pointer-events-none">Switch to Another Site</span>
                 <svg
@@ -176,7 +206,7 @@
                 </svg>
               </button>
               <div
-                class="dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2"
+                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block"
               >
                 <a
                   href="https://sites.google.com/view/inzaghis-sites"
@@ -384,21 +414,23 @@
         });
       </script-->
 
-      <div class="grid grid-cols-4 md:grid-cols-12 gap-6 px-4 justify-center">
+      <div
+        class="grid grid-cols-4 md:grid-cols-12 gap-6 lg:px-16 xl:px-0 justify-center"
+      >
         <div
-          class="bg-gray-300 bg-opacity-20 col-span-8 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+          class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
         >
-          <a
-            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
+          <div
+            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
           >
             <img
-              class="object-cover w-full rounded-t-lg h-1/4 md:h-auto md:w-52 lg:w-1/2 xl:w-72 md:rounded-none md:rounded-s-lg"
+              class="object-cover w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 md:rounded-none md:rounded-s-lg"
               src="../images/pages-by-pages-apps.png"
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-black"
+                class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black"
               >
                 Pages
               </h5>
@@ -406,33 +438,34 @@
                 Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
                 Inzaghi's Sites. Dan juga sebagai kumpulan Materi,
                 Proyek-proyek, hingga Tutorial Pemrograman.
-                <br />
-                <br />
-                <button
-                  type="button"
+              </p>
+              <div
+                class="mt-4 flex justify-center md:justify-start lg:justify-center"
+              >
+                <a
                   href="../page-apps/pages.html"
-                  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                  class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                 >
                   Click here
-                </button>
-              </p>
+                </a>
+              </div>
             </div>
-          </a>
+          </div>
         </div>
         <div
-          class="bg-gray-300 bg-opacity-20 col-span-8 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+          class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
         >
-          <a
-            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
+          <div
+            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
           >
             <img
-              class="object-cover w-full rounded-t-lg h-1/4 md:h-auto md:w-52 lg:w-1/2 xl:w-72 md:rounded-none md:rounded-s-lg"
+              class="object-cover w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 md:rounded-none md:rounded-s-lg"
               src="../images/widgets-by-pages-apps.png"
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-black"
+                class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black"
               >
                 Widgets
               </h5>
@@ -440,18 +473,92 @@
                 Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
                 Informasi seakurat mungkin. Widget di sini juga termasuk yang
                 sedang heboh saat ini.
-                <br />
-                <br />
-                <button
-                  type="button"
-                  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              </p>
+              <div
+                class="mt-4 flex justify-center md:justify-start lg:justify-center"
+              >
+                <a
+                  href="../page-apps/widgets.html"
+                  class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                 >
                   Click here
-                </button>
-              </p>
+                </a>
+              </div>
             </div>
-          </a>
+          </div>
         </div>
+        <div
+          class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+        >
+          <div
+            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
+          >
+            <img
+              class="object-cover w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 md:rounded-none md:rounded-s-lg"
+              src="../images/converters-by-pages-apps.png"
+              alt=""
+            />
+            <div class="flex flex-col justify-between p-4 leading-normal">
+              <h5
+                class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black"
+              >
+                Converters
+              </h5>
+              <p class="mb-3 font-normal text-gray-700 text-gray-600">
+                Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
+                Informasi seakurat mungkin. Widget di sini juga termasuk yang
+                sedang heboh saat ini.
+              </p>
+              <div
+                class="mt-4 flex justify-center md:justify-start lg:justify-center"
+              >
+                <a
+                  href="../page-apps/converter.html"
+                  class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                >
+                  Click here
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+        >
+          <div
+            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
+          >
+            <img
+              class="object-cover w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 md:rounded-none md:rounded-s-lg"
+              src="../images/calculators-by-pages-apps.png"
+              alt=""
+            />
+            <div class="flex flex-col justify-between p-4 leading-normal">
+              <h5
+                class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black"
+              >
+                Calculators
+              </h5>
+              <p class="mb-3 font-normal text-gray-700 text-gray-600">
+                Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
+                Informasi seakurat mungkin. Widget di sini juga termasuk yang
+                sedang heboh saat ini.
+              </p>
+              <div
+                class="mt-4 flex justify-center md:justify-start lg:justify-center"
+              >
+                <a
+                  href="../page-apps/calculators.html"
+                  class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                >
+                  Click here
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BORDER -->
         <div
           class="bg-gray-300 bg-opacity-20 col-span-4 sm:col-span-12 shadow rounded-lg p-5 mx-auto"
         >
@@ -465,14 +572,15 @@
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-black"
+                class="mb-2 text-3xl font-bold tracking-tight text-gray-900 text-black"
               >
-                Converters
+                Coming Soon
               </h5>
               <p class="mb-3 font-normal text-gray-700 text-gray-600">
-                Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu,
-                Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian
-                dari Aplikasi Konverter ini akan sedikit menggunakan API.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+                adipisci dicta dignissimos neque animi ea, veritatis, provident
+                hic consequatur ut esse! Commodi ea consequatur accusantium,
+                beatae qui deserunt tenetur ipsa.
                 <br />
                 <br />
                 <button
@@ -498,14 +606,15 @@
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-black"
+                class="mb-2 text-3xl font-bold tracking-tight text-gray-900 text-black"
               >
-                Calculators
+                Coming Soon
               </h5>
               <p class="mb-3 font-normal text-gray-700 text-gray-600">
-                Merupakan kumpulan dari beberapa jenis Kalkulator seperti
-                Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan,
-                hingga Kalkulator untuk Keseharian.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+                adipisci dicta dignissimos neque animi ea, veritatis, provident
+                hic consequatur ut esse! Commodi ea consequatur accusantium,
+                beatae qui deserunt tenetur ipsa.
                 <br />
                 <br />
                 <button
@@ -531,7 +640,7 @@
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-black"
+                class="mb-2 text-3xl font-bold tracking-tight text-gray-900 text-black"
               >
                 Converters
               </h5>

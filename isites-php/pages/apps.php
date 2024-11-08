@@ -24,13 +24,13 @@
       Widget, Konverter, Kalkulator, dan lainnya.
   </p>
 
-  <div class="grid grid-cols-4 md:grid-cols-12 gap-6 px-4 justify-center">
-    <div class="bg-gray-300 bg-opacity-20 col-span-8 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto">
+  <div class="grid grid-cols-4 md:grid-cols-12 gap-6 lg:px-16 xl:px-0 justify-center">
+    <div class="bg-gray-300 bg-opacity-20 col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto">
       <a
-        class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
+        class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
       >
         <img
-          class="object-cover w-full rounded-t-lg h-1/4 md:h-auto md:w-52 lg:w-1/2 xl:w-72 md:rounded-none md:rounded-s-lg"
+          class="object-cover w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 md:rounded-none md:rounded-s-lg"
           src="../images/pages-by-pages-apps.png"
           alt=""
         />
@@ -57,13 +57,13 @@
       </a>
     </div>
     <div
-      class="bg-gray-300 bg-opacity-20 col-span-8 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+      class="bg-gray-300 bg-opacity-20 col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
     >
       <a
-        class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow md:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
+        class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
       >
         <img
-          class="object-cover w-full rounded-t-lg h-1/4 md:h-auto md:w-52 lg:w-1/2 xl:w-72 md:rounded-none md:rounded-s-lg"
+          class="object-cover w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 md:rounded-none md:rounded-s-lg"
           src="../images/widgets-by-pages-apps.png"
           alt=""
         />
