@@ -1,9 +1,9 @@
 <?php
-    $page_title = "Widgets";
+    $page_title = "Utilities";
     include('../layouts/header.php');
     include('../components/navbar/navbar.php');
     $data = json_decode(file_get_contents('../data/apps-data.json'), true);
-    $apps = $data['widgets'];
+    $apps = $data['utilities'];
 ?>
 
 <div class="container-top"></div>
@@ -11,13 +11,13 @@
   <div class="page-apps-container">
     <div class="welcome-container">
       <div class="welcome-title">
-        <h1 class="welcome-title">Widgets</h1>
+        <h1 class="welcome-title">Utilities</h1>
       </div>
       <section class="pages">
         <p class="is-desc">
-          Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
-          Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang
-          heboh saat ini.
+          Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas
+          atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL
+          Checker, Website Status Checker, Find and Replace, dan lainnya.
         </p>
         <div class="row">
             <?php

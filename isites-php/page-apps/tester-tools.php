@@ -1,9 +1,9 @@
 <?php
-    $page_title = "Widgets";
+    $page_title = "Tester Tools";
     include('../layouts/header.php');
     include('../components/navbar/navbar.php');
     $data = json_decode(file_get_contents('../data/apps-data.json'), true);
-    $apps = $data['widgets'];
+    $apps = $data['tester_tools'];
 ?>
 
 <div class="container-top"></div>
@@ -11,13 +11,12 @@
   <div class="page-apps-container">
     <div class="welcome-container">
       <div class="welcome-title">
-        <h1 class="welcome-title">Widgets</h1>
+        <h1 class="welcome-title">Tester Tools</h1>
       </div>
       <section class="pages">
         <p class="is-desc">
-          Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
-          Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang
-          heboh saat ini.
+          Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online
+          seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.
         </p>
         <div class="row">
             <?php

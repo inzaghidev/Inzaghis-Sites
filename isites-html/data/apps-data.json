@@ -5,55 +5,55 @@
       "name": "Pages",
       "imgSrc": "../images/pages-by-pages-apps.png",
       "description": "Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek, hingga Tutorial Pemrograman.",
-      "link": "../page-apps/pages.php"
+      "link": "../page-apps/pages.html"
     },
     {
       "name": "Widgets",
       "imgSrc": "../images/widgets-by-pages-apps.png",
       "text": "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
-      "link": "../page-apps/widgets.php"
+      "link": "../page-apps/widgets.html"
     },
     {
       "name": "Converters",
       "imgSrc": "../images/converters-by-pages-apps.png",
       "description": "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
-      "link": "../page-apps/converter.php"
+      "link": "../page-apps/converter.html"
     },
     {
       "name": "Calculators",
       "imgSrc": "../images/calculators-by-pages-apps.png",
       "description": "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
-      "link": "../page-apps/calculators.php"
+      "link": "../page-apps/calculators.html"
     },
     {
       "name": "Generators",
       "imgSrc": "../images/generators-by-pages-apps.png",
       "description": "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
-      "link": "../page-apps/generators.php"
+      "link": "../page-apps/generators.html"
     },
     {
       "name": "Formatters",
       "imgSrc": "../images/formatters-by-pages-apps.png",
       "description": "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
-      "link": "../page-apps/formatters.php"
+      "link": "../page-apps/formatters.html"
     },
     {
       "name": "File Converter",
       "imgSrc": "../images/file-converters-by-pages-apps.png",
       "description": "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
-      "link": "../page-apps/file-converter.php"
+      "link": "../page-apps/file-converter.html"
     },
     {
       "name": "Utilities",
       "imgSrc": "../images/utilities-by-pages-apps.png",
       "description": "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
-      "link": ""
+      "link": "../page-apps/utilities.html"
     },
     {
       "name": "Tester Tools",
       "imgSrc": "../images/tester-tools-by-pages-apps.png",
       "description": "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
-      "link": ""
+      "link": "../page-apps/tester-tools.html"
     },
     {
       "name": "Coming Soon",
@@ -292,7 +292,7 @@
       "link": "#"
     }
   ],
-  "file_converters": [
+  "file_converter": [
     {
       "title": "App 1",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
@@ -356,7 +356,39 @@
       "link": "#"
     }
   ],
-  "Lorem 1": [
+  "tester_tools": [
+    {
+      "title": "App 1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 4",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 5",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 6",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    }
+  ],
+  "Lorem_1": [
     {
       "title": "App 1",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",

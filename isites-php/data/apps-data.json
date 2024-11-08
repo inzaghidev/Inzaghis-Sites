@@ -47,13 +47,13 @@
       "name": "Utilities",
       "imgSrc": "../images/utilities-by-pages-apps.png",
       "description": "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
-      "link": ""
+      "link": "../page-apps/utilities.php"
     },
     {
       "name": "Tester Tools",
       "imgSrc": "../images/tester-tools-by-pages-apps.png",
       "description": "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
-      "link": ""
+      "link": "../page-apps/tester-tools.php"
     },
     {
       "name": "Coming Soon",
@@ -292,7 +292,7 @@
       "link": "#"
     }
   ],
-  "file_converters": [
+  "file_converter": [
     {
       "title": "App 1",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
@@ -356,7 +356,39 @@
       "link": "#"
     }
   ],
-  "Lorem 1": [
+  "tester_tools": [
+    {
+      "title": "App 1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 4",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 5",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 6",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    }
+  ],
+  "Lorem_1": [
     {
       "title": "App 1",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
