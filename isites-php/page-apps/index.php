@@ -32,7 +32,7 @@
         class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
       >
         <img
-          class="object-cover w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 md:rounded-none md:rounded-s-lg"
+          class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none"
           src="../images/pages-by-pages-apps.png"
           alt=""
         />
@@ -48,7 +48,7 @@
             Proyek-proyek, hingga Tutorial Pemrograman.
           </p>
           <div
-            class="mt-4 flex justify-center md:justify-start lg:justify-center"
+            class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
           >
             <a
               href="../page-apps/pages.php"
@@ -67,7 +67,7 @@
         class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
       >
         <img
-          class="object-cover w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 md:rounded-none md:rounded-s-lg"
+          class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none"
           src="../images/widgets-by-pages-apps.png"
           alt=""
         />
@@ -83,7 +83,7 @@
             sedang heboh saat ini.
           </p>
           <div
-            class="mt-4 flex justify-center md:justify-start lg:justify-center"
+            class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
           >
             <a
               href="../page-apps/widgets.php"
@@ -102,7 +102,7 @@
         class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
       >
         <img
-          class="object-cover w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 md:rounded-none md:rounded-s-lg"
+          class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none"
           src="../images/converters-by-pages-apps.png"
           alt=""
         />
@@ -118,7 +118,7 @@
             sedang heboh saat ini.
           </p>
           <div
-            class="mt-4 flex justify-center md:justify-start lg:justify-center"
+            class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
           >
             <a
               href="../page-apps/converter.php"
@@ -137,7 +137,7 @@
         class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
       >
         <img
-          class="object-cover w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 md:rounded-none md:rounded-s-lg"
+          class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none"
           src="../images/calculators-by-pages-apps.png"
           alt=""
         />
@@ -153,7 +153,7 @@
             sedang heboh saat ini.
           </p>
           <div
-            class="mt-4 flex justify-center md:justify-start lg:justify-center"
+            class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
           >
             <a
               href="../page-apps/calculators.php"

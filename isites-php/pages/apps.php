@@ -25,18 +25,20 @@
   </p>
 
   <div class="grid grid-cols-4 md:grid-cols-12 gap-6 lg:px-16 xl:px-0 justify-center">
-    <div class="bg-gray-300 bg-opacity-20 col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto">
-      <a
+    <div
+      class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+    >
+      <div
         class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
       >
         <img
-          class="object-cover w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 md:rounded-none md:rounded-s-lg"
+          class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none"
           src="../images/pages-by-pages-apps.png"
           alt=""
         />
         <div class="flex flex-col justify-between p-4 leading-normal">
           <h5
-            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-black"
+            class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black"
           >
             Pages
           </h5>
@@ -44,32 +46,34 @@
             Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
             Inzaghi's Sites. Dan juga sebagai kumpulan Materi,
             Proyek-proyek, hingga Tutorial Pemrograman.
-            <br />
-            <br />
-            <button
-              type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+          </p>
+          <div
+            class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
+          >
+            <a
+              href="../page-apps/pages.html"
+              class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
             >
               Click here
-            </button>
-          </p>
+            </a>
+          </div>
         </div>
-      </a>
+      </div>
     </div>
     <div
-      class="bg-gray-300 bg-opacity-20 col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+      class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
     >
-      <a
+      <div
         class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
       >
         <img
-          class="object-cover w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 md:rounded-none md:rounded-s-lg"
+          class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none"
           src="../images/widgets-by-pages-apps.png"
           alt=""
         />
         <div class="flex flex-col justify-between p-4 leading-normal">
           <h5
-            class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-black"
+            class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black"
           >
             Widgets
           </h5>
@@ -77,18 +81,90 @@
             Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
             Informasi seakurat mungkin. Widget di sini juga termasuk yang
             sedang heboh saat ini.
-            <br />
-            <br />
-            <button
-              type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+          </p>
+          <div
+            class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
+          >
+            <a
+              href="../page-apps/widgets.html"
+              class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
             >
               Click here
-            </button>
-          </p>
+            </a>
+          </div>
         </div>
-      </a>
+      </div>
     </div>
+    <div
+      class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+    >
+      <div
+        class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
+      >
+        <img
+          class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none"
+          src="../images/converters-by-pages-apps.png"
+          alt=""
+        />
+        <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5
+            class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black"
+          >
+            Converters
+          </h5>
+          <p class="mb-3 font-normal text-gray-700 text-gray-600">
+            Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
+            Informasi seakurat mungkin. Widget di sini juga termasuk yang
+            sedang heboh saat ini.
+          </p>
+          <div
+            class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
+          >
+            <a
+              href="../page-apps/converter.html"
+              class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            >
+              Click here
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+    >
+      <div
+        class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
+      >
+        <img
+          class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none"
+          src="../images/calculators-by-pages-apps.png"
+          alt=""
+        />
+        <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5
+            class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black"
+          >
+            Calculators
+          </h5>
+          <p class="mb-3 font-normal text-gray-700 text-gray-600">
+            Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
+            Informasi seakurat mungkin. Widget di sini juga termasuk yang
+            sedang heboh saat ini.
+          </p>
+          <div
+            class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
+          >
+            <a
+              href="../page-apps/calculators.html"
+              class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            >
+              Click here
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
     <!-- -->
   </div>
   <div class="row" id="app-container">
