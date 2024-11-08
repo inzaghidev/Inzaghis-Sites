@@ -70,16 +70,16 @@
             "link" => ""
         ],
         [
+            "name" => "Utilities",
+            "imgSrc" => "../images/utilities-by-pages-apps.png",
+            "description" => "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
+            "link" => "../page-apps/utilities.php"
+        ],
+        [
             "name" => "Tester Tools",
             "imgSrc" => "../images/tester-tools-by-pages-apps.png",
             "description" => "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
-            "link" => ""
-        ],
-        [
-            "name" => "Coming Soon",
-            "imgSrc" => "https://via.placeholder.com/700x400",
-            "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
-            "link" => ""
+            "link" => "../page-apps/tester-tools.php"
         ],
         [
             "name" => "Coming Soon",
