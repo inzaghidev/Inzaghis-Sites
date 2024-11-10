@@ -358,7 +358,7 @@ svg:not(:root) {
 }
 
 .page-wrapper {
-  max-width: 1360px;
+  max-width: 1440px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
@@ -375,7 +375,7 @@ svg:not(:root) {
 }
 
 .inzaghis-sites-description {
-  font-size: var(--font-size-14);
+  font-size: var(--font-size-16);
   line-height: 1.6;
   margin-bottom: var(--margin-bottom-20);
   font-family: var(--font-family);

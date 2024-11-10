@@ -13,10 +13,7 @@
           <div class="welcome-description">
             <p class="inzaghis-sites-description">
                 Inzaghi's Sites merupakan Platform Layanan Situs Web untuk dapat
-                diakses ke semua layanan Inzaghi's Group. Kini, Inzaghi's Sites
-                telah hadir dengan menggunakan Layanan Hosting yang akan
-                tersedia mulai September 2023, dan sebagai Pengganti Situs lama
-                kami di Google Sites.
+                diakses ke semua layanan Inzaghi's Group.
                 <br />
                 <br />
                 Inzaghi's Sites juga memudahkan Anda untuk mengakses Aplikasi
