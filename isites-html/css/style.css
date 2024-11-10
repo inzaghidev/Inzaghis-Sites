@@ -327,7 +327,7 @@ svg:not(:root) {
   margin: 0 0.5em auto;
   margin-bottom: var(--margin-bottom-32);
   font-family: var(--font-family);
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 700;
   text-align: left;
 }
@@ -384,7 +384,7 @@ svg:not(:root) {
 }
 
 .page-wrapper {
-  max-width: 1360px;
+  max-width: 1440px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
@@ -1363,7 +1363,7 @@ svg:not(:root) {
     margin: 0 0.5em auto;
     margin-bottom: var(--margin-bottom-32);
     font-family: var(--font-family);
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 700;
     text-align: left;
   }

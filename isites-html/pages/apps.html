@@ -241,30 +241,33 @@
     <div class="container-top"></div>
     <section class="pages">
       <!-- Page Heading -->
-      <h1 class="my-4 title-page">
-        Pages Apps
-        <small>Beta</small>
+      <h1 class="my-4 title-page text-4xl font-bold text-left">
+        Pages Apps <small class="text-lg text-gray-500">Beta</small>
       </h1>
 
-      <p class="is-desc">
+      <p class="is-desc text-left text-gray-700">
         Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
         kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman,
         Widget, Konverter, Kalkulator, dan lainnya.
       </p>
 
-      <!--div class="row" id="app-container">
-        <Konten akan ditambahkan di sini oleh jQuery>
+      <div
+        class="grid grid-cols-4 md:grid-cols-12 gap-6 lg:px-16 xl:px-0 justify-center"
+        id="app-container"
+      >
+        <!-- Dynamic content will be inserted here by jQuery -->
       </div>
 
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script>
         $(document).ready(function () {
-          // Data aplikasi yang akan ditampilkan
+          // Data for the apps
           const apps = [
             {
               name: "Pages",
               imgSrc: "../images/pages-by-pages-apps.png",
               description:
-                "Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek, hingga Tutorial Pemrograman.",
+                "Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di Inzaghi's Sites. Dan juga sebagai kumpulan Materi dan Tutorial Pemrograman.",
               link: "../page-apps/pages.html",
             },
             {
@@ -278,43 +281,50 @@
               name: "Converters",
               imgSrc: "../images/converters-by-pages-apps.png",
               description:
-                "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
+                "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain.",
               link: "../page-apps/converter.html",
             },
             {
               name: "Calculators",
               imgSrc: "../images/calculators-by-pages-apps.png",
               description:
-                "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
+                "Kumpulan Kalkulator Sederhana, Ilmiah, Kesehatan, dan lainnya.",
               link: "../page-apps/calculators.html",
             },
             {
               name: "Generators",
               imgSrc: "../images/generators-by-pages-apps.png",
               description:
-                "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
+                "Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator.",
               link: "../page-apps/generators.html",
             },
             {
               name: "Formatters",
               imgSrc: "../images/formatters-by-pages-apps.png",
               description:
-                "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
+                "Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
               link: "../page-apps/formatters.html",
             },
             {
               name: "File Converter",
               imgSrc: "../images/file-converters-by-pages-apps.png",
               description:
-                "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
+                "Portal untuk konversi format File seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
               link: "../page-apps/file-converter.html",
             },
             {
               name: "Utilities",
               imgSrc: "../images/utilities-by-pages-apps.png",
               description:
-                "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
-              link: "",
+                "Portal untuk kumpulan Aplikasi Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker.",
+              link: "../page-apps/utilities.html",
+            },
+            {
+              name: "Tester Tools",
+              imgSrc: "../images/tester-tools-by-pages-apps.png",
+              description:
+                "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
+              link: "../page-apps/tester-tools.html",
             },
             {
               name: "Coming Soon",
@@ -323,101 +333,35 @@
                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
               link: "",
             },
-            {
-              name: "Coming Soon",
-              imgSrc: "https://via.placeholder.com/700x400",
-              description:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
-              link: "",
-            },
-            {
-              name: "Coming Soon",
-              imgSrc: "https://via.placeholder.com/700x400",
-              description:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
-              link: "",
-            },
-            {
-              name: "Coming Soon",
-              imgSrc: "https://via.placeholder.com/700x400",
-              description:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
-              link: "",
-            },
-            // Tambahkan data aplikasi lainnya di sini...
           ];
 
-          // Ambil elemen kontainer
+          // Container for the app cards
           const appContainer = $("#app-container");
 
-          // Loop melalui setiap aplikasi dan buat elemen HTML-nya
+          // Loop through each app and create the card structure
           $.each(apps, function (index, app) {
-            // Buat elemen kolom
-            const column = $("<div></div>").addClass(
-              "col-lg-3 col-md-4 col-sm-6 mb-4"
-            );
-
-            // Buat elemen card
-            const card = $("<div></div>").addClass(
-              "card h-100 border-success shadow"
-            );
-
-            // Buat elemen link
-            const link = $("<a></a>").attr("href", app.link);
-
-            // Buat elemen gambar
-            const img = $("<img>")
-              .addClass("card-img-top")
-              .attr({ src: app.imgSrc, alt: "" });
-
-            // Masukkan elemen link dan gambar ke dalam struktur yang benar
-            link.append(img);
-            card.append(link);
-
-            // Buat elemen body card
-            const cardBody = $("<div></div>").addClass(
-              "card-body card-apps-body"
-            );
-
-            // Buat elemen card-apps
-            const cardApps = $("<div></div>").addClass("card-apps");
-
-            // Buat elemen judul card
-            const title = $("<h4></h4>").addClass(
-              "card-title text-title card-name page-apps-card"
-            );
-            const titleLink = $("<a></a>").text(app.name);
-            title.append(titleLink);
-
-            // Buat elemen deskripsi card
-            const description = $("<p></p>")
-              .addClass("card-text")
-              .text(app.description);
-
-            // Buat elemen tombol
-            const button = $("<button></button>").addClass(
-              "btn btn-primary btn-md apps-button"
-            );
-            const buttonLink = $("<a></a>")
-              .addClass("blog-link")
-              .attr("href", app.link)
-              .text("Click here");
-            button.append(buttonLink);
-
-            // Masukkan elemen ke dalam struktur yang benar
-            cardApps.append(title, description);
-            cardBody.append(cardApps, button);
-            card.append(cardBody);
-            column.append(card);
-            appContainer.append(column);
+            const card = `
+        <div class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto">
+          <div class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300">
+            <img class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none" src="${app.imgSrc}" alt="${app.name}" />
+            <div class="flex flex-col justify-between p-4 leading-normal">
+              <h5 class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black">${app.name}</h5>
+              <p class="mb-3 font-normal text-gray-700 text-gray-600">${app.description}</p>
+              <div class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start">
+                <a href="${app.link}" class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Click here</a>
+              </div>
+            </div>
+          </div>
+        </div>`;
+            appContainer.append(card);
           });
         });
-      </script-->
+      </script>
 
       <div
         class="grid grid-cols-4 md:grid-cols-12 gap-6 lg:px-16 xl:px-0 justify-center"
       >
-        <div
+        <!--div
           class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
         >
           <div
@@ -556,10 +500,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </div-->
 
         <!-- BORDER -->
-        <div
+        <!--div
           class="bg-gray-300 bg-opacity-20 col-span-4 sm:col-span-12 shadow rounded-lg p-5 mx-auto"
         >
           <a
@@ -567,7 +511,7 @@
           >
             <img
               class="object-cover w-full rounded-t-lg h-1/4 md:h-auto md:w-60 lg:w-96 md:rounded-none md:rounded-s-lg"
-              src="../images/converters-by-pages-apps.png"
+              src="https://via.placeholder.com/700x400"
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
@@ -601,7 +545,7 @@
           >
             <img
               class="object-cover w-full rounded-t-lg h-1/4 md:h-auto md:w-60 lg:w-96 md:rounded-none md:rounded-s-lg"
-              src="../images/calculators-by-pages-apps.png"
+              src="https://via.placeholder.com/700x400"
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
@@ -635,19 +579,20 @@
           >
             <img
               class="object-cover w-full rounded-t-lg h-1/4 md:h-auto md:w-60 lg:w-96 md:rounded-none md:rounded-s-lg"
-              src="../images/converters-by-pages-apps.png"
+              src="https://via.placeholder.com/700x400"
               alt=""
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5
                 class="mb-2 text-3xl font-bold tracking-tight text-gray-900 text-black"
               >
-                Converters
+                Coming Soon
               </h5>
               <p class="mb-3 font-normal text-gray-700 text-gray-600">
-                Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu,
-                Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian
-                dari Aplikasi Konverter ini akan sedikit menggunakan API.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+                adipisci dicta dignissimos neque animi ea, veritatis, provident
+                hic consequatur ut esse! Commodi ea consequatur accusantium,
+                beatae qui deserunt tenetur ipsa.
                 <br />
                 <br />
                 <button
@@ -824,7 +769,7 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div-->
       </div>
     </section>
     <section class="footer">

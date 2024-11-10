@@ -13,15 +13,12 @@
 <div class="container-top"></div>
 <section class="pages">
   <!-- Page Heading -->
-  <h1 class="my-4 title-page">
-    Pages Apps
-    <small>Beta</small>
+  <h1 class="my-4 title-page text-4xl font-bold text-left">
+    Pages Apps <small class="text-lg text-gray-500">Beta</small>
   </h1>
 
-  <p class="is-desc">
-      Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
-      kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman,
-      Widget, Konverter, Kalkulator, dan lainnya.
+  <p class="is-desc text-left text-gray-700">
+    Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman, Widget, Konverter, Kalkulator, dan lainnya.
   </p>
 
   <div class="grid grid-cols-4 md:grid-cols-12 gap-6 lg:px-16 xl:px-0 justify-center">
@@ -51,7 +48,7 @@
             class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
           >
             <a
-              href="../page-apps/pages.html"
+              href="../page-apps/pages.php"
               class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
             >
               Click here
@@ -86,7 +83,7 @@
             class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
           >
             <a
-              href="../page-apps/widgets.html"
+              href="../page-apps/widgets.php"
               class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
             >
               Click here
@@ -121,7 +118,7 @@
             class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
           >
             <a
-              href="../page-apps/converter.html"
+              href="../page-apps/converter.php"
               class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
             >
               Click here
@@ -156,7 +153,7 @@
             class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
           >
             <a
-              href="../page-apps/calculators.html"
+              href="../page-apps/calculators.php"
               class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
             >
               Click here
@@ -169,15 +166,15 @@
   </div>
   <div class="row" id="app-container">
   <?php
-  // Loop melalui setiap aplikasi dan buat elemen HTML-nya
-  foreach ($apps as $app) {
-    // Menggunakan isset untuk menghindari error jika kunci tidak ada
-    $name = isset($app['name']) ? $app['name'] : 'N/A';
-    $imgSrc = isset($app['imgSrc']) ? $app['imgSrc'] : '';
-    $description = isset($app['description']) ? $app['description'] : (isset($app['text']) ? $app['text'] : '');
-    $link = isset($app['link']) ? $app['link'] : '#';
-    ?>
-    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+  //  // Loop melalui setiap aplikasi dan buat elemen HTML-nya
+  //  foreach ($apps as $app) {
+  //    // Menggunakan isset untuk menghindari error jika kunci tidak ada
+  //    $name = isset($app['name']) ? $app['name'] : 'N/A';
+  //    $imgSrc = isset($app['imgSrc']) ? $app['imgSrc'] : '';
+  //    $description = isset($app['description']) ? $app['description'] : (isset($app['text']) ? $app['text'] : '');
+  //    $link = isset($app['link']) ? $app['link'] : '#';
+  //    ?>
+    <!--div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card h-100 border-success shadow">
             <a href="<?php echo $link; ?>"><img class="card-img-top" src="<?php echo $imgSrc; ?>" alt=""></a>
             <div class="card-body card-apps-body">
@@ -188,10 +185,10 @@
                 <button type="button" class="btn btn-primary btn-md apps-button"><a href="<?php echo $link; ?>" class="blog-link">Click here</a></button>
             </div>
         </div>
-    </div>
+    </div-->
     <?php
-  }
-  ?>
+  //  }
+  //  ?>
   </div>
 
   <!-- /.row -->
@@ -226,7 +223,7 @@
   include('../layouts/footer.php');
 ?>
 
-<!-- https://preline.co/examples/icon-sections.html -->
+<!-- https://preline.co/examples/icon-sections.php -->
 <!-- https://flowbite.com/docs/components/card -->
 
 <!-- Tools : -->
