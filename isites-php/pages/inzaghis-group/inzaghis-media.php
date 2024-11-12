@@ -7,22 +7,22 @@
 ?>
     <div class="container-top"></div>
     <section class="inzaghis-group-pages inzaghismedia-slider">
-      <div class="page-container">
+      <div class="page-container inzagroup-pages">
         <h1 class="my-4 page-title">Inzaghi's Media</h1>
         <div class="page-wrapper">
-          <div class="card text-white bg-secondary">
-            <div class="card-body">
-              <h3 class="card-title">Description</h3>
-              <p class="card-text is-desc">
-                Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
-                terutama seputar IT.
-              </p>
-            </div>
-          </div>
           <div
-            class="card page-wrapper border-dark network-card"
+            class="card border-dark network-card"
             style="background-color: #fff0f0"
           >
+            <div class="card text-white bg-secondary">
+              <div class="card-body">
+                <h3 class="card-title">Description</h3>
+                <p class="card-text is-desc">
+                  Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
+                  terutama seputar IT.
+                </p>
+              </div>
+            </div>
             <div class="page-description">
               <h2 class="my-4">Instagram</h2>
               <div class="text-container">

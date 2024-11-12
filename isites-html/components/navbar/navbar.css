@@ -499,7 +499,7 @@ li a:hover::after {
     order: 0;
   }
 
-  #logo .menu-togle {
+  #logo .menu-toggle {
     display: flex;
   }
 
@@ -696,6 +696,15 @@ li a:hover::after {
     cursor: pointer;
   }
 
+  .dropdown-icon {
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    order: 4;
+  }
+
   .w-dropdown-toggle {
     text-align: left;
     z-index: 900;
@@ -767,7 +776,7 @@ li a:hover::after {
     order: 0;
   }
 
-  #logo .menu-togle {
+  #logo .menu-toggle {
     display: flex;
   }
 

@@ -224,6 +224,10 @@ svg:not(:root) {
   padding: var(--padding-40);
 }
 
+.inzagroup-pages {
+  min-width: 300px;
+}
+
 .main-button {
   display: inline-block;
   padding: 12px 20px;
