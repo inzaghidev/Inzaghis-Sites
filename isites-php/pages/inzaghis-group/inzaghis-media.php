@@ -7,7 +7,7 @@
 ?>
     <div class="container-top"></div>
     <section class="inzaghis-group-pages inzaghismedia-slider">
-      <div class="page-container">
+      <div class="page-container inzagroup-pages">
         <h1 class="my-4 page-title">Inzaghi's Media</h1>
         <div class="page-wrapper">
           <div class="card text-white bg-secondary">
