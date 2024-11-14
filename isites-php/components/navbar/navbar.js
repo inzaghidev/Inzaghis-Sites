@@ -6,11 +6,50 @@ document.addEventListener("DOMContentLoaded", function () {
   const navMenuContainer = document.querySelector(".nav-menu-container");
   const signInButton = document.querySelector(".sign-in-button");
   const navHeader = document.getElementById("navHeader");
-  const dropdownToggle = document.querySelector(".nav-dropdown-toggle");
-  const dropdownMenu = document.querySelector(".nav-dropdown-list");
-  const chevronIcon = dropdownToggle.querySelector(
-    "ion-icon[name='chevron-down-outline']"
-  );
+
+  // Mengambil semua elemen dropdown
+  const dropdownToggles = document.querySelectorAll(".nav-dropdown-toggle");
+  const dropdownButtons = document.querySelectorAll(".dropdown-button");
+
+  dropdownButtons.forEach((dropdownButton) => {
+    const icon = dropdownButton.querySelector(".dropdown-icon");
+    const link = dropdownButton.querySelector("a");
+    const dropdownMenu =
+      dropdownButton.parentElement.querySelector(".nav-dropdown-list");
+
+    // Event listener untuk klik pada icon dropdown saja
+    icon.addEventListener("click", function (e) {
+      if (window.innerWidth < 720) {
+        e.preventDefault();
+        dropdownMenu.classList.toggle("show");
+        dropdownButton.classList.toggle("active");
+
+        // Menutup dropdown lain yang terbuka
+        dropdownButtons.forEach((otherButton) => {
+          const otherDropdownMenu =
+            otherButton.parentElement.querySelector(".nav-dropdown-list");
+          if (otherButton !== dropdownButton) {
+            otherDropdownMenu.classList.remove("show");
+            otherButton.classList.remove("active");
+          }
+        });
+      }
+    });
+
+    // Menangani klik link dalam dropdown agar tidak menutup dropdown
+    dropdownMenu.addEventListener("click", function (e) {
+      e.stopPropagation(); // Menghentikan event bubbling agar dropdown tetap terbuka
+    });
+
+    // Event listener pada link agar tetap bisa diarahkan
+    if (link) {
+      link.addEventListener("click", function (e) {
+        if (window.innerWidth < 720 && link.getAttribute("href")) {
+          e.stopPropagation(); // Memastikan link bisa diklik tanpa menutup dropdown
+        }
+      });
+    }
+  });
 
   function updateBeforeStyles() {
     const existingStyle = document.getElementById("dynamic-mobile-style");
@@ -19,44 +58,27 @@ document.addEventListener("DOMContentLoaded", function () {
         const mobileStyle = document.createElement("style");
         mobileStyle.id = "dynamic-mobile-style";
         mobileStyle.textContent = `
-            .nav-menu ul li a::before {
-              content: "";
-              background: none;
-              color: #ff3d00;
-              display: block;
-              position: absolute;
-              left: 0;
-              bottom: 0;
-              width: 100%;
-              height: 2px;
-              opacity: 0;
-              transition: 0.2s transform ease;
-              transform: scale3d(0, 1, 1);
-              transform-origin: 0 50%;
-            }
-          `;
+          .nav-menu ul li a::before {
+            content: "";
+            background: none;
+            color: #ff3d00;
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            opacity: 0;
+            transition: 0.2s transform ease;
+            transform: scale3d(0, 1, 1);
+            transform-origin: 0 50%;
+          }
+        `;
         document.head.appendChild(mobileStyle);
       }
     } else if (existingStyle) {
       existingStyle.remove();
     }
-  }
-
-  // Function to toggle dropdown on click for all screen sizes
-  function toggleDropdown(e) {
-    e.preventDefault(); // Mencegah aksi default, jika diperlukan
-    dropdownToggle.parentNode.classList.toggle("active");
-    dropdownMenu.classList.toggle("show");
-    chevronIcon.classList.toggle("rotate-icon");
-  }
-
-  // Tambahkan satu event listener untuk klik dropdown pada semua ukuran layar
-  dropdownToggle.addEventListener("click", toggleDropdown);
-
-  // Update dropdown behavior (menghapus hover pada layar besar)
-  function updateDropdownBehavior() {
-    dropdownToggle.removeEventListener("mouseenter", toggleDropdown);
-    dropdownToggle.removeEventListener("mouseleave", toggleDropdown);
   }
 
   function handleScroll() {
@@ -67,15 +89,41 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Update dropdown behavior based on screen size
-  updateDropdownBehavior();
+  function updateElementPositions() {
+    dropdownToggles.forEach((toggle) => {
+      const dropdownMenu = toggle.nextElementSibling;
+      const dropdownOpen = toggle.parentNode.classList.contains("active");
+      const dropdownHeight = dropdownMenu.offsetHeight;
+
+      if (dropdownOpen && window.innerWidth < 720) {
+        toggle.parentNode.style.marginBottom = `${dropdownHeight}px`;
+      } else {
+        toggle.parentNode.style.marginBottom = "3px";
+      }
+    });
+  }
+
+  dropdownToggles.forEach((toggle) => {
+    const dropdownMenu = toggle.nextElementSibling;
+    const chevronIcon = toggle.querySelector(
+      "ion-icon[name='chevron-down-outline']"
+    );
+
+    toggle.addEventListener("click", function (e) {
+      if (window.innerWidth < 720) {
+        e.preventDefault();
+        toggle.parentNode.classList.toggle("active");
+        chevronIcon.classList.toggle("rotate-icon");
+        updateElementPositions();
+      }
+    });
+  });
+
   updateBeforeStyles();
-  window.addEventListener("resize", updateDropdownBehavior);
   window.addEventListener("resize", updateBeforeStyles);
   window.addEventListener("scroll", handleScroll);
   handleScroll();
 
-  // Handle menu toggle for mobile
   menuToggle.addEventListener("click", function () {
     navMenu.classList.toggle("active");
     navMenuContainer.classList.toggle("active");
@@ -108,6 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (!navMenu.classList.contains("active")) {
       signInButton.style.display = "none";
     }
+    updateElementPositions();
   });
 
   if (window.innerWidth > 1140) {
@@ -145,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 $(document).ready(function () {
   // Memuat header ke dalam halaman
-  $("#header-container").load("../layouts/header.html", function () {
+  $("#header-container").load("../layouts/header.php", function () {
     setupMenuToggle();
   });
 

@@ -12,13 +12,28 @@
                     <li><a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>">Contact</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>">Profile</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>">About</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group Network</a></li>
+                    <!--li><a href="<?php //echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a></li-->
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
-                            <div class="text-block">
-                                <a>Switch to Another Site
+                        <div class="text-block dropdown-button">
+                            <a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a>
+                            <div class="dropdown-icon">
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <nav class="nav-dropdown-list nav-dropdown-list--open">
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog.php'; ?>" class="dropdown-link">Inzaghi's Blog</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-media.php'; ?>" class="dropdown-link">Inzaghi's Media</a>
+                        </nav>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <div class="nav-dropdown-toggle w-dropdown-toggle">
+                            <div class="text-block dropdown-button">
+                                <a>Switch to Another Site</a>
+                                <div class="dropdown-icon">
                                     <ion-icon name="chevron-down-outline"></ion-icon>
-                                </a>
+                                </div>
                             </div>
                             <nav class="nav-dropdown-list nav-dropdown-list--open">
                                 <a href="https://sites.google.com/view/inzaghis-sites" class="dropdown-link">Old Inzaghi's Sites</a>
@@ -48,4 +63,10 @@
 <!-- Responsive Dropdown and Mega Menu using Tailwind CSS : -->
 <!-- https://pagedone.io/docs/mega-menu -->
 <!-- https://flowbite.com/docs/components/mega-menu -->
+
+<!-- Responsive Navbar Menu using Tailwind CSS : -->
+<!-- https://freefrontend.com/tailwind-navbars -->
+<!-- https://www.creative-tim.com/twcomponents/component/navbar-hamburger-menu -->
+<!-- https://www.creative-tim.com/twcomponents/component/navbar-using-css-only -->
+<!--  -->
 <!--  -->
