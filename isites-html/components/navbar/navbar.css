@@ -201,6 +201,12 @@ li a:hover::after {
   padding: 10px 10px;
 }
 
+.dropdown-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .nav-dropdown-toggle {
   letter-spacing: 0.25px;
   font-size: var(--font-size);
@@ -371,7 +377,7 @@ li a:hover::after {
   }
 
   .nav-menu {
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .nav-menu ul {
@@ -602,7 +608,7 @@ li a:hover::after {
 
   .nav-menu ul li a {
     color: black; /* Text Color */
-    padding: 8px 10px 8px 10px;
+    padding: 8px 0px 8px 12px;
     display: block;
     width: 100%;
     text-align: left;
@@ -681,6 +687,16 @@ li a:hover::after {
     font-size: var(--font-size);
     line-height: 20px;
     cursor: pointer;
+    width: inherit;
+  }
+
+  .dropdown-icon {
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    order: 4;
   }
 
   .w-dropdown-toggle {

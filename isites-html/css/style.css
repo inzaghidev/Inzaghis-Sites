@@ -236,6 +236,10 @@ svg:not(:root) {
   padding: var(--padding-40);
 }
 
+.inzagroup-pages {
+  min-width: 300px;
+}
+
 .main-button {
   display: inline-block;
   padding: 12px 20px;
@@ -837,10 +841,9 @@ svg:not(:root) {
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: var(--padding-40);
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
-  background: rgb(255, 255, 255);
   background: linear-gradient(
     270deg,
     rgba(255, 255, 255, 1) 0%,
@@ -850,7 +853,12 @@ svg:not(:root) {
 }
 
 .inzaghismedia-slider {
-  background-color: #fff0f0;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 227, 227, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -1672,10 +1680,9 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: var(--padding-40);
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
-    background: rgb(255, 255, 255);
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,
@@ -2404,10 +2411,9 @@ svg:not(:root) {
     height: auto;
     display: flex;
     justify-content: space-around;
-    padding: var(--padding-40);
+    padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
-    background: rgb(255, 255, 255);
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,

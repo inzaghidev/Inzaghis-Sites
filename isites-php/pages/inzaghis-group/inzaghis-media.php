@@ -7,7 +7,7 @@
 ?>
     <div class="container-top"></div>
     <section class="inzaghis-group-pages inzaghismedia-slider">
-      <div class="page-container">
+      <div class="page-container inzagroup-pages">
         <h1 class="my-4 page-title">Inzaghi's Media</h1>
         <div class="page-wrapper">
           <div
@@ -40,13 +40,12 @@
                   <br />
                 </section>
               </div>
-              <iframe
-                src="https://widgets.sociablekit.com/instagram-feed/iframe/25485818"
-                frameborder="0"
-                width="100%"
-                height="1000"
-              ></iframe>
-              <script async src="//www.instagram.com/embed.js"></script>
+              <div class="sk-instagram-feed" data-embed-id="25485818"></div>
+              <script
+                src="https://widgets.sociablekit.com/instagram-feed/widget.js"
+                async
+                defer
+              ></script>
               <h2 class="my-4">TikTok</h2>
               <div class="text-container">
                 <p class="is-desc">
@@ -110,6 +109,27 @@
                 src="https://x.com/lPosumA0209"
                 id="inzaghis-media-embed"
                 title="Inzaghi's Media Twitter"
+              ></iframe>
+              <h2 class="my-4">Threads</h2>
+              <div class="text-container">
+                <p class="is-desc">
+                  Sama seperti di X, Sebagai Postingan berbentuk Infografis,
+                  Tulisan, hingga Postingan-postingan dari Inzaghi's Blog.
+                </p>
+                <section class="group-button">
+                  <a
+                    href="https://www.threads.net/@enzapost"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >@enzapost</a
+                  >
+                  <br />
+                </section>
+              </div>
+              <iframe
+                src="https://www.threads.net/@enzapost"
+                id="inzaghis-media-embed"
+                title="Inzaghi's Media Threads"
               ></iframe>
             </div>
           </div>
