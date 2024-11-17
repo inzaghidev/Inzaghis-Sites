@@ -69,7 +69,7 @@
                 async
                 defer
               ></script>
-              <h2 class="my-4">YouTue</h2>
+              <h2 class="my-4">YouTube</h2>
               <div class="text-container">
                 <p class="is-desc">
                   Sebagai sebuah Channel yang berbentuk Video seperti Tutorial.
@@ -84,11 +84,15 @@
                   <br />
                 </section>
               </div>
-              <iframe
-                src="https://www.youtube.com/@enzavlogpost"
-                id="inzaghis-media-embed"
-                title="Inzaghi's Media YouTube"
-              ></iframe>
+              <div
+                class="sk-ww-youtube-channel-videos"
+                data-embed-id="25487921"
+              ></div>
+              <script
+                src="https://widgets.sociablekit.com/youtube-channel-videos/widget.js"
+                async
+                defer
+              ></script>
               <h2 class="my-4">X (Twitter)</h2>
               <div class="text-container">
                 <p class="is-desc">
@@ -105,11 +109,12 @@
                   <br />
                 </section>
               </div>
-              <iframe
-                src="https://x.com/InzaTechMedia"
-                id="inzaghis-media-embed"
-                title="Inzaghi's Media Twitter"
-              ></iframe>
+              <div class="sk-ww-twitter-feed" data-embed-id="25488132"></div>
+              <script
+                src="https://widgets.sociablekit.com/twitter-feed/widget.js"
+                async
+                defer
+              ></script>
               <h2 class="my-4">Threads</h2>
               <div class="text-container">
                 <p class="is-desc">
@@ -126,11 +131,12 @@
                   <br />
                 </section>
               </div>
-              <iframe
-                src="https://www.threads.net/@enzapost"
-                id="inzaghis-media-embed"
-                title="Inzaghi's Media Threads"
-              ></iframe>
+              <div class="sk-ww-threads-posts" data-embed-id="25488134"></div>
+              <script
+                src="https://widgets.sociablekit.com/threads-posts/widget.js"
+                async
+                defer
+              ></script>
             </div>
           </div>
         </div>
