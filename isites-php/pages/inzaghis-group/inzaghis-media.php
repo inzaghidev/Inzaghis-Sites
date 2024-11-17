@@ -10,19 +10,19 @@
       <div class="page-container inzagroup-pages">
         <h1 class="my-4 page-title">Inzaghi's Media</h1>
         <div class="page-wrapper">
-          <div class="card text-white bg-secondary">
-            <div class="card-body">
-              <h3 class="card-title">Description</h3>
-              <p class="card-text is-desc">
-                Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
-                terutama seputar IT.
-              </p>
-            </div>
-          </div>
           <div
-            class="card page-wrapper border-dark network-card"
+            class="card bg-white shadow rounded-lg"
             style="background-color: #fff0f0"
           >
+            <div class="card text-white bg-secondary">
+              <div class="card-body">
+                <h3 class="card-title">Description</h3>
+                <p class="card-text is-desc">
+                  Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
+                  terutama seputar IT.
+                </p>
+              </div>
+            </div>
             <div class="page-description">
               <h2 class="my-4">Instagram</h2>
               <div class="text-container">
@@ -362,7 +362,7 @@
                 async
                 defer
               ></script>
-              <h2 class="my-4">YouTue</h2>
+              <h2 class="my-4">YouTube</h2>
               <div class="text-container">
                 <p class="is-desc">
                   Sebagai sebuah Channel yang berbentuk Video seperti Tutorial.
@@ -390,18 +390,39 @@
                 </p>
                 <section class="group-button">
                   <a
-                    href="https://x.com/InzaTechMedia"
+                    href="https://x.com/lPosumA0209"
                     target="_blank"
                     class="btn btn-primary"
-                    >@InzaTechMedia</a
+                    >@lPosumA0209</a
                   >
                   <br />
                 </section>
               </div>
               <iframe
-                src="https://x.com/InzaTechMedia"
+                src="https://x.com/lPosumA0209"
                 id="inzaghis-media-embed"
                 title="Inzaghi's Media Twitter"
+              ></iframe>
+              <h2 class="my-4">Threads</h2>
+              <div class="text-container">
+                <p class="is-desc">
+                  Sama seperti di X, Sebagai Postingan berbentuk Infografis,
+                  Tulisan, hingga Postingan-postingan dari Inzaghi's Blog.
+                </p>
+                <section class="group-button">
+                  <a
+                    href="https://www.threads.net/@enzapost"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >@enzapost</a
+                  >
+                  <br />
+                </section>
+              </div>
+              <iframe
+                src="https://www.threads.net/@enzapost"
+                id="inzaghis-media-embed"
+                title="Inzaghi's Media Threads"
               ></iframe>
             </div>
           </div>

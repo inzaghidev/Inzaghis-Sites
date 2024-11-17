@@ -16,30 +16,30 @@
       <div class="page-container">
         <h1 class="my-4 page-title">Inzaghi's Blog</h1>
         <div class="page-wrapper">
-          <div class="card text-white bg-secondary">
-            <div class="card-body">
-              <h3 class="card-title">Description</h3>
-              <p class="card-text is-desc">
-                Inzaghi's Blog merupakan Platform Blogging sebagai tempat untuk
-                berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog
-                lebih menggunakan Platform Blogger, agar lebih mudah dan
-                praktis.
-                <br />
-                Untuk melihat Halaman ini di Google Sites, silakan klik di sini
-                :
-              </p>
-              <a
-                href="https://sites.google.com/view/inzaghis-sites/blog-page"
-                target="_blank"
-                class="btn btn-outline-light main-button"
-                >Click here</a
-              >
-            </div>
-          </div>
           <div
-            class="card page-wrapper border-dark network-card"
+            class="card border-dark network-card"
             style="background-color: #fff6f0"
           >
+            <div class="card text-white bg-secondary">
+              <div class="card-body">
+                <h3 class="card-title">Description</h3>
+                <p class="card-text is-desc">
+                  Inzaghi's Blog merupakan Platform Blogging sebagai tempat untuk
+                  berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog
+                  lebih menggunakan Platform Blogger, agar lebih mudah dan
+                  praktis.
+                  <br />
+                  Untuk melihat Halaman ini di Google Sites, silakan klik di sini
+                  :
+                </p>
+                <a
+                  href="https://sites.google.com/view/inzaghis-sites/blog-page"
+                  target="_blank"
+                  class="btn btn-outline-light main-button"
+                  >Click here</a
+                >
+              </div>
+            </div>
             <div class="page-description">
               <h2 class="my-4">Inzaghi's Blog (Legacy)</h2>
               <div class="text-container">
