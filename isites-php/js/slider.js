@@ -135,7 +135,7 @@
 
   const dot_click = (event) => {
     event.preventDefault();
-    slide_index = event.target.dataset.id;
+    slide_index = parseInt(event.target.dataset.id);
     showSlides();
   };
 
