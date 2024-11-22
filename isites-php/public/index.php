@@ -268,7 +268,7 @@
                   <h5 class="card-title socmed-name">YouTube</h5>
                   <p class="card-text socmed-description">
                     Sebagai sebuah Channel yang berbentuk Video seperti
-                    Tutorial.
+                    Tutorial, Video Shorts, hingga Demo Aplikasi/Project.
                   </p>
                 </div>
                 <button

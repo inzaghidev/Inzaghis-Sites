@@ -8,7 +8,25 @@
                 <ul>
                     <li><a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>">Home</a></li>
                     <li><a href="https://medium.com/@izzumiposhaf29">Blog</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Page Apps</a></li>
+                    <li class="dropdown">
+                        <div class="nav-dropdown-toggle w-dropdown-toggle">
+                        <div class="text-block dropdown-button">
+                            <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Page Apps</a>
+                            <div class="dropdown-icon">
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <nav class="nav-dropdown-list nav-dropdown-list--open">
+                            <a href="<?php echo $pathToWebRoot.'/page-apps/converter.php'; ?>" class="dropdown-link">Converters</a>
+                            <a href="<?php echo $pathToWebRoot.'/page-apps/calculators.php'; ?>" class="dropdown-link">Calculators</a>
+                            <a href="<?php echo $pathToWebRoot.'/page-apps/generators.php'; ?>" class="dropdown-link">Generators</a>
+                            <a href="<?php echo $pathToWebRoot.'/page-apps/formatters.php'; ?>" class="dropdown-link">Formatters</a>
+                            <a href="<?php echo $pathToWebRoot.'/page-apps/file-converter.php'; ?>" class="dropdown-link">File Converter</a>
+                            <a href="<?php echo $pathToWebRoot.'/page-apps/utilities.php'; ?>" class="dropdown-link">Utilities</a>
+                            <a href="<?php echo $pathToWebRoot.'/page-apps/tester-tools.php'; ?>" class="dropdown-link">Tester Tools</a>
+                        </nav>
+                        </div>
+                    </li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>">Contact</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>">Profile</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>">About</a></li>
