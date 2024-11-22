@@ -67,6 +67,25 @@
 .navbar {
   font-family: var(--font-family);
   font-size: var(--font-size);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navigation-menu {
+  overflow-y: auto;
+  max-height: calc(100vh - 80px); /* Sesuaikan tinggi maksimal */
+}
+
+.mobile-menu-open {
+  height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.95); /* Transparansi opsional */
 }
 
 #logo img {

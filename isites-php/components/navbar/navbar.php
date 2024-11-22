@@ -1,4 +1,4 @@
-<div class="navbar bg-white bg-opacity-60 fixed w-full z-10 shadow-md">
+<div class="navbar bg-white bg-opacity-60 fixed w-full z-10 shadow-md" id="navbar" data-state="closed">
   <nav class="bg-gray-100 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md">
     <div class="container mx-auto px-4 lg:flex items-center justify-center gap-6 w-full">
       <!-- Logo -->
@@ -20,10 +20,36 @@
       </div>
 
       <!-- Primary Navigation -->
-      <div class="lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 navigation-menu pb-3 lg:pb-0 hidden">
+      <div id="navigation-menu" class="hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 navigation-menu pb-3 lg:pb-0 navigation-menu">
         <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">Home</a>
         <a href="https://medium.com/@izzumiposhaf29" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">Blog</a>
-        <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">Page Apps</a>
+        <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
+          <button
+            class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg">
+            <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Page Apps</a>
+            <svg
+              class="w-3 h-3 pointer-events-none"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24">
+              <title>chevron-down</title>
+              <g fill="none">
+                <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </g>
+            </svg>
+          </button>
+          <div
+            class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block">
+            <a href="<?php echo $pathToWebRoot.'/page-apps/converter.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-200">Converters</a>
+            <a href="<?php echo $pathToWebRoot.'/page-apps/calculators.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-200">Calculators</a>
+            <a href="<?php echo $pathToWebRoot.'/page-apps/generators.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-200">Generators</a>
+            <a href="<?php echo $pathToWebRoot.'/page-apps/formatters.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-200">Formatters</a>
+            <a href="<?php echo $pathToWebRoot.'/page-apps/file-converter.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-200">File Converter</a>
+            <a href="<?php echo $pathToWebRoot.'/page-apps/utilities.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-200">Utilities</a>
+            <a href="<?php echo $pathToWebRoot.'/page-apps/tester-tools.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-200">Tester Tools</a>
+          </div>
+        </div>
         <a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">Contact</a>
         <a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">Profile</a>
         <a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>" class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block">About</a>
@@ -80,3 +106,4 @@
 <!-- https://tailwindflex.com/tag/navbar -->
 <!-- https://tailwindflex.com/@piet-vriend/responsive-navbar -->
 <!-- https://tailwindflex.com/@team-tailwindflex/responsive-navbar-with-dark-mode-support -->
+<!-- https://www.creative-tim.com/twcomponents/component/responsive-navbar-with-dropdown -->

@@ -19,6 +19,7 @@
     <script src="../components/navbar/navbar.js"></script>
     <script src="../components/footsite/footsite.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../tailwindcss-3.4.14/tailwindcss-cdn-3.4.15.js"></script>
     <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
     <link
       rel="stylesheet"
@@ -59,7 +60,11 @@
   </head>
   <body>
     <!-- BORDER -->
-    <div class="navbar bg-white bg-opacity-60 fixed w-full z-10 shadow-md">
+    <div
+      class="navbar bg-white bg-opacity-60 fixed w-full z-10 shadow-md"
+      id="navbar"
+      data-state="closed"
+    >
       <nav
         class="bg-gray-100 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md"
       >
@@ -104,6 +109,7 @@
             </div>
           </div>
           <div
+            id="navigation-menu"
             class="hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 navigation-menu pb-3 lg:pb-0 navigation-menu"
           >
             <a
@@ -116,11 +122,70 @@
               class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
               >Blog</a
             >
-            <a
-              href="../pages/apps.html"
-              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
-              >Page Apps</a
-            >
+            <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
+              <button
+                class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+              >
+                <a href="../pages/apps.html">Page Apps</a>
+                <svg
+                  class="w-3 h-3 pointer-events-none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <title>chevron-down</title>
+                  <g fill="none">
+                    <path
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <div
+                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block"
+              >
+                <a
+                  href="../page-apps/converter.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Converters</a
+                >
+                <a
+                  href="../page-apps/calculators.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Calculators</a
+                >
+                <a
+                  href="../page-apps/generators.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Generators</a
+                >
+                <a
+                  href="../page-apps/formatters.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Formatters</a
+                >
+                <a
+                  href="../page-apps/file-converter.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >File Converter</a
+                >
+                <a
+                  href="../page-apps/utilities.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Utilities</a
+                >
+                <a
+                  href="../page-apps/tester-tools.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Tester Tools</a
+                >
+              </div>
+            </div>
             <a
               href="../pages/contact.html"
               class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
@@ -233,119 +298,208 @@
       </nav>
     </div>
     <!-- BORDER -->
-    <!--nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+    <!--div
+      class="navbar z-10 w-full fixed text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800"
+    >
       <div
-        class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto"
+        x-data="{ open: false }"
+        class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
       >
-        <a href="#" class="flex items-center">
-          <img
-            src="https://www.svgrepo.com/show/499962/music.svg"
-            class="h-6 mr-3 sm:h-9"
-            alt="Landwind Logo"
-          />
-          <span
-            class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-            >Landwind</span
-          >
-        </a>
-        <div class="flex items-center lg:order-2">
-          <div class="hidden mt-2 mr-4 sm:inline-block">
-            <span></span>
-          </div>
-
+        <div class="flex items-center justify-between lg:w-auto w-full">
           <a
-            href="https://themesberg.com/product/tailwind-css/landing-page"
-            class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
-            >Download</a
+            href="../public/index.html"
+            id="logo"
+            class="flex items-center py-5 px-2"
           >
-          <button
-            data-collapse-toggle="mobile-menu-2"
-            type="button"
-            class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="mobile-menu-2"
-            aria-expanded="true"
+            <img
+              src="../images/inzaghis-sites-logo-vertical-transparent.png"
+              title="Inzaghi's Sites"
+              class="h-12"
+              alt="logo"
+            />
+          </a>
+          <div
+            class="lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block"
           >
-            <span class="sr-only">Open main menu</span>
-            <svg
-              class="w-6 h-6"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-            <svg
-              class="hidden w-6 h-6"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </button>
+            <button class="mobile-menu-button py-3 px-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <title>bars-3-bottom-left</title>
+                <g fill="none">
+                  <path
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
+            </button>
+          </div>
         </div>
         <div
-          class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1"
-          id="mobile-menu-2"
+          class="hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 navigation-menu pb-3 lg:pb-0 navigation-menu"
         >
-          <ul
-            class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
+          <a
+            href="../public/index.html"
+            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            >Home</a
           >
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
-                aria-current="page"
-                >Home</a
+          <a
+            href="https://medium.com/@izzumiposhaf29"
+            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            >Blog</a
+          >
+          <a
+            href="../pages/apps.html"
+            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            >Page Apps</a
+          >
+          <a
+            href="../pages/contact.html"
+            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            >Contact</a
+          >
+          <a
+            href="../pages/profile.html"
+            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            >Profile</a
+          >
+          <a
+            href="../pages/about.html"
+            class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
+            >About</a
+          >
+          <div
+            @click.away="open = false"
+            class="relative flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            x-data="{ open: false }"
+          >
+            <button
+              class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+            >
+              <a href="../pages/networks.html">Inzaghi's Group</a>
+              <svg
+                class="w-3 h-3 pointer-events-none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
               >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                >Company</a
+                <title>chevron-down</title>
+                <g fill="none">
+                  <path
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
+            </button>
+            <div
+              x-show="open"
+              x-transition:enter="transition ease-out duration-100"
+              x-transition:enter-start="transform opacity-0 scale-95"
+              x-transition:enter-end="transform opacity-100 scale-100"
+              x-transition:leave="transition ease-in duration-75"
+              x-transition:leave-start="transform opacity-100 scale-100"
+              x-transition:leave-end="transform opacity-0 scale-95"
+              class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"
+            >
+              <div
+                class="px-2 py-2 bg-white rounded-md shadow dark-mode:bg-gray-800"
               >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                >Marketplace</a
+                <a
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  href="../inzaghis-group/inzaghis-blog.html"
+                  >Inzaghi's Blog</a
+                >
+                <a
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  href="../inzaghis-group/inzaghis-media.html"
+                  >Inzaghi's Media</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            @click.away="open = false"
+            class="relative flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            x-data="{ open: false }"
+          >
+            <button
+              class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+            >
+              <span class="pointer-events-none">Switch to Another Site</span>
+              <svg
+                class="w-3 h-3 pointer-events-none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
               >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                >Features</a
+                <title>chevron-down</title>
+                <g fill="none">
+                  <path
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
+            </button>
+            <div
+              x-show="open"
+              x-transition:enter="transition ease-out duration-100"
+              x-transition:enter-start="transform opacity-0 scale-95"
+              x-transition:enter-end="transform opacity-100 scale-100"
+              x-transition:leave="transition ease-in duration-75"
+              x-transition:leave-start="transform opacity-100 scale-100"
+              x-transition:leave-end="transform opacity-0 scale-95"
+              class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"
+            >
+              <div
+                class="px-2 py-2 bg-white rounded-md shadow dark-mode:bg-gray-800"
               >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                >Team</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                >Contact</a
-              >
-            </li>
-          </ul>
+                <a
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  href="https://sites.google.com/view/inzaghis-sites"
+                  >Old Inzaghi's Sites</a
+                >
+                <a
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  href="https://inzaghiposuma.wordpress.com"
+                  >WordPress Site</a
+                >
+                <a
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  href="https://inzaghi-site.webflow.io"
+                  >Preview (Webflow)</a
+                >
+              </div>
+            </div>
+          </div>
+          <button
+            class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200"
+          >
+            <span
+              class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0"
+            >
+              Sign in
+            </span>
+          </button>
         </div>
       </div>
-    </nav-->
+    </div-->
     <!-- BORDER -->
     <section class="welcome">
       <div class="welcome-container">
@@ -741,7 +895,7 @@
                     class="socmed-description block antialiased leading-relaxed text-inherit"
                   >
                     Sebagai sebuah Channel yang berbentuk Video seperti
-                    Tutorial.
+                    Tutorial, Video Shorts, hingga Demo Aplikasi/Project.
                   </p>
                 </div>
                 <div class="p-6 pt-0">
@@ -1438,3 +1592,4 @@
 <!-- https://tailwindflex.com/@alok/dropdown-select-on-hover -->
 <!-- https://cruip.com/build-a-hoverable-dropdown-menu-with-tailwind-css-and-alpine-js -->
 <!-- https://readymadeui.com/tailwind/component/tailwind-css-navbar-with-dropdown -->
+<!-- https://www.creative-tim.com/twcomponents/component/responsive-navbar-with-dropdown -->

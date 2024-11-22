@@ -18,6 +18,7 @@
     <script src="../js/script.js"></script>
     <script src="../components/navbar/navbar.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../tailwindcss-3.4.14/tailwindcss-cdn-3.4.15.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -65,7 +66,11 @@
     </script-->
   </head>
   <body>
-    <div class="navbar bg-white bg-opacity-60 fixed w-full z-10 shadow-md">
+    <div
+      class="navbar bg-white bg-opacity-60 fixed w-full z-10 shadow-md"
+      id="navbar"
+      data-state="closed"
+    >
       <nav
         class="bg-gray-100 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md"
       >
@@ -110,6 +115,7 @@
             </div>
           </div>
           <div
+            id="navigation-menu"
             class="hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 navigation-menu pb-3 lg:pb-0 navigation-menu"
           >
             <a
@@ -122,11 +128,70 @@
               class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
               >Blog</a
             >
-            <a
-              href="../pages/apps.html"
-              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
-              >Page Apps</a
-            >
+            <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
+              <button
+                class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+              >
+                <a href="../pages/apps.html">Page Apps</a>
+                <svg
+                  class="w-3 h-3 pointer-events-none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <title>chevron-down</title>
+                  <g fill="none">
+                    <path
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <div
+                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block"
+              >
+                <a
+                  href="../page-apps/converter.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Converters</a
+                >
+                <a
+                  href="../page-apps/calculators.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Calculators</a
+                >
+                <a
+                  href="../page-apps/generators.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Generators</a
+                >
+                <a
+                  href="../page-apps/formatters.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Formatters</a
+                >
+                <a
+                  href="../page-apps/file-converter.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >File Converter</a
+                >
+                <a
+                  href="../page-apps/utilities.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Utilities</a
+                >
+                <a
+                  href="../page-apps/tester-tools.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Tester Tools</a
+                >
+              </div>
+            </div>
             <a
               href="../pages/contact.html"
               class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
@@ -341,8 +406,8 @@
           // Loop through each app and create the card structure
           $.each(apps, function (index, app) {
             const card = `
-        <div class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto">
-          <div class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300">
+        <div class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-4 mx-auto">
+          <div class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 hover:bg-gray-300">
             <img class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none" src="${app.imgSrc}" alt="${app.name}" />
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5 class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black">${app.name}</h5>
@@ -362,10 +427,10 @@
         class="grid grid-cols-4 md:grid-cols-12 gap-6 lg:px-16 xl:px-0 justify-center"
       >
         <!--div
-          class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+          class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-4 mx-auto"
         >
           <div
-            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
+            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 hover:bg-gray-300"
           >
             <img
               class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none"
@@ -397,10 +462,10 @@
           </div>
         </div>
         <div
-          class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+          class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-4 mx-auto"
         >
           <div
-            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
+            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 hover:bg-gray-300"
           >
             <img
               class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none"
@@ -432,10 +497,10 @@
           </div>
         </div>
         <div
-          class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+          class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-4 mx-auto"
         >
           <div
-            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
+            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 hover:bg-gray-300"
           >
             <img
               class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none"
@@ -467,10 +532,10 @@
           </div>
         </div>
         <div
-          class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-5 mx-auto"
+          class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-4 mx-auto"
         >
           <div
-            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300"
+            class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row lg:flex-col xl:flex-row hover:bg-gray-100 border-gray-300 hover:bg-gray-300"
           >
             <img
               class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none"

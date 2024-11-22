@@ -19,6 +19,7 @@
     <script src="../components/navbar/navbar.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../tailwindcss-3.4.14/tailwindcss-cdn-3.4.15.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -52,7 +53,11 @@
     />
   </head>
   <body>
-    <div class="navbar bg-white bg-opacity-60 fixed w-full z-10 shadow-md">
+    <div
+      class="navbar bg-white bg-opacity-60 fixed w-full z-10 shadow-md"
+      id="navbar"
+      data-state="closed"
+    >
       <nav
         class="bg-gray-100 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md"
       >
@@ -97,6 +102,7 @@
             </div>
           </div>
           <div
+            id="navigation-menu"
             class="hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 navigation-menu pb-3 lg:pb-0 navigation-menu"
           >
             <a
@@ -109,11 +115,70 @@
               class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
               >Blog</a
             >
-            <a
-              href="../pages/apps.html"
-              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
-              >Page Apps</a
-            >
+            <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
+              <button
+                class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+              >
+                <a href="../pages/apps.html">Page Apps</a>
+                <svg
+                  class="w-3 h-3 pointer-events-none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <title>chevron-down</title>
+                  <g fill="none">
+                    <path
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <div
+                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block"
+              >
+                <a
+                  href="../page-apps/converter.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Converters</a
+                >
+                <a
+                  href="../page-apps/calculators.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Calculators</a
+                >
+                <a
+                  href="../page-apps/generators.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Generators</a
+                >
+                <a
+                  href="../page-apps/formatters.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Formatters</a
+                >
+                <a
+                  href="../page-apps/file-converter.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >File Converter</a
+                >
+                <a
+                  href="../page-apps/utilities.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Utilities</a
+                >
+                <a
+                  href="../page-apps/tester-tools.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Tester Tools</a
+                >
+              </div>
+            </div>
             <a
               href="../pages/contact.html"
               class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"

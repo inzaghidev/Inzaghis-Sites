@@ -374,7 +374,7 @@
                   class="socmed-description block antialiased leading-relaxed text-inherit"
                 >
                   Sebagai sebuah Channel yang berbentuk Video seperti
-                  Tutorial.
+                  Tutorial, Video Shorts, hingga Demo Aplikasi/Project.
                 </p>
               </div>
               <div class="p-6 pt-0">

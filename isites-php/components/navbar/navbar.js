@@ -117,59 +117,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-//document.addEventListener("DOMContentLoaded", function () {
-//  const navHeader = document.getElementById("navHeader");
-//
-//  function handleScroll() {
-//    if (window.scrollY > 0) {
-//      // navHeader.classList.add("transparency");
-//    } else {
-//      // navHeader.classList.remove("transparency");
-//    }
-//  }
-//
-//  window.addEventListener("scroll", handleScroll);
-//  handleScroll();
-//
-//  const additionalCSS = `
-//    .nav-header.transparency {
-//      background-color: rgba(255, 255, 255, 0.6);
-//      backdrop-filter: blur(10px);
-//      -webkit-backdrop-filter: blur(10px);
-//    }
-//  `;
-//  const style = document.createElement("style");
-//  style.textContent = additionalCSS;
-//  document.head.appendChild(style);
-//});
-//
-//$(document).ready(function () {
-//  // Memuat header ke dalam halaman
-//  $("#header-container").load("../layouts/header.html", function () {
-//    setupMenuToggle();
-//  });
-//
-//  function setupMenuToggle() {
-//    const menuToggle = document.getElementById("menu-toggle");
-//    const navMenu = document.querySelector(".nav-menu ul");
-//
-//    menuToggle.addEventListener("click", function () {
-//      navMenu.classList.toggle("active");
-//    });
-//
-//    // Handle clicking on menu items, adjust the selector accordingly
-//    $(".nav-menu ul li a").on("click", function () {
-//      // Close the menu when a menu item is clicked
-//      navMenu.classList.remove("active");
-//
-//      // Add additional logic if needed when a menu item is clicked
-//      // For example, scrolling to the corresponding section on the page
-//    });
-//  }
-//});
-
 document.addEventListener("DOMContentLoaded", () => {
   // Select all dropdown toggle buttons
+  const navbar = document.getElementById("navbar");
   const dropdownToggles = document.querySelectorAll(".dropdown-toggle");
 
   dropdownToggles.forEach((toggle) => {
