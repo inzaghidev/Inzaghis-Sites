@@ -11,7 +11,7 @@
         <h1 class="my-4 page-title">Inzaghi's Media</h1>
         <div class="page-wrapper">
           <div
-            class="card bg-white shadow rounded-lg"
+            class="card border-dark network-card"
             style="background-color: #fff0f0"
           >
             <div class="card text-white bg-secondary">
