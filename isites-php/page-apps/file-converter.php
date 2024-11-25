@@ -15,8 +15,27 @@
       </div>
       <section class="pages">
         <p class="is-desc">
-          Merupakan portal untuk melakukan konversi format File apapun
-          seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.
+          <?php
+            $query = "File Converter"; // Ganti dengan nilai sesuai kebutuhan
+
+            if (isset($data['apps'])) {
+                $appsDesc = $data['apps'];
+            } else {
+                $appsDesc = []; // Jika tidak ada data, gunakan array kosong
+            }
+
+            // Cari deskripsi berdasarkan query
+            $foundDescription = 'Deskripsi tidak ditemukan'; // Default jika query tidak ditemukan
+            foreach ($appsDesc as $appDesc) {
+                if (isset($appDesc['name']) && $appDesc['name'] === $query) {
+                    $foundDescription = isset($appDesc['description']) ? $appDesc['description'] : 'Deskripsi tidak tersedia';
+                    break; // Berhenti pencarian jika ditemukan
+                }
+            }
+
+            // Tampilkan deskripsi yang ditemukan
+            echo $foundDescription;
+          ?>
         </p>
         <div class="row">
             <?php

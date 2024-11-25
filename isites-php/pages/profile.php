@@ -394,22 +394,6 @@
                 </ul>
               </section>
               <!--//education-section-->
-              <section class="education-section py-3">
-                <h3 class="text-uppercase resume-section-heading mb-4">
-                  Awards
-                </h3>
-                <ul class="list-unstyled resume-awards-list">
-                  <li class="mb-3">
-                    <div class="font-weight-bold">Award Lorem Ipsum</div>
-                    <div class="text-muted">Microsoft lorem ipsum (2023)</div>
-                  </li>
-                  <li>
-                    <div class="font-weight-bold">Award Donec Sodales</div>
-                    <div class="text-muted">Oracle Aenean (2020)</div>
-                  </li>
-                </ul>
-              </section>
-              <!--//education-section-->
               <section class="skills-section py-3">
                 <h3 class="text-uppercase resume-section-heading mb-4">
                   Languages
@@ -435,6 +419,18 @@
                   <li>Travelling</li>
                 </ul>
               </section>
+              <section class="skills-section py-3">
+                  <h3 class="item-title">Contact</h3>
+                  <br />
+                  <ul class="resume-interests-list row row-cols-sm-6 row-cols-md-3 mb-0">
+                    <button type="button" class="btn btn-primary">
+                      <a href="https://inzaghiposuma.blogspot.com/p/contact-and-profile.html" target="_blank" class="blog-link">Contact</a>
+                    </button>
+                    <button type="button" class="btn btn-secondary">
+                      <a href="#" target="_blank" class="blog-link">Resume</a>
+                    </button>
+                  </ul>
+                </section>
               <!--//certificates-section-->
             </aside>
             <!--//resume-aside-->

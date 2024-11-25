@@ -14,9 +14,28 @@
         <h1 class="welcome-title">Tester Tools</h1>
       </div>
       <section class="pages">
-        <p class="is-desc">
-          Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online
-          seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.
+      <p class="is-desc">
+          <?php
+            $query = "Tester Tools"; // Ganti dengan nilai sesuai kebutuhan
+
+            if (isset($data['apps'])) {
+                $appsDesc = $data['apps'];
+            } else {
+                $appsDesc = []; // Jika tidak ada data, gunakan array kosong
+            }
+
+            // Cari deskripsi berdasarkan query
+            $foundDescription = 'Deskripsi tidak ditemukan'; // Default jika query tidak ditemukan
+            foreach ($appsDesc as $appDesc) {
+                if (isset($appDesc['name']) && $appDesc['name'] === $query) {
+                    $foundDescription = isset($appDesc['description']) ? $appDesc['description'] : 'Deskripsi tidak tersedia';
+                    break; // Berhenti pencarian jika ditemukan
+                }
+            }
+
+            // Tampilkan deskripsi yang ditemukan
+            echo $foundDescription;
+          ?>
         </p>
         <div class="row">
             <?php

@@ -47,7 +47,7 @@
           Widget, Konverter, Kalkulator, dan lainnya.
         </p>
         <section class="group-button">
-          <a href="../pages/apps.php" class="main-button"
+          <a href="../page-apps/" class="main-button"
             >Click here</a
           >
         </section>

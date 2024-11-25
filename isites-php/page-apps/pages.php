@@ -17,12 +17,30 @@
     <div class="welcome-container">
       <div class="welcome-title">
         <h1 class="welcome-title">Pages</h1>
-      </div>
+      </div> 
       <section class="pages">
         <p class="is-desc">
-            Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
-            Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek, hingga Tutorial
-            Pemrograman.
+          <?php
+            $query = "Pages"; // Ganti dengan nilai sesuai kebutuhan
+
+            if (isset($data['apps'])) {
+                $appsDesc = $data['apps'];
+            } else {
+                $appsDesc = []; // Jika tidak ada data, gunakan array kosong
+            }
+
+            // Cari deskripsi berdasarkan query
+            $foundDescription = 'Deskripsi tidak ditemukan'; // Default jika query tidak ditemukan
+            foreach ($appsDesc as $appDesc) {
+                if (isset($appDesc['name']) && $appDesc['name'] === $query) {
+                    $foundDescription = isset($appDesc['description']) ? $appDesc['description'] : 'Deskripsi tidak tersedia';
+                    break; // Berhenti pencarian jika ditemukan
+                }
+            }
+
+            // Tampilkan deskripsi yang ditemukan
+            echo $foundDescription;
+          ?>
         </p>
         <div class="row">
             <?php
