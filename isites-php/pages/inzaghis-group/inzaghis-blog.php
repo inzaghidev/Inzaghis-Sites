@@ -17,7 +17,7 @@
         <h1 class="my-4 page-title">Inzaghi's Blog</h1>
         <div class="page-wrapper">
           <div
-            class="card border-dark network-card"
+            class="card bg-white shadow rounded-lg"
             style="background-color: #fff6f0"
           >
             <div class="card text-white bg-secondary">
@@ -111,7 +111,7 @@
       </div>
     </section>
 <?php
-	include('../components/footsite/footsite.php');
+	include('../../components/footsite/footsite.php');
   include('../../layouts/footer.php');
 ?>
 
