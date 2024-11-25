@@ -15,9 +15,27 @@
       </div>
       <section class="pages">
         <p class="is-desc">
-          Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator
-          Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga
-          Kalkulator untuk Keseharian.
+          <?php
+            $query = "Calculators"; // Ganti dengan nilai sesuai kebutuhan
+
+            if (isset($data['apps'])) {
+                $appsDesc = $data['apps'];
+            } else {
+                $appsDesc = []; // Jika tidak ada data, gunakan array kosong
+            }
+
+            // Cari deskripsi berdasarkan query
+            $foundDescription = 'Deskripsi tidak ditemukan'; // Default jika query tidak ditemukan
+            foreach ($appsDesc as $appDesc) {
+                if (isset($appDesc['name']) && $appDesc['name'] === $query) {
+                    $foundDescription = isset($appDesc['description']) ? $appDesc['description'] : 'Deskripsi tidak tersedia';
+                    break; // Berhenti pencarian jika ditemukan
+                }
+            }
+
+            // Tampilkan deskripsi yang ditemukan
+            echo $foundDescription;
+          ?>
         </p>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <?php

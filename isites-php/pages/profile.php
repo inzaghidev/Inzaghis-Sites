@@ -6,7 +6,7 @@
   <div class="container-top"></div>
   <div class="page-sub-container-full bg-gray-100">
       <div class="container mx-auto py-8">
-        <div class="grid grid-cols-4 md:grid-cols-12 gap-6 px-4">
+        <div class="grid grid-cols-4 lg:grid-cols-12 gap-6 px-4">
           <div class="col-span-4 sm:col-span-3">
             <div class="bg-white shadow rounded-lg p-6">
               <div class="flex flex-col items-center">
@@ -45,6 +45,24 @@
                   <li class="mb-2">Tailwind Css</li>
                 </ul>
               </div>
+              <br />
+              <section class="py-3">
+                <h3 class="uppercase font-semibold text-lg mb-4">Education</h3>
+                <ul class="list-none space-y-3">
+                  <li>
+                    <div class="font-bold text-base">
+                      Information Technology
+                    </div>
+                    <div class="text-gray-500 text-sm">Pradita University</div>
+                    <div class="text-gray-500 text-sm">2021 - 2025</div>
+                  </li>
+                  <li>
+                    <div class="font-bold text-base">Science Studies</div>
+                    <div class="text-gray-500 text-sm">Islamic Village High School</div>
+                    <div class="text-gray-500 text-sm">2018 - 2021</div>
+                  </li>
+                </ul>
+              </section>
             </div>
           </div>
           <div class="col-span-4 sm:col-span-9">
@@ -151,7 +169,7 @@
                 <div class="flex justify-between flex-wrap gap-2 w-full">
                   <span class="text-gray-700 font-bold">Web Developer</span>
                   <p>
-                    <span class="text-gray-700 mr-2">at ABC Company</span>
+                    <span class="text-gray-700 mr-2">ABC Company</span>
                     <span class="text-gray-700">2017 - 2019</span>
                   </p>
                 </div>
@@ -165,7 +183,7 @@
                 <div class="flex justify-between flex-wrap gap-2 w-full">
                   <span class="text-gray-700 font-bold">Web Developer</span>
                   <p>
-                    <span class="text-gray-700 mr-2">at ABC Company</span>
+                    <span class="text-gray-700 mr-2">ABC Company</span>
                     <span class="text-gray-700">2017 - 2019</span>
                   </p>
                 </div>
@@ -179,8 +197,49 @@
                 <div class="flex justify-between flex-wrap gap-2 w-full">
                   <span class="text-gray-700 font-bold">Web Developer</span>
                   <p>
-                    <span class="text-gray-700 mr-2">at ABC Company</span>
+                    <span class="text-gray-700 mr-2">ABC Company</span>
                     <span class="text-gray-700">2017 - 2019</span>
+                  </p>
+                </div>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  finibus est vitae tortor ullamcorper, ut vestibulum velit
+                  convallis. Aenean posuere risus non velit egestas suscipit.
+                </p>
+              </div>
+              <br />
+              <h2 class="text-xl font-bold mt-6 mb-4">Projects</h2>
+              <div class="mb-6">
+                <div class="flex justify-between flex-wrap gap-2 w-full">
+                  <span class="text-gray-700 font-bold">Project Lorem Ipsum 1</span>
+                  <p>
+                    <span class="text-gray-700 mr-2">Open Source</span>
+                  </p>
+                </div>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  finibus est vitae tortor ullamcorper, ut vestibulum velit
+                  convallis. Aenean posuere risus non velit egestas suscipit.
+                </p>
+              </div>
+              <div class="mb-6">
+                <div class="flex justify-between flex-wrap gap-2 w-full">
+                  <span class="text-gray-700 font-bold">Project Lorem Ipsum 2</span>
+                  <p>
+                    <span class="text-gray-700 mr-2">Open Source</span>
+                  </p>
+                </div>
+                <p class="mt-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  finibus est vitae tortor ullamcorper, ut vestibulum velit
+                  convallis. Aenean posuere risus non velit egestas suscipit.
+                </p>
+              </div>
+              <div class="mb-6">
+                <div class="flex justify-between flex-wrap gap-2 w-full">
+                  <span class="text-gray-700 font-bold">Project Lorem Ipsum 3</span>
+                  <p>
+                    <span class="text-gray-700 mr-2">Open Source</span>
                   </p>
                 </div>
                 <p class="mt-2">
