@@ -23,8 +23,7 @@ Berikut ini adalah Tampilan Utama dari Inzaghi's Sites :
 
 Tampilan Aplikasi dari Page Apps :
 
-![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps-1.jpg)
-![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps-2.jpg)
+![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps-new.jpg)
 
 ## Inzaghi's Sites Contact
 
