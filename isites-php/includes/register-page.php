@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="../components/footsite/footsite.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
-  </head>
-  <body>
+<?php
+	$page_title = "Home";
+	include('../layouts/header.php');
+    include('../components/navbar/navbar.php');
+?>
     <section class="bg-white">
       <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
         <aside
@@ -180,5 +175,10 @@
         </main>
       </div>
     </section>
-  </body>
-</html>
+<?php
+	include('../components/footsite/footsite.php');
+	include('../layouts/footer.php');
+?>
+
+<!-- https://www.javatpoint.com/html-registration-form -->
+<!-- https://www.w3schools.com/howto/howto_css_register_form.asp -->

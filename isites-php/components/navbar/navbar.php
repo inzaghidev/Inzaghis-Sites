@@ -7,7 +7,7 @@
           <img src="<?php echo $pathToWebRoot.'/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" alt="logo" />
         </a>
         <!-- Mobile Menu Button -->
-        <div class="lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
+        <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button class="mobile-menu-button py-3 px-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <title>bars-3-bottom-left</title>
