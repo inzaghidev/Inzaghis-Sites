@@ -55,7 +55,7 @@
       <section class="group-content">
         <div id="hcg-slider-1" class="hcg-slider">
           <div class="hcg-slide-container">
-            <div class="hcg-slider-body">
+            <div class="hcg-slider-body card border border-success shadow">
               <a class="hcg-slides animated" style="display: flex">
                 <span class="hcg-slide-number">1/6</span>
                 <img src="../images/pages-by-pages-apps.png" alt="" />
