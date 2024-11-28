@@ -50,7 +50,7 @@
               praktis.
             </p>
             <section class="group-button">
-              <a href="../pages/inzaghis-group/inzaghis-blog.php" class="main-button">Click here</a>
+              <a href="../inzaghis-group/inzaghis-blog.php" class="main-button">Click here</a>
             </section>
           </section>
         </section>
@@ -203,7 +203,7 @@
               terutama seputar IT.
             </p>
             <section class="group-button">
-              <a href="../pages/inzaghis-group/inzaghis-media.php" class="main-button">Click here</a>
+              <a href="../inzaghis-group/inzaghis-media.php" class="main-button">Click here</a>
             </section>
           </section>
         </section>
@@ -643,7 +643,6 @@
       </section>
     </section>
   </section>
-  <section class="inzaghis-shop"></section>
 <?php
 	include('../components/footsite/footsite.php');
 	include('../layouts/footer.php');

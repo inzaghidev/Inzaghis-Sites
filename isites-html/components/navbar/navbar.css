@@ -455,6 +455,11 @@ li a:hover::after {
     position: relative;
   }
 
+  .nav-drpdwn-list {
+    width: max-content;
+    text-align: center;
+  }
+
   .nav-dropdown-list {
     display: none;
     position: absolute;
@@ -725,6 +730,11 @@ li a:hover::after {
     margin-right: auto;
     display: inline-block;
     position: relative;
+  }
+
+  .nav-drpdwn-list {
+    width: auto;
+    text-align: justify;
   }
 
   /* chevron-down-outline */

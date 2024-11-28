@@ -400,8 +400,8 @@ svg:not(:root) {
 }
 
 .content-description {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .inzaghis-sites-description {
@@ -549,8 +549,7 @@ svg:not(:root) {
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
-  border: solid 1px #a0a0a0;
+  border-radius: 8px;
 }
 .hcg-slides img {
   max-width: 100%;

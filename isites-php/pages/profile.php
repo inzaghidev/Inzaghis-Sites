@@ -12,7 +12,7 @@
               <div class="flex flex-col items-center">
                 <img
                   src="../images/inzaghi-posuma-alkahfi.jpg"
-                  class="w-32 h-32 bg-gray-300 rounded-full mb-4 shrink-0"
+                  class="w-36 h-48 bg-gray-300 rounded-lg mb-4 shrink-0"
                 />
 
                 <h1 class="text-xl font-bold">Inzaghi Posuma Al Kahfi</h1>

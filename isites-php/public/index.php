@@ -54,7 +54,7 @@
       </div>
       <section class="group-content">
         <div id="hcg-slider-1" class="hcg-slider">
-          <div class="hcg-slide-container">
+          <div class="hcg-slide-container content-description shadow-xl rounded-lg ring-1 ring-green-400">
             <div class="hcg-slider-body">
               <a class="hcg-slides animated" style="display: flex">
                 <span class="hcg-slide-number">1/6</span>

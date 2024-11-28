@@ -7,15 +7,6 @@
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 />
-<!--link
-  rel="stylesheet"
-  href="../bootstrap/css/bootstrap.min.css"
-  type="text/css"
-/>
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css"
-/-->
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/ionimages/2.0.1/css/ionicons.min.css"
@@ -39,6 +30,10 @@
 <script
   nomodule
   src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
 ></script>
 
 <!-- BORDER -->
@@ -104,68 +99,86 @@
           class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
           >Blog</a
         >
-        <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
-          <button
-            class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
-          >
-            <a href="../pages/apps.html">Page Apps</a>
-            <svg
-              class="w-3 h-3 pointer-events-none"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
+        <div
+          @click.away="open = false"
+          class="relative"
+          x-data="{ open: false }"
+        >
+          <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
+            <button
+              class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
             >
-              <title>chevron-down</title>
-              <g fill="none">
-                <path
-                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-              </g>
-            </svg>
-          </button>
-          <div
-            class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block"
-          >
-            <a
-              href="../page-apps/converter.html"
-              class="block px-6 py-2 text-black hover:bg-gray-200"
-              >Converters</a
+              <a href="../pages/networks.html">Page Apps</a>
+              <svg
+                class="w-3 h-3 pointer-events-none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <title>chevron-down</title>
+                <g fill="none">
+                  <path
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
+            </button>
+            <div
+              x-show="open"
+              x-transition:enter="transition ease-out duration-100"
+              x-transition:enter-start="transform opacity-0 scale-95"
+              x-transition:enter-end="transform opacity-100 scale-100"
+              x-transition:leave="transition ease-in duration-75"
+              x-transition:leave-start="transform opacity-100 scale-100"
+              x-transition:leave-end="transform opacity-0 scale-95"
+              class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"
+              style="display: none"
             >
-            <a
-              href="../page-apps/calculators.html"
-              class="block px-6 py-2 text-black hover:bg-gray-200"
-              >Calculators</a
-            >
-            <a
-              href="../page-apps/generators.html"
-              class="block px-6 py-2 text-black hover:bg-gray-200"
-              >Generators</a
-            >
-            <a
-              href="../page-apps/formatters.html"
-              class="block px-6 py-2 text-black hover:bg-gray-200"
-              >Formatters</a
-            >
-            <a
-              href="../page-apps/file-converter.html"
-              class="block px-6 py-2 text-black hover:bg-gray-200"
-              >File Converter</a
-            >
-            <a
-              href="../page-apps/utilities.html"
-              class="block px-6 py-2 text-black hover:bg-gray-200"
-              >Utilities</a
-            >
-            <a
-              href="../page-apps/tester-tools.html"
-              class="block px-6 py-2 text-black hover:bg-gray-200"
-              >Tester Tools</a
-            >
+              <div
+                class="nav-drpdwn-list dropdown-menu lg:absolute bg-opacity-95 bg-gray-300 bg-white rounded-md shadow dark-mode:bg-gray-800 lg:group-hover:block hidden py-2"
+              >
+                <a
+                  href="../page-apps/converter.html"
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  >Converters</a
+                >
+                <a
+                  href="../page-apps/calculators.html"
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  >Calculators</a
+                >
+                <a
+                  href="../page-apps/generators.html"
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  >Generators</a
+                >
+                <a
+                  href="../page-apps/file-converter.html"
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  >Formatters</a
+                >
+                <a
+                  href="../page-apps/file-converter.html"
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  >File Converter</a
+                >
+                <a
+                  href="../page-apps/utilities.html"
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  >Utilities</a
+                >
+                <a
+                  href="../page-apps/tester-tools.html"
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  >Tester Tools</a
+                >
+              </div>
+            </div>
           </div>
         </div>
         <a
@@ -208,62 +221,92 @@
             </svg>
           </button>
           <div
-            class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block"
+            x-show="open"
+            x-transition:enter="transition ease-out duration-100"
+            x-transition:enter-start="transform opacity-0 scale-95"
+            x-transition:enter-end="transform opacity-100 scale-100"
+            x-transition:leave="transition ease-in duration-75"
+            x-transition:leave-start="transform opacity-100 scale-100"
+            x-transition:leave-end="transform opacity-0 scale-95"
+            class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"
+            style="display: none"
           >
-            <a
-              href="../inzaghis-group/inzaghis-blog.html"
-              class="block px-6 py-2 text-black hover:bg-gray-200"
-              >Inzaghi's Blog</a
+            <div
+              class="nav-drpdwn-list dropdown-menu lg:absolute bg-opacity-95 bg-gray-300 bg-white rounded-md shadow dark-mode:bg-gray-800 lg:group-hover:block hidden py-2"
             >
-            <a
-              href="../inzaghis-group/inzaghis-media.html"
-              class="block px-6 py-2 text-black hover:bg-gray-200"
-              >Inzaghi's Media</a
-            >
+              <a
+                href="../inzaghis-group/inzaghis-blog.html"
+                class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                >Inzaghi's Blog</a
+              >
+              <a
+                href="../inzaghis-group/inzaghis-media.html"
+                class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                >Inzaghi's Media</a
+              >
+            </div>
           </div>
         </div>
-        <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
-          <button
-            class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
-          >
-            <span class="pointer-events-none">Switch to Another Site</span>
-            <svg
-              class="w-3 h-3 pointer-events-none"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
+        <div
+          @click.away="open = false"
+          class="relative"
+          x-data="{ open: false }"
+        >
+          <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
+            <button
+              class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
             >
-              <title>chevron-down</title>
-              <g fill="none">
-                <path
-                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-              </g>
-            </svg>
-          </button>
-          <div
-            class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block"
-          >
-            <a
-              href="https://sites.google.com/view/inzaghis-sites"
-              class="block px-6 py-2 text-black hover:bg-gray-200"
-              >Old Inzaghi's Sites</a
+              <span class="pointer-events-none">Switch to Another Site</span>
+              <svg
+                class="w-3 h-3 pointer-events-none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <title>chevron-down</title>
+                <g fill="none">
+                  <path
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
+            </button>
+            <div
+              x-show="open"
+              x-transition:enter="transition ease-out duration-100"
+              x-transition:enter-start="transform opacity-0 scale-95"
+              x-transition:enter-end="transform opacity-100 scale-100"
+              x-transition:leave="transition ease-in duration-75"
+              x-transition:leave-start="transform opacity-100 scale-100"
+              x-transition:leave-end="transform opacity-0 scale-95"
+              class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"
+              style="display: none"
             >
-            <a
-              href="https://inzaghiposuma.wordpress.com"
-              class="block px-6 py-2 text-black hover:bg-gray-200"
-              >WordPress Site</a
-            >
-            <a
-              href="https://inzaghi-site.webflow.io"
-              class="block px-6 py-2 text-black hover:bg-gray-200"
-              >Preview (Webflow)</a
-            >
+              <div
+                class="nav-drpdwn-list dropdown-menu lg:absolute bg-opacity-95 bg-gray-300 bg-white rounded-md shadow dark-mode:bg-gray-800 lg:group-hover:block hidden py-2"
+              >
+                <a
+                  href="https://sites.google.com/view/inzaghis-sites"
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  >Old Inzaghi's Sites</a
+                >
+                <a
+                  href="https://inzaghiposuma.wordpress.com"
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  >WordPress Site</a
+                >
+                <a
+                  href="https://inzaghi-site.webflow.io"
+                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  >Preview (Webflow)</a
+                >
+              </div>
+            </div>
           </div>
         </div>
         <button
@@ -280,3 +323,169 @@
     </div>
   </nav>
 </div>
+
+<!-- BORDER -->
+<!--div class="navbar bg-white bg-opacity-60 fixed w-full z-10 shadow-md">
+  <nav
+    class="bg-gray-100 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md"
+  >
+    <div
+      class="container mx-auto px-4 lg:flex items-center justify-between"
+      x-data="{ open: false, dropdown1: false, dropdown2: false }"
+    >
+      <a
+        href="../public/index.html"
+        id="logo"
+        class="flex items-center py-5 px-2"
+      >
+        <img
+          src="../images/inzaghis-sites-logo-vertical-transparent.png"
+          title="Inzaghi's Sites"
+          class="h-12"
+          alt="logo"
+        />
+      </a>
+      <button
+        @click="open = !open"
+        class="lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg py-3 px-3"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <title>bars-3-bottom-left</title>
+          <g fill="none">
+            <path
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </g>
+        </svg>
+      </button>
+      <div
+        :class="open ? 'block' : 'hidden'"
+        class="lg:flex lg:flex-row flex-col items-center w-full lg:w-auto"
+      >
+        <a
+          href="../public/index.html"
+          class="py-2 px-3 hover:bg-gray-300 rounded block"
+          >Home</a
+        >
+        <a
+          href="https://medium.com/@izzumiposhaf29"
+          class="py-2 px-3 hover:bg-gray-300 rounded block"
+          >Blog</a
+        >
+        <div
+          class="relative group"
+          @mouseenter="dropdown1 = true"
+          @mouseleave="dropdown1 = false"
+          @click.away="dropdown1 = false"
+        >
+          <button
+            @click="dropdown1 = !dropdown1"
+            class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+          >
+            <a href="../pages/apps.html">Page Apps</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-3 h-3 pointer-events-none"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              :class="{ 'rotate-180': dropdown1 }"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </button>
+          <div
+            x-show="dropdown1"
+            x-transition
+            class="absolute right-0 w-48 mt-2 origin-top-right rounded-md shadow-lg bg-gray-300"
+          >
+            <a
+              href="../page-apps/converter.html"
+              class="block px-4 py-2 hover:bg-gray-200"
+              >Converters</a
+            >
+            <a
+              href="../page-apps/calculators.html"
+              class="block px-4 py-2 hover:bg-gray-200"
+              >Calculators</a
+            >
+            <a
+              href="../page-apps/generators.html"
+              class="block px-4 py-2 hover:bg-gray-200"
+              >Generators</a
+            >
+          </div>
+        </div>
+        <div
+          class="relative group"
+          @mouseenter="dropdown2 = true"
+          @mouseleave="dropdown2 = false"
+          @click.away="dropdown2 = false"
+        >
+          <button
+            @click="dropdown2 = !dropdown2"
+            class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+          >
+            <a href="../pages/networks.html">Inzaghi's Group</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-3 h-3 pointer-events-none"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              :class="{ 'rotate-180': dropdown2 }"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </button>
+          <div
+            x-show="dropdown2"
+            x-transition
+            class="absolute right-0 w-48 mt-2 origin-top-right rounded-md shadow-lg bg-gray-300"
+          >
+            <a
+              href="../inzaghis-group/inzaghis-blog.html"
+              class="block px-4 py-2 hover:bg-gray-200"
+              >Inzaghi's Blog</a
+            >
+            <a
+              href="../inzaghis-group/inzaghis-media.html"
+              class="block px-4 py-2 hover:bg-gray-200"
+              >Inzaghi's Media</a
+            >
+          </div>
+        </div>
+
+        <a
+          href="../pages/contact.html"
+          class="py-2 px-3 hover:bg-gray-300 rounded block"
+          >Contact</a
+        >
+        <a
+          href="../pages/profile.html"
+          class="py-2 px-3 hover:bg-gray-300 rounded block"
+          >Profile</a
+        >
+      </div>
+    </div>
+  </nav>
+</div-->
