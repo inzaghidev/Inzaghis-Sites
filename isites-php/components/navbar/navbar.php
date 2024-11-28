@@ -106,4 +106,8 @@
 <!-- https://tailwindflex.com/tag/navbar -->
 <!-- https://tailwindflex.com/@piet-vriend/responsive-navbar -->
 <!-- https://tailwindflex.com/@team-tailwindflex/responsive-navbar-with-dark-mode-support -->
+
+<!-- https://tailwindflex.com/@alok/dropdown-select-on-hover -->
+<!-- https://cruip.com/build-a-hoverable-dropdown-menu-with-tailwind-css-and-alpine-js -->
+<!-- https://readymadeui.com/tailwind/component/tailwind-css-navbar-with-dropdown -->
 <!-- https://www.creative-tim.com/twcomponents/component/responsive-navbar-with-dropdown -->
