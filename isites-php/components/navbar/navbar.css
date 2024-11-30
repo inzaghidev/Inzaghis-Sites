@@ -351,8 +351,9 @@ li a:hover::after {
 }
 
 .sign-in-button {
-  color: var(--color-white); /* Mengubah warna teks menjadi putih */
-  text-decoration: none; /* Untuk memastikan tidak ada garis bawah pada teks */
+  order: 10;
+  color: var(--color-white);
+  text-decoration: none;
   display: block;
   margin-left: 2vw;
   margin-top: auto;

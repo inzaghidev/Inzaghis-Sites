@@ -380,7 +380,7 @@
       class="container mx-auto px-4 lg:flex items-center justify-center gap-8 w-full"
     >
       <!-- Logo and Mobile Menu Toggle -->
-      <div class="flex items-center justify-between lg:w-auto w-full">
+      <div class="flex items-center justify-between lg:w-auto w-max">
         <a href="../../public/index.html" class="flex items-center py-5 px-2">
           <img
             src="../../images/inzaghis-sites-logo-vertical-transparent.png"
@@ -389,33 +389,6 @@
             alt="logo"
           />
         </a>
-        <div
-          class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block"
-        >
-          <button
-            @click="open = !open"
-            class="mobile-menu-button py-3 px-3"
-            aria-label="Toggle Menu"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <title>Menu Toggle</title>
-              <g fill="none">
-                <path
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-              </g>
-            </svg>
-          </button>
-        </div>
       </div>
       <!-- Navigation Menu -->
       <div
@@ -618,8 +591,37 @@
             >
           </div>
         </div>
+      </div>
+      <div class="flex items-center lg:order-2">
+        <div
+          class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block"
+        >
+          <button
+            @click="open = !open"
+            class="mobile-menu-button py-3 px-3"
+            aria-label="Toggle Menu"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <title>Menu Toggle</title>
+              <g fill="none">
+                <path
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+          </button>
+        </div>
         <button
-          class="sign-in-button relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200"
+          class="sign-in-button relative inline-flex items-center justify-center p-0.5 mb-2 me-7 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200"
         >
           <a
             class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0"
@@ -633,7 +635,7 @@
   </nav>
   <!-- Mobile Menu -->
   <div
-    class="lg:invisible navbar-menu fixed inset-0 z-50 bg-gray-900 bg-opacity-50"
+    class="lg:invisible navbar-menu fixed inset-0 z-50 bg-gray-900 bg-opacity-50 backdrop-blur-sm"
     x-show="open"
     x-transition
     @click.away="open = false"
@@ -681,6 +683,7 @@
         </div>
       </div>
       <!-- Mobile Menu Items -->
+      <!--nav class="navigation-menu px-4 py-2 space-y-2"-->
       <nav class="px-4 py-2 space-y-2">
         <a
           href="#"

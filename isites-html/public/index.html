@@ -199,7 +199,7 @@
                   >IT Project Lists</a
                 >
                 <a href="#" class="block px-6 py-2 text-black hover:bg-gray-200"
-                  >Interviews and Thesis Preparation
+                  >Intervs & Thesis Prep
                 </a>
                 <a href="#" class="block px-6 py-2 text-black hover:bg-gray-200"
                   >Materi Pembelajaran</a
@@ -209,6 +209,9 @@
                 >
                 <a href="#" class="block px-6 py-2 text-black hover:bg-gray-200"
                   >Link Pages</a
+                >
+                <a href="#" class="block px-6 py-2 text-black hover:bg-gray-200"
+                  >Miscellaneous</a
                 >
               </div>
             </div>
@@ -334,7 +337,7 @@
               <button
                 class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
               >
-                <span class="pointer-events-none">Switch to Another Site</span>
+                <span class="pointer-events-none">Switch to</span>
                 <svg
                   class="w-3 h-3 pointer-events-none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -390,124 +393,6 @@
     </div>
     <!-- BORDER -->
 
-    <!-- BORDER -->
-    <!--div
-      class="w-full text-gray-700 bg-white fixed dark-mode:text-gray-200 dark-mode:bg-gray-800 z-10"
-    >
-      <div
-        x-data="{ open: false }"
-        class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
-      >
-        <div class="p-4 flex flex-row items-center justify-between">
-          <a href="../public/index.html" id="logo" class="flex items-center">
-            <img
-              src="../images/inzaghis-sites-logo-vertical-transparent.png"
-              title="Inzaghi's Sites"
-              class="h-12"
-              alt="logo"
-            />
-          </a>
-          <button
-            class="md:hidden rounded-lg focus:outline-none focus:shadow-outline"
-            @click="open = !open"
-          >
-            <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
-              <path
-                x-show="!open"
-                fill-rule="evenodd"
-                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-                clip-rule="evenodd"
-              ></path>
-              <path
-                x-show="open"
-                fill-rule="evenodd"
-                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </button>
-        </div>
-        <nav
-          :class="{'flex': open, 'hidden': !open}"
-          class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row"
-        >
-          <a
-            class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-gray-200 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="#"
-            >Blog</a
-          >
-          <a
-            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="#"
-            >Portfolio</a
-          >
-          <a
-            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="#"
-            >About</a
-          >
-          <a
-            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="#"
-            >Contact</a
-          >
-          <div
-            @click.away="open = false"
-            class="relative"
-            x-data="{ open: false }"
-          >
-            <button
-              @click="open = !open"
-              class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            >
-              <span>Dropdown</span>
-              <svg
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                :class="{'rotate-180': open, 'rotate-0': !open}"
-                class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </button>
-            <div
-              x-show="open"
-              x-transition:enter="transition ease-out duration-100"
-              x-transition:enter-start="transform opacity-0 scale-95"
-              x-transition:enter-end="transform opacity-100 scale-100"
-              x-transition:leave="transition ease-in duration-75"
-              x-transition:leave-start="transform opacity-100 scale-100"
-              x-transition:leave-end="transform opacity-0 scale-95"
-              class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"
-            >
-              <div
-                class="px-2 py-2 bg-white rounded-md shadow dark-mode:bg-gray-800"
-              >
-                <a
-                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                  href="#"
-                  >Link #1</a
-                >
-                <a
-                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                  href="#"
-                  >Link #2</a
-                >
-                <a
-                  class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                  href="#"
-                  >Link #3</a
-                >
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div-->
     <!-- BORDER -->
     <section class="welcome">
       <div class="welcome-container">
@@ -1127,7 +1012,7 @@
     </section>
     <section class="footer">
       <div class="footer-container">
-        <section class="footer-wrapper">
+        <section class="footer-wrapper mb-10">
           <section class="inzaghis-corp-logo">
             <a href="#" id="logo">
               <img
@@ -1138,74 +1023,170 @@
             </a>
           </section>
           <section class="special-pages">
-            <section class="footer-title">Special Pages</section>
+            <section
+              class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase"
+            >
+              Special Pages
+            </section>
             <nav>
               <ul>
-                <li><a href="../pages/about.html">About</a></li>
                 <li>
-                  <a href="../pages/disclaimer.html">Disclaimer</a>
+                  <a href="../pages/about.html" class="hover:text-blue-800"
+                    >About</a
+                  >
                 </li>
                 <li>
-                  <a href="../pages/privacy-policy.html">Privacy Policy</a>
+                  <a href="../pages/disclaimer.html" class="hover:text-blue-800"
+                    >Disclaimer</a
+                  >
                 </li>
-                <li><a href="../pages/contact.html">Contact</a></li>
-                <li><a href="../pages/apps.html">Apps</a></li>
                 <li>
-                  <a href="https://medium.com/@izzumiposhaf29" target="_blank"
+                  <a
+                    href="../pages/privacy-policy.html"
+                    class="hover:text-blue-800"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li>
+                  <a href="../pages/contact.html" class="hover:text-blue-800"
+                    >Contact</a
+                  >
+                </li>
+                <li>
+                  <a href="../pages/portals.html" class="hover:text-blue-800"
+                    >Portals</a
+                  >
+                </li>
+                <li>
+                  <a href="../pages/apps.html" class="hover:text-blue-800"
+                    >Apps</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://medium.com/@izzumiposhaf29"
+                    class="hover:text-blue-800"
+                    target="_blank"
                     >Blog</a
                   >
                 </li>
-                <li><a href="../pages/sitemap.html">Sitemap</a></li>
+                <li>
+                  <a href="../pages/sitemap.html" class="hover:text-blue-800"
+                    >Sitemap</a
+                  >
+                </li>
               </ul>
             </nav>
           </section>
           <section class="apps-tools">
-            <section class="footer-title">Apps & Tools</section>
+            <section
+              class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase"
+            >
+              Apps & Tools
+            </section>
             <nav>
               <ul>
-                <li><a href="../page-apps/pages.html">Pages</a></li>
-                <li><a href="../page-apps/widgets.html">Widgets</a></li>
-                <li><a href="../page-apps/converter.html">Converters</a></li>
-                <li><a href="../page-apps/calculators.html">Calculators</a></li>
-                <li><a href="../page-apps/generators.html">Generators</a></li>
-                <li><a href="../page-apps/formatters.html">Formatters</a></li>
                 <li>
-                  <a href="../page-apps/file-converter.html">File Converter</a>
+                  <a href="../page-apps/pages.html" class="hover:text-blue-800"
+                    >Pages</a
+                  >
                 </li>
-                <li><a href="../pages/apps.html">Other Tools</a></li>
+                <li>
+                  <a
+                    href="../page-apps/widgets.html"
+                    class="hover:text-blue-800"
+                    >Widgets</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="../page-apps/converter.html"
+                    class="hover:text-blue-800"
+                    >Converters</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="../page-apps/calculators.html"
+                    class="hover:text-blue-800"
+                    >Calculators</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="../page-apps/generators.html"
+                    class="hover:text-blue-800"
+                    >Generators</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="../page-apps/formatters.html"
+                    class="hover:text-blue-800"
+                    >Formatters</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="../page-apps/file-converter.html"
+                    class="hover:text-blue-800"
+                    >File Converter</a
+                  >
+                </li>
+                <li>
+                  <a href="../pages/apps.html" class="hover:text-blue-800"
+                    >Other Tools</a
+                  >
+                </li>
               </ul>
             </nav>
           </section>
           <section class="network">
-            <section class="footer-title">Networks</section>
+            <section
+              class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase"
+            >
+              Networks
+            </section>
             <nav>
               <ul>
                 <li>
-                  <a href="../pages/inzaghis-group/inzaghis-blog.html"
+                  <a
+                    href="../inzaghis-group/inzaghis-blog.html"
+                    class="hover:text-blue-800"
                     >Inzaghi's Blog</a
                   >
                 </li>
                 <li>
-                  <a href="../pages/inzaghis-group/inzaghis-media.html"
+                  <a
+                    href="../inzaghis-group/inzaghis-media.html"
+                    class="hover:text-blue-800"
                     >Inzaghi's Media</a
                   >
                 </li>
                 <li>
-                  <a href="https://github.com/inzaghidev" target="_blank"
+                  <a
+                    href="https://github.com/inzaghidev"
+                    class="hover:text-blue-800"
+                    target="_blank"
                     >Inzaghi's Dev (GitHub)</a
                   >
                 </li>
                 <li>
                   <a
                     href="https://sites.google.com/view/inzaghis-sites"
+                    class="hover:text-blue-800"
                     target="_blank"
                     >Inzaghi's Sites (Old)</a
                   >
                 </li>
-                <li><a href="#">Inzaghi's Archives</a></li>
-                <li><a href="#">Inzaghi's AI</a></li>
                 <li>
-                  <a href="../pages/networks.html"
+                  <a href="#" class="hover:text-blue-800">Inzaghi's Archives</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-blue-800">Inzaghi's AI</a>
+                </li>
+                <li>
+                  <a href="../pages/networks.html" class="hover:text-blue-800"
                     >Inzaghi's Group Network Lists</a
                   >
                 </li>
@@ -1213,7 +1194,11 @@
             </nav>
           </section>
           <section class="quick-link">
-            <section class="footer-title">Quick Link</section>
+            <section
+              class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase"
+            >
+              Quick Link
+            </section>
             <nav>
               <ul>
                 <li>
@@ -1224,16 +1209,22 @@
                   >
                 </li>
                 <li>
-                  <a href="https://medium.com/@izzumiposhaf29"
+                  <a
+                    href="https://medium.com/@izzumiposhaf29"
+                    class="hover:text-blue-800"
                     >Inzaghi's Sites Blog</a
                   >
                 </li>
                 <li>
-                  <a href="https://linktr.ee/inzaghigroup" target="_blank"
+                  <a
+                    href="https://linktr.ee/inzaghigroup"
+                    class="hover:text-blue-800"
+                    target="_blank"
                     >Linktree Inzaghi's Group</a
                   >
                 </li>
               </ul>
+              <br />
               <a
                 class="github-button"
                 href="https://github.com/inzaghidev/Inzaghis-Sites"
@@ -1253,7 +1244,7 @@
       </div>
     </section>
     <!-- BORDER -->
-    <footer class="bg-white">
+    <!--footer class="bg-white">
       <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="lg:flex lg:items-start lg:gap-8">
           <section class="inzaghis-corp-logo text-teal-600">
@@ -1591,7 +1582,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer-->
   </body>
 </html>
 

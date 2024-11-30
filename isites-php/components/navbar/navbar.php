@@ -78,7 +78,7 @@
         <!-- Dropdown Menu -->
         <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
           <button class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg">
-            <span class="pointer-events-none">Switch to Another Site</span>
+            <span class="pointer-events-none">Switch to</span>
             <svg class="w-3 h-3 pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <title>chevron-down</title>
               <g fill="none">
