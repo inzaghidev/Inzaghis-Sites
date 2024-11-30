@@ -14,7 +14,8 @@
                         <li><a href="<?php echo $pathToWebRoot.'/pages/disclaimer.php'; ?>">Disclaimer</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/pages/privacy-policy.php'; ?>">Privacy Policy</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>">Contact</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/apps.php'; ?>">Apps</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/'; ?>">Portals</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a></li>
                         <li><a href="https://medium.com/@izzumiposhaf29" target="_blank">Blog</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/pages/sitemap.php'; ?>">Sitemap</a></li>
                     </ul>
@@ -31,7 +32,7 @@
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/generators.php'; ?>">Generators</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/formatters.php'; ?>">Formatters</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/file-converter.php'; ?>">File Converter</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/pages/apps.php'; ?>">Other Tools</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Other Tools</a></li>
                     </ul>
                 </nav>
             </section>
@@ -39,8 +40,8 @@
                 <section class="footer-title">Networks</section>
                 <nav>
                     <ul>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/inzaghis-group/inzaghis-blog.php'; ?>">Inzaghi's Blog</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/inzaghis-group/inzaghis-media.php'; ?>">Inzaghi's Media</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog.php'; ?>">Inzaghi's Blog</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-media.php'; ?>">Inzaghi's Media</a></li>
                         <li><a href="https://github.com/inzaghidev" target="_blank">Inzaghi's Dev (GitHub)</a></li>
                         <li><a href="https://sites.google.com/view/inzaghis-sites" target="_blank">Inzaghi's Sites (Old)</a></li>
                         <li><a href="#">Inzaghi's Archives</a></li>
@@ -56,6 +57,7 @@
                         <li><a href="https://inzaghiposuma.wordpress.com/blog-posts" target="_blank">WordPress Blog</a></li>
                         <li><a href="https://medium.com/@izzumiposhaf29">Inzaghi's Sites Blog</a></li>
                         <li><a href="https://linktr.ee/inzaghigroup" target="_blank">Linktree Inzaghi's Group</a></li>
+                        <li><a href="https://preview.inzaghi.wuaze.com"><b>Switch to New UI (Beta)</b></a></li>
                     </ul>
                     <a class="github-button" href="https://github.com/inzaghidev/Inzaghis-Sites" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Look at @inzaghidev">Look at @inzaghidev</a>
                 </nav>

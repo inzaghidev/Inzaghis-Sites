@@ -48,7 +48,7 @@
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
                             <div class="text-block dropdown-button">
-                                <a>Switch to Another Site</a>
+                                <a>Switch to</a>
                                 <div class="dropdown-icon">
                                     <ion-icon name="chevron-down-outline"></ion-icon>
                                 </div>

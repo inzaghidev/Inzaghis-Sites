@@ -704,6 +704,7 @@ li a:hover::after {
 
   .nav-menu ul.active {
     display: flex; /* Bisa diganti menjadi None */
+    margin-right: 1em;
   }
 
   .nav-menu li {
@@ -716,7 +717,7 @@ li a:hover::after {
     text-decoration: none;
     color: var(--color-black);
     font-family: var(--font-family);
-    margin: 0 0;
+    margin: 0 3px;
   }
 
   .navbar .nav-menu a {
@@ -735,6 +736,15 @@ li a:hover::after {
     line-height: 20px;
     cursor: pointer;
     width: inherit;
+  }
+
+  .dropdown-icon {
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    order: 4;
   }
 
   .w-dropdown-toggle {
