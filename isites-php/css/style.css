@@ -697,7 +697,7 @@ svg:not(:root) {
 
 #inzaghis-blog-embed {
   height: 1500px;
-  width: 1100px;
+  width: 100%;
 }
 
 #inzaghis-media-embed {
@@ -1572,8 +1572,8 @@ svg:not(:root) {
   }
 
   #inzaghis-blog-embed {
-    height: 1000px;
-    width: 700px;
+    height: 1200px;
+    width: 100%;
   }
 
   .title-heading {

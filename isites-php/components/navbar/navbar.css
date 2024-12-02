@@ -88,6 +88,17 @@
   background-color: rgba(255, 255, 255, 0.95); /* Transparansi opsional */
 }
 
+/* #logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo img {
+  vertical-align: middle;
+  background-image: url("../../images/inzaghis-sites-logo-vertical-transparent.png");
+  height: 3rem;
+} */
+
 #logo img {
   vertical-align: middle;
 }
@@ -212,8 +223,10 @@ li a:hover::after {
   top: 100%;
   left: auto;
   right: auto;
+  width: 180px;
   padding: 10px 0;
-  /*padding: inherit;*/
+  border-radius: 10px;
+  transition: all 0.3s ease;
 }
 
 .nav-dropdown-list--open {
@@ -237,6 +250,12 @@ li a:hover::after {
   display: block;
   border-radius: 10px;
   transition: all 0.3s ease;
+}
+
+.dropdown.active .nav-dropdown-list {
+  display: block;
+  z-index: 1000;
+  position: absolute;
 }
 
 .dropdown-link {
