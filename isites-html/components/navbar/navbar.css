@@ -240,9 +240,9 @@ li a:hover::after {
 }
 
 .dropdown.active .nav-dropdown-list {
-  display: block; /* Tampilkan dropdown saat aktif (klik) */
-  z-index: 1000; /* Pastikan dropdown berada di atas elemen lainnya */
-  position: absolute; /* Absolute untuk menyesuaikan dengan parent */
+  display: block;
+  z-index: 1000;
+  position: absolute;
 }
 
 .dropdown-link {
