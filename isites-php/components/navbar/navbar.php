@@ -7,11 +7,24 @@
             <div class="nav-menu">
                 <ul>
                     <li><a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>">Home</a></li>
-                    <li><a href="https://medium.com/@izzumiposhaf29">Blog</a></li>
+                    <li class="dropdown">
+                        <div class="nav-dropdown-toggle w-dropdown-toggle">
+                            <div class="text-block dropdown-button">
+                                <a>Blogs</a>
+                                <div class="dropdown-icon">
+                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                </div>
+                            </div>
+                            <nav class="nav-dropdown-list nav-dropdown-list--open">
+                                <a href="https://medium.com/@izzumiposhaf29" class="dropdown-link">Inzaghi's Group Blog</a>
+                                <a href="https://inzaghiposuma.wordpress.com/blog-posts" class="dropdown-link">WordPress Blog</a>
+                            </nav>
+                        </div>
+                    </li>
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
                         <div class="text-block dropdown-button">
-                            <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Page Apps</a>
+                            <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a>
                             <div class="dropdown-icon">
                                 <ion-icon name="chevron-down-outline"></ion-icon>
                             </div>
