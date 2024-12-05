@@ -502,7 +502,6 @@ li a:hover::after {
 
   .menu-toggle {
     display: block;
-    margin-left: auto;
     order: 4;
     color: initial; /* Ensure default color is set */
   }

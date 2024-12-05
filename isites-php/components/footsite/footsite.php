@@ -53,13 +53,12 @@
             <section class="quick-link">
                 <section class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase">Quick Link</section>
                 <nav>
-                    <ul>
+                    <ul class="mb-5">
                         <li><a href="https://inzaghiposuma.wordpress.com/blog-posts" class="hover:text-blue-800" target="_blank">WordPress Blog</a></li>
                         <li><a href="https://medium.com/@izzumiposhaf29" class="hover:text-blue-800">Inzaghi's Sites Blog</a></li>
                         <li><a href="https://linktr.ee/inzaghigroup" class="hover:text-blue-800" target="_blank">Linktree Inzaghi's Group</a></li>
-                        <li><a href="https://inzaghi.wuaze.com" class="font-semibold text-green-900"><b>Back to Old UI (Current)</b></a></li>
+                        <li><a href="https://inzaghi.wuaze.com" class="font-semibold text-green-900 hover:text-green-600"><b>Back to Old UI (Current)</b></a></li>
                     </ul>
-                    <br />
                     <a class="github-button" href="https://github.com/inzaghidev/Inzaghis-Sites" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Look at @inzaghidev">Look at @inzaghidev</a>
                 </nav>
             </section>

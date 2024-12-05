@@ -59,7 +59,7 @@
         <div class="flex flex-wrap -mx-4">
           <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
             <div
-              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full"
+              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl ring-1 ring-gray-300"
             >
               <div
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
@@ -100,7 +100,7 @@
 
           <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
             <div
-              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full"
+              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl ring-1 ring-gray-300"
             >
               <div
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
@@ -142,7 +142,7 @@
 
           <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
             <div
-              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full"
+              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl ring-1 ring-gray-300"
             >
               <div
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
@@ -214,7 +214,7 @@
             class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border rounded-xl w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 w-full"
             >
               <div class="p-6">
                 <svg
@@ -283,7 +283,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border rounded-xl w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 w-full"
             >
               <div class="p-6">
                 <svg
@@ -342,7 +342,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border rounded-xl w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 w-full"
             >
               <div class="p-6">
                 <svg
@@ -404,7 +404,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border rounded-xl w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 w-full"
             >
               <div class="p-6">
                 <svg
@@ -462,7 +462,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border rounded-xl w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 w-full"
             >
               <div class="p-6">
                 <svg
