@@ -84,7 +84,7 @@
                 </p>
                 <div class="mt-4">
                   <button
-                    class="align-middle select-none font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                    class="align-middle select-none font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none focus:ring-4 focus:outline-none focus:ring-yellow-500"
                   >
                     <a
                       href="https://inzaghiposuma.blogspot.com"
@@ -126,7 +126,7 @@
                 </p>
                 <div class="mt-4">
                   <button
-                    class="align-middle select-none font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                    class="align-middle select-none font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none focus:ring-4 focus:outline-none focus:ring-yellow-500"
                   >
                     <a
                       href="https://enzatech.blogspot.com"
@@ -168,7 +168,7 @@
                 </p>
                 <div class="mt-4">
                   <button
-                    class="align-middle select-none font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                    class="align-middle select-none font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none focus:ring-4 focus:outline-none focus:ring-yellow-500"
                   >
                     <a
                       href="https://enzashorts.blogspot.com"
