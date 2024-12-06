@@ -399,6 +399,8 @@ li a:hover::after {
   .nav-menu-container {
     order: 5;
     width: 100vw;
+    transition: all, transform 400ms;
+    transform: translateY(0px) translateX(0px);
   }
 
   .nav-menu {
