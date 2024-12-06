@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const navMenuContainer = document.querySelector(".nav-menu-container");
   const signInButton = document.querySelector(".sign-in-button");
   const navHeader = document.getElementById("navHeader");
-  const dropdownToggle = document.querySelector(".nav-dropdown-toggle");
   const dropdownMenu = document.querySelector(".nav-dropdown-list");
+  const dropdownToggle = document.querySelector(".nav-dropdown-toggle");
   const chevronIcon = dropdownToggle.querySelector(
     "ion-icon[name='chevron-down-outline']"
   );
@@ -50,17 +50,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  function updateElementPositions() {
-    const dropdownOpen = dropdownToggle.parentNode.classList.contains("active");
-    const dropdownHeight = dropdownMenu.offsetHeight;
-
-    if (dropdownOpen && window.innerWidth < 720) {
-      dropdownToggle.parentNode.style.marginBottom = `${dropdownHeight}px`;
-    } else {
-      dropdownToggle.parentNode.style.marginBottom = "3px";
-    }
-  }
-
   updateBeforeStyles();
   window.addEventListener("resize", updateBeforeStyles);
   window.addEventListener("scroll", handleScroll);
@@ -91,6 +80,17 @@ document.addEventListener("DOMContentLoaded", function () {
       cancelIcon.style.display = "none";
     }
   });
+
+  function updateElementPositions() {
+    const dropdownOpen = dropdownToggle.parentNode.classList.contains("active");
+    const dropdownHeight = dropdownMenu.offsetHeight;
+
+    if (dropdownOpen && window.innerWidth < 720) {
+      dropdownToggle.parentNode.style.marginBottom = `${dropdownHeight}px`;
+    } else {
+      dropdownToggle.parentNode.style.marginBottom = "3px";
+    }
+  }
 
   window.addEventListener("resize", function () {
     if (window.innerWidth > 1140) {
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 $(document).ready(function () {
   // Memuat header ke dalam halaman
-  $("#header-container").load("../layouts/header.html", function () {
+  $("#header-container").load("../layouts/header.php", function () {
     setupMenuToggle();
   });
 

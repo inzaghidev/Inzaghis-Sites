@@ -12,7 +12,7 @@
                     <li><a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>">Contact</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>">Profile</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>">About</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group Network</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a></li>
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
                             <div class="text-block">
