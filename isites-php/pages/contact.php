@@ -5,7 +5,7 @@
 ?>
   <div class="container-top"></div>
   <section
-      class="page-sub-container-full bg-gray-50 light:bg-slate-800"
+      class="page-background page-sub-container-full bg-gray-50 light:bg-slate-800"
       id="contact"
     >
       <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">

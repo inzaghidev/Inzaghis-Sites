@@ -40,37 +40,22 @@
   }
 }
 
-.nav-header {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0.5rem 1rem;
-  background-color: var(--background-color);
-  transition: background-color var(--transition-duration) ease;
-  position: fixed;
-  /* top: 0; */
-  z-index: 10;
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px #fff, 0 2px 4px -2px #fff;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  border-style: solid;
-}
-
-/* Transparency Effect */
-.nav-header.transparency {
-  background-color: var(--background-color-transparent);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-
 .navbar {
   font-family: var(--font-family);
   font-size: var(--font-size);
-  position: fixed;
-  left: 0;
-  right: 0;
   z-index: 1000;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: fixed;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+  color: #000000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navigation-menu {
@@ -397,12 +382,20 @@ li a:hover::after {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1024px) {
   .navbar {
     flex-direction: row;
     position: relative;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .navbar-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+    color: #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   .nav-menu-container {
@@ -559,20 +552,9 @@ li a:hover::after {
 }
 
 @media screen and (max-width: 720px) {
-  .nav-header {
-    position: fixed;
-    padding: 0 0;
-  }
-
-  .nav-header.transparency {
-    background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-  }
-
   .navbar {
     flex-direction: row;
-    position: relative;
+    position: fixed;
     align-items: center;
     justify-content: space-between;
   }
@@ -673,12 +655,6 @@ li a:hover::after {
 
   .dropdown-link li a::before {
     padding: 5px 10px 5px 10px;
-  }
-
-  .nav-header.transparency {
-    background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
   }
 
   .nav-menu li:hover {

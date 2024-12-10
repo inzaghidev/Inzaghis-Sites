@@ -58,12 +58,12 @@
   </head>
   <body>
     <div
-      class="navbar bg-white bg-opacity-60 fixed w-full z-10 shadow-md"
+      class="navbar bg-opacity-60 shadow-md bg-white fixed w-full z-10"
       id="navbar"
       data-state="closed"
     >
       <nav
-        class="bg-gray-100 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md"
+        class="navbar-container bg-gray-100 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md"
       >
         <div
           class="container mx-auto px-4 lg:flex items-center justify-center gap-6 w-full"
@@ -111,12 +111,14 @@
           >
             <a
               href="../public/index.html"
-              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
+              class="py-2 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
               >Home</a
             >
-            <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
+            <div
+              class="hover:bg-gray-200 gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none block group"
+            >
               <button
-                class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+                class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none"
               >
                 <span class="pointer-events-none">Blogs</span>
                 <svg
@@ -139,23 +141,25 @@
                 </svg>
               </button>
               <div
-                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block"
+                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-200 text-white rounded-lg py-2 shadow-xl lg:group-hover:block lg:rounded-t-none lg:rounded-tr-lg"
               >
                 <a
                   href="https://medium.com/@izzumiposhaf29"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >Inzaghi's Group Blog</a
                 >
                 <a
                   href="https://inzaghiposuma.wordpress.com/blog-posts"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >WordPress Blog</a
                 >
               </div>
             </div>
-            <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
+            <div
+              class="hover:bg-gray-200 gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none block group"
+            >
               <button
-                class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+                class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none"
               >
                 <a href="../pages/apps.html">Apps</a>
                 <svg
@@ -178,63 +182,65 @@
                 </svg>
               </button>
               <div
-                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block"
+                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-200 text-white rounded-lg py-2 shadow-xl lg:group-hover:block lg:rounded-t-none lg:rounded-tr-lg"
               >
                 <a
                   href="../page-apps/converter.html"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >Converters</a
                 >
                 <a
                   href="../page-apps/calculators.html"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >Calculators</a
                 >
                 <a
                   href="../page-apps/generators.html"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >Generators</a
                 >
                 <a
                   href="../page-apps/formatters.html"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >Formatters</a
                 >
                 <a
                   href="../page-apps/file-converter.html"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >File Converter</a
                 >
                 <a
                   href="../page-apps/utilities.html"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >Utilities</a
                 >
                 <a
                   href="../page-apps/tester-tools.html"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >Tester Tools</a
                 >
               </div>
             </div>
             <a
               href="../pages/contact.html"
-              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
+              class="py-2 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
               >Contact</a
             >
             <a
               href="../pages/profile.html"
-              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
+              class="py-2 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
               >Profile</a
             >
             <a
               href="../pages/about.html"
-              class="py-2 px-3 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
+              class="py-2 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
               >About</a
             >
-            <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
+            <div
+              class="hover:bg-gray-200 gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none block group"
+            >
               <button
-                class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+                class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none"
               >
                 <a href="../pages/networks.html">Inzaghi's Group</a>
                 <svg
@@ -257,23 +263,25 @@
                 </svg>
               </button>
               <div
-                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block"
+                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-200 text-white rounded-lg py-2 shadow-xl lg:group-hover:block lg:rounded-t-none lg:rounded-tr-lg"
               >
                 <a
                   href="../inzaghis-group/inzaghis-blog.html"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >Inzaghi's Blog</a
                 >
                 <a
                   href="../inzaghis-group/inzaghis-media.html"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >Inzaghi's Media</a
                 >
               </div>
             </div>
-            <div class="hover:bg-gray-300 gap-2 rounded-lg block group">
+            <div
+              class="hover:bg-gray-200 gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none block group"
+            >
               <button
-                class="dropdown-toggle py-2 px-3 hover:bg-gray-300 flex items-center gap-2 rounded-lg"
+                class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none"
               >
                 <span class="pointer-events-none">Switch to</span>
                 <svg
@@ -296,21 +304,21 @@
                 </svg>
               </button>
               <div
-                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-300 text-white rounded-lg py-2 shadow-xl lg:group-hover:block"
+                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-200 text-white rounded-lg py-2 shadow-xl lg:group-hover:block lg:rounded-t-none lg:rounded-tr-lg"
               >
                 <a
                   href="https://sites.google.com/view/inzaghis-sites"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >Old Inzaghi's Sites</a
                 >
                 <a
                   href="https://inzaghiposuma.wordpress.com"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >WordPress Site</a
                 >
                 <a
                   href="https://inzaghi-site.webflow.io"
-                  class="block px-6 py-2 text-black hover:bg-gray-200"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
                   >Preview (Webflow)</a
                 >
               </div>
@@ -331,7 +339,7 @@
     </div>
     <div class="container-top"></div>
     <section
-      class="page-sub-container-full bg-gray-50 light:bg-slate-800"
+      class="page-background page-sub-container-full bg-gray-50 light:bg-slate-800"
       id="contact"
     >
       <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">

@@ -62,7 +62,7 @@
   font-size: var(--font-size-14);
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1024px) {
   .footer {
     background: rgb(239, 231, 254);
     background: linear-gradient(

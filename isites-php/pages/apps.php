@@ -35,7 +35,7 @@
         />
         <div class="flex flex-col justify-between p-4 leading-normal flex-grow">
           <h5
-            class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black"
+            class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-green-700"
           >
             Pages
           </h5>
@@ -70,7 +70,7 @@
         />
         <div class="flex flex-col justify-between p-4 leading-normal flex-grow">
           <h5
-            class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black"
+            class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-green-700"
           >
             Widgets
           </h5>
@@ -105,7 +105,7 @@
         />
         <div class="flex flex-col justify-between p-4 leading-normal flex-grow">
           <h5
-            class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black"
+            class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-green-700"
           >
             Converters
           </h5>
@@ -140,7 +140,7 @@
         />
         <div class="flex flex-col justify-between p-4 leading-normal flex-grow">
           <h5
-            class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-black"
+            class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-green-700"
           >
             Calculators
           </h5>

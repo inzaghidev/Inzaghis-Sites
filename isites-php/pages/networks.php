@@ -72,7 +72,7 @@
               </div>
               <div class="p-6 text-center">
                 <h5
-                  class="blog-name block mb-2 text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="blog-name block mb-2 text-3xl sm:text-2xl lg:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Inzaghi's Blog Legacy
                 </h5>
@@ -113,7 +113,7 @@
               </div>
               <div class="p-6 text-center">
                 <h5
-                  class="blog-name block mb-2 text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="blog-name block mb-2 text-3xl sm:text-2xl lg:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Teknoblog
                 </h5>
@@ -155,7 +155,7 @@
               </div>
               <div class="p-6 text-center">
                 <h5
-                  class="blog-name block mb-2 text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="blog-name block mb-2 text-3xl sm:text-2xl lg:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Miniblog
                 </h5>
@@ -245,7 +245,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl"
                 >
                   Instagram
                 </h5>
@@ -303,7 +303,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl"
                 >
                   TikTok
                 </h5>
@@ -366,7 +366,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl"
                 >
                   YouTube
                 </h5>
@@ -424,7 +424,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl"
                 >
                   X (Twitter)
                 </h5>
@@ -488,7 +488,7 @@
                   />
                 </svg>
                 <h5
-                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl"
                 >
                   Threads
                 </h5>
