@@ -259,7 +259,7 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.privacy-policy {
+.page-background {
   background-color: #f5f7fa;
   border-bottom: 1px solid #e4ebf3;
   padding: 60px 30px;
@@ -338,7 +338,6 @@ svg:not(:root) {
 
 .page-container {
   max-width: 1680px;
-  /*padding: 60px 30px;*/
   position: relative;
   margin-left: auto;
   margin-right: auto;

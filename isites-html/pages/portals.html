@@ -3,7 +3,347 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="../components/navbar/navbar.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="../components/footsite/footsite.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+    <script src="../js/script.js"></script>
+    <script src="../components/navbar/navbar.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../bootstrap/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../jquery/jquery-3.7.1.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Portals</title>
+    <link
+      rel="shortcut icon"
+      href="../images/inzaghis-sites-favicon-36x36-icon-only.png"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="nav-header" id="navHeader">
+      <nav class="navbar" id="navbar">
+        <a href="../public/index.html" id="logo">
+          <img
+            src="../images/inzaghis-sites-logo-vertical-transparent.png"
+            title="Inzaghi's Sites"
+            height="60px"
+            alt="logo"
+          />
+        </a>
+        <div class="nav-menu-container">
+          <div class="nav-menu">
+            <ul>
+              <li>
+                <a href="../public/index.html">Home</a>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a>Blogs</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a
+                      href="https://medium.com/@izzumiposhaf29"
+                      class="dropdown-link"
+                      >Inzaghi's Group Blog</a
+                    >
+                    <a
+                      href="https://inzaghiposuma.wordpress.com/blog-posts"
+                      class="dropdown-link"
+                      >WordPress Blog</a
+                    >
+                  </nav>
+                </div>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a href="../pages/portals.html">Portals</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a href="../page-apps/widgets.html" class="dropdown-link"
+                      >Widgets</a
+                    >
+                    <a href="#" class="dropdown-link">Technology Tutorials</a>
+                    <a href="#" class="dropdown-link">IT Project Lists</a>
+                    <a href="#" class="dropdown-link">Intervs & Thesis Prep</a>
+                    <a href="#" class="dropdown-link">Materi Pembelajaran</a>
+                    <a href="#" class="dropdown-link">Video Pages</a>
+                    <a href="#" class="dropdown-link">Link Pages</a>
+                    <a href="#" class="dropdown-link">Miscellaneous</a>
+                  </nav>
+                </div>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a href="../pages/apps.html">Apps</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a href="../page-apps/converter.html" class="dropdown-link"
+                      >Converters</a
+                    >
+                    <a
+                      href="../page-apps/calculators.html"
+                      class="dropdown-link"
+                      >Calculators</a
+                    >
+                    <a href="../page-apps/generators.html" class="dropdown-link"
+                      >Generators</a
+                    >
+                    <a href="../page-apps/formatters.html" class="dropdown-link"
+                      >Formatters</a
+                    >
+                    <a
+                      href="../page-apps/file-converter.html"
+                      class="dropdown-link"
+                      >File Converter</a
+                    >
+                    <a href="../page-apps/utilities.html" class="dropdown-link"
+                      >Utilities</a
+                    >
+                    <a
+                      href="../page-apps/tester-tools.html"
+                      class="dropdown-link"
+                      >Tester Tools</a
+                    >
+                  </nav>
+                </div>
+              </li>
+              <li>
+                <a href="../pages/contact.html">Contact</a>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a>About & Profile</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a href="../pages/about.html" class="dropdown-link"
+                      >About</a
+                    >
+                    <a href="../pages/profile.html" class="dropdown-link"
+                      >Profile</a
+                    >
+                  </nav>
+                </div>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a href="../pages/networks.html">Inzaghi's Group</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a
+                      href="../inzaghis-group/inzaghis-blog.html"
+                      class="dropdown-link"
+                      >Inzaghi's Blog</a
+                    >
+                    <a
+                      href="../inzaghis-group/inzaghis-media.html"
+                      class="dropdown-link"
+                      >Inzaghi's Media</a
+                    >
+                  </nav>
+                </div>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a>Switch to</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a
+                      href="https://sites.google.com/view/inzaghis-sites"
+                      class="dropdown-link"
+                      >Old Inzaghi's Sites</a
+                    >
+                    <a
+                      href="https://inzaghiposuma.wordpress.com"
+                      class="dropdown-link"
+                      >WordPress Site</a
+                    >
+                    <a
+                      href="https://inzaghi-site.webflow.io"
+                      class="dropdown-link"
+                      >Preview (Webflow)</a
+                    >
+                  </nav>
+                </div>
+              </li>
+            </ul>
+            <div class="sign-in-button">
+              <a href="../includes/signin.html" class="main-button">Sign in</a>
+            </div>
+          </div>
+        </div>
+        <button class="menu-toggle" id="menu-toggle">
+          <span class="fas fa-bars bar"></span>
+        </button>
+        <div class="cancel-icon">
+          <span class="fas fa-times cross"></span>
+        </div>
+      </nav>
+    </div>
+    <div class="container-top"></div>
+  </body>
 </html>

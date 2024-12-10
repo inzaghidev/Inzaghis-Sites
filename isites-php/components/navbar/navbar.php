@@ -12,7 +12,12 @@
                             <div class="text-block dropdown-button">
                                 <a>Blogs</a>
                                 <div class="dropdown-icon">
-                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                    <svg class="angle-down-icon pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                        <title>chevron-down-outline</title>
+                                        <g fill="none">
+                                            <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </g>
+                                    </svg>
                                 </div>
                             </div>
                             <nav class="nav-dropdown-list nav-dropdown-list--open">
@@ -26,7 +31,12 @@
                         <div class="text-block dropdown-button">
                             <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a>
                             <div class="dropdown-icon">
-                                <ion-icon name="chevron-down-outline"></ion-icon>
+                                <svg class="angle-down-icon pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <title>chevron-down-outline</title>
+                                    <g fill="none">
+                                        <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
                             </div>
                         </div>
                         <nav class="nav-dropdown-list nav-dropdown-list--open">
@@ -49,7 +59,12 @@
                         <div class="text-block dropdown-button">
                             <a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a>
                             <div class="dropdown-icon">
-                                <ion-icon name="chevron-down-outline"></ion-icon>
+                                <svg class="angle-down-icon pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <title>chevron-down-outline</title>
+                                    <g fill="none">
+                                        <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
                             </div>
                         </div>
                         <nav class="nav-dropdown-list nav-dropdown-list--open">
@@ -63,7 +78,12 @@
                             <div class="text-block dropdown-button">
                                 <a>Switch to</a>
                                 <div class="dropdown-icon">
-                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                    <svg class="angle-down-icon pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                        <title>chevron-down-outline</title>
+                                        <g fill="none">
+                                            <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </g>
+                                    </svg>
                                 </div>
                             </div>
                             <nav class="nav-dropdown-list nav-dropdown-list--open">

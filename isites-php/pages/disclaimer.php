@@ -4,7 +4,7 @@
   include('../components/navbar/navbar.php');
 ?>
   <div class="container-top"></div>
-    <section class="privacy-policy">
+    <section class="page-background">
       <div class="page-container">
         <div class="page-title">
           <h1 class="page-title">DISCLAIMER</h1>

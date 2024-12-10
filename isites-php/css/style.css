@@ -259,7 +259,7 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.privacy-policy {
+.page-background {
   background-color: #f5f7fa;
   border-bottom: 1px solid #e4ebf3;
   padding: 60px 30px;
@@ -282,6 +282,8 @@ svg:not(:root) {
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
@@ -336,7 +338,6 @@ svg:not(:root) {
 
 .page-container {
   max-width: 1680px;
-  /*padding: 60px 30px;*/
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -788,6 +789,11 @@ svg:not(:root) {
 
 .text-center {
   text-align: center !important;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
 }
 
 .inzaghisblog-slider {
