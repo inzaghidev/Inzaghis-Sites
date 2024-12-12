@@ -39,7 +39,7 @@
   </section>
   <section class="page-apps">
     <div class="page-apps-container">
-      <h2 class="title-heading">Page Apps</h2>
+      <h2 class="title-heading">Apps</h2>
       <div class="text-container">
         <p class="text-description">
           Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
@@ -54,7 +54,7 @@
       </div>
       <section class="group-content">
         <div id="hcg-slider-1" class="hcg-slider">
-          <div class="hcg-slide-container content-description shadow-xl rounded-lg ring-1 ring-green-400">
+          <div class="hcg-slide-container content-description shadow-xl rounded-lg ring-1 ring-green-400 m-0">
             <div class="hcg-slider-body">
               <a class="hcg-slides animated" style="display: flex">
                 <span class="hcg-slide-number">1/6</span>
