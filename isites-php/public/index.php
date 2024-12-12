@@ -39,7 +39,7 @@
   </section>
   <section class="page-apps shadow">
     <div class="page-apps-container">
-      <h2 class="title-heading">Page Apps</h2>
+      <h2 class="title-heading">Apps</h2>
       <div class="text-container">
         <p class="text-description">
           Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
