@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -222,13 +226,16 @@ svg:not(:root) {
   );
 }
 
-.pages {
+.pages-background {
   background: linear-gradient(
     270deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(237, 241, 238, 1) 40%,
     rgba(255, 255, 255, 1) 100%
   );
+}
+
+.pages {
   max-width: 1680px;
   position: relative;
   margin-left: auto;
@@ -248,7 +255,7 @@ svg:not(:root) {
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: #1a1b1f;
   color: #fff;
   transition: all 0.2s;
@@ -258,7 +265,7 @@ svg:not(:root) {
 .main-button:hover {
   background-color: #555555;
   color: var(--color-white);
-  border-radius: 5px;
+  border-radius: 8px;
   text-decoration: none;
 }
 
@@ -491,6 +498,15 @@ svg:not(:root) {
   font-weight: bold;
 }
 
+.card-apps {
+  border-radius: 6px !important;
+}
+
+.card-img-apps {
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+}
+
 .card-name {
   margin-bottom: var(--margin-bottom-12);
   text-align: center;
@@ -499,7 +515,7 @@ svg:not(:root) {
   font-size: var(--font-size-28);
 }
 
-.card-apps {
+.card-description {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -561,7 +577,7 @@ svg:not(:root) {
   padding: 3px 5px;
   position: absolute;
   bottom: 0;
-  border-radius: 5px;
+  border-radius: 8px;
   margin-top: var(--margin-top-10);
   left: 50%;
   text-align: center;
@@ -619,7 +635,7 @@ svg:not(:root) {
   font-size: var(--font-size-12);
   padding: 4px 7px;
   position: absolute;
-  border-radius: 5px;
+  border-radius: 8px;
   top: 5px;
   left: 5px;
   background-color: rgba(255, 255, 255, 0.7);
@@ -791,6 +807,7 @@ svg:not(:root) {
   display: block;
   margin: 0 auto; /* Menengahkan tombol */
   text-align: center;
+  border-radius: 6px !important;
 }
 
 /* Optional: Style the button on hover */
@@ -805,6 +822,7 @@ svg:not(:root) {
   display: block;
   margin: 0 auto; /* Menengahkan tombol */
   text-align: center;
+  border-radius: 6px !important;
 }
 
 /* Optional: Style the button on hover */
@@ -1029,7 +1047,7 @@ svg:not(:root) {
   background-clip: border-box;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(5px);
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -1314,14 +1332,14 @@ svg:not(:root) {
   }
 
   .main-button {
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
   }
 
   .main-button:hover {
     background-color: #555555;
     color: var(--color-white);
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
   }
 
@@ -1526,7 +1544,7 @@ svg:not(:root) {
     float: right;
   }
 
-  .card-apps {
+  .card-description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -2258,7 +2276,7 @@ svg:not(:root) {
     float: right;
   }
 
-  .card-apps {
+  .card-description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

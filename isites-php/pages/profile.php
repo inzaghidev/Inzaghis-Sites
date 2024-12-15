@@ -4,11 +4,11 @@
   include('../components/navbar/navbar.php');
 ?>
   <div class="container-top"></div>
-  <div class="page-sub-container-full bg-gray-100">
+  <div class="pages-background page-sub-container-full bg-gray-100">
       <div class="container mx-auto py-8">
         <div class="grid grid-cols-4 lg:grid-cols-12 gap-6 px-4">
           <div class="col-span-4 sm:col-span-3">
-            <div class="bg-white shadow rounded-lg p-6">
+            <div class="bg-white shadow-lg shadow rounded-lg p-6">
               <div class="flex flex-col items-center">
                 <img
                   src="../images/inzaghi-posuma-alkahfi.jpg"
@@ -66,7 +66,7 @@
             </div>
           </div>
           <div class="col-span-4 sm:col-span-9">
-            <div class="bg-white shadow rounded-lg p-6">
+            <div class="bg-white shadow-lg shadow rounded-lg p-6">
               <h2 class="text-xl font-bold mb-4">About Me</h2>
               <p class="text-gray-700">
                 I'm majoring of Information Technology (IT) College Student in

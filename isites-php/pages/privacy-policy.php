@@ -20,7 +20,7 @@
               our Privacy Policy, do not hesitate to contact us.
             </p>
 
-            <h2>Log Files</h2>
+            <h2 class="text-3xl mb-6 font-semibold">Log Files</h2>
 
             <p class="is-desc">
               Inzaghi's Sites follows a standard procedure of using log files.
@@ -41,7 +41,7 @@
               >.
             </p>
 
-            <h2>Privacy Policies</h2>
+            <h2 class="text-3xl mb-6 font-semibold">Privacy Policies</h2>
 
             <p class="is-desc">
               You may consult this list to find the Privacy Policy for each of
@@ -57,7 +57,7 @@
               cookies that are used by third-party advertisers.
             </p>
 
-            <h2>Third Party Privacy Policies</h2>
+            <h2 class="text-3xl mb-6 font-semibold">Third Party Privacy Policies</h2>
 
             <p class="is-desc">
               Inzaghi's Sites's Privacy Policy does not apply to other
@@ -71,7 +71,7 @@
               websites. What Are Cookies?
             </p>
 
-            <h2>Children's Information</h2>
+            <h2 class="text-3xl mb-6 font-semibold">Children's Information</h2>
 
             <p class="is-desc">
               Another part of our priority is adding protection for children
@@ -85,7 +85,7 @@
               from our records.
             </p>
 
-            <h2>Online Privacy Policy Only</h2>
+            <h2 class="text-3xl mb-6 font-semibold">Online Privacy Policy Only</h2>
 
             <p class="is-desc">
               This Privacy Policy applies only to our online activities and is
@@ -95,7 +95,7 @@
               channels other than this website.
             </p>
 
-            <h2>Consent</h2>
+            <h2 class="text-3xl mb-6 font-semibold">Consent</h2>
 
             <p class="is-desc">
               By using our website, you hereby consent to our Privacy Policy and
