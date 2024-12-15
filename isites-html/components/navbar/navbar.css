@@ -296,7 +296,7 @@ li a:hover::after {
   background: none;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 6px;
   letter-spacing: 0.25px;
   padding: 8px 16px 8px 16px;
   font-size: 14px;
@@ -330,7 +330,7 @@ li a:hover::after {
   background: none;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 6px;
   letter-spacing: 0.25px;
   padding: 8px 19px 8px 18px;
   font-size: 14px;
@@ -375,7 +375,7 @@ li a:hover::after {
   background-color: var(--color-black);
   color: var(--color-white);
   text-align: center;
-  border-radius: 5px;
+  border-radius: 6px;
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
@@ -384,7 +384,7 @@ li a:hover::after {
   background-color: #555555;
   color: var(--color-white);
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 @media screen and (max-width: 1140px) {

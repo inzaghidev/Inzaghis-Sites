@@ -51,10 +51,10 @@
                   $link = isset($app['link']) ? $app['link'] : '#';
 
                   echo '<div class="col-md-4 col-sm-6 mb-4">';
-                  echo '  <div class="card h-100 shadow border border-success">';
+                  echo '  <div class="card card-apps h-100 shadow border border-success">';
                   echo '    <div class="card-body card-apps-body">';
                   echo '      <h5 class="card-title">' . $title . '</h5>';
-                  echo '      <p class="card-text card-apps">' . $text . '</p>';
+                  echo '      <p class="card-text card-description">' . $text . '</p>';
                   echo '      <a href="' . $link . '" class="btn btn-primary apps-button">Click here</a>';
                   echo '    </div>';
                   echo '  </div>';
