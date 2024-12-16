@@ -36,11 +36,11 @@
           />
           <div class="flex flex-col justify-between p-4 leading-normal flex-grow">
             <h5
-              class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-green-700"
+              class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-green-700"
             >
               Pages
             </h5>
-            <p class="mb-3 font-normal text-gray-700 text-gray-600">
+            <p class="mb-3 font-normal text-gray-600">
               Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
               Inzaghi's Sites. Dan juga sebagai kumpulan Materi,
               Proyek-proyek, hingga Tutorial Pemrograman.
@@ -71,11 +71,11 @@
           />
           <div class="flex flex-col justify-between p-4 leading-normal flex-grow">
             <h5
-              class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-green-700"
+              class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-green-700"
             >
               Widgets
             </h5>
-            <p class="mb-3 font-normal text-gray-700 text-gray-600">
+            <p class="mb-3 font-normal text-gray-600">
               Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
               Informasi seakurat mungkin. Widget di sini juga termasuk yang
               sedang heboh saat ini.
@@ -106,11 +106,11 @@
           />
           <div class="flex flex-col justify-between p-4 leading-normal flex-grow">
             <h5
-              class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-green-700"
+              class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-green-700"
             >
               Converters
             </h5>
-            <p class="mb-3 font-normal text-gray-700 text-gray-600">
+            <p class="mb-3 font-normal text-gray-600">
               Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
               Informasi seakurat mungkin. Widget di sini juga termasuk yang
               sedang heboh saat ini.
@@ -141,11 +141,11 @@
           />
           <div class="flex flex-col justify-between p-4 leading-normal flex-grow">
             <h5
-              class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-gray-900 text-green-700"
+              class="mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-green-700"
             >
               Calculators
             </h5>
-            <p class="mb-3 font-normal text-gray-700 text-gray-600">
+            <p class="mb-3 font-normal text-gray-600">
               Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
               Informasi seakurat mungkin. Widget di sini juga termasuk yang
               sedang heboh saat ini.
