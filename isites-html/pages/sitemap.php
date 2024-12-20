@@ -31,12 +31,12 @@
 
                             if (is_dir($currentPath)) {
                                 // If it's a directory, make it a clickable link
-                                echo str_repeat("&nbsp;", $level * 4) . "├── <a href='$relativePath'>$file/</a><br/>";
+                                echo str_repeat("&nbsp;", $level * 4) . "├── <a href='$relativePath' class='hover:text-blue-800'>$file/</a><br/>";
                                 // Recursive call for subdirectories
                                 generateSitemap($currentPath, $relativePath . '/', $level + 1);
                             } else {
                                 // If it's a file, just display the file name
-                                echo str_repeat("&nbsp;", $level * 4) . "├── <a href='$relativePath'>$file</a><br/>";
+                                echo str_repeat("&nbsp;", $level * 4) . "├── <a href='$relativePath' class='hover:text-blue-800'>$file</a><br/>";
                             }
 
                             echo "</li>";

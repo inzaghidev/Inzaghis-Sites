@@ -491,8 +491,8 @@ svg:not(:root) {
   float: right;
 }
 
-.text-title {
-  text-align: center;
+.card-apps-title {
+  text-align: left;
   font-family: var(--font-family);
   font-size: var(--font-size-24);
   font-weight: bold;
@@ -508,11 +508,7 @@ svg:not(:root) {
 }
 
 .card-name {
-  margin-bottom: var(--margin-bottom-12);
-  text-align: center;
   font-family: var(--font-family);
-  font-weight: 600;
-  font-size: var(--font-size-28);
 }
 
 .card-description {

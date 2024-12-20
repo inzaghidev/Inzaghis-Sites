@@ -118,9 +118,9 @@
                 // Loop through the apps data and create the HTML elements
                 apps.forEach((app) => {
                   const card = $(`
-                    <div class="bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-400">
-                      <h5 class="text-2xl font-bold text-gray-800">${app.title}</h5>
-                      <p class="text-gray-600 mt-2">${app.text}</p>
+                    <div class="bg-white shadow-xl flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-400">
+                      <h5 class="card-apps-title text-2xl font-bold text-gray-800">${app.title}</h5>
+                      <p class="text-gray-600 mt-2 mb-auto">${app.text}</p>
                       <div class="flex justify-center">
                         <a href="${app.link}" class="inline-block mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">Click here</a>
                       </div>

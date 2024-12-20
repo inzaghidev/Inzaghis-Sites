@@ -110,14 +110,14 @@
                   class="w-full h-full object-cover"
                 />
               </div>
-              <div class="p-6 text-center">
+              <div class="p-6 text-center flex flex-col flex-grow justify-between">
                 <h5
                   class="blog-name block mb-2 text-3xl sm:text-2xl lg:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Inzaghi's Blog Legacy
                 </h5>
                 <p
-                  class="blog-description block text-base antialiased font-light leading-relaxed text-inherit"
+                  class="blog-description mb-auto block text-base antialiased font-light leading-relaxed text-inherit"
                 >
                   Merupakan Blog Lama yang sudah tersedia sejak Tahun 2018,
                   tempat untuk memposting apapun itu.
@@ -151,14 +151,14 @@
                   class="w-full h-full object-cover"
                 />
               </div>
-              <div class="p-6 text-center">
+              <div class="p-6 text-center flex flex-col flex-grow justify-between">
                 <h5
                   class="blog-name block mb-2 text-3xl sm:text-2xl lg:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Teknoblog
                 </h5>
                 <p
-                  class="blog-description block text-base antialiased font-light leading-relaxed text-inherit"
+                  class="blog-description mb-auto block text-base antialiased font-light leading-relaxed text-inherit"
                 >
                   Merupakan Pindahan dari Blog Lama yang bernama Inzaghi's
                   Blog (Legacy), dan Artikel yang dikhususkan tentang
@@ -193,14 +193,14 @@
                   class="w-full h-full object-cover"
                 />
               </div>
-              <div class="p-6 text-center">
+              <div class="p-6 text-center flex flex-col flex-grow justify-between">
                 <h5
                   class="blog-name block mb-2 text-3xl sm:text-2xl lg:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Miniblog
                 </h5>
                 <p
-                  class="blog-description block text-base antialiased font-light leading-relaxed text-inherit"
+                  class="blog-description mb-auto block text-base antialiased font-light leading-relaxed text-inherit"
                 >
                   Merupakan Blog khusus Microblogging, terutama untuk
                   menyimpan Postingan Sederhana seperti Kode Program
