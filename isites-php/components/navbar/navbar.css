@@ -247,7 +247,7 @@ li a:hover::after {
 
 .dropdown-link {
   display: block;
-  padding: 10px;
+  padding: 8px;
   border-radius: 10px;
   color: var(--color-black);
   text-decoration: none;
@@ -260,8 +260,8 @@ li a:hover::after {
 
 .dropdown-link:hover {
   background-color: var(--dropdown-hover-background-color);
-  border-radius: 10px;
-  padding: 10px 10px;
+  border-radius: 8px;
+  padding: 8px 8px;
 }
 
 .nav-menu .dropdown-link::before {
@@ -399,6 +399,8 @@ li a:hover::after {
   .nav-menu-container {
     order: 5;
     width: 100vw;
+    transition: all, transform 400ms;
+    transform: translateY(0px) translateX(0px);
   }
 
   .nav-menu {
@@ -804,13 +806,13 @@ li a:hover::after {
 
   .dropdown .dropdown-link {
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 8px 8px;
   }
 
   .dropdown.active .dropdown-link:hover {
     background-color: var(--dropdown-hover-background-color);
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 8px 8px;
   }
 
   .menu-toggle {

@@ -421,7 +421,7 @@
                   </ul>
                 </section>
                 <section class="skills-section py-3">
-                    <h3 class="item-title">Contact</h3>
+                    <h3 class="item-title">CONTACT</h3>
                     <br />
                     <ul class="resume-interests-list row row-cols-sm-6 row-cols-md-3 mb-0">
                       <button type="button" class="btn btn-primary">

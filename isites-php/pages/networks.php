@@ -58,14 +58,14 @@
         <div class="container inzaghisblog">
           <div class="row">
             <div class="col-md-4 col-sm-6 mb-4">
-              <div class="card h-100 border-0 shadow">
+              <div class="card card-apps h-100 border-0 shadow">
                 <img
                   src="../images/inzaghis-blog-legacy.png"
-                  class="card-img-top"
+                  class="card-img-apps card-img-top"
                   alt="Inzaghi's Blog Legacy"
                 />
                 <div class="card-body text-center blog-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title blog-name">Inzaghi's Blog Legacy</h5>
                     <p class="card-text blog-description">
                       Merupakan Blog Lama yang sudah tersedia sejak Tahun 2018,
@@ -87,14 +87,14 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-6 mb-4">
-              <div class="card h-100 border-0 shadow">
+              <div class="card card-apps h-100 border-0 shadow">
                 <img
                   src="../images/teknoblog-by-inzaghis-blog.png"
-                  class="card-img-top"
+                  class="card-img-apps card-img-top"
                   alt="Teknoblog - Inzaghi's Blog"
                 />
                 <div class="card-body text-center blog-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title blog-name">Teknoblog</h5>
                     <p class="card-text blog-description">
                       Merupakan Pindahan dari Blog Lama yang bernama Inzaghi's
@@ -117,14 +117,14 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-6 mb-4">
-              <div class="card h-100 border-0 shadow">
+              <div class="card card-apps h-100 border-0 shadow">
                 <img
                   src="../images/miniblog-by-inzaghis-blog.png"
-                  class="card-img-top"
+                  class="card-img-apps card-img-top"
                   alt="Miniblog - Inzaghi's Blog"
                 />
                 <div class="card-body text-center blog-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title blog-name">Miniblog</h5>
                     <p class="card-text blog-description">
                       Merupakan Blog khusus Microblogging, terutama untuk
@@ -183,7 +183,7 @@
                 alt="Instagram Logo"
               />
               <div class="card-body text-center socmed-text">
-                <div class="card-apps">
+                <div class="card-description">
                   <h5 class="card-title socmed-name">Instagram</h5>
                   <p class="card-text socmed-description">
                     Sebagai Postingan berbentuk Gambar Persegi dan sebagai
@@ -207,7 +207,7 @@
                 alt="TikTok Logo"
               />
               <div class="card-body text-center socmed-text">
-                <div class="card-apps">
+                <div class="card-description">
                   <h5 class="card-title socmed-name">TikTok</h5>
                   <p class="card-text socmed-description">
                     Sebagai Postingan berbentuk Video Vertikal (Portrait) yang
@@ -232,7 +232,7 @@
                 alt="YouTube Logo"
               />
               <div class="card-body text-center socmed-text">
-                <div class="card-apps">
+                <div class="card-description">
                   <h5 class="card-title socmed-name">YouTube</h5>
                   <p class="card-text socmed-description">
                     Sebagai sebuah Channel yang berbentuk Video seperti
@@ -256,7 +256,7 @@
                 alt="Twitter Logo"
               />
               <div class="card-body text-center socmed-text">
-                <div class="card-apps">
+                <div class="card-description">
                   <h5 class="card-title socmed-name">X (Twitter)</h5>
                   <p class="card-text socmed-description">
                     Sebagai Postingan berbentuk Infografis, Tweet, hingga
@@ -280,7 +280,7 @@
                 alt="Threads Logo"
               />
               <div class="card-body text-center socmed-text">
-                <div class="card-apps">
+                <div class="card-description">
                   <h5 class="card-title socmed-name">Threads</h5>
                   <p class="card-text socmed-description">
                     Sama seperti di X, Sebagai Postingan berbentuk Infografis,

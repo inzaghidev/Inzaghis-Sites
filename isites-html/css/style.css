@@ -460,8 +460,8 @@ svg:not(:root) {
   float: right;
 }
 
-.text-title {
-  text-align: center;
+.card-apps-title {
+  text-align: left;
   font-family: var(--font-family);
   font-size: var(--font-size-24);
   font-weight: bold;
