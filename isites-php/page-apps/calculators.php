@@ -71,7 +71,7 @@
                 // Loop through each app data and create the HTML structure
                 foreach ($apps as $app) {
                     echo '<div class="col-md-4 col-sm-6 mb-4">';
-                    echo '  <div class="card h-100 border border-success">';
+                    echo '  <div class="card card-apps h-100 shadow border border-success">';
                     echo '    <div class="card-body card-apps-body">';
                     echo '      <h5 class="card-title">' . $app["title"] . '</h5>';
                     echo '      <p class="card-text card-apps">' . $app["text"] . '</p>';
