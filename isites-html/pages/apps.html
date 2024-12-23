@@ -122,6 +122,45 @@
               <li class="dropdown">
                 <div class="nav-dropdown-toggle w-dropdown-toggle">
                   <div class="text-block dropdown-button">
+                    <a href="../pages/portals.html">Portals</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a href="../page-apps/widgets.html" class="dropdown-link"
+                      >Widgets</a
+                    >
+                    <a href="#" class="dropdown-link">Technology Tutorials</a>
+                    <a href="#" class="dropdown-link">IT Project Lists</a>
+                    <a href="#" class="dropdown-link">Intervs & Thesis Prep</a>
+                    <a href="#" class="dropdown-link">Materi Pembelajaran</a>
+                    <a href="#" class="dropdown-link">Video Pages</a>
+                    <a href="#" class="dropdown-link">Link Pages</a>
+                    <a href="#" class="dropdown-link">Miscellaneous</a>
+                  </nav>
+                </div>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
                     <a href="../pages/apps.html">Apps</a>
                     <div class="dropdown-icon">
                       <svg
@@ -178,11 +217,40 @@
               <li>
                 <a href="../pages/contact.html">Contact</a>
               </li>
-              <li>
-                <a href="../pages/profile.html">Profile</a>
-              </li>
-              <li>
-                <a href="../pages/about.html">About</a>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a>About & Profile</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a href="../pages/about.html" class="dropdown-link"
+                      >About</a
+                    >
+                    <a href="../pages/profile.html" class="dropdown-link"
+                      >Profile</a
+                    >
+                  </nav>
+                </div>
               </li>
               <li class="dropdown">
                 <div class="nav-dropdown-toggle w-dropdown-toggle">
@@ -435,7 +503,7 @@
 
               // Buat elemen deskripsi card
               const description = $("<p></p>")
-                .addClass("card-text")
+                .addClass("card-apps-text card-text")
                 .text(app.description);
 
               // Buat elemen tombol
@@ -592,3 +660,5 @@
 
 <!-- https://startbootstrap.com/snippets/portfolio-four-column -->
 <!-- https://freefrontend.com/bootstrap-grid-examples -->
+
+<!-- https://www.geeksforgeeks.org/bootstrap-5-cards-horizontal -->

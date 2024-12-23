@@ -41,7 +41,7 @@
               <div class="card-body card-apps-body">
                   <div class="card-description">
                       <h4 class="card-name card-title page-apps-card"><a><?php echo $name; ?></a></h4>
-                      <p class="card-text"><?php echo $description; ?></p>
+                      <p class="card-apps-text card-text"><?php echo $description; ?></p>
                   </div>
                   <button type="button" class="btn btn-primary btn-md apps-button"><a href="<?php echo $link; ?>" class="blog-link">Click here</a></button>
               </div>

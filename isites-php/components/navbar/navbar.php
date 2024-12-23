@@ -29,6 +29,31 @@
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
                         <div class="text-block dropdown-button">
+                            <a href="<?php echo $pathToWebRoot.'/portals/'; ?>">Portals</a>
+                            <div class="dropdown-icon">
+                                <svg class="angle-down-icon pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                    <title>chevron-down-outline</title>
+                                    <g fill="none">
+                                        <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <nav class="nav-dropdown-list nav-dropdown-list--open">
+                            <a href="<?php echo $pathToWebRoot.'/page-apps/widgets.php'; ?>" class="dropdown-link">Widgets</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/tech-tutorials.php'; ?>" class="dropdown-link">Technology Tutorials</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/projects.php'; ?>" class="dropdown-link">IT Project Lists</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/interviews-and-thesis.php'; ?>" class="dropdown-link">Intervs &amp; Thesis Prep</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/file-converter.php'; ?>" class="dropdown-link">Materi Pembelajaran</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/utilities.php'; ?>" class="dropdown-link">Video Pages</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/tester-tools.php'; ?>" class="dropdown-link">Link Pages</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/miscellaneous.php'; ?>" class="dropdown-link">Miscellaneous</a>
+                        </nav>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <div class="nav-dropdown-toggle w-dropdown-toggle">
+                        <div class="text-block dropdown-button">
                             <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a>
                             <div class="dropdown-icon">
                                 <svg class="angle-down-icon pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
@@ -51,8 +76,25 @@
                         </div>
                     </li>
                     <li><a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>">Contact</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>">Profile</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>">About</a></li>
+                    <li class="dropdown">
+                        <div class="nav-dropdown-toggle w-dropdown-toggle">
+                            <div class="text-block dropdown-button">
+                                <a>About & Profile</a>
+                                <div class="dropdown-icon">
+                                    <svg class="angle-down-icon pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                                        <title>chevron-down-outline</title>
+                                        <g fill="none">
+                                            <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                            <nav class="nav-dropdown-list nav-dropdown-list--open">
+                                <a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>" class="dropdown-link">About</a>
+                                <a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>" class="dropdown-link">Porfile</a>
+                            </nav>
+                        </div>
+                    </li>
                     <!--li><a href="<?php //echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a></li-->
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
