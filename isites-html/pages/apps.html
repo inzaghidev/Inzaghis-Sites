@@ -160,6 +160,63 @@
               <button
                 class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none"
               >
+                <a href="../pages/portals.html">Portals</a>
+                <svg
+                  class="w-3 h-3 pointer-events-none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <title>chevron-down</title>
+                  <g fill="none">
+                    <path
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <div
+                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-200 text-white rounded-lg py-2 shadow-xl lg:group-hover:block lg:rounded-t-none lg:rounded-tr-lg"
+              >
+                <a
+                  href="../page-apps/widgets.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
+                  >Widgets</a
+                >
+                <a href="#" class="block px-6 py-2 text-black hover:bg-gray-300"
+                  >Technology Tutorials</a
+                >
+                <a href="#" class="block px-6 py-2 text-black hover:bg-gray-300"
+                  >IT Project Lists</a
+                >
+                <a href="#" class="block px-6 py-2 text-black hover:bg-gray-300"
+                  >Intervs & Thesis Prep
+                </a>
+                <a href="#" class="block px-6 py-2 text-black hover:bg-gray-300"
+                  >Materi Pembelajaran</a
+                >
+                <a href="#" class="block px-6 py-2 text-black hover:bg-gray-300"
+                  >Video Pages</a
+                >
+                <a href="#" class="block px-6 py-2 text-black hover:bg-gray-300"
+                  >Link Pages</a
+                >
+                <a href="#" class="block px-6 py-2 text-black hover:bg-gray-300"
+                  >Miscellaneous</a
+                >
+              </div>
+            </div>
+            <div
+              class="hover:bg-gray-200 gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none block group"
+            >
+              <button
+                class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none"
+              >
                 <a href="../pages/apps.html">Apps</a>
                 <svg
                   class="w-3 h-3 pointer-events-none"
@@ -225,16 +282,47 @@
               class="py-2 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
               >Contact</a
             >
-            <a
-              href="../pages/profile.html"
-              class="py-2 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
-              >Profile</a
+            <div
+              class="hover:bg-gray-200 gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none block group"
             >
-            <a
-              href="../pages/about.html"
-              class="py-2 px-3 hover:bg-gray-200 gap-2 rounded-lg block"
-              >About</a
-            >
+              <button
+                class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none"
+              >
+                <span class="pointer-events-none">About & Profile</span>
+                <svg
+                  class="w-3 h-3 pointer-events-none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <title>chevron-down</title>
+                  <g fill="none">
+                    <path
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <div
+                class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-200 text-white rounded-lg py-2 shadow-xl lg:group-hover:block lg:rounded-t-none lg:rounded-tr-lg"
+              >
+                <a
+                  href="../pages/about.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
+                  >About</a
+                >
+                <a
+                  href="../pages/profile.html"
+                  class="block px-6 py-2 text-black hover:bg-gray-300"
+                  >Profile</a
+                >
+              </div>
+            </div>
             <div
               class="hover:bg-gray-200 gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none block group"
             >
@@ -351,7 +439,7 @@
         </p>
 
         <div
-          class="grid grid-cols-4 md:grid-cols-12 gap-6 lg:px-16 xl:px-0 justify-center"
+          class="grid grid-cols-4 md:grid-cols-12 gap-6 lg:px-16 xl:px-0 justify-center -mx-2 sm:mx-0"
           id="app-container"
         >
           <!-- Dynamic content will be inserted here by jQuery -->
@@ -445,7 +533,7 @@
             <img class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none xl:rounded-l-lg" src="${app.imgSrc}" alt="${app.name}" />
             <div class="flex flex-col justify-between p-4 leading-normal flex-grow">
               <h5 class="card-name mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-green-700">${app.name}</h5>
-              <p class="mb-3 font-normal text-gray-600">${app.description}</p>
+              <p class="card-apps-text mb-3 font-normal text-gray-600">${app.description}</p>
               <div class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start">
                 <a href="${app.link}" class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Click here</a>
               </div>

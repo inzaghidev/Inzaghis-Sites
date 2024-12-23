@@ -51,7 +51,7 @@
 
             echo '<div class="bg-white shadow-xl flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-400">';
             echo '  <h5 class="card-apps-title text-2xl font-bold text-gray-800">' . $title . '</h5>';
-            echo '  <p class="text-gray-600 mt-2 mb-auto">' . $text . '</p>';
+            echo '  <p class="card-apps-text text-gray-600 mt-2 mb-auto">' . $text . '</p>';
             echo '  <div class="flex justify-center">';
             echo '    <a href="' . $link . '" class="inline-block mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">Click here</a>';
             echo '  </div>';

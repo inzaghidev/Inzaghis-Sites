@@ -22,7 +22,7 @@
       Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman, Widget, Konverter, Kalkulator, dan lainnya.
     </p>
 
-    <div class="grid grid-cols-4 md:grid-cols-12 gap-6 lg:px-16 xl:px-0 justify-center">
+    <div class="grid grid-cols-4 md:grid-cols-12 gap-6 lg:px-16 xl:px-0 justify-center -mx-2 sm:mx-0">
       <div
         class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 md:col-span-12 lg:col-span-6 shadow rounded-lg p-4 mx-auto ring-1 ring-gray-200"
       >
@@ -40,7 +40,7 @@
             >
               Pages
             </h5>
-            <p class="mb-3 font-normal text-gray-600">
+            <p class="card-apps-text mb-3 font-normal text-gray-600">
               Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
               Inzaghi's Sites. Dan juga sebagai kumpulan Materi,
               Proyek-proyek, hingga Tutorial Pemrograman.
@@ -75,7 +75,7 @@
             >
               Widgets
             </h5>
-            <p class="mb-3 font-normal text-gray-600">
+            <p class="card-apps-text mb-3 font-normal text-gray-600">
               Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
               Informasi seakurat mungkin. Widget di sini juga termasuk yang
               sedang heboh saat ini.
@@ -110,7 +110,7 @@
             >
               Converters
             </h5>
-            <p class="mb-3 font-normal text-gray-600">
+            <p class="card-apps-text mb-3 font-normal text-gray-600">
               Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
               Informasi seakurat mungkin. Widget di sini juga termasuk yang
               sedang heboh saat ini.
@@ -145,7 +145,7 @@
             >
               Calculators
             </h5>
-            <p class="mb-3 font-normal text-gray-600">
+            <p class="card-apps-text mb-3 font-normal text-gray-600">
               Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
               Informasi seakurat mungkin. Widget di sini juga termasuk yang
               sedang heboh saat ini.

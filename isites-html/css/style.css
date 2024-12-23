@@ -518,6 +518,11 @@ svg:not(:root) {
   margin-bottom: 8vh;
 }
 
+.card-apps-text {
+  font-family: var(--font-family);
+  font-size: var(--font-size-14);
+}
+
 .card-apps-body {
   display: flex;
   flex-direction: column;

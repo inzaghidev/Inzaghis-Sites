@@ -40,6 +40,34 @@
         <div class="hover:bg-gray-200 gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none block group">
           <button
             class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg">
+            <a href="<?php echo $pathToWebRoot.'/portals/'; ?>">Portals</a>
+            <svg
+              class="w-3 h-3 pointer-events-none"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24">
+              <title>chevron-down</title>
+              <g fill="none">
+                <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </g>
+            </svg>
+          </button>
+          <div
+            class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-200 text-white rounded-lg py-2 shadow-xl lg:group-hover:block lg:rounded-t-none lg:rounded-tr-lg">
+            <a href="<?php echo $pathToWebRoot.'/page-apps/widgets.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Widgets</a>
+            <a href="<?php echo $pathToWebRoot.'/portals/tech-tutorials.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Technology Tutorials</a>
+            <a href="<?php echo $pathToWebRoot.'/portals/projects.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">IT Project Lists</a>
+            <a href="<?php echo $pathToWebRoot.'/portals/interviews-and-thesis.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Intervs &amp; Thesis Prep</a>
+            <a href="<?php echo $pathToWebRoot.'/portals/file-converter.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Materi Pembelajaran</a>
+            <a href="<?php echo $pathToWebRoot.'/portals/utilities.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Video Pages</a>
+            <a href="<?php echo $pathToWebRoot.'/portals/tester-tools.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Link Pages</a>
+            <a href="<?php echo $pathToWebRoot.'/portals/miscellaneous.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Miscellaneous</a>
+          </div>
+        </div>
+        <div class="hover:bg-gray-200 gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none block group">
+          <button
+            class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg">
             <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a>
             <svg
               class="w-3 h-3 pointer-events-none"
@@ -65,8 +93,21 @@
           </div>
         </div>
         <a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="py-2 px-3 hover:bg-gray-200 gap-2 rounded-lg block">Contact</a>
-        <a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>" class="py-2 px-3 hover:bg-gray-200 gap-2 rounded-lg block">Profile</a>
-        <a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>" class="py-2 px-3 hover:bg-gray-200 gap-2 rounded-lg block">About</a>
+        <div class="hover:bg-gray-200 gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none block group">
+          <button class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg">
+            <span class="pointer-events-none">About & Profile</span>
+            <svg class="w-3 h-3 pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <title>chevron-down</title>
+              <g fill="none">
+                <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </g>
+            </svg>
+          </button>
+          <div class="nav-drpdwn-list dropdown-menu lg:absolute hidden bg-opacity-95 bg-gray-200 text-white rounded-lg py-2 shadow-xl lg:group-hover:block lg:rounded-t-none lg:rounded-tr-lg">
+            <a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">About</a>
+            <a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Profile</a>
+          </div>
+        </div>
         <div class="hover:bg-gray-200 gap-2 rounded-lg lg:rounded-t-lg lg:rounded-b-none block group">
           <button
             class="dropdown-toggle py-2 px-3 hover:bg-gray-200 flex items-center gap-2 rounded-lg">

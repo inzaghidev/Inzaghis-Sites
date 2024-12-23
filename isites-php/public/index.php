@@ -233,7 +233,7 @@
         terutama seputar IT.
       </p>
       <div class="container inzaghismedia">
-        <div class="row">
+        <div class="row -mx-4 sm:-mx-2">
           <div
             class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           >

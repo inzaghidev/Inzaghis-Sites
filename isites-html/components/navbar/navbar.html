@@ -115,7 +115,7 @@
       >
         <a
           href="../../public/index.html"
-          class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded block"
+          class="py-2 py-2 px-3 hover:bg-gray-300 gap-2 rounded-lg block"
           >Home</a
         >
         <a
@@ -724,7 +724,9 @@
         </div>
       </div>
       <!-- Mobile Menu Items -->
-      <nav class="px-4 py-2 space-y-2">
+      <nav
+        class="px-4 py-2 space-y-2 overflow-y-auto h-[calc(100%-6rem)] max-h-full"
+      >
         <a
           href="#"
           class="block text-gray-900 hover:bg-gray-100 py-2 px-4 rounded"
@@ -760,21 +762,12 @@
           class="block text-gray-900 hover:bg-gray-100 py-2 px-4 rounded"
           >Inzaghi's Group</a
         >
-        <a
-          href="#"
-          class="block text-gray-900 hover:bg-gray-100 py-2 px-4 rounded"
-          >Switch to</a
-        >
-        <div
-          class="relative group"
-          @mouseenter="dropdown = 'switch-sites-mobile'"
-          @mouseleave="dropdown = null"
-        >
+        <div x-data="{ dropdownOpen: false }" class="relative">
           <button
-            @click="open = !open"
-            class="block text-gray-900 hover:bg-gray-100 rounded w-full items-center flex gap-2 py-2 px-4"
+            @click="dropdownOpen = !dropdownOpen"
+            class="block text-gray-900 hover:bg-gray-100 rounded-lg w-full items-center flex gap-2 py-2 px-4"
           >
-            <span class="pointer-events-none">Switch to</span>
+            <span class="pointer-events-none">Inzaghi's Group</span>
             <svg
               class="w-3 h-3 pointer-events-none"
               xmlns="http://www.w3.org/2000/svg"
@@ -783,7 +776,7 @@
               height="24"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              :class="{ 'rotate-180': dropdown === 'switch-sites-mobile' }"
+              :class="{ 'rotate-180': dropdownOpen }"
             >
               <title>chevron-down</title>
               <path
@@ -795,9 +788,53 @@
             </svg>
           </button>
           <div
-            x-show="dropdown === 'switch-sites-mobile'"
+            x-show="dropdownOpen"
             x-transition
-            class="nav-drpdwn-list w-full px-2 py-2 absolute right-0 w-48 mt-2 origin-top-right rounded-lg shadow-lg bg-gray-100 bg-opacity-90 backdrop-filter backdrop-blur-lg dark-mode:bg-gray-900"
+            @click.away="dropdownOpen = false"
+            class="nav-drpdwn-list w-full px-2 py-2 absolute right-0 mt-2 origin-top-right rounded-lg shadow-lg bg-gray-100 bg-opacity-90 backdrop-filter backdrop-blur-lg dark-mode:bg-gray-900"
+          >
+            <a
+              href="../../inzaghis-group/inzaghis-blog.html"
+              class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+              >Inzaghi's Blog</a
+            >
+            <a
+              href="../../inzaghis-group/inzaghis-media.html"
+              class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+              >Inzaghi's Media</a
+            >
+          </div>
+        </div>
+        <div x-data="{ dropdownOpen: false }" class="relative">
+          <button
+            @click="dropdownOpen = !dropdownOpen"
+            class="block text-gray-900 hover:bg-gray-100 rounded-lg w-full items-center flex gap-2 py-2 px-4"
+          >
+            <span class="pointer-events-none">Switch to</span>
+            <svg
+              class="w-3 h-3 pointer-events-none"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              :class="{ 'rotate-180': dropdownOpen }"
+            >
+              <title>chevron-down</title>
+              <path
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </button>
+          <div
+            x-show="dropdownOpen"
+            x-transition
+            @click.away="dropdownOpen = false"
+            class="nav-drpdwn-list w-full px-2 py-2 absolute right-0 mt-2 origin-top-right rounded-lg shadow-lg bg-gray-100 bg-opacity-90 backdrop-filter backdrop-blur-lg dark-mode:bg-gray-900"
           >
             <a
               href="https://sites.google.com/view/inzaghis-sites"
