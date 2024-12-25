@@ -40,7 +40,7 @@
   <section class="page-apps">
     <div class="page-apps-container">
       <h2 class="title-heading">Apps</h2>
-      <div class="text-container">
+      <div class="text-container mb-8">
         <p class="text-description">
           Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
           kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman,

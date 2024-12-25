@@ -14,7 +14,7 @@
             class="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12"
           >
             <h2
-              class="font-heading mb-4 font-bold tracking-tight text-green-700 light:text-green-800 text-3xl sm:text-5xl"
+              class="page-title font-heading mb-4 font-bold tracking-tight text-green-700 light:text-green-800 text-3xl sm:text-5xl"
             >
               Contact Us
             </h2>
@@ -23,7 +23,7 @@
         <div class="flex items-stretch justify-center">
           <div class="grid md:grid-cols-2">
             <div class="h-full pr-6">
-              <p class="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-600">
+              <p class="font-[Inter] mt-3 mb-12 text-md text-gray-600 dark:text-slate-600">
                 Do you have any questions? Please do not hesitate to contact us
                 directly. Our team will come back to you within a matter of
                 hours to help you.
@@ -53,15 +53,15 @@
                   </div>
                   <div class="ml-4 mb-4">
                     <h3
-                      class="mb-2 text-lg font-medium leading-6 text-gray-900 light:text-black"
+                      class="font-[Inter] mb-2 text-lg font-bold leading-6 text-gray-900 light:text-black"
                     >
                       Our Address
                     </h3>
-                    <p class="text-gray-600 dark:text-slate-600">
+                    <p class="font-[Inter] text-sm text-gray-600 dark:text-slate-600">
                       Jl. K. H. Hasyim Ashari Perum. Banjar Wijaya Cluster
                       Cemara 1 RT. 04/RW. 013 Blok. B1. No. 32
                     </p>
-                    <p class="text-gray-600 dark:text-slate-600">
+                    <p class="font-[Inter] text-sm text-gray-600 dark:text-slate-600">
                       Tangerang, Banten 15142, Indonesia
                     </p>
                   </div>
@@ -91,14 +91,14 @@
                   </div>
                   <div class="ml-4 mb-4">
                     <h3
-                      class="mb-2 text-lg font-medium leading-6 text-gray-900 light:text-black"
+                      class="font-[Inter] mb-2 text-lg font-bold leading-6 text-gray-900 light:text-black"
                     >
                       Contact
                     </h3>
-                    <p class="text-gray-600 dark:text-slate-600">
+                    <p class="font-[Inter] text-sm text-gray-600 dark:text-slate-600">
                       Mobile : (+62) 813 4396 1494
                     </p>
-                    <p class="text-gray-600 dark:text-slate-600">
+                    <p class="font-[Inter] text-sm text-gray-600 dark:text-slate-600">
                       Email : izzumiposhaf29@gmail.com
                     </p>
                   </div>
@@ -106,7 +106,7 @@
               </ul>
             </div>
             <div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
-              <h2 class="mb-4 text-2xl font-bold light:text-black">
+              <h2 class="font-[Inter] mb-4 text-2xl font-bold light:text-black">
                 Ready to Get Started?
               </h2>
               <form id="contactForm">
@@ -159,7 +159,7 @@
                 <div class="text-center">
                   <button
                     type="submit"
-                    class="w-full bg-green-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0"
+                    class="w-full bg-green-800 hover:bg-green-700 text-white px-6 py-3 font-xl rounded-lg sm:mb-0 shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none hover:text-white"
                   >
                     Send Message
                   </button>

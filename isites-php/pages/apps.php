@@ -50,12 +50,13 @@
             <div
               class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
             >
-              <a
-                href="../page-apps/pages.php"
-                class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              <button
+                type="button"
+                onclick="window.open('../page-apps/pages', '_blank')"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
               >
                 Click here
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -85,12 +86,13 @@
             <div
               class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
             >
-              <a
-                href="../page-apps/widgets.php"
-                class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              <button
+                type="button"
+                onclick="window.open('../page-apps/widgets.php', '_blank')"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
               >
                 Click here
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -120,12 +122,13 @@
             <div
               class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start"
             >
-              <a
-                href="../page-apps/converter.php"
-                class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              <button
+                type="button"
+                onclick="window.location.href = '../page-apps/converter.php';"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
               >
                 Click here
-              </a>
+              </button>
             </div>
           </div>
         </div>

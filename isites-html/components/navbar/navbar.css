@@ -380,6 +380,11 @@ li a:hover::after {
   color: var(--color-white);
   text-decoration: none;
   border-radius: 8px;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
 }
 
 @media screen and (max-width: 1024px) {
@@ -548,6 +553,11 @@ li a:hover::after {
   .sign-in-button:hover .active {
     background-color: #555555;
     color: white;
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
   }
 }
 

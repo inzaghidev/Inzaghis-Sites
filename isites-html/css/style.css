@@ -267,6 +267,22 @@ svg:not(:root) {
   color: var(--color-white);
   border-radius: 8px;
   text-decoration: none;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
+}
+
+.main-button:focus {
+  opacity: 0.85;
+  box-shadow: none;
+  box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
+}
+
+.main-button:active {
+  opacity: 0.85;
+  box-shadow: none;
 }
 
 .about-inzaghis-sites {
@@ -764,14 +780,13 @@ svg:not(:root) {
   text-align: center;
   padding: var(--padding-20);
   box-sizing: border-box;
-  max-width: 1080px;
+  max-width: max-content;
 }
 
 .group-content {
   display: flex;
   align-items: center;
   max-width: 100%;
-  margin-top: var(--margin-top-20);
 }
 
 .reverse-content {
@@ -1154,6 +1169,7 @@ svg:not(:root) {
   justify-content: space-between;
   align-items: center;
   margin-top: var(--margin-top-20);
+  margin-bottom: var(--margin-top-20);
   display: flex;
 }
 
@@ -1342,6 +1358,16 @@ svg:not(:root) {
     color: var(--color-white);
     border-radius: 8px;
     text-decoration: none;
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
+  }
+
+  .main-button:focus {
+    opacity: 0.85;
+    box-shadow: none;
   }
 
   .about-inzaghis-sites {
@@ -1537,6 +1563,7 @@ svg:not(:root) {
     justify-content: space-between;
     align-items: center;
     margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-top-20);
   }
 
   .about-us-image-to-inzaghis-group img {
@@ -2059,6 +2086,16 @@ svg:not(:root) {
     background-color: #555555;
     color: var(--color-white);
     text-decoration: none;
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
+  }
+
+  .main-button:focus {
+    opacity: 0.85;
+    box-shadow: none;
   }
 
   .about-inzaghis-sites {

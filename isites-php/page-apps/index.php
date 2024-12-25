@@ -40,9 +40,9 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
                 <h5 class="card-name mb-3 text-3xl font-bold text-center md:text-left lg:text-center xl:text-left tracking-tight text-green-700"><?php echo $name; ?></h5>
                 <p class="card-apps-text mb-3 font-normal text-gray-600"><?php echo $description; ?></p>
                 <div class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start">
-                  <a href="<?php echo $link; ?>" class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                  <button type="button" onclick="window.location.href = '<?php echo $link; ?>';" class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
                     Click here
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
