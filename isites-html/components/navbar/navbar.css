@@ -208,7 +208,7 @@ li a:hover::after {
 }
 
 .nav-dropdown-list--open {
-  padding: 10px 10px;
+  padding: 8px 8px !important;
 }
 
 .nav-dropdown-toggle {
@@ -473,6 +473,10 @@ li a:hover::after {
     left: auto;
     right: auto;
     padding: 10px; /* Samakan padding dengan .dropdown */
+  }
+
+  .nav-dropdown-list--open {
+    padding: 8px 8px !important;
   }
 
   .nav-dropdown-toggle {

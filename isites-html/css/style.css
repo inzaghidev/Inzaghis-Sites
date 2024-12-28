@@ -505,6 +505,17 @@ svg:not(:root) {
   color: #28a745;
 }
 
+.card-portals-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-portals-name {
+  font-weight: 600;
+  font-size: var(--font-size-28);
+  font-family: var(--font-family);
+}
+
 #hcg-slider-1 .hcg-slide-container {
   width: auto;
   height: auto;
@@ -929,6 +940,12 @@ svg:not(:root) {
   bottom: 20px;
   right: 2em;
   left: 2em;
+}
+
+.portal-button {
+  position: absolute;
+  bottom: 20px;
+  right: 2em;
 }
 
 .primary-button {
