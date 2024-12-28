@@ -240,7 +240,7 @@
             <div
               class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600"
             >
-              <div class="p-6">
+              <div class="p-6 mb-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -309,7 +309,7 @@
             <div
               class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600"
             >
-              <div class="p-6">
+              <div class="p-6 mb-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -368,7 +368,7 @@
             <div
               class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600"
             >
-              <div class="p-6">
+              <div class="p-6 mb-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -430,7 +430,7 @@
             <div
               class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600"
             >
-              <div class="p-6">
+              <div class="p-6 mb-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -488,7 +488,7 @@
             <div
               class="relative flex flex-col mt-6 text-gray-700 bg-red-100 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600"
             >
-              <div class="p-6">
+              <div class="p-6 mb-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"

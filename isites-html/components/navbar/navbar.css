@@ -215,7 +215,7 @@ li a:hover::after {
 }
 
 .nav-dropdown-list--open {
-  padding: 10px 10px;
+  padding: 8px 8px !important;
 }
 
 .dropdown-button {
@@ -258,8 +258,8 @@ li a:hover::after {
 
 .dropdown-link:hover {
   background-color: var(--dropdown-hover-background-color);
-  border-radius: 10px;
-  padding: 10px 10px;
+  border-radius: 8px;
+  padding: 8px 8px;
 }
 
 .nav-menu .dropdown-link::before {
@@ -483,6 +483,10 @@ li a:hover::after {
     left: auto;
     right: auto;
     padding: 10px; /* Samakan padding dengan .dropdown */
+  }
+
+  .nav-dropdown-list--open {
+    padding: 8px 8px !important;
   }
 
   .nav-dropdown-toggle {
@@ -779,7 +783,7 @@ li a:hover::after {
   .dropdown.active .dropdown-link:hover {
     background-color: var(--dropdown-hover-background-color);
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 8px 8px;
   }
 
   .menu-toggle {

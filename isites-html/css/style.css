@@ -1368,6 +1368,7 @@ svg:not(:root) {
   .main-button:focus {
     opacity: 0.85;
     box-shadow: none;
+    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
   }
 
   .about-inzaghis-sites {
@@ -2096,6 +2097,7 @@ svg:not(:root) {
   .main-button:focus {
     opacity: 0.85;
     box-shadow: none;
+    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
   }
 
   .about-inzaghis-sites {

@@ -216,7 +216,7 @@
             <div
               class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 w-full"
             >
-              <div class="p-6">
+              <div class="p-6 mb-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -285,7 +285,7 @@
             <div
               class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 w-full"
             >
-              <div class="p-6">
+              <div class="p-6 mb-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -344,7 +344,7 @@
             <div
               class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 w-full"
             >
-              <div class="p-6">
+              <div class="p-6 mb-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -406,7 +406,7 @@
             <div
               class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 w-full"
             >
-              <div class="p-6">
+              <div class="p-6 mb-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -464,7 +464,7 @@
             <div
               class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 w-full"
             >
-              <div class="p-6">
+              <div class="p-6 mb-auto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
