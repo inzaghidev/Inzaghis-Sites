@@ -17,7 +17,7 @@ This Branch is Under Construction, and will Rebuilded soon using Tailwind CSS.
 
 Berikut ini adalah Tampilan Utama dari Inzaghi's Sites :
 
-![Inzaghi's Sites Homepage](/isites-php/images/inzaghis-sites-homepage-202410.jpg)
+![Inzaghi's Sites Homepage](/isites-php/images/inzaghis-sites-homepage-202412.jpg)
 
 ## Inzaghi's Sites Page Apps
 
