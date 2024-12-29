@@ -59,9 +59,9 @@
             <a href="<?php echo $pathToWebRoot.'/portals/tech-tutorials.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Technology Tutorials</a>
             <a href="<?php echo $pathToWebRoot.'/portals/projects.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">IT Project Lists</a>
             <a href="<?php echo $pathToWebRoot.'/portals/interviews-and-thesis.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Intervs &amp; Thesis Prep</a>
-            <a href="<?php echo $pathToWebRoot.'/portals/file-converter.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Materi Pembelajaran</a>
-            <a href="<?php echo $pathToWebRoot.'/portals/utilities.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Video Pages</a>
-            <a href="<?php echo $pathToWebRoot.'/portals/tester-tools.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Link Pages</a>
+            <a href="<?php echo $pathToWebRoot.'/portals/learning-materials.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Materi Pembelajaran</a>
+            <a href="<?php echo $pathToWebRoot.'/portals/video-pages.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Video Pages</a>
+            <a href="<?php echo $pathToWebRoot.'/portals/link-pages.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Link Pages</a>
             <a href="<?php echo $pathToWebRoot.'/portals/miscellaneous.php'; ?>" class="block px-6 py-2 text-black hover:bg-gray-300">Miscellaneous</a>
           </div>
         </div>

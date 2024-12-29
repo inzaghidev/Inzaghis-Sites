@@ -59,7 +59,7 @@
 }
 
 .navigation-menu {
-  overflow-y: auto;
+  overflow-y: auto; /* Nonaktifkan jika sudah menggunakan Navbar Baru */
   max-height: calc(100vh - 80px); /* Sesuaikan tinggi maksimal */
 }
 
@@ -360,8 +360,6 @@ li a:hover::after {
   text-decoration: none;
   display: block;
   margin-left: 2vw;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .sign-in-button .main-button {
