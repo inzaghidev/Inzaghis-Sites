@@ -1,5 +1,5 @@
 .footer {
-  background-color: #efe7fe;
+  background-color: #e8defd;
   padding: 40px 30px;
   border-bottom: 1px solid #e4ebf3;
   position: relative;
@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 1140px) {
   .footer {
-    background-color: #efe7fe;
+    background-color: #e8defd;
     padding: 40px 30px;
     border-bottom: 1px solid #e4ebf3;
     position: relative;
@@ -127,7 +127,7 @@
 
 @media screen and (max-width: 720px) {
   .footer {
-    background-color: #efe7fe;
+    background-color: #e8defd;
     padding: 40px 30px;
     border-bottom: 1px solid #e4ebf3;
     position: relative;

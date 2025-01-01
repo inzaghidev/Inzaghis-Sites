@@ -298,6 +298,7 @@ svg:not(:root) {
   border-bottom: 1px solid #e4ebf3;
   padding: 4em 2em;
   padding-top: 10em;
+  padding-bottom: 5em;
   position: relative;
   margin-left: auto;
   margin-right: auto;

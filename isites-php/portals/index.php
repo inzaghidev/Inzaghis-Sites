@@ -1,5 +1,5 @@
 <?php
-  $page_title = "Apps";
+  $page_title = "Portals";
   include('../layouts/header.php');
   include('../components/navbar/navbar.php');
   $data = json_decode(file_get_contents('../data/apps-data.json'), true);
