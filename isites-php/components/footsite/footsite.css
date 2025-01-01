@@ -1,12 +1,11 @@
 .footer {
-  background: rgb(239, 231, 254);
-  background: linear-gradient(
-    90deg,
-    rgba(239, 231, 254, 1) 0%,
-    rgba(235, 235, 238, 1) 40%,
-    rgba(239, 231, 254, 1) 100%
+  background: rgb(217, 208, 235);
+  background: radial-gradient(
+    circle,
+    rgba(217, 208, 235, 1) 0%,
+    rgba(235, 235, 238, 1) 100%
   );
-  padding: 40px 30px;
+  padding: 50px 30px;
   border-bottom: 1px solid #e4ebf3;
   position: relative;
 }
@@ -64,14 +63,13 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    background: rgb(239, 231, 254);
-    background: linear-gradient(
-      90deg,
-      rgba(239, 231, 254, 1) 0%,
-      rgba(235, 235, 238, 1) 40%,
-      rgba(239, 231, 254, 1) 100%
+    background: rgb(217, 208, 235);
+    background: radial-gradient(
+      circle,
+      rgba(217, 208, 235, 1) 0%,
+      rgba(235, 235, 238, 1) 100%
     );
-    padding: 40px 30px;
+    padding: 50px 30px;
     border-bottom: 1px solid #e4ebf3;
     position: relative;
   }
@@ -139,14 +137,13 @@
 
 @media screen and (max-width: 720px) {
   .footer {
-    background: rgb(239, 231, 254);
-    background: linear-gradient(
-      90deg,
-      rgba(239, 231, 254, 1) 0%,
-      rgba(235, 235, 238, 1) 40%,
-      rgba(239, 231, 254, 1) 100%
+    background: rgb(217, 208, 235);
+    background: radial-gradient(
+      circle,
+      rgba(217, 208, 235, 1) 0%,
+      rgba(235, 235, 238, 1) 100%
     );
-    padding: 40px 30px;
+    padding: 50px 30px;
     border-bottom: 1px solid #e4ebf3;
     position: relative;
   }

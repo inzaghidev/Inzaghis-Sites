@@ -65,7 +65,7 @@
         </section>
         <section class="footer-bottom">
             <div class="footer-copyright">
-                © 2024 Inzaghi's Corp. All rights reserved.
+                © 2025 Inzaghi's Corp. All rights reserved.
             </div>
         </section>
     </div>

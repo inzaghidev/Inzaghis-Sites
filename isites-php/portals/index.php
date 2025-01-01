@@ -1,5 +1,5 @@
 <?php
-$page_title = "Apps";
+$page_title = "Portals";
 include('../layouts/header.php');
 include('../components/navbar/navbar.php');
 
@@ -30,6 +30,6 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
 </section>
 
 <?php
-include('../components/footsite/footsite.php');
-include('../layouts/footer.php');
+  include('../components/footsite/footsite.php');
+  include('../layouts/footer.php');
 ?>
