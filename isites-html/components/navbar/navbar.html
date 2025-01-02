@@ -70,7 +70,6 @@
     <div
       class="container mx-auto px-4 flex items-center justify-center gap-6 w-full"
     >
-      <!-- Logo and Mobile Menu Toggle -->
       <div class="flex items-center justify-between lg:w-auto w-full">
         <a href="../../public/index.html" class="flex items-center py-5 px-2">
           <img
@@ -108,7 +107,6 @@
           </button>
         </div>
       </div>
-      <!-- Navigation Menu -->
       <div
         id="navigation-menu"
         :class="open ? 'block' : 'hidden'"
@@ -150,7 +148,6 @@
               </svg>
             </button>
           </div>
-
           <div
             x-show="dropdown === 'blogs'"
             x-transition
@@ -199,7 +196,6 @@
               </svg>
             </button>
           </div>
-
           <div
             x-show="dropdown === 'portals'"
             x-transition
@@ -373,7 +369,6 @@
             >
           </div>
         </div>
-        <!-- Dropdown 2 -->
         <div
           class="relative group"
           @mouseenter="dropdown = 'group'"
@@ -488,7 +483,6 @@
       </div>
     </div>
   </nav>
-  <!-- Mobile Menu -->
   <div
     class="lg:invisible navbar-menu fixed inset-0 z-50 bg-gray-900 bg-opacity-50"
     x-show="open"
@@ -499,7 +493,6 @@
       class="lg:invisible relative bg-white w-auto sm:w-80 max-w-full h-full"
       @click.stop
     >
-      <!-- Mobile Menu Header -->
       <div class="flex items-center justify-between px-4 py-3 bg-gray-200">
         <span class="text-xl font-semibold text-gray-900">
           <a
@@ -538,7 +531,6 @@
           </button>
         </div>
       </div>
-      <!-- Mobile Menu Items -->
       <nav
         class="px-3 py-2 space-y-2 overflow-y-auto h-[calc(100%-6rem)] max-h-full"
       >

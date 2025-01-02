@@ -1,8 +1,8 @@
-    <?php
-        echo "<script src='$pathToWebRoot/js/script.js'></script>";
-        echo "<script src='$pathToWebRoot/components/navbar/navbar.js'></script>";
-        echo "<script src='$pathToWebRoot/jquery/jquery-3.7.1.js'></script>";
-    ?>
+<?php
+    echo "<script src='$pathToWebRoot/js/script.js'></script>";
+    echo "<script src='$pathToWebRoot/components/navbar/navbar.js'></script>";
+    echo "<script src='$pathToWebRoot/jquery/jquery-3.7.1.js'></script>";
+?>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="../tailwindcss-3.4.14/tailwindcss-cdn-3.4.15.js"></script>
     <script src="<?php echo "$pathToWebRoot/tailwindcss-3.4.14/tailwindcss-cdn-3.4.15.js"; ?>"></script>
