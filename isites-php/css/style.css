@@ -552,6 +552,7 @@ svg:not(:root) {
   width: auto;
   height: auto;
 }
+
 .hcg-slider {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -588,6 +589,7 @@ svg:not(:root) {
   max-height: 100%;
   display: inline-block;
 }
+
 .hcg-slide-text {
   color: var(--color-white);
   font-size: var(--font-size-16); /* Samakan ukuran font */
