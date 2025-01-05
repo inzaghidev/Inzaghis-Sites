@@ -40,7 +40,7 @@
                             </div>
                         </div>
                         <nav class="nav-dropdown-list nav-dropdown-list--open">
-                            <a href="<?php echo $pathToWebRoot.'/page-apps/widgets.php'; ?>" class="dropdown-link">Widgets</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/widgets.php'; ?>" class="dropdown-link">Widgets</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/tech-tutorials.php'; ?>" class="dropdown-link">Technology Tutorials</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/projects.php'; ?>" class="dropdown-link">IT Project Lists</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/interviews-and-thesis.php'; ?>" class="dropdown-link">Intervs &amp; Thesis Prep</a>
