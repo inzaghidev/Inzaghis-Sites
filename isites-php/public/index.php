@@ -17,9 +17,9 @@
                 <br />
                 <br />
                 Inzaghi's Sites juga memudahkan Anda untuk mengakses Aplikasi
-                apapun yang berbasis Web seperti yang tersedia pada Pages Apps
-                seperti Halaman, Widget, Konverter, Kalkulator, dan
-                lain-lainnya.
+                dan Portal apapun yang berbasis Web seperti yang tersedia pada
+                Portals dan Apps seperti Widget, Tutorial Teknologi, Konverter,
+                Kalkulator, Generator, dan lain-lainnya.
               </p>
             </p>
               <section class="group-button about-inzaghis-sites-button">
@@ -43,8 +43,8 @@
       <div class="text-container">
         <p class="text-description">
           Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
-          kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman,
-          Widget, Konverter, Kalkulator, dan lainnya.
+          kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
+          Kalkulator, Generator, Formatter, dan lainnya.
         </p>
         <section class="group-button">
           <a href="../page-apps/" class="main-button"
@@ -67,7 +67,7 @@
           </div>
           <div class="hcg-slide-dot-control"></div>
         </div>
-        <section class="content-description border border-success card h-100 shadow opacity-75 p-3">
+        <section class="content-description hcg-desc border border-success card h-100 shadow opacity-75 p-3">
           <h2 class="group-title">Pages</h2>
           <p class="left-subheading">
             Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
@@ -419,6 +419,11 @@
 <!-- Multi Item Carousel CSS : -->
 <!-- https://bootsnipp.com/snippets/zDQkr -->
 <!-- https://www.codingnepalweb.com/responsive-card-slider-javascript -->
+
+<!-- Bootstrap Card with Carousel : -->
+<!-- https://gosnippets.com/snippets/bootstrap-carousel-with-cards-in-3-columns -->
+<!-- https://www.codeply.com/go/EIOtI7nkP8/bootstrap-carousel-with-multiple-cards -->
+
 
 <!-- https://stackoverflow.com/questions/32537477/how-to-use-dir -->
 <!-- https://stackoverflow.com/questions/55026758/php-file-cannot-load-css-or-javascript-files-present-in-another-directory -->

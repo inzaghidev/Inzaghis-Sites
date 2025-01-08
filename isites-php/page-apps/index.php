@@ -21,8 +21,8 @@
 
     <p class="is-desc">
         Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
-        kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman,
-        Widget, Konverter, Kalkulator, dan lainnya.
+        kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
+        Kalkulator, Generator, Formatter, dan lainnya.
     </p>
 
     <div class="row" id="app-container">
