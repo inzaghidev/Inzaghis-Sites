@@ -552,7 +552,6 @@ svg:not(:root) {
   width: auto;
   height: auto;
 }
-
 .hcg-slider {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -564,6 +563,7 @@ svg:not(:root) {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 7px !important;
 }
 
 /* Jika Anda ingin memastikan tombol atau elemen lainnya juga konsisten */
@@ -584,6 +584,7 @@ svg:not(:root) {
   align-items: center;
   border-radius: 8px;
 }
+
 .hcg-slides img {
   max-width: 100%;
   max-height: 100%;
@@ -605,6 +606,11 @@ svg:not(:root) {
   display: inline-block;
   transform: translate(-50%, -5px);
 }
+
+.hcg-desc {
+  border-radius: 8px !important;
+}
+
 #hcg-slide-prev,
 #hcg-slide-next {
   cursor: pointer;
@@ -1152,7 +1158,7 @@ svg:not(:root) {
 .inzaghis-group-description {
   width: 100%;
   max-width: 1080px;
-  font-size: var(--font-size-14);
+  font-size: var(--font-size-16);
   line-height: 1.6;
   margin-bottom: var(--margin-bottom-20);
   margin-left: 10px;

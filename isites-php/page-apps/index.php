@@ -20,7 +20,7 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
     </h1>
 
     <p class="is-desc text-left text-gray-700">
-      Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman, Widget, Konverter, Kalkulator, dan lainnya.
+      Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai kebutuhan. Pages Apps menyediakan berbagai Portal seperti Kalkulator, Generator, Formatter, dan lainnya.
     </p>
 
     <div class="grid grid-cols-4 md:grid-cols-12 gap-6 lg:px-16 xl:px-0 justify-center -mx-2 sm:mx-0">

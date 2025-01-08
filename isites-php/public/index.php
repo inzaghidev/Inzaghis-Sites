@@ -17,9 +17,9 @@
                 <br />
                 <br />
                 Inzaghi's Sites juga memudahkan Anda untuk mengakses Aplikasi
-                apapun yang berbasis Web seperti yang tersedia pada Pages Apps
-                seperti Halaman, Widget, Konverter, Kalkulator, dan
-                lain-lainnya.
+                dan Portal apapun yang berbasis Web seperti yang tersedia pada
+                Portals dan Apps seperti Widget, Tutorial Teknologi, Konverter,
+                Kalkulator, Generator, dan lain-lainnya.
               </p>
             </p>
               <section class="group-button about-inzaghis-sites-button">
@@ -43,8 +43,8 @@
       <div class="text-container mb-8">
         <p class="text-description">
           Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
-          kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman,
-          Widget, Konverter, Kalkulator, dan lainnya.
+          kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
+          Kalkulator, Generator, Formatter, dan lainnya.
         </p>
         <section class="group-button">
           <a href="../page-apps/" class="main-button"
@@ -574,7 +574,7 @@
             </section>
         </div>
       </div>
-      <div class="logo-grid grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+      <div class="logo-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-6">
         <img
           src="../images/inzaghis-blog-logo-vertical-transparent.png"
           class="h-16 w-auto"
@@ -622,3 +622,10 @@
   include('../components/footsite/footsite.php');
   include('../layouts/footer.php');
 ?>
+
+<!-- Tailwind Card with Carousel : -->
+<!-- https://pagedone.io/docs/carousel -->
+<!-- https://www.creative-tim.com/twcomponents/component/card-carousel -->
+<!-- https://preline.co/docs/carousel.html -->
+<!-- https://tailwindflex.com/@mr-robot/card-grid-section -->
+<!-- https://tailwindflex.com/@anonymous/slider -->
