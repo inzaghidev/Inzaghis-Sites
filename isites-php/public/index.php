@@ -47,8 +47,8 @@
       <div class="text-container">
         <p class="text-description">
           Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
-          kebutuhan. Pages Apps menyediakan berbagai Portal seperti Halaman,
-          Widget, Konverter, Kalkulator, dan lainnya.
+          kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
+          Kalkulator, Generator, Formatter, dan lainnya.
         </p>
         <section class="group-button">
           <a href="../pages/apps.php" class="main-button"
@@ -59,7 +59,7 @@
       <section class="group-content">
         <div id="hcg-slider-1" class="hcg-slider">
           <div class="hcg-slide-container">
-            <div class="hcg-slider-body">
+            <div class="hcg-slider-body card border border-success shadow">
               <a class="hcg-slides animated" style="display: flex">
                 <span class="hcg-slide-number">1/6</span>
                 <img src="../images/pages-by-pages-apps.png" alt="" />
