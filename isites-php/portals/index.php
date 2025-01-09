@@ -25,9 +25,71 @@
         Pembelajaran, dan lainnya.
     </p>
 
-    <br />
-    <h4><b>COMING SOON FOR THIS PAGE!</b></h4>
+    <!-- Kontainer Aplikasi -->
+    <div id="app-container">
+        <?php
+        // Data aplikasi yang akan ditampilkan
+        $apps = [
+            [
+                "name" => "Widgets",
+                "imgSrc" => "../images/widgets-by-portals.png",
+                "description" => "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
+                "link" => "#"
+            ],
+            [
+                "name" => "Technology Tutorials",
+                "imgSrc" => "../images/tech-tutorials-by-portals.png",
+                "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                "link" => "#"
+            ],
+            [
+                "name" => "IT Project Lists",
+                "imgSrc" => "../images/it-project-lists-by-portals.png",
+                "description" => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione atque eius, soluta est nostrum ut nemo eligendi ad commodi enim.",
+                "link" => "#"
+            ],
+            // Tambahkan data aplikasi lainnya di sini...
+        ];
 
+        // Loop melalui setiap aplikasi dan buat elemen HTML-nya
+        foreach ($apps as $app) {
+            ?>
+            <div class="mb-4">
+                <div class="card-portals card h-100 border-success">
+                    <div class="card-portals-wrapper row">
+                        <!-- Gambar -->
+                        <a href="<?php echo $app['link']; ?>" class="card-img-portals-wrapper">
+                            <img
+                                class="card-img-portals d-block w-100 h-100"
+                                src="<?php echo $app['imgSrc']; ?>"
+                                alt="<?php echo $app['name']; ?>"
+                            />
+                        </a>
+                        <!-- Isi Konten -->
+                        <div class="card-body card-portals-body">
+                            <div class="card-text-container card-body">
+                                <!-- Judul -->
+                                <h4 class="card-title page-apps-card card-portals-name">
+                                    <?php echo $app['name']; ?>
+                                </h4>
+                                <!-- Deskripsi -->
+                                <p class="card-apps-text">
+                                    <?php echo $app['description']; ?>
+                                </p>
+                                <br />
+                                <!-- Tombol -->
+                                <button class="btn btn-primary btn-md">
+                                    <a class="blog-link" href="<?php echo $app['link']; ?>">Click here</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php
+        }
+        ?>
+    </div>
   </section>
 </section>
 <?php

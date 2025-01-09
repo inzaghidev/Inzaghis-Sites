@@ -523,12 +523,23 @@ svg:not(:root) {
   flex-direction: column;
   justify-content: space-between;
   padding: 1rem;
+  padding-right: 15px !important;
   max-width: 70%;
   line-height: 1.5;
 }
 
+.card-portals-wrapper {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.card-text-container {
+  padding: initial !important;
+}
+
 .card-portals-name {
   font-weight: 600;
+  margin-bottom: 1em !important;
   font-size: var(--font-size-28);
   font-family: var(--font-family);
 }
@@ -538,7 +549,7 @@ svg:not(:root) {
   display: flex;
   max-width: 30%;
   padding-right: 0 !important;
-  /* padding-left: 15px !important; */
+  padding-left: 0 !important;
 }
 
 .card-img-portals {
@@ -1550,9 +1561,6 @@ svg:not(:root) {
     margin-bottom: 12vh;
   }
 
-  .card-portals {
-  }
-
   .card-portals-body {
     max-width: 60%;
   }
@@ -2246,9 +2254,14 @@ svg:not(:root) {
     max-width: fit-content;
   }
 
+  .card-text-container {
+    padding: inherit !important;
+  }
+
   .card-portals-name {
     font-weight: 600;
     text-align: center;
+    margin-bottom: 1em !important;
     font-size: var(--font-size-28);
     font-family: var(--font-family);
   }
@@ -2256,7 +2269,6 @@ svg:not(:root) {
   .card-img-portals-wrapper {
     max-width: fit-content;
     height: auto;
-    padding-right: 15px !important;
   }
 
   .card-img-portals {
