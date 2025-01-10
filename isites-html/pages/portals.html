@@ -381,6 +381,105 @@
           Pembelajaran, dan lainnya.
         </p>
         <div id="app-container">
+          <!-- Konten akan ditambahkan di sini oleh jQuery -->
+        </div>
+        <script>
+          $(document).ready(function () {
+            // Data aplikasi yang akan ditampilkan
+            const apps = [
+              {
+                name: "Widgets",
+                imgSrc: "../images/widgets-by-portals.png",
+                description:
+                  "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
+                link: "#",
+              },
+              {
+                name: "Technology Tutorials",
+                imgSrc: "../images/tech-tutorials-by-portals.png",
+                description:
+                  "Merupakan kumpulan dari berbagai macam Teknologi apapun dalam bidang IT, dan sebagai Pembelajaran untuk berbagai macam Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu Komputer, Analisis Data, dan lainnya.",
+                link: "#",
+              },
+              {
+                name: "IT Project Lists",
+                imgSrc: "../images/it-project-lists-by-portals.png",
+                description:
+                  "Merupakan kumpulan dari berbagai macam Proyek apapun dalam bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis Data, AI/ML, IoT, dan lainnya.",
+                link: "#",
+              },
+              {
+                name: "Interviews & Thesis Prep",
+                imgSrc: "../images/intervs-and-thesis-by-portals.png",
+                description:
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                link: "#",
+              },
+              {
+                name: "Lorem Ipsum",
+                imgSrc: "https://via.placeholder.com/700x400",
+                description:
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                link: "#",
+              },
+              {
+                name: "Lorem Ipsum",
+                imgSrc: "https://via.placeholder.com/700x400",
+                description:
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                link: "#",
+              },
+              // Tambahkan data aplikasi lainnya di sini...
+            ];
+
+            // Ambil elemen kontainer
+            const appContainer = $("#app-container");
+
+            // Loop melalui setiap aplikasi dan buat elemen HTML-nya
+            $.each(apps, function (index, app) {
+              // Struktur HTML untuk setiap aplikasi
+              const appHtml = `
+                <div class="mb-4">
+                  <div class="card-portals card h-100 border-success">
+                    <div class="card-portals-wrapper row">
+                      <!-- Gambar -->
+                      <a href="${app.link}" class="card-img-portals-wrapper">
+                        <img
+                          class="card-img-portals d-block w-100 h-100"
+                          src="${app.imgSrc}"
+                          alt="${app.name}"
+                        />
+                      </a>
+                      <!-- Isi Konten -->
+                      <div class="card-body card-portals-body">
+                        <div class="card-text-container card-body">
+                          <!-- Judul -->
+                          <h4 class="card-title page-apps-card card-portals-name">
+                            ${app.name}
+                          </h4>
+                          <!-- Deskripsi -->
+                          <p class="card-apps-text">
+                            ${app.description}
+                          </p>
+                          <br />
+                          <!-- Tombol -->
+                          <button class="btn btn-primary btn-md">
+                            <a class="blog-link" href="${app.link}">Click here</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              `;
+
+              // Tambahkan elemen ke dalam kontainer
+              appContainer.append(appHtml);
+            });
+          });
+        </script>
+
+        <!--div id="app-container">
           <div class="mb-4">
             <div class="card-portals card h-100 border-success">
               <div class="card-portals-wrapper row">
@@ -495,7 +594,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div-->
       </section>
     </section>
     <section class="footer">
