@@ -46,8 +46,8 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
             "link" => "#"
         ],
         [
-            "name" => "Lorem Ipsum",
-            "imgSrc" => "https://via.placeholder.com/700x400",
+            "name" => "Interviews & Thesis Prep",
+            "imgSrc" => "../images/intervs-and-thesis-by-portals.png",
             "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
             "link" => "#"
         ],
