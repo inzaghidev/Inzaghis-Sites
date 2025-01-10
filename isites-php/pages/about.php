@@ -17,7 +17,7 @@
       <div class="welcome-wrapper">
         <div class="welcome-to-inzaghis-sites">
           <div class="welcome-description">
-            <p class="inzaghis-sites-description">
+            <p class="about-inzites-description">
             Inzaghi's Sites merupakan Platform Layanan Situs Web untuk dapat
                 diakses ke semua layanan Inzaghi's Group. Inzaghi's Sites juga
                 menyimpan beberapa Layanan di Inzaghi's Group seperti Inzaghi's

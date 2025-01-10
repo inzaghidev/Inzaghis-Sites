@@ -39,13 +39,31 @@
             [
                 "name" => "Technology Tutorials",
                 "imgSrc" => "../images/tech-tutorials-by-portals.png",
-                "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                "description" => "Merupakan kumpulan dari berbagai macam Teknologi apapun dalam bidang IT, dan sebagai Pembelajaran untuk berbagai macam Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu Komputer, Analisis Data, dan lainnya.",
                 "link" => "#"
             ],
             [
                 "name" => "IT Project Lists",
                 "imgSrc" => "../images/it-project-lists-by-portals.png",
-                "description" => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione atque eius, soluta est nostrum ut nemo eligendi ad commodi enim.",
+                "description" => "Merupakan kumpulan dari berbagai macam Proyek apapun dalam bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis Data, AI/ML, IoT, dan lainnya.",
+                "link" => "#"
+            ],
+            [
+                "name" => "Lorem Ipsum",
+                "imgSrc" => "https://via.placeholder.com/700x400",
+                "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                "link" => "#"
+            ],
+            [
+                "name" => "Lorem Ipsum",
+                "imgSrc" => "https://via.placeholder.com/700x400",
+                "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                "link" => "#"
+            ],
+            [
+                "name" => "Lorem Ipsum",
+                "imgSrc" => "https://via.placeholder.com/700x400",
+                "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
                 "link" => "#"
             ],
             // Tambahkan data aplikasi lainnya di sini...

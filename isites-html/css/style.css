@@ -391,6 +391,13 @@ svg:not(:root) {
   font-family: var(--font-family);
 }
 
+.about-inzites-description {
+  font-size: var(--font-size-14);
+  line-height: 1.6;
+  margin-bottom: var(--margin-bottom-20);
+  font-family: var(--font-family);
+}
+
 .is-desc {
   font-size: var(--font-size-14);
   line-height: 1.6;
@@ -1464,6 +1471,13 @@ svg:not(:root) {
     font-family: var(--font-family);
   }
 
+  .about-inzites-description {
+    font-size: var(--font-size-14);
+    line-height: 1.6;
+    margin-bottom: var(--margin-bottom-20);
+    font-family: var(--font-family);
+  }
+
   .is-desc {
     font-size: var(--font-size-14);
     line-height: 1.6;
@@ -2125,6 +2139,13 @@ svg:not(:root) {
   }
 
   .inzaghis-sites-description {
+    font-size: var(--font-size-14);
+    line-height: 1.6;
+    margin-bottom: var(--margin-bottom-20);
+    font-family: var(--font-family);
+  }
+
+  .about-inzites-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: var(--margin-bottom-20);
