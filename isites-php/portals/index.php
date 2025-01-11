@@ -48,6 +48,24 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
         [
             "name" => "Interviews & Thesis Prep",
             "imgSrc" => "../images/intervs-and-thesis-by-portals.png",
+            "description" => "Merupakan kumpulan dari pertanyaan-pertanyaan Wawancara seperti Wawancara Kerja, Magang, User Interview, Wawancara Teknis (Technical Interview), dan lain-lain. Portal ini juga menyediakan berbagai macam Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
+            "link" => "#"
+        ],
+        [
+            "name" => "Materi Pembelajaran",
+            "imgSrc" => "../images/learning-materials-by-portals.png",
+            "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+            "link" => "#"
+        ],
+        [
+            "name" => "Lorem Ipsum",
+            "imgSrc" => "https://via.placeholder.com/700x400",
+            "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+            "link" => "#"
+        ],
+        [
+            "name" => "Lorem Ipsum",
+            "imgSrc" => "https://via.placeholder.com/700x400",
             "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
             "link" => "#"
         ],
