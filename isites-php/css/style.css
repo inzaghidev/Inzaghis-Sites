@@ -2276,7 +2276,7 @@ svg:not(:root) {
   }
 
   .card-text-container {
-    padding: inherit !important;
+    padding: initial !important;
   }
 
   .card-portals-name {
