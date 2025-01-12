@@ -77,9 +77,6 @@
           <button type="button" class="btn btn-primary btn-md">
             <a href="../page-apps/pages.php" class="blog-link">Click here</a>
           </button>
-          <!--button type="button" class="btn btn-primary btn-md">
-            <a class="blog-link">Click here</a>
-          </button-->
         </section>
       </section>
     </div>
@@ -423,6 +420,10 @@
 <!-- Bootstrap Card with Carousel : -->
 <!-- https://gosnippets.com/snippets/bootstrap-carousel-with-cards-in-3-columns -->
 <!-- https://www.codeply.com/go/EIOtI7nkP8/bootstrap-carousel-with-multiple-cards -->
+<!-- https://freefrontend.com/bootstrap-carousels -->
+<!-- https://www.tutorialrepublic.com/snippets/preview.php?topic=bootstrap&file=thumbnail-carousel-with-content -->
+<!-- https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=thumbnail-carousel-with-content -->
+<!-- https://bbbootstrap.com/snippets/ecommerce-recently-viewed-product-carousel-using-owlcarousel2-library-40656175 -->
 
 
 <!-- https://stackoverflow.com/questions/32537477/how-to-use-dir -->
