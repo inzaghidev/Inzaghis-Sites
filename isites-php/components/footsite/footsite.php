@@ -3,7 +3,7 @@
         <section class="footer-wrapper">
             <section class="inzaghis-corp-logo">
                 <a href="#" class="text-decoration-none" id="logo">
-                    <img src="<?php echo $pathToWebRoot.'/images/inzaghis-corp-logo-vertical-transparent.png'; ?>" class="text-decoration-none" height="60px" alt="logo" />
+                    <img src="<?php echo $pathToWebRoot.'/assets/images/inzaghis-corp-logo-vertical-transparent.png'; ?>" class="text-decoration-none" height="60px" alt="logo" />
                 </a>
             </section>
             <section class="special-pages">

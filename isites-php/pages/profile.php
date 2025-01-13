@@ -69,7 +69,7 @@
               >
                 <img
                   class="resume-profile-image mb-3 mb-md-0 me-md-5 ms-md-0 rounded mx-auto"
-                  src="../images/inzaghi-posuma-alkahfi.jpg"
+                  src="../assets/images/inzaghi-posuma-alkahfi.jpg"
                   alt="image"
                 />
               </div>

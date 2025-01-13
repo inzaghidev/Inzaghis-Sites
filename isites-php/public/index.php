@@ -29,7 +29,7 @@
         </div>
         <div class="welcome-image-to-inzaghis-sites">
           <img
-            src="../images/website-illustration-transparent.png"
+            src="../assets/images/website-illustration-transparent.png"
             alt="Inzaghi's Sites"
             style="width: 600px"
           />
@@ -58,7 +58,7 @@
             <div class="hcg-slider-body card border border-success shadow">
               <a class="hcg-slides animated" style="display: flex">
                 <span class="hcg-slide-number">1/6</span>
-                <img src="../images/pages-by-pages-apps.png" alt="" />
+                <img src="../assets/images/pages-by-pages-apps.png" alt="" />
                 <span class="hcg-slide-text">Pages</span>
               </a>
             </div>
@@ -95,7 +95,7 @@
           <div class="col-md-4 col-sm-6 mb-4">
             <div class="card card-apps h-100 border-0 shadow">
               <img
-                src="../images/inzaghis-blog-legacy.png"
+                src="../assets/images/inzaghis-blog-legacy.png"
                 class="card-img-apps card-img-top"
                 alt="Inzaghi's Blog Legacy"
               />
@@ -124,7 +124,7 @@
           <div class="col-md-4 col-sm-6 mb-4">
             <div class="card card-apps h-100 border-0 shadow">
               <img
-                src="../images/teknoblog-by-inzaghis-blog.png"
+                src="../assets/images/teknoblog-by-inzaghis-blog.png"
                 class="card-img-apps card-img-top"
                 alt="Teknoblog - Inzaghi's Blog"
               />
@@ -154,7 +154,7 @@
           <div class="col-md-4 col-sm-6 mb-4">
             <div class="card card-apps h-100 border-0 shadow">
               <img
-                src="../images/miniblog-by-inzaghis-blog.png"
+                src="../assets/images/miniblog-by-inzaghis-blog.png"
                 class="card-img-apps card-img-top"
                 alt="Miniblog - Inzaghi's Blog"
               />
@@ -197,7 +197,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
               <div class="border-0 h-100 shadow opacity-75 socmed-card">
                 <img
-                  src="../images/instagram-logo-icon.png"
+                  src="../assets/images/instagram-logo-icon.png"
                   class="card mt-4 socmed-icon"
                   alt="Instagram Logo"
                 />
@@ -226,7 +226,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../images/tiktok-logo-icon.png"
+                src="../assets/images/tiktok-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="TikTok Logo"
               />
@@ -256,7 +256,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../images/youtube-logo-icon.png"
+                src="../assets/images/youtube-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="YouTube Logo"
               />
@@ -285,7 +285,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../images/twitter-x-logo.png"
+                src="../assets/images/twitter-x-logo.png"
                 class="card mt-4 socmed-icon"
                 alt="Twitter Logo"
               />
@@ -314,7 +314,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../images/threads-logo-icon.png"
+                src="../assets/images/threads-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="Threads Logo"
               />
@@ -350,7 +350,7 @@
         <h2 class="inzaghis-group-heading">Inzaghi's Group Network</h2>
         <div class="inzaghis-group-container">
           <img
-            src="../images/inzaghis-group-logo-vertical-transparent.png"
+            src="../assets/images/inzaghis-group-logo-vertical-transparent.png"
             height="60px"
             alt="logo"
           />
@@ -366,42 +366,42 @@
       </div>
       <div class="logo-grid">
         <img
-          src="../images/inzaghis-blog-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-blog-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-sites-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-sites-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-media-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-media-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-dev-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-dev-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-archives-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-archives-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-app-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-app-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-ai-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-ai-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-shop-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-shop-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
