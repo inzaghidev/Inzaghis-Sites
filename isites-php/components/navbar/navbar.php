@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4 flex items-center justify-center gap-6 w-full">
       <div class="flex items-center justify-between lg:w-auto w-full">
         <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
-          <img src="<?php echo $pathToWebRoot.'/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" alt="Inzaghi's Sites">
+          <img src="<?php echo $pathToWebRoot.'/assets/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" alt="Inzaghi's Sites">
         </a>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = !open" class="mobile-menu-button py-3 px-3" aria-label="Toggle Menu">
@@ -134,7 +134,7 @@
       <div class="flex items-center justify-between px-4 py-3 bg-gray-200">
         <span class="text-xl font-semibold text-gray-900">
           <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-2">
-            <img src="<?php echo $pathToWebRoot.'/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" alt="Inzaghi's Sites"> </a></span>
+            <img src="<?php echo $pathToWebRoot.'/assets/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" alt="Inzaghi's Sites"> </a></span>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = false" class="mobile-menu-button py-3 px-3" aria-label="Close Menu">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

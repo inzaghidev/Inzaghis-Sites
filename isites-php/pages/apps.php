@@ -33,7 +33,7 @@
         >
           <img
             class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none xl:rounded-l-lg"
-            src="../images/pages-by-pages-apps.png"
+            src="../assets/images/pages-by-pages-apps.png"
             alt=""
           />
           <div class="flex flex-col justify-between p-4 leading-normal flex-grow">
@@ -69,7 +69,7 @@
         >
           <img
             class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none xl:rounded-l-lg"
-            src="../images/widgets-by-pages-apps.png"
+            src="../assets/images/widgets-by-pages-apps.png"
             alt=""
           />
           <div class="flex flex-col justify-between p-4 leading-normal flex-grow">
@@ -105,7 +105,7 @@
         >
           <img
             class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none xl:rounded-l-lg"
-            src="../images/converters-by-pages-apps.png"
+            src="../assets/images/converters-by-pages-apps.png"
             alt=""
           />
           <div class="flex flex-col justify-between p-4 leading-normal flex-grow">
@@ -141,7 +141,7 @@
         >
           <img
             class="w-full rounded-t-lg h-1/4 sm:h-auto sm:w-52 lg:w-full xl:w-72 sm:rounded-l-lg sm:rounded-r-none md:rounded-s-lg lg:rounded-t-lg lg:rounded-b-none xl:rounded-r-none xl:rounded-l-lg"
-            src="../images/calculators-by-pages-apps.png"
+            src="../assets/images/calculators-by-pages-apps.png"
             alt=""
           />
           <div class="flex flex-col justify-between p-4 leading-normal flex-grow">

@@ -22,7 +22,7 @@
         </div>
         <div class="about-us-image-to-inzaghis-group">
           <img
-            src="../images/inzaghis-group-partners.png"
+            src="../assets/images/inzaghis-group-partners.png"
             alt="Inzaghi's Sites"
             style="width: 600px"
           />
@@ -36,7 +36,7 @@
         <section class="group-content">
           <section class="group-image">
             <img
-              src="../images/inzaghis-blog-by-inzaghis-group-corp.png"
+              src="../assets/images/inzaghis-blog-by-inzaghis-group-corp.png"
               alt="Inzaghi's Blog"
               style="width: 600px"
             />
@@ -65,7 +65,7 @@
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
               >
                 <img
-                  src="../images/inzaghis-blog-legacy.png"
+                  src="../assets/images/inzaghis-blog-legacy.png"
                   alt="Inzaghi's Blog Legacy"
                   class="w-full h-full object-cover"
                 />
@@ -106,7 +106,7 @@
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
               >
                 <img
-                  src="../images/teknoblog-by-inzaghis-blog.png"
+                  src="../assets/images/teknoblog-by-inzaghis-blog.png"
                   alt="Teknoblog - Inzaghi's Blog"
                   class="w-full h-full object-cover"
                 />
@@ -148,7 +148,7 @@
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
               >
                 <img
-                  src="../images/miniblog-by-inzaghis-blog.png"
+                  src="../assets/images/miniblog-by-inzaghis-blog.png"
                   alt="Miniblog - Inzaghi's Blog"
                   class="w-full h-full object-cover"
                 />
@@ -191,7 +191,7 @@
         <section class="group-content reverse-content">
           <section class="group-image">
             <img
-              src="../images/inzaghis-media-by-inzaghis-group-corp.png"
+              src="../assets/images/inzaghis-media-by-inzaghis-group-corp.png"
               alt="Inzaghi's Media"
               style="width: 600px"
             />
@@ -535,7 +535,7 @@
       <section class="group-content">
         <section class="group-image">
           <img
-            src="../images/inzaghis-dev-by-inzaghis-group-corp.png"
+            src="../assets/images/inzaghis-dev-by-inzaghis-group-corp.png"
             alt="Inzaghi's Dev"
             style="width: 600px"
           />
@@ -564,7 +564,7 @@
       <section class="group-content reverse-content">
         <section class="group-image">
           <img
-            src="../images/inzaghis-app-by-inzaghis-group-corp.png"
+            src="../assets/images/inzaghis-app-by-inzaghis-group-corp.png"
             alt="Inzaghi's App"
             style="width: 600px"
           />
@@ -589,7 +589,7 @@
       <section class="group-content">
         <section class="group-image">
           <img
-            src="../images/inzaghis-archives-by-inzaghis-group-corp.png"
+            src="../assets/images/inzaghis-archives-by-inzaghis-group-corp.png"
             alt="Inzaghi's App"
             style="width: 600px"
           />
@@ -621,7 +621,7 @@
       <section class="group-content reverse-content">
         <section class="group-image">
           <img
-            src="../images/inzaghis-ai-by-inzaghis-group-corp.png"
+            src="../assets/images/inzaghis-ai-by-inzaghis-group-corp.png"
             alt="Inzaghi's App"
             style="width: 600px"
           />

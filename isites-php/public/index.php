@@ -29,7 +29,7 @@
         </div>
         <div class="welcome-image-to-inzaghis-sites">
           <img
-            src="../images/website-illustration-transparent-3d.png"
+            src="../assets/images/website-illustration-transparent-3d.png"
             alt="Inzaghi's Sites"
             style="width: 600px"
           />
@@ -58,7 +58,7 @@
             <div class="hcg-slider-body">
               <a class="hcg-slides animated" style="display: flex">
                 <span class="hcg-slide-number">1/6</span>
-                <img src="../images/pages-by-pages-apps.png" alt="" />
+                <img src="../assets/images/pages-by-pages-apps.png" alt="" />
                 <span class="hcg-slide-text">Pages</span>
               </a>
             </div>
@@ -105,7 +105,7 @@
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
               >
                 <img
-                  src="../images/inzaghis-blog-legacy.png"
+                  src="../assets/images/inzaghis-blog-legacy.png"
                   alt="Inzaghi's Blog Legacy"
                   class="w-full h-full object-cover"
                 />
@@ -146,7 +146,7 @@
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
               >
                 <img
-                  src="../images/teknoblog-by-inzaghis-blog.png"
+                  src="../assets/images/teknoblog-by-inzaghis-blog.png"
                   alt="Teknoblog - Inzaghi's Blog"
                   class="w-full h-full object-cover"
                 />
@@ -188,7 +188,7 @@
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
               >
                 <img
-                  src="../images/miniblog-by-inzaghis-blog.png"
+                  src="../assets/images/miniblog-by-inzaghis-blog.png"
                   alt="Miniblog - Inzaghi's Blog"
                   class="w-full h-full object-cover"
                 />
@@ -560,7 +560,7 @@
         <h2 class="inzaghis-group-heading">Inzaghi's Group Network</h2>
         <div class="inzaghis-group-container">
           <img
-            src="../images/inzaghis-group-logo-vertical-transparent.png"
+            src="../assets/images/inzaghis-group-logo-vertical-transparent.png"
             class="h-16 w-auto"
             alt="logo"
           />
@@ -576,42 +576,42 @@
       </div>
       <div class="logo-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-6">
         <img
-          src="../images/inzaghis-blog-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-blog-logo-vertical-transparent.png"
           class="h-16 w-auto"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-sites-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-sites-logo-vertical-transparent.png"
           class="h-16 w-auto"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-media-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-media-logo-vertical-transparent.png"
           class="h-16 w-auto"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-dev-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-dev-logo-vertical-transparent.png"
           class="h-16 w-auto"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-archives-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-archives-logo-vertical-transparent.png"
           class="h-16 w-auto"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-app-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-app-logo-vertical-transparent.png"
           class="h-16 w-auto"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-ai-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-ai-logo-vertical-transparent.png"
           class="h-16 w-auto"
           alt="logo"
         />
         <img
-          src="../images/inzaghis-shop-logo-vertical-transparent.png"
+          src="../assets/images/inzaghis-shop-logo-vertical-transparent.png"
           class="h-16 w-auto"
           alt="logo"
         />

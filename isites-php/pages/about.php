@@ -60,7 +60,7 @@
         </div>
         <div class="welcome-image-to-inzaghis-sites">
           <img
-            src="../images/inzaghis-sites-by-inzaghis-group-corp.png"
+            src="../assets/images/inzaghis-sites-by-inzaghis-group-corp.png"
             alt="Inzaghi's Sites"
             style="width: 600px"
           />

@@ -11,7 +11,7 @@
             <div class="bg-white shadow-lg shadow rounded-lg p-6">
               <div class="flex flex-col items-center">
                 <img
-                  src="../images/inzaghi-posuma-alkahfi.jpg"
+                  src="../assets/images/inzaghi-posuma-alkahfi.jpg"
                   class="w-36 h-48 bg-gray-300 rounded-lg mb-4 shrink-0"
                 />
 

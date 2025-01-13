@@ -10,7 +10,7 @@
         <div class="text-center mb-12">
           <a href="javascript:void(0)"
             ><img
-              src="../images/inzaghis-sites-logo-vertical-transparent.png"
+              src="../assets/images/inzaghis-sites-logo-vertical-transparent.png"
               alt="logo"
               class="w-40 inline-block"
             />
