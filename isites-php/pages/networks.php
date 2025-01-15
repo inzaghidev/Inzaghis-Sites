@@ -56,8 +56,8 @@
         </section>
       </section>
       <div class="container inzaghisblog mx-auto">
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
+        <div class="flex flex-wrap mx-0 md:-mx-4 xl:-mx-2">
+          <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
             <div
               class="relative flex flex-col text-gray-700 bg-[#fff6f0] shadow-xl bg-clip-border rounded-xl h-full bg-opacity-80 backdrop-filter backdrop-blur-xl ring-1 ring-gray-300"
             >
@@ -72,7 +72,7 @@
               </div>
               <div class="p-6 text-center flex flex-col flex-grow justify-between">
                 <h5
-                  class="blog-name block mb-2 text-3xl sm:text-2xl lg:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="blog-name block mb-2 text-3xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Inzaghi's Blog Legacy
                 </h5>
@@ -98,7 +98,7 @@
             </div>
           </div>
 
-          <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
+          <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
             <div
               class="relative flex flex-col text-gray-700 bg-[#fff6f0] shadow-xl bg-clip-border rounded-xl h-full bg-opacity-80 backdrop-filter backdrop-blur-xl ring-1 ring-gray-300"
             >
@@ -113,7 +113,7 @@
               </div>
               <div class="p-6 text-center flex flex-col flex-grow justify-between">
                 <h5
-                  class="blog-name block mb-2 text-3xl sm:text-2xl lg:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="blog-name block mb-2 text-3xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Teknoblog
                 </h5>
@@ -140,7 +140,7 @@
             </div>
           </div>
 
-          <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
+          <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
             <div
               class="relative flex flex-col text-gray-700 bg-[#fff6f0] shadow-xl bg-clip-border rounded-xl h-full bg-opacity-80 backdrop-filter backdrop-blur-xl ring-1 ring-gray-300"
             >
@@ -155,7 +155,7 @@
               </div>
               <div class="p-6 text-center flex flex-col flex-grow justify-between">
                 <h5
-                  class="blog-name block mb-2 text-3xl sm:text-2xl lg:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="blog-name block mb-2 text-3xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Miniblog
                 </h5>

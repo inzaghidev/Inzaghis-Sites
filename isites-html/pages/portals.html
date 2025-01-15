@@ -25,6 +25,11 @@
     ></script>
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <link
@@ -945,14 +950,14 @@
                 name: "Video Pages",
                 imgSrc: "../assets/images/video-pages-by-portals.png",
                 description:
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                  "Merupakan kumpulan dari Video-video YouTube seperti Live Streaming Video, Daftar Channel Terjemahan Multibahasa, dan Daftar Channel YouTube per Kategori.",
                 link: "#",
               },
               {
                 name: "Link Pages",
                 imgSrc: "../assets/images/link-pages-by-portals.png",
                 description:
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                  "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
                 link: "#",
               },
               {
@@ -983,7 +988,7 @@
                   <a href="${app.link}" class="object-cover flex sm:w-[50%] md:w-[40%] lg:w-[30%] sm:h-auto">
                     <img class="w-full rounded-t-lg h-1/4 sm:h-auto sm:rounded-none sm:rounded-s-lg" src="${app.imgSrc}" alt="${app.name}" />
                   </a>
-                  <div class="flex flex-col justify-between p-4 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal">
+                  <div class="flex flex-col justify-between p-4 md:p-6 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal">
                     <h5 class="card-name mb-3 text-3xl font-bold tracking-tight text-gray-900 text-green-700 text-center md:text-left">
                       ${app.name}
                     </h5>
@@ -991,7 +996,7 @@
                       ${app.description}
                     </p>
                     <div class="mt-4 flex justify-center md:justify-start">
-                      <button type="button" onclick="window.location.href = '${app.link}';" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                      <button type="button" onclick="window.location.href = '${app.link}';" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 md:px-6 lg:px-8 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
                         Click here
                       </button>
                     </div>
@@ -1025,7 +1030,7 @@
                 />
               </a>
               <div
-                class="flex flex-col justify-between p-4 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal"
+                class="flex flex-col justify-between p-4 md:p-6 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal"
               >
                 <h5
                   class="card-name mb-3 text-3xl font-bold tracking-tight text-gray-900 text-green-700 text-center md:text-left"
@@ -1043,7 +1048,7 @@
                   <button
                     type="button"
                     onclick="window.location.href = '#';"
-                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 md:px-6 lg:px-8 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                   >
                     Click here
                   </button>
@@ -1068,7 +1073,7 @@
                 />
               </a>
               <div
-                class="flex flex-col justify-between p-4 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal"
+                class="flex flex-col justify-between p-4 md:p-6 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal"
               >
                 <h5
                   class="card-name mb-3 text-3xl font-bold tracking-tight text-gray-900 text-green-700 text-center md:text-left"
@@ -1087,7 +1092,7 @@
                   <button
                     type="button"
                     onclick="window.location.href = '#';"
-                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 md:px-6 lg:px-8 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                   >
                     Click here
                   </button>
@@ -1112,7 +1117,7 @@
                 />
               </a>
               <div
-                class="flex flex-col justify-between p-4 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal"
+                class="flex flex-col justify-between p-4 md:p-6 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal"
               >
                 <h5
                   class="card-name mb-3 text-3xl font-bold tracking-tight text-gray-900 text-green-700 text-center md:text-left"
@@ -1130,7 +1135,7 @@
                   <button
                     type="button"
                     onclick="window.location.href = '#';"
-                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 md:px-6 lg:px-8 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                   >
                     Click here
                   </button>
@@ -1155,7 +1160,7 @@
                 />
               </a>
               <div
-                class="flex flex-col justify-between p-4 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal"
+                class="flex flex-col justify-between p-4 md:p-6 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal"
               >
                 <h5
                   class="card-name mb-3 text-3xl font-bold tracking-tight text-gray-900 text-green-700 text-center md:text-left"
@@ -1174,7 +1179,7 @@
                   <button
                     type="button"
                     onclick="window.location.href = '#';"
-                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 md:px-6 lg:px-8 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                   >
                     Click here
                   </button>

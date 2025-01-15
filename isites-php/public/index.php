@@ -58,8 +58,8 @@
             <div class="hcg-slider-body">
               <a class="hcg-slides animated" style="display: flex">
                 <span class="hcg-slide-number">1/6</span>
-                <img src="../assets/images/pages-by-pages-apps.png" alt="" />
-                <span class="hcg-slide-text">Pages</span>
+                <img src="../assets/images/converters-by-pages-apps.png" alt="" />
+                <span class="hcg-slide-text">Converters</span>
               </a>
             </div>
             <a href="#" id="hcg-slide-prev">&#10094;</a>
@@ -68,11 +68,11 @@
           <div class="hcg-slide-dot-control"></div>
         </div>
         <section class="content-description bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-400">
-          <h2 class="group-title">Pages</h2>
+          <h2 class="group-title">Converters</h2>
           <p class="left-subheading">
-            Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
-            Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek,
-            hingga Tutorial Pemrograman.
+            Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu,
+            Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian
+            dari Aplikasi Konverter ini akan sedikit menggunakan API.
           </p>
           <div class="btn flex justify-center mt-4">
             <a
@@ -96,10 +96,10 @@
         menggunakan Platform Blogger, agar lebih mudah dan praktis.
       </p>
       <div class="container inzaghisblog mx-auto">
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
+        <div class="flex flex-wrap -mx-4 xl:-mx-2">
+          <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
             <div
-              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl ring-1 ring-gray-300"
+              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#fff6f0] ring-1 ring-gray-300"
             >
               <div
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
@@ -112,7 +112,7 @@
               </div>
               <div class="p-6 text-center flex flex-col flex-grow justify-between">
                 <h5
-                  class="blog-name block mb-2 text-3xl sm:text-2xl lg:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="blog-name block mb-2 text-3xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Inzaghi's Blog Legacy
                 </h5>
@@ -138,9 +138,9 @@
             </div>
           </div>
 
-          <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
+          <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
             <div
-              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl ring-1 ring-gray-300"
+              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#fff6f0] ring-1 ring-gray-300"
             >
               <div
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
@@ -153,7 +153,7 @@
               </div>
               <div class="p-6 text-center flex flex-col flex-grow justify-between">
                 <h5
-                  class="blog-name block mb-2 text-3xl sm:text-2xl lg:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="blog-name block mb-2 text-3xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Teknoblog
                 </h5>
@@ -180,9 +180,9 @@
             </div>
           </div>
 
-          <div class="w-full sm:w-1/2 md:w-1/3 px-4 mb-4">
+          <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
             <div
-              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl ring-1 ring-gray-300"
+              class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#fff6f0] ring-1 ring-gray-300"
             >
               <div
                 class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
@@ -195,7 +195,7 @@
               </div>
               <div class="p-6 text-center flex flex-col flex-grow justify-between">
                 <h5
-                  class="blog-name block mb-2 text-3xl sm:text-2xl lg:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
+                  class="blog-name block mb-2 text-3xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900"
                 >
                   Miniblog
                 </h5>
@@ -624,6 +624,8 @@
 ?>
 
 <!-- Tailwind Card with Carousel : -->
+<!-- https://tailwindflex.com/@maximus/carousel-card-slider-swiper-on-alpine-js -->
+<!-- https://larainfo.com/blogs/tailwind-css-carousel-slider-examples -->
 <!-- https://pagedone.io/docs/carousel -->
 <!-- https://www.creative-tim.com/twcomponents/component/card-carousel -->
 <!-- https://preline.co/docs/carousel.html -->

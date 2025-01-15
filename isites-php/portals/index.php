@@ -60,13 +60,13 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
             [
                 "name" => "Video Pages",
                 "imgSrc" => "../assets/images/video-pages-by-portals.png",
-                "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                "description" => "Merupakan kumpulan dari Video-video YouTube seperti Live Streaming Video, Daftar Channel Terjemahan Multibahasa, dan Daftar Channel YouTube per Kategori.",
                 "link" => "#"
             ],
             [
                 "name" => "Link Pages",
                 "imgSrc" => "../assets/images/link-pages-by-portals.png",
-                "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                "description" => "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
                 "link" => "#"
             ],
             [
@@ -98,7 +98,7 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
                         />
                     </a>
                     <!-- Isi Konten -->
-                    <div class="flex flex-col justify-between p-4 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal">
+                    <div class="flex flex-col justify-between p-4 md:p-6 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal">
                         <!-- Judul -->
                         <h5 class="card-name mb-3 text-3xl font-bold tracking-tight text-gray-900 text-green-700 text-center md:text-left">
                             <?php echo $app['name']; ?>
@@ -112,7 +112,7 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
                             <button
                                 type="button"
                                 onclick="window.location.href = '<?php echo $app['link']; ?>';"
-                                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 md:px-6 lg:px-8 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                             >
                                 Click here
                             </button>
