@@ -632,3 +632,10 @@
 <!-- https://tailwindflex.com/@mr-robot/card-grid-section -->
 <!-- https://tailwindflex.com/@anonymous/slider -->
 <!-- https://codepen.io/karimhossenbux/pen/zYJRbaZ -->
+
+<!-- Create Modals & Popups -->
+<!-- https://www.w3schools.com/js/js_popup.asp -->
+<!-- https://www.w3schools.com/howto/howto_css_modals.asp -->
+<!-- https://www.material-tailwind.com/docs/html/dialog -->
+<!-- https://windframe.dev/blog/how-to-create-tailwind-css-modal -->
+<!--  -->
