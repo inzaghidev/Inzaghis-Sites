@@ -25,6 +25,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <link
@@ -492,7 +497,7 @@
         </div>
       </div>
     </section>
-    <section class="page-apps shadow">
+    <!-- <section class="page-apps shadow">
       <div class="page-apps-container">
         <h2 class="title-heading">Apps</h2>
         <div class="text-container">
@@ -511,8 +516,11 @@
               <div class="hcg-slider-body card border border-success shadow">
                 <a class="hcg-slides animated" style="display: flex">
                   <span class="hcg-slide-number">1/6</span>
-                  <img src="../assets/images/pages-by-pages-apps.png" alt="" />
-                  <span class="hcg-slide-text">Pages</span>
+                  <img
+                    src="../assets/images/converters-by-pages-apps.png"
+                    alt=""
+                  />
+                  <span class="hcg-slide-text">Converters</span>
                 </a>
               </div>
               <a href="#" id="hcg-slide-prev">&#10094;</a>
@@ -523,16 +531,136 @@
           <section
             class="content-description hcg-desc border border-success card h-100 shadow opacity-75 p-3"
           >
-            <h2 class="group-title">Pages</h2>
+            <h2 class="group-title">Converters</h2>
             <p class="left-subheading">
-              Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
-              Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek,
-              hingga Tutorial Pemrograman.
+              Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu,
+              Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian
+              dari Aplikasi Konverter ini akan sedikit menggunakan API.
             </p>
             <button type="button" class="btn btn-primary btn-md">
               <a href="../page-apps/pages.html" class="blog-link">Click here</a>
             </button>
           </section>
+        </section>
+      </div>
+      <script src="../js/slider.js"></script>
+    </section> -->
+    <section class="page-apps shadow">
+      <div class="page-apps-container">
+        <h2 class="title-heading">Apps</h2>
+        <div class="text-container">
+          <p class="text-description">
+            Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
+            kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
+            Kalkulator, Generator, Formatter, dan lainnya.
+          </p>
+          <section class="group-button">
+            <a href="../pages/apps.html" class="main-button">Click here</a>
+          </section>
+        </div>
+        <section class="group-content">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card card-apps h-100 border-success shadow">
+                <a href="../page-apps/converter.html">
+                  <img
+                    src="../assets/images/converters-by-pages-apps.png"
+                    class="card-img-apps card-img-top"
+                    alt="Converters"
+                /></a>
+                <div class="card-body card-apps-body">
+                  <div class="card-description">
+                    <h4 class="card-name card-title page-apps-card">
+                      <a>Converters</a>
+                    </h4>
+                    <p class="card-text blog-description">
+                      Merupakan portal untuk Aplikasi Konverter seperti Konversi
+                      Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan
+                      lain-lain. Sebagian dari Aplikasi Konverter ini akan
+                      sedikit menggunakan API.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-md apps-button"
+                  >
+                    <a
+                      href="../page-apps/converter.html"
+                      target="_blank"
+                      class="blog-link"
+                      >Klik di sini</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card card-apps h-100 border-success shadow">
+                <a href="../page-apps/calculators.html.html">
+                  <img
+                    src="../assets/images/calculators-by-pages-apps.png"
+                    class="card-img-apps card-img-top"
+                    alt="Teknoblog - Inzaghi's Blog"
+                /></a>
+                <div class="card-body card-apps-body">
+                  <div class="card-description">
+                    <h4 class="card-name card-title page-apps-card">
+                      <a>Calculators</a>
+                    </h4>
+                    <p class="card-text blog-description">
+                      Merupakan kumpulan dari beberapa jenis Kalkulator seperti
+                      Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan,
+                      Keuangan, hingga Kalkulator untuk Keseharian.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-md apps-button"
+                  >
+                    <a
+                      href="../page-apps/calculators.html"
+                      target="_blank"
+                      class="blog-link"
+                      >Klik di sini</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card card-apps h-100 border-success shadow">
+                <a href="../page-apps/generators.html.html">
+                  <img
+                    src="../assets/images/generators-by-pages-apps.png"
+                    class="card-img-apps card-img-top"
+                    alt="Miniblog - Inzaghi's Blog"
+                /></a>
+                <div class="card-body card-apps-body">
+                  <div class="card-description">
+                    <h4 class="card-name card-title page-apps-card">
+                      <a>Generators</a>
+                    </h4>
+                    <p class="card-text blog-description">
+                      Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu
+                      seperti Text Generator hingga Image Generator, dan dapat
+                      dibuat secara acak.
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-md apps-button"
+                  >
+                    <a
+                      href="../page-apps/generators.html"
+                      target="_blank"
+                      class="blog-link"
+                      >Klik di sini</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
       <script src="../js/slider.js"></script>

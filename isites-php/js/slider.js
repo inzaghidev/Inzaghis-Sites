@@ -1,18 +1,6 @@
 (() => {
   const images_list = [
     {
-      name: "Pages",
-      url: "../assets/images/pages-by-pages-apps.png",
-      alt: "",
-      link: "../page-apps/pages.php",
-    },
-    {
-      name: "Widgets",
-      url: "../assets/images/widgets-by-pages-apps.png",
-      alt: "",
-      link: "../page-apps/widgets.php",
-    },
-    {
       name: "Converters",
       url: "../assets/images/converters-by-pages-apps.png",
       alt: "",
@@ -180,8 +168,6 @@
   const getBlogLink = (imageName) => {
     // Define the mapping of image name to blog link
     const blogLinkMap = {
-      Pages: "../page-apps/pages.php",
-      Widgets: "../page-apps/widgets.php",
       Converters: "../page-apps/converter.php",
       Calculators: "../page-apps/calculators.php",
       Generators: "../page-apps/generators.php",
@@ -199,10 +185,6 @@
   const getContentDescription = (imageName) => {
     // You can replace this with your actual data source or API call
     const contentData = {
-      Pages:
-        "Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek, hingga Tutorial Pemrograman.",
-      Widgets:
-        "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
       Converters:
         "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
       Calculators:

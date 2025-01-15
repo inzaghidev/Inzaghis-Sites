@@ -1,58 +1,46 @@
 (() => {
   const images_list = [
     {
-      name: "Pages",
-      url: "../assets/images/pages-by-pages-apps.png",
-      alt: "",
-      link: "../page-apps/pages.html",
-    },
-    {
-      name: "Widgets",
-      url: "../assets/images/widgets-by-pages-apps.png",
-      alt: "",
-      link: "../page-apps/widgets.html",
-    },
-    {
       name: "Converters",
       url: "../assets/images/converters-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/converter.html",
+      link: "../page-apps/converter.php",
     },
     {
       name: "Calculators",
       url: "../assets/images/calculators-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/calculators.html",
+      link: "../page-apps/calculators.php",
     },
     {
       name: "Generators",
       url: "../assets/images/generators-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/generators.html",
+      link: "../page-apps/generators.php",
     },
     {
       name: "Formatters",
       url: "../assets/images/formatters-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/formatters.html",
+      link: "../page-apps/formatters.php",
     },
     {
       name: "FileConverters",
       url: "../assets/images/file-converters-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/file-converter.html",
+      link: "../page-apps/file-converter.php",
     },
     {
       name: "Utilities",
       url: "../assets/images/utilities-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/utilities.html",
+      link: "../page-apps/utilities.php",
     },
     {
       name: "TesterTools",
       url: "../assets/images/tester-tools-by-pages-apps.png",
       alt: "",
-      link: "../page-apps/tester-tools.html",
+      link: "../page-apps/tester-tools.php",
     },
   ];
 
@@ -180,15 +168,13 @@
   const getBlogLink = (imageName) => {
     // Define the mapping of image name to blog link
     const blogLinkMap = {
-      Pages: "../page-apps/pages.html",
-      Widgets: "../page-apps/widgets.html",
-      Converters: "../page-apps/converter.html",
-      Calculators: "../page-apps/calculators.html",
-      Generators: "../page-apps/generators.html",
-      Formatters: "../page-apps/formatters.html",
-      FileConverters: "../page-apps/file-converter.html",
-      Utilities: "../page-apps/utilities.html",
-      TesterTools: "../page-apps/tester-tools.html",
+      Converters: "../page-apps/converter.php",
+      Calculators: "../page-apps/calculators.php",
+      Generators: "../page-apps/generators.php",
+      Formatters: "../page-apps/formatters.php",
+      FileConverters: "../page-apps/file-converter.php",
+      Utilities: "../page-apps/utilities.php",
+      TesterTools: "../page-apps/tester-tools.php",
     };
 
     // Return the blog link based on the image name, or a default value if not found
@@ -199,10 +185,6 @@
   const getContentDescription = (imageName) => {
     // You can replace this with your actual data source or API call
     const contentData = {
-      Pages:
-        "Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek, hingga Tutorial Pemrograman.",
-      Widgets:
-        "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
       Converters:
         "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
       Calculators:
