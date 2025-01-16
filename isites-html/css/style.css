@@ -482,6 +482,9 @@ svg:not(:root) {
 .card-img-apps {
   border-top-left-radius: 5px !important;
   border-top-right-radius: 5px !important;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .card-name {
@@ -564,6 +567,54 @@ svg:not(:root) {
   border-bottom-left-radius: 5px !important;
   width: 100%;
   height: 25%;
+}
+
+.swiper-container {
+  overflow: hidden !important;
+  margin: 0 auto !important;
+}
+
+.swiper {
+  width: 100%;
+  max-width: 1280px;
+  box-sizing: border-box; /* Pastikan padding dihitung dalam lebar */
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: auto !important; /* Atur lebar slide secara otomatis berdasarkan konten */
+  display: flex; /* Untuk memastikan tata letak kartu rapi */
+  justify-content: center; /* Pusatkan kartu */
+  box-sizing: border-box;
+}
+
+.card-swipper {
+  width: 100%;
+  max-width: 300px;
+  flex-shrink: 0;
+  overflow: hidden;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-pagination {
+  bottom: 10px;
+  position: relative !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+  position: absolute;
+  top: 52% !important;
+  transform: translateY(-50%);
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-button-prev {
+  left: 10px;
 }
 
 #hcg-slider-1 .hcg-slide-container {
@@ -715,8 +766,7 @@ svg:not(:root) {
 
 .page-apps-container {
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .page-apps-wrapper {
@@ -1583,6 +1633,15 @@ svg:not(:root) {
     max-width: 40%;
   }
 
+  .swiper-container {
+    overflow: hidden;
+  }
+
+  .swiper-container {
+    max-width: 1200px;
+    padding: 0 20px !important;
+  }
+
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
   .page-apps-container {
@@ -2298,6 +2357,10 @@ svg:not(:root) {
     border-bottom-left-radius: 0 !important;
     height: auto;
     border-radius: 0;
+  }
+
+  .swiper-container {
+    padding: 0 15px !important; /* Tambahkan padding untuk tampilan kecil */
   }
 
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */

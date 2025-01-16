@@ -25,13 +25,13 @@
                 <section class="footer-title">Apps & Tools</section>
                 <nav>
                     <ul>
-                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/pages.php'; ?>" class="text-decoration-none">Pages</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/widgets.php'; ?>" class="text-decoration-none">Widgets</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/converter.php'; ?>" class="text-decoration-none">Converters</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/calculators.php'; ?>" class="text-decoration-none">Calculators</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/generators.php'; ?>" class="text-decoration-none">Generators</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/formatters.php'; ?>" class="text-decoration-none">Formatters</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/file-converter.php'; ?>" class="text-decoration-none">File Converter</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/utilities.php'; ?>" class="text-decoration-none">Utilities</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/tester-tools.php'; ?>" class="text-decoration-none">Tester Tools</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>" class="text-decoration-none">Other Tools</a></li>
                     </ul>
                 </nav>
@@ -44,8 +44,7 @@
                         <li><a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-media.php'; ?>" class="text-decoration-none">Inzaghi's Media</a></li>
                         <li><a href="https://github.com/inzaghidev" class="text-decoration-none" target="_blank">Inzaghi's Dev (GitHub)</a></li>
                         <li><a href="https://sites.google.com/view/inzaghis-sites" class="text-decoration-none" target="_blank">Inzaghi's Sites (Old)</a></li>
-                        <li><a href="#" class="text-decoration-none">Inzaghi's Archives</a></li>
-                        <li><a href="#" class="text-decoration-none">Inzaghi's AI</a></li>
+                        <li><a href="https://drive.google.com/drive/folders/1gAMLO2AdXqsp75ymexKwXllKbLMTfhxa" class="text-decoration-none" target="_blank">Inzaghi's Archives</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>" class="text-decoration-none">Inzaghi's Group Network Lists</a></li>
                     </ul>
                 </nav>

@@ -204,3 +204,32 @@
     return contentData[imageName] || "";
   };
 })();
+
+//
+//
+//
+
+const container = document.querySelector(".page-apps-container");
+
+// Pastikan elemen swiper menyesuaikan lebar container
+const adjustSwiperWidth = () => {
+  const swiperElement = document.querySelector(".swiper");
+  const pagination = document.querySelector(".swiper-pagination");
+  const nextButton = document.querySelector(".swiper-button-next");
+  const prevButton = document.querySelector(".swiper-button-prev");
+
+  if (swiperElement) {
+    const containerWidth = container.getBoundingClientRect().width;
+
+    swiperElement.style.maxWidth = `${containerWidth}px`;
+    pagination.style.maxWidth = `${containerWidth}px`;
+
+    // Posisi navigasi di tengah
+    nextButton.style.right = "0px";
+    prevButton.style.left = "0px";
+  }
+};
+
+// Panggil fungsi saat halaman dimuat dan ketika ukuran jendela berubah
+adjustSwiperWidth();
+window.addEventListener("resize", adjustSwiperWidth);
