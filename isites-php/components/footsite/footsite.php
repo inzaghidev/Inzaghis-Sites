@@ -25,13 +25,13 @@
                 <section class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase">Apps & Tools</section>
                 <nav>
                     <ul>
-                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/pages.php'; ?>" class="hover:text-blue-800">Pages</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/widgets.php'; ?>" class="hover:text-blue-800">Widgets</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/converter.php'; ?>" class="hover:text-blue-800">Converters</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/calculators.php'; ?>" class="hover:text-blue-800">Calculators</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/generators.php'; ?>" class="hover:text-blue-800">Generators</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/formatters.php'; ?>" class="hover:text-blue-800">Formatters</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/file-converter.php'; ?>" class="hover:text-blue-800">File Converter</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/utilities.php'; ?>" class="hover:text-blue-800">Utilities</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/tester-tools.php'; ?>" class="hover:text-blue-800">Tester Tools</a></li>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>" class="hover:text-blue-800">Other Tools</a></li>
                     </ul>
                 </nav>
@@ -44,8 +44,7 @@
                         <li><a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-media.php'; ?>" class="hover:text-blue-800">Inzaghi's Media</a></li>
                         <li><a href="https://github.com/inzaghidev" class="hover:text-blue-800" target="_blank">Inzaghi's Dev (GitHub)</a></li>
                         <li><a href="https://sites.google.com/view/inzaghis-sites" class="hover:text-blue-800" target="_blank">Inzaghi's Sites (Old)</a></li>
-                        <li><a href="#" class="hover:text-blue-800">Inzaghi's Archives</a></li>
-                        <li><a href="#" class="hover:text-blue-800">Inzaghi's AI</a></li>
+                        <li><a href="https://drive.google.com/drive/folders/1gAMLO2AdXqsp75ymexKwXllKbLMTfhxa" class="hover:text-blue-800" target="_blank">Inzaghi's Archives</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>" class="hover:text-blue-800">Inzaghi's Group Network Lists</a></li>
                     </ul>
                 </nav>

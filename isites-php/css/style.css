@@ -555,6 +555,11 @@ svg:not(:root) {
   color: #28a745;
 }
 
+.swiper-container {
+  overflow: hidden !important;
+  margin: 0 40px;
+}
+
 #hcg-slider-1 .hcg-slide-container {
   width: auto;
   height: auto;
