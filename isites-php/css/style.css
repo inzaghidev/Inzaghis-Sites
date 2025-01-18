@@ -570,8 +570,11 @@ svg:not(:root) {
 }
 
 .swiper-container {
-  overflow: hidden !important;
-  margin: 0 40px;
+  /* overflow: hidden !important;
+  margin: 0 auto !important; */
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px 0 20px 30px !important;
 }
 
 .swiper {
@@ -581,31 +584,35 @@ svg:not(:root) {
 }
 
 .swiper-slide {
+  flex-shrink: 0;
   width: auto !important; /* Atur lebar slide secara otomatis berdasarkan konten */
   display: flex; /* Untuk memastikan tata letak kartu rapi */
   justify-content: center; /* Pusatkan kartu */
   box-sizing: border-box;
 }
 
-.card-swipper {
+.card-swiper {
   width: 100%;
   max-width: 300px;
   flex-shrink: 0;
   overflow: hidden;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
 .swiper-pagination {
-  bottom: 10px;
+  top: 10px !important;
   position: relative !important;
+  z-index: 9 !important;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
   color: #000;
   position: absolute;
-  top: 50%;
+  top: 52% !important;
   transform: translateY(-50%);
+  z-index: 9 !important;
 }
 
 .swiper-button-next {
@@ -765,8 +772,7 @@ svg:not(:root) {
 
 .page-apps-container {
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .page-apps-wrapper {
@@ -1634,12 +1640,15 @@ svg:not(:root) {
   }
 
   .swiper-container {
+    max-width: 1200px;
+    padding: 20px 0 20px 30px !important;
     overflow: hidden;
   }
 
-  .swiper-container {
-    max-width: 1200px;
-    padding: 0 20px !important;
+  .swiper-pagination {
+    top: 10px !important;
+    position: relative !important;
+    z-index: 9 !important;
   }
 
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
@@ -2360,7 +2369,7 @@ svg:not(:root) {
   }
 
   .swiper-container {
-    padding: 0 15px !important; /* Tambahkan padding untuk tampilan kecil */
+    padding: 20px 0 20px 30px !important;
   }
 
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */

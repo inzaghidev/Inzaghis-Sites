@@ -2,7 +2,13 @@
 	$page_title = "Home";
 	include('../layouts/header.php');
 	include('../components/navbar/navbar.php');
+
+  $jsonFile = '../data/apps-data.json';
+  $jsonData = file_get_contents($jsonFile);
+  $appsData = json_decode($jsonData, true);
 ?>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <section class="welcome shadow">
     <div class="welcome-container">
       <div class="welcome-title">
@@ -37,7 +43,7 @@
       </div>
     </div>
   </section>
-  <section class="page-apps shadow">
+  <!--section class="page-apps shadow">
     <div class="page-apps-container">
       <h2 class="title-heading">Apps</h2>
       <div class="text-container">
@@ -78,6 +84,62 @@
             <a href="../page-apps/pages.php" class="blog-link">Click here</a>
           </button>
         </section>
+      </section>
+    </div>
+    <script src="../js/slider.js"></script>
+  </section-->
+  <section class="page-apps shadow">
+    <div class="page-apps-container">
+      <h2 class="title-heading">Apps</h2>
+      <div class="text-container">
+        <p class="text-description">
+          Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
+          kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
+          Kalkulator, Generator, Formatter, dan lainnya.
+        </p>
+        <section class="group-button">
+          <a href="../page-apps/" class="main-button"
+            >Click here</a
+          >
+        </section>
+      </div>
+      <section class="group-content">
+        <div class="row swiper-container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper" id="appsContainer">
+              <!-- Dynamically Generated Cards -->
+              <?php foreach ($appsData['apps'] as $app): ?>
+                <div class="swiper-slide">
+                  <div class="card card-swiper card-apps h-100 border-success shadow">
+                    <a href="<?= htmlspecialchars($app['link']) ?>">
+                      <img
+                        src="<?= htmlspecialchars($app['imgSrc']) ?>"
+                        class="card-img-apps card-img-top"
+                        alt="<?= htmlspecialchars($app['name']) ?>"
+                      />
+                    </a>
+                    <div class="card-body card-apps-body">
+                      <div class="card-description">
+                        <h4 class="card-name card-title page-apps-card">
+                          <a><?= htmlspecialchars($app['name']) ?></a>
+                        </h4>
+                        <p class="card-text blog-description"><?= htmlspecialchars($app['description']) ?></p>
+                      </div>
+                      <button type="button" class="btn btn-primary btn-md apps-button">
+                        <a href="<?= htmlspecialchars($app['link']) ?>" target="_blank" class="blog-link">Klik di sini</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              <?php endforeach; ?>
+            </div>
+          </div>
+          <!-- Add Navigation -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
       </section>
     </div>
     <script src="../js/slider.js"></script>

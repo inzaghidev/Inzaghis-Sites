@@ -25,6 +25,12 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <link
       rel="stylesheet"
+      href="../cdn/swiper@11/swiper-bundle.min.css"
+      type="text/css"
+    />
+    <script src="../cdn/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -621,7 +627,7 @@
             const slide = document.createElement("div");
             slide.className = "swiper-slide";
             slide.innerHTML = `
-            <div class="card card-swipper card-apps h-100 border-success shadow">
+            <div class="card card-swiper card-apps h-100 border-success shadow">
               <a href="${app.link}">
                 <img
                   src="${app.imgSrc}"

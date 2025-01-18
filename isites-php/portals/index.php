@@ -34,7 +34,7 @@
                 "name" => "Widgets",
                 "imgSrc" => "../assets/images/widgets-by-portals.png",
                 "description" => "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
-                "link" => "#"
+                "link" => "../portals/widgets.php"
             ],
             [
                 "name" => "Technology Tutorials",

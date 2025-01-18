@@ -236,10 +236,11 @@ window.addEventListener("resize", adjustSwiperWidth);
 
 // Initialize Swiper
 const swiper = new Swiper(".swiper", {
-  slidesPerView: 2, // Default untuk mobile
-  spaceBetween: 25, // Jarak antar slide
+  slidesPerView: 3,
+  spaceBetween: 25,
+  loop: true,
+  centerSlide: "true",
   fade: "true",
-  freeMode: true,
   grabCursor: "true",
   pagination: {
     el: ".swiper-pagination",
@@ -253,17 +254,14 @@ const swiper = new Swiper(".swiper", {
     0: {
       slidesPerView: 1,
     },
+    480: {
+      slidesPerView: 2,
+    },
     720: {
-      slidesPerView: 2, // Tablet
-      spaceBetween: 20,
+      slidesPerView: 3,
     },
-    1024: {
-      slidesPerView: 3, // Desktop
-      spaceBetween: 30,
-    },
-    1140: {
-      slidesPerView: 4, // Desktop
-      spaceBetween: 30,
+    1120: {
+      slidesPerView: 4,
     },
   },
 });
