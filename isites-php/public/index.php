@@ -2,7 +2,13 @@
 	$page_title = "Home";
 	include('../layouts/header.php');
 	include('../components/navbar/navbar.php');
+
+  // Load JSON data
+  $jsonData = file_get_contents('../data/apps-data.json');
+  $appsData = json_decode($jsonData, true);
 ?>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <section class="welcome">
     <div class="welcome-container">
       <div class="welcome-title">
@@ -37,7 +43,7 @@
       </div>
     </div>
   </section>
-  <section class="page-apps">
+  <!--section class="page-apps">
     <div class="page-apps-container">
       <h2 class="title-heading">Apps</h2>
       <div class="text-container mb-8">
@@ -83,6 +89,66 @@
             </a>
           </div>
         </section>
+      </section>
+    </div>
+    <script src="../js/slider.js"></script>
+  </section-->
+  <section class="page-apps">
+    <div class="page-apps-container">
+      <h2 class="title-heading">Apps</h2>
+      <div class="text-container">
+        <p class="text-description">
+          Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
+          kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
+          Kalkulator, Generator, Formatter, dan lainnya.
+        </p>
+        <section class="group-button">
+          <a href="../pages/apps.html" class="main-button">Click here</a>
+        </section>
+      </div>
+      <section class="group-content">
+        <div class="swiper-container">
+          <div class="swiper mySwiper">
+            <!-- Wrapper untuk slide -->
+            <div class="swiper-wrapper" id="appsContainer">
+              <?php foreach ($appsData['apps'] as $app): ?>
+                <div class="swiper-slide w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
+                  <div class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#f5faf5] ring-1 ring-gray-300">
+                    <div class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                      <a href="<?= htmlspecialchars($app['link']) ?>">
+                        <img
+                          src="<?= htmlspecialchars($app['imgSrc']) ?>"
+                          alt="<?= htmlspecialchars($app['name']) ?>"
+                          class="w-full h-full object-cover"
+                        />
+                      </a>
+                    </div>
+                    <div class="p-4 text-center flex flex-col flex-grow justify-between">
+                      <div class="flex flex-col bg-transparent border border-gray-200 rounded-xl border-gray-300 sm:h-full p-6 sm:p-2 lg:p-4">
+                        <h5 class="card-name blog-name block mt-2 mb-4 text-3xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-green-700">
+                          <?= htmlspecialchars($app['name']) ?>
+                        </h5>
+                        <p class="blog-description m-auto block text-sm text-left antialiased font-light leading-relaxed text-inherit">
+                          <?= htmlspecialchars($app['description']) ?>
+                        </p>
+                        <div class="mt-4">
+                          <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                            <a href="<?= htmlspecialchars($app['link']) ?>" target="_blank" class="blog-link">Klik di sini</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <?php endforeach; ?>
+            </div>
+            <!-- Navigasi Swiper -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
       </section>
     </div>
     <script src="../js/slider.js"></script>

@@ -21,10 +21,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="../tailwindcss-3.4.14/tailwindcss-cdn-3.4.15.js"></script>
     <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+    <script src="../cdn/alpinejs/alpinejs-cdn.min.js"></script>
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
     ></script>
+    <link
+      rel="stylesheet"
+      href="../cdn/swiper@11/swiper-bundle.min.css"
+      type="text/css"
+    />
+    <script src="../cdn/swiper@11/swiper-bundle.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -986,7 +993,7 @@
     <section class="page-apps">
       <div class="page-apps-container">
         <h2 class="title-heading">Apps</h2>
-        <div class="text-container mb-8">
+        <div class="text-container">
           <p class="text-description">
             Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
             kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
@@ -997,157 +1004,99 @@
           </section>
         </div>
         <section class="group-content">
-          <div class="swiper-container flex flex-wrap -mx-2">
-            <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
-              <div
-                class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#f5faf5] ring-1 ring-gray-300"
-              >
-                <div
-                  class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
-                >
-                  <a href="../page-apps/converter.html">
-                    <img
-                      src="../assets/images/converters-by-pages-apps.png"
-                      alt="Miniblog - Inzaghi's Blog"
-                      class="w-full h-full object-cover"
-                  /></a>
-                </div>
-                <div
-                  class="p-4 text-center flex flex-col flex-grow justify-between"
-                >
-                  <div
-                    class="flex flex-col bg-transparent border border-gray-200 rounded-xl border-gray-300 sm:h-full p-6 sm:p-2 lg:p-4"
-                  >
-                    <h5
-                      class="card-name blog-name block mt-2 mb-4 text-3xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-green-700"
-                    >
-                      Converters
-                    </h5>
-                    <p
-                      class="blog-description m-auto block text-sm text-left antialiased font-light leading-relaxed text-inherit"
-                    >
-                      Merupakan portal untuk Aplikasi Konverter seperti Konversi
-                      Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan
-                      lain-lain. Sebagian dari Aplikasi Konverter ini akan
-                      sedikit menggunakan API.
-                    </p>
-                    <div class="mt-4">
-                      <button
-                        class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                      >
-                        <a
-                          href="../page-apps/converter.html"
-                          target="_blank"
-                          class="blog-link"
-                          >Klik di sini</a
-                        >
-                      </button>
-                    </div>
-                  </div>
-                </div>
+          <div class="swiper-container">
+            <div class="swiper mySwiper">
+              <!-- Wrapper untuk slide -->
+              <div class="swiper-wrapper" id="appsContainer">
+                <!-- Kartu akan ditambahkan secara dinamis -->
               </div>
-            </div>
-
-            <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
-              <div
-                class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#f5faf5] ring-1 ring-gray-300"
-              >
-                <div
-                  class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
-                >
-                  <a href="../page-apps/calculators.html.html">
-                    <img
-                      src="../assets/images/calculators-by-pages-apps.png"
-                      alt="Miniblog - Inzaghi's Blog"
-                      class="w-full h-full object-cover"
-                  /></a>
-                </div>
-                <div
-                  class="p-4 text-center flex flex-col flex-grow justify-between"
-                >
-                  <div
-                    class="flex flex-col bg-transparent border border-gray-200 rounded-xl border-gray-300 sm:h-full p-6 sm:p-2 lg:p-4"
-                  >
-                    <h5
-                      class="card-name blog-name block mt-2 mb-4 text-3xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-green-700"
-                    >
-                      Calculators
-                    </h5>
-                    <p
-                      class="blog-description m-auto block text-sm text-left antialiased font-light leading-relaxed text-inherit"
-                    >
-                      Merupakan kumpulan dari beberapa jenis Kalkulator seperti
-                      Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan,
-                      Keuangan, hingga Kalkulator untuk Keseharian.
-                    </p>
-                    <div class="mt-4">
-                      <button
-                        class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                      >
-                        <a
-                          href="../page-apps/calculators.html"
-                          target="_blank"
-                          class="blog-link"
-                          >Klik di sini</a
-                        >
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
-              <div
-                class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#f5faf5] ring-1 ring-gray-300"
-              >
-                <div
-                  class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40"
-                >
-                  <a href="../page-apps/generators.html">
-                    <img
-                      src="../assets/images/generators-by-pages-apps.png"
-                      alt="Miniblog - Inzaghi's Blog"
-                      class="w-full h-full object-cover"
-                  /></a>
-                </div>
-                <div
-                  class="p-4 text-center flex flex-col flex-grow justify-between"
-                >
-                  <div
-                    class="flex flex-col bg-transparent border border-gray-200 rounded-xl border-gray-300 sm:h-full p-6 sm:p-2 lg:p-4"
-                  >
-                    <h5
-                      class="card-name blog-name block mt-2 mb-4 text-3xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-green-700"
-                    >
-                      Generators
-                    </h5>
-                    <p
-                      class="blog-description m-auto block text-sm text-left antialiased font-light leading-relaxed text-inherit"
-                    >
-                      Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu
-                      seperti Text Generator hingga Image Generator, dan dapat
-                      dibuat secara acak.
-                    </p>
-                    <div class="mt-4">
-                      <button
-                        class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                      >
-                        <a
-                          href="../page-apps/generators.html"
-                          target="_blank"
-                          class="blog-link"
-                          >Klik di sini</a
-                        >
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <!-- Navigasi Swiper -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <!-- Pagination -->
+              <div class="swiper-pagination"></div>
             </div>
           </div>
         </section>
       </div>
+
+      <script>
+        const appsData = {
+          apps: [
+            {
+              name: "Converters",
+              imgSrc: "../assets/images/converters-by-pages-apps.png",
+              description:
+                "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
+              link: "../page-apps/converter.html",
+            },
+            {
+              name: "Calculators",
+              imgSrc: "../assets/images/calculators-by-pages-apps.png",
+              description:
+                "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
+              link: "../page-apps/calculators.html",
+            },
+            {
+              name: "Generators",
+              imgSrc: "../assets/images/generators-by-pages-apps.png",
+              description:
+                "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
+              link: "../page-apps/generators.html",
+            },
+            {
+              name: "Formatters",
+              imgSrc: "../assets/images/formatters-by-pages-apps.png",
+              description:
+                "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
+              link: "../page-apps/formatters.html",
+            },
+            {
+              name: "File Converter",
+              imgSrc: "../assets/images/file-converters-by-pages-apps.png",
+              description:
+                "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
+              link: "../page-apps/file-converter.html",
+            },
+          ],
+        };
+
+        const appsContainer = document.getElementById("appsContainer");
+
+        appsData.apps.forEach((app) => {
+          const slide = document.createElement("div");
+          slide.className = "swiper-slide w-full sm:w-1/2 lg:w-1/3 px-4 mb-4";
+          slide.innerHTML = `
+          <div class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#f5faf5] ring-1 ring-gray-300">
+            <div class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+              <a href="${app.link}">
+                <img
+                  src="${app.imgSrc}"
+                  alt="${app.name}"
+                  class="w-full h-full object-cover"
+                />
+              </a>
+            </div>
+            <div class="p-4 text-center flex flex-col flex-grow justify-between">
+              <div class="flex flex-col bg-transparent border border-gray-200 rounded-xl border-gray-300 sm:h-full p-6 sm:p-2 lg:p-4">
+                <h5 class="card-name blog-name block mt-2 mb-4 text-3xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-green-700">
+                  ${app.name}
+                </h5>
+                <p class="blog-description m-auto block text-sm text-left antialiased font-light leading-relaxed text-inherit">
+                  ${app.description}
+                </p>
+                <div class="mt-4">
+                  <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                    <a href="${app.link}" target="_blank" class="blog-link">Klik di sini</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+          appsContainer.appendChild(slide);
+        });
+      </script>
       <script src="../js/slider.js"></script>
     </section>
     <section class="inzaghis-blog-slider">
