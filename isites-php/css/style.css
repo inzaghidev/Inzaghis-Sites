@@ -616,11 +616,11 @@ svg:not(:root) {
 }
 
 .swiper-button-next {
-  right: 10px;
+  right: 10px !important;
 }
 
 .swiper-button-prev {
-  left: 10px;
+  left: 10px !important;
 }
 
 #hcg-slider-1 .hcg-slide-container {
@@ -2370,6 +2370,11 @@ svg:not(:root) {
 
   .swiper-container {
     padding: 20px 0 20px 30px !important;
+  }
+
+  .card-swiper {
+    width: 100%;
+    max-width: 250px;
   }
 
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */

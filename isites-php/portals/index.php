@@ -40,43 +40,43 @@
                 "name" => "Technology Tutorials",
                 "imgSrc" => "../assets/images/tech-tutorials-by-portals.png",
                 "description" => "Merupakan kumpulan dari berbagai macam Teknologi apapun dalam bidang IT, dan sebagai Pembelajaran untuk berbagai macam Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu Komputer, Analisis Data, dan lainnya.",
-                "link" => "#"
+                "link" => "../portals/tech-tutorials.php"
             ],
             [
                 "name" => "IT Project Lists",
                 "imgSrc" => "../assets/images/it-project-lists-by-portals.png",
                 "description" => "Merupakan kumpulan dari berbagai macam Proyek apapun dalam bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis Data, AI/ML, IoT, dan lainnya.",
-                "link" => "#"
+                "link" => "../portals/projects.php"
             ],
             [
                 "name" => "Interviews & Thesis Prep",
                 "imgSrc" => "../assets/images/intervs-and-thesis-by-portals.png",
                 "description" => "Merupakan kumpulan dari pertanyaan-pertanyaan Wawancara seperti Wawancara Kerja, Magang, User Interview, Wawancara Teknis (Technical Interview), dan lain-lain. Portal ini juga menyediakan berbagai macam Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
-                "link" => "#"
+                "link" => "../portals/interviews-and-thesis.php"
             ],
             [
                 "name" => "Materi Pembelajaran",
                 "imgSrc" => "../assets/images/learning-materials-by-portals.png",
                 "description" => "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik Informatika). Untuk Materi SMA, kebanyakan hanya lebih spesifik ke Jurusan IPA saja. Dan untuk Materi Perkuliahan, hanya hanya tersedia untuk Jurusan Teknik Informatika (TI) saja, dan hanya beberapa Mata Kuliah saja yang juga tersedia untuk Jurusan Sistem Informasi (SI). Untuk Jurusan/Prodi lainnya, hanya tersedia untuk Mata Kuliah Umum (MKDU) saja.",
-                "link" => "#"
+                "link" => "../portals/learning-materials.php"
             ],
             [
                 "name" => "Video Pages",
                 "imgSrc" => "../assets/images/video-pages-by-portals.png",
                 "description" => "Merupakan kumpulan dari Video-video YouTube seperti Live Streaming Video, Daftar Channel Terjemahan Multibahasa, dan Daftar Channel YouTube per Kategori.",
-                "link" => "#"
+                "link" => "../portals/video-pages.php"
             ],
             [
                 "name" => "Link Pages",
                 "imgSrc" => "../assets/images/link-pages-by-portals.png",
                 "description" => "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
-                "link" => "#"
+                "link" => "../portals/link-pages.php"
             ],
             [
                 "name" => "Miscellaneous",
                 "imgSrc" => "../assets/images/miscellaneous-by-portals.png",
-                "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
-                "link" => "#"
+                "description" => "Merupakan Halaman lainnya yang tidak termasuk dari Kategori di Portal ini, dan juga tersedia untuk Halaman apa saja.",
+                "link" => "../portals/miscellaneous.php"
             ],
             [
                 "name" => "Lorem Ipsum",
