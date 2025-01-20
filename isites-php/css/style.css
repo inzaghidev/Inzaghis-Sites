@@ -559,13 +559,16 @@ svg:not(:root) {
   overflow: hidden !important;
   max-width: 1200px;
   width: 100%;
-  padding: 40px 0;
+  padding: 40px 30px;
+  margin: auto;
 }
 
 .swiper {
   width: 100%;
   max-width: 1280px;
   box-sizing: border-box;
+  position: relative !important; /* Tambahkan agar overflow terlihat */
+  overflow: visible !important; /* Ubah overflow agar elemen navigasi tidak terpotong */
 }
 
 .swiper-slide {
@@ -599,11 +602,11 @@ svg:not(:root) {
 }
 
 .swiper-button-next {
-  right: 10px;
+  right: -30px !important;
 }
 
 .swiper-button-prev {
-  left: 10px;
+  left: -30px !important;
 }
 
 #hcg-slider-1 .hcg-slide-container {
@@ -758,7 +761,7 @@ svg:not(:root) {
 }
 
 .page-apps-container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1656,7 +1659,7 @@ svg:not(:root) {
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
   .page-apps-container {
-    max-width: 1080px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -2404,6 +2407,20 @@ svg:not(:root) {
   }
 
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
+
+  .page-apps {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    padding: 60px 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .page-apps-wrapper {
     background-color: #f5faf5;
