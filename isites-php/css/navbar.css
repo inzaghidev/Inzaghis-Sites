@@ -224,10 +224,11 @@ li a:hover::after {
 }
 
 .dropdown-link:hover {
+  color: var(--color-black);
   background-color: var(--dropdown-hover-background-color);
 }
 
-.navbar .nav-menu .dropdown-link::before {
+.nav-menu .dropdown-link::before {
   content: "";
   background: var(--dropdown-hover-background-color);
   display: block;
