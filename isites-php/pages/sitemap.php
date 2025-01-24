@@ -10,32 +10,39 @@
       <div class="page-title">
         <h1 class="page-title">SITEMAP</h1>
       </div>
-      <div class="page-wrapper">
+      <div class="page-wrapper page-container">
         <div class="welcome-to-inzaghis-sites">
-          <div class="welcome-description">
+          <div class="welcome-description card bg-white shadow rounded-lg shadow-lg border border-success">
             <ul id="sitemap">
               <?php
                 function generateSitemap($dir, $pathToWebRoot = '', $level = 0) {
                     $handle = opendir($dir);
 
                     if ($handle === false) {
-                        return; // Jika opendir gagal, hentikan fungsi
+                        return;
                     }
 
                     while (($file = readdir($handle)) !== false) {
                         if ($file != "." && $file != "..") {
                             $currentPath = $dir . '/' . $file;
-                            $relativePath = $pathToWebRoot . $file;
+
+                            // Path relatif khusus untuk folder selain /pages/
+                            if (strpos($dir, '/public/') !== false) {
+                                $relativePath = 'public/' . $file;
+                            } elseif (strpos($dir, '/page-apps/') !== false) {
+                                $relativePath = 'page-apps/' . $file;
+                            } elseif (strpos($dir, '/portals/') !== false) {
+                                $relativePath = 'portals/' . $file;
+                            } else {
+                                $relativePath = $pathToWebRoot . $file; // Default untuk /pages/
+                            }
 
                             echo "<li>";
 
                             if (is_dir($currentPath)) {
-                                // If it's a directory, make it a clickable link
                                 echo str_repeat("&nbsp;", $level * 4) . "├── <a href='$relativePath'>$file/</a><br/>";
-                                // Recursive call for subdirectories
-                                generateSitemap($currentPath, $relativePath . '/', $level + 1);
+                                generateSitemap($currentPath, $relativePath . '/', $level + 1); // Rekursi
                             } else {
-                                // If it's a file, just display the file name
                                 echo str_repeat("&nbsp;", $level * 4) . "├── <a href='$relativePath'>$file</a><br/>";
                             }
 
@@ -46,23 +53,30 @@
                     closedir($handle);
                 }
 
-                // Set the root directory
-                $webRoot = realpath(dirname(__DIR__));
-                $serverRoot = realpath($_SERVER['DOCUMENT_ROOT']);
+                // Set root direktori
+                $webRoot = realpath(dirname(__DIR__)); // Root direktori proyek
+                $serverRoot = realpath($_SERVER['DOCUMENT_ROOT']); // Root server web
+
+                // Hitung base URL
                 if ($webRoot === $serverRoot) {
-                    $pathToWebRoot = "";
+                    $baseUrl = "";
                 } else {
-                    $pathToWebRoot = substr($webRoot, strlen($serverRoot) + 1);
+                    $baseUrl = substr($webRoot, strlen($serverRoot) + 1) . '/';
                 }
 
-                // Explicitly specify the root directory for sitemap generation
+                // Menampilkan sitemap
                 echo "<ul>";
                 echo "<li><strong>📁 public</strong></li>";
-                generateSitemap($webRoot . '/public/', '', 1);
+                generateSitemap($webRoot . '/public', '', 1);
+
                 echo "<li><strong>📁 page-apps</strong></li>";
-                generateSitemap($webRoot . '/page-apps/', '', 1);
+                generateSitemap($webRoot . '/page-apps', 'page-apps/', 1);
+
+                echo "<li><strong>📁 portals</strong></li>";
+                generateSitemap($webRoot . '/portals', 'portals/', 1);
+
                 echo "<li><strong>📁 pages</strong></li>";
-                generateSitemap($webRoot . '/pages/', '', 1);
+                generateSitemap($webRoot . '/pages', 'pages/', 1);
                 echo "</ul>";
               ?>
             </ul>

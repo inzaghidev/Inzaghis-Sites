@@ -10,9 +10,9 @@
       <div class="page-title">
         <h1 class="page-title">SITEMAP</h1>
       </div>
-      <div class="page-wrapper">
+      <div class="page-wrapper page-container">
         <div class="welcome-to-inzaghis-sites">
-          <div class="welcome-description">
+          <div class="welcome-description card bg-white shadow rounded-lg shadow-lg border border-success">
             <ul id="sitemap">
               <?php
                 function generateSitemap($dir, $pathToWebRoot = '', $level = 0) {
@@ -61,6 +61,8 @@
                 generateSitemap($webRoot . '/public/', '', 1);
                 echo "<li><strong>📁 page-apps</strong></li>";
                 generateSitemap($webRoot . '/page-apps/', '', 1);
+                echo "<li><strong>📁 portals</strong></li>";
+                generateSitemap($webRoot . '/portals/', '', 1);
                 echo "<li><strong>📁 pages</strong></li>";
                 generateSitemap($webRoot . '/pages/', '', 1);
                 echo "</ul>";

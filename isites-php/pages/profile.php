@@ -21,7 +21,7 @@
     <section class="pages">
       <div class="row bg-light">
         <article
-            class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 shadow-lg"
+            class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 shadow-lg rounded-lg border border-success"
         >
           <div class="resume-header">
             <div class="row align-items-center">
@@ -103,21 +103,21 @@
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
                       >
-                        Google | 2023 - Present
+                        ABC Company | 2023 - Present
                       </div>
                     </div>
                     <div class="item-content">
                       <p>
-                        Role description goes here ipsum dolor sit amet,
-                        consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus et
-                        magnis dis parturient montes, nascetur ridiculus mus.
-                        Donec quam felis, ultricies nec, pellentesque eu,
-                        pretium quis, sem. Donec pede justo, fringilla vel.
                         Lorem ipsum dolor sit amet, consectetuer adipiscing
                         elit. Aenean commodo ligula eget dolor. Aenean massa.
                         Cum sociis natoque penatibus et magnis dis parturient
-                        montes, nascetur ridiculus mus. Donec quam felis.
+                        montes, nascetur ridiculus mus. Donec quam felis,
+                        ultricies nec, pellentesque eu, pretium quis, sem.
+                        Donec pede justo, fringilla vel. Lorem ipsum dolor sit
+                        amet, consectetuer adipiscing elit. Aenean commodo
+                        ligula eget dolor. Aenean massa. Cum sociis natoque
+                        penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus. Donec quam felis.
                       </p>
                       <ul class="resume-list">
                         <li>Lorem ipsum dolor sit amet, consectetuer.</li>
@@ -137,17 +137,17 @@
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
                       >
-                        Apple | 2022 - 2023
+                        ABC Company | 2022 - 2023
                       </div>
                     </div>
                     <div class="item-content">
                       <p>
-                        Role description goes here ipsum dolor sit amet,
-                        consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus et
-                        magnis dis parturient montes, nascetur ridiculus mus.
-                        Donec quam felis, ultricies nec, pellentesque eu,
-                        pretium quis, sem. Donec pede justo, fringilla vel.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus. Donec quam felis,
+                        ultricies nec, pellentesque eu, pretium quis, sem.
+                        Donec pede justo, fringilla vel.
                       </p>
                       <ul class="resume-list">
                         <li>Lorem ipsum dolor sit amet, consectetuer.</li>
@@ -166,15 +166,15 @@
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
                       >
-                        Microsoft | 2020 - 2022
+                        ABC Company | 2020 - 2022
                       </div>
                     </div>
                     <div class="item-content">
                       <p>
-                        Role description goes here ipsum dolor sit amet,
-                        consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus et
-                        magnis dis parturient montes, nascetur ridiculus mus.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus.
                       </p>
                     </div>
                   </div>
@@ -189,14 +189,14 @@
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
                       >
-                        Netflix | 2019 - 2020
+                        ABC Company | 2019 - 2020
                       </div>
                     </div>
                     <div class="item-content">
                       <p>
-                        Role description goes here ipsum dolor sit amet,
-                        consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus.
                       </p>
                     </div>
                   </div>
@@ -211,15 +211,15 @@
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
                       >
-                        Amazon | 2018 - 2019
+                        ABC Company | 2018 - 2019
                       </div>
                     </div>
                     <div class="item-content">
                       <p>
-                        Role description goes here ipsum dolor sit amet,
-                        consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus et
-                        magnis dis parturient montes, nascetur ridiculus mus.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus.
                       </p>
                     </div>
                   </div>
@@ -234,14 +234,14 @@
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
                       >
-                        Startup | 2017 - 2018
+                        ABC Company | 2017 - 2018
                       </div>
                     </div>
                     <div class="item-content">
                       <p>
-                        Role description goes here ipsum dolor sit amet,
-                        consectetuer adipiscing elit. Aenean commodo ligula eget
-                        dolor. Aenean massa. Cum sociis natoque penatibus.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus.
                       </p>
                     </div>
                   </div>
@@ -257,7 +257,7 @@
                       <h4
                         class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
                       >
-                        Project Lorem Ipsum
+                        Project Lorem Ipsum 1
                       </h4>
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
@@ -284,7 +284,7 @@
                       <h4
                         class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
                       >
-                        Project Sed Fringilla
+                        Project Lorem Ipsum 2
                       </h4>
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
@@ -307,7 +307,7 @@
                       <h4
                         class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
                       >
-                        Project Praesent
+                        Project Lorem Ipsum 3
                       </h4>
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"

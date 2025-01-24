@@ -93,7 +93,6 @@
             <div class="mb-4">
                 <div class="card-portals card h-100 border-success shadow">
                     <div class="card-portals-wrapper row">
-                        <!-- Gambar -->
                         <a href="<?php echo $app['link']; ?>" class="card-img-portals-wrapper">
                             <img
                                 class="card-img-portals d-block w-100 h-100"
@@ -101,19 +100,15 @@
                                 alt="<?php echo $app['name']; ?>"
                             />
                         </a>
-                        <!-- Isi Konten -->
                         <div class="card-body card-portals-body">
                             <div class="card-text-container card-body">
-                                <!-- Judul -->
                                 <h4 class="card-title page-apps-card card-portals-name">
                                     <?php echo $app['name']; ?>
                                 </h4>
-                                <!-- Deskripsi -->
                                 <p class="card-apps-text">
                                     <?php echo $app['description']; ?>
                                 </p>
                                 <br />
-                                <!-- Tombol -->
                                 <button class="btn btn-primary btn-md">
                                     <a class="blog-link" href="<?php echo $app['link']; ?>">Click here</a>
                                 </button>
