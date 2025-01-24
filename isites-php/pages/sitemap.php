@@ -5,13 +5,13 @@
 ?>
 <section class="sitemap">
   <div class="container-top"></div>
-  <div class="welcome-container">
-    <div class="welcome-title">
-      <h1 class="welcome-title">SITEMAP</h1>
+  <div class="page-container">
+    <div class="page-title">
+      <h1 class="page-title">SITEMAP</h1>
     </div>
-    <div class="welcome-wrapper">
+    <div class="page-wrapper">
       <div class="welcome-to-inzaghis-sites">
-        <div class="welcome-description">
+        <div class="page-description">
           <ul id="sitemap">
             <?php
               function generateSitemap($dir, $pathToWebRoot = '', $level = 0) {

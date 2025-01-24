@@ -324,6 +324,10 @@ svg:not(:root) {
   /*padding: var(--padding-20);*/
 }
 
+.sitemap {
+  padding: 30px;
+}
+
 .page-container {
   max-width: 1680px;
   /*padding: 60px 30px;*/
