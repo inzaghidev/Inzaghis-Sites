@@ -10,9 +10,9 @@
       <div class="page-title">
         <h1 class="page-title">SITEMAP</h1>
       </div>
-      <div class="page-wrapper">
+      <div class="page-wrapper page-container">
         <div class="welcome-to-inzaghis-sites">
-          <div class="welcome-description">
+          <div class="welcome-description bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-500 p-6">
             <ul id="sitemap">
               <?php
                 function generateSitemap($dir, $pathToWebRoot = '', $level = 0) {

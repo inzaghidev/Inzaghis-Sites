@@ -10,15 +10,17 @@
       <div class="page-wrapper inzagroup-pages">
         <h1 class="my-4 page-title">Inzaghi's Media</h1>
         <div class="bg-white shadow-xl rounded-lg p-6 ring-1 ring-red-400 p-6">
-          <h2 class="text-3xl font-bold mb-4">Description</h2>
-          <p class="text-black">
+          <h2 class="text-4xl font-bold mb-4 font-[Inter]">Description</h2>
+          <p class="text-black text-sm font-[Inter]">
             Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
             terutama seputar IT.
           </p>
           <br />
+          <hr class="my-6 border-t border-gray-300" />
+          <br />
           <div class="mb-6">
-            <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold">Instagram</span>
+            <div class="flex justify-between flex-wrap gap-2 mb-4 w-full">
+              <span class="text-3xl text-gray-700 font-bold font-[Inter]">Instagram</span>
               <button type="button">
                 <a
                   href="https://www.instagram.com/enzapost"
@@ -28,7 +30,7 @@
                 >
               </button>
             </div>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-gray-600 text-sm font-[Inter]">
               Sebagai Postingan berbentuk Gambar Persegi dan sebagai Asisten
               dari Inzaghi's Blog.
             </p>
@@ -41,8 +43,8 @@
             ></script>
           </div>
           <div class="mb-6">
-            <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold">TikTok</span>
+            <div class="flex justify-between flex-wrap gap-2 mb-4 w-full">
+              <span class="text-3xl text-gray-700 font-bold font-[Inter]">TikTok</span>
               <button type="button">
                 <a
                   href="https://www.tiktok.com/@enzapostmedia"
@@ -52,7 +54,7 @@
                 >
               </button>
             </div>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-gray-600 text-sm font-[Inter]">
               Sebagai Postingan berbentuk Video Vertikal (Portrait) yang dapat
               di-Scrolling seperti Video Tutorial/Tips dan Informasi Singkat.
             </p>
@@ -65,8 +67,8 @@
             ></script>
           </div>
           <div class="mb-6">
-            <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold">YouTube</span>
+            <div class="flex justify-between flex-wrap gap-2 mb-4 w-full">
+              <span class="text-3xl text-gray-700 font-bold font-[Inter]">YouTube</span>
               <button type="button">
                 <a
                   href="https://www.youtube.com/@enzavlogpost"
@@ -76,7 +78,7 @@
                 >
               </button>
             </div>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-gray-600 text-sm font-[Inter]">
               Sebagai sebuah Channel yang berbentuk Video seperti Tutorial,
               Video Shorts, hingga Demo Aplikasi/Project.
             </p>
@@ -92,8 +94,8 @@
             ></script>
           </div>
           <div class="mb-6">
-            <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold">X (Twitter)</span>
+            <div class="flex justify-between flex-wrap gap-2 mb-4 w-full">
+              <span class="text-3xl text-gray-700 font-bold font-[Inter]">X (Twitter)</span>
               <button type="button">
                 <a
                   href="https://www.youtube.com/@enzavlogpost"
@@ -103,7 +105,7 @@
                 >
               </button>
             </div>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-gray-600 text-sm font-[Inter]">
               Sebagai Postingan berbentuk Infografis, Tweet, hingga
               Postingan-postingan dari Inzaghi's Blog.
             </p>
@@ -116,8 +118,8 @@
             ></script>
           </div>
           <div class="mb-6">
-            <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold">Threads</span>
+            <div class="flex justify-between flex-wrap gap-2 mb-4 w-full">
+              <span class="text-3xl text-gray-700 font-bold font-[Inter]">Threads</span>
               <button type="button">
                 <a
                   href="https://www.threads.net/@enzapost"
@@ -127,7 +129,7 @@
                 >
               </button>
             </div>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-gray-600 text-sm font-[Inter]">
               Sama seperti di X, Sebagai Postingan berbentuk Infografis,
               Tulisan, hingga Postingan-postingan dari Inzaghi's Blog.
             </p>
