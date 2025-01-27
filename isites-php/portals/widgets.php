@@ -14,29 +14,32 @@
         <h1 class="welcome-title">Widgets</h1>
       </div>
       <section class="pages">
-        <p class="is-desc">
-          <?php
-            $query = "Widgets"; // Ganti dengan nilai sesuai kebutuhan
+        <div class="card-body card-apps card shadow border border-success">
+          <p class="is-desc">
+            <?php
+              $query = "Widgets"; // Ganti dengan nilai sesuai kebutuhan
 
-            if (isset($data['apps'])) {
-                $appsDesc = $data['apps'];
-            } else {
-                $appsDesc = []; // Jika tidak ada data, gunakan array kosong
-            }
+              if (isset($data['apps'])) {
+                  $appsDesc = $data['apps'];
+              } else {
+                  $appsDesc = []; // Jika tidak ada data, gunakan array kosong
+              }
 
-            // Cari deskripsi berdasarkan query
-            $foundDescription = 'Deskripsi tidak ditemukan'; // Default jika query tidak ditemukan
-            foreach ($appsDesc as $appDesc) {
-                if (isset($appDesc['name']) && $appDesc['name'] === $query) {
-                    $foundDescription = isset($appDesc['description']) ? $appDesc['description'] : 'Deskripsi tidak tersedia';
-                    break; // Berhenti pencarian jika ditemukan
-                }
-            }
+              // Cari deskripsi berdasarkan query
+              $foundDescription = 'Deskripsi tidak ditemukan'; // Default jika query tidak ditemukan
+              foreach ($appsDesc as $appDesc) {
+                  if (isset($appDesc['name']) && $appDesc['name'] === $query) {
+                      $foundDescription = isset($appDesc['description']) ? $appDesc['description'] : 'Deskripsi tidak tersedia';
+                      break; // Berhenti pencarian jika ditemukan
+                  }
+              }
 
-            // Tampilkan deskripsi yang ditemukan
-            echo $foundDescription;
-          ?>
-        </p>
+              // Tampilkan deskripsi yang ditemukan
+              echo $foundDescription;
+            ?>
+          </p>
+        </div>
+        <br />
         <div class="row">
             <?php
                 // Loop through each app data and create the HTML structure

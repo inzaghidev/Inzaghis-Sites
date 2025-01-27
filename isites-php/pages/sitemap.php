@@ -1,7 +1,7 @@
 <?php
-    $page_title = "Sitemap";
-    include('../layouts/header.php');
-    include('../components/navbar/navbar.php');
+$page_title = "Sitemap";
+include('../layouts/header.php');
+include('../components/navbar/navbar.php');
 ?>
 <section class="sitemap">
   <div class="container-top"></div>
@@ -15,69 +15,63 @@
           <div class="welcome-description card bg-white shadow rounded-lg shadow-lg border border-success">
             <ul id="sitemap">
               <?php
-                function generateSitemap($dir, $pathToWebRoot = '', $level = 0) {
-                    $handle = opendir($dir);
+              /**
+               * Fungsi untuk menghasilkan sitemap.
+               *
+               * @param string $dir Direktori yang sedang diproses
+               * @param string $baseDir Base direktori untuk URL
+               * @param int $level Tingkat kedalaman (untuk indentasi visual)
+               */
+              function generateSitemap($dir, $baseDir, $level = 0)
+              {
+                  $handle = opendir($dir);
 
-                    if ($handle === false) {
-                        return;
-                    }
+                  if ($handle === false) {
+                      return; // Jika tidak bisa membuka direktori, keluar dari fungsi
+                  }
 
-                    while (($file = readdir($handle)) !== false) {
-                        if ($file != "." && $file != "..") {
-                            $currentPath = $dir . '/' . $file;
+                  while (($file = readdir($handle)) !== false) {
+                      if ($file != "." && $file != "..") {
+                          $currentPath = $dir . '/' . $file;
 
-                            // Path relatif khusus untuk folder selain /pages/
-                            if (strpos($dir, '/public/') !== false) {
-                                $relativePath = 'public/' . $file;
-                            } elseif (strpos($dir, '/page-apps/') !== false) {
-                                $relativePath = 'page-apps/' . $file;
-                            } elseif (strpos($dir, '/portals/') !== false) {
-                                $relativePath = 'portals/' . $file;
-                            } else {
-                                $relativePath = $pathToWebRoot . $file; // Default untuk /pages/
-                            }
+                          // Tentukan path relatif
+                          $relativePath = $baseDir . $file;
 
-                            echo "<li>";
+                          echo "<li>";
 
-                            if (is_dir($currentPath)) {
-                                echo str_repeat("&nbsp;", $level * 4) . "├── <a href='$relativePath'>$file/</a><br/>";
-                                generateSitemap($currentPath, $relativePath . '/', $level + 1); // Rekursi
-                            } else {
-                                echo str_repeat("&nbsp;", $level * 4) . "├── <a href='$relativePath'>$file</a><br/>";
-                            }
+                          if (is_dir($currentPath)) {
+                              // Jika direktori, tampilkan sebagai link dan rekursi
+                              echo str_repeat("&nbsp;", $level * 4) . "├── <a href='../../$relativePath'>$file/</a><br/>";
+                              generateSitemap($currentPath, $baseDir . $file . '/', $level + 1);
+                          } else {
+                              // Jika file, tampilkan sebagai link
+                              echo str_repeat("&nbsp;", $level * 4) . "├── <a href='../../$relativePath'>$file</a><br/>";
+                          }
 
-                            echo "</li>";
-                        }
-                    }
+                          echo "</li>";
+                      }
+                  }
 
-                    closedir($handle);
-                }
+                  closedir($handle);
+              }
 
-                // Set root direktori
-                $webRoot = realpath(dirname(__DIR__)); // Root direktori proyek
-                $serverRoot = realpath($_SERVER['DOCUMENT_ROOT']); // Root server web
+              // Set root direktori
+              $webRoot = realpath(dirname(__DIR__));
 
-                // Hitung base URL
-                if ($webRoot === $serverRoot) {
-                    $baseUrl = "";
-                } else {
-                    $baseUrl = substr($webRoot, strlen($serverRoot) + 1) . '/';
-                }
+              // Menampilkan sitemap
+              echo "<ul>";
+              echo "<li><strong>📁 public</strong></li>";
+              generateSitemap($webRoot . '/public', 'public/', 1);
 
-                // Menampilkan sitemap
-                echo "<ul>";
-                echo "<li><strong>📁 public</strong></li>";
-                generateSitemap($webRoot . '/public', '', 1);
+              echo "<li><strong>📁 page-apps</strong></li>";
+              generateSitemap($webRoot . '/page-apps', 'page-apps/', 1);
 
-                echo "<li><strong>📁 page-apps</strong></li>";
-                generateSitemap($webRoot . '/page-apps', 'page-apps/', 1);
+              echo "<li><strong>📁 portals</strong></li>";
+              generateSitemap($webRoot . '/portals', 'portals/', 1);
 
-                echo "<li><strong>📁 portals</strong></li>";
-                generateSitemap($webRoot . '/portals', 'portals/', 1);
-
-                echo "<li><strong>📁 pages</strong></li>";
-                generateSitemap($webRoot . '/pages', 'pages/', 1);
-                echo "</ul>";
+              echo "<li><strong>📁 pages</strong></li>";
+              generateSitemap($webRoot . '/pages', 'pages/', 1);
+              echo "</ul>";
               ?>
             </ul>
           </div>
@@ -87,6 +81,6 @@
   </div>
 </section>
 <?php
-	include('../components/footsite/footsite.php');
-  include('../layouts/footer.php');
+include('../components/footsite/footsite.php');
+include('../layouts/footer.php');
 ?>
