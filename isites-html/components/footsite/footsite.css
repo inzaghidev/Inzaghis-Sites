@@ -1,5 +1,4 @@
 .footer {
-  background: rgb(217, 208, 235);
   background: radial-gradient(
     circle,
     rgba(217, 208, 235, 1) 0%,
@@ -63,7 +62,6 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    background: rgb(217, 208, 235);
     background: radial-gradient(
       circle,
       rgba(217, 208, 235, 1) 0%,
@@ -137,7 +135,6 @@
 
 @media screen and (max-width: 720px) {
   .footer {
-    background: rgb(217, 208, 235);
     background: radial-gradient(
       circle,
       rgba(217, 208, 235, 1) 0%,

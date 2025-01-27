@@ -992,7 +992,7 @@
     </section> -->
     <section class="page-apps">
       <div class="page-apps-container">
-        <h2 class="title-heading">Apps</h2>
+        <h2 class="title-heading text-green-700">Apps</h2>
         <div class="text-container">
           <p class="text-description">
             Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
@@ -1004,7 +1004,7 @@
           </section>
         </div>
         <section class="group-content">
-          <div class="swiper-container">
+          <div class="swiper-container flex flex-wrap">
             <div class="swiper mySwiper">
               <!-- Wrapper untuk slide -->
               <div class="swiper-wrapper" id="appsContainer">
@@ -1058,6 +1058,20 @@
                 "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
               link: "../page-apps/file-converter.html",
             },
+            {
+              name: "Utilities",
+              imgSrc: "../assets/images/utilities-by-pages-apps.png",
+              description:
+                "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
+              link: "../page-apps/utilities.html",
+            },
+            {
+              name: "Tester Tools",
+              imgSrc: "../assets/images/tester-tools-by-pages-apps.png",
+              description:
+                "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
+              link: "../page-apps/tester-tools.html",
+            },
           ],
         };
 
@@ -1067,33 +1081,33 @@
           const slide = document.createElement("div");
           slide.className = "swiper-slide w-full sm:w-1/2 lg:w-1/3 px-4 mb-4";
           slide.innerHTML = `
-          <div class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#f5faf5] ring-1 ring-gray-300">
-            <div class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
-              <a href="${app.link}">
-                <img
-                  src="${app.imgSrc}"
-                  alt="${app.name}"
-                  class="w-full h-full object-cover"
-                />
-              </a>
-            </div>
-            <div class="p-4 text-center flex flex-col flex-grow justify-between">
-              <div class="flex flex-col bg-transparent border border-gray-200 rounded-xl border-gray-300 sm:h-full p-6 sm:p-2 lg:p-4">
-                <h5 class="card-name blog-name block mt-2 mb-4 text-2xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-green-700">
-                  ${app.name}
-                </h5>
-                <p class="blog-description m-auto block text-xs md:text-sm text-left antialiased font-light leading-relaxed text-inherit">
-                  ${app.description}
-                </p>
-                <div class="mt-4">
-                  <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-                    <a href="${app.link}" target="_blank" class="blog-link">Klik di sini</a>
-                  </button>
+            <div class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#f5faf5] ring-1 ring-gray-300">
+              <div class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <a href="${app.link}">
+                  <img
+                    src="${app.imgSrc}"
+                    alt="${app.name}"
+                    class="w-full h-full object-cover"
+                  />
+                </a>
+              </div>
+              <div class="p-4 text-center flex flex-col flex-grow justify-between">
+                <div class="flex flex-col bg-transparent border border-gray-200 rounded-xl border-gray-300 sm:h-full p-6 sm:p-2 lg:p-4">
+                  <h5 class="card-name blog-name block mt-2 mb-4 text-2xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-green-700">
+                    ${app.name}
+                  </h5>
+                  <p class="blog-description m-auto block text-xs md:text-sm text-left antialiased font-light leading-relaxed text-inherit">
+                    ${app.description}
+                  </p>
+                  <div class="mt-4">
+                    <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                      <a href="${app.link}" target="_blank" class="blog-link">Klik di sini</a>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        `;
+          `;
           appsContainer.appendChild(slide);
         });
       </script>

@@ -323,7 +323,6 @@ svg:not(:root) {
 }
 
 .welcome {
-  background: rgb(255, 255, 255);
   background: linear-gradient(
     270deg,
     rgba(255, 255, 255, 1) 0%,
@@ -454,7 +453,6 @@ svg:not(:root) {
 }
 
 .about-us {
-  background: rgb(255, 255, 255);
   background: linear-gradient(
     270deg,
     rgba(255, 255, 255, 1) 0%,
@@ -588,7 +586,7 @@ svg:not(:root) {
 }
 
 .swiper-pagination {
-  top: 0 !important;
+  top: 15px !important;
   position: relative !important;
 }
 
@@ -747,7 +745,6 @@ svg:not(:root) {
 /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
 .page-apps {
-  background: rgb(255, 255, 255);
   background: linear-gradient(
     270deg,
     rgba(255, 255, 255, 1) 0%,
@@ -787,7 +784,7 @@ svg:not(:root) {
   padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
-  background: rgb(255, 255, 255);
+
   background: linear-gradient(
     270deg,
     rgba(255, 255, 255, 1) 0%,
@@ -923,7 +920,7 @@ svg:not(:root) {
   padding: var(--padding-40);
   margin-left: auto;
   margin-right: auto;
-  background: rgb(255, 255, 255);
+
   background: linear-gradient(
     270deg,
     rgba(255, 255, 255, 1) 0%,
@@ -1095,7 +1092,7 @@ svg:not(:root) {
   padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
-  background: rgb(255, 255, 255);
+
   background: linear-gradient(
     270deg,
     rgba(255, 255, 255, 1) 0%,
@@ -1173,7 +1170,6 @@ svg:not(:root) {
 }
 
 .inzaghis-group-network {
-  background: rgb(255, 255, 255);
   background: linear-gradient(
     270deg,
     rgba(255, 255, 255, 1) 0%,
@@ -1456,7 +1452,6 @@ svg:not(:root) {
   }
 
   .welcome {
-    background: rgb(255, 255, 255);
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,
@@ -1568,7 +1563,6 @@ svg:not(:root) {
   }
 
   .about-us {
-    background: rgb(255, 255, 255);
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,
@@ -1684,7 +1678,7 @@ svg:not(:root) {
     max-width: 1680px;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(255, 255, 255);
+
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,
@@ -1775,7 +1769,7 @@ svg:not(:root) {
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(255, 255, 255);
+
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,
@@ -1866,7 +1860,7 @@ svg:not(:root) {
     padding: var(--padding-20);
     margin-left: auto;
     margin-right: auto;
-    background: rgb(255, 255, 255);
+
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,
@@ -1923,7 +1917,6 @@ svg:not(:root) {
   }
 
   .inzaghis-group-network {
-    background: rgb(255, 255, 255);
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,
@@ -2192,7 +2185,6 @@ svg:not(:root) {
   }
 
   .welcome {
-    background: rgb(255, 255, 255);
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,
@@ -2308,7 +2300,6 @@ svg:not(:root) {
   }
 
   .about-us {
-    background: rgb(255, 255, 255);
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,
@@ -2409,7 +2400,6 @@ svg:not(:root) {
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
   .page-apps {
-    background: rgb(255, 255, 255);
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,
@@ -2631,7 +2621,6 @@ svg:not(:root) {
   }
 
   .inzaghis-group-network {
-    background: rgb(255, 255, 255);
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,

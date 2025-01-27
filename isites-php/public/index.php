@@ -95,7 +95,7 @@
   </section-->
   <section class="page-apps">
     <div class="page-apps-container">
-      <h2 class="title-heading">Apps</h2>
+      <h2 class="title-heading text-green-700">Apps</h2>
       <div class="text-container">
         <p class="text-description">
           Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
@@ -107,7 +107,7 @@
         </section>
       </div>
       <section class="group-content">
-        <div class="swiper-container">
+        <div class="swiper-container flex flex-wrap">
           <div class="swiper mySwiper">
             <!-- Wrapper untuk slide -->
             <div class="swiper-wrapper" id="appsContainer">

@@ -14,29 +14,32 @@
         <h1 class="page-title">Widgets</h1>
       </div>
       <section class="pages">
-        <p class="is-desc">
-          <?php
-            $query = "Widgets"; // Ganti dengan nilai sesuai kebutuhan
+        <div class="card-apps bg-white shadow-xl flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-400">
+          <p class="is-desc">
+            <?php
+              $query = "Widgets"; // Ganti dengan nilai sesuai kebutuhan
 
-            if (isset($data['apps'])) {
-                $appsDesc = $data['apps'];
-            } else {
-                $appsDesc = []; // Jika tidak ada data, gunakan array kosong
-            }
+              if (isset($data['apps'])) {
+                  $appsDesc = $data['apps'];
+              } else {
+                  $appsDesc = []; // Jika tidak ada data, gunakan array kosong
+              }
 
-            // Cari deskripsi berdasarkan query
-            $foundDescription = 'Deskripsi tidak ditemukan'; // Default jika query tidak ditemukan
-            foreach ($appsDesc as $appDesc) {
-                if (isset($appDesc['name']) && $appDesc['name'] === $query) {
-                    $foundDescription = isset($appDesc['description']) ? $appDesc['description'] : 'Deskripsi tidak tersedia';
-                    break; // Berhenti pencarian jika ditemukan
-                }
-            }
+              // Cari deskripsi berdasarkan query
+              $foundDescription = 'Deskripsi tidak ditemukan'; // Default jika query tidak ditemukan
+              foreach ($appsDesc as $appDesc) {
+                  if (isset($appDesc['name']) && $appDesc['name'] === $query) {
+                      $foundDescription = isset($appDesc['description']) ? $appDesc['description'] : 'Deskripsi tidak tersedia';
+                      break; // Berhenti pencarian jika ditemukan
+                  }
+              }
 
-            // Tampilkan deskripsi yang ditemukan
-            echo $foundDescription;
-          ?>
-        </p>
+              // Tampilkan deskripsi yang ditemukan
+              echo $foundDescription;
+            ?>
+          </p>
+        </div>
+        <br />
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <?php
           foreach ($apps as $app) {
