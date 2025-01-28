@@ -69,11 +69,21 @@
 <!-- UNDER CONSTRUCTION!!!! -->
 
 <div
-  class="navbar bg-opacity-60 shadow-md bg-white fixed w-full z-10"
-  x-data="{ open: false, dropdown: null }"
+  class="navbar bg-opacity-60 bg-white fixed w-full z-10 transition-shadow"
+  x-data="{ open: false, scrolled: false }"
+  x-init="$watch('scrolled', (value) => {
+    if (value) {
+      $el.classList.add('shadow-md');
+      document.querySelector('.navbar-container').classList.add('shadow-md');
+    } else {
+      $el.classList.remove('shadow-md');
+      document.querySelector('.navbar-container').classList.remove('shadow-md');
+    }
+  })"
+  @scroll.window="scrolled = window.scrollY > 0"
 >
   <nav
-    class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md"
+    class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black transition-shadow"
   >
     <div
       class="container mx-auto px-4 flex items-center justify-center gap-6 w-full"
@@ -339,7 +349,7 @@
               @click="dropdown = dropdown === 'about-profile' ? null : 'about-profile'"
               class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg"
             >
-              <span class="pointer-events-none">About & Profile</span>
+              <span class="pointer-events-none">About &amp; Profile</span>
               <svg
                 class="w-3 h-3 pointer-events-none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -746,7 +756,7 @@
               @click="dropdownOpen = !dropdownOpen"
               class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4"
             >
-              <span>About & Profile</span>
+              <span>About &amp; Profile</span>
               <svg
                 class="w-3 h-3"
                 xmlns="http://www.w3.org/2000/svg"
