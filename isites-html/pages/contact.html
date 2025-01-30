@@ -70,11 +70,25 @@
   </head>
   <body>
     <div
-      class="navbar bg-opacity-60 shadow-md bg-white fixed w-full z-10"
-      x-data="{ open: false, dropdown: null }"
+      class="navbar bg-opacity-60 bg-white fixed w-full z-10 transition-all duration-300"
+      x-data="{ open: false, scrolled: false, dropdown: null }"
+      x-init="$watch('scrolled', (value) => {
+        if (value) {
+          $el.classList.add('bg-opacity-60', 'shadow-md');
+          $el.classList.remove('bg-opacity-0');
+          document.querySelector('.navbar-container').classList.add('bg-opacity-10', 'shadow-md');
+          document.querySelector('.navbar-container').classList.remove('bg-opacity-0');
+        } else {
+          $el.classList.add('bg-opacity-0');
+          $el.classList.remove('bg-opacity-60', 'shadow-md');
+          document.querySelector('.navbar-container').classList.add('bg-opacity-0');
+          document.querySelector('.navbar-container').classList.remove('bg-opacity-10', 'shadow-md');
+        }
+      })"
+      @scroll.window="scrolled = window.scrollY > 0"
     >
       <nav
-        class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md"
+        class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black transition-all duration-300"
       >
         <div
           class="container mx-auto px-4 flex items-center justify-center gap-6 w-full"
@@ -138,7 +152,7 @@
                 >
                   <span class="pointer-events-none">Blogs</span>
                   <svg
-                    class="w-3 h-3 pointer-events-none"
+                    class="w-3 h-3 transition-transform duration-200"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     width="24"
@@ -186,7 +200,7 @@
                 >
                   <a href="../pages/portals.html">Portals</a>
                   <svg
-                    class="w-3 h-3 pointer-events-none"
+                    class="w-3 h-3 transition-transform duration-200"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     width="24"
@@ -264,7 +278,7 @@
                 >
                   <a href="../pages/apps.html">Apps</a>
                   <svg
-                    class="w-3 h-3 pointer-events-none"
+                    class="w-3 h-3 transition-transform duration-200"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     width="24"
@@ -342,7 +356,7 @@
                 >
                   <span class="pointer-events-none">About &amp; Profile</span>
                   <svg
-                    class="w-3 h-3 pointer-events-none"
+                    class="w-3 h-3 transition-transform duration-200"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     width="24"
@@ -390,7 +404,7 @@
                 >
                   <a href="../pages/networks.html">Inzaghi's Group</a>
                   <svg
-                    class="w-3 h-3 pointer-events-none"
+                    class="w-3 h-3 transition-transform duration-200"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     width="24"
@@ -438,7 +452,7 @@
                 >
                   <span class="pointer-events-none">Switch to</span>
                   <svg
-                    class="w-3 h-3 pointer-events-none"
+                    class="w-3 h-3 transition-transform duration-200"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     width="24"

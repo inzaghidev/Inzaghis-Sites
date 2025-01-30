@@ -1,5 +1,23 @@
-<div class="navbar bg-opacity-60 shadow-md bg-white fixed w-full z-10" x-data="{ open: false, dropdown: null }">
-  <nav class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md">
+<!-- UNDER CONSTRUCTION! -->
+
+<div
+  class="navbar bg-opacity-60 bg-white fixed w-full z-10 transition-all duration-300" x-data="{ open: false, scrolled: false, dropdown: null }"
+  x-init="$watch('scrolled', (value) => {
+    if (value) {
+      $el.classList.add('bg-opacity-60', 'shadow-md');
+      $el.classList.remove('bg-opacity-0');
+      document.querySelector('.navbar-container').classList.add('bg-opacity-10', 'shadow-md');
+      document.querySelector('.navbar-container').classList.remove('bg-opacity-0');
+    } else {
+      $el.classList.add('bg-opacity-0');
+      $el.classList.remove('bg-opacity-60', 'shadow-md');
+      document.querySelector('.navbar-container').classList.add('bg-opacity-0');
+      document.querySelector('.navbar-container').classList.remove('bg-opacity-10', 'shadow-md');
+    }
+  })"
+  @scroll.window="scrolled = window.scrollY > 0"
+>
+  <nav class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black transition-all duration-300">
     <div class="container mx-auto px-4 flex items-center justify-center gap-6 w-full">
       <div class="flex items-center justify-between lg:w-auto w-full">
         <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
@@ -22,7 +40,7 @@
           <div class="py-3">
             <button @click="dropdown = dropdown === 'blogs' ? null : 'blogs'" class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg">
               <span class="pointer-events-none">Blogs</span>
-              <svg class="w-3 h-3 pointer-events-none" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdown === 'blogs' }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdown === 'blogs' }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -37,7 +55,7 @@
           <div class="py-3">
             <button @click="dropdown = dropdown === 'portals' ? null : 'portals'" class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg">
               <a href="<?php echo $pathToWebRoot.'/portals/'; ?>">Portals</a>
-              <svg class="w-3 h-3 pointer-events-none" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdown === 'portals' }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdown === 'portals' }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -58,7 +76,7 @@
           <div class="py-3">
             <button @click="dropdown = dropdown === 'apps' ? null : 'apps'" class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg">
               <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a>
-              <svg class="w-3 h-3 pointer-events-none" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdown === 'apps' }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdown === 'apps' }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -79,7 +97,7 @@
           <div class="py-3">
             <button @click="dropdown = dropdown === 'about-profile' ? null : 'about-profile'" class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg">
               <span class="pointer-events-none">About &amp; Profile</span>
-              <svg class="w-3 h-3 pointer-events-none" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdown === 'about-profile' }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdown === 'about-profile' }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -94,7 +112,7 @@
           <div class="py-3">
             <button @click="dropdown = dropdown === 'group' ? null : 'group'" class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg">
               <a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a>
-              <svg class="w-3 h-3 pointer-events-none" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdown === 'group' }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdown === 'group' }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -109,7 +127,7 @@
           <div class="py-3">
             <button @click="dropdown = dropdown === 'switch-sites' ? null : 'switch-sites'" class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg">
               <span class="pointer-events-none">Switch to</span>
-              <svg class="w-3 h-3 pointer-events-none" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdown === 'switch-sites' }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdown === 'switch-sites' }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>

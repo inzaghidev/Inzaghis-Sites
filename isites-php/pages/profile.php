@@ -8,7 +8,7 @@
       <div class="container mx-auto py-8">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 px-4">
           <div class="col-span-4 md:col-span-8 lg:col-span-3">
-            <div class="bg-white shadow-xl rounded-lg p-6 ring-1 ring-gray-300">
+            <div class="bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-500">
               <div class="flex flex-col items-center">
                 <img
                   src="../assets/images/inzaghi-posuma-alkahfi.jpg"
@@ -66,7 +66,7 @@
             </div>
           </div>
           <div class="col-span-4 md:col-span-8 lg:col-span-9">
-            <div class="font-[Inter] bg-white shadow-xl rounded-lg p-6 ring-1 ring-gray-300">
+            <div class="font-[Inter] bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-500">
               <h2 class="text-2xl font-bold mb-4">About Me</h2>
               <p class="text-gray-700 text-sm">
                 I'm majoring of Information Technology (IT) College Student in
