@@ -79,7 +79,7 @@
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
                             <div class="text-block dropdown-button">
-                                <a>About & Profile</a>
+                                <a>About &amp; Profile</a>
                                 <div class="dropdown-icon">
                                     <svg class="angle-down-icon pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
                                         <title>chevron-down-outline</title>

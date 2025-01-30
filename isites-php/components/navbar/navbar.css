@@ -148,7 +148,7 @@
 
 .nav-menu li:hover {
   background: var(--hover-highlight);
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 /* .nav-menu li a::before {
@@ -234,7 +234,7 @@ li a:hover::after {
 
 .dropdown:hover .nav-dropdown-list {
   display: block;
-  border-radius: 10px;
+  border-radius: 8px;
   transition: all 0.3s ease;
   /* margin-top: 20px; */
 }
@@ -248,7 +248,7 @@ li a:hover::after {
 .dropdown-link {
   display: block;
   padding: 8px;
-  border-radius: 10px;
+  border-radius: 8px;
   color: var(--color-black);
   text-decoration: none;
   position: absolute;
@@ -503,7 +503,7 @@ li a:hover::after {
 
   .dropdown:hover .nav-dropdown-list {
     display: block;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 10px 10px;
   }
 
@@ -511,6 +511,25 @@ li a:hover::after {
     display: block; /* Tampilkan dropdown saat aktif (klik) */
     z-index: 1000;
     position: absolute;
+  }
+
+  .dropdown-link {
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+    color: var(--color-black);
+    text-decoration: none;
+    position: absolute;
+    transition: all 0.2s;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: auto;
+  }
+
+  .dropdown-link:hover {
+    background-color: var(--dropdown-hover-background-color);
+    border-radius: 8px;
+    padding: 8px 8px;
   }
 
   .menu-toggle {
@@ -809,14 +828,14 @@ li a:hover::after {
   }
 
   .dropdown .dropdown-link {
-    border-radius: 10px;
-    padding: 8px 8px;
+    border-radius: 8px;
+    padding: 8px 10px;
   }
 
   .dropdown.active .dropdown-link:hover {
     background-color: var(--dropdown-hover-background-color);
-    border-radius: 10px;
-    padding: 8px 8px;
+    border-radius: 8px;
+    padding: 8px 10px;
   }
 
   .menu-toggle {
