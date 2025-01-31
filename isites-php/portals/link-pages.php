@@ -1,9 +1,9 @@
 <?php
-    $page_title = "Tech Tutorials";
+    $page_title = "Link Pages";
     include('../layouts/header.php');
     include('../components/navbar/navbar.php');
     $data = json_decode(file_get_contents('../data/portals-data.json'), true);
-    $portals = $data['tech_tutorials'];
+    $portals = $data['link_pages'];
 ?>
 
 <div class="container-top"></div>
@@ -11,13 +11,13 @@
   <div class="page-apps-container">
     <div class="welcome-container">
       <div class="welcome-title">
-        <h1 class="welcome-title">Tech Tutorials</h1>
+        <h1 class="welcome-title">Link Pages</h1>
       </div>
       <section class="pages">
         <div class="card-body card-apps card shadow border border-success">
           <p class="is-desc">
             <?php
-              $query = "Technology Tutorials"; // Ganti dengan nilai sesuai kebutuhan
+              $query = "Link Pages"; // Ganti dengan nilai sesuai kebutuhan
 
               if (isset($data['portals'])) {
                   $appsDesc = $data['portals'];
@@ -40,7 +40,7 @@
           </p>
           <section>
             <a
-              href="https://sites.google.com/view/inzaghis-sites/pages/technology-tutorials"
+              href="https://bit.ly/Bookmark-Manager-Links-Notion-Inzaghi"
               target="_blank"
               class="main-button"
               >Click here</a

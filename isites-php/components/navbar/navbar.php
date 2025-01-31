@@ -91,7 +91,7 @@
                             </div>
                             <nav class="nav-dropdown-list nav-dropdown-list--open">
                                 <a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>" class="dropdown-link">About</a>
-                                <a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>" class="dropdown-link">Porfile</a>
+                                <a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>" class="dropdown-link">Profile</a>
                             </nav>
                         </div>
                     </li>
