@@ -1,9 +1,9 @@
 <?php
-    $page_title = "Widgets";
+    $page_title = "Link Pages";
     include('../layouts/header.php');
     include('../components/navbar/navbar.php');
     $data = json_decode(file_get_contents('../data/portals-data.json'), true);
-    $portals = $data['widgets'];
+    $portals = $data['link_pages'];
 ?>
 
 <div class="container-top"></div>
@@ -11,13 +11,13 @@
   <div class="page-apps-container">
     <div class="welcome-container">
       <div class="page-title">
-        <h1 class="page-title">Widgets</h1>
+        <h1 class="page-title">Link Pages</h1>
       </div>
       <section class="pages">
         <div class="card-apps bg-white shadow-xl flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-400">
           <p class="is-desc">
             <?php
-              $query = "Widgets"; // Ganti dengan nilai sesuai kebutuhan
+              $query = "Link Pages"; // Ganti dengan nilai sesuai kebutuhan
 
               if (isset($data['portals'])) {
                   $appsDesc = $data['portals'];
@@ -38,6 +38,14 @@
               echo $foundDescription;
             ?>
           </p>
+          <section class="group-button m-0">
+            <a
+              href="https://bit.ly/Bookmark-Manager-Links-Notion-Inzaghi"
+              target="_blank"
+              class="btn btn-outline-light main-button"
+              >Click here</a
+            >
+          </section>
         </div>
         <br />
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

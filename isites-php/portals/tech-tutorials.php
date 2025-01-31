@@ -2,8 +2,8 @@
     $page_title = "Tech Tutorials";
     include('../layouts/header.php');
     include('../components/navbar/navbar.php');
-    $data = json_decode(file_get_contents('../data/apps-data.json'), true);
-    $apps = $data['tech_tutorials'];
+    $data = json_decode(file_get_contents('../data/portals-data.json'), true);
+    $portals = $data['tech_tutorials'];
 ?>
 
 <div class="container-top"></div>
@@ -17,10 +17,10 @@
         <div class="card-apps bg-white shadow-xl flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-400">
           <p class="is-desc">
             <?php
-              $query = "Tech Tutorials"; // Ganti dengan nilai sesuai kebutuhan
+              $query = "Technology Tutorials"; // Ganti dengan nilai sesuai kebutuhan
 
-              if (isset($data['apps'])) {
-                  $appsDesc = $data['apps'];
+              if (isset($data['portals'])) {
+                  $appsDesc = $data['portals'];
               } else {
                   $appsDesc = []; // Jika tidak ada data, gunakan array kosong
               }
@@ -50,10 +50,10 @@
         <br />
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <?php
-          foreach ($apps as $app) {
-            $title = isset($app['title']) ? $app['title'] : 'N/A';
-            $text = isset($app['text']) ? $app['text'] : '';
-            $link = isset($app['link']) ? $app['link'] : '#';
+          foreach ($portals as $portal) {
+            $title = isset($portal['title']) ? $portal['title'] : 'N/A';
+            $text = isset($portal['text']) ? $portal['text'] : '';
+            $link = isset($portal['link']) ? $portal['link'] : '#';
 
             echo '<div class="bg-white shadow-xl flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-400">';
             echo '  <h5 class="card-apps-title text-2xl font-bold text-gray-800">' . $title . '</h5>';

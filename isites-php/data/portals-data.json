@@ -56,5 +56,89 @@
       "link": ""
     }
   ],
+  "widgets": [
+    {
+      "title": "Calendar System",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "https://sites.google.com/view/inzaghis-sites/widgets/calendar-system"
+    },
+    {
+      "title": "Date Time",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Weather",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Stocks",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Maps",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Islamic Portal",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    }
+  ],
+  "link_pages": [
+    {
+      "title": "My Website",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Article Post Links",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Website Links",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Article Archives",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "News Articles",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "YouTube Links",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Google Links",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "GitHub Links",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Stack Overflow Links",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App x",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    }
+  ],
   "": []
 }
