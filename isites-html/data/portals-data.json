@@ -92,17 +92,17 @@
     {
       "title": "My Website",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-      "link": "#"
+      "link": "https://inzaghi-poshaf.notion.site/My-Website-d6ca325b232749c388024ef04685761d"
     },
     {
       "title": "Article Post Links",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-      "link": "#"
+      "link": "https://inzaghi-poshaf.notion.site/Article-Post-Links-3682823378194564bd5aa946de20cb44"
     },
     {
       "title": "Website Links",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-      "link": "#"
+      "link": "https://inzaghi-poshaf.notion.site/All-Websites-0b021ced5c5e4f208d82ad41c77f2134"
     },
     {
       "title": "Article Archives",
@@ -117,25 +117,57 @@
     {
       "title": "YouTube Links",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-      "link": "#"
+      "link": "https://inzaghi-poshaf.notion.site/YouTube-Links-854cf481555b470c98c380ab79b1c796"
     },
     {
       "title": "Google Links",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-      "link": "#"
+      "link": "https://inzaghi-poshaf.notion.site/Google-Links-d13b2b956f0c4aa5916d927ce897f08b"
     },
     {
       "title": "GitHub Links",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-      "link": "#"
+      "link": "https://inzaghi-poshaf.notion.site/GitHub-Links-1c400c86dacc465bbf39e2ccbd9231c6"
     },
     {
       "title": "Stack Overflow Links",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-      "link": "#"
+      "link": "https://inzaghi-poshaf.notion.site/Stack-Overflow-Links-dec550bb04ef4a448e6c720c8bf41f3f"
     },
     {
       "title": "App x",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    }
+  ],
+  "miscellaneous": [
+    {
+      "title": "Programming Codes & UI Elements",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "https://inzaghi-poshaf.notion.site/Programming-Codes-UI-Elements-a99dadc9f4e84480b705f05e35e67270"
+    },
+    {
+      "title": "Calendar & Event Summary",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "https://inzaghi-poshaf.notion.site/Calendar-Summary-Events-2fdf303bab424c1ca6f8d7210c016128"
+    },
+    {
+      "title": "App 3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 4",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 5",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "App 6",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
       "link": "#"
     }
