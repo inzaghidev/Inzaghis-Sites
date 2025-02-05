@@ -76,19 +76,9 @@
   background-color: rgba(255, 255, 255, 0.95); /* Transparansi opsional */
 }
 
-/* #logo {
-  display: flex;
-  align-items: center;
-}
-
-#logo img {
-  vertical-align: middle;
-  background-image: url("../../images/inzaghis-sites-logo-vertical-transparent.png");
+#logo {
+  order: 0;
   height: 3rem;
-} */
-
-#logo img {
-  vertical-align: middle;
 }
 
 .nav-menu-container {

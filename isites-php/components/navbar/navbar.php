@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4 flex items-center justify-center gap-6 w-full">
       <div class="flex items-center justify-between lg:w-auto w-full">
         <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
-          <img src="<?php echo $pathToWebRoot.'/assets/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" alt="Inzaghi's Sites">
+          <img src="<?php echo $pathToWebRoot.'/assets/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo" alt="Inzaghi's Sites">
         </a>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = !open" class="mobile-menu-button py-3 px-3" aria-label="Toggle Menu">
@@ -134,7 +134,7 @@
       <div class="flex items-center justify-between px-4 py-3 bg-gray-200">
         <span class="text-xl font-semibold text-gray-900">
           <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-2">
-            <img src="<?php echo $pathToWebRoot.'/assets/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" alt="Inzaghi's Sites"> </a></span>
+            <img src="<?php echo $pathToWebRoot.'/assets/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo" alt="Inzaghi's Sites"> </a></span>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = false" class="mobile-menu-button py-3 px-3" aria-label="Close Menu">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -146,10 +146,10 @@
       <nav class="px-3 py-2 space-y-2 overflow-y-auto h-[calc(100%-6rem)] max-h-full">
         <div class="mb-auto pt-4 p-[inherit]">
           <div class="pt-1">
-            <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] pt-2 py-2 px-4 rounded-lg">Home</a>
+            <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] py-3 px-4 rounded-lg">Home</a>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
-            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4">
+            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <span>Blogs</span>
               <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
@@ -162,7 +162,7 @@
             </div>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
-            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4">
+            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <a href="<?php echo $pathToWebRoot.'/portals/'; ?>">Portals</a>
               <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
@@ -181,7 +181,7 @@
             </div>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
-            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4">
+            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a>
               <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
@@ -199,10 +199,10 @@
             </div>
           </div>
           <div class="pt-1">
-            <a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] pt-2 py-2 px-4 rounded-lg">Contact</a>
+            <a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] py-3 px-4 rounded-lg">Contact</a>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
-            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4">
+            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <span>About &amp; Profile</span>
               <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
@@ -215,7 +215,7 @@
             </div>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
-            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4">
+            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a>
               <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
@@ -228,7 +228,7 @@
             </div>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
-            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4">
+            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <span>Switch to</span>
               <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
@@ -277,7 +277,7 @@
     <div class="container mx-auto px-4 flex items-center justify-center gap-6 w-full">
       <div class="flex items-center justify-between lg:w-auto w-full">
         <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
-          <img src="<?php echo $pathToWebRoot.'/assets/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" alt="Inzaghi's Sites">
+          <img src="<?php echo $pathToWebRoot.'/assets/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo" alt="Inzaghi's Sites">
         </a>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = !open" class="mobile-menu-button py-3 px-3" aria-label="Toggle Menu">
@@ -408,7 +408,7 @@
       <div class="flex items-center justify-between px-4 py-3 bg-gray-200">
         <span class="text-xl font-semibold text-gray-900">
           <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-2">
-            <img src="<?php echo $pathToWebRoot.'/assets/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" alt="Inzaghi's Sites"> </a></span>
+            <img src="<?php echo $pathToWebRoot.'/assets/images/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo" alt="Inzaghi's Sites"> </a></span>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = false" class="mobile-menu-button py-3 px-3" aria-label="Close Menu">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -420,10 +420,10 @@
       <nav class="px-3 py-2 space-y-2 overflow-y-auto h-[calc(100%-6rem)] max-h-full">
         <div class="mb-auto pt-4 p-[inherit]">
           <div class="pt-1">
-            <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] pt-2 py-2 px-4 rounded-lg">Home</a>
+            <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] py-3 px-4 rounded-lg">Home</a>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
-            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4">
+            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <span>Blogs</span>
               <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
@@ -436,7 +436,7 @@
             </div>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
-            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4">
+            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <a href="<?php echo $pathToWebRoot.'/portals/'; ?>">Portals</a>
               <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
@@ -455,7 +455,7 @@
             </div>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
-            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4">
+            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a>
               <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
@@ -473,10 +473,10 @@
             </div>
           </div>
           <div class="pt-1">
-            <a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] pt-2 py-2 px-4 rounded-lg">Contact</a>
+            <a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] py-3 px-4 rounded-lg">Contact</a>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
-            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4">
+            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <span>About &amp; Profile</span>
               <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
@@ -489,7 +489,7 @@
             </div>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
-            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4">
+            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a>
               <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
@@ -502,7 +502,7 @@
             </div>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
-            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-2 px-4">
+            <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <span>Switch to</span>
               <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>

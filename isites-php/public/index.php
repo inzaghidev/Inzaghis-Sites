@@ -43,56 +43,6 @@
       </div>
     </div>
   </section>
-  <!--section class="page-apps">
-    <div class="page-apps-container">
-      <h2 class="title-heading">Apps</h2>
-      <div class="text-container mb-8">
-        <p class="text-description">
-          Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
-          kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
-          Kalkulator, Generator, Formatter, dan lainnya.
-        </p>
-        <section class="group-button">
-          <a href="../page-apps/" class="main-button"
-            >Click here</a
-          >
-        </section>
-      </div>
-      <section class="group-content">
-        <div id="hcg-slider-1" class="hcg-slider">
-          <div class="hcg-slide-container content-description shadow-xl rounded-lg ring-1 ring-green-400 m-0">
-            <div class="hcg-slider-body">
-              <a class="hcg-slides animated" style="display: flex">
-                <span class="hcg-slide-number">1/6</span>
-                <img src="../assets/images/converters-by-pages-apps.png" alt="" />
-                <span class="hcg-slide-text">Converters</span>
-              </a>
-            </div>
-            <a href="#" id="hcg-slide-prev">&#10094;</a>
-            <a href="#" id="hcg-slide-next">&#10095;</a>
-          </div>
-          <div class="hcg-slide-dot-control"></div>
-        </div>
-        <section class="content-description bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-400">
-          <h2 class="group-title">Converters</h2>
-          <p class="left-subheading">
-            Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu,
-            Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian
-            dari Aplikasi Konverter ini akan sedikit menggunakan API.
-          </p>
-          <div class="btn flex justify-center mt-4">
-            <a
-              href="../page-apps/pages.php"
-              class="focus:ring-4 focus:outline-none focus:ring-green-300 inline-flex items-center justify-center font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none hover:text-white"
-            >
-              Click here
-            </a>
-          </div>
-        </section>
-      </section>
-    </div>
-    <script src="../js/slider.js"></script>
-  </section-->
   <section class="page-apps">
     <div class="page-apps-container">
       <h2 class="title-heading text-green-700">Apps</h2>

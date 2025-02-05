@@ -347,14 +347,7 @@ li a:hover::after {
 
 #logo {
   order: 0;
-}
-
-#logo img {
-  vertical-align: middle;
-}
-
-#logo .menu-toggle {
-  display: flex;
+  height: 3rem;
 }
 
 .sign-in-button {
