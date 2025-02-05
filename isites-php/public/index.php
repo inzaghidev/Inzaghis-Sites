@@ -43,51 +43,6 @@
       </div>
     </div>
   </section>
-  <!--section class="page-apps shadow">
-    <div class="page-apps-container">
-      <h2 class="title-heading">Apps</h2>
-      <div class="text-container">
-        <p class="text-description">
-          Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
-          kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
-          Kalkulator, Generator, Formatter, dan lainnya.
-        </p>
-        <section class="group-button">
-          <a href="../page-apps/" class="main-button"
-            >Click here</a
-          >
-        </section>
-      </div>
-      <section class="group-content">
-        <div id="hcg-slider-1" class="hcg-slider">
-          <div class="hcg-slide-container">
-            <div class="hcg-slider-body card border border-success shadow">
-              <a class="hcg-slides animated" style="display: flex">
-                <span class="hcg-slide-number">1/6</span>
-                <img src="../assets/images/converters-by-pages-apps.png" alt="" />
-                <span class="hcg-slide-text">Converters</span>
-              </a>
-            </div>
-            <a href="#" id="hcg-slide-prev">&#10094;</a>
-            <a href="#" id="hcg-slide-next">&#10095;</a>
-          </div>
-          <div class="hcg-slide-dot-control"></div>
-        </div>
-        <section class="content-description hcg-desc border border-success card h-100 shadow opacity-75 p-3">
-          <h2 class="group-title">Converters</h2>
-          <p class="left-subheading">
-            Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu,
-            Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian
-            dari Aplikasi Konverter ini akan sedikit menggunakan API.
-          </p>
-          <button type="button" class="btn btn-primary btn-md">
-            <a href="../page-apps/pages.php" class="blog-link">Click here</a>
-          </button>
-        </section>
-      </section>
-    </div>
-    <script src="../js/slider.js"></script>
-  </section-->
   <section class="page-apps shadow">
     <div class="page-apps-container">
       <h2 class="title-heading">Apps</h2>
