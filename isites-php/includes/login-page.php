@@ -1,11 +1,10 @@
 <?php
 	$page_title = "Home";
-    include('../layouts/header.php');
-	include('../components/navbar/navbar.php');
+  include('../layouts/header.php');
 ?>
-    <div class="flex flex-col justify-center font-[sans-serif] sm:h-screen p-4">
+    <div class="pages-background flex flex-col xl:justify-center font-[sans-serif] sm:h-screen p-4">
       <div
-        class="max-w-md w-full mx-auto border border-gray-300 rounded-2xl p-8"
+        class="bg-white max-w-md w-full mx-auto ring-1 ring-green-500 rounded-2xl p-8"
       >
         <div class="text-center mb-12">
           <a href="javascript:void(0)"
@@ -78,7 +77,7 @@
           <p class="text-gray-800 text-sm mt-6 text-center">
             Don't have an account?
             <a
-              href="../includes/register-page.html"
+              href="../includes/register-page.php"
               class="text-green-600 font-semibold hover:underline ml-1"
               >Create an account</a
             >
@@ -86,7 +85,7 @@
           <p class="text-gray-800 text-sm mt-6 text-center">
             Do you want go Back to Home?
             <a
-              href="../public/index.html"
+              href="../public/index.php"
               class="text-green-600 font-semibold hover:underline ml-1"
             >
               &#60; Back</a
@@ -96,7 +95,6 @@
       </div>
     </div>
 <?php
-	include('../components/footsite/footsite.php');
 	include('../layouts/footer.php');
 ?>
 

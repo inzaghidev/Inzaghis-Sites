@@ -49,7 +49,7 @@
   position: fixed;
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   box-shadow: none;
-  transition: box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navbar-container {

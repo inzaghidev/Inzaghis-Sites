@@ -121,8 +121,8 @@
             <a href="https://inzaghi-site.webflow.io" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Preview (Webflow)</a>
           </div>
         </div>
-        <button class="sign-in-button relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
-          <a class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0" href="">
+        <button class="sign-in-button hidden sm:block relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
+          <a class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0" href="<?php echo $pathToWebRoot.'/includes/login-page.php'; ?>">
             Sign in
           </a>
         </button>
@@ -244,7 +244,7 @@
         </div>
         <div class="pt-6 p-[inherit]">
           <button type="button" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 w-full dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
-            <a class="relative transition-all ease-in duration-75 rounded-md group-hover:bg-opacity-0" href="">
+            <a class="relative transition-all ease-in duration-75 rounded-md group-hover:bg-opacity-0" href="<?php echo $pathToWebRoot.'/includes/login-page.php'; ?>">
               Sign in
             </a>
           </button>
@@ -395,8 +395,8 @@
             <a href="https://inzaghi-site.webflow.io" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Preview (Webflow)</a>
           </div>
         </div>
-        <button class="sign-in-button relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
-          <a class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0" href="">
+        <button class="sign-in-button hidden sm:block relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
+          <a class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0" href="<?php echo $pathToWebRoot.'/includes/login-page.php'; ?>">
             Sign in
           </a>
         </button>
@@ -518,7 +518,7 @@
         </div>
         <div class="pt-6 p-[inherit]">
           <button type="button" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 w-full dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
-            <a class="relative transition-all ease-in duration-75 rounded-md group-hover:bg-opacity-0" href="">
+            <a class="relative transition-all ease-in duration-75 rounded-md group-hover:bg-opacity-0" href="<?php echo $pathToWebRoot.'/includes/login-page.php'; ?>">
               Sign in
             </a>
           </button>

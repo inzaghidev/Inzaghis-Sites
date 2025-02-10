@@ -12,6 +12,16 @@ document.addEventListener("DOMContentLoaded", function () {
     "ion-icon[name='chevron-down-outline']"
   );
 
+  let scrolled = window.scrollY > 0;
+
+  if (scrolled) {
+    navbar.classList.add("bg-opacity-60", "shadow-md");
+    navbar.classList.remove("bg-opacity-0");
+  } else {
+    navbar.classList.add("bg-opacity-0");
+    navbar.classList.remove("bg-opacity-60", "shadow-md");
+  }
+
   function updateBeforeStyles() {
     const existingStyle = document.getElementById("dynamic-mobile-style");
     if (window.innerWidth < 720) {
