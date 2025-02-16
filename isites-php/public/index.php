@@ -45,6 +45,39 @@
   </section>
   <section class="page-apps shadow">
     <div class="page-apps-container">
+      <h2 class="title-heading">New UI Coming Soon!</h2>
+      <div class="text-container">
+        <p class="text-description">
+          Mulai Akhir Februari 2025, Inzaghi's Sites akan mulai berganti ke
+          Tampilan Baru dengan Tampilan yang lebih Fresh dan Modern! Klik pada
+          Tombol di samping untuk melihat Tampilan Baru.
+        </p>
+        <section class="group-button">
+          <a
+            href="https://preview.inzaghi.wuaze.com"
+            class="main-button"
+            >Switch to New UI</a
+          >
+        </section>
+      </div>
+      <section class="group-content">
+        <div id="hcg-slider-1" class="hcg-slider">
+          <div class="hcg-slide-container">
+            <div class="hcg-slider-body card border border-success shadow">
+              <a class="hcg-slides animated" style="display: flex">
+                <img
+                  src="../assets/images/inzaghis-sites-ui-refresh-2025.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  <section class="page-apps shadow">
+    <div class="page-apps-container">
       <h2 class="title-heading">Apps</h2>
       <div class="text-container">
         <p class="text-description">

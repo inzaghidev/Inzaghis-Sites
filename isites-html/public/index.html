@@ -503,17 +503,19 @@
         </div>
       </div>
     </section>
-    <!-- <section class="page-apps shadow">
+    <section class="page-apps shadow">
       <div class="page-apps-container">
-        <h2 class="title-heading">Apps</h2>
+        <h2 class="title-heading">New UI Coming Soon!</h2>
         <div class="text-container">
           <p class="text-description">
-            Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
-            kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
-            Kalkulator, Generator, Formatter, dan lainnya.
+            Mulai Akhir Februari 2025, Inzaghi's Sites akan mulai berganti ke
+            Tampilan Baru dengan Tampilan yang lebih Fresh dan Modern! Klik pada
+            Tombol di samping untuk melihat Tampilan Baru.
           </p>
           <section class="group-button">
-            <a href="../pages/apps.html" class="main-button">Click here</a>
+            <a href="https://preview.inzaghi.wuaze.com" class="main-button"
+              >Switch to New UI</a
+            >
           </section>
         </div>
         <section class="group-content">
@@ -521,33 +523,140 @@
             <div class="hcg-slide-container">
               <div class="hcg-slider-body card border border-success shadow">
                 <a class="hcg-slides animated" style="display: flex">
-                  <span class="hcg-slide-number">1/6</span>
                   <img
-                    src="../assets/images/converters-by-pages-apps.png"
+                    src="../assets/images/inzaghis-sites-ui-refresh-2025.png"
                     alt=""
                   />
-                  <span class="hcg-slide-text">Converters</span>
                 </a>
               </div>
-              <a href="#" id="hcg-slide-prev">&#10094;</a>
-              <a href="#" id="hcg-slide-next">&#10095;</a>
             </div>
-            <div class="hcg-slide-dot-control"></div>
           </div>
-          <section
-            class="content-description hcg-desc border border-success card h-100 shadow opacity-75 p-3"
-          >
-            <h2 class="group-title">Converters</h2>
-            <p class="left-subheading">
-              Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu,
-              Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian
-              dari Aplikasi Konverter ini akan sedikit menggunakan API.
-            </p>
-            <button type="button" class="btn btn-primary btn-md">
-              <a href="../page-apps/pages.html" class="blog-link">Click here</a>
-            </button>
-          </section>
         </section>
+      </div>
+    </section>
+    <!-- <section class="page-apps shadow">
+      <div class="page-apps-container">
+        <h2 class="title-heading">Portals</h2>
+        <div class="text-container">
+          <p class="text-description">
+            Portals merupakan Halaman Portal yang tersedia untuk berbagai
+            kebutuhan apapun seperti Widgets, Tutorial Teknologi, Materi
+            Pembelajaran, dan lainnya.
+          </p>
+          <section class="group-button">
+            <a href="../pages/portals.html" class="main-button">Click here</a>
+          </section>
+        </div>
+        <section class="group-content">
+          <div class="row swiper-container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper" id="portalsContainer"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <script>
+          const portalsData = {
+            apps: [
+              {
+                name: "Widgets",
+                imgSrc: "../assets/images/widgets-by-portals.png",
+                description:
+                  "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
+                link: "../portals/widgets.html",
+              },
+              {
+                name: "Technology Tutorials",
+                imgSrc: "../assets/images/tech-tutorials-by-portals.png",
+                description:
+                  "Merupakan kumpulan dari berbagai macam Teknologi apapun dalam bidang IT, dan sebagai Pembelajaran untuk berbagai macam Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu Komputer, Analisis Data, dan lainnya.",
+                link: "../portals/tech-tutorials.html",
+              },
+              {
+                name: "IT Project Lists",
+                imgSrc: "../assets/images/it-project-lists-by-portals.png",
+                description:
+                  "Merupakan kumpulan dari berbagai macam Proyek apapun dalam bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis Data, AI/ML, IoT, dan lainnya.",
+                link: "../portals/projects.html",
+              },
+              {
+                name: "Interviews & Thesis Prep",
+                imgSrc: "../assets/images/intervs-and-thesis-by-portals.png",
+                description:
+                  "Merupakan kumpulan dari pertanyaan-pertanyaan Wawancara seperti Wawancara Kerja, Magang, User Interview, Wawancara Teknis (Technical Interview), dan lain-lain. Portal ini juga menyediakan berbagai macam Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
+                link: "../portals/interviews-and-thesis.html",
+              },
+              {
+                name: "Materi Pembelajaran",
+                imgSrc: "../assets/images/learning-materials-by-portals.png",
+                description:
+                  "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik Informatika). Untuk Materi SMA, kebanyakan hanya lebih spesifik ke Jurusan IPA saja. Dan untuk Materi Perkuliahan, hanya hanya tersedia untuk Jurusan Teknik Informatika (TI) saja, dan hanya beberapa Mata Kuliah saja yang juga tersedia untuk Jurusan Sistem Informasi (SI). Untuk Jurusan/Prodi lainnya, hanya tersedia untuk Mata Kuliah Umum (MKDU) saja.",
+                link: "../portals/learning-materials.html",
+              },
+              {
+                name: "Video Pages",
+                imgSrc: "../assets/images/video-pages-by-portals.png",
+                description:
+                  "Merupakan kumpulan dari Video-video YouTube seperti Live Streaming Video, Daftar Channel Terjemahan Multibahasa, dan Daftar Channel YouTube per Kategori.",
+                link: "../portals/video-pages.html",
+              },
+              {
+                name: "Link Pages",
+                imgSrc: "../assets/images/link-pages-by-portals.png",
+                description:
+                  "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
+                link: "../portals/link-pages.html",
+              },
+              {
+                name: "Miscellaneous",
+                imgSrc: "../assets/images/miscellaneous-by-portals.png",
+                description:
+                  "Merupakan Halaman lainnya yang tidak termasuk dari Kategori di Portal ini, dan juga tersedia untuk Halaman apa saja.",
+                link: "../portals/miscellaneous.html",
+              },
+              {
+                name: "Lorem Ipsum",
+                imgSrc: "https://via.placeholder.com/700x400",
+                description:
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                link: "#",
+              },
+            ],
+          };
+
+          const portalsContainer = document.getElementById("portalsContainer");
+
+          portalsData.apps.forEach((app) => {
+            const slide = document.createElement("div");
+            slide.className = "swiper-slide";
+            slide.innerHTML = `
+            <div class="card card-swiper card-apps h-100 border-success shadow">
+              <a href="${app.link}">
+                <img
+                  src="${app.imgSrc}"
+                  class="card-img-apps card-img-top"
+                  alt="${app.name}"
+                />
+              </a>
+              <div class="card-body card-apps-body">
+                <div class="card-description">
+                  <h4 class="card-name card-title page-apps-card">
+                    <a>${app.name}</a>
+                  </h4>
+                  <p class="card-text blog-description">${app.description}</p>
+                </div>
+                <button type="button" class="btn btn-primary btn-md apps-button">
+                  <a href="${app.link}" target="_blank" class="blog-link">Klik di sini</a>
+                </button>
+              </div>
+            </div>
+          `;
+            portalsContainer.appendChild(slide);
+          });
+        </script>
       </div>
       <script src="../js/slider.js"></script>
     </section> -->
@@ -567,15 +676,10 @@
         <section class="group-content">
           <div class="row swiper-container">
             <div class="swiper mySwiper">
-              <!-- -->
-              <div class="swiper-wrapper" id="appsContainer">
-                <!--Cards will be dynamically added here-->
-              </div>
+              <div class="swiper-wrapper" id="appsContainer"></div>
             </div>
-            <!-- Add Navigation -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
-            <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
           </div>
         </section>
