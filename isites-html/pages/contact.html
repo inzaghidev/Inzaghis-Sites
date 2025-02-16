@@ -70,19 +70,29 @@
   </head>
   <body>
     <div
-      class="navbar bg-opacity-60 bg-white fixed w-full z-10 transition-all duration-300"
+      class="navbar bg-opacity-60 bg-white fixed w-full z-10 transition-all duration-300 shadow-md"
       x-data="{ open: false, scrolled: false, dropdown: null }"
       x-init="$watch('scrolled', (value) => {
+        // Update untuk outer navbar
         if (value) {
           $el.classList.add('bg-opacity-60', 'shadow-md');
           $el.classList.remove('bg-opacity-0');
-          document.querySelector('.navbar-container').classList.add('bg-opacity-10', 'shadow-md');
-          document.querySelector('.navbar-container').classList.remove('bg-opacity-0');
         } else {
           $el.classList.add('bg-opacity-0');
           $el.classList.remove('bg-opacity-60', 'shadow-md');
-          document.querySelector('.navbar-container').classList.add('bg-opacity-0');
-          document.querySelector('.navbar-container').classList.remove('bg-opacity-10', 'shadow-md');
+        }
+        // Update untuk inner navbar-container
+        const navContainer = document.querySelector('.navbar-container');
+        if (navContainer) {
+          if (value) {
+            // Saat discroll, berikan transparansi 60% (sesuai kebutuhan)
+            navContainer.classList.add('bg-opacity-60', 'shadow-md');
+            navContainer.classList.remove('bg-opacity-10', 'bg-opacity-0');
+          } else {
+            // Saat di atas, gunakan opacity awal (misal: 10%)
+            navContainer.classList.add('bg-opacity-10');
+            navContainer.classList.remove('bg-opacity-60', 'shadow-md');
+          }
         }
       })"
       @scroll.window="scrolled = window.scrollY > 0"
@@ -91,7 +101,7 @@
         class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black transition-all duration-300"
       >
         <div
-          class="container mx-auto px-4 flex items-center justify-center gap-6 w-full"
+          class="container mx-auto px-4 sm:px-0 lg:px-4 flex items-center justify-center gap-4 w-full"
         >
           <div class="flex items-center justify-between lg:w-auto w-full">
             <a href="../public/index.html" class="flex items-center py-5 px-2">
@@ -494,17 +504,17 @@
                 >
               </div>
             </div>
-          </div>
-          <button
-            class="sign-in-button hidden sm:block relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200"
-          >
-            <a
-              class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0"
-              href="../includes/login-page.html"
+            <button
+              class="sign-in-button hidden sm:block relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200"
             >
-              Sign in
-            </a>
-          </button>
+              <a
+                class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0"
+                href="../includes/login-page.html"
+              >
+                Sign in
+              </a>
+            </button>
+          </div>
         </div>
       </nav>
       <div

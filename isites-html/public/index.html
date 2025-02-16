@@ -77,19 +77,29 @@
   <body>
     <!-- BORDER -->
     <div
-      class="navbar bg-opacity-60 bg-white fixed w-full z-10 transition-all duration-300"
+      class="navbar bg-opacity-60 bg-white fixed w-full z-10 transition-all duration-300 shadow-md"
       x-data="{ open: false, scrolled: false, dropdown: null }"
       x-init="$watch('scrolled', (value) => {
+        // Update untuk outer navbar
         if (value) {
           $el.classList.add('bg-opacity-60', 'shadow-md');
           $el.classList.remove('bg-opacity-0');
-          document.querySelector('.navbar-container').classList.add('bg-opacity-10', 'shadow-md');
-          document.querySelector('.navbar-container').classList.remove('bg-opacity-0');
         } else {
           $el.classList.add('bg-opacity-0');
           $el.classList.remove('bg-opacity-60', 'shadow-md');
-          document.querySelector('.navbar-container').classList.add('bg-opacity-0');
-          document.querySelector('.navbar-container').classList.remove('bg-opacity-10', 'shadow-md');
+        }
+        // Update untuk inner navbar-container
+        const navContainer = document.querySelector('.navbar-container');
+        if (navContainer) {
+          if (value) {
+            // Saat discroll, berikan transparansi 60% (sesuai kebutuhan)
+            navContainer.classList.add('bg-opacity-60', 'shadow-md');
+            navContainer.classList.remove('bg-opacity-10', 'bg-opacity-0');
+          } else {
+            // Saat di atas, gunakan opacity awal (misal: 10%)
+            navContainer.classList.add('bg-opacity-10');
+            navContainer.classList.remove('bg-opacity-60', 'shadow-md');
+          }
         }
       })"
       @scroll.window="scrolled = window.scrollY > 0"
@@ -98,7 +108,7 @@
         class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black transition-all duration-300"
       >
         <div
-          class="container mx-auto px-4 flex items-center justify-center gap-6 w-full"
+          class="container mx-auto px-4 sm:px-0 lg:px-4 flex items-center justify-center gap-4 w-full"
         >
           <div class="flex items-center justify-between lg:w-auto w-full">
             <a href="../public/index.html" class="flex items-center py-5 px-2">
@@ -951,17 +961,19 @@
         </div>
       </div>
     </section>
-    <!-- <section class="page-apps">
+    <section class="page-apps">
       <div class="page-apps-container">
-        <h2 class="title-heading">Apps</h2>
+        <h2 class="title-heading">Back to Old UI</h2>
         <div class="text-container mb-8">
           <p class="text-description">
-            Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
-            kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
-            Kalkulator, Generator, Formatter, dan lainnya.
+            Mulai Akhir Februari 2025, Inzaghi's Sites akan mulai berganti ke
+            Tampilan Baru dengan Tampilan yang lebih Fresh dan Modern! Untuk
+            kembali ke Tampilan Lama, klik pada Tombol di samping.
           </p>
           <section class="group-button">
-            <a href="../pages/apps.html" class="main-button">Click here</a>
+            <a href="https://inzaghi.wuaze.com" class="main-button"
+              >Back to Old UI</a
+            >
           </section>
         </div>
         <section class="group-content">
@@ -971,39 +983,147 @@
             >
               <div class="hcg-slider-body">
                 <a class="hcg-slides animated" style="display: flex">
-                  <span class="hcg-slide-number">1/6</span>
                   <img
-                    src="../assets/images/converters-by-pages-apps.png"
+                    src="../assets/images/inzaghis-sites-ui-refresh-2025.png"
                     alt=""
                   />
-                  <span class="hcg-slide-text">Converters</span>
                 </a>
               </div>
-              <a href="#" id="hcg-slide-prev">&#10094;</a>
-              <a href="#" id="hcg-slide-next">&#10095;</a>
             </div>
-            <div class="hcg-slide-dot-control"></div>
           </div>
-          <section
-            class="content-description bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-400"
-          >
-            <h2 class="group-title">Converters</h2>
-            <p class="left-subheading">
-              Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu,
-              Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian
-              dari Aplikasi Konverter ini akan sedikit menggunakan API.
-            </p>
-            <div class="btn flex justify-center mt-4">
-              <a
-                href="../page-apps/pages.html"
-                class="focus:ring-4 focus:outline-none focus:ring-green-300 inline-flex items-center justify-center font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none hover:text-white"
-              >
-                Click here
-              </a>
-            </div>
-          </section>
         </section>
       </div>
+    </section>
+    <!-- <section class="page-apps">
+      <div class="page-apps-container">
+        <h2 class="title-heading text-green-700">Portals</h2>
+        <div class="text-container">
+          <p class="text-description">
+            Portals merupakan Halaman Portal yang tersedia untuk berbagai
+            kebutuhan apapun seperti Widgets, Tutorial Teknologi, Materi
+            Pembelajaran, dan lainnya.
+          </p>
+          <section class="group-button">
+            <a href="../pages/portals.html" class="main-button">Click here</a>
+          </section>
+        </div>
+        <section class="group-content">
+          <div class="swiper-container flex flex-wrap">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper" id="portalsContainer"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <script>
+        const portalsData = {
+          apps: [
+            {
+              name: "Widgets",
+              imgSrc: "../assets/images/widgets-by-portals.png",
+              description:
+                "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
+              link: "../portals/widgets.html",
+            },
+            {
+              name: "Technology Tutorials",
+              imgSrc: "../assets/images/tech-tutorials-by-portals.png",
+              description:
+                "Merupakan kumpulan dari berbagai macam Teknologi apapun dalam bidang IT, dan sebagai Pembelajaran untuk berbagai macam Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu Komputer, Analisis Data, dan lainnya.",
+              link: "../portals/tech-tutorials.html",
+            },
+            {
+              name: "IT Project Lists",
+              imgSrc: "../assets/images/it-project-lists-by-portals.png",
+              description:
+                "Merupakan kumpulan dari berbagai macam Proyek apapun dalam bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis Data, AI/ML, IoT, dan lainnya.",
+              link: "../portals/projects.html",
+            },
+            {
+              name: "Interviews & Thesis Prep",
+              imgSrc: "../assets/images/intervs-and-thesis-by-portals.png",
+              description:
+                "Merupakan kumpulan dari pertanyaan-pertanyaan Wawancara seperti Wawancara Kerja, Magang, User Interview, Wawancara Teknis (Technical Interview), dan lain-lain. Portal ini juga menyediakan berbagai macam Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
+              link: "../portals/interviews-and-thesis.html",
+            },
+            {
+              name: "Materi Pembelajaran",
+              imgSrc: "../assets/images/learning-materials-by-portals.png",
+              description:
+                "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik Informatika). Untuk Materi SMA, kebanyakan hanya lebih spesifik ke Jurusan IPA saja. Dan untuk Materi Perkuliahan, hanya hanya tersedia untuk Jurusan Teknik Informatika (TI) saja, dan hanya beberapa Mata Kuliah saja yang juga tersedia untuk Jurusan Sistem Informasi (SI). Untuk Jurusan/Prodi lainnya, hanya tersedia untuk Mata Kuliah Umum (MKDU) saja.",
+              link: "../portals/learning-materials.html",
+            },
+            {
+              name: "Video Pages",
+              imgSrc: "../assets/images/video-pages-by-portals.png",
+              description:
+                "Merupakan kumpulan dari Video-video YouTube seperti Live Streaming Video, Daftar Channel Terjemahan Multibahasa, dan Daftar Channel YouTube per Kategori.",
+              link: "../portals/video-pages.html",
+            },
+            {
+              name: "Link Pages",
+              imgSrc: "../assets/images/link-pages-by-portals.png",
+              description:
+                "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
+              link: "../portals/link-pages.html",
+            },
+            {
+              name: "Miscellaneous",
+              imgSrc: "../assets/images/miscellaneous-by-portals.png",
+              description:
+                "Merupakan Halaman lainnya yang tidak termasuk dari Kategori di Portal ini, dan juga tersedia untuk Halaman apa saja.",
+              link: "../portals/miscellaneous.html",
+            },
+            {
+              name: "Lorem Ipsum",
+              imgSrc: "https://via.placeholder.com/700x400",
+              description:
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+              link: "#",
+            },
+          ],
+        };
+
+        const portalsContainer = document.getElementById("portalsContainer");
+
+        portalsData.apps.forEach((app) => {
+          const slide = document.createElement("div");
+          slide.className = "swiper-slide w-full sm:w-1/2 lg:w-1/3 px-4 mb-4";
+          slide.innerHTML = `
+            <div class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#f5faf5] ring-1 ring-gray-300">
+              <div class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                <a href="${app.link}">
+                  <img
+                    src="${app.imgSrc}"
+                    alt="${app.name}"
+                    class="w-full h-full object-cover"
+                  />
+                </a>
+              </div>
+              <div class="p-4 text-center flex flex-col flex-grow justify-between">
+                <div class="flex flex-col bg-transparent border border-gray-200 rounded-xl border-gray-300 sm:h-full p-6 sm:p-2 lg:p-4">
+                  <h5 class="card-name blog-name block mt-2 mb-4 text-2xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-green-700">
+                    ${app.name}
+                  </h5>
+                  <p class="blog-description m-auto block text-xs md:text-sm text-left antialiased font-light leading-relaxed text-inherit">
+                    ${app.description}
+                  </p>
+                  <div class="mt-4">
+                    <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                      <a href="${app.link}" target="_blank" class="blog-link">Klik di sini</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          `;
+          portalsContainer.appendChild(slide);
+        });
+      </script>
       <script src="../js/slider.js"></script>
     </section> -->
     <section class="page-apps">
@@ -1022,14 +1142,9 @@
         <section class="group-content">
           <div class="swiper-container flex flex-wrap">
             <div class="swiper mySwiper">
-              <!-- Wrapper untuk slide -->
-              <div class="swiper-wrapper" id="appsContainer">
-                <!-- Kartu akan ditambahkan secara dinamis -->
-              </div>
-              <!-- Navigasi Swiper -->
+              <div class="swiper-wrapper" id="appsContainer"></div>
               <div class="swiper-button-next"></div>
               <div class="swiper-button-prev"></div>
-              <!-- Pagination -->
               <div class="swiper-pagination"></div>
             </div>
           </div>
