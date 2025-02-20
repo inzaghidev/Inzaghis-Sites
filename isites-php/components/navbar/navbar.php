@@ -256,8 +256,8 @@
 
 <!---->
 <!-- UNDER CONSTRUCTION! -->
-<!--div
-  class="navbar bg-opacity-60 bg-white fixed w-full z-10 transition-all duration-300" x-data="{ open: false, scrolled: false, dropdown: null }"
+<!-- <div
+  class="navbar bg-opacity-60 bg-white fixed w-full z-10 transition-all duration-300 shadow-md" x-data="{ open: false, scrolled: false, dropdown: null }"
   x-data="{ open: false, scrolled: false, dropdown: null }"
   x-init="$watch('scrolled', (value) => {
     // Update untuk outer navbar
@@ -537,7 +537,7 @@
       </nav>
     </div>
   </div>
-</div-->
+</div> -->
 
 <!-- https://tailwindflex.com/tag/navbar -->
 <!-- https://tailwindflex.com/@piet-vriend/responsive-navbar -->
