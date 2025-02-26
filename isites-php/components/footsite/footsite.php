@@ -3,7 +3,7 @@
         <section class="footer-wrapper mb-10">
             <section class="inzaghis-corp-logo">
                 <a href="#" id="logo">
-                    <img src="<?php echo $pathToWebRoot.'/assets/images/inzaghis-corp-logo-vertical-transparent.png'; ?>" class="h-16 w-auto" alt="logo" />
+                    <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-corp-logo-vertical-transparent.png'; ?>" class="h-16 w-auto" alt="logo" />
                 </a>
             </section>
             <section class="special-pages">
@@ -56,7 +56,7 @@
                         <li><a href="https://inzaghiposuma.wordpress.com/blog-posts" class="hover:text-blue-800" target="_blank">WordPress Blog</a></li>
                         <li><a href="https://medium.com/@izzumiposhaf29" class="hover:text-blue-800">Inzaghi's Sites Blog</a></li>
                         <li><a href="https://linktr.ee/inzaghigroup" class="hover:text-blue-800" target="_blank">Linktree Inzaghi's Group</a></li>
-                        <li><a href="https://inzaghi.wuaze.com" class="font-semibold text-green-900 hover:text-green-600"><b>Back to Old UI (Current)</b></a></li>
+                        <li><a href="https://old.inzaghi.wuaze.com" class="font-semibold text-green-900 hover:text-green-600"><b>Back to Old UI (Current)</b></a></li>
                     </ul>
                     <a class="github-button" href="https://github.com/inzaghidev/Inzaghis-Sites" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Look at @inzaghidev">Look at @inzaghidev</a>
                 </nav>
