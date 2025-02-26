@@ -54,7 +54,7 @@
         </p>
         <section class="group-button">
           <a
-            href="https://preview.inzaghi.wuaze.com"
+            href="https://inzaghi.wuaze.com"
             class="main-button"
             >Switch to New UI</a
           >
@@ -78,6 +78,132 @@
   </section>
   <section class="page-apps shadow">
     <div class="page-apps-container">
+      <h2 class="title-heading">Portals</h2>
+      <div class="text-container">
+        <p class="text-description">
+          Portals merupakan Halaman Portal yang tersedia untuk berbagai
+          kebutuhan apapun seperti Widgets, Tutorial Teknologi, Materi
+          Pembelajaran, dan lainnya.
+        </p>
+        <section class="group-button">
+          <a href="../pages/portals.html" class="main-button">Click here</a>
+        </section>
+      </div>
+      <section class="group-content">
+        <div class="row swiper-container">
+          <div class="swiper portals-swiper">
+            <div class="swiper-wrapper" id="portalsContainer"></div>
+          </div>
+          <div class="swiper-button-next portals-swiper-button-next"></div>
+          <div class="swiper-button-prev portals-swiper-button-prev"></div>
+          <div class="swiper-pagination swiper-pagination-portals"></div>
+        </div>
+      </section>
+    
+      <script>
+        const portalsData = {
+          apps: [
+            {
+              name: "Widgets",
+              imgSrc: "../assets/images/widgets-by-portals.png",
+              description:
+                "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
+              link: "../portals/widgets.html",
+            },
+            {
+              name: "Technology Tutorials",
+              imgSrc: "../assets/images/tech-tutorials-by-portals.png",
+              description:
+                "Merupakan kumpulan dari berbagai macam Teknologi apapun dalam bidang IT, dan sebagai Pembelajaran untuk berbagai macam Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu Komputer, Analisis Data, dan lainnya.",
+              link: "../portals/tech-tutorials.html",
+            },
+            {
+              name: "IT Project Lists",
+              imgSrc: "../assets/images/it-project-lists-by-portals.png",
+              description:
+                "Merupakan kumpulan dari berbagai macam Proyek apapun dalam bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis Data, AI/ML, IoT, dan lainnya.",
+              link: "../portals/projects.html",
+            },
+            {
+              name: "Interviews & Thesis Prep",
+              imgSrc: "../assets/images/intervs-and-thesis-by-portals.png",
+              description:
+                "Merupakan kumpulan dari pertanyaan-pertanyaan Wawancara seperti Wawancara Kerja, Magang, User Interview, Wawancara Teknis (Technical Interview), dan lain-lain. Portal ini juga menyediakan berbagai macam Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
+              link: "../portals/interviews-and-thesis.html",
+            },
+            {
+              name: "Materi Pembelajaran",
+              imgSrc: "../assets/images/learning-materials-by-portals.png",
+              description:
+                "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik Informatika). Untuk Materi SMA, kebanyakan hanya lebih spesifik ke Jurusan IPA saja. Dan untuk Materi Perkuliahan, hanya hanya tersedia untuk Jurusan Teknik Informatika (TI) saja, dan hanya beberapa Mata Kuliah saja yang juga tersedia untuk Jurusan Sistem Informasi (SI). Untuk Jurusan/Prodi lainnya, hanya tersedia untuk Mata Kuliah Umum (MKDU) saja.",
+              link: "../portals/learning-materials.html",
+            },
+            {
+              name: "Video Pages",
+              imgSrc: "../assets/images/video-pages-by-portals.png",
+              description:
+                "Merupakan kumpulan dari Video-video YouTube seperti Live Streaming Video, Daftar Channel Terjemahan Multibahasa, dan Daftar Channel YouTube per Kategori.",
+              link: "../portals/video-pages.html",
+            },
+            {
+              name: "Link Pages",
+              imgSrc: "../assets/images/link-pages-by-portals.png",
+              description:
+                "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
+              link: "../portals/link-pages.html",
+            },
+            {
+              name: "Miscellaneous",
+              imgSrc: "../assets/images/miscellaneous-by-portals.png",
+              description:
+                "Merupakan Halaman lainnya yang tidak termasuk dari Kategori di Portal ini, dan juga tersedia untuk Halaman apa saja.",
+              link: "../portals/miscellaneous.html",
+            },
+            {
+              name: "Lorem Ipsum",
+              imgSrc: "https://via.placeholder.com/700x400",
+              description:
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+              link: "#",
+            },
+          ],
+        };
+      
+        const portalsContainer = document.getElementById("portalsContainer");
+       
+        portalsData.apps.forEach((app) => {
+          const slide = document.createElement("div");
+          slide.className = "swiper-slide";
+          slide.innerHTML = `
+          <div class="card card-swiper card-apps h-100 border-success shadow">
+            <a href="${app.link}">
+              <img
+                src="${app.imgSrc}"
+                class="card-img-apps card-img-top"
+                alt="${app.name}"
+              />
+            </a>
+            <div class="card-body card-apps-body">
+              <div class="card-description">
+                <h4 class="card-name card-title page-apps-card">
+                  <a>${app.name}</a>
+                </h4>
+                <p class="card-text blog-description">${app.description}</p>
+              </div>
+              <button type="button" class="btn btn-primary btn-md apps-button">
+                <a href="${app.link}" target="_blank" class="blog-link">Klik di sini</a>
+              </button>
+            </div>
+          </div>
+        `;
+          portalsContainer.appendChild(slide);
+        });
+      </script>
+    </div>
+    <script src="../js/slider.js"></script>
+  </section>
+  <section class="page-apps shadow">
+    <div class="page-apps-container">
       <h2 class="title-heading">Apps</h2>
       <div class="text-container">
         <p class="text-description">
@@ -86,49 +212,105 @@
           Kalkulator, Generator, Formatter, dan lainnya.
         </p>
         <section class="group-button">
-          <a href="../page-apps/" class="main-button"
-            >Click here</a
-          >
+          <a href="../pages/apps.html" class="main-button">Click here</a>
         </section>
       </div>
       <section class="group-content">
         <div class="row swiper-container">
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper" id="appsContainer">
-              <!-- Dynamically Generated Cards -->
-              <?php foreach ($appsData['apps'] as $app): ?>
-                <div class="swiper-slide">
-                  <div class="card card-swiper card-apps h-100 border-success shadow">
-                    <a href="<?= htmlspecialchars($app['link']) ?>">
-                      <img
-                        src="<?= htmlspecialchars($app['imgSrc']) ?>"
-                        class="card-img-apps card-img-top"
-                        alt="<?= htmlspecialchars($app['name']) ?>"
-                      />
-                    </a>
-                    <div class="card-body card-apps-body">
-                      <div class="card-description">
-                        <h4 class="card-name card-title page-apps-card">
-                          <a><?= htmlspecialchars($app['name']) ?></a>
-                        </h4>
-                        <p class="card-text blog-description"><?= htmlspecialchars($app['description']) ?></p>
-                      </div>
-                      <button type="button" class="btn btn-primary btn-md apps-button">
-                        <a href="<?= htmlspecialchars($app['link']) ?>" target="_blank" class="blog-link">Klik di sini</a>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              <?php endforeach; ?>
-            </div>
+          <div class="swiper apps-swiper">
+            <div class="swiper-wrapper" id="appsContainer"></div>
           </div>
-          <!-- Add Navigation -->
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next apps-swiper-button-next"></div>
+          <div class="swiper-button-prev apps-swiper-button-prev"></div>
+          <div class="swiper-pagination swiper-pagination-apps"></div>
         </div>
       </section>
+    
+      <script>
+        const appsData = {
+          apps: [
+            {
+              name: "Converters",
+              imgSrc: "../assets/images/converters-by-pages-apps.png",
+              description:
+                "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
+              link: "../page-apps/converter.html",
+            },
+            {
+              name: "Calculators",
+              imgSrc: "../assets/images/calculators-by-pages-apps.png",
+              description:
+                "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
+              link: "../page-apps/calculators.html",
+            },
+            {
+              name: "Generators",
+              imgSrc: "../assets/images/generators-by-pages-apps.png",
+              description:
+                "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
+              link: "../page-apps/generators.html",
+            },
+            {
+              name: "Formatters",
+              imgSrc: "../assets/images/formatters-by-pages-apps.png",
+              description:
+                "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
+              link: "../page-apps/formatters.html",
+            },
+            {
+              name: "File Converter",
+              imgSrc: "../assets/images/file-converters-by-pages-apps.png",
+              description:
+                "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
+              link: "../page-apps/file-converter.html",
+            },
+            {
+              name: "Utilities",
+              imgSrc: "../assets/images/utilities-by-pages-apps.png",
+              description:
+                "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
+              link: "../page-apps/utilities.html",
+            },
+            {
+              name: "Tester Tools",
+              imgSrc: "../assets/images/tester-tools-by-pages-apps.png",
+              description:
+                "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
+              link: "../page-apps/tester-tools.html",
+            },
+          ],
+        };
+      
+        const appsContainer = document.getElementById("appsContainer");
+      
+        appsData.apps.forEach((app) => {
+          const slide = document.createElement("div");
+          slide.className = "swiper-slide";
+          slide.innerHTML = `
+          <div class="card card-swiper card-apps h-100 border-success shadow">
+            <a href="${app.link}">
+              <img
+                src="${app.imgSrc}"
+                class="card-img-apps card-img-top"
+                alt="${app.name}"
+              />
+            </a>
+            <div class="card-body card-apps-body">
+              <div class="card-description">
+                <h4 class="card-name card-title page-apps-card">
+                  <a>${app.name}</a>
+                </h4>
+                <p class="card-text blog-description">${app.description}</p>
+              </div>
+              <button type="button" class="btn btn-primary btn-md apps-button">
+                <a href="${app.link}" target="_blank" class="blog-link">Klik di sini</a>
+              </button>
+            </div>
+          </div>
+        `;
+          appsContainer.appendChild(slide);
+        });
+      </script>
     </div>
     <script src="../js/slider.js"></script>
   </section>
@@ -247,7 +429,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
               <div class="border-0 h-100 shadow opacity-75 socmed-card">
                 <img
-                  src="../assets/images/instagram-logo-icon.png"
+                  src="../assets/icons/instagram-logo-icon.png"
                   class="card mt-4 socmed-icon"
                   alt="Instagram Logo"
                 />
@@ -276,7 +458,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../assets/images/tiktok-logo-icon.png"
+                src="../assets/icons/tiktok-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="TikTok Logo"
               />
@@ -306,7 +488,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../assets/images/youtube-logo-icon.png"
+                src="../assets/icons/youtube-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="YouTube Logo"
               />
@@ -335,7 +517,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../assets/images/twitter-x-logo.png"
+                src="../assets/icons/twitter-x-logo.png"
                 class="card mt-4 socmed-icon"
                 alt="Twitter Logo"
               />
@@ -364,7 +546,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../assets/images/threads-logo-icon.png"
+                src="../assets/icons/threads-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="Threads Logo"
               />
@@ -400,7 +582,7 @@
         <h2 class="inzaghis-group-heading">Inzaghi's Group Network</h2>
         <div class="inzaghis-group-container">
           <img
-            src="../assets/images/inzaghis-group-logo-vertical-transparent.png"
+            src="../assets/icons/inzaghis-group-logo-vertical-transparent.png"
             height="60px"
             alt="logo"
           />
@@ -416,42 +598,42 @@
       </div>
       <div class="logo-grid">
         <img
-          src="../assets/images/inzaghis-blog-logo-vertical-transparent.png"
+          src="../assets/icons/inzaghis-blog-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../assets/images/inzaghis-sites-logo-vertical-transparent.png"
+          src="../assets/icons/inzaghis-sites-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../assets/images/inzaghis-media-logo-vertical-transparent.png"
+          src="../assets/icons/inzaghis-media-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../assets/images/inzaghis-dev-logo-vertical-transparent.png"
+          src="../assets/icons/inzaghis-dev-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../assets/images/inzaghis-archives-logo-vertical-transparent.png"
+          src="../assets/icons/inzaghis-archives-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../assets/images/inzaghis-app-logo-vertical-transparent.png"
+          src="../assets/icons/inzaghis-app-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../assets/images/inzaghis-ai-logo-vertical-transparent.png"
+          src="../assets/icons/inzaghis-ai-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />
         <img
-          src="../assets/images/inzaghis-shop-logo-vertical-transparent.png"
+          src="../assets/icons/inzaghis-shop-logo-vertical-transparent.png"
           height="60px"
           alt="logo"
         />

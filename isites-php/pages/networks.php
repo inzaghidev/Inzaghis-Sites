@@ -178,7 +178,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../assets/images/instagram-logo-icon.png"
+                src="../assets/icons/instagram-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="Instagram Logo"
               />
@@ -202,7 +202,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../assets/images/tiktok-logo-icon.png"
+                src="../assets/icons/tiktok-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="TikTok Logo"
               />
@@ -227,7 +227,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../assets/images/youtube-logo-icon.png"
+                src="../assets/icons/youtube-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="YouTube Logo"
               />
@@ -251,7 +251,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../assets/images/twitter-x-logo.png"
+                src="../assets/icons/twitter-x-logo.png"
                 class="card mt-4 socmed-icon"
                 alt="Twitter Logo"
               />
@@ -275,7 +275,7 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../assets/images/threads-logo-icon.png"
+                src="../assets/icons/threads-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="Threads Logo"
               />
