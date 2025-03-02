@@ -17,7 +17,7 @@
         </div>
       </div>
       <div id="navigation-menu" :class="open ? 'block' : 'hidden'" class="hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 pb-3 lg:pb-0">
-        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="py-2 px-3 hover:bg-[#c1e0d1] gap-2 rounded-lg block">Home</a>
+        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="nav-toggle py-2 px-3 hover:bg-[#c1e0d1] gap-2 rounded-lg block">Home</a>
         <div class="relative group" @mouseenter="dropdown = 'blogs'" @mouseleave="dropdown = null">
           <div class="py-3">
             <button @click="dropdown = dropdown === 'blogs' ? null : 'blogs'" class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg">
@@ -74,7 +74,7 @@
             <a href="<?php echo $pathToWebRoot.'/page-apps/tester-tools.php'; ?>" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Tester Tools</a>
           </div>
         </div>
-        <a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="py-2 px-3 hover:bg-[#c1e0d1] gap-2 rounded-lg block">Contact</a>
+        <a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="nav-toggle py-2 px-3 hover:bg-[#c1e0d1] gap-2 rounded-lg block">Contact</a>
         <div class="relative group" @mouseenter="dropdown = 'about-profile'" @mouseleave="dropdown = null">
           <div class="py-3">
             <button @click="dropdown = dropdown === 'about-profile' ? null : 'about-profile'" class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg">
@@ -302,7 +302,7 @@
         </div>
       </div>
       <div id="navigation-menu" :class="open ? 'block' : 'hidden'" class="hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 pb-3 lg:pb-0">
-        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="py-2 px-3 hover:bg-[#c1e0d1] gap-2 rounded-lg block">Home</a>
+        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="nav-toggle py-2 px-3 hover:bg-[#c1e0d1] gap-2 rounded-lg block">Home</a>
         <div class="relative group" @mouseenter="dropdown = 'blogs'" @mouseleave="dropdown = null">
           <div class="py-3">
             <button @click="dropdown = dropdown === 'blogs' ? null : 'blogs'" class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg">
@@ -359,7 +359,7 @@
             <a href="<?php echo $pathToWebRoot.'/page-apps/tester-tools.php'; ?>" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Tester Tools</a>
           </div>
         </div>
-        <a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="py-2 px-3 hover:bg-[#c1e0d1] gap-2 rounded-lg block">Contact</a>
+        <a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="nav-toggle py-2 px-3 hover:bg-[#c1e0d1] gap-2 rounded-lg block">Contact</a>
         <div class="relative group" @mouseenter="dropdown = 'about-profile'" @mouseleave="dropdown = null">
           <div class="py-3">
             <button @click="dropdown = dropdown === 'about-profile' ? null : 'about-profile'" class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg">
