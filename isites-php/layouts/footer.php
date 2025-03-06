@@ -6,7 +6,6 @@
     echo "<script src='$pathToWebRoot/cdn/alpinejs/alpinejs-cdn.min.js'></script>";
 ?>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="../tailwindcss-3.4.14/tailwindcss-cdn-3.4.15.js"></script>
     <script src="<?php echo "$pathToWebRoot/tailwindcss-3.4.14/tailwindcss-cdn-3.4.15.js"; ?>"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>

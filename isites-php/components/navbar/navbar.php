@@ -1,6 +1,6 @@
 <div class="navbar bg-opacity-60 shadow-md bg-white fixed w-full z-10" x-data="{ open: false, dropdown: null }">
   <nav class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md">
-    <div class="container mx-auto px-4 sm:px-0 lg:px-4 flex items-center justify-center gap-4 w-full">
+    <div class="container mx-auto max-w-screen-xl px-4 flex items-center justify-center gap-4 w-full">
       <div class="flex items-center justify-between lg:w-auto w-full">
         <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
           <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo" alt="Inzaghi's Sites">
@@ -9,8 +9,8 @@
           <button @click="open = !open" class="mobile-menu-button py-3 px-3" aria-label="Toggle Menu">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <title>Menu Toggle</title>
-              <g fill="none">
-                <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                <path d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5"/>
               </g>
             </svg>
           </button>
@@ -122,7 +122,7 @@
           </div>
         </div>
         <button class="sign-in-button hidden sm:block relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
-          <a class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0" href="<?php echo $pathToWebRoot.'/includes/login-page.php'; ?>">
+          <a class="main-button-nav relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0" href="<?php echo $pathToWebRoot.'/includes/login-page.php'; ?>">
             Sign in
           </a>
         </button>
@@ -285,7 +285,7 @@
   @scroll.window="scrolled = window.scrollY > 0"
 >
   <nav class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black transition-all duration-300">
-    <div class="container mx-auto px-4 sm:px-0 lg:px-4 flex items-center justify-center gap-4 w-full">
+    <div class="container mx-auto max-w-screen-xl px-4 flex items-center justify-center gap-4 w-full">
       <div class="flex items-center justify-between lg:w-auto w-full">
         <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
           <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo" alt="Inzaghi's Sites">
@@ -294,8 +294,8 @@
           <button @click="open = !open" class="mobile-menu-button py-3 px-3" aria-label="Toggle Menu">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <title>Menu Toggle</title>
-              <g fill="none">
-                <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                <path d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5"/>
               </g>
             </svg>
           </button>
@@ -407,7 +407,7 @@
           </div>
         </div>
         <button class="sign-in-button hidden sm:block relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
-          <a class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0" href="<?php echo $pathToWebRoot.'/includes/login-page.php'; ?>">
+          <a class="main-button-nav relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0" href="<?php echo $pathToWebRoot.'/includes/login-page.php'; ?>">
             Sign in
           </a>
         </button>
