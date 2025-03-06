@@ -86,7 +86,7 @@
           Pembelajaran, dan lainnya.
         </p>
         <section class="group-button">
-          <a href="../pages/portals.html" class="main-button">Click here</a>
+          <a href="../pages/portals.php" class="main-button">Click here</a>
         </section>
       </div>
       <section class="group-content">
@@ -108,56 +108,56 @@
               imgSrc: "../assets/images/widgets-by-portals.png",
               description:
                 "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
-              link: "../portals/widgets.html",
+              link: "../portals/widgets.php",
             },
             {
               name: "Technology Tutorials",
               imgSrc: "../assets/images/tech-tutorials-by-portals.png",
               description:
                 "Merupakan kumpulan dari berbagai macam Teknologi apapun dalam bidang IT, dan sebagai Pembelajaran untuk berbagai macam Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu Komputer, Analisis Data, dan lainnya.",
-              link: "../portals/tech-tutorials.html",
+              link: "../portals/tech-tutorials.php",
             },
             {
               name: "IT Project Lists",
               imgSrc: "../assets/images/it-project-lists-by-portals.png",
               description:
                 "Merupakan kumpulan dari berbagai macam Proyek apapun dalam bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis Data, AI/ML, IoT, dan lainnya.",
-              link: "../portals/projects.html",
+              link: "../portals/projects.php",
             },
             {
               name: "Interviews & Thesis Prep",
               imgSrc: "../assets/images/intervs-and-thesis-by-portals.png",
               description:
                 "Merupakan kumpulan dari pertanyaan-pertanyaan Wawancara seperti Wawancara Kerja, Magang, User Interview, Wawancara Teknis (Technical Interview), dan lain-lain. Portal ini juga menyediakan berbagai macam Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
-              link: "../portals/interviews-and-thesis.html",
+              link: "../portals/interviews-and-thesis.php",
             },
             {
               name: "Materi Pembelajaran",
               imgSrc: "../assets/images/learning-materials-by-portals.png",
               description:
                 "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik Informatika). Untuk Materi SMA, kebanyakan hanya lebih spesifik ke Jurusan IPA saja. Dan untuk Materi Perkuliahan, hanya hanya tersedia untuk Jurusan Teknik Informatika (TI) saja, dan hanya beberapa Mata Kuliah saja yang juga tersedia untuk Jurusan Sistem Informasi (SI). Untuk Jurusan/Prodi lainnya, hanya tersedia untuk Mata Kuliah Umum (MKDU) saja.",
-              link: "../portals/learning-materials.html",
+              link: "../portals/learning-materials.php",
             },
             {
               name: "Video Pages",
               imgSrc: "../assets/images/video-pages-by-portals.png",
               description:
                 "Merupakan kumpulan dari Video-video YouTube seperti Live Streaming Video, Daftar Channel Terjemahan Multibahasa, dan Daftar Channel YouTube per Kategori.",
-              link: "../portals/video-pages.html",
+              link: "../portals/video-pages.php",
             },
             {
               name: "Link Pages",
               imgSrc: "../assets/images/link-pages-by-portals.png",
               description:
                 "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
-              link: "../portals/link-pages.html",
+              link: "../portals/link-pages.php",
             },
             {
               name: "Miscellaneous",
               imgSrc: "../assets/images/miscellaneous-by-portals.png",
               description:
                 "Merupakan Halaman lainnya yang tidak termasuk dari Kategori di Portal ini, dan juga tersedia untuk Halaman apa saja.",
-              link: "../portals/miscellaneous.html",
+              link: "../portals/miscellaneous.php",
             },
             {
               name: "Lorem Ipsum",
@@ -212,7 +212,7 @@
           Kalkulator, Generator, Formatter, dan lainnya.
         </p>
         <section class="group-button">
-          <a href="../pages/apps.html" class="main-button">Click here</a>
+          <a href="../pages/apps.php" class="main-button">Click here</a>
         </section>
       </div>
       <section class="group-content">
@@ -234,49 +234,49 @@
               imgSrc: "../assets/images/converters-by-pages-apps.png",
               description:
                 "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
-              link: "../page-apps/converter.html",
+              link: "../page-apps/converter.php",
             },
             {
               name: "Calculators",
               imgSrc: "../assets/images/calculators-by-pages-apps.png",
               description:
                 "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
-              link: "../page-apps/calculators.html",
+              link: "../page-apps/calculators.php",
             },
             {
               name: "Generators",
               imgSrc: "../assets/images/generators-by-pages-apps.png",
               description:
                 "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
-              link: "../page-apps/generators.html",
+              link: "../page-apps/generators.php",
             },
             {
               name: "Formatters",
               imgSrc: "../assets/images/formatters-by-pages-apps.png",
               description:
                 "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
-              link: "../page-apps/formatters.html",
+              link: "../page-apps/formatters.php",
             },
             {
               name: "File Converter",
               imgSrc: "../assets/images/file-converters-by-pages-apps.png",
               description:
                 "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
-              link: "../page-apps/file-converter.html",
+              link: "../page-apps/file-converter.php",
             },
             {
               name: "Utilities",
               imgSrc: "../assets/images/utilities-by-pages-apps.png",
               description:
                 "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
-              link: "../page-apps/utilities.html",
+              link: "../page-apps/utilities.php",
             },
             {
               name: "Tester Tools",
               imgSrc: "../assets/images/tester-tools-by-pages-apps.png",
               description:
                 "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
-              link: "../page-apps/tester-tools.html",
+              link: "../page-apps/tester-tools.php",
             },
           ],
         };
