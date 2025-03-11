@@ -1,10 +1,17 @@
 <div class="navbar bg-opacity-60 shadow-md bg-white fixed w-full z-10" x-data="{ open: false, dropdown: null }">
   <nav class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md">
-    <div class="container mx-auto max-w-screen-xl px-4 flex items-center justify-center gap-4 w-full">
-      <div class="flex items-center justify-between lg:w-auto w-full">
+    <div class="container mx-auto max-w-screen-xl px-4 flex items-center justify-between gap-4 w-full">
+      <div class="flex items-center">
         <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
           <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo" alt="Inzaghi's Sites">
         </a>
+      </div>
+      <div class="flex items-center lg:order-2">
+        <button class="sign-in-button hidden sm:block relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
+          <a class="main-button-nav relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0" href="<?php echo $pathToWebRoot.'/includes/login-page.php'; ?>">
+            Sign in
+          </a>
+        </button>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = !open" class="mobile-menu-button py-3 px-3" aria-label="Toggle Menu">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -121,11 +128,6 @@
             <a href="https://inzaghi-site.webflow.io" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Preview (Webflow)</a>
           </div>
         </div>
-        <button class="sign-in-button hidden sm:block relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
-          <a class="main-button-nav relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0" href="<?php echo $pathToWebRoot.'/includes/login-page.php'; ?>">
-            Sign in
-          </a>
-        </button>
       </div>
     </div>
   </nav>
@@ -285,11 +287,18 @@
   @scroll.window="scrolled = window.scrollY > 0"
 >
   <nav class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black transition-all duration-300">
-    <div class="container mx-auto max-w-screen-xl px-4 flex items-center justify-center gap-4 w-full">
-      <div class="flex items-center justify-between lg:w-auto w-full">
+    <div class="container mx-auto max-w-screen-xl px-4 flex items-center justify-between gap-4 w-full">
+      <div class="flex items-center">
         <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
           <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo" alt="Inzaghi's Sites">
         </a>
+      </div>
+      <div class="flex items-center lg:order-2">
+        <button class="sign-in-button hidden sm:block relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
+          <a class="main-button-nav relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0" href="<?php echo $pathToWebRoot.'/includes/login-page.php'; ?>">
+            Sign in
+          </a>
+        </button>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = !open" class="mobile-menu-button py-3 px-3" aria-label="Toggle Menu">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -406,11 +415,6 @@
             <a href="https://inzaghi-site.webflow.io" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Preview (Webflow)</a>
           </div>
         </div>
-        <button class="sign-in-button hidden sm:block relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
-          <a class="main-button-nav relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0" href="<?php echo $pathToWebRoot.'/includes/login-page.php'; ?>">
-            Sign in
-          </a>
-        </button>
       </div>
     </div>
   </nav>
