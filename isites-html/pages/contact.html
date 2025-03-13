@@ -75,23 +75,23 @@
       x-init="$watch('scrolled', (value) => {
         // Update untuk outer navbar
         if (value) {
-          $el.classList.add('bg-opacity-60', 'shadow-md');
+          $el.classList.add('bg-opacity-45', 'shadow-md');
           $el.classList.remove('bg-opacity-0');
         } else {
           $el.classList.add('bg-opacity-0');
-          $el.classList.remove('bg-opacity-60', 'shadow-md');
+          $el.classList.remove('bg-opacity-45', 'shadow-md');
         }
         // Update untuk inner navbar-container
         const navContainer = document.querySelector('.navbar-container');
         if (navContainer) {
           if (value) {
-            // Saat discroll, berikan transparansi 60% (sesuai kebutuhan)
-            navContainer.classList.add('bg-opacity-60', 'shadow-md');
+            // Saat discroll, berikan transparansi 45% (sesuai kebutuhan)
+            navContainer.classList.add('bg-opacity-45', 'shadow-md');
             navContainer.classList.remove('bg-opacity-10', 'bg-opacity-0');
           } else {
             // Saat di atas, gunakan opacity awal (misal: 10%)
             navContainer.classList.add('bg-opacity-10');
-            navContainer.classList.remove('bg-opacity-60', 'shadow-md');
+            navContainer.classList.remove('bg-opacity-45', 'shadow-md');
           }
         }
       })"
@@ -155,7 +155,7 @@
           <div
             id="navigation-menu"
             :class="open ? 'block' : 'hidden'"
-            class="hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 pb-3 lg:pb-0"
+            class="nav-menu hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 pb-3 lg:pb-0"
           >
             <a
               href="../public/index.html"
