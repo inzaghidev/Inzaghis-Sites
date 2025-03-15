@@ -102,10 +102,10 @@
                 </p>
                 <section class="group-button">
                   <a
-                    href="https://x.com/lPosumA0209"
+                    href="https://x.com/InzaTechMedia"
                     target="_blank"
                     class="btn btn-primary"
-                    >@lPosumA0209</a
+                    >@InzaTechMedia</a
                   >
                   <br />
                 </section>
