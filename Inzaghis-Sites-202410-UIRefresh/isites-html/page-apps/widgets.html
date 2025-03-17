@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../tailwindcss-3.4.14/tailwindcss-cdn-3.4.15.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!--link
+      rel="stylesheet"
+      href="../bootstrap/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css"
+    /-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../jquery/jquery-3.7.1.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Widgets</title>
+    <link
+      rel="shortcut icon"
+      href="../images/inzaghis-sites-favicon-36x36-icon-only.png"
+    />
+    <script type="text/javascript">
+      $(document).ready(function () {
+        console.log("Document Ready");
+
+        // Memuat header ke dalam halaman
+        $("#header-container").load("../layouts/header.html");
+
+        // Memuat footer ke dalam halaman
+        $("#footer-container").load("../layouts/footer.html");
+      });
+    </script>
+    <!--script>
+      $(document).ready(function () {
+        window.location.replace("../pages/sitemap.php");
+      });
+    </script-->
+  </head>
+  <body>
+    <div id="header-container"></div>
+    <div class="container-top"></div>
+    <section class="page-apps-wrapper">
+      <div class="page-apps-container">
+        <div class="welcome-container">
+          <div class="welcome-title">
+            <h1 class="welcome-title">Widgets</h1>
+          </div>
+          <section class="pages">
+            <p class="is-desc">
+              Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
+              Informasi seakurat mungkin. Widget di sini juga termasuk yang
+              sedang heboh saat ini.
+            </p>
+            <div
+              class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+              id="app-container"
+            >
+              <!-- Dynamic content will be inserted here -->
+            </div>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+              $(document).ready(function () {
+                // Data for the apps
+                const apps = [
+                  {
+                    title: "Calendar System",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+                    link: "https://sites.google.com/view/inzaghis-sites/widgets/calendar-system",
+                  },
+                  {
+                    title: "Date Time",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                  {
+                    title: "Weather",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                  {
+                    title: "Stocks",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                  {
+                    title: "Maps",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+                    link: "#",
+                  },
+                  {
+                    title: "Islamic Portal",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                ];
+
+                // Get the container where the cards will be appended
+                const appContainer = $("#app-container");
+
+                // Loop through the apps data and create the HTML elements
+                apps.forEach((app) => {
+                  const card = $(`
+                    <div class="bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-400">
+                      <h5 class="text-lg font-bold text-gray-800">${app.title}</h5>
+                      <p class="text-gray-600 mt-2">${app.text}</p>
+                      <div class="flex justify-center">
+                        <a href="${app.link}" class="inline-block mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300">Click here</a>
+                      </div>
+                    </div>
+                  `);
+
+                  appContainer.append(card);
+                });
+              });
+            </script>
+          </section>
+        </div>
+      </div>
+    </section>
+    <div id="footer-container"></div>
+  </body>
+</html>

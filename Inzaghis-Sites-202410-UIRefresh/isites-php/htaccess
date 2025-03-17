@@ -1,0 +1,14 @@
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+DirectoryIndex public/index.php
+
+# Redirect /pages/apps.php /page-apps/
+
+RewriteEngine On
+RewriteBase /
+
+# RewriteCond %{THE_REQUEST} /public_html/([^\s?]*) [NC]
+# RewriteRule ^ %1 [L,NE,R=302]
+
+# RewriteRule ^((?!public_html/).*)$ public/$1 [L,NC]

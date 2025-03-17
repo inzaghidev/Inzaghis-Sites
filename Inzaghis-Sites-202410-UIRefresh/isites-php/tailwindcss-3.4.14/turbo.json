@@ -1,0 +1,19 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "//#build": {
+      "outputs": ["lib/**", "peers/**", "types/generated/**"],
+      "inputs": ["src/**", "nesting/**", "types/**"]
+    },
+    "test": {
+      "dependsOn": ["//#build"]
+    },
+    "//#test": {
+      "dependsOn": ["//#build"],
+      "inputs": ["tests/**"]
+    },
+    "//#style": {
+      "inputs": ["**/*.js", "**/*.ts"]
+    }
+  }
+}

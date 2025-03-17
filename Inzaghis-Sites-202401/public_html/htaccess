@@ -1,0 +1,13 @@
+DirectoryIndex index.html
+
+# HTID:22180163: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:22180163:
+
+RewriteEngine On
+RewriteBase /inzaghis-sites/
+
+RewriteCond %{THE_REQUEST} /public_html/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+
+RewriteRule ^((?!public_html/).*)$ public/$1 [L,NC]

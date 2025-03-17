@@ -1,0 +1,423 @@
+{
+  "": [],
+  "apps": [
+    {
+      "name": "Pages",
+      "imgSrc": "../images/pages-by-pages-apps.png",
+      "description": "Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek, hingga Tutorial Pemrograman.",
+      "link": "../page-apps/pages.php"
+    },
+    {
+      "name": "Widgets",
+      "imgSrc": "../images/widgets-by-pages-apps.png",
+      "description": "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
+      "link": "../page-apps/widgets.php"
+    },
+    {
+      "name": "Converters",
+      "imgSrc": "../images/converters-by-pages-apps.png",
+      "description": "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
+      "link": "../page-apps/converter.php"
+    },
+    {
+      "name": "Calculators",
+      "imgSrc": "../images/calculators-by-pages-apps.png",
+      "description": "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
+      "link": "../page-apps/calculators.php"
+    },
+    {
+      "name": "Generators",
+      "imgSrc": "../images/generators-by-pages-apps.png",
+      "description": "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
+      "link": "../page-apps/generators.php"
+    },
+    {
+      "name": "Formatters",
+      "imgSrc": "../images/formatters-by-pages-apps.png",
+      "description": "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
+      "link": "../page-apps/formatters.php"
+    },
+    {
+      "name": "File Converter",
+      "imgSrc": "../images/file-converters-by-pages-apps.png",
+      "description": "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
+      "link": "../page-apps/file-converter.php"
+    },
+    {
+      "name": "Utilities",
+      "imgSrc": "../images/utilities-by-pages-apps.png",
+      "description": "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
+      "link": "../page-apps/utilities.php"
+    },
+    {
+      "name": "Tester Tools",
+      "imgSrc": "../images/tester-tools-by-pages-apps.png",
+      "description": "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
+      "link": "../page-apps/tester-tools.php"
+    },
+    {
+      "name": "Coming Soon",
+      "imgSrc": "https://via.placeholder.com/700x400",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+      "link": ""
+    },
+    {
+      "name": "Coming Soon",
+      "imgSrc": "https://via.placeholder.com/700x400",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+      "link": ""
+    },
+    {
+      "name": "Coming Soon",
+      "imgSrc": "https://via.placeholder.com/700x400",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+      "link": ""
+    }
+  ],
+  "pages": [
+    {
+      "title": "Technology Tutorials",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "https://bit.ly/Tech-and-IT-Tutorials-Notion-Inzaghi"
+    },
+    {
+      "title": "IT Project Lists",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "https://inzaghi-poshaf.notion.site/IT-Projects-List-11fb4c85740a80299195e71ddb61d808"
+    },
+    {
+      "title": "Interviews and Career Preparations",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Materi Pembelajaran",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "https://sites.google.com/view/inzaghis-sites/pages/materi-pembelajaran"
+    },
+    {
+      "title": "Programming Codes & UI Elements",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "https://inzaghi-poshaf.notion.site/Programming-Codes-UI-Elements-a99dadc9f4e84480b705f05e35e67270"
+    },
+    {
+      "title": "Video Page",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "https://sites.google.com/view/inzaghis-sites/pages/videos"
+    },
+    {
+      "title": "Link Page",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "https://bit.ly/Bookmark-Manager-Links-Notion-Inzaghi"
+    },
+    {
+      "title": "Calendar & Event Summary",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "https://inzaghi-poshaf.notion.site/Calendar-Summary-Events-2fdf303bab424c1ca6f8d7210c016128"
+    },
+
+    {
+      "title": "AppName1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    }
+  ],
+  "widgets": [
+    {
+      "title": "Calendar System",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "https://sites.google.com/view/inzaghis-sites/widgets/calendar-system"
+    },
+    {
+      "title": "Date Time",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Weather",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Stocks",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Maps",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Islamic Portal",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    }
+  ],
+  "converters": [
+    {
+      "title": "Basic Converters",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Engineering Converters",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Electricity Converters",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Fluid Converters",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Light Converters",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    }
+  ],
+  "calculators": [
+    {
+      "title": "Calculations Calculator",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Mathematics Calculator",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Statistics Calculator",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Geometry Calculator",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Finance Calculator",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Health Calculator",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Physics Calculator",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Chemistry Calculator",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "App 9",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    }
+  ],
+  "generators": [
+    {
+      "title": "App 1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 4",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 5",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 6",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    }
+  ],
+  "formatters": [
+    {
+      "title": "App 1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 4",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 5",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 6",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    }
+  ],
+  "file_converter": [
+    {
+      "title": "App 1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 4",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 5",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 6",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    }
+  ],
+  "utilities": [
+    {
+      "title": "App 1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 4",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 5",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 6",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    }
+  ],
+  "tester_tools": [
+    {
+      "title": "App 1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 4",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 5",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 6",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    }
+  ],
+  "Lorem_1": [
+    {
+      "title": "App 1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 4",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 5",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "App 6",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    }
+  ]
+}
