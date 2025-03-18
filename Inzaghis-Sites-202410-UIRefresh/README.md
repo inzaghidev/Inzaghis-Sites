@@ -2,7 +2,7 @@
 
 This Repository is for storing all Source Codes from Inzaghi's Sites.
 
-![Inzaghi's Sites](/isites-php/images/inzaghis-sites-by-inzaghis-group-corp.png)
+![Inzaghi's Sites](/Inzaghis-Sites-202410-UIRefresh/isites-php/images/inzaghis-sites-by-inzaghis-group-corp.png)
 
 Link :
 
@@ -17,29 +17,29 @@ This Branch is Under Construction, and will Rebuilded soon using Tailwind CSS.
 
 Berikut ini adalah Tampilan Utama dari Inzaghi's Sites :
 
-![Inzaghi's Sites Homepage](/isites-php/images/inzaghis-sites-homepage-202409.jpg)
+![Inzaghi's Sites Homepage](/Inzaghis-Sites-202410-UIRefresh/isites-php/images/inzaghis-sites-homepage-202409.jpg)
 
 ## Inzaghi's Sites Page Apps
 
 Tampilan Aplikasi dari Page Apps :
 
-![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps-1.jpg)
-![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps-2.jpg)
+![Pages Apps Inzaghi's Sites](/Inzaghis-Sites-202410-UIRefresh/isites-php/images/inzaghis-sites-pages-apps-1.jpg)
+![Pages Apps Inzaghi's Sites](/Inzaghis-Sites-202410-UIRefresh/isites-php/images/inzaghis-sites-pages-apps-2.jpg)
 
 ## Inzaghi's Sites Contact
 
 Tampilan Aplikasi dari Contact :
 
-![Contact us Inzaghi's Sites](/isites-php/images/inzaghis-sites-contact.jpg)
+![Contact us Inzaghi's Sites](/Inzaghis-Sites-202410-UIRefresh/isites-php/images/inzaghis-sites-contact.jpg)
 
 ## Inzaghi's Sites Profile
 
 Tampilan Aplikasi dari Profile :
 
-![Profile Inzaghi's Sites](/isites-php/images/inzaghis-sites-profile.jpg)
+![Profile Inzaghi's Sites](/Inzaghis-Sites-202410-UIRefresh/isites-php/images/inzaghis-sites-profile.jpg)
 
 ## Inzaghi's Sites Networks (Inzaghi's Group)
 
 Tampilan Aplikasi dari Networks :
 
-![Networks Inzaghi's Sites](/isites-php/images/inzaghis-sites-networks.jpg)
+![Networks Inzaghi's Sites](/Inzaghis-Sites-202410-UIRefresh/isites-php/images/inzaghis-sites-networks.jpg)
