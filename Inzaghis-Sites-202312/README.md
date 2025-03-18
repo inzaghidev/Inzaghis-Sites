@@ -2,7 +2,7 @@
 
 This Repository is for storing for all Source Codes from Inzaghi's Sites.
 
-![Inzaghi's Sites](/../public_html/images/inzaghis-sites-by-inzaghis-group-corp.png)
+![Inzaghi's Sites](/Inzaghis-Sites-202312/public_html/images/inzaghis-sites-by-inzaghis-group-corp.png)
 
 Link : [inzaghisites.000webhostapp.com](https://inzaghisites.000webhostapp.com)
 
@@ -10,4 +10,4 @@ Link : [inzaghisites.000webhostapp.com](https://inzaghisites.000webhostapp.com)
 
 Berikut ini adalah Tampilan Utama dari Inzaghi's Sites :
 
-![Inzaghi's Sites Homepage](/../public_html/images/inzaghis-sites-homepage.jpg)
+![Inzaghi's Sites Homepage](/Inzaghis-Sites-202312/public_html/images/inzaghis-sites-homepage.jpg)
