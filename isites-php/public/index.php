@@ -48,7 +48,7 @@
       <h2 class="title-heading">Back to Old UI</h2>
       <div class="text-container mb-8">
         <p class="text-description">
-          Mulai Akhir Februari 2025, Inzaghi's Sites akan mulai berganti ke
+          Mulai Akhir Februari 2025, Inzaghi's Sites telah berganti ke
           Tampilan Baru dengan Tampilan yang lebih Fresh dan Modern! Untuk
           kembali ke Tampilan Lama, klik pada Tombol di samping.
         </p>
