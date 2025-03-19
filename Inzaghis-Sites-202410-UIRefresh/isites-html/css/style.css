@@ -724,6 +724,7 @@ svg:not(:root) {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   font-family: var(--font-family);
   font-size: var(--font-size-16);
 }
@@ -2131,6 +2132,10 @@ svg:not(:root) {
   .page-description {
     padding: var(--padding-20);
     border-radius: 8px;
+  }
+
+  .content-description {
+    margin-top: 15px;
   }
 
   .inzaghis-sites-description {
