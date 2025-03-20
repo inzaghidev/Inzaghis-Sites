@@ -58,6 +58,7 @@
                         <li><a href="https://linktr.ee/inzaghigroup" target="_blank">Linktree Inzaghi's Group</a></li>
                     </ul>
                 </nav>
+                <a class="github-button" href="https://github.com/inzaghidev/Inzaghis-Sites" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Look at @inzaghidev">Look at @inzaghidev</a>
             </section>
         </section>
         <section class="footer-bottom">
