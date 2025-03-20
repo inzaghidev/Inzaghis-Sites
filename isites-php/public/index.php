@@ -191,7 +191,7 @@
                 <p class="card-text blog-description">${app.description}</p>
               </div>
               <button type="button" class="btn btn-primary btn-md apps-button">
-                <a href="${app.link}" target="_blank" class="blog-link">Klik di sini</a>
+                <a href="${app.link}" class="blog-link">Klik di sini</a>
               </button>
             </div>
           </div>
@@ -303,7 +303,7 @@
                 <p class="card-text blog-description">${app.description}</p>
               </div>
               <button type="button" class="btn btn-primary btn-md apps-button">
-                <a href="${app.link}" target="_blank" class="blog-link">Klik di sini</a>
+                <a href="${app.link}" class="blog-link">Klik di sini</a>
               </button>
             </div>
           </div>
