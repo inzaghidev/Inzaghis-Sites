@@ -89,7 +89,6 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
             ?>
             <div class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 shadow rounded-lg p-5 mx-auto ring-1 ring-gray-200">
                 <div class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300 sm:h-full">
-                    <!-- Gambar -->
                     <a href="<?php echo $app['link']; ?>" class="object-cover flex sm:w-[50%] md:w-[40%] lg:w-[30%] sm:h-auto">
                         <img
                             class="w-full rounded-t-lg h-1/4 sm:h-auto sm:rounded-none sm:rounded-s-lg"
@@ -97,24 +96,16 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
                             alt="<?php echo $app['name']; ?>"
                         />
                     </a>
-                    <!-- Isi Konten -->
                     <div class="flex flex-col justify-between p-4 md:p-6 sm:w-[50%] md:w-[60%] lg:w-[70%] leading-normal">
-                        <!-- Judul -->
                         <h5 class="card-name mb-3 text-3xl font-bold tracking-tight text-gray-900 text-green-700 text-center md:text-left">
                             <?php echo $app['name']; ?>
                         </h5>
-                        <!-- Deskripsi -->
                         <p class="card-apps-text mb-3 font-normal text-gray-700 text-gray-600">
                             <?php echo $app['description']; ?>
                         </p>
-                        <!-- Tombol -->
                         <div class="mt-4 flex justify-center md:justify-start">
-                            <button
-                                type="button"
-                                onclick="window.location.href = '<?php echo $app['link']; ?>';"
-                                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 md:px-6 lg:px-8 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                            >
-                                Click here
+                            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-1 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                                <a href="<?php echo $app['link']; ?>" class="blog-link px-6 md:px-4 lg:px-6 py-2">Click here</a>
                             </button>
                         </div>
                     </div>
