@@ -1,7 +1,7 @@
 <?php
-$page_title = "Sitemap";
-include('../layouts/header.php');
-include('../components/navbar/navbar.php');
+  $page_title = "Sitemap";
+  include('../layouts/header.php');
+  include('../components/navbar/navbar.php');
 ?>
 <section class="sitemap">
   <div class="container-top"></div>
@@ -81,6 +81,6 @@ include('../components/navbar/navbar.php');
   </div>
 </section>
 <?php
-include('../components/footsite/footsite.php');
-include('../layouts/footer.php');
+  include('../components/footsite/footsite.php');
+  include('../layouts/footer.php');
 ?>
