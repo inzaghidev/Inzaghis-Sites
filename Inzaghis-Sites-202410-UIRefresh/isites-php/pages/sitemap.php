@@ -15,55 +15,60 @@
           <div class="welcome-description">
             <ul id="sitemap">
               <?php
-                function generateSitemap($dir, $pathToWebRoot = '', $level = 0) {
-                    $handle = opendir($dir);
+              /**
+               * Fungsi untuk menghasilkan sitemap.
+               *
+               * @param string $dir Direktori yang sedang diproses
+               * @param string $baseDir Base direktori untuk URL
+               * @param int $level Tingkat kedalaman (untuk indentasi visual)
+               */
+              function generateSitemap($dir, $baseDir, $level = 0)
+              {
+                  $handle = opendir($dir);
 
-                    if ($handle === false) {
-                        return; // Jika opendir gagal, hentikan fungsi
-                    }
+                  if ($handle === false) {
+                      return; // Jika tidak bisa membuka direktori, keluar dari fungsi
+                  }
 
-                    while (($file = readdir($handle)) !== false) {
-                        if ($file != "." && $file != "..") {
-                            $currentPath = $dir . '/' . $file;
-                            $relativePath = $pathToWebRoot . $file;
+                  while (($file = readdir($handle)) !== false) {
+                      if ($file != "." && $file != "..") {
+                          $currentPath = $dir . '/' . $file;
 
-                            echo "<li>";
+                          // Tentukan path relatif
+                          $relativePath = $baseDir . $file;
 
-                            if (is_dir($currentPath)) {
-                                // If it's a directory, make it a clickable link
-                                echo str_repeat("&nbsp;", $level * 4) . "├── <a href='$relativePath'>$file/</a><br/>";
-                                // Recursive call for subdirectories
-                                generateSitemap($currentPath, $relativePath . '/', $level + 1);
-                            } else {
-                                // If it's a file, just display the file name
-                                echo str_repeat("&nbsp;", $level * 4) . "├── <a href='$relativePath'>$file</a><br/>";
-                            }
+                          echo "<li>";
 
-                            echo "</li>";
-                        }
-                    }
+                          if (is_dir($currentPath)) {
+                              // Jika direktori, tampilkan sebagai link dan rekursi
+                              echo str_repeat("&nbsp;", $level * 4) . "├── <a href='../../$relativePath'>$file/</a><br/>";
+                              generateSitemap($currentPath, $baseDir . $file . '/', $level + 1);
+                          } else {
+                              // Jika file, tampilkan sebagai link
+                              echo str_repeat("&nbsp;", $level * 4) . "├── <a href='../../$relativePath'>$file</a><br/>";
+                          }
 
-                    closedir($handle);
-                }
+                          echo "</li>";
+                      }
+                  }
 
-                // Set the root directory
-                $webRoot = realpath(dirname(__DIR__));
-                $serverRoot = realpath($_SERVER['DOCUMENT_ROOT']);
-                if ($webRoot === $serverRoot) {
-                    $pathToWebRoot = "";
-                } else {
-                    $pathToWebRoot = substr($webRoot, strlen($serverRoot) + 1);
-                }
+                  closedir($handle);
+              }
 
-                // Explicitly specify the root directory for sitemap generation
-                echo "<ul>";
-                echo "<li><strong>📁 public</strong></li>";
-                generateSitemap($webRoot . '/public/', '', 1);
-                echo "<li><strong>📁 page-apps</strong></li>";
-                generateSitemap($webRoot . '/page-apps/', '', 1);
-                echo "<li><strong>📁 pages</strong></li>";
-                generateSitemap($webRoot . '/pages/', '', 1);
-                echo "</ul>";
+              // Set root direktori
+              $webRoot = realpath(dirname(__DIR__));
+
+              // Menampilkan sitemap
+              echo "<ul>";
+              echo "<li><strong>📁 public</strong></li>";
+              generateSitemap($webRoot . '/public', 'public/', 1);
+
+              echo "<li><strong>📁 page-apps</strong></li>";
+              generateSitemap($webRoot . '/page-apps', 'page-apps/', 1);
+
+              echo "<li><strong>📁 pages</strong></li>";
+              generateSitemap($webRoot . '/pages', 'pages/', 1);
+              echo "</ul>";
               ?>
             </ul>
           </div>
