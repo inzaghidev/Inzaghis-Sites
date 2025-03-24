@@ -2,7 +2,7 @@
 
 This Repository is for storing all Source Codes from Inzaghi's Sites.
 
-![Inzaghi's Sites](/isites-php/images/inzaghis-sites-by-inzaghis-group-corp.png)
+![Inzaghi's Sites](/Inzaghis-Sites-202407/isites-php/images/inzaghis-sites-by-inzaghis-group-corp.png)
 
 Link :
 
@@ -13,10 +13,10 @@ Link :
 
 Berikut ini adalah Tampilan Utama dari Inzaghi's Sites :
 
-![Inzaghi's Sites Homepage](/isites-php/images/inzaghis-sites-homepage-202409.jpg)
+![Inzaghi's Sites Homepage](/Inzaghis-Sites-202407/isites-php/images/inzaghis-sites-homepage-202409.jpg)
 
 ## Inzaghi's Sites Page Apps
 
 Tampilan Aplikasi dari Page Apps :
 
-![Pages Apps Inzaghi's Sites](/isites-php/images/inzaghis-sites-pages-apps.png)
+![Pages Apps Inzaghi's Sites](/Inzaghis-Sites-202407/isites-php/images/inzaghis-sites-pages-apps.png)
