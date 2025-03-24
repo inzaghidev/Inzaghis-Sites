@@ -40,11 +40,11 @@ include('../components/navbar/navbar.php');
 
                           if (is_dir($currentPath)) {
                               // Jika direktori, tampilkan sebagai link dan lakukan rekursi
-                              echo str_repeat("&nbsp;", $level * 4) . "├── <a href='../../$relativePath' class='hover:text-blue-800'>$file/</a><br/>";
+                              echo str_repeat("&nbsp;", $level * 4) . "├── <a href='../../$relativePath' class='text-blue-800 hover:text-blue-500'>$file/</a><br/>";
                               generateSitemap($currentPath, $baseDir . $file . '/', $level + 1);
                           } else {
                               // Jika file, tampilkan sebagai link
-                              echo str_repeat("&nbsp;", $level * 4) . "├── <a href='../../$relativePath' class='hover:text-blue-800'>$file</a><br/>";
+                              echo str_repeat("&nbsp;", $level * 4) . "├── <a href='../../$relativePath' class='text-blue-800 hover:text-blue-500'>$file</a><br/>";
                           }
 
                           echo "</li>";
