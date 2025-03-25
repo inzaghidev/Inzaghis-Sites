@@ -146,7 +146,7 @@
         </div>
       </div>
       <nav class="px-3 py-2 space-y-2 overflow-y-auto h-[calc(100%-6rem)] max-h-full">
-        <div class="mb-auto pt-4 p-[inherit]">
+        <div class="mb-auto pt-4 p-[inherit] font-[Inter] text-sm">
           <div class="pt-1">
             <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] py-3 px-4 rounded-lg">Home</a>
           </div>
@@ -433,7 +433,7 @@
         </div>
       </div>
       <nav class="px-3 py-2 space-y-2 overflow-y-auto h-[calc(100%-6rem)] max-h-full">
-        <div class="mb-auto pt-4 p-[inherit]">
+        <div class="mb-auto pt-4 p-[inherit] font-[Inter] text-sm">
           <div class="pt-1">
             <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] py-3 px-4 rounded-lg">Home</a>
           </div>
