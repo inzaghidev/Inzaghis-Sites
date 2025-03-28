@@ -41,7 +41,7 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
                 <p class="card-apps-text mb-3 font-normal text-gray-600"><?php echo $description; ?></p>
                 <div class="mt-4 flex justify-center md:justify-start lg:justify-center xl:justify-start">
                   <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2 py-1 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-                    <a href="<?php echo $link; ?>" class="blog-link px-6 py-2">Click here</a>
+                    <a href="<?php echo $link; ?>" class="button-link px-6 py-2">Click here</a>
                   </button>
                 </div>
               </div>

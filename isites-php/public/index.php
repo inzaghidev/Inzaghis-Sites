@@ -198,7 +198,7 @@
                 </p>
                 <div class="mt-4">
                   <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-1 py-0.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-                    <a href="${app.link}" class="blog-link px-4 py-2">Klik di sini</a>
+                    <a href="${app.link}" class="button-link px-4 py-2">Klik di sini</a>
                   </button>
                 </div>
               </div>
@@ -316,7 +316,7 @@
                 </p>
                 <div class="mt-4">
                   <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-1 py-0.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-                    <a href="${app.link}" class="blog-link px-4 py-2">Klik di sini</a>
+                    <a href="${app.link}" class="button-link px-4 py-2">Klik di sini</a>
                   </button>
                 </div>
               </div>
@@ -370,7 +370,7 @@
                     <a
                       href="https://inzaghiposuma.blogspot.com"
                       target="_blank"
-                      class="blog-link px-5 py-2"
+                      class="button-link px-5 py-2"
                       >Klik di sini</a
                     >
                   </button>
@@ -412,7 +412,7 @@
                     <a
                       href="https://enzatech.blogspot.com"
                       target="_blank"
-                      class="blog-link px-5 py-2"
+                      class="button-link px-5 py-2"
                       >Klik di sini</a
                     >
                   </button>
@@ -454,7 +454,7 @@
                     <a
                       href="https://enzashorts.blogspot.com"
                       target="_blank"
-                      class="blog-link px-5 py-2"
+                      class="button-link px-5 py-2"
                       >Klik di sini</a
                     >
                   </button>
@@ -529,7 +529,7 @@
                     <a
                       href="https://www.instagram.com/enzapost"
                       target="_blank"
-                      class="blog-link px-5 py-1.5"
+                      class="button-link px-5 py-1.5"
                       >@enzapost</a
                     >
                   </button>
@@ -577,7 +577,7 @@
                     <a
                       href="https://www.tiktok.com/@enzapostmedia"
                       target="_blank"
-                      class="blog-link px-5 py-1.5"
+                      class="button-link px-5 py-1.5"
                       >@enzapostmedia</a
                     >
                   </button>
@@ -628,7 +628,7 @@
                     <a
                       href="https://www.youtube.com/@enzavlogpost"
                       target="_blank"
-                      class="blog-link px-5 py-1.5"
+                      class="button-link px-5 py-1.5"
                       >Inzaghi's Media</a
                     >
                   </button>
@@ -675,7 +675,7 @@
                     <a
                       href="https://x.com/InzaTechMedia"
                       target="_blank"
-                      class="blog-link px-5 py-1.5"
+                      class="button-link px-5 py-1.5"
                       >@InzaTechMedia</a
                     >
                   </button>
@@ -728,7 +728,7 @@
                     <a
                       href="https://www.threads.net/@enzapost"
                       target="_blank"
-                      class="blog-link px-5 py-1.5"
+                      class="button-link px-5 py-1.5"
                       >@enzapost</a
                     >
                   </button>

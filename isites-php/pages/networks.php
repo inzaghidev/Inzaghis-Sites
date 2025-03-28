@@ -89,7 +89,7 @@
                     <a
                       href="https://inzaghiposuma.blogspot.com"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Klik di sini</a
                     >
                   </button>
@@ -131,7 +131,7 @@
                     <a
                       href="https://enzatech.blogspot.com"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Klik di sini</a
                     >
                   </button>
@@ -173,7 +173,7 @@
                     <a
                       href="https://enzashorts.blogspot.com"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Klik di sini</a
                     >
                   </button>
@@ -264,7 +264,7 @@
                     <a
                       href="https://www.instagram.com/enzapost"
                       target="_blank"
-                      class="blog-link px-3.5 py-1.5"
+                      class="button-link px-3.5 py-1.5"
                       >@enzapost</a
                     >
                   </button>
@@ -312,7 +312,7 @@
                     <a
                       href="https://www.tiktok.com/@enzapostmedia"
                       target="_blank"
-                      class="blog-link px-3.5 py-1.5"
+                      class="button-link px-3.5 py-1.5"
                       >@enzapostmedia</a
                     >
                   </button>
@@ -363,7 +363,7 @@
                     <a
                       href="https://www.youtube.com/@enzavlogpost"
                       target="_blank"
-                      class="blog-link px-3.5 py-1.5"
+                      class="button-link px-3.5 py-1.5"
                       >Inzaghi's Media</a
                     >
                   </button>
@@ -410,7 +410,7 @@
                     <a
                       href="https://x.com/InzaTechMedia"
                       target="_blank"
-                      class="blog-link px-3.5 py-1.5"
+                      class="button-link px-3.5 py-1.5"
                       >@InzaTechMedia</a
                     >
                   </button>
@@ -463,7 +463,7 @@
                     <a
                       href="https://www.threads.net/@enzapost"
                       target="_blank"
-                      class="blog-link px-3.5 py-1.5"
+                      class="button-link px-3.5 py-1.5"
                       >@enzapost</a
                     >
                   </button>
