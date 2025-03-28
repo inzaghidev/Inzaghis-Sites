@@ -110,7 +110,7 @@
                                 </p>
                                 <br />
                                 <button class="btn btn-primary btn-md">
-                                    <a class="blog-link" href="<?php echo $app['link']; ?>">Click here</a>
+                                    <a class="button-link" href="<?php echo $app['link']; ?>">Click here</a>
                                 </button>
                             </div>
                         </div>

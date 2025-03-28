@@ -1083,21 +1083,11 @@ svg:not(:root) {
   left: 2em;
 }
 
-.blog-link {
+.button-link {
   color: var(--color-white);
 }
 
-.blog-link:hover {
-  color: #c7c7c7;
-  text-decoration: none;
-}
-
-.apps-link {
-  color: var(--color-white);
-  margin-top: 0;
-}
-
-.apps-link:hover {
+.button-link:hover {
   color: #c7c7c7;
   text-decoration: none;
 }
@@ -1811,20 +1801,11 @@ svg:not(:root) {
     font-size: var(--font-size-20);
   }
 
-  .blog-link {
+  .button-link {
     color: var(--color-white);
   }
 
-  .blog-link:hover {
-    color: #c7c7c7;
-    text-decoration: none;
-  }
-
-  .apps-link {
-    color: var(--color-white);
-  }
-
-  .apps-link:hover {
+  .button-link:hover {
     color: #c7c7c7;
     text-decoration: none;
   }
@@ -2494,20 +2475,11 @@ svg:not(:root) {
     font-size: var(--font-size-28);
   }
 
-  .blog-link {
+  .button-link {
     color: var(--color-white);
   }
 
-  .blog-link:hover {
-    color: #c7c7c7;
-    text-decoration: none;
-  }
-
-  .apps-link {
-    color: var(--color-white);
-  }
-
-  .apps-link:hover {
+  .button-link:hover {
     color: #c7c7c7;
     text-decoration: none;
   }

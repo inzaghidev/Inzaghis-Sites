@@ -79,7 +79,7 @@
                     <a
                       href="https://inzaghiposuma.blogspot.com"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Klik di sini</a
                     >
                   </button>
@@ -109,7 +109,7 @@
                     <a
                       href="https://enzatech.blogspot.com"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Klik di sini</a
                     >
                   </button>
@@ -139,7 +139,7 @@
                     <a
                       href="https://enzashorts.blogspot.com"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Klik di sini</a
                     >
                   </button>
@@ -168,7 +168,11 @@
               terutama seputar IT.
             </p>
             <section class="group-button">
-              <a href="../inzaghis-group/inzaghis-media.php" class="main-button">Click here</a>
+              <a
+                href="../inzaghis-group/inzaghis-media.html"
+                class="main-button"
+                >Click here</a
+              >
             </section>
           </section>
         </section>
@@ -190,12 +194,17 @@
                     Asisten dari Inzaghi's Blog.
                   </p>
                 </div>
-                <a
-                  href="https://www.instagram.com/enzapost"
-                  target="_blank"
-                  class="btn btn-primary primary-button"
-                  >@enzapost</a
+                <button
+                  type="button"
+                  class="btn btn-primary btn-md primary-button"
                 >
+                  <a
+                    href="https://www.instagram.com/enzapost"
+                    target="_blank"
+                    class="button-link"
+                    >@enzapost</a
+                  >
+                </button>
               </div>
             </div>
           </div>
@@ -215,12 +224,17 @@
                     Informasi Singkat.
                   </p>
                 </div>
-                <a
-                  href="https://www.tiktok.com/@enzapostmedia"
-                  target="_blank"
-                  class="btn btn-primary primary-button"
-                  >@enzapostmedia</a
+                <button
+                  type="button"
+                  class="btn btn-primary btn-md primary-button"
                 >
+                  <a
+                    href="https://www.tiktok.com/@enzapostmedia"
+                    target="_blank"
+                    class="button-link"
+                    >@enzapostmedia</a
+                  >
+                </button>
               </div>
             </div>
           </div>
@@ -239,12 +253,17 @@
                     Tutorial, Video Shorts, hingga Demo Aplikasi/Project.
                   </p>
                 </div>
-                <a
-                  href="https://www.youtube.com/@enzavlogpost"
-                  target="_blank"
-                  class="btn btn-primary primary-button"
-                  >Inzaghi's Media</a
+                <button
+                  type="button"
+                  class="btn btn-primary btn-md primary-button"
                 >
+                  <a
+                    href="https://www.youtube.com/@enzavlogpost"
+                    target="_blank"
+                    class="button-link"
+                    >Inzaghi's Media</a
+                  >
+                </button>
               </div>
             </div>
           </div>
@@ -263,12 +282,17 @@
                     Postingan-postingan dari Inzaghi's Blog.
                   </p>
                 </div>
-                <a
-                  href="https://x.com/InzaTechMedia"
-                  target="_blank"
-                  class="btn btn-primary primary-button"
-                  >@InzaTechMedia</a
+                <button
+                  type="button"
+                  class="btn btn-primary btn-md primary-button"
                 >
+                  <a
+                    href="https://x.com/InzaTechMedia"
+                    target="_blank"
+                    class="button-link"
+                    >@InzaTechMedia</a
+                  >
+                </button>
               </div>
             </div>
           </div>
@@ -294,7 +318,7 @@
                   <a
                     href="https://www.threads.net/@enzapost"
                     target="_blank"
-                    class="blog-link"
+                    class="button-link"
                     >@enzapost</a
                   >
                 </button>

@@ -425,10 +425,10 @@
                     <br />
                     <ul class="resume-interests-list row row-cols-sm-6 row-cols-md-3 mb-0">
                       <button type="button" class="btn btn-primary">
-                        <a href="https://inzaghiposuma.blogspot.com/p/contact-and-profile.html" target="_blank" class="blog-link">Contact</a>
+                        <a href="https://inzaghiposuma.blogspot.com/p/contact-and-profile.html" target="_blank" class="button-link">Contact</a>
                       </button>
                       <button type="button" class="btn btn-secondary">
-                        <a href="#" target="_blank" class="blog-link">Resume</a>
+                        <a href="#" target="_blank" class="button-link">Resume</a>
                       </button>
                     </ul>
                   </section>
