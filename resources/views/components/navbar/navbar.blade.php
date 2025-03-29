@@ -1,7 +1,7 @@
 <div class="nav-header" id="navHeader">
     <nav class="navbar" id="navbar">
         <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" id="logo">
-            <img src="{{ Storage::url('images/inzaghis-sites-logo-vertical-transparent.png') }}" title="Inzaghi's Sites" height="60px" alt="logo" />
+            <img src="{{URL::asset('assets/icons/inzaghis-sites-logo-vertical-transparent.png')}}" title="Inzaghi's Sites" height="60px" alt="logo" />
         </a>
         <div class="nav-menu-container">
             <div class="nav-menu">

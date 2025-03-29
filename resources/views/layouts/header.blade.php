@@ -39,3 +39,4 @@
         @include('components.navbar.navbar')
         @yield('container')
         @include('components.footsite.footsite')
+        {{-- @include('layouts.footer') --}}

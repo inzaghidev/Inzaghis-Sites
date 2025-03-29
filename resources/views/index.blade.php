@@ -20,13 +20,13 @@
             lain-lainnya.
           </p>
           <section class="group-button about-inzaghis-sites-button">
-            <a href="../pages/about.html" class="main-button">ABOUT</a>
+            <a href="../pages/about.php" class="main-button">ABOUT</a>
           </section>
         </div>
       </div>
       <div class="welcome-image-to-inzaghis-sites">
         <img
-          src="../images/website-illustration-transparent.png"
+          src="{{URL::asset('assets/images/website-illustration-transparent.png')}}"
           alt="Inzaghi's Sites"
           style="width: 600px"
         />
@@ -45,7 +45,7 @@
         Kalkulator, Generator, Formatter, dan lainnya.
       </p>
       <section class="group-button">
-        <a href="../pages/apps.html" class="main-button">Click here</a>
+        <a href="../pages/apps.php" class="main-button">Click here</a>
       </section>
     </div>
     <section class="group-content">
@@ -54,7 +54,7 @@
           <div class="hcg-slider-body card border border-success shadow">
             <a class="hcg-slides animated" style="display: flex">
               <span class="hcg-slide-number">1/6</span>
-              <img src="../images/pages-by-pages-apps.png" alt="" />
+              <img src="{{URL::asset('assets/images/pages-by-pages-apps.png')}}" alt="" />
               <span class="hcg-slide-text">Pages</span>
             </a>
           </div>
@@ -74,7 +74,7 @@
           hingga Tutorial Pemrograman.
         </p>
         <button type="button" class="btn btn-primary btn-md">
-          <a href="../page-apps/pages.html" class="blog-link">Click here</a>
+          <a href="../page-apps/pages.php" class="blog-link">Click here</a>
         </button>
         <!--button type="button" class="btn btn-primary btn-md">
           <a class="blog-link">Click here</a>
@@ -97,7 +97,7 @@
         <div class="col-md-4 col-sm-6 mb-4">
           <div class="card card-apps h-100 border-0 shadow">
             <img
-              src="../images/inzaghis-blog-legacy.png"
+              src="{{URL::asset('assets/images/inzaghis-blog-legacy.png')}}"
               class="card-img-apps card-img-top"
               alt="Inzaghi's Blog Legacy"
             />
@@ -126,7 +126,7 @@
         <div class="col-md-4 col-sm-6 mb-4">
           <div class="card card-apps h-100 border-0 shadow">
             <img
-              src="../images/teknoblog-by-inzaghis-blog.png"
+              src="{{URL::asset('assets/images/teknoblog-by-inzaghis-blog.png')}}"
               class="card-img-apps card-img-top"
               alt="Teknoblog - Inzaghi's Blog"
             />
@@ -156,7 +156,7 @@
         <div class="col-md-4 col-sm-6 mb-4">
           <div class="card card-apps h-100 border-0 shadow">
             <img
-              src="../images/miniblog-by-inzaghis-blog.png"
+              src="{{URL::asset('assets/images/miniblog-by-inzaghis-blog.png')}}"
               class="card-img-apps card-img-top"
               alt="Miniblog - Inzaghi's Blog"
             />
@@ -199,7 +199,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <div class="border-0 h-100 shadow opacity-75 socmed-card">
             <img
-              src="../images/instagram-logo-icon.png"
+              src="{{URL::asset('assets/icons/instagram-logo-icon.png')}}"
               class="card mt-4 socmed-icon"
               alt="Instagram Logo"
             />
@@ -228,7 +228,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <div class="border-0 h-100 shadow opacity-75 socmed-card">
             <img
-              src="../images/tiktok-logo-icon.png"
+              src="{{URL::asset('assets/icons/tiktok-logo-icon.png')}}"
               class="card mt-4 socmed-icon"
               alt="TikTok Logo"
             />
@@ -258,7 +258,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <div class="border-0 h-100 shadow opacity-75 socmed-card">
             <img
-              src="../images/youtube-logo-icon.png"
+              src="{{URL::asset('assets/icons/youtube-logo-icon.png')}}"
               class="card mt-4 socmed-icon"
               alt="YouTube Logo"
             />
@@ -287,7 +287,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <div class="border-0 h-100 shadow opacity-75 socmed-card">
             <img
-              src="../images/twitter-x-logo.png"
+              src="{{URL::asset('assets/icons/twitter-x-logo.png')}}"
               class="card mt-4 socmed-icon"
               alt="Twitter Logo"
             />
@@ -316,7 +316,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <div class="border-0 h-100 shadow opacity-75 socmed-card">
             <img
-              src="../images/threads-logo-icon.png"
+              src="{{URL::asset('assets/icons/threads-logo-icon.png')}}"
               class="card mt-4 socmed-icon"
               alt="Threads Logo"
             />
@@ -352,7 +352,7 @@
       <h2 class="inzaghis-group-heading">Inzaghi's Group Network</h2>
       <div class="inzaghis-group-container">
         <img
-          src="../images/inzaghis-group-logo-vertical-transparent.png"
+          src="{{URL::asset('assets/icons/inzaghis-group-logo-vertical-transparent.png')}}"
           height="60px"
           alt="logo"
         />
@@ -362,48 +362,48 @@
           Informasi yang bermanfaat.
         </p>
         <section class="group-button inzaghis-group-button">
-          <a href="../pages/networks.html" class="main-button">DETAILS</a>
+          <a href="../pages/networks.php" class="main-button">DETAILS</a>
         </section>
       </div>
     </div>
     <div class="logo-grid">
       <img
-        src="../images/inzaghis-blog-logo-vertical-transparent.png"
+        src="{{URL::asset('assets/icons/inzaghis-blog-logo-vertical-transparent.png')}}"
         height="60px"
         alt="logo"
       />
       <img
-        src="../images/inzaghis-sites-logo-vertical-transparent.png"
+        src="{{URL::asset('assets/icons/inzaghis-sites-logo-vertical-transparent.png')}}"
         height="60px"
         alt="logo"
       />
       <img
-        src="../images/inzaghis-media-logo-vertical-transparent.png"
+        src="{{URL::asset('assets/icons/inzaghis-media-logo-vertical-transparent.png')}}"
         height="60px"
         alt="logo"
       />
       <img
-        src="../images/inzaghis-dev-logo-vertical-transparent.png"
+        src="{{URL::asset('assets/icons/inzaghis-dev-logo-vertical-transparent.png')}}"
         height="60px"
         alt="logo"
       />
       <img
-        src="../images/inzaghis-archives-logo-vertical-transparent.png"
+        src="{{URL::asset('assets/icons/inzaghis-archives-logo-vertical-transparent.png')}}"
         height="60px"
         alt="logo"
       />
       <img
-        src="../images/inzaghis-app-logo-vertical-transparent.png"
+        src="{{URL::asset('assets/icons/inzaghis-app-logo-vertical-transparent.png')}}"
         height="60px"
         alt="logo"
       />
       <img
-        src="../images/inzaghis-ai-logo-vertical-transparent.png"
+        src="{{URL::asset('assets/icons/inzaghis-ai-logo-vertical-transparent.png')}}"
         height="60px"
         alt="logo"
       />
       <img
-        src="../images/inzaghis-shop-logo-vertical-transparent.png"
+        src="{{URL::asset('assets/icons/inzaghis-shop-logo-vertical-transparent.png')}}"
         height="60px"
         alt="logo"
       />
