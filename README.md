@@ -17,13 +17,26 @@ This Branch is Under Construction, and will Rebuilded soon using Tailwind CSS.
 
 Berikut ini adalah Tampilan Utama dari Inzaghi's Sites :
 
-![Inzaghi's Sites Homepage](/isites-php/assets/images/inzaghis-sites-homepage-202412.jpg)
+![Inzaghi's Sites Homepage](/isites-php/assets/images/inzaghis-sites-homepage-202503.jpg)
+![Inzaghi's Sites Homepage App Carousel](/isites-php/assets/images/inzaghis-sites-homepage-apps-carousel.jpg)
+
+## Inzaghi's Sites Portals
+
+Tampilan Aplikasi dari Portals :
+
+![Portals Inzaghi's Sites](/isites-php/assets/images/inzaghis-sites-portals.jpg)
 
 ## Inzaghi's Sites Page Apps
 
 Tampilan Aplikasi dari Page Apps :
 
 ![Pages Apps Inzaghi's Sites](/isites-php/assets/images/inzaghis-sites-pages-apps.jpg)
+
+## Inzaghi's Sites About
+
+Tampilan Aplikasi dari About :
+
+![About Inzaghi's Sites](/isites-php/assets/images/inzaghis-sites-about.jpg)
 
 ## Inzaghi's Sites Contact
 
@@ -43,8 +56,20 @@ Tampilan Aplikasi dari Networks :
 
 ![Networks Inzaghi's Sites](/isites-php/assets/images/inzaghis-sites-networks.jpg)
 
-## Inzaghi's Sites About
+## Inzaghi's Sites Privacy Policy
 
-Tampilan Aplikasi dari About :
+Tampilan Aplikasi dari Privacy Policy :
 
-![About Inzaghi's Sites](/isites-php/assets/images/inzaghis-sites-about.jpg)
+![Privacy Policy Inzaghi's Sites](/isites-php/assets/images/inzaghis-sites-privacy-policy.jpg)
+
+## Inzaghi's Sites Disclaimer
+
+Tampilan Aplikasi dari Disclaimer :
+
+![Disclaimer Inzaghi's Sites](/isites-php/assets/images/inzaghis-sites-disclaimer.jpg)
+
+## Inzaghi's Sites Sitemap
+
+Tampilan Aplikasi dari Sitemap :
+
+![Sitemap Inzaghi's Sites](/isites-php/assets/images/inzaghis-sites-sitemap.jpg)
