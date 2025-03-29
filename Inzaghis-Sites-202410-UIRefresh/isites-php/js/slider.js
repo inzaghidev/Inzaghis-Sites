@@ -48,6 +48,12 @@
       alt: "",
       link: "../page-apps/utilities.php",
     },
+    {
+      name: "TesterTools",
+      url: "../images/tester-tools-by-pages-apps.png",
+      alt: "",
+      link: "../page-apps/tester-tools.php",
+    },
   ];
 
   let slider_id = document.querySelector("#hcg-slider-1");
@@ -129,7 +135,7 @@
 
   const dot_click = (event) => {
     event.preventDefault();
-    slide_index = event.target.dataset.id;
+    slide_index = parseInt(event.target.dataset.id);
     showSlides();
   };
 
@@ -149,10 +155,10 @@
     const blogLink = document.querySelector(".blog-link");
 
     // Update content based on the selected image
-    groupTitle.textContent = image.name.replace(
-      "FileConverters",
-      "File Converters"
-    );
+    groupTitle.textContent = image.name
+      .replace("FileConverters", "File Converters")
+      .replace("TesterTools", "Tester Tools");
+
     leftSubheading.textContent = getContentDescription(image.name);
 
     // Update blog link href based on the selected image
@@ -176,6 +182,7 @@
       Formatters: "../page-apps/formatters.php",
       FileConverters: "../page-apps/file-converter.php",
       Utilities: "../page-apps/utilities.php",
+      TesterTools: "../page-apps/tester-tools.php",
     };
 
     // Return the blog link based on the image name, or a default value if not found
@@ -202,6 +209,8 @@
         "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
       Utilities:
         "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
+      TesterTools:
+        "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
     };
 
     return contentData[imageName] || "";

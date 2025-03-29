@@ -7,7 +7,7 @@
                 </a>
             </section>
             <section class="special-pages">
-                <section class="footer-title">Special Pages</section>
+                <section class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase">Special Pages</section>
                 <nav>
                     <ul>
                         <li><a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>">About</a></li>
@@ -21,7 +21,7 @@
                 </nav>
             </section>
             <section class="apps-tools">
-                <section class="footer-title">Apps & Tools</section>
+                <section class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase">Apps & Tools</section>
                 <nav>
                     <ul>
                     <li><a href="<?php echo $pathToWebRoot.'/page-apps/pages.php'; ?>">Pages</a></li>
@@ -36,7 +36,7 @@
                 </nav>
             </section>
             <section class="network">
-                <section class="footer-title">Networks</section>
+                <section class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase">Networks</section>
                 <nav>
                     <ul>
                         <li><a href="<?php echo $pathToWebRoot.'/pages/inzaghis-group/inzaghis-blog.php'; ?>">Inzaghi's Blog</a></li>
@@ -50,9 +50,9 @@
                 </nav>
             </section>
             <section class="quick-link">
-                <section class="footer-title">Quick Link</section>
+                <section class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase">Quick Link</section>
                 <nav>
-                    <ul>
+                    <ul class="mb-5">
                         <li><a href="https://inzaghiposuma.wordpress.com/blog-posts" target="_blank">WordPress Blog</a></li>
                         <li><a href="https://medium.com/@izzumiposhaf29">Inzaghi's Sites Blog</a></li>
                         <li><a href="https://linktr.ee/inzaghigroup" target="_blank">Linktree Inzaghi's Group</a></li>
