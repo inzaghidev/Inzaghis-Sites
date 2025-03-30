@@ -4,6 +4,12 @@ This Repository is for storing all Source Codes from Inzaghi's Sites.
 
 ![Inzaghi's Sites](/public/assets/images/inzaghis-sites-by-inzaghis-group-corp.png)
 
+## Inzaghi's Sites Homepage
+
+Berikut ini adalah Tampilan Utama dari Inzaghi's Sites :
+
+![Inzaghi's Sites Homepage](/public/assets/images/inzaghis-sites-homepage-laravel-202503.jpg)
+
 ## About Laravel
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>

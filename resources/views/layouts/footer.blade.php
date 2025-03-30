@@ -1,16 +1,3 @@
-@php
-    $webRoot = realpath(dirname(base_path())); // Base path untuk root Laravel project
-    $serverRoot = realpath($_SERVER['DOCUMENT_ROOT']);
-
-    if ($webRoot === $serverRoot) {
-        $pathToWebRoot = "";
-    } else {
-        $pathToWebRoot = substr($webRoot, strlen($serverRoot) + 1);
-    }
-@endphp
-
-@yield('container')
-
     <!-- Local Scripts -->
     <script src="{{ URL::asset('src/js/script.js') }}"></script>
     <script src="{{ URL::asset('components/navbar/navbar.js') }}"></script>
