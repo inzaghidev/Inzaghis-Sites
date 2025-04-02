@@ -62,6 +62,7 @@
                             <li><a href="https://github.com/inzaghidev" class="text-gray-800 hover:text-blue-800" target="_blank">Inzaghi's Dev (GitHub)</a></li>
                             <li><a href="https://sites.google.com/view/inzaghis-sites" class="text-gray-800 hover:text-blue-800" target="_blank">Inzaghi's Sites (Old)</a></li>
                             <li><a href="https://drive.google.com/drive/folders/1gAMLO2AdXqsp75ymexKwXllKbLMTfhxa" class="text-gray-800 hover:text-blue-800" target="_blank">Inzaghi's Archives</a></li>
+                            <li><a href="#" class="text-gray-800 hover:text-blue-800" target="_blank">Inzaghi's AI</a></li>
                             <li><a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>" class="text-gray-800 hover:text-blue-800">Inzaghi's Group Network Lists</a></li>
                         </ul>
                     </nav>
