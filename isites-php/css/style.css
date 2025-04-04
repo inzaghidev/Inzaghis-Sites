@@ -751,7 +751,7 @@ svg:not(:root) {
 
 /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
-.page-apps {
+.banner-info {
   background: linear-gradient(
     270deg,
     rgba(255, 255, 255, 1) 0%,
@@ -764,13 +764,32 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.page-apps-container {
+.slider-carousel {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider-container {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.page-apps-wrapper {
+.apps-portals-container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.apps-portals-wrapper {
   background-color: #f5faf5;
   background: linear-gradient(
     270deg,
@@ -1649,13 +1668,19 @@ svg:not(:root) {
 
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
-  .page-apps-container {
+  .slider-container {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .page-apps-wrapper {
+  .apps-portals-container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .apps-portals-wrapper {
     background-color: #f5faf5;
     background: linear-gradient(
       270deg,
@@ -2387,7 +2412,7 @@ svg:not(:root) {
 
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
-  .page-apps {
+  .banner-info {
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,
@@ -2400,7 +2425,20 @@ svg:not(:root) {
     margin-right: auto;
   }
 
-  .page-apps-wrapper {
+  .slider-carousel {
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    padding: 60px 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .apps-portals-wrapper {
     background-color: #f5faf5;
     background: linear-gradient(
       270deg,

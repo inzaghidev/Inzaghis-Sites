@@ -12,8 +12,8 @@
 ?>
 
 <div class="container-top"></div>
-<section class="page-apps-wrapper">
-  <div class="page-apps-container">
+<section class="apps-portals-wrapper">
+  <div class="apps-portals-container">
     <div class="welcome-container">
       <div class="page-title">
         <h1 class="page-title">Pages</h1>
