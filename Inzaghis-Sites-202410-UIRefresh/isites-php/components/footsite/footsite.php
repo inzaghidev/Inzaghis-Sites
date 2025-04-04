@@ -10,13 +10,13 @@
                 <section class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase">Special Pages</section>
                 <nav>
                     <ul>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>">About</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/disclaimer.php'; ?>">Disclaimer</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/privacy-policy.php'; ?>">Privacy Policy</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>">Contact</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/apps.php'; ?>">Apps</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>" class="hover:text-blue-800">About</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/pages/disclaimer.php'; ?>" class="hover:text-blue-800">Disclaimer</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/pages/privacy-policy.php'; ?>" class="hover:text-blue-800">Privacy Policy</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="hover:text-blue-800">Contact</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/pages/apps.php'; ?>" class="hover:text-blue-800">Apps</a></li>
                         <li><a href="https://medium.com/@izzumiposhaf29" target="_blank">Blog</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/sitemap.php'; ?>">Sitemap</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/pages/sitemap.php'; ?>" class="hover:text-blue-800">Sitemap</a></li>
                     </ul>
                 </nav>
             </section>
@@ -24,14 +24,14 @@
                 <section class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase">Apps & Tools</section>
                 <nav>
                     <ul>
-                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/pages.php'; ?>">Pages</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/widgets.php'; ?>">Widgets</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/converter.php'; ?>">Converters</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/calculators.php'; ?>">Calculators</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/generators.php'; ?>">Generators</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/formatters.php'; ?>">Formatters</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/file-converter.php'; ?>">File Converter</a></li>
-                    <li><a href="<?php echo $pathToWebRoot.'/pages/apps.php'; ?>">Other Tools</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/pages.php'; ?>" class="hover:text-blue-800">Pages</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/widgets.php'; ?>" class="hover:text-blue-800">Widgets</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/converter.php'; ?>" class="hover:text-blue-800">Converters</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/calculators.php'; ?>" class="hover:text-blue-800">Calculators</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/generators.php'; ?>" class="hover:text-blue-800">Generators</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/formatters.php'; ?>" class="hover:text-blue-800">Formatters</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/page-apps/file-converter.php'; ?>" class="hover:text-blue-800">File Converter</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/pages/apps.php'; ?>" class="hover:text-blue-800">Other Tools</a></li>
                     </ul>
                 </nav>
             </section>
@@ -39,13 +39,13 @@
                 <section class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase">Networks</section>
                 <nav>
                     <ul>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/inzaghis-group/inzaghis-blog.php'; ?>">Inzaghi's Blog</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/inzaghis-group/inzaghis-media.php'; ?>">Inzaghi's Media</a></li>
-                        <li><a href="https://github.com/inzaghidev" target="_blank">Inzaghi's Dev (GitHub)</a></li>
-                        <li><a href="https://sites.google.com/view/inzaghis-sites" target="_blank">Inzaghi's Sites (Old)</a></li>
-                        <li><a href="#">Inzaghi's Archives</a></li>
-                        <li><a href="#">Inzaghi's AI</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group Network Lists</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/pages/inzaghis-group/inzaghis-blog.php'; ?>" class="hover:text-blue-800">Inzaghi's Blog</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/pages/inzaghis-group/inzaghis-media.php'; ?>" class="hover:text-blue-800">Inzaghi's Media</a></li>
+                        <li><a href="https://github.com/inzaghidev" class="hover:text-blue-800" target="_blank">Inzaghi's Dev (GitHub)</a></li>
+                        <li><a href="https://sites.google.com/view/inzaghis-sites" class="hover:text-blue-800" target="_blank">Inzaghi's Sites (Old)</a></li>
+                        <li><a href="#" class="hover:text-blue-800">Inzaghi's Archives</a></li>
+                        <li><a href="#" class="hover:text-blue-800">Inzaghi's AI</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>" class="hover:text-blue-800">Inzaghi's Group Network Lists</a></li>
                     </ul>
                 </nav>
             </section>
@@ -53,9 +53,9 @@
                 <section class="footer-title mb-6 text-xl sm:text-sm lg:text-lg font-semibold text-black uppercase">Quick Link</section>
                 <nav>
                     <ul class="mb-5">
-                        <li><a href="https://inzaghiposuma.wordpress.com/blog-posts" target="_blank">WordPress Blog</a></li>
-                        <li><a href="https://medium.com/@izzumiposhaf29">Inzaghi's Sites Blog</a></li>
-                        <li><a href="https://linktr.ee/inzaghigroup" target="_blank">Linktree Inzaghi's Group</a></li>
+                        <li><a href="https://inzaghiposuma.wordpress.com/blog-posts" class="hover:text-blue-800" target="_blank">WordPress Blog</a></li>
+                        <li><a href="https://medium.com/@izzumiposhaf29" class="hover:text-blue-800">Inzaghi's Sites Blog</a></li>
+                        <li><a href="https://linktr.ee/inzaghigroup" class="hover:text-blue-800" target="_blank">Linktree Inzaghi's Group</a></li>
                     </ul>
                     <a class="github-button" href="https://github.com/inzaghidev/Inzaghis-Sites" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Look at @inzaghidev">Look at @inzaghidev</a>
                 </nav>

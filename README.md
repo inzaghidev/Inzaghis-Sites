@@ -22,8 +22,10 @@ The following are a List of Versions of Inzaghi's Sites :
 |  6  | Inzaghis-Sites-202407                   | Lorem Ipsum     | Old      | [Click here](/Inzaghis-Sites-202407/)                                          |
 |  7  | Inzaghis-Sites-202409                   | Lorem Ipsum     | Master   | [Click here](https://github.com/inzaghidev/Inzaghis-Sites/tree/master)         |
 |  8  | Inzaghis-Sites-202410-UIRefresh         | Lorem Ipsum     | Archived | [Click here](/Inzaghis-Sites-202410-UIRefresh/)                                |
-|  9  | Inzaghis-sites-laravel (isites-laravel) | Lorem Ipsum     | Future   | [Click here](https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel) |
-| 10  | Lorem Ipsum                             | Lorem Ipsum     | xxxx     | [Click here](/xxxx/)                                                           |
+|  9  | Inzaghis-Sites-oldUI                    | Lorem Ipsum     | Current  | [Click here](https://github.com/inzaghidev/Inzaghis-Sites/tree/current)        |
+| 10  | Inzaghis-Sites-newUI                    | Lorem Ipsum     | Main     | [Click here](https://github.com/inzaghidev/Inzaghis-Sites/tree/main)           |
+| 11  | Inzaghis-sites-laravel (isites-laravel) | Lorem Ipsum     | Future   | [Click here](https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel) |
+| 12  | Lorem Ipsum                             | Lorem Ipsum     | xxxx     | [Click here](/xxxx/)                                                           |
 
 ## Inzaghi's Sites Version History Images
 
