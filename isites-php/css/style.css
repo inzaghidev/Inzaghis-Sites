@@ -767,7 +767,7 @@ svg:not(:root) {
 
 /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
-.page-apps {
+.banner-info {
   background-color: #f5faf5;
   border-bottom: 1px solid #e4f3e5;
   padding: 60px 30px;
@@ -776,12 +776,26 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.page-apps-container {
+.slider-carousel {
+  background-color: #f5faf5;
+  border-bottom: 1px solid #e4f3e5;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider-container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.page-apps-wrapper {
+.apps-portals-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.apps-portals-wrapper {
   background-color: #f5faf5;
   border-bottom: 1px solid #e4f3e5;
   padding: 60px 0;
@@ -1649,13 +1663,19 @@ svg:not(:root) {
 
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
-  .page-apps-container {
+  .slider-container {
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .page-apps-wrapper {
+  .apps-portals-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .apps-portals-wrapper {
     background-color: #f5faf5;
     border-bottom: 1px solid #e4f3e5;
     margin-left: auto;
@@ -2366,7 +2386,7 @@ svg:not(:root) {
 
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
-  .page-apps-wrapper {
+  .apps-portals-wrapper {
     background-color: #f5faf5;
     border-bottom: 1px solid #e4f3e5;
     max-width: 1680px;

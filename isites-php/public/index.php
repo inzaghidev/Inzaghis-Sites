@@ -43,8 +43,8 @@
       </div>
     </div>
   </section>
-  <section class="page-apps shadow">
-    <div class="page-apps-container">
+  <section class="banner-info shadow">
+    <div class="slider-container">
       <h2 class="title-heading">Switch to New UI</h2>
       <div class="text-container">
         <p class="text-description">
@@ -76,8 +76,8 @@
       </section>
     </div>
   </section>
-  <section class="page-apps shadow">
-    <div class="page-apps-container">
+  <section class="slider-carousel shadow">
+    <div class="slider-container">
       <h2 class="title-heading">Portals</h2>
       <div class="text-container">
         <p class="text-description">
@@ -202,8 +202,8 @@
     </div>
     <script src="../js/slider.js"></script>
   </section>
-  <section class="page-apps shadow">
-    <div class="page-apps-container">
+  <section class="slider-carousel shadow">
+    <div class="slider-container">
       <h2 class="title-heading">Apps</h2>
       <div class="text-container">
         <p class="text-description">

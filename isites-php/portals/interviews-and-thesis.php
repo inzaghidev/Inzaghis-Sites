@@ -7,8 +7,8 @@
 ?>
 
 <div class="container-top"></div>
-<section class="page-apps-wrapper">
-  <div class="page-apps-container">
+<section class="apps-portals-wrapper">
+  <div class="apps-portals-container">
     <div class="welcome-container">
       <div class="welcome-title">
         <h1 class="welcome-title">Interviews & Thesis Prep</h1>

@@ -1,4 +1,4 @@
-const container = document.querySelector(".page-apps-container");
+const container = document.querySelector(".slider-container");
 
 // Pastikan elemen swiper menyesuaikan lebar container
 const adjustSwiperWidth = () => {
