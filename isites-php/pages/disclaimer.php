@@ -18,7 +18,10 @@
               our site's disclaimer, please feel free to contact us by email at
               izzumiposhaf29@gmail.com. Our Disclaimer was generated with the
               help of the
-              <a href="https://www.disclaimergenerator.net" target="_blank"
+              <a
+                class="text-blue-500 hover:text-blue-800"
+                href="https://www.disclaimergenerator.net"
+                target="_blank"
                 >Free Disclaimer Generator</a
               >.
             </p>

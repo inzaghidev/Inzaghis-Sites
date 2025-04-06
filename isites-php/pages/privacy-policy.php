@@ -35,6 +35,7 @@
               website, and gathering demographic information. Our Privacy Policy
               was created with the help of the
               <a
+                class="text-blue-500 hover:text-blue-800"
                 href="https://www.privacypolicyonline.com/privacy-policy-generator"
                 target="_blank"
                 >Privacy Policy Generator</a
