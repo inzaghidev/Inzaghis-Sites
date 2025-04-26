@@ -66,6 +66,11 @@
   font-size: var(--font-size-14);
 }
 
+#logo-foot {
+  height: 4rem !important;
+  grid-row: auto;
+}
+
 @media screen and (max-width: 1024px) {
   .footer {
     background: radial-gradient(
@@ -122,6 +127,11 @@
     color: #3a4554;
     font-family: var(--font-family);
     font-size: var(--font-size-14);
+  }
+
+  #logo-foot {
+    height: 4rem;
+    grid-row: auto;
   }
 }
 
@@ -207,5 +217,10 @@
     font-size: var(--font-size-14);
     width: 100%; /* Mengisi seluruh lebar pada perangkat mobile */
     text-align: center; /* Center-align teks pada perangkat mobile */
+  }
+
+  #logo-foot {
+    height: 4rem;
+    grid-row: auto;
   }
 }

@@ -94,7 +94,7 @@
   align-items: center;
 }
 
-#logo {
+#logo-nav {
   order: 0;
   height: 3rem;
 }
@@ -312,15 +312,15 @@ li a:hover::after {
   background-color: #a6b1bf;
 }
 
-#logo {
+#logo-nav {
   order: 0;
 }
 
-#logo img {
+#logo-nav img {
   vertical-align: middle;
 }
 
-#logo .menu-toggle {
+#logo-nav .menu-toggle {
   display: flex;
 }
 
@@ -464,7 +464,7 @@ li a:hover::after {
     order: 0;
   }
 
-  #logo .menu-togle {
+  #logo-nav .menu-togle {
     display: flex;
   }
 

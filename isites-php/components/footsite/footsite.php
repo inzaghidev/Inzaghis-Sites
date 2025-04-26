@@ -3,7 +3,7 @@
         <section class="footer-wrapper mb-10">
             <section class="inzaghis-corp-logo !mb-10">
                 <a href="#" id="logo">
-                    <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-corp-logo-vertical-transparent.png'; ?>" class="h-16 w-auto" alt="logo" />
+                    <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-corp-logo-vertical-transparent.png'; ?>" class="h-16 w-auto" id="logo-foot" alt="logo" />
                 </a>
             </section>
             <section class="footer-grid mx-0 lg:mx-2 mb-5 md:mb-6 lg:mb-2">

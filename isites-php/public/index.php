@@ -747,7 +747,7 @@
         <div class="inzaghis-group-container">
           <img
             src="../assets/icons/inzaghis-group-logo-vertical-transparent.png"
-            class="h-16 w-auto"
+            class="logo-icon h-16 w-auto"
             alt="logo"
           />
           <p class="inzaghis-group-description">
@@ -763,42 +763,42 @@
       <div class="logo-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-6">
         <img
           src="../assets/icons/inzaghis-blog-logo-vertical-transparent.png"
-          class="h-16 w-auto"
+          class="logo-icon h-16 w-auto"
           alt="logo"
         />
         <img
           src="../assets/icons/inzaghis-sites-logo-vertical-transparent.png"
-          class="h-16 w-auto"
+          class="logo-icon h-16 w-auto"
           alt="logo"
         />
         <img
           src="../assets/icons/inzaghis-media-logo-vertical-transparent.png"
-          class="h-16 w-auto"
+          class="logo-icon h-16 w-auto"
           alt="logo"
         />
         <img
           src="../assets/icons/inzaghis-dev-logo-vertical-transparent.png"
-          class="h-16 w-auto"
+          class="logo-icon h-16 w-auto"
           alt="logo"
         />
         <img
           src="../assets/icons/inzaghis-archives-logo-vertical-transparent.png"
-          class="h-16 w-auto"
+          class="logo-icon h-16 w-auto"
           alt="logo"
         />
         <img
           src="../assets/icons/inzaghis-app-logo-vertical-transparent.png"
-          class="h-16 w-auto"
+          class="logo-icon h-16 w-auto"
           alt="logo"
         />
         <img
           src="../assets/icons/inzaghis-ai-logo-vertical-transparent.png"
-          class="h-16 w-auto"
+          class="logo-icon h-16 w-auto"
           alt="logo"
         />
         <img
           src="../assets/icons/inzaghis-shop-logo-vertical-transparent.png"
-          class="h-16 w-auto"
+          class="logo-icon h-16 w-auto"
           alt="logo"
         />
       </div>
