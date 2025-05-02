@@ -214,7 +214,7 @@
             class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 hover:bg-red-200 w-full"
             >
               <div class="p-6 mb-auto">
                 <svg
@@ -272,7 +272,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 hover:bg-red-200 w-full"
             >
               <div class="p-6 mb-auto">
                 <svg
@@ -320,7 +320,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 hover:bg-red-200 w-full"
             >
               <div class="p-6 mb-auto">
                 <svg
@@ -371,7 +371,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 hover:bg-red-200 w-full"
             >
               <div class="p-6 mb-auto">
                 <svg
@@ -418,7 +418,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 w-full"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 hover:bg-red-200 w-full"
             >
               <div class="p-6 mb-auto">
                 <svg

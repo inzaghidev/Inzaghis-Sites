@@ -37,6 +37,14 @@
               // Tampilkan deskripsi yang ditemukan
               echo $foundDescription;
             ?>
+            <br />
+            <br />
+            Untuk Materi SMA, kebanyakan hanya lebih spesifik ke Jurusan IPA
+            saja. Dan untuk Materi Perkuliahan, hanya hanya tersedia untuk
+            Jurusan Teknik Informatika (TI) saja, dan hanya beberapa Mata
+            Kuliah saja yang juga tersedia untuk Jurusan Sistem Informasi
+            (SI). Untuk Jurusan/Prodi lainnya, hanya tersedia untuk Mata
+            Kuliah Umum (MKDU) saja.
           </p>
           <section class="group-button m-0">
             <a

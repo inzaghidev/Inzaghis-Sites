@@ -54,7 +54,7 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
             [
                 "name" => "Materi Pembelajaran",
                 "imgSrc" => "../assets/images/learning-materials-by-portals.png",
-                "description" => "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik Informatika). Untuk Materi SMA, kebanyakan hanya lebih spesifik ke Jurusan IPA saja. Dan untuk Materi Perkuliahan, hanya hanya tersedia untuk Jurusan Teknik Informatika (TI) saja, dan hanya beberapa Mata Kuliah saja yang juga tersedia untuk Jurusan Sistem Informasi (SI). Untuk Jurusan/Prodi lainnya, hanya tersedia untuk Mata Kuliah Umum (MKDU) saja.",
+                "description" => "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik InformatiKa dan Umum/MKDU).",
                 "link" => "../portals/learning-materials.php"
             ],
             [
