@@ -285,6 +285,44 @@ svg:not(:root) {
   box-shadow: none;
 }
 
+.description-button {
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: var(--font-size-12);
+  font-family: var(--font-family);
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background-color: #1a1b1f;
+  color: #fff;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.description-button:hover {
+  background-color: #555555;
+  color: var(--color-white);
+  border-radius: 8px;
+  text-decoration: none;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
+}
+
+.description-button:focus {
+  opacity: 0.85;
+  box-shadow: none;
+  box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
+}
+
+.description-button:active {
+  opacity: 0.85;
+  box-shadow: none;
+}
+
 .about-inzaghis-sites {
   background: linear-gradient(
     270deg,
@@ -2187,6 +2225,36 @@ svg:not(:root) {
   }
 
   .main-button:focus {
+    opacity: 0.85;
+    box-shadow: none;
+    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
+  }
+
+  .description-button {
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: var(--font-size-12);
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #1a1b1f;
+    color: #fff;
+    transition: all 0.2s;
+    text-decoration: none; /* Added */
+  }
+
+  .description-button:hover {
+    background-color: #555555;
+    color: var(--color-white);
+    text-decoration: none;
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
+  }
+
+  .description-button:focus {
     opacity: 0.85;
     box-shadow: none;
     box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
