@@ -42,7 +42,7 @@
             <a
               href="https://sites.google.com/view/inzaghis-sites/pages/technology-tutorials"
               target="_blank"
-              class="main-button"
+              class="description-button"
               >Click here</a
             >
           </section>

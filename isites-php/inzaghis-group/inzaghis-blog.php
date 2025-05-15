@@ -35,7 +35,7 @@
                 <a
                   href="https://sites.google.com/view/inzaghis-sites/blog-page"
                   target="_blank"
-                  class="btn btn-outline-light main-button"
+                  class="btn btn-outline-light description-button"
                   >Click here</a
                 >
               </div>

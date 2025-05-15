@@ -50,7 +50,7 @@
             <a
               href="https://sites.google.com/view/inzaghis-sites/pages/materi-pembelajaran"
               target="_blank"
-              class="main-button"
+              class="description-button"
               >Click here</a
             >
           </section>

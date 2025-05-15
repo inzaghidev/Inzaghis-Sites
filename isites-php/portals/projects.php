@@ -42,7 +42,7 @@
             <a
               href="#"
               target="_blank"
-              class="main-button"
+              class="description-button"
               >Click here</a
             >
           </section>
