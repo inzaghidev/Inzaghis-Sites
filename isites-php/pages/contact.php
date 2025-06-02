@@ -123,7 +123,7 @@
                         name="name"
                         autocomplete="given-name"
                         placeholder="Enter Name"
-                        class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                        class="mb-2 w-full rounded-md border border-green-600 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
                       />
                     </div>
                     <div class="mx-0 mb-1 sm:mb-4">
@@ -137,7 +137,7 @@
                         name="email"
                         autocomplete="email"
                         placeholder="Enter Email Address"
-                        class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                        class="mb-2 w-full rounded-md border border-green-600 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
                       />
                     </div>
                   </div>
@@ -152,7 +152,7 @@
                       cols="30"
                       rows="5"
                       placeholder="Write your Message..."
-                      class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-800 sm:mb-0"
+                      class="mb-2 w-full rounded-md border border-green-600 py-2 pl-2 pr-4 shadow-md dark:text-gray-800 sm:mb-0"
                     ></textarea>
                   </div>
                 </div>
