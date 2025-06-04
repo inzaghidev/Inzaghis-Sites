@@ -10,15 +10,16 @@
       <div class="page-wrapper inzagroup-pages">
         <h1 class="my-4 page-title">Inzaghi's Media</h1>
         <div class="bg-white shadow-xl rounded-lg p-6 ring-1 ring-red-400 p-6">
-          <h2 class="text-3xl font-bold mb-4">Description</h2>
+          <h2 class="text-4xl font-bold mb-4">Description</h2>
           <p class="text-black">
             Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
             terutama seputar IT.
           </p>
+          <hr class="my-6 border-t border-gray-500">
           <br />
           <div class="mb-6">
             <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold">Instagram</span>
+              <span class="text-gray-700 text-3xl font-bold">Instagram</span>
               <button type="button">
                 <a
                   href="https://www.instagram.com/enzapost"
@@ -42,7 +43,7 @@
           </div>
           <div class="mb-6">
             <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold">TikTok</span>
+              <span class="text-gray-700 text-3xl font-bold">TikTok</span>
               <button type="button">
                 <a
                   href="https://www.tiktok.com/@enzapostmedia"
@@ -66,7 +67,7 @@
           </div>
           <div class="mb-6">
             <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold">YouTube</span>
+              <span class="text-gray-700 text-3xl font-bold">YouTube</span>
               <button type="button">
                 <a
                   href="https://www.youtube.com/@enzavlogpost"
@@ -93,7 +94,7 @@
           </div>
           <div class="mb-6">
             <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold">X (Twitter)</span>
+              <span class="text-gray-700 text-3xl font-bold">Twitter/X</span>
               <button type="button">
                 <a
                   href="https://x.com/InzaTechMedia"
@@ -117,7 +118,7 @@
           </div>
           <div class="mb-6">
             <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold">Threads</span>
+              <span class="text-gray-700 text-3xl font-bold">Threads</span>
               <button type="button">
                 <a
                   href="https://www.threads.net/@enzapost"

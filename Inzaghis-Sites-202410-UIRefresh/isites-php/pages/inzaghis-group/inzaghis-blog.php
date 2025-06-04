@@ -18,7 +18,7 @@
         <div
           class="bg-white shadow-xl rounded-lg p-6 ring-1 ring-yellow-500 p-6"
         >
-          <h2 class="text-3xl font-bold mb-4">Description</h2>
+          <h2 class="text-4xl font-bold mb-4">Description</h2>
           <p class="text-black">
             Inzaghi's Blog merupakan Platform Blogging sebagai tempat untuk
             berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog lebih
@@ -34,10 +34,11 @@
               >Click here</a
             >
           </section>
+          <hr class="my-6 border-t border-gray-500">
           <br />
           <div class="mb-6">
             <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold"
+              <span class="text-gray-700 text-3xl font-bold"
                 >Inzaghi's Blog (Legacy)</span
               >
               <button type="button">
@@ -62,7 +63,7 @@
           </div>
           <div class="mb-6">
             <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold">Teknoblog</span>
+              <span class="text-gray-700 text-3xl font-bold">Teknoblog</span>
               <button type="button">
                 <a
                   href="https://enzatech.blogspot.com"
@@ -85,7 +86,7 @@
           </div>
           <div class="mb-6">
             <div class="flex justify-between flex-wrap gap-2 w-full">
-              <span class="text-gray-700 text-2xl font-bold">Miniblog</span>
+              <span class="text-gray-700 text-3xl font-bold">Miniblog</span>
               <button type="button">
                 <a
                   href="https://enzashorts.blogspot.com"
