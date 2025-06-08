@@ -22,7 +22,7 @@
           >
             <div class="card text-white bg-secondary">
               <div class="card-body">
-                <h3 class="card-title">Description</h3>
+                <h2 class="card-title">Description</h2>
                 <p class="card-text is-desc">
                   Inzaghi's Blog merupakan Platform Blogging sebagai tempat untuk
                   berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog
@@ -41,41 +41,48 @@
               </div>
             </div>
             <div class="page-description">
-              <h2 class="my-4">Inzaghi's Blog (Legacy)</h2>
+              <div class="text-black row my-4 -mx-1">
+                <h2 class="col-7 col-sm-8 col-md-9 col-lg-10">
+                  Inzaghi's Blog (Legacy)
+                </h2>
+                <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+                  <a
+                    href="https://inzaghiposuma.blogspot.com"
+                    target="_blank"
+                    class="btn btn-secondary col-12 col-md-10 col-xl-8"
+                    >Klik di sini</a
+                  >
+                  <br />
+                </section>
+              </div>
               <div class="text-container">
                 <p class="is-desc">
                   Merupakan Blog Lama yang sudah tersedia sejak Tahun 2018,
                   tempat untuk memposting apapun itu.
                 </p>
-                <section class="group-button">
-                  <a
-                    href="https://inzaghiposuma.blogspot.com"
-                    target="_blank"
-                    class="btn btn-secondary"
-                    >Klik di sini</a
-                  >
-                  <br />
-                </section>
               </div>
               <iframe
                 src="https://inzaghiposuma.blogspot.com"
                 id="inzaghis-blog-embed"
                 title="Inzaghi's Blog Legacy"
               ></iframe>
-              <h2 class="my-4">Teknoblog</h2>
+              <div class="text-black row my-4 -mx-1">
+                <h2 class="col-7 col-sm-8 col-md-9 col-lg-10">Teknoblog</h2>
+                <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+                  <a
+                    href="https://enzatech.blogspot.com"
+                    target="_blank"
+                    class="btn btn-secondary col-12 col-md-10 col-xl-8"
+                    >Klik di sini</a
+                  >
+                  <br />
+                </section>
+              </div>
               <div class="text-container">
                 <p class="is-desc">
                   Merupakan Pindahan dari Blog Lama yang bernama Inzaghi's Blog
                   (Legacy), dan Artikel yang dikhususkan tentang Teknologi.
                 </p>
-                <section class="group-button">
-                  <a
-                    href="https://enzatech.blogspot.com"
-                    target="_blank"
-                    class="btn btn-secondary"
-                    >Klik di sini</a
-                  >
-                </section>
               </div>
               <br />
               <iframe
@@ -83,21 +90,24 @@
                 id="inzaghis-blog-embed"
                 title="Teknoblog"
               ></iframe>
-              <h2 class="my-4">Miniblog</h2>
+              <div class="text-black row my-4 -mx-1">
+                <h2 class="col-7 col-sm-8 col-md-9 col-lg-10">Miniblog</h2>
+                <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+                  <a
+                    href="https://enzashorts.blogspot.com"
+                    target="_blank"
+                    class="btn btn-secondary col-12 col-md-10 col-xl-8"
+                    >Klik di sini</a
+                  >
+                  <br />
+                </section>
+              </div>
               <div class="text-container">
                 <p class="is-desc">
                   Merupakan Blog khusus Microblogging, terutama untuk menyimpan
                   Postingan Sederhana seperti Kode Program Sederhana, hingga
                   Teks dan Tutorial Singkat.
                 </p>
-                <section class="group-button">
-                  <a
-                    href="https://enzashorts.blogspot.com"
-                    target="_blank"
-                    class="btn btn-secondary"
-                    >Klik di sini</a
-                  >
-                </section>
               </div>
               <br />
               <iframe
