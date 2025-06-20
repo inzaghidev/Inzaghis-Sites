@@ -153,7 +153,7 @@
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <span>Blogs</span>
-              <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -166,7 +166,7 @@
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <a href="<?php echo $pathToWebRoot.'/portals/'; ?>">Portals</a>
-              <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -185,7 +185,7 @@
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a>
-              <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -206,7 +206,7 @@
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <span>About &amp; Profile</span>
-              <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -219,7 +219,7 @@
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a>
-              <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -232,7 +232,7 @@
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <span>Switch to</span>
-              <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -440,7 +440,7 @@
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <span>Blogs</span>
-              <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -453,7 +453,7 @@
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <a href="<?php echo $pathToWebRoot.'/portals/'; ?>">Portals</a>
-              <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -472,7 +472,7 @@
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a>
-              <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -493,7 +493,7 @@
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <span>About &amp; Profile</span>
-              <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -506,7 +506,7 @@
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a>
-              <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
@@ -519,7 +519,7 @@
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1] rounded-lg w-full items-center flex gap-2 py-3 px-4">
               <span>Switch to</span>
-              <svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
+              <svg class="w-3 h-3 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" :class="{ 'rotate-180': dropdownOpen }">
                 <title>chevron-down</title>
                 <path d="M19.5 8.25l-7.5 7.5-7.5-7.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               </svg>
