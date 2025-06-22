@@ -2,7 +2,7 @@
   <nav class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md">
     <div class="navbar-wrapper container mx-auto max-w-screen-xl px-4 flex items-center justify-between gap-4 w-full">
       <div class="isites-logo flex items-center">
-        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
+        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-6 px-2">
           <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo-nav" alt="Inzaghi's Sites">
         </a>
       </div>
@@ -110,6 +110,9 @@
           <div x-show="dropdown === 'group'" x-transition="" class="nav-drpdwn-list px-2 py-2 absolute inset-auto w-48 origin-top-right rounded-lg shadow-lg bg-[#dadeda] bg-opacity-[0.95] backdrop-filter backdrop-blur-xl dark-mode:bg-[#222522]" style="display: none;">
             <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog.php'; ?>" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's Blog</a>
             <a href="../inzaghis-group/inzaghis-media.php" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's Media</a>
+            <a href="../inzaghis-group/inzaghis-dev.php" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's Dev</a>
+            <a href="../inzaghis-group/inzaghis-archives.php" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's Archives</a>
+            <a href="../inzaghis-group/inzaghis-app.php" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's App</a>
           </div>
         </div>
         <div class="relative group" @mouseenter="dropdown = 'switch-sites'" @mouseleave="dropdown = null">
@@ -135,7 +138,7 @@
     <div class="lg:invisible relative bg-white w-auto sm:w-80 max-w-full h-full" @click.stop="">
       <div class="flex items-center justify-between px-4 py-3 bg-gray-200">
         <span class="text-xl font-semibold text-gray-900">
-          <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-2">
+          <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-3">
             <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo-nav" alt="Inzaghi's Sites"> </a></span>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = false" class="mobile-menu-button py-3 px-3" aria-label="Close Menu">
@@ -227,6 +230,9 @@
             <div x-show="dropdownOpen" x-transition="" @click.away="dropdownOpen = false" class="nav-drpdwn-list w-full px-2 py-2 mt-2 mb-2 rounded-lg shadow-lg bg-[#dadeda] dark-mode:bg-[#222522]" style="display: none;">
               <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog.php'; ?>" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's Blog</a>
               <a href="../inzaghis-group/inzaghis-media.php" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's Media</a>
+              <a href="../inzaghis-group/inzaghis-dev.php" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's Dev</a>
+              <a href="../inzaghis-group/inzaghis-archives.php" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's Archives</a>
+              <a href="../inzaghis-group/inzaghis-app.php" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's App</a>
             </div>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
@@ -289,7 +295,7 @@
   <nav class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black transition-all duration-300">
     <div class="navbar-wrapper container mx-auto max-w-screen-xl px-4 flex items-center justify-between gap-4 w-full">
       <div class="isites-logo flex items-center">
-        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
+        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-6 px-2">
           <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo-nav" alt="Inzaghi's Sites">
         </a>
       </div>
@@ -397,6 +403,9 @@
           <div x-show="dropdown === 'group'" x-transition="" class="nav-drpdwn-list px-2 py-2 absolute inset-auto w-48 origin-top-right rounded-lg shadow-lg bg-[#dadeda] bg-opacity-[0.95] backdrop-filter backdrop-blur-xl dark-mode:bg-[#222522]" style="display: none;">
             <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog.php'; ?>" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's Blog</a>
             <a href="../inzaghis-group/inzaghis-media.php" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's Media</a>
+            <a href="../inzaghis-group/inzaghis-dev.php" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's Dev</a>
+            <a href="../inzaghis-group/inzaghis-archives.php" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's Archives</a>
+            <a href="../inzaghis-group/inzaghis-app.php" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's App</a>
           </div>
         </div>
         <div class="relative group" @mouseenter="dropdown = 'switch-sites'" @mouseleave="dropdown = null">
@@ -422,7 +431,7 @@
     <div class="lg:invisible relative bg-white w-auto sm:w-80 max-w-full h-full" @click.stop="">
       <div class="flex items-center justify-between px-4 py-3 bg-gray-200">
         <span class="text-xl font-semibold text-gray-900">
-          <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-2">
+          <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-3">
             <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo-nav" alt="Inzaghi's Sites"> </a></span>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = false" class="mobile-menu-button py-3 px-3" aria-label="Close Menu">
@@ -514,6 +523,9 @@
             <div x-show="dropdownOpen" x-transition="" @click.away="dropdownOpen = false" class="nav-drpdwn-list w-full px-2 py-2 mt-2 mb-2 rounded-lg shadow-lg bg-[#dadeda] dark-mode:bg-[#222522]" style="display: none;">
               <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog.php'; ?>" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's Blog</a>
               <a href="../inzaghis-group/inzaghis-media.php" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's Media</a>
+              <a href="../inzaghis-group/inzaghis-dev.php" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's Dev</a>
+              <a href="../inzaghis-group/inzaghis-archives.php" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's Archives</a>
+              <a href="../inzaghis-group/inzaghis-app.php" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's App</a>
             </div>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">

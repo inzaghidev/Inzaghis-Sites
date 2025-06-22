@@ -217,7 +217,7 @@ svg:not(:root) {
 }
 
 .container-top {
-  padding: 2.8em;
+  padding: 3em;
   background: linear-gradient(
     270deg,
     rgba(255, 255, 255, 1) 0%,
@@ -2191,7 +2191,7 @@ svg:not(:root) {
   }
 
   .container-top {
-    padding: 2.5em;
+    padding: 3em;
     background: linear-gradient(
       270deg,
       rgba(255, 255, 255, 1) 0%,
