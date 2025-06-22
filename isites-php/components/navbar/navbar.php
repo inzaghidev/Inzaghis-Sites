@@ -112,6 +112,9 @@
                         <nav class="nav-dropdown-list nav-dropdown-list--open">
                             <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog.php'; ?>" class="dropdown-link">Inzaghi's Blog</a>
                             <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-media.php'; ?>" class="dropdown-link">Inzaghi's Media</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-dev.php'; ?>" class="dropdown-link">Inzaghi's Dev</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-archives.php'; ?>" class="dropdown-link">Inzaghi's Archives</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-app.php'; ?>" class="dropdown-link">Inzaghi's App</a>
                         </nav>
                         </div>
                     </li>
