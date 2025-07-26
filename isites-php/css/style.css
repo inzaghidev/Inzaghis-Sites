@@ -1045,6 +1045,16 @@ svg:not(:root) {
   margin-right: auto;
 }
 
+.inzaghisdev-slider {
+  background: #f5e8f8;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .inzaghis-app {
   background-color: #bddbe5;
   height: auto;
@@ -1057,6 +1067,16 @@ svg:not(:root) {
 
 .inzaghis-archives {
   background-color: #d4e6ff;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghisarchives-slider {
+  background: #d4e6ff;
   height: auto;
   display: flex;
   justify-content: space-around;
