@@ -1056,6 +1056,16 @@ svg:not(:root) {
   margin-right: auto;
 }
 
+.inzaghisapp-slider {
+  background: #bddbe5;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .inzaghis-archives {
   background-color: #d4e6ff;
   height: auto;
@@ -1078,6 +1088,16 @@ svg:not(:root) {
 
 .inzaghis-ai {
   background-color: #f8f0e9;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghisai-slider {
+  background: #f8f0e9;
   height: auto;
   display: flex;
   justify-content: space-around;
