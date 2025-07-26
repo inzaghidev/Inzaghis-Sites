@@ -1036,7 +1036,12 @@ svg:not(:root) {
 }
 
 .inzaghis-dev {
-  background-color: #f5e8f8;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 232, 248, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -1056,7 +1061,22 @@ svg:not(:root) {
 }
 
 .inzaghis-app {
-  background-color: #bddbe5;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(189, 219, 229, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghisapp-slider {
+  background: #bddbe5;
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -1066,7 +1086,12 @@ svg:not(:root) {
 }
 
 .inzaghis-archives {
-  background-color: #d4e6ff;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(212, 230, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -1086,7 +1111,22 @@ svg:not(:root) {
 }
 
 .inzaghis-ai {
-  background-color: #f8f0e9;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(248, 240, 233, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghisai-slider {
+  background: #f8f0e9;
   height: auto;
   display: flex;
   justify-content: space-around;

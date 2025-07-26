@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../tailwindcss-3.4.14/tailwindcss-cdn-3.4.15.js"></script>
+    <script src="../cdn/alpinejs/alpinejs-cdn.min.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="../cdn/swiper@11/swiper-bundle.min.css"
+      type="text/css"
+    />
+    <script src="../cdn/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../jquery/jquery-3.7.1.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Inzaghi's App</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/icons/inzaghis-sites-favicon-36x36-icon-only.png"
+    />
+    <script type="text/javascript">
+      $(document).ready(function () {
+        console.log("Document Ready");
+
+        // Memuat header ke dalam halaman
+        $("#header-container").load("../layouts/header.html");
+
+        // Memuat footer ke dalam halaman
+        $("#footer-container").load("../layouts/footer.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="header-container"></div>
+    <div class="container-top"></div>
+    <section class="inzaghis-group-pages inzaghisapp-slider">
+      <div class="page-wrapper inzagroup-pages">
+        <h1 class="my-4 page-title">Inzaghi's App</h1>
+        <div
+          class="bg-white shadow-xl rounded-lg p-6 ring-1 ring-blue-400 p-6"
+        ></div>
+      </div>
+    </section>
+  </body>
+</html>
