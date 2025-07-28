@@ -9,7 +9,7 @@
     <section class="inzaghis-group-pages inzaghisdev-slider">
       <div class="page-wrapper inzagroup-pages">
         <h1 class="my-4 page-title">Inzaghi's Dev</h1>
-        <div class="text-container">
+        <div class="text-container mb-8">
           <p class="text-description">
             Inzaghi's Dev merupakan kumpulan Proyek TI untuk menyimpan Kode
             Program seperti Website, Aplikasi Sederhana, Program-program Dasar,
