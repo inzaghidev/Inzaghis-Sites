@@ -396,12 +396,12 @@
         <section class="content-description">
           <h2 class="group-title">Inzaghi's Archives</h2>
           <p class="left-subheading">
-            Inzaghi’s Archives merupakan Pengarsipan File-file dalam bentuk
+            Inzaghi's Archives merupakan Pengarsipan File-file dalam bentuk
             Dokumen seperti Dokumen/Word (.doc), Excel (.xls),
             PowerPoint/Slide/Presentasi/PPT (.ppt), PDF (.pdf), dan File
             berbentuk Zip (.zip dan .rar). File-file Dokumen yang disimpan di
-            Inzaghi’s Archives untuk ditampilkan beberapa Layanan seperti
-            Inzaghi’s Blog dan Inzaghi’s Sites.
+            Inzaghi's Archives untuk ditampilkan beberapa Layanan seperti
+            Inzaghi's Blog dan Inzaghi's Sites.
           </p>
           <section class="group-button">
             <a
@@ -428,12 +428,12 @@
         <section class="content-description">
           <h2 class="group-title">Inzaghi's AI</h2>
           <p class="left-subheading">
-            Inzaghi’s AI merupakan Platform berbasis Kecerdasan Buatan (AI)
-            yang akan tersedia di Inzaghi’s Sites (Web) dan Inzaghi’s App
-            (Mobile). Inzaghi’s AI juga menyediakan Chatbot Artificial
-            Intelligence (AI) seperti ChatGPT, Image Generator berbasis AI,
-            hingga Aplikasi lainnya yang berbasis AI dan menggunakan API
-            Key-nya OpenAI dan sumber lainnya.
+            Inzaghi's AI merupakan Platform berbasis Kecerdasan Buatan (AI)
+            yang akan tersedia di Inzaghi's Sites (Web) dan Inzaghi's App
+            (Mobile). Inzaghi's AI juga menyediakan Chatbot Artificial
+            Intelligence (AI) seperti ChatGPT/Gemini, Image Generator berbasis
+            AI, hingga Tools/Aplikasi lainnya yang berbasis AI dan menggunakan
+            AI-API Key apapun.
           </p>
           <section class="group-button">
             <a href="#" class="main-button">Click here</a>

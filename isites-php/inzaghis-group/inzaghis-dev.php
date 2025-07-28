@@ -38,6 +38,7 @@
             class="card bg-white shadow rounded-lg"
             style="background-color: #fff0f0"
           >
+            <div class="page-description"></div>
           </div>
         </div>
       </div>

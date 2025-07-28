@@ -115,6 +115,7 @@
                             <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-dev.php'; ?>" class="dropdown-link">Inzaghi's Dev</a>
                             <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-archives.php'; ?>" class="dropdown-link">Inzaghi's Archives</a>
                             <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-app.php'; ?>" class="dropdown-link">Inzaghi's App</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-ai.php'; ?>" class="dropdown-link">Inzaghi's AI</a>
                         </nav>
                         </div>
                     </li>
