@@ -2,8 +2,8 @@
   <nav class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md">
     <div class="navbar-wrapper container mx-auto max-w-screen-xl px-4 flex items-center justify-between gap-4 w-full">
       <div class="isites-logo flex items-center">
-        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-6 px-2">
-          <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo-nav" alt="Inzaghi's Sites">
+        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
+          <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="!h-14" id="logo-nav" alt="Inzaghi's Sites">
         </a>
       </div>
       <div class="button-toggle flex items-center lg:order-2">
@@ -139,8 +139,8 @@
     <div class="lg:invisible relative bg-white w-auto sm:w-80 max-w-full h-full" @click.stop="">
       <div class="flex items-center justify-between px-4 py-3 bg-gray-200">
         <span class="text-xl font-semibold text-gray-900">
-          <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-3">
-            <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo-nav" alt="Inzaghi's Sites"> </a></span>
+          <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-2">
+            <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="!h-14" id="logo-nav" alt="Inzaghi's Sites"> </a></span>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = false" class="mobile-menu-button py-3 px-3" aria-label="Close Menu">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -297,8 +297,8 @@
   <nav class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black transition-all duration-300">
     <div class="navbar-wrapper container mx-auto max-w-screen-xl px-4 flex items-center justify-between gap-4 w-full">
       <div class="isites-logo flex items-center">
-        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-6 px-2">
-          <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo-nav" alt="Inzaghi's Sites">
+        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
+          <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="!h-14" id="logo-nav" alt="Inzaghi's Sites">
         </a>
       </div>
       <div class="button-toggle flex items-center lg:order-2">
@@ -434,8 +434,8 @@
     <div class="lg:invisible relative bg-white w-auto sm:w-80 max-w-full h-full" @click.stop="">
       <div class="flex items-center justify-between px-4 py-3 bg-gray-200">
         <span class="text-xl font-semibold text-gray-900">
-          <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-3">
-            <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="h-12" id="logo-nav" alt="Inzaghi's Sites"> </a></span>
+          <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-2">
+            <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi's Sites" class="!h-14" id="logo-nav" alt="Inzaghi's Sites"> </a></span>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = false" class="mobile-menu-button py-3 px-3" aria-label="Close Menu">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
