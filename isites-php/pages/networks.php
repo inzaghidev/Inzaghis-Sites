@@ -377,7 +377,7 @@
             Inzaghi's App akan tersedia dalam Versi Android dan iOS.
           </p>
           <section class="group-button">
-            <a href="#" class="main-button">Click here</a>
+            <a href="../inzaghis-group/inzaghis-app.php" class="main-button">Click here</a>
           </section>
         </section>
       </section>
@@ -436,7 +436,7 @@
             AI-API Key apapun.
           </p>
           <section class="group-button">
-            <a href="#" class="main-button">Click here</a>
+            <a href="../inzaghis-group/inzaghis-ai.php" class="main-button">Click here</a>
           </section>
         </section>
       </section>
