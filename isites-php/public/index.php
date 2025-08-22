@@ -331,11 +331,18 @@
   <section class="inzaghis-blog-slider">
     <div class="inzaghis-blog-container">
       <h2 class="title-heading text-yellow-600">Our Blog</h2>
-      <p class="centered-subheading">
-        Inzaghi's Blog merupakan Platform Blogging sebagai tempat untuk
-        berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog lebih
-        menggunakan Platform Blogger, agar lebih mudah dan praktis.
-      </p>
+        <div class="text-container mb-8">
+          <p class="text-description">
+            Inzaghi's Blog merupakan Platform Blogging sebagai tempat untuk
+            berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog lebih
+            menggunakan Platform Blogger, agar lebih mudah dan praktis.
+          </p>
+          <section class="group-button">
+            <a href="../inzaghis-group/inzaghis-blog.php" class="main-button"
+              >Click here</a
+            >
+          </section>
+        </div>
       <div class="container inzaghisblog mx-auto">
         <div class="flex flex-wrap -mx-4 xl:-mx-2">
           <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-4">
@@ -469,10 +476,17 @@
   <section class="inzaghis-media-info">
     <div class="inzaghis-media-container">
       <h2 class="title-heading text-red-600">Our Social Media</h2>
-      <p class="centered-subheading">
-        Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
-        terutama seputar IT.
-      </p>
+        <div class="text-container mb-8">
+          <p class="text-description">
+            Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
+            terutama seputar IT.
+          </p>
+          <section class="group-button">
+            <a href="../inzaghis-group/inzaghis-media.php" class="main-button"
+              >Click here</a
+            >
+          </section>
+        </div>
       <div class="container inzaghismedia">
         <div class="row -mx-4 sm:-mx-2">
           <div
