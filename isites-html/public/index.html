@@ -77,12 +77,8 @@
   <body>
     <!-- BORDER -->
     <div
-      class="navbar fixed w-full z-10 transition-all duration-300"
-      x-data="{ scrolled: false, open: false, dropdown: null }"
-      @scroll.window="scrolled = window.scrollY > 0"
-      :class="scrolled 
-        ? 'bg-gray-200 bg-opacity-60 backdrop-blur-lg shadow-md' 
-        : 'bg-transparent shadow-none'"
+      class="navbar bg-opacity-60 bg-white fixed w-full z-10 transition-all duration-300 shadow-md"
+      x-data="{ open: false, scrolled: false, dropdown: null }"
       x-init="$watch('scrolled', (value) => {
         // Update untuk outer navbar
         if (value) {
@@ -991,7 +987,7 @@
                 class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 w-full dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
               >
                 <a
-                  class="relative transition-all ease-in duration-75 rounded-md group-hover:bg-opacity-0"
+                  class="button-link relative transition-all ease-in duration-75 rounded-md group-hover:bg-opacity-0"
                   href="../includes/login-page.html"
                 >
                   Sign in
@@ -1507,6 +1503,7 @@
                         y1="0%"
                         x2="100%"
                         y2="100%"
+                        gradientUnits="userSpaceOnUse"
                       >
                         <stop offset="0%" stop-color="#f58529" />
                         <stop offset="30%" stop-color="#dd2a7b" />

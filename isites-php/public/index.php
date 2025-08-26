@@ -510,6 +510,7 @@
                       y1="0%"
                       x2="100%"
                       y2="100%"
+                      gradientUnits="userSpaceOnUse"
                     >
                       <stop offset="0%" stop-color="#f58529" />
                       <stop offset="30%" stop-color="#dd2a7b" />
