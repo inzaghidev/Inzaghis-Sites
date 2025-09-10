@@ -8,7 +8,7 @@
         <form>
         <div class="container">
             <center>
-            <h1>Registeration Form</h1>
+            <h1>Registration Form</h1>
             </center>
             <hr>
             <label>Firstname : </label>
