@@ -1,5 +1,5 @@
 <?php
-	$page_title = "Home";
+	$page_title = "Sign in";
   include('../layouts/header.php');
 ?>
     <div class="pages-background flex flex-col xl:justify-center font-[sans-serif] sm:h-screen p-4">
