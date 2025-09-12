@@ -22,54 +22,57 @@
                * @param string $baseDir Base direktori untuk URL
                * @param int $level Tingkat kedalaman (untuk indentasi visual)
                */
-              function generateSitemap($dir, $baseDir, $level = 0)
-              {
+
+              function generateSitemap($dir, $baseDir, $level = 0) {
                   $handle = opendir($dir);
-
+               
                   if ($handle === false) {
-                      return; // Jika tidak bisa membuka direktori, keluar dari fungsi
+                      return; // Jika tidak dapat membuka direktori, hentikan fungsi
                   }
-
+                  
+                  // Urutkan file dan direktori secara alami
+                  $items = [];
                   while (($file = readdir($handle)) !== false) {
                       if ($file != "." && $file != "..") {
-                          $currentPath = $dir . '/' . $file;
-
-                          // Tentukan path relatif
-                          $relativePath = $baseDir . $file;
-
-                          echo "<li>";
-
-                          if (is_dir($currentPath)) {
-                              // Jika direktori, tampilkan sebagai link dan rekursi
-                              echo str_repeat("&nbsp;", $level * 4) . "├── <a href='../../$relativePath'>$file/</a><br/>";
-                              generateSitemap($currentPath, $baseDir . $file . '/', $level + 1);
-                          } else {
-                              // Jika file, tampilkan sebagai link
-                              echo str_repeat("&nbsp;", $level * 4) . "├── <a href='../../$relativePath'>$file</a><br/>";
-                          }
-
-                          echo "</li>";
+                          $items[] = $file;
                       }
                   }
-
                   closedir($handle);
+                  sort($items, SORT_NATURAL | SORT_FLAG_CASE);
+                  
+                  echo "<ul>"; // Mulai daftar untuk setiap direktori
+                  foreach ($items as $file) {
+                      $currentPath = $dir . '/' . $file;
+                      $relativePath = $baseDir . $file;
+                  
+                      if (is_dir($currentPath)) {
+                          // Jika direktori, tampilkan sebagai judul dengan tag <strong>
+                          echo "<li><strong><a href='../../$relativePath' class='text-decoration-none' style='margin-left: 20px;'><br>📁 $file/</a></strong></li>";
+                          generateSitemap($currentPath, $baseDir . $file . '/', $level + 1);
+                      } else {
+                          // Jika file, tampilkan sebagai item daftar
+                          echo "<li><a href='../../$relativePath'class='text-decoration-none' style='margin-left: 20px;'>📄 $file</a></li>";
+                      }
+                  }
+                  echo "</ul>"; // Akhiri daftar
               }
 
               // Set root direktori
               $webRoot = realpath(dirname(__DIR__));
 
               // Menampilkan sitemap
-              echo "<ul>";
-              echo "<li><strong>📁 public</strong></li>";
+              echo "<h3>Directory Structure</h3>";
+              echo "<ul style='display: table;'>";
+              echo "<li><br><strong>📁 public</strong></li>";
               generateSitemap($webRoot . '/public', 'public/', 1);
 
-              echo "<li><strong>📁 page-apps</strong></li>";
+              echo "<li><br><strong>📁 page-apps</strong></li>";
               generateSitemap($webRoot . '/page-apps', 'page-apps/', 1);
 
-              echo "<li><strong>📁 portals</strong></li>";
+              echo "<li><br><strong>📁 portals</strong></li>";
               generateSitemap($webRoot . '/portals', 'portals/', 1);
 
-              echo "<li><strong>📁 pages</strong></li>";
+              echo "<li><br><strong>📁 pages</strong></li>";
               generateSitemap($webRoot . '/pages', 'pages/', 1);
               echo "</ul>";
               ?>

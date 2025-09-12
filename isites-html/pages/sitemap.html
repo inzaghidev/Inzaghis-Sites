@@ -64,6 +64,27 @@
         window.location.replace("../pages/sitemap.php");
       });
     </script-->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+      ul {
+        list-style: none;
+        margin-left: 20px;
+        padding-left: 0;
+      }
+      li {
+        margin: 2px 0;
+        font-family: monospace;
+      }
+      li::before {
+        content: "📄 ";
+      }
+      li.folder::before {
+        content: "📁 ";
+      }
+    </style>
   </head>
   <body>
     <div id="header-container"></div>
@@ -79,6 +100,62 @@
               class="welcome-description card bg-white shadow rounded-lg shadow-lg border border-success"
             >
               <ul id="sitemap"></ul>
+              <body>
+                <h2>Directory Structure</h2>
+                <ul>
+                  <li class="folder">
+                    public
+                    <ul>
+                      <li>index.php</li>
+                    </ul>
+                  </li>
+                  <li class="folder">
+                    page-apps
+                    <ul>
+                      <li>.htaccess</li>
+                      <li>calculators.php</li>
+                      <li>converter.php</li>
+                      <li>file-converter.php</li>
+                      <li>formatters.php</li>
+                      <li>generators.php</li>
+                      <li>index.php</li>
+                      <li>pages.php</li>
+                      <li>tester-tools.php</li>
+                      <li>utilities.php</li>
+                      <li>widgets.php</li>
+                    </ul>
+                  </li>
+                  <li class="folder">
+                    portals
+                    <ul>
+                      <li>.htaccess</li>
+                      <li>index.php</li>
+                      <li>interviews-and-thesis.php</li>
+                      <li>learning-materials.php</li>
+                      <li>link-pages.php</li>
+                      <li>miscellaneous.php</li>
+                      <li>projects.php</li>
+                      <li>tech-tutorials.php</li>
+                      <li>video-pages.php</li>
+                      <li>widgets.php</li>
+                    </ul>
+                  </li>
+                  <li class="folder">
+                    pages
+                    <ul>
+                      <li>about.php</li>
+                      <li>apps.php</li>
+                      <li>contact.php</li>
+                      <li>disclaimer.php</li>
+                      <li>networks.php</li>
+                      <li>portals.php</li>
+                      <li>privacy-policy.php</li>
+                      <li>profile.php</li>
+                      <li>sitemap.php</li>
+                    </ul>
+                  </li>
+                </ul>
+              </body>
               <script src="../js/script.js"></script>
             </div>
           </div>
