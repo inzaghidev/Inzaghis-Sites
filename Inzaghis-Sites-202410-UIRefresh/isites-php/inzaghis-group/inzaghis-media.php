@@ -105,7 +105,7 @@
               </button>
             </div>
             <p class="mt-2 text-gray-600">
-              Sebagai Postingan berbentuk Infografis, Tweet, hingga
+              Sebagai Postingan berbentuk Repost/Retweet, Utasan/Tulisan, hingga
               Postingan-postingan dari Inzaghi's Blog.
             </p>
             <br />
@@ -129,8 +129,9 @@
               </button>
             </div>
             <p class="mt-2 text-gray-600">
-              Sama seperti di X, Sebagai Postingan berbentuk Infografis,
-              Tulisan, hingga Postingan-postingan dari Inzaghi's Blog.
+              Sama seperti di X, Sebagai Postingan berbentuk Repost,
+              Utasan/Tulisan, hingga Postingan-postingan dari Instagram dan
+              Inzaghi's Blog.
             </p>
             <br />
             <div class="sk-ww-threads-posts" data-embed-id="25488134"></div>
