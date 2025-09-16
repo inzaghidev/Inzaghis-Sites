@@ -278,8 +278,9 @@
                 <div class="card-description">
                   <h5 class="card-title socmed-name">X (Twitter)</h5>
                   <p class="card-text socmed-description">
-                    Sebagai Postingan berbentuk Infografis, Tweet, hingga
-                    Postingan-postingan dari Inzaghi's Blog.
+                    Sebagai Postingan berbentuk Repost/Retweet,
+                    Utasan/Tulisan, hingga Postingan-postingan dari Inzaghi's
+                    Blog.
                   </p>
                 </div>
                 <button
@@ -307,8 +308,9 @@
                 <div class="card-description">
                   <h5 class="card-title socmed-name">Threads</h5>
                   <p class="card-text socmed-description">
-                    Sama seperti di X, Sebagai Postingan berbentuk Infografis,
-                    Tulisan, hingga Postingan-postingan dari Inzaghi's Blog.
+                    Sama seperti di X, Sebagai Postingan berbentuk Repost,
+                    Utasan/Tulisan, hingga Postingan-postingan dari Instagram
+                    dan Inzaghi's Blog.
                   </p>
                 </div>
                 <button

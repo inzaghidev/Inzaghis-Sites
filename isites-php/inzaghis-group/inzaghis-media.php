@@ -114,8 +114,8 @@
               </div>
               <div class="text-container">
                 <p class="is-desc">
-                  Sebagai Postingan berbentuk Infografis, Tweet, hingga
-                  Postingan-postingan dari Inzaghi's Blog.
+                  Sebagai Postingan berbentuk Repost/Retweet, Utasan/Tulisan,
+                  hingga Postingan-postingan dari Inzaghi's Blog.
                 </p>
               </div>
               <div class="sk-ww-twitter-feed" data-embed-id="25488132"></div>
@@ -138,8 +138,9 @@
               </div>
               <div class="text-container">
                 <p class="is-desc">
-                  Sama seperti di X, Sebagai Postingan berbentuk Infografis,
-                  Tulisan, hingga Postingan-postingan dari Inzaghi's Blog.
+                  Sama seperti di X, Sebagai Postingan berbentuk Repost,
+                  Utasan/Tulisan, hingga Postingan-postingan dari Instagram dan
+                  Inzaghi's Blog.
                 </p>
               </div>
               <div class="sk-ww-threads-posts" data-embed-id="25488134"></div>
