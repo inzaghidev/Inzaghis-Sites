@@ -97,8 +97,8 @@
               <h2 class="my-4">Twitter/X</h2>
               <div class="text-container">
                 <p class="is-desc">
-                  Sebagai Postingan berbentuk Infografis, Tweet, hingga
-                  Postingan-postingan dari Inzaghi's Blog.
+                  Sebagai Postingan berbentuk Repost/Retweet, Utasan/Tulisan,
+                  hingga Postingan-postingan dari Inzaghi's Blog.
                 </p>
                 <section class="group-button">
                   <a
@@ -119,8 +119,9 @@
               <h2 class="my-4">Threads</h2>
               <div class="text-container">
                 <p class="is-desc">
-                  Sama seperti di X, Sebagai Postingan berbentuk Infografis,
-                  Tulisan, hingga Postingan-postingan dari Inzaghi's Blog.
+                  Sama seperti di X, Sebagai Postingan berbentuk Repost,
+                  Utasan/Tulisan, hingga Postingan-postingan dari Instagram dan
+                  Inzaghi's Blog.
                 </p>
                 <section class="group-button">
                   <a
