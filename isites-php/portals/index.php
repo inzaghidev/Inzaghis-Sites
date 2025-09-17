@@ -88,7 +88,7 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
         foreach ($apps as $app) {
             ?>
             <div class="bg-gray-300 bg-opacity-20 col-span-8 sm:col-span-12 shadow rounded-lg p-5 mx-auto ring-1 ring-gray-200">
-                <div class="flex flex-col object-center bg-white border border-gray-200 rounded-lg shadow sm:flex-row hover:bg-gray-100 border-gray-300 bg-gray-200 hover:bg-gray-300 sm:h-full">
+                <div class="flex flex-col sm:flex-row items-stretch bg-white border border-gray-300 bg-gray-200 rounded-lg shadow hover:bg-gray-300 transition-all duration-300">
                     <a href="<?php echo $app['link']; ?>" class="object-cover flex sm:w-[50%] md:w-[40%] lg:w-[30%] sm:h-auto">
                         <img
                             class="w-full rounded-t-lg h-1/4 sm:h-auto sm:rounded-none sm:rounded-s-lg"

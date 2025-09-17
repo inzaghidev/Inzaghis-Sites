@@ -857,3 +857,8 @@
 <!-- https://www.material-tailwind.com/docs/html/dialog -->
 <!-- https://windframe.dev/blog/how-to-create-tailwind-css-modal -->
 <!--  -->
+
+<!-- https://tailwindflex.com/@rakibhasansohag/hover-effect-card-2 -->
+<!-- https://tailwindflex.com/@abhi/card-grid-for-blog-posts-articles -->
+<!-- https://tailwindflex.com/@shakti/simple-and-clean-cards -->
+<!-- https://tailwindflex.com/@ron-hicks/weather-info-card -->
