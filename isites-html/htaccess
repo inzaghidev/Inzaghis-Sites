@@ -1,8 +1,8 @@
-DirectoryIndex public/index.html
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# HTID:22180163: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
-php_value display_errors 1
-# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:22180163:
+DirectoryIndex /public/index.php
+# Redirect /pages/apps.php /page-apps/
 
 RewriteEngine On
 RewriteBase /

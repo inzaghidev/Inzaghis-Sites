@@ -40,33 +40,45 @@ $page_title = "Sitemap";
                       return;
                   }
 
-                  $items = [];
+                  $dirs = [];
+                  $files = [];
+
                   while (($file = readdir($handle)) !== false) {
                       if ($file != "." && $file != "..") {
-                          $items[] = $file;
-                      }
-                  }
-                  closedir($handle);
-                  sort($items, SORT_NATURAL | SORT_FLAG_CASE);
-
-                  echo "<ul>";
-                  foreach ($items as $file) {
-                      $currentPath = $dir . '/' . $file;
-                      $relativePath = $baseDir . $file;
-
-                      if (is_dir($currentPath)) {
-                          // Jika folder -> tampilkan, lalu lakukan rekursi
-                          echo "<li><strong><a href='../../$relativePath' class='text-blue-500 hover:text-blue-800' style='margin-left: 20px;'><br>📁 $file/</a></strong>";
-                          generateSitemap($currentPath, $baseDir . $file . '/', $level + 1);
-                          echo "</li>";
-                      } else {
-                          // Filter hanya file .php dan .html
-                          $ext = pathinfo($file, PATHINFO_EXTENSION);
-                          if (in_array(strtolower($ext), ['php','html'])) {
-                              echo "<li><a href='../../$relativePath' class='text-blue-500 hover:text-blue-800' style='margin-left: 20px;'>📄 $file</a></li>";
+                          $currentPath = $dir . '/' . $file;
+                          if (is_dir($currentPath)) {
+                              $dirs[] = $file;
+                          } else {
+                              $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
+                              if (in_array($ext, ['php', 'html'])) {
+                                  $files[] = $file;
+                              }
                           }
                       }
                   }
+                  closedir($handle);
+
+                  // Urutkan alfabet
+                  sort($dirs, SORT_NATURAL | SORT_FLAG_CASE);
+                  sort($files, SORT_NATURAL | SORT_FLAG_CASE);
+
+                  echo "<ul>";
+
+                  // Cetak folder lebih dulu
+                  foreach ($dirs as $file) {
+                      $currentPath = $dir . '/' . $file;
+                      $relativePath = $baseDir . $file;
+                      echo "<li><strong><a href='../../$relativePath/' class='text-blue-500 hover:text-blue-800' style='margin-left: 20px;'>📁 $file</a></strong>";
+                      generateSitemap($currentPath, $baseDir . $file . '/', $level + 1);
+                      echo "</li>";
+                  }
+
+                  // Cetak file setelah folder
+                  foreach ($files as $file) {
+                      $relativePath = $baseDir . $file;
+                      echo "<li><a href='../../$relativePath' class='text-blue-500 hover:text-blue-800' style='margin-left: 20px;'>📄 $file</a></li>";
+                  }
+
                   echo "</ul>";
               }
 
