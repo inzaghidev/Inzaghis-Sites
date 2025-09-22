@@ -1,12 +1,12 @@
 <div class="nav-header" id="navHeader">
     <nav class="navbar" id="navbar">
-        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" id="logo">
+        <a href="<?php echo $pathToWebRoot.'/'; ?>" id="logo">
             <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi&apos;s Sites" height="60px" alt="logo" />
         </a>
         <div class="nav-menu-container">
             <div class="nav-menu">
                 <ul>
-                    <li><a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>">Home</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/public/'; ?>">Home</a></li>
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
                             <div class="text-block dropdown-button">
