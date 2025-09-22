@@ -2,7 +2,7 @@
   <nav class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black shadow-md">
     <div class="navbar-wrapper container mx-auto max-w-screen-xl px-4 flex items-center justify-between gap-4 w-full">
       <div class="isites-logo flex items-center">
-        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
+        <a href="<?php echo $pathToWebRoot.'/'; ?>" class="flex items-center py-5 px-2">
           <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi&apos;s Sites" class="!h-14" id="logo-nav" alt="Inzaghi's Sites">
         </a>
       </div>
@@ -23,8 +23,8 @@
           </button>
         </div>
       </div>
-      <div id="navigation-menu" :class="open ? 'block' : 'hidden'" class="nav-menu hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 pb-3 lg:pb-0">
-        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="nav-toggle py-2 px-3 hover:bg-[#c1e0d1] gap-2 rounded-lg block">Home</a>
+      <div id="navigation-menu" :class="open ? 'block' : 'hidden'" class="nav-menu hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 pb-3 lg:pb-0 font-[Inter] text-sm">
+        <a href="<?php echo $pathToWebRoot.'/public/'; ?>" class="nav-toggle py-2 px-3 hover:bg-[#c1e0d1] gap-2 rounded-lg block">Home</a>
         <div class="relative group" @mouseenter="dropdown = 'blogs'" @mouseleave="dropdown = null">
           <div class="py-3">
             <button @click="dropdown = dropdown === 'blogs' ? null : 'blogs'" class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg">
@@ -187,7 +187,7 @@
     <div class="lg:invisible relative bg-white w-auto sm:w-80 max-w-full h-full" @click.stop="">
       <div class="flex items-center justify-between px-4 py-3 bg-gray-200">
         <span class="text-xl font-semibold text-gray-900">
-          <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-2">
+          <a href="<?php echo $pathToWebRoot.'/'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-2">
             <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi&apos;s Sites" class="!h-14" id="logo-nav" alt="Inzaghi's Sites"> </a></span>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = false" class="mobile-menu-button py-3 px-3" aria-label="Close Menu">
@@ -200,7 +200,7 @@
       <nav class="px-3 py-2 space-y-2 overflow-y-auto h-[calc(100%-6rem)] max-h-full">
         <div class="mb-auto pt-4 p-[inherit] font-[Inter] text-sm">
           <div class="pt-1">
-            <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] py-3 px-4 rounded-lg">Home</a>
+            <a href="<?php echo $pathToWebRoot.'/public/'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] py-3 px-4 rounded-lg">Home</a>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="w-full flex items-center justify-between gap-2 py-3 px-4 rounded-lg text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1]">
@@ -391,7 +391,7 @@
   <nav class="navbar-container bg-gray-200 bg-opacity-10 backdrop-filter backdrop-blur-lg text-black transition-all duration-300">
     <div class="navbar-wrapper container mx-auto max-w-screen-xl px-4 flex items-center justify-between gap-4 w-full">
       <div class="isites-logo flex items-center">
-        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="flex items-center py-5 px-2">
+        <a href="<?php echo $pathToWebRoot.'/'; ?>" class="flex items-center py-5 px-2">
           <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi&apos;s Sites" class="!h-14" id="logo-nav" alt="Inzaghi's Sites">
         </a>
       </div>
@@ -412,8 +412,8 @@
           </button>
         </div>
       </div>
-      <div id="navigation-menu" :class="open ? 'block' : 'hidden'" class="nav-menu hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 pb-3 lg:pb-0">
-        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="nav-toggle py-2 px-3 hover:bg-[#c1e0d1] gap-2 rounded-lg block">Home</a>
+      <div id="navigation-menu" :class="open ? 'block' : 'hidden'" class="nav-menu hidden lg:flex lg:flex-row flex-col items-center justify-start lg:space-x-1 pb-3 lg:pb-0 font-[Inter] text-sm">
+        <a href="<?php echo $pathToWebRoot.'/public/'; ?>" class="nav-toggle py-2 px-3 hover:bg-[#c1e0d1] gap-2 rounded-lg block">Home</a>
         <div class="relative group" @mouseenter="dropdown = 'blogs'" @mouseleave="dropdown = null">
           <div class="py-3">
             <button @click="dropdown = dropdown === 'blogs' ? null : 'blogs'" class="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] flex items-center gap-2 rounded-lg">
@@ -576,7 +576,7 @@
     <div class="lg:invisible relative bg-white w-auto sm:w-80 max-w-full h-full" @click.stop="">
       <div class="flex items-center justify-between px-4 py-3 bg-gray-200">
         <span class="text-xl font-semibold text-gray-900">
-          <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-2">
+          <a href="<?php echo $pathToWebRoot.'/'; ?>" class="relative bg-gray-200 w-auto max-w-full h-full px-2 py-2">
             <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi&apos;s Sites" class="!h-14" id="logo-nav" alt="Inzaghi's Sites"> </a></span>
         <div class="menu-toggle lg:hidden flex items-center hover:bg-gray-300 gap-2 rounded-lg block">
           <button @click="open = false" class="mobile-menu-button py-3 px-3" aria-label="Close Menu">
@@ -589,7 +589,7 @@
       <nav class="px-3 py-2 space-y-2 overflow-y-auto h-[calc(100%-6rem)] max-h-full">
         <div class="mb-auto pt-4 p-[inherit] font-[Inter] text-sm">
           <div class="pt-1">
-            <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] py-3 px-4 rounded-lg">Home</a>
+            <a href="<?php echo $pathToWebRoot.'/public/'; ?>" class="block text-gray-900 hover:bg-[#c1e0d1] dark-mode:bg-[#203c2e] py-3 px-4 rounded-lg">Home</a>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
             <button @click="dropdownOpen = !dropdownOpen" class="w-full flex items-center justify-between gap-2 py-3 px-4 rounded-lg text-gray-900 hover:bg-[#c1e0d1] dark-mode:hover:bg-[#c1e0d1]">
