@@ -17,7 +17,7 @@
             dalam bentuk XML.
           </p>
           <section>
-            <a href="#" class="description-button">XML Sitemap</a>
+            <a href="../pages/sitemap-xml.php" class="description-button">XML Sitemap</a>
           </section>
         </div>
         <br />
