@@ -1,12 +1,12 @@
 <div class="nav-header" id="navHeader">
     <nav class="navbar" id="navbar">
-        <a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>" id="logo">
+        <a href="<?php echo $pathToWebRoot.'/'; ?>" id="logo">
             <img src="{{URL::asset('assets/icons/inzaghis-sites-logo-vertical-transparent.png')}}" title="Inzaghi's Sites" height="60px" alt="logo" />
         </a>
         <div class="nav-menu-container">
             <div class="nav-menu">
                 <ul>
-                    <li><a href="<?php echo $pathToWebRoot.'/public/index.php'; ?>">Home</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/public/'; ?>">Home</a></li>
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
                             <div class="text-block dropdown-button">
@@ -75,7 +75,7 @@
                         </nav>
                         </div>
                     </li>
-                    <li><a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>">Contact</a></li>
+                    <li><a href="<?php echo $pathToWebRoot.'/contact/'; ?>">Contact</a></li>
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
                             <div class="text-block dropdown-button">
@@ -90,8 +90,8 @@
                                 </div>
                             </div>
                             <nav class="nav-dropdown-list nav-dropdown-list--open">
-                                <a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>" class="dropdown-link">About</a>
-                                <a href="<?php echo $pathToWebRoot.'/pages/profile.php'; ?>" class="dropdown-link">Porfile</a>
+                                <a href="<?php echo $pathToWebRoot.'/about/'; ?>" class="dropdown-link">About</a>
+                                <a href="<?php echo $pathToWebRoot.'/profile/'; ?>" class="dropdown-link">Profile</a>
                             </nav>
                         </div>
                     </li>
@@ -99,7 +99,7 @@
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
                         <div class="text-block dropdown-button">
-                            <a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a>
+                            <a href="<?php echo $pathToWebRoot.'/networks/'; ?>">Inzaghi's Group</a>
                             <div class="dropdown-icon">
                                 <svg class="angle-down-icon pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
                                     <title>chevron-down-outline</title>
@@ -112,6 +112,10 @@
                         <nav class="nav-dropdown-list nav-dropdown-list--open">
                             <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog.php'; ?>" class="dropdown-link">Inzaghi's Blog</a>
                             <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-media.php'; ?>" class="dropdown-link">Inzaghi's Media</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-dev.php'; ?>" class="dropdown-link">Inzaghi's Dev</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-archives.php'; ?>" class="dropdown-link">Inzaghi's Archives</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-app.php'; ?>" class="dropdown-link">Inzaghi's App</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-ai.php'; ?>" class="dropdown-link">Inzaghi's AI</a>
                         </nav>
                         </div>
                     </li>

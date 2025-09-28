@@ -11,14 +11,14 @@
                     <section class="footer-title">Special Pages</section>
                     <nav>
                         <ul>
-                            <li><a href="<?php echo $pathToWebRoot.'/pages/about.php'; ?>" class="text-decoration-none">About</a></li>
-                            <li><a href="<?php echo $pathToWebRoot.'/pages/disclaimer.php'; ?>" class="text-decoration-none">Disclaimer</a></li>
-                            <li><a href="<?php echo $pathToWebRoot.'/pages/privacy-policy.php'; ?>" class="text-decoration-none">Privacy Policy</a></li>
-                            <li><a href="<?php echo $pathToWebRoot.'/pages/contact.php'; ?>" class="text-decoration-none">Contact</a></li>
+                            <li><a href="<?php echo $pathToWebRoot.'/about/'; ?>" class="text-decoration-none">About</a></li>
+                            <li><a href="<?php echo $pathToWebRoot.'/disclaimer/'; ?>" class="text-decoration-none">Disclaimer</a></li>
+                            <li><a href="<?php echo $pathToWebRoot.'/privacy-policy/'; ?>" class="text-decoration-none">Privacy Policy</a></li>
+                            <li><a href="<?php echo $pathToWebRoot.'/contact/'; ?>" class="text-decoration-none">Contact</a></li>
                             <li><a href="<?php echo $pathToWebRoot.'/portals/'; ?>" class="text-decoration-none">Portals</a></li>
                             <li><a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>" class="text-decoration-none">Apps</a></li>
                             <li><a href="https://medium.com/@izzumiposhaf29" class="text-decoration-none" target="_blank">Blog</a></li>
-                            <li><a href="<?php echo $pathToWebRoot.'/pages/sitemap.php'; ?>" class="text-decoration-none">Sitemap</a></li>
+                            <li><a href="<?php echo $pathToWebRoot.'/sitemap/'; ?>" class="text-decoration-none">Sitemap</a></li>
                         </ul>
                     </nav>
                 </section>

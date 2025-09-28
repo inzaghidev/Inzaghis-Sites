@@ -85,8 +85,8 @@
           <div class="hcg-slider-body card border border-success shadow">
             <a class="hcg-slides animated" style="display: flex">
               <span class="hcg-slide-number">1/6</span>
-              <img src="{{URL::asset('assets/images/pages-by-pages-apps.png')}}" alt="" />
-              <span class="hcg-slide-text">Pages</span>
+              <img src="{{URL::asset('assets/images/converters-by-pages-apps.png')}}" alt="" />
+              <span class="hcg-slide-text">Converters</span>
             </a>
           </div>
           <a href="#" id="hcg-slide-prev">&#10094;</a>
@@ -98,14 +98,14 @@
         class="content-description border border-success card h-100 shadow opacity-75 p-3"
       >
         <!--section class="content-description"-->
-        <h2 class="group-title">Pages</h2>
+        <h2 class="group-title">Converters</h2>
         <p class="left-subheading">
-          Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
-          Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek,
-          hingga Tutorial Pemrograman.
+          Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa
+          (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi
+          Konverter ini akan sedikit menggunakan API.
         </p>
         <button type="button" class="btn btn-primary btn-md">
-          <a href="../page-apps/pages.php" class="button-link">Click here</a>
+          <a href="../page-apps/converter.php" class="button-link">Click here</a>
         </button>
       </section>
     </section>
@@ -353,11 +353,21 @@
 <section class="inzaghis-blog-slider shadow">
   <div class="inzaghis-blog-container">
     <h2 class="title-heading">Our Blog</h2>
-    <p class="centered-subheading">
-      Inzaghi's Blog merupakan Platform Blogging sebagai tempat untuk
-      berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog lebih
-      menggunakan Platform Blogger, agar lebih mudah dan praktis.
-    </p>
+    <div class="text-container">
+      <p class="text-description">
+        Inzaghi's Blog merupakan Platform Blogging sebagai tempat untuk
+        berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog lebih
+        menggunakan Platform Blogger, agar lebih mudah dan praktis.
+      </p>
+      <section class="group-button">
+        <a
+          href="../inzaghis-group/inzaghis-blog.php"
+          target="_blank"
+          class="main-button"
+          >Click here</a
+        >
+      </section>
+    </div>
     <div class="container inzaghisblog">
       <div class="row">
         <div class="col-md-4 col-sm-6 mb-4">
@@ -456,10 +466,20 @@
 <section class="inzaghis-media-info shadow">
   <div class="inzaghis-media-container">
     <h2 class="title-heading">Our Social Media</h2>
-    <p class="centered-subheading">
-      Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
-      terutama seputar IT.
-    </p>
+    <div class="text-container">
+      <p class="text-description">
+        Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
+        terutama seputar IT.
+      </p>
+      <section class="group-button">
+        <a
+          href="../inzaghis-group/inzaghis-media.php"
+          target="_blank"
+          class="main-button"
+          >Click here</a
+        >
+      </section>
+    </div>
     <div class="container inzaghismedia">
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
@@ -561,8 +581,8 @@
               <div class="card-description">
                 <h5 class="card-title socmed-name">X (Twitter)</h5>
                 <p class="card-text socmed-description">
-                  Sebagai Postingan berbentuk Infografis, Tweet, hingga
-                  Postingan-postingan dari Inzaghi's Blog.
+                  Sebagai Postingan berbentuk Repost/Retweet, Utasan/Tulisan,
+                  hingga Postingan-postingan dari Inzaghi's Blog.
                 </p>
               </div>
               <button
@@ -590,8 +610,9 @@
               <div class="card-description">
                 <h5 class="card-title socmed-name">Threads</h5>
                 <p class="card-text socmed-description">
-                  Sama seperti di X, Sebagai Postingan berbentuk Infografis,
-                  Tulisan, hingga Postingan-postingan dari Inzaghi's Blog.
+                  Sama seperti di X, Sebagai Postingan berbentuk Repost,
+                  Utasan/Tulisan, hingga Postingan-postingan dari Instagram
+                  dan Inzaghi's Blog.
                 </p>
               </div>
               <button
