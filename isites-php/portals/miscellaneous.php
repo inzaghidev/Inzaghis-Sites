@@ -40,7 +40,7 @@
           </p>
         </div>
         <br />
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 -mx-4 sm:mx-0">
         <?php
           foreach ($portals as $portal) {
             $title = isset($portal['title']) ? $portal['title'] : 'N/A';

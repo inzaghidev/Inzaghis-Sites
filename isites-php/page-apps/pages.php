@@ -19,7 +19,7 @@
         <h1 class="page-title">Pages</h1>
       </div>
       <section class="pages">
-        <p class="is-desc">
+        <p class="is-desc -mx-4 sm:mx-0">
           <?php
             $query = "Pages"; // Ganti dengan nilai sesuai kebutuhan
 
@@ -42,7 +42,7 @@
             echo $foundDescription;
           ?>
         </p>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 -mx-4 sm:mx-0">
         <?php
           foreach ($apps as $app) {
             $title = isset($app['title']) ? $app['title'] : 'N/A';

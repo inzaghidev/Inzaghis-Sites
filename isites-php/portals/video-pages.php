@@ -14,7 +14,7 @@
         <h1 class="page-title">Video Pages</h1>
       </div>
       <section class="pages">
-        <div class="card-apps bg-white shadow-xl flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-500">
+        <div class="card-apps bg-white shadow-xl flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-500 -mx-4 sm:mx-0">
           <p class="is-desc">
             <?php
               $query = "Video Pages"; // Ganti dengan nilai sesuai kebutuhan
@@ -48,7 +48,7 @@
           </section>
         </div>
         <br />
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 -mx-4 sm:mx-0">
         <?php
           foreach ($portals as $portal) {
             $title = isset($portal['title']) ? $portal['title'] : 'N/A';
