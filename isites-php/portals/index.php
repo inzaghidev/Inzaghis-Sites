@@ -54,7 +54,7 @@ $apps = isset($data['apps']) ? $data['apps'] : [];
             [
                 "name" => "Materi Pembelajaran",
                 "imgSrc" => "../assets/images/learning-materials-by-portals.png",
-                "description" => "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik InformatiKa dan Umum/MKDU).",
+                "description" => "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik Informatika dan Umum/MKDU).",
                 "link" => "../portals/learning-materials.php"
             ],
             [
