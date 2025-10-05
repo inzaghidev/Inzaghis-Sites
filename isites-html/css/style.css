@@ -501,6 +501,15 @@ svg:not(:root) {
   border-radius: 6px !important;
 }
 
+.card-apps-animated {
+  transition: all 500ms !important;
+}
+
+.card-apps-animated:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.175),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+}
+
 .card-img-apps {
   border-top-left-radius: 5px !important;
   border-top-right-radius: 5px !important;
