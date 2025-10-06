@@ -37,25 +37,27 @@
             echo $foundDescription;
           ?>
         </p>
-        <div class="row">
+        <div class="card-grid-container">
+          <div class="row">
             <?php
-                // Loop through each app data and create the HTML structure
-                foreach ($apps as $app) {
-                  $title = isset($app['title']) ? $app['title'] : 'N/A';
-                  $text = isset($app['text']) ? $app['text'] : '';
-                  $link = isset($app['link']) ? $app['link'] : '#';
-                  
-                  echo '<div class="col-md-4 col-sm-6 mb-4">';
-                  echo '  <div class="card card-apps h-100 shadow border border-success">';
-                  echo '    <div class="card-body card-apps-body">';
-                  echo '      <h5 class="card-apps-title">' . $app["title"] . '</h5>';
-                  echo '      <p class="card-text card-apps-text card-description">' . $app["text"] . '</p>';
-                  echo '      <a href="' . $app["link"] . '" class="btn btn-primary apps-button">Click here</a>';
-                  echo '    </div>';
-                  echo '  </div>';
-                  echo '</div>';
-                }
+              // Loop through each app data and create the HTML structure
+              foreach ($apps as $app) {
+                $title = isset($app['title']) ? $app['title'] : 'N/A';
+                $text = isset($app['text']) ? $app['text'] : '';
+                $link = isset($app['link']) ? $app['link'] : '#';
+                
+                echo '<div class="col-md-4 col-sm-6 mb-4">';
+                echo '  <div class="card card-apps h-100 shadow border border-success">';
+                echo '    <div class="card-body card-apps-body">';
+                echo '      <h5 class="card-apps-title">' . $app["title"] . '</h5>';
+                echo '      <p class="card-text card-apps-text card-description">' . $app["text"] . '</p>';
+                echo '      <a href="' . $app["link"] . '" class="btn btn-primary apps-button">Click here</a>';
+                echo '    </div>';
+                echo '  </div>';
+                echo '</div>';
+              }
             ?>
+          </div>
         </div>
       </section>
     </div>
