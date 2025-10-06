@@ -493,7 +493,7 @@
             class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 hover:bg-red-200 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600 hover:ring-2 hover:ring-gray-500"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 hover:bg-red-200 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600 hover:ring-2 hover:ring-gray-500 transition-all duration-400"
             >
               <div class="p-6 mb-auto">
                 <svg
@@ -565,7 +565,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 hover:bg-red-200 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600 hover:ring-2 hover:ring-gray-500"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 hover:bg-red-200 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600 hover:ring-2 hover:ring-gray-500 transition-all duration-400"
             >
               <div class="p-6 mb-auto">
                 <svg
@@ -624,7 +624,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 hover:bg-red-200 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600 hover:ring-2 hover:ring-gray-500"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 hover:bg-red-200 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600 hover:ring-2 hover:ring-gray-500 transition-all duration-400"
             >
               <div class="p-6 mb-auto">
                 <svg
@@ -674,7 +674,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 hover:bg-red-200 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600 hover:ring-2 hover:ring-gray-500"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 hover:bg-red-200 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600 hover:ring-2 hover:ring-gray-500 transition-all duration-400"
             >
               <div class="p-6 mb-auto">
                 <svg
@@ -721,7 +721,7 @@
               </div>
             </div>
             <div
-              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 hover:bg-red-200 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600 hover:ring-2 hover:ring-gray-500"
+              class="relative flex flex-col mt-6 text-gray-700 bg-red-100 hover:bg-red-200 shadow-lg bg-clip-border rounded-xl w-full ring-1 ring-slate-600 hover:ring-2 hover:ring-gray-500 transition-all duration-400"
             >
               <div class="p-6 mb-auto">
                 <svg
