@@ -45,6 +45,101 @@
   </section>
   <section class="banner-info shadow">
     <div class="slider-container">
+      <h2 class="title-heading">Branch Subdomains (Another Versions)</h2>
+      <p class="centered-subheading">
+        Untuk melihat Versi lainnya dari Situs ini, silakan lihat dari
+        beberapa Tautan/Link di bawah ini.
+      </p>
+      <div class="card border shadow-lg rounded-lg border-success">
+        <div class="card-header">Versions</div>
+        <ul class="list-group list-group-flush rounded-lg">
+          <li class="list-group-item card-body">
+            <div class="text-black row -mx-1">
+              <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
+                Main Branch (New UI)
+              </h3>
+              <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+                <a
+                  href="https://inzaghi.wuaze.com"
+                  class="btn btn-primary col-12 col-md-10"
+                  >Click here</a
+                >
+                <br />
+              </section>
+            </div>
+            <p class="card-text is-desc">
+              Merupakan Cabang/Branch Utama dari Website Platform ini, yang
+              sifatnya Stabil, dan sudah menggunakan Tampilan UI Baru.
+            </p>
+          </li>
+          <li class="list-group-item card-body">
+            <div class="text-black row -mx-1">
+              <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
+                Beta Future (Old UI - Temporary)
+              </h3>
+              <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+                <a
+                  href="https://preview.inzaghi.wuaze.com"
+                  class="btn btn-primary col-12 col-md-10"
+                  >Click here</a
+                >
+                <br />
+              </section>
+            </div>
+            <p class="card-text is-desc">
+              Merupakan Cabang/Branch yang didesain untuk melakukan Uji-Coba
+              Fitur Baru secara Pratinjau (Preview). Untuk sementara, Branch
+              ini masih menggunakan Tampilan UI Lama, hingga dimatangkan akan
+              menggunakan Tampilan UI Baru.
+            </p>
+          </li>
+          <li class="list-group-item card-body">
+            <div class="text-black row -mx-1">
+              <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
+                Master (Old UI)
+              </h3>
+              <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+                <a
+                  href="https://old.inzaghi.wuaze.com"
+                  class="btn btn-primary col-12 col-md-10"
+                  >Click here</a
+                >
+                <br />
+              </section>
+            </div>
+            <p class="card-text is-desc">
+              Merupakan Cabang dari Inzaghi's Sites yang masih menggunakan
+              Tampilan UI Lama. Mirip seperti pada Main Branch, hanya saja
+              masih menggunakan Tampilan Lama.
+            </p>
+          </li>
+          <li class="list-group-item card-body">
+            <div class="text-black row -mx-1">
+              <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
+                Laravel (Coming Soon)
+              </h3>
+              <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+                <a
+                  href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel"
+                  target="_blank"
+                  class="btn btn-primary col-12 col-md-10"
+                  >Click here</a
+                >
+                <br />
+              </section>
+            </div>
+            <p class="card-text is-desc">
+              Pada Branch ini, akan dibangun dan dikembangkan ulang dengan
+              menggunakan Laravel. Untuk sementara, masih tersedia di dalam
+              Branch pada Repository GitHub kami.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!--section class="banner-info shadow">
+    <div class="slider-container">
       <h2 class="title-heading">Switch to New UI</h2>
       <div class="text-container">
         <p class="text-description">
@@ -75,7 +170,7 @@
         </div>
       </section>
     </div>
-  </section>
+  </section-->
   <section class="slider-carousel shadow">
     <div class="slider-container">
       <h2 class="title-heading">Portals</h2>
