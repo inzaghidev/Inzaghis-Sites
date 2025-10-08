@@ -45,6 +45,211 @@
   </section>
   <section class="banner-info">
     <div class="slider-container">
+      <h2 class="title-heading">Branch Subdomains (Another Versions)</h2>
+      <p class="centered-subheading m-4">
+        Untuk melihat Versi lainnya dari Situs ini, silakan lihat dari
+        beberapa Tautan/Link di bawah ini.
+      </p>
+      <div
+        class="block relative flex flex-col my-6 bg-white border border-gray-200 rounded-lg shadow-xl w-full mx-auto ring-1 ring-green-500 hover:shadow-2xl"
+      >
+        <div class="p-4">
+          <div class="mb-4 flex items-center justify-between">
+            <h5 class="text-slate-800 text-lg font-semibold">Versions</h5>
+          </div>
+          <hr class="my-2 border-t border-green-500" />
+          <div class="divide-y divide-slate-200">
+            <div class="items-center justify-between pb-3 pt-3 last:pb-0">
+              <div class="flex justify-between flex-wrap gap-2 mb-4 w-full">
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="44"
+                    height="44"
+                    color="#000000"
+                    fill="none"
+                  >
+                    <path
+                      d="M12 2C6.47716 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+                      stroke="#141B34"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M6 9.49982V14.4998M12.5 13.4997C12.5 14.052 12.0523 14.4997 11.5 14.4997H9.5C8.94771 14.4997 8.5 14.052 8.5 13.4997V10.4998C8.5 9.94746 8.94773 9.49974 9.50002 9.49975L11.5001 9.4998C12.0523 9.49981 12.5 9.94749 12.5 10.4997M15 11.4998V12.4998C15 13.6044 15.8954 14.4998 17 14.4998C18.1046 14.4998 19 13.6044 19 12.4998V11.4998C19 10.3952 18.1046 9.49982 17 9.49982C15.8954 9.49982 15 10.3952 15 11.4998Z"
+                      stroke="#141B34"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                  <span
+                    class="text-2xl ml-3 text-gray-700 font-bold font-[Inter]"
+                    >Main Branch (New UI)</span
+                  >
+                </div>
+                <button type="button">
+                  <a
+                    href="https://inzaghi.wuaze.com"
+                    class="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >Click here</a
+                  >
+                </button>
+              </div>
+              <p class="is-desc">
+                Merupakan Cabang/Branch Utama dari Website Platform ini, yang
+                sifatnya Stabil, dan sudah menggunakan Tampilan UI Baru.
+              </p>
+              <hr class="my-2 border-t border-gray" />
+            </div>
+            <div class="items-center justify-between pb-3 pt-3 last:pb-0">
+              <div class="flex justify-between flex-wrap gap-2 mb-4 w-full">
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="44"
+                    height="44"
+                    color="#000000"
+                    fill="none"
+                  >
+                    <path
+                      d="M12 2C6.47716 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+                      stroke="#141B34"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M6 9.49982V14.4998M12.5 13.4997C12.5 14.052 12.0523 14.4997 11.5 14.4997H9.5C8.94771 14.4997 8.5 14.052 8.5 13.4997V10.4998C8.5 9.94746 8.94773 9.49974 9.50002 9.49975L11.5001 9.4998C12.0523 9.49981 12.5 9.94749 12.5 10.4997M15 11.4998V12.4998C15 13.6044 15.8954 14.4998 17 14.4998C18.1046 14.4998 19 13.6044 19 12.4998V11.4998C19 10.3952 18.1046 9.49982 17 9.49982C15.8954 9.49982 15 10.3952 15 11.4998Z"
+                      stroke="#141B34"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                  <span
+                    class="text-2xl ml-3 text-gray-700 font-bold font-[Inter]"
+                    >Beta Future (Old UI - Temporary)</span
+                  >
+                </div>
+                <button type="button">
+                  <a
+                    href="https://preview.inzaghi.wuaze.com"
+                    class="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >Click here</a
+                  >
+                </button>
+              </div>
+              <p class="is-desc">
+                Merupakan Cabang/Branch yang didesain untuk melakukan Uji-Coba
+                Fitur Baru secara Pratinjau (Preview). Untuk sementara, Branch
+                ini masih menggunakan Tampilan UI Lama, hingga dimatangkan
+                akan menggunakan Tampilan UI Baru.
+              </p>
+              <hr class="my-2 border-t border-gray" />
+            </div>
+            <div class="items-center justify-between pb-3 pt-3 last:pb-0">
+              <div class="flex justify-between flex-wrap gap-2 mb-4 w-full">
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="44"
+                    height="44"
+                    color="#000000"
+                    fill="none"
+                  >
+                    <path
+                      d="M12 2C6.47716 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+                      stroke="#141B34"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M6 9.49982V14.4998M12.5 13.4997C12.5 14.052 12.0523 14.4997 11.5 14.4997H9.5C8.94771 14.4997 8.5 14.052 8.5 13.4997V10.4998C8.5 9.94746 8.94773 9.49974 9.50002 9.49975L11.5001 9.4998C12.0523 9.49981 12.5 9.94749 12.5 10.4997M15 11.4998V12.4998C15 13.6044 15.8954 14.4998 17 14.4998C18.1046 14.4998 19 13.6044 19 12.4998V11.4998C19 10.3952 18.1046 9.49982 17 9.49982C15.8954 9.49982 15 10.3952 15 11.4998Z"
+                      stroke="#141B34"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                  <span
+                    class="text-2xl ml-3 text-gray-700 font-bold font-[Inter]"
+                    >Master (Old UI)</span
+                  >
+                </div>
+                <button type="button">
+                  <a
+                    href="https://old.inzaghi.wuaze.com"
+                    class="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >Click here</a
+                  >
+                </button>
+              </div>
+              <p class="is-desc">
+                Merupakan Cabang dari Inzaghi's Sites yang masih menggunakan
+                Tampilan UI Lama. Mirip seperti pada Main Branch, hanya saja
+                masih menggunakan Tampilan Lama.
+              </p>
+              <hr class="my-2 border-t border-gray" />
+            </div>
+            <div class="items-center justify-between pb-3 pt-3 last:pb-0">
+              <div class="flex justify-between flex-wrap gap-2 mb-4 w-full">
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="44"
+                    height="44"
+                    color="#000000"
+                    fill="none"
+                  >
+                    <path
+                      d="M12 2C6.47716 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2Z"
+                      stroke="#141B34"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M6 9.49982V14.4998M12.5 13.4997C12.5 14.052 12.0523 14.4997 11.5 14.4997H9.5C8.94771 14.4997 8.5 14.052 8.5 13.4997V10.4998C8.5 9.94746 8.94773 9.49974 9.50002 9.49975L11.5001 9.4998C12.0523 9.49981 12.5 9.94749 12.5 10.4997M15 11.4998V12.4998C15 13.6044 15.8954 14.4998 17 14.4998C18.1046 14.4998 19 13.6044 19 12.4998V11.4998C19 10.3952 18.1046 9.49982 17 9.49982C15.8954 9.49982 15 10.3952 15 11.4998Z"
+                      stroke="#141B34"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                  <span
+                    class="text-2xl ml-3 text-gray-700 font-bold font-[Inter]"
+                    >Laravel (Coming Soon)</span
+                  >
+                </div>
+                <button type="button">
+                  <a
+                    href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel"
+                    target="_blank"
+                    class="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >Click here</a
+                  >
+                </button>
+              </div>
+              <p class="is-desc">
+                Pada Branch ini, akan dibangun dan dikembangkan ulang dengan
+                menggunakan Laravel. Untuk sementara, masih tersedia di dalam
+                Branch pada Repository GitHub kami.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section class="banner-info">
+    <div class="slider-container">
       <h2 class="title-heading">Back to Old UI</h2>
       <div class="text-container mb-8">
         <p class="text-description">
@@ -77,7 +282,7 @@
         </div>
       </section>
     </div>
-  </section>
+  </section-->
   <section class="slider-carousel">
     <div class="slider-container">
       <h2 class="title-heading text-green-700">Portals</h2>
