@@ -23,8 +23,8 @@ $page_title = "Sitemap";
           </section>
         </div>
         <br />
-        <div class="welcome-to-inzaghis-sites">
-          <div class="welcome-description bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-500 p-6">
+        <div class="welcome-to-inzaghis-sites bg-white shadow-xl rounded-lg ring-1 ring-green-500">
+          <div class="welcome-description">
             <ul id="sitemap">
               <?php
               /**
