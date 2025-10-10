@@ -9,7 +9,7 @@
         <div class="page-title">
           <h1 class="page-title">DISCLAIMER</h1>
         </div>
-        <div class="page-wrapper">
+        <div class="page-wrapper card bg-white shadow rounded-lg shadow-lg border border-success">
           <div class="page-description">
             <h2>Disclaimer for Inzaghi's Group (Inzaghi's Corp.)</h2>
 

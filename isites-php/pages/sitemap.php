@@ -21,8 +21,8 @@
           </section>
         </div>
         <br />
-        <div class="welcome-to-inzaghis-sites">
-          <div class="welcome-description card bg-white shadow rounded-lg shadow-lg border border-success">
+        <div class="welcome-to-inzaghis-sites card bg-white shadow rounded-lg shadow-lg border border-success">
+          <div class="welcome-description">
             <ul id="sitemap">
               <?php
               /**

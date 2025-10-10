@@ -9,7 +9,7 @@
         <div class="page-title">
           <h1 class="page-title">PRIVACY POLICY</h1>
         </div>
-        <div class="page-wrapper">
+        <div class="page-wrapper card bg-white shadow rounded-lg shadow-lg border border-success">
           <div class="page-description">
             <p class="is-desc">
               At Inzaghi's Sites, accessible from https://inzaghi.wuaze.com, one
