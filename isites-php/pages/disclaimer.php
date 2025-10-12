@@ -5,7 +5,7 @@
 ?>
   <div class="container-top"></div>
     <section class="page-background">
-      <div class="page-container">
+      <div class="page-container page-wrapper">
         <div class="page-title">
           <h1 class="page-title">DISCLAIMER</h1>
         </div>
