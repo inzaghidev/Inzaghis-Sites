@@ -56,7 +56,7 @@
           <li class="list-group-item card-body">
             <div class="text-black row -mx-1">
               <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
-                Main Branch (New UI)
+                🌿 Main Branch (New UI)
               </h3>
               <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
                 <a
@@ -75,7 +75,7 @@
           <li class="list-group-item card-body">
             <div class="text-black row -mx-1">
               <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
-                Beta Future (Old UI - Temporary)
+                🚀 Beta Future (Old UI - Temporary)
               </h3>
               <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
                 <a
@@ -96,7 +96,7 @@
           <li class="list-group-item card-body">
             <div class="text-black row -mx-1">
               <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
-                Master (Old UI)
+                ⬇️ Master (Old UI)
               </h3>
               <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
                 <a
@@ -116,7 +116,7 @@
           <li class="list-group-item card-body">
             <div class="text-black row -mx-1">
               <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
-                Laravel (Coming Soon)
+                🛠️ Laravel (Coming Soon)
               </h3>
               <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
                 <a
