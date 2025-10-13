@@ -10,7 +10,7 @@
           <h1 class="page-title">DISCLAIMER</h1>
         </div>
         <div class="page-wrapper bg-white shadow-xl rounded-lg ring-1 ring-green-500">
-          <div class="page-description">
+          <div class="page-description font-[Inter]">
             <h2 class="text-3xl mb-6 font-semibold">Disclaimer for Inzaghi's Group (Inzaghi's Corp.)</h2>
 
             <p class="is-desc">

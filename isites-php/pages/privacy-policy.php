@@ -10,7 +10,7 @@
           <h1 class="page-title">PRIVACY POLICY</h1>
         </div>
         <div class="page-wrapper bg-white shadow-xl rounded-lg ring-1 ring-green-500">
-          <div class="page-description">
+          <div class="page-description font-[Inter]">
             <p class="is-desc">
               At Inzaghi's Sites, accessible from https://inzaghi.wuaze.com, one
               of our main priorities is the privacy of our visitors. This

@@ -106,7 +106,7 @@
               </ul>
             </div>
             <div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
-              <h2 class="font-[Inter] mb-4 text-2xl font-bold light:text-black">
+              <h2 class="font-[Inter] mb-4 text-2xl font-bold text-green-700 light:text-green-800">
                 Ready to Get Started?
               </h2>
               <form id="contactForm">
