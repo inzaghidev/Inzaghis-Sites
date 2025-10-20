@@ -44,7 +44,7 @@
                             <a href="<?php echo $pathToWebRoot.'/portals/tech-tutorials.php'; ?>" class="dropdown-link">Technology Tutorials</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/projects.php'; ?>" class="dropdown-link">IT Project Lists</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/interviews-and-thesis.php'; ?>" class="dropdown-link">Intervs &amp; Thesis Prep</a>
-                            <a href="<?php echo $pathToWebRoot.'/portals/learning-materials.php'; ?>" class="dropdown-link">Materi Pembelajaran</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/learning-materials.php'; ?>" class="dropdown-link">Learning Materials</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/video-pages.php'; ?>" class="dropdown-link">Video Pages</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/link-pages.php'; ?>" class="dropdown-link">Link Pages</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/miscellaneous.php'; ?>" class="dropdown-link">Miscellaneous</a>
