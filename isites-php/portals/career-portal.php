@@ -1,9 +1,9 @@
 <?php
-    $page_title = "Video Pages";
+    $page_title = "Career Portal";
     include('../layouts/header.php');
     include('../components/navbar/navbar.php');
     $data = json_decode(file_get_contents('../data/portals-data.json'), true);
-    $portals = $data['video_pages'];
+    $portals = $data['career_portal'];
 ?>
 
 <div class="container-top"></div>
@@ -11,13 +11,13 @@
   <div class="apps-portals-container">
     <div class="welcome-container">
       <div class="page-title">
-        <h1 class="page-title">Video Pages</h1>
+        <h1 class="page-title">Career Portal</h1>
       </div>
       <section class="pages">
         <div class="card-apps bg-white shadow-xl flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-500 -mx-4 sm:mx-0">
           <p class="is-desc">
             <?php
-              $query = "Video Pages"; // Ganti dengan nilai sesuai kebutuhan
+              $query = "Career Portal"; // Ganti dengan nilai sesuai kebutuhan
 
               if (isset($data['portals'])) {
                   $appsDesc = $data['portals'];
@@ -40,7 +40,7 @@
           </p>
           <section class="group-button m-0">
             <a
-              href="https://sites.google.com/view/inzaghis-sites/pages/videos"
+              href="#"
               target="_blank"
               class="btn btn-outline-light description-button"
               >Click here</a

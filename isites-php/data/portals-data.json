@@ -20,28 +20,34 @@
       "link": "../portals/projects.php"
     },
     {
-      "name": "Interviews & Thesis Prep",
-      "imgSrc": "../assets/images/intervs-and-thesis-by-portals.png",
+      "name": "Career Portal",
+      "imgSrc": "../assets/images/career-portal-by-portals.png",
       "description": "Merupakan kumpulan dari pertanyaan-pertanyaan Wawancara seperti Wawancara Kerja, Magang, User Interview, Wawancara Teknis (Technical Interview), dan lain-lain. Portal ini juga menyediakan berbagai macam Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
       "link": "../portals/interviews-and-thesis.php"
     },
     {
       "name": "Learning Materials",
       "imgSrc": "../assets/images/learning-materials-by-portals.png",
-      "description": "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik Informatika dan Umum/MKDU).",
+      "description": "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik InformatiKa dan Umum/MKDU). Pada Portal ini juga menyediakan berbagai macam Kumpulan Materi dan Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
       "link": "../portals/learning-materials.php"
     },
     {
-      "name": "Video Pages",
-      "imgSrc": "../assets/images/video-pages-by-portals.png",
-      "description": "Merupakan kumpulan dari Video-video YouTube seperti Live Streaming Video, Daftar Channel Terjemahan Multibahasa, dan Daftar Channel YouTube per Kategori.",
-      "link": "../portals/video-pages.php"
+      "name": "Entertainment Portal",
+      "imgSrc": "../assets/images/entertainment-portal-by-portals.png",
+      "description": "Merupakan Portal untuk Pusat Hiburan seperti Kumpulan Video dan Live Streaming di YouTube, Kumpulan Akun-akun Media Sosial, hingga Kumpulan Playlist Lagu seperti Spotify.",
+      "link": "../portals/entertainment-portal.php"
     },
     {
       "name": "Link Pages",
       "imgSrc": "../assets/images/link-pages-by-portals.png",
       "description": "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
       "link": "../portals/link-pages.php"
+    },
+    {
+      "name": "Muslims Portal",
+      "imgSrc": "../assets/images/muslim-portal-by-portals.png",
+      "description": "Merupakan Portal untuk Kumpulan Pusat Keagamaan dan Peribadatan Islam, seperti Jadwal Shalat & Puasa, Kalender Hijriah, Kompas Arah Kiblat, hingga Al-Qur'an Digital.",
+      "link": "../portals/muslim-portal.php"
     },
     {
       "name": "Miscellaneous",

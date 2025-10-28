@@ -1,9 +1,9 @@
 <?php
-    $page_title = "Interviews & Thesis Prep";
+    $page_title = "Muslims Portal";
     include('../layouts/header.php');
     include('../components/navbar/navbar.php');
     $data = json_decode(file_get_contents('../data/portals-data.json'), true);
-    $portals = $data['interviews_thesis'];
+    $portals = $data['muslim_portal'];
 ?>
 
 <div class="container-top"></div>
@@ -11,13 +11,13 @@
   <div class="apps-portals-container">
     <div class="welcome-container">
       <div class="page-title">
-        <h1 class="page-title">Interviews & Thesis Prep</h1>
+        <h1 class="page-title">Muslims Portal</h1>
       </div>
       <section class="pages">
         <div class="card-apps bg-white shadow-xl flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-500 -mx-4 sm:mx-0">
           <p class="is-desc">
             <?php
-              $query = "Interviews & Thesis Prep"; // Ganti dengan nilai sesuai kebutuhan
+              $query = "Muslims Portal"; // Ganti dengan nilai sesuai kebutuhan
 
               if (isset($data['portals'])) {
                   $appsDesc = $data['portals'];

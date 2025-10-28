@@ -29,10 +29,11 @@
                         <li><a href="<?php echo $pathToWebRoot.'/portals/widgets.php'; ?>" class="text-gray-800 hover:text-blue-800">Widgets</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/tech-tutorials.php'; ?>" class="text-gray-800 hover:text-blue-800">Technology Tutorials</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/projects.php'; ?>" class="text-gray-800 hover:text-blue-800">IT Project Lists</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/interviews-and-thesis.php'; ?>" class="text-gray-800 hover:text-blue-800">Interviews & Thesis Prep</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/career-portal.php'; ?>" class="text-gray-800 hover:text-blue-800">Career Portal</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/learning-materials.php'; ?>" class="text-gray-800 hover:text-blue-800">Learning Materials</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/video-pages.php'; ?>" class="text-gray-800 hover:text-blue-800">Video Pages</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/entertainment-portal.php'; ?>" class="text-gray-800 hover:text-blue-800">Entertainment Portal</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/link-pages.php'; ?>" class="text-gray-800 hover:text-blue-800">Link Pages</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/muslim-portal.php'; ?>" class="text-gray-800 hover:text-blue-800">Muslims Portal</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/miscellaneous.php'; ?>" class="text-gray-800 hover:text-blue-800">Miscellaneous</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/'; ?>" class="text-gray-800 hover:text-blue-800">Portal Lists</a></li>
                         </ul>
