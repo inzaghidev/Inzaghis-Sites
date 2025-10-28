@@ -1,9 +1,9 @@
 <?php
-    $page_title = "Video Pages";
+    $page_title = "Entertainment Portal";
     include('../layouts/header.php');
     include('../components/navbar/navbar.php');
     $data = json_decode(file_get_contents('../data/portals-data.json'), true);
-    $portals = $data['video_pages'];
+    $portals = $data['entertainment_portal'];
 ?>
 
 <div class="container-top"></div>
@@ -11,13 +11,13 @@
   <div class="apps-portals-container">
     <div class="welcome-container">
       <div class="welcome-title">
-        <h1 class="welcome-title">Video Pages</h1>
+        <h1 class="welcome-title">Entertainment Portal</h1>
       </div>
       <section class="pages">
         <div class="card-body card-apps card shadow border border-success">
           <p class="is-desc">
             <?php
-              $query = "Video Pages"; // Ganti dengan nilai sesuai kebutuhan
+              $query = "Entertainment Portal"; // Ganti dengan nilai sesuai kebutuhan
 
               if (isset($data['portals'])) {
                   $appsDesc = $data['portals'];

@@ -1,9 +1,9 @@
 <?php
-    $page_title = "Learning Materials";
+    $page_title = "Career Portal";
     include('../layouts/header.php');
     include('../components/navbar/navbar.php');
     $data = json_decode(file_get_contents('../data/portals-data.json'), true);
-    $portals = $data['learning_materials'];
+    $portals = $data['career_portal'];
 ?>
 
 <div class="container-top"></div>
@@ -11,13 +11,13 @@
   <div class="apps-portals-container">
     <div class="welcome-container">
       <div class="welcome-title">
-        <h1 class="welcome-title">Learning Materials</h1>
+        <h1 class="welcome-title">Career Portal</h1>
       </div>
       <section class="pages">
         <div class="card-body card-apps card shadow border border-success">
           <p class="is-desc">
             <?php
-              $query = "Learning Materials"; // Ganti dengan nilai sesuai kebutuhan
+              $query = "Career Portal"; // Ganti dengan nilai sesuai kebutuhan
 
               if (isset($data['portals'])) {
                   $appsDesc = $data['portals'];
@@ -37,18 +37,10 @@
               // Tampilkan deskripsi yang ditemukan
               echo $foundDescription;
             ?>
-            <br />
-            <br />
-            Untuk Materi SMA, kebanyakan hanya lebih spesifik ke Jurusan IPA
-            saja. Dan untuk Materi Perkuliahan, hanya hanya tersedia untuk
-            Jurusan Teknik Informatika (TI) saja, dan hanya beberapa Mata
-            Kuliah saja yang juga tersedia untuk Jurusan Sistem Informasi
-            (SI). Untuk Jurusan/Prodi lainnya, hanya tersedia untuk Mata
-            Kuliah Umum (MKDU) saja.
           </p>
           <section>
             <a
-              href="https://sites.google.com/view/inzaghis-sites/pages/materi-pembelajaran"
+              href="#"
               target="_blank"
               class="description-button"
               >Click here</a

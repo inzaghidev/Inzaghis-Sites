@@ -43,10 +43,11 @@
                             <a href="<?php echo $pathToWebRoot.'/portals/widgets.php'; ?>" class="dropdown-link">Widgets</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/tech-tutorials.php'; ?>" class="dropdown-link">Technology Tutorials</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/projects.php'; ?>" class="dropdown-link">IT Project Lists</a>
-                            <a href="<?php echo $pathToWebRoot.'/portals/interviews-and-thesis.php'; ?>" class="dropdown-link">Intervs &amp; Thesis Prep</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/career-portal.php'; ?>" class="dropdown-link">Career Portal</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/learning-materials.php'; ?>" class="dropdown-link">Learning Materials</a>
-                            <a href="<?php echo $pathToWebRoot.'/portals/video-pages.php'; ?>" class="dropdown-link">Video Pages</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/entertainment-portal.php'; ?>" class="dropdown-link">Entertainment Portal</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/link-pages.php'; ?>" class="dropdown-link">Link Pages</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/muslim-portal.php'; ?>" class="dropdown-link">Muslims Portal</a>
                             <a href="<?php echo $pathToWebRoot.'/portals/miscellaneous.php'; ?>" class="dropdown-link">Miscellaneous</a>
                         </nav>
                         </div>

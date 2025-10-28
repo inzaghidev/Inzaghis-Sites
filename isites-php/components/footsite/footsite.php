@@ -29,10 +29,11 @@
                         <li><a href="<?php echo $pathToWebRoot.'/portals/widgets.php'; ?>" class="text-decoration-none">Widgets</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/tech-tutorials.php'; ?>" class="text-decoration-none">Technology Tutorials</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/projects.php'; ?>" class="text-decoration-none">IT Project Lists</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/interviews-and-thesis.php'; ?>" class="text-decoration-none">Interviews & Thesis Prep</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/career-portal.php'; ?>" class="text-decoration-none">Career Portal</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/learning-materials.php'; ?>" class="text-decoration-none">Learning Materials</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/video-pages.php'; ?>" class="text-decoration-none">Video Pages</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/entertainment-portal.php'; ?>" class="text-decoration-none">Entertainment Portal</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/link-pages.php'; ?>" class="text-decoration-none">Link Pages</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/muslim-portal.php'; ?>" class="text-decoration-none">Muslims Portal</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/miscellaneous.php'; ?>" class="text-decoration-none">Miscellaneous</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/'; ?>" class="text-decoration-none">Portal Lists</a></li>
                         </ul>
