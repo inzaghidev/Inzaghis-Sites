@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/form.css" type="text/css" />
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+    <script src="../js/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../bootstrap/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionimages/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../jquery/jquery-3.7.1.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Registration Form</title>
+    <link
+      rel="shortcut icon"
+      href="../images/inzaghis-sites-favicon-36x36-icon-only.png"
+    />
+    <script type="text/javascript">
+      $(document).ready(function () {
+        console.log("Document Ready");
+
+        // Memuat header ke dalam halaman
+        $("#header-container").load("../layouts/header.html");
+
+        // Memuat footer ke dalam halaman
+        $("#footer-container").load("../layouts/footer.html");
+      });
+    </script>
+    <!--script>
+            $(document).ready(function () {
+            window.location.replace("../pages/sitemap.php");
+            });
+        </script-->
+  </head>
+  <body>
+    <div id="header-container"></div>
+    <div class="container-top"></div>
+    <form>
+      <div class="container">
+        <center>
+          <h1>Registration Form</h1>
+        </center>
+        <hr />
+        <label>Firstname : </label>
+        <input
+          type="text"
+          name="firstname"
+          placeholder="Firstname"
+          size="15"
+          required
+        />
+        <label>Lastname : </label>
+        <input
+          type="text"
+          name="lastname"
+          placeholder="Lastname"
+          size="15"
+          required
+        />
+        <label>Username :</label>
+        <input type="text" autocomplete="username" />
+        <br />
+        <div>
+          <label>Gender : </label>
+          <br />
+          <br />
+          <label class="radiocontainer"
+            >Male
+            <input type="radio" value="Male" name="gender" checked="checked" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="radiocontainer"
+            >Female
+            <input type="radio" value="Male" name="gender" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="radiocontainer"
+            >Other
+            <input type="radio" value="Male" name="gender" />
+            <span class="checkmark"></span>
+          </label>
+          <br />
+          <br />
+        </div>
+        <label for="isian-2">Brith Date :</label>
+        <input name="birth-date" type="date" />
+        <br />
+        <br />
+        <label> Phone : </label>
+        <input
+          type="text"
+          name="country code"
+          placeholder="Country Code"
+          value="+62"
+          size="3"
+        />
+        <input
+          type="text"
+          name="phone"
+          placeholder="phone no."
+          size="10"
+          required
+        />
+        <br />
+        <label>Current Address : </label>
+        <textarea
+          cols="80"
+          rows="5"
+          placeholder="Current Address"
+          value="address"
+          required
+        ></textarea>
+        <br />
+        <br />
+        <label for="email">
+          <b>Email</b>
+        </label>
+        <input type="text" placeholder="Enter Email" name="email" required />
+        <label for="psw">
+          <b>Password</b>
+        </label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+        />
+        <label for="psw-repeat">
+          <b>Re-type Password</b>
+        </label>
+        <input
+          type="password"
+          placeholder="Retype Password"
+          name="psw-repeat"
+          required
+        />
+        <div class="submitbtn">
+          <button type="submit" class="registerbtn">Register</button>
+          <button type="submit" class="cancelbtn">Cancel</button>
+        </div>
+      </div>
+    </form>
+  </body>
+  <div id="footer-container"></div>
+</html>
+
+<!-- https://www.javatpoint.com/html-registration-form -->
+<!-- https://www.w3schools.com/howto/howto_css_register_form.asp -->
