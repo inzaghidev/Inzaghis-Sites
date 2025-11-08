@@ -56,7 +56,7 @@
                   $link = isset($portal['link']) ? $portal['link'] : '#';
 
                   echo '<div class="col-md-4 col-sm-6 mb-4">';
-                  echo '  <div class="card card-apps h-100 shadow border border-success">';
+                  echo '  <div class="card card-apps h-100 shadow-lg border border-success card-animated">';
                   echo '    <div class="card-body card-apps-body">';
                   echo '      <h5 class="card-apps-title">' . $portal["title"] . '</h5>';
                   echo '      <p class="card-text card-apps-text card-description">' . $portal["text"] . '</p>';
