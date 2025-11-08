@@ -63,7 +63,7 @@
             $text = isset($portal['text']) ? $portal['text'] : '';
             $link = isset($portal['link']) ? $portal['link'] : '#';
 
-            echo '<div class="bg-white shadow-xl flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-500">';
+            echo '<div class="bg-white hover:bg-[#edf5ef] shadow-md flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-500 border border-indigo-100 rounded-lg shadow hover:shadow-xl duration-500">';
             echo '  <h5 class="card-apps-title text-2xl font-bold text-black">' . $title . '</h5>';
             echo '  <p class="card-apps-text text-gray-600 mt-2 !mb-4 mb-auto">' . $text . '</p>';
             echo '  <a href="' . $link . '" class="flex justify-center bg-blue-600 text-white mx-2 py-2 px-4 rounded-lg hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 shadow hover:shadow-lg">';
