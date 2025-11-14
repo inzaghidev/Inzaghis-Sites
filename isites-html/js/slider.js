@@ -24,7 +24,7 @@ adjustSwiperWidth();
 window.addEventListener("resize", adjustSwiperWidth);
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Inisialisasi Swiper untuk Portals
+  // Swiper Portals
   const portalsSwiper = new Swiper(".portals-swiper", {
     slidesPerView: 3,
     spaceBetween: 25,
@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
       clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next-portals",
-      prevEl: ".swiper-button-prev-portals",
+      nextEl: ".portals-swiper-button-next",
+      prevEl: ".portals-swiper-button-prev",
     },
     breakpoints: {
       0: { slidesPerView: 1 },
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 
-  // Inisialisasi Swiper untuk Apps
+  // Swiper Apps
   const appsSwiper = new Swiper(".apps-swiper", {
     slidesPerView: 3,
     spaceBetween: 25,
@@ -57,8 +57,8 @@ document.addEventListener("DOMContentLoaded", function () {
       clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next-apps",
-      prevEl: ".swiper-button-prev-apps",
+      nextEl: ".apps-swiper-button-next",
+      prevEl: ".apps-swiper-button-prev",
     },
     breakpoints: {
       0: { slidesPerView: 1 },
