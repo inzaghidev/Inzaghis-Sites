@@ -25,7 +25,9 @@
             </div>
             <div class="page-description">
               <div class="text-black row my-4 -mx-1">
-                <h2 class="col-7 col-sm-8 col-md-9 col-lg-10">Instagram</h2>
+                <h2 class="col-7 col-sm-8 col-md-9 col-lg-10">
+                  <i class="fa-brands fa-instagram"></i> Instagram
+                </h2>
                 <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
                   <a
                     href="https://www.instagram.com/enzapost"
@@ -49,7 +51,9 @@
                 defer
               ></script>
               <div class="text-black row my-4 -mx-1">
-                <h2 class="col-7 col-sm-8 col-md-9 col-lg-10">TikTok</h2>
+                <h2 class="col-7 col-sm-8 col-md-9 col-lg-10">
+                  <i class="fa-brands fa-tiktok"></i> TikTok
+                </h2>
                 <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
                   <a
                     href="https://www.tiktok.com/@enzapostmedia"
@@ -74,7 +78,9 @@
                 defer
               ></script>
               <div class="text-black row my-4 -mx-1">
-                <h2 class="col-7 col-sm-8 col-md-9 col-lg-10">YouTube</h2>
+                <h2 class="col-7 col-sm-8 col-md-9 col-lg-10">
+                  <i class="fa-brands fa-youtube"></i> YouTube
+                </h2>
                 <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
                   <a
                     href="https://www.youtube.com/@enzavlogpost"
@@ -101,7 +107,9 @@
                 defer
               ></script>
               <div class="text-black row my-4 -mx-1">
-                <h2 class="col-7 col-sm-8 col-md-9 col-lg-10">Twitter/X</h2>
+                <h2 class="col-7 col-sm-8 col-md-9 col-lg-10">
+                  <i class="fa-brands fa-x-twitter"></i> Twitter/X
+                </h2>
                 <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
                   <a
                     href="https://x.com/InzaTechMedia"
