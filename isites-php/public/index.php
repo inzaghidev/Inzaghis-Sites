@@ -40,7 +40,6 @@
       </div>
     </div>
   </section>
-  <section class="slide-display shadow"></section>
   <section class="page-apps shadow">
     <div class="page-apps-container">
       <h2 class="title-heading">Page Apps</h2>
