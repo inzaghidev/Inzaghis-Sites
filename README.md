@@ -14,6 +14,7 @@ Link :
 Berikut ini adalah Tampilan Utama dari Inzaghi's Sites :
 
 ![Inzaghi's Sites Homepage](/isites-php/assets/images/inzaghis-sites-homepage-202503.jpg)
+![Inzaghi's Sites Homepage App Carousel](/isites-php/assets/images/inzaghis-sites-homepage-portals-carousel.jpg)
 ![Inzaghi's Sites Homepage App Carousel](/isites-php/assets/images/inzaghis-sites-homepage-apps-carousel.jpg)
 
 ## Inzaghi's Sites Portals
