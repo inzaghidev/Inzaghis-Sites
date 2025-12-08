@@ -8,7 +8,18 @@
     <script src="../js/script.js"></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      href="../cdn/swiper@11/swiper-bundle.min.css"
+      type="text/css"
+    />
+    <script src="../cdn/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
     />
     <link
       rel="stylesheet"
@@ -43,7 +54,7 @@
     <title>Pages</title>
     <link
       rel="shortcut icon"
-      href="../images/inzaghis-sites-favicon-36x36-icon-only.png"
+      href="../assets/icons/inzaghis-sites-favicon-36x36-icon-only.png"
     />
     <script type="text/javascript">
       $(document).ready(function () {
@@ -65,8 +76,8 @@
   <body>
     <div id="header-container"></div>
     <div class="container-top"></div>
-    <section class="page-apps-wrapper">
-      <div class="page-apps-container">
+    <section class="apps-portals-wrapper">
+      <div class="apps-portals-container">
         <div class="welcome-container">
           <div class="welcome-title">
             <h1 class="welcome-title">Pages</h1>
@@ -77,8 +88,10 @@
               Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek,
               hingga Tutorial Pemrograman.
             </p>
-            <div class="row" id="app-container">
-              <!-- Dynamic content will be inserted here -->
+            <div class="card-grid-container">
+              <div class="row" id="app-container">
+                <!-- Dynamic content will be inserted here -->
+              </div>
             </div>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
             <script>
@@ -141,17 +154,17 @@
                     "col-md-4 col-sm-6 mb-4"
                   );
                   const card = $("<div></div>").addClass(
-                    "card h-100 shadow border border-success"
+                    "card card-apps h-100 shadow-lg border border-success card-animated"
                   );
                   const cardBody = $("<div></div>").addClass(
                     "card-body card-apps-body"
                   );
 
                   const cardTitle = $("<h5></h5>")
-                    .addClass("card-title")
+                    .addClass("card-apps-title")
                     .text(app.title);
                   const cardText = $("<p></p>")
-                    .addClass("card-text card-apps")
+                    .addClass("card-text card-apps-text card-description")
                     .text(app.text);
                   const cardLink = $("<a></a>")
                     .addClass("btn btn-primary apps-button")
@@ -165,6 +178,106 @@
                 });
               });
             </script>
+
+            <!-- UNDER CONSTRUCTION!! -->
+            <br />
+            <div class="card-body card-apps card shadow border border-success">
+              <p class="is-desc">
+                Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
+                Inzaghi's Sites. Dan juga sebagai kumpulan Materi,
+                Proyek-proyek, hingga Tutorial Pemrograman.
+              </p>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div
+                  class="card card-apps h-100 shadow-lg border border-success card-animated"
+                >
+                  <div class="card-body card-apps-body">
+                    <h5 class="card-apps-title">Technology Tutorials</h5>
+                    <p class="card-text card-apps-text card-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nam viverra euismod odio, gravida pellentesque urna varius
+                      vitae.
+                    </p>
+                    <a
+                      href="https://bit.ly/Tech-and-IT-Tutorials-Notion-Inzaghi"
+                      class="btn btn-primary apps-button"
+                      >Click here</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div
+                  class="card card-apps h-100 shadow-lg border border-success card-animated"
+                >
+                  <div class="card-body card-apps-body">
+                    <h5 class="card-apps-title">Materi Pembelajaran</h5>
+                    <p class="card-text card-apps-text card-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a
+                      href="https://sites.google.com/view/inzaghis-sites/pages/materi-pembelajaran"
+                      class="btn btn-primary apps-button"
+                      >Click here</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div
+                  class="card card-apps h-100 shadow-lg border border-success card-animated"
+                >
+                  <div class="card-body card-apps-body">
+                    <h5 class="card-apps-title">Video Page</h5>
+                    <p class="card-text card-apps-text card-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a
+                      href="https://sites.google.com/view/inzaghis-sites/pages/videos"
+                      class="btn btn-primary apps-button"
+                      >Click here</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div
+                  class="card card-apps h-100 shadow-lg border border-success card-animated"
+                >
+                  <div class="card-body card-apps-body">
+                    <h5 class="card-apps-title">Link Page</h5>
+                    <p class="card-text card-apps-text card-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a
+                      href="https://bit.ly/Bookmark-Manager-Links-Notion-Inzaghi"
+                      class="btn btn-primary apps-button"
+                      >Click here</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div
+                  class="card card-apps h-100 shadow-lg border border-success card-animated"
+                >
+                  <div class="card-body card-apps-body">
+                    <h5 class="card-apps-title">Calendar & Event Summary</h5>
+                    <p class="card-text card-apps-text card-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a
+                      href="https://inzaghi-poshaf.notion.site/Calendar-Summary-Events-2fdf303bab424c1ca6f8d7210c016128"
+                      class="btn btn-primary apps-button"
+                      >Click here</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </div>
       </div>

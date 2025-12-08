@@ -22,7 +22,7 @@
         </div>
         <div class="about-us-image-to-inzaghis-group">
           <img
-            src="../images/inzaghis-group-partners.png"
+            src="../assets/images/inzaghis-group-partners.png"
             alt="Inzaghi's Sites"
             style="width: 600px"
           />
@@ -36,7 +36,7 @@
           <section class="group-content">
             <section class="group-image">
               <img
-                src="../images/inzaghis-blog-by-inzaghis-group-corp.png"
+                src="../assets/images/inzaghis-blog-by-inzaghis-group-corp.png"
                 alt="Inzaghi's Blog"
                 style="width: 600px"
               />
@@ -50,7 +50,7 @@
                 praktis.
               </p>
               <section class="group-button">
-                <a href="../pages/inzaghis-group/inzaghis-blog.php" class="main-button">Click here</a>
+                <a href="../inzaghis-group/inzaghis-blog.php" class="main-button">Click here</a>
               </section>
             </section>
           </section>
@@ -58,14 +58,14 @@
         <div class="container inzaghisblog">
           <div class="row">
             <div class="col-md-4 col-sm-6 mb-4">
-              <div class="card h-100 border-0 shadow">
+              <div class="card card-apps h-100 border-0 shadow">
                 <img
-                  src="../images/inzaghis-blog-legacy.png"
-                  class="card-img-top"
+                  src="../assets/images/inzaghis-blog-legacy.png"
+                  class="card-img-apps card-img-top"
                   alt="Inzaghi's Blog Legacy"
                 />
                 <div class="card-body text-center blog-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title blog-name">Inzaghi's Blog Legacy</h5>
                     <p class="card-text blog-description">
                       Merupakan Blog Lama yang sudah tersedia sejak Tahun 2018,
@@ -79,7 +79,7 @@
                     <a
                       href="https://inzaghiposuma.blogspot.com"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Klik di sini</a
                     >
                   </button>
@@ -87,14 +87,14 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-6 mb-4">
-              <div class="card h-100 border-0 shadow">
+              <div class="card card-apps h-100 border-0 shadow">
                 <img
-                  src="../images/teknoblog-by-inzaghis-blog.png"
-                  class="card-img-top"
+                  src="../assets/images/teknoblog-by-inzaghis-blog.png"
+                  class="card-img-apps card-img-top"
                   alt="Teknoblog - Inzaghi's Blog"
                 />
                 <div class="card-body text-center blog-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title blog-name">Teknoblog</h5>
                     <p class="card-text blog-description">
                       Merupakan Pindahan dari Blog Lama yang bernama Inzaghi's
@@ -109,7 +109,7 @@
                     <a
                       href="https://enzatech.blogspot.com"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Klik di sini</a
                     >
                   </button>
@@ -117,14 +117,14 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-6 mb-4">
-              <div class="card h-100 border-0 shadow">
+              <div class="card card-apps h-100 border-0 shadow">
                 <img
-                  src="../images/miniblog-by-inzaghis-blog.png"
-                  class="card-img-top"
+                  src="../assets/images/miniblog-by-inzaghis-blog.png"
+                  class="card-img-apps card-img-top"
                   alt="Miniblog - Inzaghi's Blog"
                 />
                 <div class="card-body text-center blog-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title blog-name">Miniblog</h5>
                     <p class="card-text blog-description">
                       Merupakan Blog khusus Microblogging, terutama untuk
@@ -139,7 +139,7 @@
                     <a
                       href="https://enzashorts.blogspot.com"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Klik di sini</a
                     >
                   </button>
@@ -156,7 +156,7 @@
         <section class="group-content reverse-content">
           <section class="group-image">
             <img
-              src="../images/inzaghis-media-by-inzaghis-group-corp.png"
+              src="../assets/images/inzaghis-media-by-inzaghis-group-corp.png"
               alt="Inzaghi's Media"
               style="width: 600px"
             />
@@ -168,7 +168,11 @@
               terutama seputar IT.
             </p>
             <section class="group-button">
-              <a href="../pages/inzaghis-group/inzaghis-media.php" class="main-button">Click here</a>
+              <a
+                href="../inzaghis-group/inzaghis-media.html"
+                class="main-button"
+                >Click here</a
+              >
             </section>
           </section>
         </section>
@@ -178,36 +182,41 @@
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../images/instagram-logo-icon.png"
+                src="../assets/icons/instagram-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="Instagram Logo"
               />
               <div class="card-body text-center socmed-text">
-                <div class="card-apps">
+                <div class="card-description">
                   <h5 class="card-title socmed-name">Instagram</h5>
                   <p class="card-text socmed-description">
                     Sebagai Postingan berbentuk Gambar Persegi dan sebagai
                     Asisten dari Inzaghi's Blog.
                   </p>
                 </div>
-                <a
-                  href="https://www.instagram.com/enzapost"
-                  target="_blank"
-                  class="btn btn-primary primary-button"
-                  >@enzapost</a
+                <button
+                  type="button"
+                  class="btn btn-primary btn-md primary-button"
                 >
+                  <a
+                    href="https://www.instagram.com/enzapost"
+                    target="_blank"
+                    class="button-link"
+                    >@enzapost</a
+                  >
+                </button>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../images/tiktok-logo-icon.png"
+                src="../assets/icons/tiktok-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="TikTok Logo"
               />
               <div class="card-body text-center socmed-text">
-                <div class="card-apps">
+                <div class="card-description">
                   <h5 class="card-title socmed-name">TikTok</h5>
                   <p class="card-text socmed-description">
                     Sebagai Postingan berbentuk Video Vertikal (Portrait) yang
@@ -215,48 +224,58 @@
                     Informasi Singkat.
                   </p>
                 </div>
-                <a
-                  href="https://www.tiktok.com/@enzapostmedia"
-                  target="_blank"
-                  class="btn btn-primary primary-button"
-                  >@enzapostmedia</a
+                <button
+                  type="button"
+                  class="btn btn-primary btn-md primary-button"
                 >
+                  <a
+                    href="https://www.tiktok.com/@enzapostmedia"
+                    target="_blank"
+                    class="button-link"
+                    >@enzapostmedia</a
+                  >
+                </button>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../images/youtube-logo-icon.png"
+                src="../assets/icons/youtube-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="YouTube Logo"
               />
               <div class="card-body text-center socmed-text">
-                <div class="card-apps">
+                <div class="card-description">
                   <h5 class="card-title socmed-name">YouTube</h5>
                   <p class="card-text socmed-description">
-                      Sebagai sebuah Channel yang berbentuk Video seperti
-                      Tutorial, Video Shorts, hingga Demo Aplikasi/Project.
+                    Sebagai sebuah Channel yang berbentuk Video seperti
+                    Tutorial, Video Shorts, hingga Demo Aplikasi/Project.
                   </p>
                 </div>
-                <a
-                  href="https://www.youtube.com/@enzavlogpost"
-                  target="_blank"
-                  class="btn btn-primary primary-button"
-                  >Inzaghi's Media</a
+                <button
+                  type="button"
+                  class="btn btn-primary btn-md primary-button"
                 >
+                  <a
+                    href="https://www.youtube.com/@enzavlogpost"
+                    target="_blank"
+                    class="button-link"
+                    >Inzaghi's Media</a
+                  >
+                </button>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../images/twitter-x-logo.png"
+                src="../assets/icons/twitter-x-logo.png"
                 class="card mt-4 socmed-icon"
                 alt="Twitter Logo"
               />
               <div class="card-body text-center socmed-text">
-                <div class="card-apps">
+                <div class="card-description">
                   <h5 class="card-title socmed-name">X (Twitter)</h5>
                   <p class="card-text socmed-description">
                     Sebagai Postingan berbentuk Repost/Retweet,
@@ -264,24 +283,29 @@
                     Blog.
                   </p>
                 </div>
-                <a
-                  href="https://x.com/InzaTechMedia"
-                  target="_blank"
-                  class="btn btn-primary primary-button"
-                  >@InzaTechMedia</a
+                <button
+                  type="button"
+                  class="btn btn-primary btn-md primary-button"
                 >
+                  <a
+                    href="https://x.com/InzaTechMedia"
+                    target="_blank"
+                    class="button-link"
+                    >@InzaTechMedia</a
+                  >
+                </button>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
-                src="../images/threads-logo-icon.png"
+                src="../assets/icons/threads-logo-icon.png"
                 class="card mt-4 socmed-icon"
                 alt="Threads Logo"
               />
               <div class="card-body text-center socmed-text">
-                <div class="card-apps">
+                <div class="card-description">
                   <h5 class="card-title socmed-name">Threads</h5>
                   <p class="card-text socmed-description">
                     Sama seperti di X, Sebagai Postingan berbentuk Repost,
@@ -296,7 +320,7 @@
                   <a
                     href="https://www.threads.net/@enzapost"
                     target="_blank"
-                    class="blog-link"
+                    class="button-link"
                     >@enzapost</a
                   >
                 </button>
@@ -312,7 +336,7 @@
       <section class="group-content">
         <section class="group-image">
           <img
-            src="../images/inzaghis-dev-by-inzaghis-group-corp.png"
+            src="../assets/images/inzaghis-dev-by-inzaghis-group-corp.png"
             alt="Inzaghi's Dev"
             style="width: 600px"
           />
@@ -341,7 +365,7 @@
       <section class="group-content reverse-content">
         <section class="group-image">
           <img
-            src="../images/inzaghis-app-by-inzaghis-group-corp.png"
+            src="../assets/images/inzaghis-app-by-inzaghis-group-corp.png"
             alt="Inzaghi's App"
             style="width: 600px"
           />
@@ -355,7 +379,7 @@
             Inzaghi's App akan tersedia dalam Versi Android dan iOS.
           </p>
           <section class="group-button">
-            <a href="#" class="main-button">Click here</a>
+            <a href="../inzaghis-group/inzaghis-app.php" class="main-button">Click here</a>
           </section>
         </section>
       </section>
@@ -366,7 +390,7 @@
       <section class="group-content">
         <section class="group-image">
           <img
-            src="../images/inzaghis-archives-by-inzaghis-group-corp.png"
+            src="../assets/images/inzaghis-archives-by-inzaghis-group-corp.png"
             alt="Inzaghi's App"
             style="width: 600px"
           />
@@ -374,12 +398,12 @@
         <section class="content-description">
           <h2 class="group-title">Inzaghi's Archives</h2>
           <p class="left-subheading">
-            Inzaghi’s Archives merupakan Pengarsipan File-file dalam bentuk
+            Inzaghi's Archives merupakan Pengarsipan File-file dalam bentuk
             Dokumen seperti Dokumen/Word (.doc), Excel (.xls),
             PowerPoint/Slide/Presentasi/PPT (.ppt), PDF (.pdf), dan File
             berbentuk Zip (.zip dan .rar). File-file Dokumen yang disimpan di
-            Inzaghi’s Archives untuk ditampilkan beberapa Layanan seperti
-            Inzaghi’s Blog dan Inzaghi’s Sites.
+            Inzaghi's Archives untuk ditampilkan beberapa Layanan seperti
+            Inzaghi's Blog dan Inzaghi's Sites.
           </p>
           <section class="group-button">
             <a
@@ -398,7 +422,7 @@
       <section class="group-content reverse-content">
         <section class="group-image">
           <img
-            src="../images/inzaghis-ai-by-inzaghis-group-corp.png"
+            src="../assets/images/inzaghis-ai-by-inzaghis-group-corp.png"
             alt="Inzaghi's App"
             style="width: 600px"
           />
@@ -406,21 +430,20 @@
         <section class="content-description">
           <h2 class="group-title">Inzaghi's AI</h2>
           <p class="left-subheading">
-            Inzaghi’s AI merupakan Platform berbasis Kecerdasan Buatan (AI)
-            yang akan tersedia di Inzaghi’s Sites (Web) dan Inzaghi’s App
-            (Mobile). Inzaghi’s AI juga menyediakan Chatbot Artificial
-            Intelligence (AI) seperti ChatGPT, Image Generator berbasis AI,
-            hingga Aplikasi lainnya yang berbasis AI dan menggunakan API
-            Key-nya OpenAI dan sumber lainnya.
+            Inzaghi's AI merupakan Platform berbasis Kecerdasan Buatan (AI)
+            yang akan tersedia di Inzaghi's Sites (Web) dan Inzaghi's App
+            (Mobile). Inzaghi's AI juga menyediakan Chatbot Artificial
+            Intelligence (AI) seperti ChatGPT/Gemini, Image Generator berbasis
+            AI, hingga Tools/Aplikasi lainnya yang berbasis AI dan menggunakan
+            AI-API Key apapun.
           </p>
           <section class="group-button">
-            <a href="#" class="main-button">Click here</a>
+            <a href="../inzaghis-group/inzaghis-ai.php" class="main-button">Click here</a>
           </section>
         </section>
       </section>
     </section>
   </section>
-  <section class="inzaghis-shop"></section>
 <?php
 	include('../components/footsite/footsite.php');
 	include('../layouts/footer.php');

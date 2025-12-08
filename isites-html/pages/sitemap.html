@@ -8,7 +8,18 @@
     <script src="../js/script.js"></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      href="../cdn/swiper@11/swiper-bundle.min.css"
+      type="text/css"
+    />
+    <script src="../cdn/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
     />
     <link
       rel="stylesheet"
@@ -35,7 +46,7 @@
     <title>Sitemap</title>
     <link
       rel="shortcut icon"
-      href="../images/inzaghis-sites-favicon-36x36-icon-only.png"
+      href="../assets/icons/inzaghis-sites-favicon-36x36-icon-only.png"
     />
     <script type="text/javascript">
       $(document).ready(function () {
@@ -53,23 +64,121 @@
         window.location.replace("../pages/sitemap.php");
       });
     </script-->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+      ul {
+        list-style: none;
+        margin-left: 20px;
+        padding-left: 0;
+      }
+      li {
+        margin: 2px 0;
+        font-family: monospace;
+      }
+      li::before {
+        content: "📄 ";
+      }
+      li.folder::before {
+        content: "📁 ";
+      }
+    </style>
   </head>
   <body>
     <div id="header-container"></div>
     <div class="container-top"></div>
-    <section class="sitemap">
+    <section class="page-background">
       <div class="page-container">
         <div class="page-title">
           <h1 class="page-title">SITEMAP</h1>
         </div>
-        <div class="page-wrapper">
-          <div class="welcome-to-inzaghis-sites">
-            <div class="page-description">
+        <div class="page-wrapper page-container">
+          <div class="card-body card-apps card shadow border border-success">
+            <p class="is-desc">
+              Silakan klik pada Tombol di bawah ini jika ingin melihat Sitemap
+              dalam bentuk XML.
+            </p>
+            <section>
+              <a href="#" class="description-button">XML Sitemap</a>
+            </section>
+          </div>
+          <br />
+          <div
+            class="welcome-to-inzaghis-sites card bg-white shadow rounded-lg shadow-lg border border-success"
+          >
+            <div class="welcome-description">
               <ul id="sitemap"></ul>
+              <body>
+                <h3>Directory Structure</h3>
+                <ul>
+                  <li class="folder">
+                    public
+                    <ul>
+                      <li>index.php</li>
+                    </ul>
+                  </li>
+                  <li class="folder">
+                    page-apps
+                    <ul>
+                      <li>.htaccess</li>
+                      <li>calculators.php</li>
+                      <li>converter.php</li>
+                      <li>file-converter.php</li>
+                      <li>formatters.php</li>
+                      <li>generators.php</li>
+                      <li>index.php</li>
+                      <li>pages.php</li>
+                      <li>tester-tools.php</li>
+                      <li>utilities.php</li>
+                      <li>widgets.php</li>
+                    </ul>
+                  </li>
+                  <li class="folder">
+                    portals
+                    <ul>
+                      <li>.htaccess</li>
+                      <li>index.php</li>
+                      <li>interviews-and-thesis.php</li>
+                      <li>learning-materials.php</li>
+                      <li>link-pages.php</li>
+                      <li>miscellaneous.php</li>
+                      <li>projects.php</li>
+                      <li>tech-tutorials.php</li>
+                      <li>video-pages.php</li>
+                      <li>widgets.php</li>
+                    </ul>
+                  </li>
+                  <li class="folder">
+                    pages
+                    <ul>
+                      <li>about.php</li>
+                      <li>apps.php</li>
+                      <li>contact.php</li>
+                      <li>disclaimer.php</li>
+                      <li>networks.php</li>
+                      <li>portals.php</li>
+                      <li>privacy-policy.php</li>
+                      <li>profile.php</li>
+                      <li>sitemap.php</li>
+                    </ul>
+                  </li>
+                </ul>
+              </body>
               <script src="../js/script.js"></script>
             </div>
           </div>
         </div>
+
+        <br />
+        <button onclick="myFunction()">Try it</button>
+
+        <script>
+          function myFunction() {
+            alert("I am an alert box!");
+          }
+        </script>
       </div>
     </section>
     <div id="footer-container"></div>

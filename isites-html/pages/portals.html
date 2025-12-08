@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="../components/navbar/navbar.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="../components/footsite/footsite.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+    <script src="../js/script.js"></script>
+    <script src="../components/navbar/navbar.js"></script>
+    <link
+      rel="stylesheet"
+      href="../cdn/swiper@11/swiper-bundle.min.css"
+      type="text/css"
+    />
+    <script src="../cdn/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../bootstrap/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../jquery/jquery-3.7.1.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Portals</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/icons/inzaghis-sites-favicon-36x36-icon-only.png"
+    />
+  </head>
+  <body>
+    <div class="nav-header" id="navHeader">
+      <nav class="navbar" id="navbar">
+        <a href="../public/index.html" id="logo">
+          <img
+            src="../assets/icons/inzaghis-sites-logo-vertical-transparent.png"
+            title="Inzaghi's Sites"
+            height="60px"
+            alt="logo"
+          />
+        </a>
+        <div class="nav-menu-container">
+          <div class="nav-menu">
+            <ul>
+              <li>
+                <a href="../public/index.html">Home</a>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a>Blogs</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a
+                      href="https://medium.com/@izzumiposhaf29"
+                      class="dropdown-link"
+                      >Inzaghi's Group Blog</a
+                    >
+                    <a
+                      href="https://inzaghiposuma.wordpress.com/blog-posts"
+                      class="dropdown-link"
+                      >WordPress Blog</a
+                    >
+                  </nav>
+                </div>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a href="../pages/portals.html">Portals</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a href="../portals/widgets.html" class="dropdown-link"
+                      >Widgets</a
+                    >
+                    <a
+                      href="../portals/tech-tutorials.html"
+                      class="dropdown-link"
+                      >Technology Tutorials</a
+                    >
+                    <a href="../portals/projects.html" class="dropdown-link"
+                      >IT Project Lists</a
+                    >
+                    <a
+                      href="../portals/career-portal.html"
+                      class="dropdown-link"
+                      >Career Portal</a
+                    >
+                    <a
+                      href="../portals/learning-materials.html"
+                      class="dropdown-link"
+                      >Learning Materials</a
+                    >
+                    <a
+                      href="../portals/entertainment-portal.html"
+                      class="dropdown-link"
+                      >Entertainment Portal</a
+                    >
+                    <a href="../portals/link-pages.html" class="dropdown-link"
+                      >Link Pages</a
+                    >
+                    <a
+                      href="../portals/muslim-portal.html"
+                      class="dropdown-link"
+                      >Muslims Portal</a
+                    >
+                    <a
+                      href="../portals/miscellaneous.html"
+                      class="dropdown-link"
+                      >Miscellaneous</a
+                    >
+                  </nav>
+                </div>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a href="../pages/apps.html">Apps</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a href="../page-apps/converter.html" class="dropdown-link"
+                      >Converters</a
+                    >
+                    <a
+                      href="../page-apps/calculators.html"
+                      class="dropdown-link"
+                      >Calculators</a
+                    >
+                    <a href="../page-apps/generators.html" class="dropdown-link"
+                      >Generators</a
+                    >
+                    <a href="../page-apps/formatters.html" class="dropdown-link"
+                      >Formatters</a
+                    >
+                    <a
+                      href="../page-apps/file-converter.html"
+                      class="dropdown-link"
+                      >File Converter</a
+                    >
+                    <a href="../page-apps/utilities.html" class="dropdown-link"
+                      >Utilities</a
+                    >
+                    <a
+                      href="../page-apps/tester-tools.html"
+                      class="dropdown-link"
+                      >Tester Tools</a
+                    >
+                  </nav>
+                </div>
+              </li>
+              <li>
+                <a href="../pages/contact.html">Contact</a>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a>About &amp; Profile</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a href="../pages/about.html" class="dropdown-link"
+                      >About</a
+                    >
+                    <a href="../pages/profile.html" class="dropdown-link"
+                      >Profile</a
+                    >
+                  </nav>
+                </div>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a href="../pages/networks.html">Inzaghi's Group</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a
+                      href="../inzaghis-group/inzaghis-blog.html"
+                      class="dropdown-link"
+                      >Inzaghi's Blog</a
+                    >
+                    <a
+                      href="../inzaghis-group/inzaghis-media.html"
+                      class="dropdown-link"
+                      >Inzaghi's Media</a
+                    >
+                    <a
+                      href="../inzaghis-group/inzaghis-dev.html"
+                      class="dropdown-link"
+                      >Inzaghi's Dev</a
+                    >
+                    <a
+                      href="../inzaghis-group/inzaghis-archives.html"
+                      class="dropdown-link"
+                      >Inzaghi's Archives</a
+                    >
+                    <a
+                      href="../inzaghis-group/inzaghis-app.html"
+                      class="dropdown-link"
+                      >Inzaghi's App</a
+                    >
+                    <a
+                      href="../inzaghis-group/inzaghis-ai.html"
+                      class="dropdown-link"
+                      >Inzaghi's AI</a
+                    >
+                  </nav>
+                </div>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a>Switch to</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a
+                      href="https://sites.google.com/view/inzaghis-sites"
+                      class="dropdown-link"
+                      >Old Inzaghi's Sites</a
+                    >
+                    <a
+                      href="https://inzaghiposuma.wordpress.com"
+                      class="dropdown-link"
+                      >WordPress Site</a
+                    >
+                    <a
+                      href="https://inzaghi-site.webflow.io"
+                      class="dropdown-link"
+                      >Preview (Webflow)</a
+                    >
+                  </nav>
+                </div>
+              </li>
+            </ul>
+            <div class="sign-in-button">
+              <a href="../includes/signin.html" class="main-button">Sign in</a>
+            </div>
+          </div>
+        </div>
+        <button class="menu-toggle" id="menu-toggle">
+          <span class="fas fa-bars bar"></span>
+        </button>
+        <div class="cancel-icon">
+          <span class="fas fa-times cross"></span>
+        </div>
+      </nav>
+    </div>
+    <div class="container-top"></div>
+    <section class="pages-background">
+      <section class="pages">
+        <!-- Page Heading -->
+        <h1 class="my-4 title-page">
+          Portals
+          <small>Beta</small>
+        </h1>
+
+        <p class="is-desc">
+          Portals merupakan Halaman Portal yang tersedia untuk berbagai
+          kebutuhan apapun seperti Widgets, Tutorial Teknologi, Materi
+          Pembelajaran, dan lainnya.
+        </p>
+        <div id="app-container">
+          <!-- Konten akan ditambahkan di sini oleh jQuery -->
+        </div>
+        <script>
+          $(document).ready(function () {
+            // Data aplikasi yang akan ditampilkan
+            const apps = [
+              {
+                name: "Widgets",
+                imgSrc: "../assets/images/widgets-by-portals.png",
+                description:
+                  "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
+                link: "../portals/widgets.html",
+              },
+              {
+                name: "Technology Tutorials",
+                imgSrc: "../assets/images/tech-tutorials-by-portals.png",
+                description:
+                  "Merupakan kumpulan dari berbagai macam Teknologi apapun dalam bidang IT, dan sebagai Pembelajaran untuk berbagai macam Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu Komputer, Analisis Data, dan lainnya.",
+                link: "../portals/tech-tutorials.html",
+              },
+              {
+                name: "IT Project Lists",
+                imgSrc: "../assets/images/it-project-lists-by-portals.png",
+                description:
+                  "Merupakan kumpulan dari berbagai macam Proyek apapun dalam bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis Data, AI/ML, IoT, dan lainnya.",
+                link: "../portals/projects.html",
+              },
+              {
+                name: "Career Portal",
+                imgSrc: "../assets/images/career-portal-by-portals.png",
+                description:
+                  "Merupakan kumpulan dari pertanyaan-pertanyaan Wawancara seperti Wawancara Kerja, Magang, User Interview, Wawancara Teknis (Technical Interview), dan lain-lain. Portal ini juga menyediakan berbagai macam Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
+                link: "../portals/career-portal.html",
+              },
+              {
+                name: "Learning Materials",
+                imgSrc: "../assets/images/learning-materials-by-portals.png",
+                description:
+                  "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik InformatiKa dan Umum/MKDU). Pada Portal ini juga menyediakan berbagai macam Kumpulan Materi dan Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
+                link: "../portals/learning-materials.html",
+              },
+              {
+                name: "Entertainment Portal",
+                imgSrc: "../assets/images/entertainment-portal-by-portals.png",
+                description:
+                  "Merupakan Portal untuk Pusat Hiburan seperti Kumpulan Video dan Live Streaming di YouTube, Kumpulan Akun-akun Media Sosial, hingga Kumpulan Playlist Lagu seperti Spotify.",
+                link: "../portals/entertainment-portal.html",
+              },
+              {
+                name: "Link Pages",
+                imgSrc: "../assets/images/link-pages-by-portals.png",
+                description:
+                  "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
+                link: "../portals/link-pages.html",
+              },
+              {
+                name: "Muslims Portal",
+                imgSrc: "../assets/images/muslim-portal-by-portals.png",
+                description:
+                  "Merupakan Portal untuk Kumpulan Pusat Keagamaan dan Peribadatan Islam, seperti Jadwal Shalat & Puasa, Kalender Hijriah, Kompas Arah Kiblat, hingga Al-Qur'an Digital.",
+                link: "../portals/muslim-portal.html",
+              },
+              {
+                name: "Miscellaneous",
+                imgSrc: "../assets/images/miscellaneous-by-portals.png",
+                description:
+                  "Merupakan Halaman lainnya yang tidak termasuk dari Kategori di Portal ini, dan juga tersedia untuk Halaman apa saja.",
+                link: "../portals/miscellaneous.html",
+              },
+              {
+                name: "Lorem Ipsum",
+                imgSrc: "https://via.placeholder.com/700x400",
+                description:
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+                link: "#",
+              },
+              // Tambahkan data aplikasi lainnya di sini...
+            ];
+
+            // Ambil elemen kontainer
+            const appContainer = $("#app-container");
+
+            // Loop melalui setiap aplikasi dan buat elemen HTML-nya
+            $.each(apps, function (index, app) {
+              // Struktur HTML untuk setiap aplikasi
+              const appHtml = `
+                <div class="mb-4">
+                  <div class="card-portals card h-100 border-success shadow">
+                    <div class="card-portals-wrapper row">
+                      <!-- Gambar -->
+                      <a href="${app.link}" class="card-img-portals-wrapper">
+                        <img
+                          class="card-img-portals d-block w-100 h-100"
+                          src="${app.imgSrc}"
+                          alt="${app.name}"
+                        />
+                      </a>
+                      <!-- Isi Konten -->
+                      <div class="card-body card-portals-body">
+                        <div class="card-text-container card-body">
+                          <!-- Judul -->
+                          <h4 class="card-title page-apps-card card-portals-name">
+                            ${app.name}
+                          </h4>
+                          <!-- Deskripsi -->
+                          <p class="card-apps-text">
+                            ${app.description}
+                          </p>
+                          <br />
+                          <!-- Tombol -->
+                          <button class="btn btn-primary btn-md">
+                            <a class="button-link" href="${app.link}">Click here</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              `;
+
+              // Tambahkan elemen ke dalam kontainer
+              appContainer.append(appHtml);
+            });
+          });
+        </script>
+
+        <!--div id="app-container">
+          <div class="mb-4">
+            <div class="card-portals card h-100 border-success shadow">
+              <div class="card-portals-wrapper row">
+                <a href="#" class="card-img-portals-wrapper">
+                  <img
+                    class="card-img-portals d-block w-100 h-100"
+                    src="../assets/images/widgets-by-portals.png"
+                    alt=""
+                /></a>
+                <div class="card-body card-portals-body">
+                  <div class="card-text-container card-body">
+                    <h4 class="card-title page-apps-card card-portals-name">
+                      Widgets
+                    </h4>
+                    <p class="card-apps-text">
+                      Merupakan kumpulan Widget Serbaguna untuk Anda yang
+                      membutuhkan Informasi seakurat mungkin. Widget di sini
+                      juga termasuk yang sedang heboh saat ini.
+                    </p>
+                    <br />
+                    <button class="btn btn-primary btn-md">
+                      <a class="button-link" href="#">Click here</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="card-portals card h-100 border-success shadow">
+              <div class="card-portals-wrapper row">
+                <a href="#" class="card-img-portals-wrapper">
+                  <img
+                    class="card-img-portals d-block w-100 h-100"
+                    src="../assets/images/tech-tutorials-by-portals.png"
+                    alt=""
+                /></a>
+                <div class="card-body card-portals-body">
+                  <div class="card-text-container card-body">
+                    <h4 class="card-title page-apps-card card-portals-name">
+                      Technology Tutorials
+                    </h4>
+                    <p class="card-apps-text">
+                      Merupakan kumpulan dari berbagai macam Teknologi apapun
+                      dalam bidang IT, dan sebagai Pembelajaran untuk berbagai
+                      macam Teknologi IT apapun seperti Pemrograman, Aplikasi,
+                      Ilmu Komputer, Analisis Data, dan lainnya.
+                    </p>
+                    <br />
+                    <button class="btn btn-primary btn-md">
+                      <a class="button-link" href="#">Click here</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="card-portals card h-100 border-success shadow">
+              <div class="card-portals-wrapper row">
+                <a href="#" class="card-img-portals-wrapper">
+                  <img
+                    class="card-img-portals d-block w-100 h-100"
+                    src="../assets/images/it-project-lists-by-portals.png"
+                    alt=""
+                /></a>
+                <div class="card-body card-portals-body">
+                  <div class="card-text-container card-body">
+                    <h4 class="card-title page-apps-card card-portals-name">
+                      IT Project Lists
+                    </h4>
+                    <p class="card-apps-text">
+                      Merupakan kumpulan dari berbagai macam Proyek apapun dalam
+                      bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis
+                      Data, AI/ML, IoT, dan lainnya.
+                    </p>
+                    <br />
+                    <button class="btn btn-primary btn-md">
+                      <a class="button-link" href="#">Click here</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <div class="card-portals card h-100 border-success shadow">
+              <div class="card-portals-wrapper row">
+                <a href="#" class="card-img-portals-wrapper">
+                  <img
+                    class="card-img-portals d-block w-100 h-100"
+                    src="../assets/images/career-portal-by-portals.png"
+                    alt=""
+                /></a>
+                <div class="card-body card-portals-body">
+                  <div class="card-text-container card-body">
+                    <h4 class="card-title page-apps-card card-portals-name">
+                      Career Portal
+                    </h4>
+                    <p class="card-apps-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Eius adipisci dicta dignissimos neque animi ea, veritatis,
+                      provident hic consequatur ut esse! Commodi ea consequatur
+                      accusantium, beatae qui deserunt tenetur ipsa.
+                    </p>
+                    <br />
+                    <button class="btn btn-primary btn-md">
+                      <a class="button-link" href="#">Click here</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div-->
+      </section>
+    </section>
+    <section class="footer">
+      <div class="footer-container">
+        <section class="footer-wrapper">
+          <section class="inzaghis-corp-logo">
+            <a href="#" class="text-decoration-none" id="logo">
+              <img
+                src="../assets/icons/inzaghis-corp-logo-vertical-transparent.png"
+                height="60px"
+                alt="logo"
+              />
+            </a>
+          </section>
+          <section class="footer-grid">
+            <section class="footer-list">
+              <section class="footer-title">Special Pages</section>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="../pages/about.html" class="text-decoration-none"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../pages/disclaimer.html"
+                      class="text-decoration-none"
+                      >Disclaimer</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../pages/privacy-policy.html"
+                      class="text-decoration-none"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/contact.html" class="text-decoration-none"
+                      >Contact</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/portals.html" class="text-decoration-none"
+                      >Portals</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/apps.html" class="text-decoration-none"
+                      >Apps</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://medium.com/@izzumiposhaf29"
+                      class="text-decoration-none"
+                      target="_blank"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/sitemap.html" class="text-decoration-none"
+                      >Sitemap</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <section class="footer-list">
+              <section class="footer-title">Portals</section>
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      href="../portals/widgets.html"
+                      class="text-decoration-none"
+                      >Widgets</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/tech-tutorials.html"
+                      class="text-decoration-none"
+                      >Technology Tutorials</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/projects.html"
+                      class="text-decoration-none"
+                      >IT Project Lists</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/career-portal.html"
+                      class="text-decoration-none"
+                      >Career Portal</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/learning-materials.html"
+                      class="text-decoration-none"
+                      >Learning Materials</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/entertainment-portal.html"
+                      class="text-decoration-none"
+                      >Entertainment Portal</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/link-pages.html"
+                      class="text-decoration-none"
+                      >Link Pages</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/muslim-portal.html"
+                      class="text-decoration-none"
+                      >Muslims Portal</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/miscellaneous.html"
+                      class="text-decoration-none"
+                      >Miscellaneous</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/portals.html" class="text-decoration-none"
+                      >Portal Lists</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <section class="footer-list">
+              <section class="footer-title">Apps & Tools</section>
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      href="../page-apps/converter.html"
+                      class="text-decoration-none"
+                      >Converters</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/calculators.html"
+                      class="text-decoration-none"
+                      >Calculators</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/generators.html"
+                      class="text-decoration-none"
+                      >Generators</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/formatters.html"
+                      class="text-decoration-none"
+                      >Formatters</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/file-converter.html"
+                      class="text-decoration-none"
+                      >File Converter</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/utilities.html"
+                      class="text-decoration-none"
+                      >Utilities</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/tester-tools.html"
+                      class="text-decoration-none"
+                      >Tester Tools</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/apps.html" class="text-decoration-none"
+                      >Other Tools</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <section class="footer-list">
+              <section class="footer-title">Networks</section>
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      href="../inzaghis-group/inzaghis-blog.html"
+                      class="text-decoration-none"
+                      >Inzaghi's Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../inzaghis-group/inzaghis-media.html"
+                      class="text-decoration-none"
+                      >Inzaghi's Media</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/inzaghidev"
+                      class="text-decoration-none"
+                      target="_blank"
+                      >Inzaghi's Dev (GitHub)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://sites.google.com/view/inzaghis-sites"
+                      class="text-decoration-none"
+                      target="_blank"
+                      >Inzaghi's Sites (Old)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://drive.google.com/drive/folders/1gAMLO2AdXqsp75ymexKwXllKbLMTfhxa"
+                      class="text-decoration-none"
+                      target="_blank"
+                      >Inzaghi's Archives</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none" target="_blank"
+                      >Inzaghi's AI</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../pages/networks.html"
+                      class="text-decoration-none"
+                      >Inzaghi's Group Network Lists</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <section class="footer-list">
+              <section class="footer-title">Quick Link</section>
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      href="https://inzaghiposuma.wordpress.com/blog-posts"
+                      class="text-decoration-none"
+                      target="_blank"
+                      >WordPress Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://medium.com/@izzumiposhaf29"
+                      class="text-decoration-none"
+                      >Inzaghi's Sites Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://linktr.ee/inzaghigroup"
+                      class="text-decoration-none"
+                      target="_blank"
+                      >Linktree Inzaghi's Group</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <a
+                class="github-button"
+                href="https://github.com/inzaghidev/Inzaghis-Sites"
+                data-color-scheme="no-preference: light; light: light; dark: dark;"
+                data-size="large"
+                aria-label="Look at @inzaghidev"
+                >Look at @inzaghidev</a
+              >
+            </section>
+          </section>
+        </section>
+        <section class="footer-bottom">
+          <div class="footer-copyright">
+            © 2025 Inzaghi's Corp. All rights reserved.
+          </div>
+        </section>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!-- https://freefrontend.com/bootstrap-cards -->
+<!-- https://codepen.io/fernstedt/pen/mxGzor -->
+
+<!-- https://www.geeksforgeeks.org/bootstrap-5-cards-horizontal -->

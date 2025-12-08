@@ -8,7 +8,18 @@
     <script src="../js/script.js"></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      href="../cdn/swiper@11/swiper-bundle.min.css"
+      type="text/css"
+    />
+    <script src="../cdn/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
     />
     <link
       rel="stylesheet"
@@ -43,7 +54,7 @@
     <title>Converters</title>
     <link
       rel="shortcut icon"
-      href="../images/inzaghis-sites-favicon-36x36-icon-only.png"
+      href="../assets/icons/inzaghis-sites-favicon-36x36-icon-only.png"
     />
     <script type="text/javascript">
       $(document).ready(function () {
@@ -65,8 +76,8 @@
   <body>
     <div id="header-container"></div>
     <div class="container-top"></div>
-    <section class="page-apps-wrapper">
-      <div class="page-apps-container">
+    <section class="apps-portals-wrapper">
+      <div class="apps-portals-container">
         <div class="welcome-container">
           <div class="welcome-title">
             <h1 class="welcome-title">Converters</h1>
@@ -77,8 +88,10 @@
               Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian
               dari Aplikasi Konverter ini akan sedikit menggunakan API.
             </p>
-            <div class="row" id="app-container">
-              <!-- Dynamic content will be inserted here -->
+            <div class="card-grid-container">
+              <div class="row" id="app-container">
+                <!-- Dynamic content will be inserted here -->
+              </div>
             </div>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
             <script>
@@ -121,17 +134,17 @@
                     "col-md-4 col-sm-6 mb-4"
                   );
                   const card = $("<div></div>").addClass(
-                    "card h-100 shadow border border-success"
+                    "card card-apps h-100 shadow-lg border border-success card-animated"
                   );
                   const cardBody = $("<div></div>").addClass(
                     "card-body card-apps-body"
                   );
 
                   const cardTitle = $("<h5></h5>")
-                    .addClass("card-title")
+                    .addClass("card-apps-title")
                     .text(app.title);
                   const cardText = $("<p></p>")
-                    .addClass("card-text card-apps")
+                    .addClass("card-text card-apps-text card-description")
                     .text(app.text);
                   const cardLink = $("<a></a>")
                     .addClass("btn btn-primary apps-button")

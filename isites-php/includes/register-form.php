@@ -1,5 +1,5 @@
 <?php
-	$page_title = "Home";
+	$page_title = "Registration Form";
 	include('../layouts/header.php');
     include('../components/navbar/navbar.php');
 ?>

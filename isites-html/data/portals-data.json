@@ -1,0 +1,227 @@
+{
+  "": [],
+  "portals": [
+    {
+      "name": "Widgets",
+      "imgSrc": "../assets/images/widgets-by-portals.png",
+      "description": "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
+      "link": "../portals/widgets.html"
+    },
+    {
+      "name": "Technology Tutorials",
+      "imgSrc": "../assets/images/tech-tutorials-by-portals.png",
+      "description": "Merupakan kumpulan dari berbagai macam Teknologi apapun dalam bidang IT, dan sebagai Pembelajaran untuk berbagai macam Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu Komputer, Analisis Data, dan lainnya.",
+      "link": "../portals/tech-tutorials.html"
+    },
+    {
+      "name": "IT Project Lists",
+      "imgSrc": "../assets/images/it-project-lists-by-portals.png",
+      "description": "Merupakan kumpulan dari berbagai macam Proyek apapun dalam bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis Data, AI/ML, IoT, dan lainnya.",
+      "link": "../portals/projects.html"
+    },
+    {
+      "name": "Career Portal",
+      "imgSrc": "../assets/images/career-portal-by-portals.png",
+      "description": "Merupakan kumpulan dari pertanyaan-pertanyaan Wawancara seperti Wawancara Kerja, Magang, User Interview, Wawancara Teknis (Technical Interview), dan lain-lain. Portal ini juga menyediakan berbagai macam Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
+      "link": "../portals/interviews-and-thesis.html"
+    },
+    {
+      "name": "Learning Materials",
+      "imgSrc": "../assets/images/learning-materials-by-portals.png",
+      "description": "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik InformatiKa dan Umum/MKDU). Pada Portal ini juga menyediakan berbagai macam Kumpulan Materi dan Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
+      "link": "../portals/learning-materials.php"
+    },
+    {
+      "name": "Entertainment Portal",
+      "imgSrc": "../assets/images/entertainment-portal-by-portals.png",
+      "description": "Merupakan Portal untuk Pusat Hiburan seperti Kumpulan Video dan Live Streaming di YouTube, Kumpulan Akun-akun Media Sosial, hingga Kumpulan Playlist Lagu seperti Spotify.",
+      "link": "../portals/entertainment-portal.html"
+    },
+    {
+      "name": "Link Pages",
+      "imgSrc": "../assets/images/link-pages-by-portals.png",
+      "description": "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
+      "link": "../portals/link-pages.html"
+    },
+    {
+      "name": "Muslims Portal",
+      "imgSrc": "../assets/images/muslim-portal-by-portals.png",
+      "description": "Merupakan Portal untuk Kumpulan Pusat Keagamaan dan Peribadatan Islam, seperti Jadwal Shalat & Puasa, Kalender Hijriah, Kompas Arah Kiblat, hingga Al-Qur'an Digital.",
+      "link": "../portals/muslim-portal.html"
+    },
+    {
+      "name": "Miscellaneous",
+      "imgSrc": "../assets/images/miscellaneous-by-portals.png",
+      "description": "Merupakan Halaman lainnya yang tidak termasuk dari Kategori di Portal ini, dan juga tersedia untuk Halaman apa saja.",
+      "link": "../portals/miscellaneous.html"
+    },
+    {
+      "name": "Coming Soon",
+      "imgSrc": "https://via.placeholder.com/700x400",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+      "link": ""
+    }
+  ],
+  "widgets": [
+    {
+      "title": "Calendar System",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "https://sites.google.com/view/inzaghis-sites/widgets/calendar-system"
+    },
+    {
+      "title": "Date Time",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Weather",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Stocks",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    },
+    {
+      "title": "Maps",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    },
+    {
+      "title": "Islamic Portal",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "#"
+    }
+  ],
+  "link_pages": [
+    {
+      "title": "My Website",
+      "text": "Kumpulan beberapa Website yang paling berguna untuk menyimpan URL apapun.",
+      "link": "https://inzaghi-poshaf.notion.site/My-Website-d6ca325b232749c388024ef04685761d"
+    },
+    {
+      "title": "Article Post Links",
+      "text": "Kumpulan dari Artikel Postingan menarik yang ingin di Posting di Inzaghi’s Blog ataupun Inzaghi’s Media.",
+      "link": "https://inzaghi-poshaf.notion.site/Article-Post-Links-3682823378194564bd5aa946de20cb44"
+    },
+    {
+      "title": "Website Links",
+      "text": "Merupakan kumpulan Tautan yang berisi Situs-situs apa saja yang berasal dari berbagai Sumber.",
+      "link": "https://inzaghi-poshaf.notion.site/All-Websites-0b021ced5c5e4f208d82ad41c77f2134"
+    },
+    {
+      "title": "Article Archives",
+      "text": "Merupakan Kumpulan dari Arsip-arsip Artikel apapun yang berasal dari Internet, baik itu dari Website maupun dari Arsip-arsip Blog. Juga untuk Memindahkan dari beberapa Situs untuk bisa dan diakses dari berbagai macam Media (Perangkat Elektronik/Gadget).",
+      "link": "https://inzaghi-poshaf.notion.site/Article-Archives-1d0b4c85740a8040b2d8db041ec30f7d"
+    },
+    {
+      "title": "News Articles",
+      "text": "Merupakan kumpulan Tautan yang berisi tentang Artikel-artikel Berita, dan dari beberapa Situs-situs Berita dan Media-media Digital.",
+      "link": "https://inzaghi-poshaf.notion.site/News-Articles-1d0b4c85740a80dba642e3653a04e087"
+    },
+    {
+      "title": "TikTok Links",
+      "text": "Yaitu kumpulan dari Link/Tautan dari Postingan di TikTok.",
+      "link": "https://inzaghi-poshaf.notion.site/TikTok-Links-1c7b4c85740a8021b7ccf89fc0285065"
+    },
+    {
+      "title": "YouTube Links",
+      "text": "Kumpulan dari beberapa Tautan Video dari YouTube untuk bisa ditonton dan diakses dari bebegai macam Media (Perangkat Elektronik/Gadget).",
+      "link": "https://inzaghi-poshaf.notion.site/YouTube-Links-854cf481555b470c98c380ab79b1c796"
+    },
+    {
+      "title": "Google Links",
+      "text": "Merupakan kumpulan beberapa Situs yang berasal dari Google seperti Google Doodle, Hasil Pencarian dengan Kata Kunci (Keyword) Terbaik di Google Search, dan juga Tautan lainnya tentang Informasi, dan lain-lainnya dari Google.",
+      "link": "https://inzaghi-poshaf.notion.site/Google-Links-d13b2b956f0c4aa5916d927ce897f08b"
+    },
+    {
+      "title": "GitHub Links",
+      "text": "Merupakan kumpulan dari Link/Tautan dari GitHub seperti Repository atau yang berkaitan lainnya.",
+      "link": "https://inzaghi-poshaf.notion.site/GitHub-Links-1c400c86dacc465bbf39e2ccbd9231c6"
+    },
+    {
+      "title": "Stack Overflow Links",
+      "text": "Merupakan kumpulan dari Link/Tautan yang berkaitan dari Stack Overflow dan Stack Exchange.",
+      "link": "https://inzaghi-poshaf.notion.site/Stack-Overflow-Links-dec550bb04ef4a448e6c720c8bf41f3f"
+    },
+    {
+      "title": "LinkedIn Links",
+      "text": "Merupakan kumpulan dari Link/Tautan dari LinkedIn seperti Akun-akun Pengguna (Postingan), Akun Perusahaan, hingga Link untuk Lowongan Kerja.",
+      "link": "https://inzaghi-poshaf.notion.site/LinkedIn-Links-19cb4c85740a807ca26bd77acf7349fb"
+    },
+    {
+      "title": "Kaggle Links",
+      "text": "Merupakan kumpulan dari Link/Tautan dari Kaggle untuk menyimpan Dataset apapun.",
+      "link": "https://inzaghi-poshaf.notion.site/Kaggle-Links-19cb4c85740a801aa09ee7e9efbc2157"
+    },
+    {
+      "title": "Reddit Links",
+      "text": "Yaitu kumpulan dari Link/Tautan dari Postingan-postingan di Reddit.",
+      "link": "https://inzaghi-poshaf.notion.site/Reddit-Links-1cdb4c85740a80bfa081d89ed812b1e7"
+    },
+    {
+      "title": "Twitter Links",
+      "text": "Yaitu kumpulan dari Link/Tautan dari Postingan di X (Twitter).",
+      "link": "https://inzaghi-poshaf.notion.site/Twitter-Links-b5726f76b82e40beb58c7f2d09f83e7e"
+    },
+    {
+      "title": "Instagram Links",
+      "text": "Yaitu kumpulan dari Link/Tautan dari Postingan di Instagram.",
+      "link": "https://inzaghi-poshaf.notion.site/Instagram-Links-342ee8b1c62f4bde9e08bfe4674e683e"
+    },
+    {
+      "title": "Paper Journal Links",
+      "text": "Kumpulan dari Link/Tautan untuk Referensi Paper/Jurnal yang berasal dari Google Scholar, Science Direct, dll.",
+      "link": "https://inzaghi-poshaf.notion.site/Paper-Journal-Links-1c48276c6c024500a4d2e71f9bb1b702"
+    },
+    {
+      "title": "E-Book Links",
+      "text": "Kumpulan dari Link/Tautan untuk E-Book atau Buku Elektronik yang berasal dari Google Books dan sumber lainnya yang berformat PDF.",
+      "link": "https://inzaghi-poshaf.notion.site/E-Book-Links-219b4c85740a8048b7a4e6f6ae2ca349"
+    },
+    {
+      "title": "Twibbon Links",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "https://inzaghi-poshaf.notion.site/Twibbon-Links-5935d1edcd6249ae8c358d7831c1941f"
+    },
+    {
+      "title": "App x",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    }
+  ],
+  "miscellaneous": [
+    {
+      "title": "Programming Codes & UI Elements",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "https://inzaghi-poshaf.notion.site/Programming-Codes-UI-Elements-a99dadc9f4e84480b705f05e35e67270"
+    },
+    {
+      "title": "Calendar System & Event Summary",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "https://inzaghi-poshaf.notion.site/Calendar-System-Summary-Events-2fdf303bab424c1ca6f8d7210c016128"
+    },
+    {
+      "title": "Artist Song Name Lists",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "https://padlet.com/izzumiposhaf29/artist-song-name-lists-m9siq387pp5ka5pv"
+    },
+    {
+      "title": "Ordinals and Hyperoperations (Googology)",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "https://inzaghi-poshaf.notion.site/Googology-Hyperoperation-Portal-20cb4c85740a80db9512ebb73d7e9e36"
+    },
+    {
+      "title": "17+8 People's Demands (17+8 Tuntutan Rakyat)",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "https://inzaghi-poshaf.notion.site/17-8-People-s-Demands-17-8-Tuntutan-Rakyat-265b4c85740a80879e17e2790aa2e14a"
+    },
+    {
+      "title": "App 6",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+      "link": "#"
+    }
+  ],
+  "": []
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+    <script src="../js/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="../cdn/swiper@11/swiper-bundle.min.css"
+      type="text/css"
+    />
+    <script src="../cdn/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../bootstrap/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../jquery/jquery-3.7.1.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Tech Tutorials</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/icons/inzaghis-sites-favicon-36x36-icon-only.png"
+    />
+    <script type="text/javascript">
+      $(document).ready(function () {
+        console.log("Document Ready");
+
+        // Memuat header ke dalam halaman
+        $("#header-container").load("../layouts/header.html");
+
+        // Memuat footer ke dalam halaman
+        $("#footer-container").load("../layouts/footer.html");
+      });
+    </script>
+    <!--script>
+      $(document).ready(function () {
+        window.location.replace("../pages/sitemap.php");
+      });
+    </script-->
+  </head>
+  <body>
+    <div id="header-container"></div>
+    <div class="container-top"></div>
+    <section class="apps-portals-wrapper">
+      <div class="apps-portals-container">
+        <div class="welcome-container">
+          <div class="welcome-title">
+            <h1 class="welcome-title">Tech Tutorials</h1>
+          </div>
+          <section class="pages">
+            <div class="card-body card-apps card shadow border border-success">
+              <p class="is-desc">
+                Merupakan kumpulan dari berbagai macam Teknologi apapun dalam
+                bidang IT, dan sebagai Pembelajaran untuk berbagai macam
+                Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu
+                Komputer, Analisis Data, dan lainnya.
+              </p>
+              <section>
+                <a
+                  href="https://sites.google.com/view/inzaghis-sites/pages/technology-tutorials"
+                  target="_blank"
+                  class="description-button"
+                  >Click here</a
+                >
+              </section>
+            </div>
+            <br />
+            <div class="row" id="app-container">
+              <!-- Dynamic content will be inserted here -->
+            </div>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+              $(document).ready(function () {
+                // Data for the apps
+                const apps = [
+                  {
+                    title: "App 1",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 2",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 3",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 4",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 5",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                  {
+                    title: "App 6",
+                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    link: "#",
+                  },
+                ];
+
+                // Get the container where the cards will be appended
+                const appContainer = $("#app-container");
+
+                // Loop through the apps data and create the HTML elements
+                apps.forEach((app) => {
+                  const column = $("<div></div>").addClass(
+                    "col-md-4 col-sm-6 mb-4"
+                  );
+                  const card = $("<div></div>").addClass(
+                    "card card-apps h-100 shadow-lg border border-success card-animated"
+                  );
+                  const cardBody = $("<div></div>").addClass(
+                    "card-body card-apps-body"
+                  );
+
+                  const cardTitle = $("<h5></h5>")
+                    .addClass("card-apps-title")
+                    .text(app.title);
+                  const cardText = $("<p></p>")
+                    .addClass("card-text card-apps-text card-description")
+                    .text(app.text);
+                  const cardLink = $("<a></a>")
+                    .addClass("btn btn-primary apps-button")
+                    .attr("href", app.link)
+                    .text("Click here");
+
+                  cardBody.append(cardTitle, cardText, cardLink);
+                  card.append(cardBody);
+                  column.append(card);
+                  appContainer.append(column);
+                });
+              });
+            </script>
+          </section>
+        </div>
+      </div>
+    </section>
+    <div id="footer-container"></div>
+  </body>
+</html>

@@ -17,10 +17,20 @@
     <link rel="stylesheet" href="../css/reset.css" type="text/css" />
     <script src="../js/script.js"></script>
     <script src="../components/navbar/navbar.js"></script>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      href="../cdn/swiper@11/swiper-bundle.min.css"
+      type="text/css"
+    />
+    <script src="../cdn/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
     />
     <link
       rel="stylesheet"
@@ -44,6 +54,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="../jquery/jquery-3.7.1.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -55,7 +66,7 @@
     <title>Inzaghi's Group Network</title>
     <link
       rel="shortcut icon"
-      href="../images/inzaghis-sites-favicon-36x36-icon-only.png"
+      href="../assets/icons/inzaghis-sites-favicon-36x36-icon-only.png"
     />
     <!--script>
       $(document).ready(function () {
@@ -68,7 +79,7 @@
       <nav class="navbar" id="navbar">
         <a href="../public/index.html" id="logo">
           <img
-            src="../images/inzaghis-sites-logo-vertical-transparent.png"
+            src="../assets/icons/inzaghis-sites-logo-vertical-transparent.png"
             title="Inzaghi's Sites"
             height="60px"
             alt="logo"
@@ -80,29 +91,290 @@
               <li>
                 <a href="../public/index.html">Home</a>
               </li>
-              <li><a href="https://medium.com/@izzumiposhaf29">Blog</a></li>
-              <li>
-                <a href="../pages/apps.html">Page Apps</a>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a>Blogs</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a
+                      href="https://medium.com/@izzumiposhaf29"
+                      class="dropdown-link"
+                      >Inzaghi's Group Blog</a
+                    >
+                    <a
+                      href="https://inzaghiposuma.wordpress.com/blog-posts"
+                      class="dropdown-link"
+                      >WordPress Blog</a
+                    >
+                  </nav>
+                </div>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a href="../pages/portals.html">Portals</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a href="../portals/widgets.html" class="dropdown-link"
+                      >Widgets</a
+                    >
+                    <a
+                      href="../portals/tech-tutorials.html"
+                      class="dropdown-link"
+                      >Technology Tutorials</a
+                    >
+                    <a href="../portals/projects.html" class="dropdown-link"
+                      >IT Project Lists</a
+                    >
+                    <a
+                      href="../portals/career-portal.html"
+                      class="dropdown-link"
+                      >Career Portal</a
+                    >
+                    <a
+                      href="../portals/learning-materials.html"
+                      class="dropdown-link"
+                      >Learning Materials</a
+                    >
+                    <a
+                      href="../portals/entertainment-portal.html"
+                      class="dropdown-link"
+                      >Entertainment Portal</a
+                    >
+                    <a href="../portals/link-pages.html" class="dropdown-link"
+                      >Link Pages</a
+                    >
+                    <a
+                      href="../portals/muslim-portal.html"
+                      class="dropdown-link"
+                      >Muslims Portal</a
+                    >
+                    <a
+                      href="../portals/miscellaneous.html"
+                      class="dropdown-link"
+                      >Miscellaneous</a
+                    >
+                  </nav>
+                </div>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a href="../pages/apps.html">Apps</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a href="../page-apps/converter.html" class="dropdown-link"
+                      >Converters</a
+                    >
+                    <a
+                      href="../page-apps/calculators.html"
+                      class="dropdown-link"
+                      >Calculators</a
+                    >
+                    <a href="../page-apps/generators.html" class="dropdown-link"
+                      >Generators</a
+                    >
+                    <a href="../page-apps/formatters.html" class="dropdown-link"
+                      >Formatters</a
+                    >
+                    <a
+                      href="../page-apps/file-converter.html"
+                      class="dropdown-link"
+                      >File Converter</a
+                    >
+                    <a href="../page-apps/utilities.html" class="dropdown-link"
+                      >Utilities</a
+                    >
+                    <a
+                      href="../page-apps/tester-tools.html"
+                      class="dropdown-link"
+                      >Tester Tools</a
+                    >
+                  </nav>
+                </div>
               </li>
               <li>
                 <a href="../pages/contact.html">Contact</a>
               </li>
-              <li>
-                <a href="../pages/profile.html">Profile</a>
-              </li>
-              <li>
-                <a href="../pages/about.html">About</a>
-              </li>
-              <li>
-                <a href="../pages/networks.html">Inzaghi's Group</a>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a>About &amp; Profile</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
+                    <a href="../pages/about.html" class="dropdown-link"
+                      >About</a
+                    >
+                    <a href="../pages/profile.html" class="dropdown-link"
+                      >Profile</a
+                    >
+                  </nav>
+                </div>
               </li>
               <li class="dropdown">
                 <div class="nav-dropdown-toggle w-dropdown-toggle">
-                  <div class="text-block">
+                  <div class="text-block dropdown-button">
+                    <a href="../pages/networks.html">Inzaghi's Group</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="nav-dropdown-list nav-dropdown-list--open">
                     <a
-                      >Switch to Another Site
-                      <ion-icon name="chevron-down-outline"></ion-icon>
-                    </a>
+                      href="../inzaghis-group/inzaghis-blog.html"
+                      class="dropdown-link"
+                      >Inzaghi's Blog</a
+                    >
+                    <a
+                      href="../inzaghis-group/inzaghis-media.html"
+                      class="dropdown-link"
+                      >Inzaghi's Media</a
+                    >
+                    <a
+                      href="../inzaghis-group/inzaghis-dev.html"
+                      class="dropdown-link"
+                      >Inzaghi's Dev</a
+                    >
+                    <a
+                      href="../inzaghis-group/inzaghis-archives.html"
+                      class="dropdown-link"
+                      >Inzaghi's Archives</a
+                    >
+                    <a
+                      href="../inzaghis-group/inzaghis-app.html"
+                      class="dropdown-link"
+                      >Inzaghi's App</a
+                    >
+                    <a
+                      href="../inzaghis-group/inzaghis-ai.html"
+                      class="dropdown-link"
+                      >Inzaghi's AI</a
+                    >
+                  </nav>
+                </div>
+              </li>
+              <li class="dropdown">
+                <div class="nav-dropdown-toggle w-dropdown-toggle">
+                  <div class="text-block dropdown-button">
+                    <a>Switch to</a>
+                    <div class="dropdown-icon">
+                      <svg
+                        class="angle-down-icon pointer-events-none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                      >
+                        <title>chevron-down-outline</title>
+                        <g fill="none">
+                          <path
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
                   </div>
                   <nav class="nav-dropdown-list nav-dropdown-list--open">
                     <a
@@ -156,7 +428,7 @@
           </div>
           <div class="about-us-image-to-inzaghis-group">
             <img
-              src="../images/inzaghis-group-partners.png"
+              src="../assets/images/inzaghis-group-partners.png"
               alt="Inzaghi's Sites"
               style="width: 600px"
             />
@@ -170,7 +442,7 @@
           <section class="group-content">
             <section class="group-image">
               <img
-                src="../images/inzaghis-blog-by-inzaghis-group-corp.png"
+                src="../assets/images/inzaghis-blog-by-inzaghis-group-corp.png"
                 alt="Inzaghi's Blog"
                 style="width: 600px"
               />
@@ -185,7 +457,7 @@
               </p>
               <section class="group-button">
                 <a
-                  href="../pages/inzaghis-group/inzaghis-blog.html"
+                  href="../inzaghis-group/inzaghis-blog.html"
                   class="main-button"
                   >Click here</a
                 >
@@ -196,14 +468,14 @@
         <div class="container inzaghisblog">
           <div class="row">
             <div class="col-md-4 col-sm-6 mb-4">
-              <div class="card h-100 border-0 shadow">
+              <div class="card card-apps h-100 border-0 shadow">
                 <img
-                  src="../images/inzaghis-blog-legacy.png"
-                  class="card-img-top"
+                  src="../assets/images/inzaghis-blog-legacy.png"
+                  class="card-img-apps card-img-top"
                   alt="Inzaghi's Blog Legacy"
                 />
                 <div class="card-body text-center blog-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title blog-name">Inzaghi's Blog Legacy</h5>
                     <p class="card-text blog-description">
                       Merupakan Blog Lama yang sudah tersedia sejak Tahun 2018,
@@ -217,7 +489,7 @@
                     <a
                       href="https://inzaghiposuma.blogspot.com"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Klik di sini</a
                     >
                   </button>
@@ -225,14 +497,14 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-6 mb-4">
-              <div class="card h-100 border-0 shadow">
+              <div class="card card-apps h-100 border-0 shadow">
                 <img
-                  src="../images/teknoblog-by-inzaghis-blog.png"
-                  class="card-img-top"
+                  src="../assets/images/teknoblog-by-inzaghis-blog.png"
+                  class="card-img-apps card-img-top"
                   alt="Teknoblog - Inzaghi's Blog"
                 />
                 <div class="card-body text-center blog-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title blog-name">Teknoblog</h5>
                     <p class="card-text blog-description">
                       Merupakan Pindahan dari Blog Lama yang bernama Inzaghi's
@@ -247,7 +519,7 @@
                     <a
                       href="https://enzatech.blogspot.com"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Klik di sini</a
                     >
                   </button>
@@ -255,14 +527,14 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-6 mb-4">
-              <div class="card h-100 border-0 shadow">
+              <div class="card card-apps h-100 border-0 shadow">
                 <img
-                  src="../images/miniblog-by-inzaghis-blog.png"
-                  class="card-img-top"
+                  src="../assets/images/miniblog-by-inzaghis-blog.png"
+                  class="card-img-apps card-img-top"
                   alt="Miniblog - Inzaghi's Blog"
                 />
                 <div class="card-body text-center blog-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title blog-name">Miniblog</h5>
                     <p class="card-text blog-description">
                       Merupakan Blog khusus Microblogging, terutama untuk
@@ -277,7 +549,7 @@
                     <a
                       href="https://enzashorts.blogspot.com"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Klik di sini</a
                     >
                   </button>
@@ -294,7 +566,7 @@
           <section class="group-content reverse-content">
             <section class="group-image">
               <img
-                src="../images/inzaghis-media-by-inzaghis-group-corp.png"
+                src="../assets/images/inzaghis-media-by-inzaghis-group-corp.png"
                 alt="Inzaghi's Media"
                 style="width: 600px"
               />
@@ -307,7 +579,7 @@
               </p>
               <section class="group-button">
                 <a
-                  href="../pages/inzaghis-group/inzaghis-media.html"
+                  href="../inzaghis-group/inzaghis-media.html"
                   class="main-button"
                   >Click here</a
                 >
@@ -320,12 +592,12 @@
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
               <div class="border-0 h-100 shadow opacity-75 socmed-card">
                 <img
-                  src="../images/instagram-logo-icon.png"
+                  src="../assets/icons/instagram-logo-icon.png"
                   class="card mt-4 socmed-icon"
                   alt="Instagram Logo"
                 />
                 <div class="card-body text-center socmed-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title socmed-name">Instagram</h5>
                     <p class="card-text socmed-description">
                       Sebagai Postingan berbentuk Gambar Persegi dan sebagai
@@ -339,7 +611,7 @@
                     <a
                       href="https://www.instagram.com/enzapost"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >@enzapost</a
                     >
                   </button>
@@ -349,12 +621,12 @@
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
               <div class="border-0 h-100 shadow opacity-75 socmed-card">
                 <img
-                  src="../images/tiktok-logo-icon.png"
+                  src="../assets/icons/tiktok-logo-icon.png"
                   class="card mt-4 socmed-icon"
                   alt="TikTok Logo"
                 />
                 <div class="card-body text-center socmed-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title socmed-name">TikTok</h5>
                     <p class="card-text socmed-description">
                       Sebagai Postingan berbentuk Video Vertikal (Portrait) yang
@@ -369,7 +641,7 @@
                     <a
                       href="https://www.tiktok.com/@enzapostmedia"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >@enzapostmedia</a
                     >
                   </button>
@@ -379,12 +651,12 @@
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
               <div class="border-0 h-100 shadow opacity-75 socmed-card">
                 <img
-                  src="../images/youtube-logo-icon.png"
+                  src="../assets/icons/youtube-logo-icon.png"
                   class="card mt-4 socmed-icon"
                   alt="YouTube Logo"
                 />
                 <div class="card-body text-center socmed-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title socmed-name">YouTube</h5>
                     <p class="card-text socmed-description">
                       Sebagai sebuah Channel yang berbentuk Video seperti
@@ -398,7 +670,7 @@
                     <a
                       href="https://www.youtube.com/@enzavlogpost"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >Inzaghi's Media</a
                     >
                   </button>
@@ -408,12 +680,12 @@
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
               <div class="border-0 h-100 shadow opacity-75 socmed-card">
                 <img
-                  src="../images/twitter-x-logo.png"
+                  src="../assets/icons/twitter-x-logo.png"
                   class="card mt-4 socmed-icon"
                   alt="Twitter Logo"
                 />
                 <div class="card-body text-center socmed-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title socmed-name">X (Twitter)</h5>
                     <p class="card-text socmed-description">
                       Sebagai Postingan berbentuk Repost/Retweet,
@@ -428,7 +700,7 @@
                     <a
                       href="https://x.com/InzaTechMedia"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >@InzaTechMedia</a
                     >
                   </button>
@@ -438,12 +710,12 @@
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
               <div class="border-0 h-100 shadow opacity-75 socmed-card">
                 <img
-                  src="../images/threads-logo-icon.png"
+                  src="../assets/icons/threads-logo-icon.png"
                   class="card mt-4 socmed-icon"
                   alt="Threads Logo"
                 />
                 <div class="card-body text-center socmed-text">
-                  <div class="card-apps">
+                  <div class="card-description">
                     <h5 class="card-title socmed-name">Threads</h5>
                     <p class="card-text socmed-description">
                       Sama seperti di X, Sebagai Postingan berbentuk Repost,
@@ -458,7 +730,7 @@
                     <a
                       href="https://www.threads.net/@enzapost"
                       target="_blank"
-                      class="blog-link"
+                      class="button-link"
                       >@enzapost</a
                     >
                   </button>
@@ -474,7 +746,7 @@
         <section class="group-content">
           <section class="group-image">
             <img
-              src="../images/inzaghis-dev-by-inzaghis-group-corp.png"
+              src="../assets/images/inzaghis-dev-by-inzaghis-group-corp.png"
               alt="Inzaghi's Dev"
               style="width: 600px"
             />
@@ -503,7 +775,7 @@
         <section class="group-content reverse-content">
           <section class="group-image">
             <img
-              src="../images/inzaghis-app-by-inzaghis-group-corp.png"
+              src="../assets/images/inzaghis-app-by-inzaghis-group-corp.png"
               alt="Inzaghi's App"
               style="width: 600px"
             />
@@ -517,7 +789,9 @@
               Inzaghi's App akan tersedia dalam Versi Android dan iOS.
             </p>
             <section class="group-button">
-              <a href="#" class="main-button">Click here</a>
+              <a href="../inzaghis-group/inzaghis-app.html" class="main-button"
+                >Click here</a
+              >
             </section>
           </section>
         </section>
@@ -528,7 +802,7 @@
         <section class="group-content">
           <section class="group-image">
             <img
-              src="../images/inzaghis-archives-by-inzaghis-group-corp.png"
+              src="../assets/images/inzaghis-archives-by-inzaghis-group-corp.png"
               alt="Inzaghi's App"
               style="width: 600px"
             />
@@ -536,12 +810,12 @@
           <section class="content-description">
             <h2 class="group-title">Inzaghi's Archives</h2>
             <p class="left-subheading">
-              Inzaghi’s Archives merupakan Pengarsipan File-file dalam bentuk
+              Inzaghi's Archives merupakan Pengarsipan File-file dalam bentuk
               Dokumen seperti Dokumen/Word (.doc), Excel (.xls),
               PowerPoint/Slide/Presentasi/PPT (.ppt), PDF (.pdf), dan File
               berbentuk Zip (.zip dan .rar). File-file Dokumen yang disimpan di
-              Inzaghi’s Archives untuk ditampilkan beberapa Layanan seperti
-              Inzaghi’s Blog dan Inzaghi’s Sites.
+              Inzaghi's Archives untuk ditampilkan beberapa Layanan seperti
+              Inzaghi's Blog dan Inzaghi's Sites.
             </p>
             <section class="group-button">
               <a
@@ -560,7 +834,7 @@
         <section class="group-content reverse-content">
           <section class="group-image">
             <img
-              src="../images/inzaghis-ai-by-inzaghis-group-corp.png"
+              src="../assets/images/inzaghis-ai-by-inzaghis-group-corp.png"
               alt="Inzaghi's App"
               style="width: 600px"
             />
@@ -568,144 +842,325 @@
           <section class="content-description">
             <h2 class="group-title">Inzaghi's AI</h2>
             <p class="left-subheading">
-              Inzaghi’s AI merupakan Platform berbasis Kecerdasan Buatan (AI)
-              yang akan tersedia di Inzaghi’s Sites (Web) dan Inzaghi’s App
-              (Mobile). Inzaghi’s AI juga menyediakan Chatbot Artificial
-              Intelligence (AI) seperti ChatGPT, Image Generator berbasis AI,
-              hingga Aplikasi lainnya yang berbasis AI dan menggunakan API
-              Key-nya OpenAI dan sumber lainnya.
+              Inzaghi's AI merupakan Platform berbasis Kecerdasan Buatan (AI)
+              yang akan tersedia di Inzaghi's Sites (Web) dan Inzaghi's App
+              (Mobile). Inzaghi's AI juga menyediakan Chatbot Artificial
+              Intelligence (AI) seperti ChatGPT/Gemini, Image Generator berbasis
+              AI, hingga Tools/Aplikasi lainnya yang berbasis AI dan menggunakan
+              AI-API Key apapun.
             </p>
             <section class="group-button">
-              <a href="#" class="main-button">Click here</a>
+              <a href="../inzaghis-group/inzaghis-ai.html" class="main-button"
+                >Click here</a
+              >
             </section>
           </section>
         </section>
       </section>
     </section>
-    <section class="inzaghis-shop"></section>
     <section class="footer">
       <div class="footer-container">
         <section class="footer-wrapper">
           <section class="inzaghis-corp-logo">
-            <a href="#" id="logo">
+            <a href="#" class="text-decoration-none" id="logo">
               <img
-                src="../images/inzaghis-corp-logo-vertical-transparent.png"
+                src="../assets/icons/inzaghis-corp-logo-vertical-transparent.png"
                 height="60px"
                 alt="logo"
               />
             </a>
           </section>
-          <section class="special-pages">
-            <section class="footer-title">Special Pages</section>
-            <nav>
-              <ul>
-                <li><a href="../pages/about.html">About</a></li>
-                <li>
-                  <a href="../pages/disclaimer.html">Disclaimer</a>
-                </li>
-                <li>
-                  <a href="../pages/privacy-policy.html">Privacy Policy</a>
-                </li>
-                <li><a href="../pages/contact.html">Contact</a></li>
-                <li><a href="../pages/apps.html">Apps</a></li>
-                <li>
-                  <a href="https://medium.com/@izzumiposhaf29" target="_blank"
-                    >Blog</a
-                  >
-                </li>
-                <li><a href="../pages/sitemap.html">Sitemap</a></li>
-              </ul>
-            </nav>
-          </section>
-          <section class="apps-tools">
-            <section class="footer-title">Apps & Tools</section>
-            <nav>
-              <ul>
-                <li><a href="../page-apps/pages.html">Pages</a></li>
-                <li><a href="../page-apps/widgets.html">Widgets</a></li>
-                <li><a href="../page-apps/converter.html">Converters</a></li>
-                <li><a href="../page-apps/calculators.html">Calculators</a></li>
-                <li><a href="../page-apps/generators.html">Generators</a></li>
-                <li><a href="../page-apps/formatters.html">Formatters</a></li>
-                <li>
-                  <a href="../page-apps/file-converter.html">File Converter</a>
-                </li>
-                <li><a href="#">Other Tools</a></li>
-              </ul>
-            </nav>
-          </section>
-          <section class="network">
-            <section class="footer-title">Networks</section>
-            <nav>
-              <ul>
-                <li>
-                  <a href="../pages/inzaghis-group/inzaghis-blog.html"
-                    >Inzaghi's Blog</a
-                  >
-                </li>
-                <li>
-                  <a href="../pages/inzaghis-group/inzaghis-media.html"
-                    >Inzaghi's Media</a
-                  >
-                </li>
-                <li>
-                  <a href="https://github.com/inzaghidev" target="_blank"
-                    >Inzaghi's Dev (GitHub)</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://sites.google.com/view/inzaghis-sites"
-                    target="_blank"
-                    >Inzaghi's Sites (Old)</a
-                  >
-                </li>
-                <li><a href="#">Inzaghi's Archives</a></li>
-                <li><a href="#">Inzaghi's AI</a></li>
-                <li>
-                  <a href="../pages/networks.html"
-                    >Inzaghi's Group Network Lists</a
-                  >
-                </li>
-              </ul>
-            </nav>
-          </section>
-          <section class="quick-link">
-            <section class="footer-title">Quick Link</section>
-            <nav>
-              <ul>
-                <li>
-                  <a
-                    href="https://inzaghiposuma.wordpress.com/blog-posts"
-                    target="_blank"
-                    >WordPress Blog</a
-                  >
-                </li>
-                <li>
-                  <a href="https://medium.com/@izzumiposhaf29"
-                    >Inzaghi's Sites Blog</a
-                  >
-                </li>
-                <li>
-                  <a href="https://linktr.ee/inzaghigroup" target="_blank"
-                    >Linktree Inzaghi's Group</a
-                  >
-                </li>
-              </ul>
-            </nav>
-            <a
-              class="github-button"
-              href="https://github.com/inzaghidev/Inzaghis-Sites"
-              data-color-scheme="no-preference: light; light: light; dark: dark;"
-              data-size="large"
-              aria-label="Look at @inzaghidev"
-              >Look at @inzaghidev</a
-            >
+          <section class="footer-grid">
+            <section class="footer-list">
+              <section class="footer-title">Special Pages</section>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="../pages/about.html" class="text-decoration-none"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../pages/disclaimer.html"
+                      class="text-decoration-none"
+                      >Disclaimer</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../pages/privacy-policy.html"
+                      class="text-decoration-none"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/contact.html" class="text-decoration-none"
+                      >Contact</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/portals.html" class="text-decoration-none"
+                      >Portals</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/apps.html" class="text-decoration-none"
+                      >Apps</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://medium.com/@izzumiposhaf29"
+                      class="text-decoration-none"
+                      target="_blank"
+                      >Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/sitemap.html" class="text-decoration-none"
+                      >Sitemap</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <section class="footer-list">
+              <section class="footer-title">Portals</section>
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      href="../portals/widgets.html"
+                      class="text-decoration-none"
+                      >Widgets</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/tech-tutorials.html"
+                      class="text-decoration-none"
+                      >Technology Tutorials</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/projects.html"
+                      class="text-decoration-none"
+                      >IT Project Lists</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/career-portal.html"
+                      class="text-decoration-none"
+                      >Career Portal</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/learning-materials.html"
+                      class="text-decoration-none"
+                      >Learning Materials</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/entertainment-portal.html"
+                      class="text-decoration-none"
+                      >Entertainment Portal</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/link-pages.html"
+                      class="text-decoration-none"
+                      >Link Pages</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/muslim-portal.html"
+                      class="text-decoration-none"
+                      >Muslims Portal</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../portals/miscellaneous.html"
+                      class="text-decoration-none"
+                      >Miscellaneous</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/portals.html" class="text-decoration-none"
+                      >Portal Lists</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <section class="footer-list">
+              <section class="footer-title">Apps & Tools</section>
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      href="../page-apps/converter.html"
+                      class="text-decoration-none"
+                      >Converters</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/calculators.html"
+                      class="text-decoration-none"
+                      >Calculators</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/generators.html"
+                      class="text-decoration-none"
+                      >Generators</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/formatters.html"
+                      class="text-decoration-none"
+                      >Formatters</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/file-converter.html"
+                      class="text-decoration-none"
+                      >File Converter</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/utilities.html"
+                      class="text-decoration-none"
+                      >Utilities</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../page-apps/tester-tools.html"
+                      class="text-decoration-none"
+                      >Tester Tools</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/apps.html" class="text-decoration-none"
+                      >Other Tools</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <section class="footer-list">
+              <section class="footer-title">Networks</section>
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      href="../inzaghis-group/inzaghis-blog.html"
+                      class="text-decoration-none"
+                      >Inzaghi's Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../inzaghis-group/inzaghis-media.html"
+                      class="text-decoration-none"
+                      >Inzaghi's Media</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/inzaghidev"
+                      class="text-decoration-none"
+                      target="_blank"
+                      >Inzaghi's Dev (GitHub)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://sites.google.com/view/inzaghis-sites"
+                      class="text-decoration-none"
+                      target="_blank"
+                      >Inzaghi's Sites (Old)</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://drive.google.com/drive/folders/1gAMLO2AdXqsp75ymexKwXllKbLMTfhxa"
+                      class="text-decoration-none"
+                      target="_blank"
+                      >Inzaghi's Archives</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none" target="_blank"
+                      >Inzaghi's AI</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="../pages/networks.html"
+                      class="text-decoration-none"
+                      >Inzaghi's Group Network Lists</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <section class="footer-list">
+              <section class="footer-title">Quick Link</section>
+              <nav>
+                <ul>
+                  <li>
+                    <a
+                      href="https://inzaghiposuma.wordpress.com/blog-posts"
+                      class="text-decoration-none"
+                      target="_blank"
+                      >WordPress Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://medium.com/@izzumiposhaf29"
+                      class="text-decoration-none"
+                      >Inzaghi's Sites Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://linktr.ee/inzaghigroup"
+                      class="text-decoration-none"
+                      target="_blank"
+                      >Linktree Inzaghi's Group</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <a
+                class="github-button"
+                href="https://github.com/inzaghidev/Inzaghis-Sites"
+                data-color-scheme="no-preference: light; light: light; dark: dark;"
+                data-size="large"
+                aria-label="Look at @inzaghidev"
+                >Look at @inzaghidev</a
+              >
+            </section>
           </section>
         </section>
         <section class="footer-bottom">
           <div class="footer-copyright">
-            © 2024 Inzaghi's Corp. All rights reserved.
+            © 2025 Inzaghi's Corp. All rights reserved.
           </div>
         </section>
       </div>

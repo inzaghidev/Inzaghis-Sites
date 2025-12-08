@@ -9,7 +9,18 @@
 <script src="../../components/navbar/navbar.js"></script>
 <link
   rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  href="../cdn/swiper@11/swiper-bundle.min.css"
+  type="text/css"
+/>
+<script src="../cdn/swiper@11/swiper-bundle.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
 />
 <link
   rel="stylesheet"
@@ -46,7 +57,7 @@
   <nav class="navbar" id="navbar">
     <a href="../../public/index.html" id="logo">
       <img
-        src="../../images/inzaghis-sites-logo-vertical-transparent.png"
+        src="../../assets/icons/inzaghis-sites-logo-vertical-transparent.png"
         title="Inzaghi's Sites"
         height="60px"
         alt="logo"
@@ -58,29 +69,280 @@
           <li>
             <a href="../../public/index.html">Home</a>
           </li>
-          <li><a href="https://medium.com/@izzumiposhaf29">Blog</a></li>
-          <li>
-            <a href="../../pages/apps.html">Page Apps</a>
+          <li class="dropdown">
+            <div class="nav-dropdown-toggle w-dropdown-toggle">
+              <div class="text-block dropdown-button">
+                <a>Blogs</a>
+                <div class="dropdown-icon">
+                  <svg
+                    class="angle-down-icon pointer-events-none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down-outline</title>
+                    <g fill="none">
+                      <path
+                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <nav class="nav-dropdown-list nav-dropdown-list--open">
+                <a
+                  href="https://medium.com/@izzumiposhaf29"
+                  class="dropdown-link"
+                  >Inzaghi's Group Blog</a
+                >
+                <a
+                  href="https://inzaghiposuma.wordpress.com/blog-posts"
+                  class="dropdown-link"
+                  >WordPress Blog</a
+                >
+              </nav>
+            </div>
+          </li>
+          <li class="dropdown">
+            <div class="nav-dropdown-toggle w-dropdown-toggle">
+              <div class="text-block dropdown-button">
+                <a href="../../pages/portals.html">Portals</a>
+                <div class="dropdown-icon">
+                  <svg
+                    class="angle-down-icon pointer-events-none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down-outline</title>
+                    <g fill="none">
+                      <path
+                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <nav class="nav-dropdown-list nav-dropdown-list--open">
+                <a href="../../portals/widgets.html" class="dropdown-link"
+                  >Widgets</a
+                >
+                <a
+                  href="../../portals/tech-tutorials.html"
+                  class="dropdown-link"
+                  >Technology Tutorials</a
+                >
+                <a href="../../portals/projects.html" class="dropdown-link"
+                  >IT Project Lists</a
+                >
+                <a href="../../portals/career-portal.html" class="dropdown-link"
+                  >Career Portal</a
+                >
+                <a
+                  href="../../portals/learning-materials.html"
+                  class="dropdown-link"
+                  >Learning Materials</a
+                >
+                <a
+                  href="../../portals/entertainment-portal.html"
+                  class="dropdown-link"
+                  >Entertainment Portal</a
+                >
+                <a href="../../portals/link-pages.html" class="dropdown-link"
+                  >Link Pages</a
+                >
+                <a href="../../portals/muslim-portal.html" class="dropdown-link"
+                  >Muslims Portal</a
+                >
+                <a href="../../portals/miscellaneous.html" class="dropdown-link"
+                  >Miscellaneous</a
+                >
+              </nav>
+            </div>
+          </li>
+          <li class="dropdown">
+            <div class="nav-dropdown-toggle w-dropdown-toggle">
+              <div class="text-block dropdown-button">
+                <a href="../../pages/apps.html">Apps</a>
+                <div class="dropdown-icon">
+                  <svg
+                    class="angle-down-icon pointer-events-none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down-outline</title>
+                    <g fill="none">
+                      <path
+                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <nav class="nav-dropdown-list nav-dropdown-list--open">
+                <a href="../../page-apps/converter.html" class="dropdown-link"
+                  >Converters</a
+                >
+                <a href="../../page-apps/calculators.html" class="dropdown-link"
+                  >Calculators</a
+                >
+                <a href="../../page-apps/generators.html" class="dropdown-link"
+                  >Generators</a
+                >
+                <a href="../../page-apps/formatters.html" class="dropdown-link"
+                  >Formatters</a
+                >
+                <a
+                  href="../../page-apps/file-converter.html"
+                  class="dropdown-link"
+                  >File Converter</a
+                >
+                <a href="../../page-apps/utilities.html" class="dropdown-link"
+                  >Utilities</a
+                >
+                <a
+                  href="../../page-apps/tester-tools.html"
+                  class="dropdown-link"
+                  >Tester Tools</a
+                >
+              </nav>
+            </div>
           </li>
           <li>
             <a href="../../pages/contact.html">Contact</a>
           </li>
-          <li>
-            <a href="../../pages/profile.html">Profile</a>
-          </li>
-          <li>
-            <a href="../../pages/about.html">About</a>
-          </li>
-          <li>
-            <a href="../../pages/networks.html">Inzaghi's Group</a>
+          <li class="dropdown">
+            <div class="nav-dropdown-toggle w-dropdown-toggle">
+              <div class="text-block dropdown-button">
+                <a>About &amp; Profile</a>
+                <div class="dropdown-icon">
+                  <svg
+                    class="angle-down-icon pointer-events-none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down-outline</title>
+                    <g fill="none">
+                      <path
+                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <nav class="nav-dropdown-list nav-dropdown-list--open">
+                <a href="../../pages/about.html" class="dropdown-link">About</a>
+                <a href="../../pages/profile.html" class="dropdown-link"
+                  >Profile</a
+                >
+              </nav>
+            </div>
           </li>
           <li class="dropdown">
             <div class="nav-dropdown-toggle w-dropdown-toggle">
-              <div class="text-block">
+              <div class="text-block dropdown-button">
+                <a href="../../pages/networks.html">Inzaghi's Group</a>
+                <div class="dropdown-icon">
+                  <svg
+                    class="angle-down-icon pointer-events-none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down-outline</title>
+                    <g fill="none">
+                      <path
+                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <nav class="nav-dropdown-list nav-dropdown-list--open">
                 <a
-                  >Switch to Another Site
-                  <ion-icon name="chevron-down-outline"></ion-icon>
-                </a>
+                  href="../../inzaghis-group/inzaghis-blog.html"
+                  class="dropdown-link"
+                  >Inzaghi's Blog</a
+                >
+                <a
+                  href="../../inzaghis-group/inzaghis-media.html"
+                  class="dropdown-link"
+                  >Inzaghi's Media</a
+                >
+                <a
+                  href="../inzaghis-group/inzaghis-dev.html"
+                  class="dropdown-link"
+                  >Inzaghi's Dev</a
+                >
+                <a
+                  href="../inzaghis-group/inzaghis-archives.html"
+                  class="dropdown-link"
+                  >Inzaghi's Archives</a
+                >
+                <a
+                  href="../inzaghis-group/inzaghis-app.html"
+                  class="dropdown-link"
+                  >Inzaghi's App</a
+                >
+                <a
+                  href="../inzaghis-group/inzaghis-ai.html"
+                  class="dropdown-link"
+                  >Inzaghi's AI</a
+                >
+              </nav>
+            </div>
+          </li>
+          <li class="dropdown">
+            <div class="nav-dropdown-toggle w-dropdown-toggle">
+              <div class="text-block dropdown-button">
+                <a>Switch to</a>
+                <div class="dropdown-icon">
+                  <svg
+                    class="angle-down-icon pointer-events-none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                  >
+                    <title>chevron-down-outline</title>
+                    <g fill="none">
+                      <path
+                        d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
               </div>
               <nav class="nav-dropdown-list nav-dropdown-list--open">
                 <a
@@ -113,3 +375,15 @@
     </div>
   </nav>
 </div>
+
+<!-- Responsive Dropdown and Mega Menu using HTML & CSS : -->
+<!-- https://codepen.io/fadzrinmadu/pen/bGqrJjB -->
+
+<!-- Responsive Dropdown and Mega Menu using Tailwind CSS : -->
+<!-- https://pagedone.io/docs/mega-menu -->
+<!-- https://flowbite.com/docs/components/mega-menu -->
+
+<!-- Responsive Navbar Menu using Tailwind CSS : -->
+<!-- https://freefrontend.com/tailwind-navbars -->
+<!-- https://www.creative-tim.com/twcomponents/component/navbar-hamburger-menu -->
+<!--  -->

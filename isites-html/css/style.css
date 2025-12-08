@@ -216,6 +216,10 @@ svg:not(:root) {
   padding: 2.9em;
 }
 
+.pages-background {
+  background-color: #f5f7fa;
+}
+
 .pages {
   max-width: 1680px;
   position: relative;
@@ -236,7 +240,7 @@ svg:not(:root) {
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: 6px;
   background-color: #1a1b1f;
   color: #fff;
   transition: all 0.2s;
@@ -246,7 +250,29 @@ svg:not(:root) {
 .main-button:hover {
   background-color: #555555;
   color: var(--color-white);
-  border-radius: 5px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.description-button {
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: var(--font-size-12);
+  font-family: var(--font-family);
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  background-color: #1a1b1f;
+  color: #fff;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.description-button:hover {
+  background-color: #555555;
+  color: var(--color-white);
+  border-radius: 6px;
   text-decoration: none;
 }
 
@@ -259,7 +285,7 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.privacy-policy {
+.page-background {
   background-color: #f5f7fa;
   border-bottom: 1px solid #e4ebf3;
   padding: 60px 30px;
@@ -277,11 +303,24 @@ svg:not(:root) {
   margin-right: auto;
 }
 
+.row-text {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
 .welcome {
   background-color: #f5f7fa;
   border-bottom: 1px solid #e4ebf3;
   padding: 4em 2em;
   padding-top: 10em;
+  padding-bottom: 5em;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -324,13 +363,8 @@ svg:not(:root) {
   /*padding: var(--padding-20);*/
 }
 
-.sitemap {
-  padding: 30px;
-}
-
 .page-container {
   max-width: 1680px;
-  /*padding: 60px 30px;*/
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -356,7 +390,7 @@ svg:not(:root) {
 }
 
 .page-wrapper {
-  max-width: 1360px;
+  max-width: 1440px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
@@ -373,6 +407,13 @@ svg:not(:root) {
 }
 
 .inzaghis-sites-description {
+  font-size: var(--font-size-16);
+  line-height: 1.6;
+  margin-bottom: var(--margin-bottom-20);
+  font-family: var(--font-family);
+}
+
+.about-inzites-description {
   font-size: var(--font-size-14);
   line-height: 1.6;
   margin-bottom: var(--margin-bottom-20);
@@ -449,11 +490,42 @@ svg:not(:root) {
   float: right;
 }
 
-.text-title {
-  text-align: center;
+.card-grid-container {
+  padding: var(--padding-10);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-apps-title {
+  text-align: left;
   font-family: var(--font-family);
   font-size: var(--font-size-24);
   font-weight: bold;
+}
+
+.card-apps {
+  border-radius: 6px !important;
+}
+
+.card-animated {
+  transition: all 500ms !important;
+}
+
+.card-animated:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2),
+    0 10px 10px -5px rgba(0, 0, 0, 0.1) !important;
+
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.card-img-apps {
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .card-name {
@@ -464,11 +536,16 @@ svg:not(:root) {
   font-size: var(--font-size-28);
 }
 
-.card-apps {
+.card-description {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 8vh;
+}
+
+.card-apps-text {
+  font-family: var(--font-family);
+  font-size: var(--font-size-14);
 }
 
 .card-apps-body {
@@ -480,10 +557,124 @@ svg:not(:root) {
   color: #28a745;
 }
 
+.card-portals {
+  display: flex;
+  flex-direction: column;
+  object-position: center;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 6px !important;
+}
+
+.card-portals-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-right: 15px !important;
+  max-width: 70%;
+  line-height: 1.5;
+}
+
+.card-portals-wrapper {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.card-text-container {
+  padding: initial !important;
+}
+
+.card-portals-name {
+  font-weight: 600;
+  margin-bottom: 1em !important;
+  font-size: var(--font-size-28);
+  font-family: var(--font-family);
+}
+
+.card-img-portals-wrapper {
+  object-fit: cover;
+  display: flex;
+  max-width: 30%;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.card-img-portals {
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  width: 100%;
+  height: 25%;
+}
+
+.swiper-container {
+  /* overflow: hidden !important;
+  margin: 0 auto !important; */
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px 0 20px 30px !important;
+}
+
+.swiper {
+  width: 100%;
+  max-width: 1280px;
+  box-sizing: border-box; /* Pastikan padding dihitung dalam lebar */
+}
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: auto !important; /* Atur lebar slide secara otomatis berdasarkan konten */
+  display: flex; /* Untuk memastikan tata letak kartu rapi */
+  justify-content: center; /* Pusatkan kartu */
+  box-sizing: border-box;
+}
+
+.card-swiper {
+  width: 100%;
+  max-width: 300px;
+  flex-shrink: 0;
+  overflow: hidden;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.swiper-pagination {
+  top: 10px !important;
+  position: relative !important;
+  z-index: 9 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+  position: absolute;
+  top: 52% !important;
+  transform: translateY(-50%);
+  z-index: 9 !important;
+}
+
+.swiper-button-next {
+  right: 10px !important;
+}
+
+.swiper-button-prev {
+  left: 10px !important;
+}
+
+#hcg-slider-1 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
 #hcg-slider-1 .hcg-slide-container {
   width: auto;
   height: auto;
 }
+
 .hcg-slider {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -495,6 +686,7 @@ svg:not(:root) {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 7px !important;
 }
 
 /* Jika Anda ingin memastikan tombol atau elemen lainnya juga konsisten */
@@ -513,20 +705,22 @@ svg:not(:root) {
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  border-radius: 3px;
+  border-radius: 6px;
 }
+
 .hcg-slides img {
   max-width: 100%;
   max-height: 100%;
   display: inline-block;
 }
+
 .hcg-slide-text {
   color: var(--color-white);
   font-size: var(--font-size-16); /* Samakan ukuran font */
   padding: 3px 5px;
   position: absolute;
   bottom: 0;
-  border-radius: 5px;
+  border-radius: 6px;
   margin-top: var(--margin-top-10);
   left: 50%;
   text-align: center;
@@ -535,6 +729,11 @@ svg:not(:root) {
   display: inline-block;
   transform: translate(-50%, -5px);
 }
+
+.hcg-desc {
+  border-radius: 6px !important;
+}
+
 #hcg-slide-prev,
 #hcg-slide-next {
   cursor: pointer;
@@ -584,7 +783,7 @@ svg:not(:root) {
   font-size: var(--font-size-12);
   padding: 4px 7px;
   position: absolute;
-  border-radius: 5px;
+  border-radius: 6px;
   top: 5px;
   left: 5px;
   background-color: rgba(255, 255, 255, 0.7);
@@ -609,7 +808,7 @@ svg:not(:root) {
 
 /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
-.page-apps {
+.banner-info {
   background-color: #f5faf5;
   border-bottom: 1px solid #e4f3e5;
   padding: 60px 30px;
@@ -618,13 +817,26 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.page-apps-container {
-  max-width: 1200px;
+.slider-carousel {
+  background-color: #f5faf5;
+  border-bottom: 1px solid #e4f3e5;
+  padding: 60px 30px;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
 }
 
-.page-apps-wrapper {
+.slider-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.apps-portals-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.apps-portals-wrapper {
   background-color: #f5faf5;
   border-bottom: 1px solid #e4f3e5;
   padding: 60px 0;
@@ -662,7 +874,7 @@ svg:not(:root) {
 
 .centered-subheading {
   text-align: center;
-  max-width: 800px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
   font-family: var(--font-family);
@@ -671,7 +883,7 @@ svg:not(:root) {
 
 .text-description {
   text-align: left;
-  max-width: 800px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   font-family: var(--font-family);
@@ -740,6 +952,7 @@ svg:not(:root) {
   display: block;
   margin: 0 auto; /* Menengahkan tombol */
   text-align: center;
+  border-radius: 6px !important;
 }
 
 /* Optional: Style the button on hover */
@@ -754,12 +967,26 @@ svg:not(:root) {
   display: block;
   margin: 0 auto; /* Menengahkan tombol */
   text-align: center;
+  border-radius: 6px !important;
 }
 
 /* Optional: Style the button on hover */
 .btn.btn-secondary:hover {
   background-color: #ff6600;
   border-color: #ff6600;
+}
+
+.text-start {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
 }
 
 .inzaghisblog-slider {
@@ -814,8 +1041,28 @@ svg:not(:root) {
   margin-right: auto;
 }
 
+.inzaghisdev-slider {
+  background-color: #f5e8f8;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .inzaghis-app {
   background-color: #bddbe5;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghisapp-slider {
+  background: #bddbe5;
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -834,8 +1081,28 @@ svg:not(:root) {
   margin-right: auto;
 }
 
+.inzaghisarchives-slider {
+  background: #d4e6ff;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .inzaghis-ai {
   background-color: #f8f0e9;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghisai-slider {
+  background: #f8f0e9;
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -877,6 +1144,12 @@ svg:not(:root) {
   left: 2em;
 }
 
+.portal-button {
+  position: absolute;
+  bottom: 20px;
+  right: 2em;
+}
+
 .primary-button {
   position: absolute;
   bottom: 20px;
@@ -891,21 +1164,11 @@ svg:not(:root) {
   left: 2em;
 }
 
-.blog-link {
+.button-link {
   color: var(--color-white);
 }
 
-.blog-link:hover {
-  color: #c7c7c7;
-  text-decoration: none;
-}
-
-.apps-link {
-  color: var(--color-white);
-  margin-top: 0;
-}
-
-.apps-link:hover {
+.button-link:hover {
   color: #c7c7c7;
   text-decoration: none;
 }
@@ -955,7 +1218,7 @@ svg:not(:root) {
   background-clip: border-box;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(5px);
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -1036,7 +1299,7 @@ svg:not(:root) {
 .inzaghis-group-description {
   width: 100%;
   max-width: 1080px;
-  font-size: var(--font-size-14);
+  font-size: var(--font-size-16);
   line-height: 1.6;
   margin-bottom: var(--margin-bottom-20);
   margin-left: 10px;
@@ -1234,14 +1497,14 @@ svg:not(:root) {
   }
 
   .main-button {
-    border-radius: 5px;
+    border-radius: 6px;
     text-decoration: none;
   }
 
   .main-button:hover {
     background-color: #555555;
     color: var(--color-white);
-    border-radius: 5px;
+    border-radius: 6px;
     text-decoration: none;
   }
 
@@ -1341,6 +1604,13 @@ svg:not(:root) {
     font-family: var(--font-family);
   }
 
+  .about-inzites-description {
+    font-size: var(--font-size-14);
+    line-height: 1.6;
+    margin-bottom: var(--margin-bottom-20);
+    font-family: var(--font-family);
+  }
+
   .is-desc {
     font-size: var(--font-size-14);
     line-height: 1.6;
@@ -1431,22 +1701,54 @@ svg:not(:root) {
     float: right;
   }
 
-  .card-apps {
+  .card-grid-container {
+    padding: var(--padding-10);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 12vh;
   }
 
+  .card-portals-body {
+    max-width: 60%;
+  }
+
+  .card-img-portals-wrapper {
+    max-width: 40%;
+  }
+
+  .swiper-container {
+    max-width: 1200px;
+    padding: 20px 0 20px 30px !important;
+    overflow: hidden;
+  }
+
+  .swiper-pagination {
+    top: 10px !important;
+    position: relative !important;
+    z-index: 9 !important;
+  }
+
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
-  .page-apps-container {
+  .slider-container {
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .page-apps-wrapper {
+  .apps-portals-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .apps-portals-wrapper {
     background-color: #f5faf5;
     border-bottom: 1px solid #e4f3e5;
     margin-left: auto;
@@ -1476,7 +1778,7 @@ svg:not(:root) {
 
   .centered-subheading {
     text-align: center;
-    max-width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     font-family: var(--font-family);
@@ -1485,7 +1787,7 @@ svg:not(:root) {
 
   .text-description {
     text-align: left;
-    max-width: 600px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     font-family: var(--font-family);
@@ -1592,20 +1894,11 @@ svg:not(:root) {
     font-size: var(--font-size-20);
   }
 
-  .blog-link {
+  .button-link {
     color: var(--color-white);
   }
 
-  .blog-link:hover {
-    color: #c7c7c7;
-    text-decoration: none;
-  }
-
-  .apps-link {
-    color: var(--color-white);
-  }
-
-  .apps-link:hover {
+  .button-link:hover {
     color: #c7c7c7;
     text-decoration: none;
   }
@@ -1905,6 +2198,25 @@ svg:not(:root) {
     text-decoration: none;
   }
 
+  .description-button {
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: var(--font-size-12);
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #1a1b1f;
+    color: #fff;
+    transition: all 0.2s;
+    text-decoration: none; /* Added */
+  }
+
+  .description-button:hover {
+    background-color: #555555;
+    color: var(--color-white);
+    text-decoration: none;
+  }
+
   .about-inzaghis-sites {
     background-color: #f5f7fa;
     border-bottom: 1px solid #e4ebf3;
@@ -1994,6 +2306,13 @@ svg:not(:root) {
   }
 
   .inzaghis-sites-description {
+    font-size: var(--font-size-14);
+    line-height: 1.6;
+    margin-bottom: var(--margin-bottom-20);
+    font-family: var(--font-family);
+  }
+
+  .about-inzites-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: var(--margin-bottom-20);
@@ -2105,16 +2424,61 @@ svg:not(:root) {
     float: right;
   }
 
-  .card-apps {
+  .card-description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 16vh;
   }
 
+  .card-portals {
+    flex-direction: row !important;
+    height: 100%;
+  }
+
+  .card-portals-body {
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+  }
+
+  .card-text-container {
+    padding: initial !important;
+  }
+
+  .card-portals-name {
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1em !important;
+    font-size: var(--font-size-28);
+    font-family: var(--font-family);
+  }
+
+  .card-img-portals-wrapper {
+    max-width: fit-content;
+    height: auto;
+  }
+
+  .card-img-portals {
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-left-radius: 0 !important;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .swiper-container {
+    padding: 20px 0 20px 30px !important;
+  }
+
+  .card-swiper {
+    width: 100%;
+    max-width: 250px;
+  }
+
   /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
 
-  .page-apps-wrapper {
+  .apps-portals-wrapper {
     background-color: #f5faf5;
     border-bottom: 1px solid #e4f3e5;
     max-width: 1680px;
@@ -2147,7 +2511,7 @@ svg:not(:root) {
 
   .centered-subheading {
     text-align: center;
-    max-width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     font-family: var(--font-family);
@@ -2223,20 +2587,11 @@ svg:not(:root) {
     font-size: var(--font-size-28);
   }
 
-  .blog-link {
+  .button-link {
     color: var(--color-white);
   }
 
-  .blog-link:hover {
-    color: #c7c7c7;
-    text-decoration: none;
-  }
-
-  .apps-link {
-    color: var(--color-white);
-  }
-
-  .apps-link:hover {
+  .button-link:hover {
     color: #c7c7c7;
     text-decoration: none;
   }
@@ -2355,5 +2710,42 @@ svg:not(:root) {
   .logo-grid img {
     max-height: 60px;
     width: auto;
+  }
+
+  .resume-wrapper {
+    padding: 15px !important;
+    margin-bottom: var(--margin-bottom-10);
+  }
+
+  .resume-header,
+  .resume-body,
+  .resume-footer {
+    padding: 0 !important; /* Kurangi padding untuk menghemat ruang */
+  }
+
+  .resume-profile-image {
+    width: 100% !important; /* Buat gambar profil memenuhi lebar kolom */
+    max-width: 100px; /* Maksimalkan ukuran gambar */
+  }
+
+  .resume-title h2 {
+    font-size: 1.5rem !important; /* Kurangi ukuran font di layar kecil */
+  }
+
+  .resume-tagline {
+    font-size: 0.9rem !important; /* Kurangi ukuran tagline */
+  }
+
+  .resume-contact ul {
+    padding: 0 !important;
+    font-size: 0.85rem; /* Kurangi ukuran font pada kontak */
+  }
+
+  .resume-aside {
+    padding: 10px !important; /* Kurangi padding pada aside */
+  }
+
+  .resume-footer {
+    padding-top: 10px;
   }
 }

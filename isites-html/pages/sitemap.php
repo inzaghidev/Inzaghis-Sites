@@ -1,19 +1,20 @@
 <?php
-    $page_title = "Sitemap";
-    include('../layouts/header.php');
-    include('../components/navbar/navbar.php');
+  $page_title = "Sitemap";
+  include('../layouts/header.php');
+  include('../components/navbar/navbar.php');
 ?>
 <section class="sitemap">
   <div class="container-top"></div>
-  <div class="page-container">
-    <div class="page-title">
-      <h1 class="page-title">SITEMAP</h1>
-    </div>
-    <div class="page-wrapper">
-      <div class="welcome-to-inzaghis-sites">
-        <div class="page-description">
-          <ul id="sitemap">
-            <?php
+  <div class="page-background">
+    <div class="page-container">
+      <div class="page-title">
+        <h1 class="page-title">SITEMAP</h1>
+      </div>
+      <div class="page-wrapper page-container">
+        <div class="welcome-to-inzaghis-sites">
+          <div class="welcome-description card bg-white shadow rounded-lg shadow-lg border border-success">
+            <ul id="sitemap">
+              <?php
               /**
                * Fungsi untuk menghasilkan sitemap.
                *
@@ -65,17 +66,21 @@
               echo "<li><strong>📁 page-apps</strong></li>";
               generateSitemap($webRoot . '/page-apps', 'page-apps/', 1);
 
+              echo "<li><strong>📁 portals</strong></li>";
+              generateSitemap($webRoot . '/portals', 'portals/', 1);
+
               echo "<li><strong>📁 pages</strong></li>";
               generateSitemap($webRoot . '/pages', 'pages/', 1);
               echo "</ul>";
               ?>
-          </ul>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 <?php
-	include('../components/footsite/footsite.php');
+  include('../components/footsite/footsite.php');
   include('../layouts/footer.php');
 ?>

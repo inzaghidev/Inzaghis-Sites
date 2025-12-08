@@ -17,7 +17,7 @@
       <div class="welcome-wrapper">
         <div class="welcome-to-inzaghis-sites">
           <div class="welcome-description">
-            <p class="inzaghis-sites-description">
+            <p class="about-inzites-description">
             Inzaghi's Sites merupakan Platform Layanan Situs Web untuk dapat
                 diakses ke semua layanan Inzaghi's Group. Inzaghi's Sites juga
                 menyimpan beberapa Layanan di Inzaghi's Group seperti Inzaghi's
@@ -33,24 +33,29 @@
                 <br />
                 <br />
                 Inzaghi's Sites juga memudahkan Anda untuk mengakses Aplikasi
-                apapun yang berbasis Web seperti yang tersedia pada Pages Apps
-                seperti Halaman, Widget, Konverter, Kalkulator, dan
-                lain-lainnya.
+                dan Portal apapun yang berbasis Web seperti yang tersedia pada
+                Portals dan Apps seperti Widget, Tutorial Teknologi, Konverter,
+                Kalkulator, Generator, dan lain-lainnya.
                 <br />
                 <br />
                 Inzaghi's Sites Baru dibuat dan diluncurkan pada Tanggal 28
                 Agustus 2023 (11 Shafar 1445 H) dan beralamat Link
-                <a href="http://inzaghisites.000webhostapp.com"
-                  >inzaghisites.000webhostapp.com</a
+                <a href="http://inzaghisites.000webhostapp.com" target="_blank"
+                  >inzaghisites.000webhostapp.com (000webhost)</a
                 >, dan juga pada Tanggal 6 April 2024 (26 Ramadhan 1445 H) yang
                 beralamat Link
-                <a href="http://inzaghi.wuaze.com">inzaghi.wuaze.com</a>.
+                <a href="http://inzaghi.wuaze.com"
+                  >inzaghi.wuaze.com (InfinityFree)</a
+                >. Mulai Tanggal 12 Agustus 2024 (7 Shafar 1446 H), Inzaghi's
+                Sites Resmi Pindah ke Situs Barunya di InfinityFree, dikarenakan
+                di Situs Percobaan kami di 000webhost sudah tidak dapat diakses
+                lagi.
             </p>
           </div>
         </div>
         <div class="welcome-image-to-inzaghis-sites">
           <img
-            src="../images/inzaghis-sites-by-inzaghis-group-corp.png"
+            src="../assets/images/inzaghis-sites-by-inzaghis-group-corp.png"
             alt="Inzaghi's Sites"
             style="width: 600px"
           />

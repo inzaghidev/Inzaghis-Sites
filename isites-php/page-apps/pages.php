@@ -1,87 +1,68 @@
 <?php
-    $page_title = "Pages";
-    include('../layouts/header.php');
-    include('../components/navbar/navbar.php');
+  $page_title = "Pages";
+  include('../layouts/header.php');
+  include('../components/navbar/navbar.php');
+  $data = json_decode(file_get_contents('../data/apps-data.json'), true);
+
+  if (isset($data['pages'])) {
+      $apps = $data['pages'];
+  } else {
+      $apps = []; // Atau tangani kesalahan dengan lebih baik sesuai kebutuhan Anda
+  }
 ?>
 
 <div class="container-top"></div>
-<section class="page-apps-wrapper">
-  <div class="page-apps-container">
+<section class="apps-portals-wrapper">
+  <div class="apps-portals-container">
     <div class="welcome-container">
       <div class="welcome-title">
         <h1 class="welcome-title">Pages</h1>
-      </div>
+      </div> 
       <section class="pages">
         <p class="is-desc">
-            Merupakan kumpulan Halaman sebagai bacaan yang dapat diakses di
-            Inzaghi's Sites. Dan juga sebagai kumpulan Materi, Proyek-proyek, hingga Tutorial
-            Pemrograman.
-        </p>
-        <div class="row">
-            <?php
-                // Data for the apps
-                $apps = [
-                    [
-                      "title" => "Technology Tutorials",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-                      "link" => "https://bit.ly/Tech-and-IT-Tutorials-Notion-Inzaghi"
-                    ],
-                    [
-                      "title" => "IT Project Lists",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                      "link" => "https://inzaghi-poshaf.notion.site/IT-Projects-List-11fb4c85740a80299195e71ddb61d808"
-                    ],
-                    [
-                      "title" => "Interviews and Career Preparations",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                      "link" => "#"
-                    ],
-                    [
-                      "title" => "Materi Pembelajaran",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                      "link" => "https://sites.google.com/view/inzaghis-sites/pages/materi-pembelajaran"
-                    ],
-                    [
-                      "title" => "Programming Codes & UI Elements",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                      "link" => "https://inzaghi-poshaf.notion.site/Programming-Codes-UI-Elements-a99dadc9f4e84480b705f05e35e67270"
-                    ],
-                    [
-                      "title" => "Video Page",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                      "link" => "https://sites.google.com/view/inzaghis-sites/pages/videos"
-                    ],
-                    [
-                      "title" => "Link Page",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-                      "link" => "https://bit.ly/Bookmark-Manager-Links-Notion-Inzaghi"
-                    ],
-                    [
-                      "title" => "Calendar & Event Summary",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-                      "link" => "https://inzaghi-poshaf.notion.site/Calendar-Summary-Events-2fdf303bab424c1ca6f8d7210c016128"
-                    ],
-                    [
-                      "title" => "AppName1",
-                      "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                      "link" => "#"
-                    ],
+          <?php
+            $query = "Pages"; // Ganti dengan nilai sesuai kebutuhan
 
-                ];
+            if (isset($data['apps'])) {
+                $appsDesc = $data['apps'];
+            } else {
+                $appsDesc = []; // Jika tidak ada data, gunakan array kosong
+            }
 
-                // Loop through each app data and create the HTML structure
-                foreach ($apps as $app) {
-                    echo '<div class="col-md-4 col-sm-6 mb-4">';
-                    echo '  <div class="card h-100 shadow border border-success">';
-                    echo '    <div class="card-body card-apps-body">';
-                    echo '      <h5 class="card-title">' . $app["title"] . '</h5>';
-                    echo '      <p class="card-text card-apps">' . $app["text"] . '</p>';
-                    echo '      <a href="' . $app["link"] . '" class="btn btn-primary apps-button">Click here</a>';
-                    echo '    </div>';
-                    echo '  </div>';
-                    echo '</div>';
+            // Cari deskripsi berdasarkan query
+            $foundDescription = 'Deskripsi tidak ditemukan'; // Default jika query tidak ditemukan
+            foreach ($appsDesc as $appDesc) {
+                if (isset($appDesc['name']) && $appDesc['name'] === $query) {
+                    $foundDescription = isset($appDesc['description']) ? $appDesc['description'] : 'Deskripsi tidak tersedia';
+                    break; // Berhenti pencarian jika ditemukan
                 }
+            }
+
+            // Tampilkan deskripsi yang ditemukan
+            echo $foundDescription;
+          ?>
+        </p>
+        <div class="card-grid-container">
+          <div class="row">
+            <?php
+              // Loop through each app data and create the HTML structure
+              foreach ($apps as $app) {
+                $title = isset($app['title']) ? $app['title'] : 'N/A';
+                $text = isset($app['text']) ? $app['text'] : '';
+                $link = isset($app['link']) ? $app['link'] : '#';
+                
+                echo '<div class="col-md-4 col-sm-6 mb-4">';
+                echo '  <div class="card card-apps h-100 shadow-lg border border-success card-animated">';
+                echo '    <div class="card-body card-apps-body">';
+                echo '      <h5 class="card-apps-title">' . $app["title"] . '</h5>';
+                echo '      <p class="card-text card-apps-text card-description">' . $app["text"] . '</p>';
+                echo '      <a href="' . $app["link"] . '" class="btn btn-primary apps-button">Click here</a>';
+                echo '    </div>';
+                echo '  </div>';
+                echo '</div>';
+              }
             ?>
+          </div>
         </div>
       </section>
     </div>
@@ -89,6 +70,6 @@
 </section>
 
 <?php
-    include('../components/footsite/footsite.php');
-    include('../layouts/footer.php');
+  include('../components/footsite/footsite.php');
+  include('../layouts/footer.php');
 ?>
