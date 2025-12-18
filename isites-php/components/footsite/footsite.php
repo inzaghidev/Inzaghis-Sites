@@ -85,9 +85,11 @@
             </section>
         </section>
         <section class="footer-bottom">
-            <div class="footer-copyright">
-                © 2025 Inzaghi's Corp. All rights reserved.
-            </div>
+          <div class="footer-copyright flex items-center gap-1 text-sm text-gray-700">
+            <span>© 2025</span>
+            <a class="font-medium" href="/">Inzaghi's Corp.</a>
+            <span>All rights reserved.</span>
+          </div>
         </section>
     </div>
 </section>
