@@ -1,4 +1,5 @@
 /* REDESIGN CSS PROPERTIES */
+/* UNDER CONSTRUCTION IN PROGRESS */
 
 * {
   box-sizing: border-box;
@@ -299,6 +300,15 @@ svg:not(:root) {
   font-family: var(--font-family);
 }
 
+.text-description {
+  text-align: left;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--font-family);
+  font-size: var(--font-size-16);
+}
+
 .btn.btn-primary,
 .btn.btn-primary:hover {
   cursor: pointer;
@@ -414,7 +424,6 @@ svg:not(:root) {
   text-align: center;
   padding: var(--padding-20);
   box-sizing: border-box;
-  max-width: 1080px;
 }
 
 .group-content {
@@ -802,6 +811,11 @@ svg:not(:root) {
   margin-right: auto;
 }
 
+.slider-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /*
   ===== Page Apps =====
 */
@@ -969,7 +983,7 @@ svg:not(:root) {
 }
 
 /*
-  ===== Pages =====
+  ===== Pages (Comon Pages) =====
 */
 
 .card-grid-container {
@@ -1023,6 +1037,95 @@ svg:not(:root) {
 }
 
 .is-desc {
+  font-size: var(--font-size-14);
+  line-height: 1.6;
+  margin-bottom: var(--margin-bottom-20);
+  font-family: var(--font-family);
+}
+
+.about-inzaghis-sites {
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #e4ebf3;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-background {
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #e4ebf3;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us {
+  background-color: #efe7fe;
+  border-bottom: 1px solid #e4ebf3;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us-container {
+  background-color: #efe7fe;
+  border-bottom: 1px solid #e4ebf3;
+  max-width: 1680px;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us-title {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-us-title {
+  margin-bottom: var(--margin-bottom-32);
+  font-family: var(--font-family);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about-us-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /*max-width: 100%;*/
+}
+
+.about-us-to-inzaghis-group {
+  flex: 1;
+  /*padding: var(--padding-20);*/
+}
+
+.about-us-description {
+  padding: var(--padding-20);
+  border-radius: 8px;
+}
+
+.about-us-image-to-inzaghis-group img {
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
+
+.inzaghis-sites-description {
+  font-size: var(--font-size-16);
+  line-height: 1.6;
+  margin-bottom: var(--margin-bottom-20);
+  font-family: var(--font-family);
+}
+
+.about-inzites-description {
   font-size: var(--font-size-14);
   line-height: 1.6;
   margin-bottom: var(--margin-bottom-20);
@@ -1090,6 +1193,166 @@ svg:not(:root) {
   align-items: center;
   margin-top: var(--margin-top-20);
   display: flex;
+}
+
+.inzaghis-blog {
+  background-color: #fff6f0;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-40);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reverse-content {
+  flex-direction: row-reverse;
+}
+
+.inzaghisblog {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghisblog-description {
+  max-width: 600px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.inzaghis-media {
+  background-color: #ffe3e3;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#inzaghis-media-embed {
+  height: 800px;
+  width: 400px;
+}
+
+.inzaghis-media-container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghismedia-description {
+  max-width: 600px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.inzaghismedia {
+  margin-top: var(--margin-top-20);
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-name {
+  margin-top: var(--margin-top-12);
+  margin-bottom: var(--margin-bottom-12);
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: var(--font-size-28);
+}
+
+.blog-description {
+  margin-top: var(--margin-top-20);
+  margin-bottom: var(--margin-bottom-20);
+  font-size: var(--font-size-14);
+  font-family: var(--font-family);
+  word-wrap: break-word;
+}
+
+.inzaghis-dev {
+  background-color: #f5e8f8;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghisdev-slider {
+  background-color: #f5e8f8;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghis-app {
+  background-color: #bddbe5;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghisapp-slider {
+  background: #bddbe5;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghis-archives {
+  background-color: #d4e6ff;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghisarchives-slider {
+  background: #d4e6ff;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghis-ai {
+  background-color: #f8f0e9;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghisai-slider {
+  background: #f8f0e9;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Responsive Styles for Tablet */
@@ -1253,6 +1516,14 @@ svg:not(:root) {
     margin-right: auto;
   }
 
+  .socmed-name {
+    margin-bottom: var(--margin-bottom-12);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: var(--font-size-24);
+  }
+
   .socmed-description {
     margin-top: var(--margin-top-20);
     margin-bottom: var(--margin-bottom-20);
@@ -1329,6 +1600,12 @@ svg:not(:root) {
     float: right;
   }
 
+  .slider-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   /*
   ===== Page Apps =====
 */
@@ -1378,7 +1655,7 @@ svg:not(:root) {
 */
 
   /*
-  ===== Pages =====
+  ===== Pages (Comon Pages) =====
 */
 
   .card-grid-container {
@@ -1401,6 +1678,90 @@ svg:not(:root) {
   }
 
   .is-desc {
+    font-size: var(--font-size-14);
+    line-height: 1.6;
+    margin-bottom: var(--margin-bottom-20);
+    font-family: var(--font-family);
+  }
+
+  .about-inzaghis-sites {
+    background-color: #f5f7fa;
+    border-bottom: 1px solid #e4ebf3;
+    max-width: 1680px;
+    padding: 60px 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-inzaghis-sites {
+    background-color: #f5f7fa;
+    border-bottom: 1px solid #e4ebf3;
+    max-width: 1680px;
+    padding: 60px 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-us {
+    background-color: #efe7fe;
+    border-bottom: 1px solid #e4ebf3;
+    padding: 60px 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-us-container {
+    background-color: #efe7fe;
+    border-bottom: 1px solid #e4ebf3;
+    max-width: 1680px;
+    padding: 60px 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-us-title {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about-us-title {
+    margin-bottom: var(--margin-bottom-32);
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .about-us-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-us-to-inzaghis-group {
+    flex: 1;
+    /*padding: var(--padding-20);*/
+  }
+
+  .about-us-description {
+    padding: var(--padding-20);
+    border-radius: 8px;
+  }
+
+  .inzaghis-sites-description {
+    font-size: var(--font-size-14);
+    line-height: 1.6;
+    margin-bottom: var(--margin-bottom-20);
+    font-family: var(--font-family);
+  }
+
+  .about-inzites-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: var(--margin-bottom-20);
@@ -1452,6 +1813,71 @@ svg:not(:root) {
     margin-top: var(--margin-top-10);
     margin-bottom: var(--margin-bottom-20);
     display: flex;
+  }
+
+  .inzaghis-blog {
+    background-color: #fff6f0;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-20);
+    max-width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inzaghisblog {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .inzaghisblog-description {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: var(--margin-top-20);
+  }
+
+  .inzaghis-media {
+    background-color: #ffe3e3;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-20);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inzaghis-media-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inzaghismedia {
+    margin-top: var(--margin-top-20);
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blog-name {
+    margin-top: var(--margin-top-12);
+    margin-bottom: var(--margin-bottom-12);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: var(--font-size-20);
+  }
+
+  .blog-description {
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-20);
+    font-size: var(--font-size-14);
+    font-family: var(--font-family);
+    word-wrap: break-word;
   }
 }
 
@@ -1751,6 +2177,14 @@ svg:not(:root) {
     margin-right: auto;
   }
 
+  .socmed-name {
+    margin-bottom: var(--margin-bottom-12);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: var(--font-size-28);
+  }
+
   .socmed-description {
     margin-top: var(--margin-top-20);
     margin-bottom: var(--margin-bottom-20);
@@ -1906,7 +2340,7 @@ svg:not(:root) {
 */
 
   /*
-  ===== Pages =====
+  ===== Pages (Comon Pages) =====
 */
 
   .card-description {
@@ -1917,6 +2351,70 @@ svg:not(:root) {
   }
 
   .is-desc {
+    font-size: var(--font-size-14);
+    line-height: 1.6;
+    margin-bottom: var(--margin-bottom-20);
+    font-family: var(--font-family);
+  }
+
+  .about-us {
+    background-color: #efe7fe;
+    border-bottom: 1px solid #e4ebf3;
+    padding: 60px 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-us-container {
+    background-color: #efe7fe;
+    border-bottom: 1px solid #e4ebf3;
+    max-width: 1680px;
+    padding: 60px 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-us-title {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about-us-title {
+    margin-bottom: var(--margin-bottom-32);
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .about-us-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-us-to-inzaghis-group {
+    flex: 1;
+    /*padding: var(--padding-20);*/
+  }
+
+  .about-us-description {
+    padding: var(--padding-20);
+    border-radius: 8px;
+  }
+
+  .inzaghis-sites-description {
+    font-size: var(--font-size-14);
+    line-height: 1.6;
+    margin-bottom: var(--margin-bottom-20);
+    font-family: var(--font-family);
+  }
+
+  .about-inzites-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
     margin-bottom: var(--margin-bottom-20);
@@ -1977,5 +2475,61 @@ svg:not(:root) {
     align-items: flex-start;
     display: flex;
     padding-bottom: 10px;
+  }
+
+  .inzaghis-blog {
+    background-color: #fff6f0;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-10);
+    max-width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inzaghisblog {
+    display: block;
+  }
+
+  .inzaghis-media {
+    background-color: #ffe3e3;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-20);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inzaghis-media-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inzaghismedia {
+    margin-top: var(--margin-top-20);
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blog-name {
+    margin-top: var(--margin-top-12);
+    margin-bottom: var(--margin-bottom-12);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: var(--font-size-28);
+  }
+
+  .blog-description {
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-20);
+    text-align: left;
+    font-family: var(--font-family);
+    word-wrap: break-word;
   }
 }

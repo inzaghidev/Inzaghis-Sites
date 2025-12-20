@@ -1,3 +1,5 @@
+/* UNDER CONSTRUCTION */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -908,7 +910,6 @@ svg:not(:root) {
   text-align: center;
   padding: var(--padding-20);
   box-sizing: border-box;
-  max-width: 1080px;
 }
 
 .group-content {
