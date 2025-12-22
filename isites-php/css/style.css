@@ -1355,6 +1355,40 @@ svg:not(:root) {
   margin-right: auto;
 }
 
+.inzaghisblog-slider {
+  background-color: #fff6f0;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-40);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghismedia-slider {
+  background-color: #fff0f0;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#inzaghis-blog-embed {
+  height: 1500px;
+  width: 100%;
+}
+
+#inzaghis-media-embed {
+  height: 800px;
+  width: 400px;
+}
+
+.inzagroup-pages {
+  min-width: 300px;
+}
+
 /* Responsive Styles for Tablet */
 @media screen and (max-width: 1140px) {
   .w-layout-blockcontainer {
@@ -1879,6 +1913,25 @@ svg:not(:root) {
     font-family: var(--font-family);
     word-wrap: break-word;
   }
+
+  .inzaghisblog-slider {
+    padding: var(--padding-10);
+    height: auto;
+    padding: var(--padding-40);
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inzaghismedia-slider {
+    padding: var(--padding-10);
+    height: auto;
+  }
+
+  #inzaghis-blog-embed {
+    height: 1200px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -2015,6 +2068,10 @@ svg:not(:root) {
   .image {
     margin-left: 0;
     padding-bottom: 10px;
+  }
+
+  .container-top {
+    padding: 2.5em;
   }
 
   .page-container {
@@ -2196,6 +2253,43 @@ svg:not(:root) {
 
   .swiper-container {
     padding: 20px 0 20px 30px !important;
+  }
+
+  .resume-wrapper {
+    padding: 15px !important;
+    margin-bottom: var(--margin-bottom-10);
+  }
+
+  .resume-header,
+  .resume-body,
+  .resume-footer {
+    padding: 0 !important; /* Kurangi padding untuk menghemat ruang */
+  }
+
+  .resume-profile-image {
+    width: 100% !important; /* Buat gambar profil memenuhi lebar kolom */
+    max-width: 100px; /* Maksimalkan ukuran gambar */
+  }
+
+  .resume-title h2 {
+    font-size: 1.5rem !important; /* Kurangi ukuran font di layar kecil */
+  }
+
+  .resume-tagline {
+    font-size: 0.9rem !important; /* Kurangi ukuran tagline */
+  }
+
+  .resume-contact ul {
+    padding: 0 !important;
+    font-size: 0.85rem; /* Kurangi ukuran font pada kontak */
+  }
+
+  .resume-aside {
+    padding: 10px !important; /* Kurangi padding pada aside */
+  }
+
+  .resume-footer {
+    padding-top: 10px;
   }
 
   /*
@@ -2531,5 +2625,20 @@ svg:not(:root) {
     text-align: left;
     font-family: var(--font-family);
     word-wrap: break-word;
+  }
+
+  .inzaghisblog-slider {
+    padding: var(--padding-10);
+    height: auto;
+  }
+
+  .inzaghismedia-slider {
+    padding: var(--padding-10);
+    height: auto;
+  }
+
+  #inzaghis-blog-embed {
+    height: 1000px;
+    width: 100%;
   }
 }
