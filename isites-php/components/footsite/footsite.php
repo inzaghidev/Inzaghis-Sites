@@ -86,7 +86,7 @@
         <section class="footer-bottom">
           <div class="footer-copyright flex items-center gap-1 text-sm text-gray-700">
             <span>© 2025</span>
-            <a class="font-medium" href="/">Inzaghi's Corp.</a>
+            <a class="font-medium" href="/">Inzaghi's Corp. (InzaTech)</a>
             <span>All rights reserved.</span>
           </div>
         </section>
