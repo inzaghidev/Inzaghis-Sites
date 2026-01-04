@@ -37,33 +37,115 @@
 <!--section class="slide-display shadow"></section-->
 <section class="banner-info shadow">
   <div class="slider-container">
-    <h2 class="title-heading">Switch to New UI</h2>
-    <div class="text-container">
-      <p class="text-description">
-        Mulai Akhir Februari 2025, Inzaghi's Sites telah berganti ke
-        Tampilan Baru dengan Tampilan yang lebih Fresh dan Modern! Klik pada
-        Tombol di samping untuk melihat Tampilan Baru.
-      </p>
-      <section class="group-button">
-        <a href="https://inzaghi.wuaze.com" class="main-button"
-          >Switch to New UI</a
-        >
-      </section>
-    </div>
-    <section class="group-content">
-      <div id="hcg-slider-1" class="hcg-slider">
-        <div class="hcg-slide-container">
-          <div class="hcg-slider-body card border border-success shadow">
-            <a class="hcg-slides animated" style="display: flex">
-              <img
-                src="../assets/images/inzaghis-sites-ui-refresh-2025.png"
-                alt=""
-              />
-            </a>
+    <h2 class="title-heading">Branch Subdomains (Another Versions)</h2>
+    <p class="centered-subheading">
+      Untuk melihat Versi lainnya dari Situs ini, silakan lihat dari
+      beberapa Tautan/Link di bawah ini.
+    </p>
+    <div class="card border shadow-lg rounded-lg border-success">
+      <div class="card-header">Versions</div>
+      <ul class="list-group list-group-flush rounded-lg">
+        <li class="list-group-item card-body">
+          <div class="text-black row -mx-1">
+            <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
+              🌿 Main Branch (New UI)
+            </h3>
+            <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+              <a
+                href="https://inzaghi.wuaze.com"
+                class="btn btn-primary col-12 col-md-10"
+                >Click here</a
+              >
+              <br />
+            </section>
           </div>
-        </div>
-      </div>
-    </section>
+          <p class="card-text is-desc">
+            Merupakan Cabang/Branch Utama dari Website Platform ini, yang
+            sifatnya Stabil, dan sudah menggunakan Tampilan UI Baru.
+          </p>
+        </li>
+        <li class="list-group-item card-body">
+          <div class="text-black row -mx-1">
+            <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
+              🚀 Beta Future (Old UI - Temporary)
+            </h3>
+            <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+              <a
+                href="https://preview.inzaghi.wuaze.com"
+                class="btn btn-primary col-12 col-md-10"
+                >Click here</a
+              >
+              <br />
+            </section>
+          </div>
+          <p class="card-text is-desc">
+            Merupakan Cabang/Branch yang didesain untuk melakukan Uji-Coba
+            Fitur Baru secara Pratinjau (Preview). Untuk sementara, Branch
+            ini masih menggunakan Tampilan UI Lama, hingga dimatangkan akan
+            menggunakan Tampilan UI Baru.
+          </p>
+        </li>
+        <li class="list-group-item card-body">
+          <div class="text-black row -mx-1">
+            <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
+              ⬇️ Master (Old UI)
+            </h3>
+            <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+              <a
+                href="https://old.inzaghi.wuaze.com"
+                class="btn btn-primary col-12 col-md-10"
+                >Click here</a
+              >
+              <br />
+            </section>
+          </div>
+          <p class="card-text is-desc">
+            Merupakan Cabang dari Inzaghi's Sites yang masih menggunakan
+            Tampilan UI Lama. Mirip seperti pada Main Branch, hanya saja
+            masih menggunakan Tampilan Lama.
+          </p>
+        </li>
+        <li class="list-group-item card-body">
+          <div class="text-black row -mx-1">
+            <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
+              🛠️ Laravel (Coming Soon)
+            </h3>
+            <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+              <a
+                href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel"
+                target="_blank"
+                class="btn btn-primary col-12 col-md-10"
+                >Click here</a
+              >
+              <br />
+            </section>
+          </div>
+          <p class="card-text is-desc">
+            Pada Branch ini, akan dibangun dan dikembangkan ulang dengan
+            menggunakan Laravel. Untuk sementara, masih tersedia di dalam
+            Branch pada Repository GitHub kami.
+          </p>
+        </li>
+        <li class="list-group-item card-body">
+          <div class="text-black row -mx-1">
+            <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">Branch 5</h3>
+            <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+              <a
+                href="#"
+                target="_blank"
+                class="btn btn-primary col-12 col-md-10"
+                >Click here</a
+              >
+              <br />
+            </section>
+          </div>
+          <p class="card-text is-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
 <section class="slider-carousel shadow">
@@ -350,7 +432,7 @@
   </div>
   <script src="{{URL::asset('src/js.slider.js')}}"></script>
 </section> --}}
-<section class="inzaghis-blog-slider shadow">
+<section class="inzaghis-blog shadow">
   <div class="inzaghis-blog-container">
     <h2 class="title-heading">Our Blog</h2>
     <div class="text-container">
@@ -463,7 +545,7 @@
     </div>
   </div>
 </section>
-<section class="inzaghis-media-info shadow">
+<section class="inzaghis-media shadow">
   <div class="inzaghis-media-container">
     <h2 class="title-heading">Our Social Media</h2>
     <div class="text-container">
@@ -483,38 +565,38 @@
     <div class="container inzaghismedia">
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-          <div class="border-0 h-100 shadow opacity-75 socmed-card">
-            <img
-              src="{{URL::asset('assets/icons/instagram-logo-icon.png')}}"
-              class="card mt-4 socmed-icon"
-              alt="Instagram Logo"
-            />
-            <div class="card-body text-center socmed-text">
-              <div class="card-description">
-                <h5 class="card-title socmed-name">Instagram</h5>
-                <p class="card-text socmed-description">
-                  Sebagai Postingan berbentuk Gambar Persegi dan sebagai
-                  Asisten dari Inzaghi's Blog.
-                </p>
-              </div>
-              <button
-                type="button"
-                class="btn btn-primary btn-md primary-button"
-              >
-                <a
-                  href="https://www.instagram.com/enzapost"
-                  target="_blank"
-                  class="button-link"
-                  >@enzapost</a
+            <div class="border-0 h-100 shadow opacity-75 socmed-card">
+              <img
+                src="../assets/icons/instagram-logo-icon.png"
+                class="card mt-4 socmed-icon"
+                alt="Instagram Logo"
+              />
+              <div class="card-body text-center socmed-text">
+                <div class="card-description">
+                  <h5 class="card-title socmed-name">Instagram</h5>
+                  <p class="card-text socmed-description">
+                    Sebagai Postingan berbentuk Gambar Persegi dan sebagai
+                    Asisten dari Inzaghi's Blog.
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary btn-md primary-button"
                 >
-              </button>
+                  <a
+                    href="https://www.instagram.com/enzapost"
+                    target="_blank"
+                    class="button-link"
+                    >@enzapost</a
+                  >
+                </button>
+              </div>
             </div>
-          </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <div class="border-0 h-100 shadow opacity-75 socmed-card">
             <img
-              src="{{URL::asset('assets/icons/tiktok-logo-icon.png')}}"
+              src="../assets/icons/tiktok-logo-icon.png"
               class="card mt-4 socmed-icon"
               alt="TikTok Logo"
             />
@@ -544,7 +626,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <div class="border-0 h-100 shadow opacity-75 socmed-card">
             <img
-              src="{{URL::asset('assets/icons/youtube-logo-icon.png')}}"
+              src="../assets/icons/youtube-logo-icon.png"
               class="card mt-4 socmed-icon"
               alt="YouTube Logo"
             />
@@ -573,7 +655,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <div class="border-0 h-100 shadow opacity-75 socmed-card">
             <img
-              src="{{URL::asset('assets/icons/twitter-x-logo.png')}}"
+              src="../assets/icons/twitter-x-logo.png"
               class="card mt-4 socmed-icon"
               alt="Twitter Logo"
             />
@@ -581,8 +663,9 @@
               <div class="card-description">
                 <h5 class="card-title socmed-name">X (Twitter)</h5>
                 <p class="card-text socmed-description">
-                  Sebagai Postingan berbentuk Repost/Retweet, Utasan/Tulisan,
-                  hingga Postingan-postingan dari Inzaghi's Blog.
+                  Sebagai Postingan berbentuk Repost/Retweet,
+                  Utasan/Tulisan, hingga Postingan-postingan dari Inzaghi's
+                  Blog.
                 </p>
               </div>
               <button
@@ -602,7 +685,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <div class="border-0 h-100 shadow opacity-75 socmed-card">
             <img
-              src="{{URL::asset('assets/icons/threads-logo-icon.png')}}"
+              src="../assets/icons/threads-logo-icon.png"
               class="card mt-4 socmed-icon"
               alt="Threads Logo"
             />

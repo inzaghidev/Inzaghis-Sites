@@ -48,7 +48,7 @@
       </div>
       <div class="welcome-image-to-inzaghis-sites">
         <img
-          src="../assets/images/inzaghis-sites-by-inzaghis-group-corp.png"
+          src="{{URL::asset('assets/images/inzaghis-sites-by-inzaghis-group-corp.png')}}"
           alt="Inzaghi's Sites"
           style="width: 600px"
         />
