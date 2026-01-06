@@ -16,7 +16,7 @@
                             <li><a href="<?php echo $pathToWebRoot.'/privacy-policy/'; ?>" class="text-decoration-none">Privacy Policy</a></li>
                             <li><a href="<?php echo $pathToWebRoot.'/contact/'; ?>" class="text-decoration-none">Contact</a></li>
                             <li><a href="<?php echo $pathToWebRoot.'/portals/'; ?>" class="text-decoration-none">Portals</a></li>
-                            <li><a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>" class="text-decoration-none">Apps</a></li>
+                            <li><a href="<?php echo $pathToWebRoot.'/apps/'; ?>" class="text-decoration-none">Apps</a></li>
                             <li><a href="https://medium.com/@izzumiposhaf29" class="text-decoration-none" target="_blank">Blog</a></li>
                             <li><a href="<?php echo $pathToWebRoot.'/sitemap/'; ?>" class="text-decoration-none">Sitemap</a></li>
                         </ul>
@@ -26,15 +26,15 @@
                     <section class="footer-title">Portals</section>
                     <nav>
                         <ul>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/widgets.php'; ?>" class="text-decoration-none">Widgets</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/tech-tutorials.php'; ?>" class="text-decoration-none">Technology Tutorials</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/projects.php'; ?>" class="text-decoration-none">IT Project Lists</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/career-portal.php'; ?>" class="text-decoration-none">Career Portal</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/learning-materials.php'; ?>" class="text-decoration-none">Learning Materials</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/entertainment-portal.php'; ?>" class="text-decoration-none">Entertainment Portal</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/link-pages.php'; ?>" class="text-decoration-none">Link Pages</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/muslim-portal.php'; ?>" class="text-decoration-none">Muslims Portal</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/portals/miscellaneous.php'; ?>" class="text-decoration-none">Miscellaneous</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/widgets'; ?>" class="text-decoration-none">Widgets</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/tech-tutorials'; ?>" class="text-decoration-none">Technology Tutorials</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/projects'; ?>" class="text-decoration-none">IT Project Lists</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/career-portal'; ?>" class="text-decoration-none">Career Portal</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/learning-materials'; ?>" class="text-decoration-none">Learning Materials</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/entertainment-portal'; ?>" class="text-decoration-none">Entertainment Portal</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/link-pages'; ?>" class="text-decoration-none">Link Pages</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/muslim-portal'; ?>" class="text-decoration-none">Muslims Portal</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/portals/miscellaneous'; ?>" class="text-decoration-none">Miscellaneous</a></li>
                         <li><a href="<?php echo $pathToWebRoot.'/portals/'; ?>" class="text-decoration-none">Portal Lists</a></li>
                         </ul>
                     </nav>
@@ -43,14 +43,14 @@
                     <section class="footer-title">Apps & Tools</section>
                     <nav>
                         <ul>
-                        <li><a href="<?php echo $pathToWebRoot.'/page-apps/converter.php'; ?>" class="text-decoration-none">Converters</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/page-apps/calculators.php'; ?>" class="text-decoration-none">Calculators</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/page-apps/generators.php'; ?>" class="text-decoration-none">Generators</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/page-apps/formatters.php'; ?>" class="text-decoration-none">Formatters</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/page-apps/file-converter.php'; ?>" class="text-decoration-none">File Converter</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/page-apps/utilities.php'; ?>" class="text-decoration-none">Utilities</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/page-apps/tester-tools.php'; ?>" class="text-decoration-none">Tester Tools</a></li>
-                        <li><a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>" class="text-decoration-none">Other Tools</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/apps/converter'; ?>" class="text-decoration-none">Converters</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/apps/calculators'; ?>" class="text-decoration-none">Calculators</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/apps/generators'; ?>" class="text-decoration-none">Generators</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/apps/formatters'; ?>" class="text-decoration-none">Formatters</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/apps/file-converter'; ?>" class="text-decoration-none">File Converter</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/apps/utilities'; ?>" class="text-decoration-none">Utilities</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/apps/tester-tools'; ?>" class="text-decoration-none">Tester Tools</a></li>
+                        <li><a href="<?php echo $pathToWebRoot.'/apps/'; ?>" class="text-decoration-none">Other Tools</a></li>
                         </ul>
                     </nav>
                 </section>
@@ -58,13 +58,13 @@
                     <section class="footer-title">Networks</section>
                     <nav>
                         <ul>
-                            <li><a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog.php'; ?>" class="text-decoration-none">Inzaghi's Blog</a></li>
-                            <li><a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-media.php'; ?>" class="text-decoration-none">Inzaghi's Media</a></li>
+                            <li><a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog'; ?>" class="text-decoration-none">Inzaghi's Blog</a></li>
+                            <li><a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-media'; ?>" class="text-decoration-none">Inzaghi's Media</a></li>
                             <li><a href="https://github.com/inzaghidev" class="text-decoration-none" target="_blank">Inzaghi's Dev (GitHub)</a></li>
                             <li><a href="https://sites.google.com/view/inzaghis-sites" class="text-decoration-none" target="_blank">Inzaghi's Sites (Old)</a></li>
                             <li><a href="https://drive.google.com/drive/folders/1gAMLO2AdXqsp75ymexKwXllKbLMTfhxa" class="text-decoration-none" target="_blank">Inzaghi's Archives</a></li>
                             <li><a href="#" class="text-decoration-none" target="_blank">Inzaghi's AI</a></li>
-                            <li><a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>" class="text-decoration-none">Inzaghi's Group Network Lists</a></li>
+                            <li><a href="<?php echo $pathToWebRoot.'/pages/networks'; ?>" class="text-decoration-none">Inzaghi's Group Network Lists</a></li>
                         </ul>
                     </nav>
                 </section>

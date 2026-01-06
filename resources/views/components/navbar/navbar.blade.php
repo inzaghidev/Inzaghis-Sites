@@ -40,21 +40,21 @@
                             </div>
                         </div>
                         <nav class="nav-dropdown-list nav-dropdown-list--open">
-                            <a href="<?php echo $pathToWebRoot.'/portals/widgets.php'; ?>" class="dropdown-link">Widgets</a>
-                            <a href="<?php echo $pathToWebRoot.'/portals/tech-tutorials.php'; ?>" class="dropdown-link">Technology Tutorials</a>
-                            <a href="<?php echo $pathToWebRoot.'/portals/projects.php'; ?>" class="dropdown-link">IT Project Lists</a>
-                            <a href="<?php echo $pathToWebRoot.'/portals/interviews-and-thesis.php'; ?>" class="dropdown-link">Intervs &amp; Thesis Prep</a>
-                            <a href="<?php echo $pathToWebRoot.'/portals/learning-materials.php'; ?>" class="dropdown-link">Materi Pembelajaran</a>
-                            <a href="<?php echo $pathToWebRoot.'/portals/video-pages.php'; ?>" class="dropdown-link">Video Pages</a>
-                            <a href="<?php echo $pathToWebRoot.'/portals/link-pages.php'; ?>" class="dropdown-link">Link Pages</a>
-                            <a href="<?php echo $pathToWebRoot.'/portals/miscellaneous.php'; ?>" class="dropdown-link">Miscellaneous</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/widgets'; ?>" class="dropdown-link">Widgets</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/tech-tutorials'; ?>" class="dropdown-link">Technology Tutorials</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/projects'; ?>" class="dropdown-link">IT Project Lists</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/interviews-and-thesis'; ?>" class="dropdown-link">Intervs &amp; Thesis Prep</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/learning-materials'; ?>" class="dropdown-link">Materi Pembelajaran</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/video-pages'; ?>" class="dropdown-link">Video Pages</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/link-pages'; ?>" class="dropdown-link">Link Pages</a>
+                            <a href="<?php echo $pathToWebRoot.'/portals/miscellaneous'; ?>" class="dropdown-link">Miscellaneous</a>
                         </nav>
                         </div>
                     </li>
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
                         <div class="text-block dropdown-button">
-                            <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a>
+                            <a href="<?php echo $pathToWebRoot.'/apps/'; ?>">Apps</a>
                             <div class="dropdown-icon">
                                 <svg class="angle-down-icon pointer-events-none" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
                                     <title>chevron-down-outline</title>
@@ -65,13 +65,13 @@
                             </div>
                         </div>
                         <nav class="nav-dropdown-list nav-dropdown-list--open">
-                            <a href="<?php echo $pathToWebRoot.'/page-apps/converter.php'; ?>" class="dropdown-link">Converters</a>
-                            <a href="<?php echo $pathToWebRoot.'/page-apps/calculators.php'; ?>" class="dropdown-link">Calculators</a>
-                            <a href="<?php echo $pathToWebRoot.'/page-apps/generators.php'; ?>" class="dropdown-link">Generators</a>
-                            <a href="<?php echo $pathToWebRoot.'/page-apps/formatters.php'; ?>" class="dropdown-link">Formatters</a>
-                            <a href="<?php echo $pathToWebRoot.'/page-apps/file-converter.php'; ?>" class="dropdown-link">File Converter</a>
-                            <a href="<?php echo $pathToWebRoot.'/page-apps/utilities.php'; ?>" class="dropdown-link">Utilities</a>
-                            <a href="<?php echo $pathToWebRoot.'/page-apps/tester-tools.php'; ?>" class="dropdown-link">Tester Tools</a>
+                            <a href="<?php echo $pathToWebRoot.'/apps/converter'; ?>" class="dropdown-link">Converters</a>
+                            <a href="<?php echo $pathToWebRoot.'/apps/calculators'; ?>" class="dropdown-link">Calculators</a>
+                            <a href="<?php echo $pathToWebRoot.'/apps/generators'; ?>" class="dropdown-link">Generators</a>
+                            <a href="<?php echo $pathToWebRoot.'/apps/formatters'; ?>" class="dropdown-link">Formatters</a>
+                            <a href="<?php echo $pathToWebRoot.'/apps/file-converter'; ?>" class="dropdown-link">File Converter</a>
+                            <a href="<?php echo $pathToWebRoot.'/apps/utilities'; ?>" class="dropdown-link">Utilities</a>
+                            <a href="<?php echo $pathToWebRoot.'/apps/tester-tools'; ?>" class="dropdown-link">Tester Tools</a>
                         </nav>
                         </div>
                     </li>
@@ -95,7 +95,7 @@
                             </nav>
                         </div>
                     </li>
-                    <!--li><a href="<?php //echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a></li-->
+                    <!--li><a href="<?php //echo $pathToWebRoot.'/pages/networks'; ?>">Inzaghi's Group</a></li-->
                     <li class="dropdown">
                         <div class="nav-dropdown-toggle w-dropdown-toggle">
                         <div class="text-block dropdown-button">
@@ -110,12 +110,12 @@
                             </div>
                         </div>
                         <nav class="nav-dropdown-list nav-dropdown-list--open">
-                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog.php'; ?>" class="dropdown-link">Inzaghi's Blog</a>
-                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-media.php'; ?>" class="dropdown-link">Inzaghi's Media</a>
-                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-dev.php'; ?>" class="dropdown-link">Inzaghi's Dev</a>
-                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-archives.php'; ?>" class="dropdown-link">Inzaghi's Archives</a>
-                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-app.php'; ?>" class="dropdown-link">Inzaghi's App</a>
-                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-ai.php'; ?>" class="dropdown-link">Inzaghi's AI</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog'; ?>" class="dropdown-link">Inzaghi's Blog</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-media'; ?>" class="dropdown-link">Inzaghi's Media</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-dev'; ?>" class="dropdown-link">Inzaghi's Dev</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-archives'; ?>" class="dropdown-link">Inzaghi's Archives</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-app'; ?>" class="dropdown-link">Inzaghi's App</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-ai'; ?>" class="dropdown-link">Inzaghi's AI</a>
                         </nav>
                         </div>
                     </li>
@@ -141,7 +141,7 @@
                     </li>
                 </ul>
                 <div class="sign-in-button">
-                    <a href="<?php echo $pathToWebRoot.'../includes/signin.php'; ?>" class="main-button">Sign in</a>
+                    <a href="<?php echo $pathToWebRoot.'../includes/signin'; ?>" class="main-button">Sign in</a>
                 </div>
             </div>
         </div>

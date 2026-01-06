@@ -20,7 +20,7 @@
             lain-lainnya.
           </p>
           <section class="group-button about-inzaghis-sites-button">
-            <a href="../pages/about.php" class="main-button">ABOUT</a>
+            <a href="../about" class="main-button">ABOUT</a>
           </section>
         </div>
       </div>
@@ -158,7 +158,7 @@
         Kalkulator, Generator, Formatter, dan lainnya.
       </p>
       <section class="group-button">
-        <a href="../pages/apps.php" class="main-button">Click here</a>
+        <a href="../pages/apps" class="main-button">Click here</a>
       </section>
     </div>
     <section class="group-content">
@@ -187,7 +187,7 @@
           Konverter ini akan sedikit menggunakan API.
         </p>
         <button type="button" class="btn btn-primary btn-md">
-          <a href="../page-apps/converter.php" class="button-link">Click here</a>
+          <a href="../apps/converter.php" class="button-link">Click here</a>
         </button>
       </section>
     </section>
@@ -352,49 +352,49 @@
           imgSrc: "../assets/images/converters-by-pages-apps.png",
           description:
             "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
-          link: "../page-apps/converter.html",
+          link: "../apps/converter.html",
         },
         {
           name: "Calculators",
           imgSrc: "../assets/images/calculators-by-pages-apps.png",
           description:
             "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
-          link: "../page-apps/calculators.html",
+          link: "../apps/calculators.html",
         },
         {
           name: "Generators",
           imgSrc: "../assets/images/generators-by-pages-apps.png",
           description:
             "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
-          link: "../page-apps/generators.html",
+          link: "../apps/generators.html",
         },
         {
           name: "Formatters",
           imgSrc: "../assets/images/formatters-by-pages-apps.png",
           description:
             "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
-          link: "../page-apps/formatters.html",
+          link: "../apps/formatters.html",
         },
         {
           name: "File Converter",
           imgSrc: "../assets/images/file-converters-by-pages-apps.png",
           description:
             "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
-          link: "../page-apps/file-converter.html",
+          link: "../apps/file-converter.html",
         },
         {
           name: "Utilities",
           imgSrc: "../assets/images/utilities-by-pages-apps.png",
           description:
             "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
-          link: "../page-apps/utilities.html",
+          link: "../apps/utilities.html",
         },
         {
           name: "Tester Tools",
           imgSrc: "../assets/images/tester-tools-by-pages-apps.png",
           description:
             "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
-          link: "../page-apps/tester-tools.html",
+          link: "../apps/tester-tools.html",
         },
       ],
     };
@@ -732,7 +732,7 @@
           Informasi yang bermanfaat.
         </p>
         <section class="group-button inzaghis-group-button">
-          <a href="../pages/networks.php" class="main-button">DETAILS</a>
+          <a href="../networks" class="main-button">DETAILS</a>
         </section>
       </div>
     </div>
