@@ -53,7 +53,7 @@
                   </div>
                   <div class="ml-4 mb-4">
                     <h3
-                      class="font-[Inter] mb-2 text-lg font-bold leading-6 text-gray-900 light:text-black"
+                      class="font-[Inter] mb-2 text-lg font-bold leading-6 text-gray-800 light:text-black"
                     >
                       Our Address
                     </h3>
@@ -91,7 +91,7 @@
                   </div>
                   <div class="ml-4 mb-4">
                     <h3
-                      class="font-[Inter] mb-2 text-lg font-bold leading-6 text-gray-900 light:text-black"
+                      class="font-[Inter] mb-2 text-lg font-bold leading-6 text-gray-800 light:text-black"
                     >
                       Contact
                     </h3>
@@ -115,8 +115,8 @@
                     <div class="mx-0 mb-1 sm:mb-4">
                       <label
                         for="name"
-                        class="pb-1 text-xs uppercase tracking-wider"
-                      ></label
+                        class="pb-1 text-sm text-gray-700 md:text-xs xl:text-sm font-bold uppercase tracking-wider"
+                      >Name</label
                       ><input
                         type="text"
                         id="name"
@@ -129,8 +129,8 @@
                     <div class="mx-0 mb-1 sm:mb-4">
                       <label
                         for="email"
-                        class="pb-1 text-xs uppercase tracking-wider"
-                      ></label
+                        class="pb-1 text-sm text-gray-700 md:text-xs xl:text-sm font-bold uppercase tracking-wider"
+                      >Email</label
                       ><input
                         type="email"
                         id="email"
@@ -144,8 +144,8 @@
                   <div class="mx-0 mb-1 sm:mb-4">
                     <label
                       for="textarea"
-                      class="pb-1 text-xs uppercase tracking-wider"
-                    ></label
+                      class="pb-1 text-sm text-gray-700 md:text-xs xl:text-sm font-bold uppercase tracking-wider"
+                    >Message</label
                     ><textarea
                       id="textarea"
                       name="message"
