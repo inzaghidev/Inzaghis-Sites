@@ -204,7 +204,7 @@
         Pembelajaran, dan lainnya.
       </p>
       <section class="group-button">
-        <a href="../pages/portals.html" class="main-button">Click here</a>
+        <a href="../pages/portals.php" class="main-button">Click here</a>
       </section>
     </div>
     <section class="group-content">
@@ -217,7 +217,7 @@
         <div class="swiper-pagination swiper-pagination-portals"></div>
       </div>
     </section>
-
+  
     <script>
       const portalsData = {
         apps: [
@@ -226,56 +226,63 @@
             imgSrc: "../assets/images/widgets-by-portals.png",
             description:
               "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
-            link: "../portals/widgets.html",
+            link: "../portals/widgets.php",
           },
           {
             name: "Technology Tutorials",
             imgSrc: "../assets/images/tech-tutorials-by-portals.png",
             description:
               "Merupakan kumpulan dari berbagai macam Teknologi apapun dalam bidang IT, dan sebagai Pembelajaran untuk berbagai macam Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu Komputer, Analisis Data, dan lainnya.",
-            link: "../portals/tech-tutorials.html",
+            link: "../portals/tech-tutorials.php",
           },
           {
             name: "IT Project Lists",
             imgSrc: "../assets/images/it-project-lists-by-portals.png",
             description:
               "Merupakan kumpulan dari berbagai macam Proyek apapun dalam bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis Data, AI/ML, IoT, dan lainnya.",
-            link: "../portals/projects.html",
+            link: "../portals/projects.php",
           },
           {
-            name: "Interviews & Thesis Prep",
-            imgSrc: "../assets/images/intervs-and-thesis-by-portals.png",
+            name: "Career Portal",
+            imgSrc: "../assets/images/career-portal-by-portals.png",
             description:
               "Merupakan kumpulan dari pertanyaan-pertanyaan Wawancara seperti Wawancara Kerja, Magang, User Interview, Wawancara Teknis (Technical Interview), dan lain-lain. Portal ini juga menyediakan berbagai macam Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
-            link: "../portals/interviews-and-thesis.html",
+            link: "../portals/career-portal.php",
           },
           {
-            name: "Materi Pembelajaran",
+            name: "Learning Materials",
             imgSrc: "../assets/images/learning-materials-by-portals.png",
             description:
-              "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik Informatika). Untuk Materi SMA, kebanyakan hanya lebih spesifik ke Jurusan IPA saja. Dan untuk Materi Perkuliahan, hanya hanya tersedia untuk Jurusan Teknik Informatika (TI) saja, dan hanya beberapa Mata Kuliah saja yang juga tersedia untuk Jurusan Sistem Informasi (SI). Untuk Jurusan/Prodi lainnya, hanya tersedia untuk Mata Kuliah Umum (MKDU) saja.",
-            link: "../portals/learning-materials.html",
+              "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik InformatiKa dan Umum/MKDU). Pada Portal ini juga menyediakan berbagai macam Kumpulan Materi dan Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
+            link: "../portals/learning-materials.php",
           },
           {
-            name: "Video Pages",
-            imgSrc: "../assets/images/video-pages-by-portals.png",
+            name: "Entertainment Portal",
+            imgSrc: "../assets/images/entertainment-portal-by-portals.png",
             description:
-              "Merupakan kumpulan dari Video-video YouTube seperti Live Streaming Video, Daftar Channel Terjemahan Multibahasa, dan Daftar Channel YouTube per Kategori.",
-            link: "../portals/video-pages.html",
+              "Merupakan Portal untuk Pusat Hiburan seperti Kumpulan Video dan Live Streaming di YouTube, Kumpulan Akun-akun Media Sosial, hingga Kumpulan Playlist Lagu seperti Spotify.",
+            link: "../portals/entertainment-portal.php",
           },
           {
             name: "Link Pages",
             imgSrc: "../assets/images/link-pages-by-portals.png",
             description:
               "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
-            link: "../portals/link-pages.html",
+            link: "../portals/link-pages.php",
+          },
+          {
+            name: "Muslims Portal",
+            imgSrc: "../assets/images/muslim-portal-by-portals.png",
+            description:
+              "Merupakan Portal untuk Kumpulan Pusat Keagamaan dan Peribadatan Islam, seperti Jadwal Shalat & Puasa, Kalender Hijriah, Kompas Arah Kiblat, hingga Al-Qur'an Digital.",
+            link: "../portals/muslim-portal.php",
           },
           {
             name: "Miscellaneous",
             imgSrc: "../assets/images/miscellaneous-by-portals.png",
             description:
               "Merupakan Halaman lainnya yang tidak termasuk dari Kategori di Portal ini, dan juga tersedia untuk Halaman apa saja.",
-            link: "../portals/miscellaneous.html",
+            link: "../portals/miscellaneous.php",
           },
           {
             name: "Lorem Ipsum",
@@ -286,39 +293,39 @@
           },
         ],
       };
-
-  const portalsContainer = document.getElementById("portalsContainer");
-
-       portalsData.apps.forEach((app) => {
-         const slide = document.createElement("div");
-         slide.className = "swiper-slide";
-         slide.innerHTML = `
-         <div class="card card-swiper card-apps h-100 border-success shadow">
-           <a href="${app.link}">
-             <img
-               src="${app.imgSrc}"
-               class="card-img-apps card-img-top"
-               alt="${app.name}"
-             />
-           </a>
-           <div class="card-body card-apps-body">
-             <div class="card-description">
-               <h4 class="card-name card-title page-apps-card">
-                 <a>${app.name}</a>
-               </h4>
-               <p class="card-text blog-description">${app.description}</p>
-             </div>
-             <button type="button" class="btn btn-primary btn-md apps-button">
-               <a href="${app.link}" class="button-link">Klik di sini</a>
-             </button>
-           </div>
-         </div>
-       `;
-         portalsContainer.appendChild(slide);
-       });
-     </script>
-   </div>
-   <script src="{{URL::asset('src/js.slider.js')}}"></script>
+    
+      const portalsContainer = document.getElementById("portalsContainer");
+     
+      portalsData.apps.forEach((app) => {
+        const slide = document.createElement("div");
+        slide.className = "swiper-slide";
+        slide.innerHTML = `
+        <div class="card card-swiper card-apps h-100 border-success shadow">
+          <a href="${app.link}">
+            <img
+              src="${app.imgSrc}"
+              class="card-img-apps card-img-top"
+              alt="${app.name}"
+            />
+          </a>
+          <div class="card-body card-apps-body">
+            <div class="card-description">
+              <h4 class="card-name card-title page-apps-card">
+                <a>${app.name}</a>
+              </h4>
+              <p class="card-text blog-description">${app.description}</p>
+            </div>
+            <button type="button" class="btn btn-primary btn-md apps-button">
+              <a href="${app.link}" class="button-link">Klik di sini</a>
+            </button>
+          </div>
+        </div>
+      `;
+        portalsContainer.appendChild(slide);
+      });
+    </script>
+  </div>
+  <script src="../js/slider.js"></script>
 </section>
 <section class="slider-carousel shadow">
   <div class="slider-container">
@@ -330,7 +337,7 @@
         Kalkulator, Generator, Formatter, dan lainnya.
       </p>
       <section class="group-button">
-        <a href="../pages/apps.html" class="main-button">Click here</a>
+        <a href="../pages/apps.php" class="main-button">Click here</a>
       </section>
     </div>
     <section class="group-content">
@@ -343,64 +350,64 @@
         <div class="swiper-pagination swiper-pagination-apps"></div>
       </div>
     </section>
-
-  <script>
-    const appsData = {
-      apps: [
-        {
-          name: "Converters",
-          imgSrc: "../assets/images/converters-by-pages-apps.png",
-          description:
-            "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
-          link: "../apps/converter.html",
-        },
-        {
-          name: "Calculators",
-          imgSrc: "../assets/images/calculators-by-pages-apps.png",
-          description:
-            "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
-          link: "../apps/calculators.html",
-        },
-        {
-          name: "Generators",
-          imgSrc: "../assets/images/generators-by-pages-apps.png",
-          description:
-            "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
-          link: "../apps/generators.html",
-        },
-        {
-          name: "Formatters",
-          imgSrc: "../assets/images/formatters-by-pages-apps.png",
-          description:
-            "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
-          link: "../apps/formatters.html",
-        },
-        {
-          name: "File Converter",
-          imgSrc: "../assets/images/file-converters-by-pages-apps.png",
-          description:
-            "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
-          link: "../apps/file-converter.html",
-        },
-        {
-          name: "Utilities",
-          imgSrc: "../assets/images/utilities-by-pages-apps.png",
-          description:
-            "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
-          link: "../apps/utilities.html",
-        },
-        {
-          name: "Tester Tools",
-          imgSrc: "../assets/images/tester-tools-by-pages-apps.png",
-          description:
-            "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
-          link: "../apps/tester-tools.html",
-        },
-      ],
-    };
-
+  
+    <script>
+      const appsData = {
+        apps: [
+          {
+            name: "Converters",
+            imgSrc: "../assets/images/converters-by-pages-apps.png",
+            description:
+              "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
+            link: "../apps/converter.php",
+          },
+          {
+            name: "Calculators",
+            imgSrc: "../assets/images/calculators-by-pages-apps.png",
+            description:
+              "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
+            link: "../apps/calculators.php",
+          },
+          {
+            name: "Generators",
+            imgSrc: "../assets/images/generators-by-pages-apps.png",
+            description:
+              "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
+            link: "../apps/generators.php",
+          },
+          {
+            name: "Formatters",
+            imgSrc: "../assets/images/formatters-by-pages-apps.png",
+            description:
+              "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
+            link: "../apps/formatters.php",
+          },
+          {
+            name: "File Converter",
+            imgSrc: "../assets/images/file-converters-by-pages-apps.png",
+            description:
+              "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
+            link: "../apps/file-converter.php",
+          },
+          {
+            name: "Utilities",
+            imgSrc: "../assets/images/utilities-by-pages-apps.png",
+            description:
+              "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
+            link: "../apps/utilities.php",
+          },
+          {
+            name: "Tester Tools",
+            imgSrc: "../assets/images/tester-tools-by-pages-apps.png",
+            description:
+              "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
+            link: "../apps/tester-tools.php",
+          },
+        ],
+      };
+    
       const appsContainer = document.getElementById("appsContainer");
-
+    
       appsData.apps.forEach((app) => {
         const slide = document.createElement("div");
         slide.className = "swiper-slide";
@@ -430,7 +437,7 @@
       });
     </script>
   </div>
-  <script src="{{URL::asset('src/js.slider.js')}}"></script>
+  <script src="../js/slider.js"></script>
 </section> --}}
 <section class="inzaghis-blog shadow">
   <div class="inzaghis-blog-container">

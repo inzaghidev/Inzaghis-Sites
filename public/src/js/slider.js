@@ -1,129 +1,58 @@
-// const container = document.querySelector(".slider-container");
-
-// // Pastikan elemen swiper menyesuaikan lebar container
-// const adjustSwiperWidth = () => {
-//   const swiperElement = document.querySelector(".swiper");
-//   const pagination = document.querySelector(".swiper-pagination");
-//   const nextButton = document.querySelector(".swiper-button-next");
-//   const prevButton = document.querySelector(".swiper-button-prev");
-
-//   if (swiperElement) {
-//     const containerWidth = container.getBoundingClientRect().width;
-
-//     swiperElement.style.maxWidth = `${containerWidth}px`;
-//     pagination.style.maxWidth = `${containerWidth}px`;
-
-//     // Posisi navigasi di tengah
-//     nextButton.style.right = "0px";
-//     prevButton.style.left = "0px";
-//   }
-// };
-
-// // Panggil fungsi saat halaman dimuat dan ketika ukuran jendela berubah
-// adjustSwiperWidth();
-// window.addEventListener("resize", adjustSwiperWidth);
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   // Inisialisasi Swiper untuk Portals
-//   const portalsSwiper = new Swiper(".portals-swiper", {
-//     slidesPerView: 3,
-//     spaceBetween: 25,
-//     loop: true,
-//     grabCursor: true,
-//     pagination: {
-//       el: ".swiper-pagination-portals",
-//       clickable: true,
-//     },
-//     navigation: {
-//       nextEl: ".swiper-button-next-portals",
-//       prevEl: ".swiper-button-prev-portals",
-//     },
-//     breakpoints: {
-//       0: { slidesPerView: 1 },
-//       480: { slidesPerView: 2 },
-//       720: { slidesPerView: 3 },
-//       1120: { slidesPerView: 4 },
-//     },
-//   });
-
-//   // Inisialisasi Swiper untuk Apps
-//   const appsSwiper = new Swiper(".apps-swiper", {
-//     slidesPerView: 3,
-//     spaceBetween: 25,
-//     loop: true,
-//     grabCursor: true,
-//     pagination: {
-//       el: ".swiper-pagination-apps",
-//       clickable: true,
-//     },
-//     navigation: {
-//       nextEl: ".swiper-button-next-apps",
-//       prevEl: ".swiper-button-prev-apps",
-//     },
-//     breakpoints: {
-//       0: { slidesPerView: 1 },
-//       480: { slidesPerView: 2 },
-//       720: { slidesPerView: 3 },
-//       1120: { slidesPerView: 4 },
-//     },
-//   });
-// });
-
 (() => {
     const images_list = [
         {
             name: "Pages",
             url: "../images/pages-by-pages-apps.png",
             alt: "",
-            link: "../page-apps/pages.html",
+            link: "../apps/pages.php",
         },
         {
             name: "Widgets",
             url: "../images/widgets-by-pages-apps.png",
             alt: "",
-            link: "../page-apps/widgets.html",
+            link: "../apps/widgets.php",
         },
         {
             name: "Converters",
             url: "../images/converters-by-pages-apps.png",
             alt: "",
-            link: "../page-apps/converter.html",
+            link: "../apps/converter.php",
         },
         {
             name: "Calculators",
             url: "../images/calculators-by-pages-apps.png",
             alt: "",
-            link: "../page-apps/calculators.html",
+            link: "../apps/calculators.php",
         },
         {
             name: "Generators",
             url: "../images/generators-by-pages-apps.png",
             alt: "",
-            link: "../page-apps/generators.html",
+            link: "../apps/generators.php",
         },
         {
             name: "Formatters",
             url: "../images/formatters-by-pages-apps.png",
             alt: "",
-            link: "../page-apps/formatters.html",
+            link: "../apps/formatters.php",
         },
         {
             name: "FileConverters",
             url: "../images/file-converters-by-pages-apps.png",
             alt: "",
-            link: "../page-apps/file-converter.html",
+            link: "../apps/file-converter.php",
         },
         {
             name: "Utilities",
             url: "../images/utilities-by-pages-apps.png",
             alt: "",
-            link: "../page-apps/utilities.html",
+            link: "../apps/utilities.php",
         },
         {
             name: "TesterTools",
             url: "../images/tester-tools-by-pages-apps.png",
             alt: "",
-            link: "../page-apps/tester-tools.html",
+            link: "../apps/tester-tools.php",
         },
     ];
 
@@ -231,7 +160,7 @@
     const updateGroupTitleAndSubheading = (image) => {
         const groupTitle = document.querySelector(".group-title");
         const leftSubheading = document.querySelector(".left-subheading");
-        const blogLink = document.querySelector(".blog-link");
+        const blogLink = document.querySelector(".button-link");
 
         // Update content based on the selected image
         groupTitle.textContent = image.name
@@ -253,15 +182,15 @@
     const getBlogLink = (imageName) => {
         // Define the mapping of image name to blog link
         const blogLinkMap = {
-            Pages: "../page-apps/pages.html",
-            Widgets: "../page-apps/widgets.html",
-            Converters: "../page-apps/converter.html",
-            Calculators: "../page-apps/calculators.html",
-            Generators: "../page-apps/generators.html",
-            Formatters: "../page-apps/formatters.html",
-            FileConverters: "../page-apps/file-converter.html",
-            Utilities: "../page-apps/utilities.html",
-            TesterTools: "../page-apps/tester-tools.html",
+            Pages: "../apps/pages.php",
+            Widgets: "../apps/widgets.php",
+            Converters: "../apps/converter.php",
+            Calculators: "../apps/calculators.php",
+            Generators: "../apps/generators.php",
+            Formatters: "../apps/formatters.php",
+            FileConverters: "../apps/file-converter.php",
+            Utilities: "../apps/utilities.php",
+            TesterTools: "../apps/tester-tools.php",
         };
 
         // Return the blog link based on the image name, or a default value if not found
