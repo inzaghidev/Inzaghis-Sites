@@ -84,7 +84,7 @@
             </section>
         </section>
         <section class="footer-bottom">
-          <div class="footer-copyright flex items-center gap-1 text-sm text-gray-700">
+          <div class="footer-copyright flex items-center gap-1 text-xs sm:text-sm text-gray-700">
             <span>© 2026</span>
             <a class="font-medium" href="/">Inzaghi's Corp. (InzaTech)</a>
             <span>All rights reserved.</span>
