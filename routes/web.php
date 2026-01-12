@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\AppsItem;
+use App\Models\Portal;
 
 Route::get('/', function () {
     return view('/index', [
@@ -53,13 +55,15 @@ Route::get('/privacy-policy', function () {
 
 Route::get('/apps', function () {
     return view('/apps/index', [
-        'page_title' => 'Apps'
+        'page_title' => 'Apps',
+        'apps' => AppsItem::all()
     ]);
 });
 
 Route::get('/portals', function () {
     return view('/portals/index', [
-        'page_title' => 'Portals'
+        'page_title' => 'Portals',
+        'apps' => Portal::all()
     ]);
 });
 
