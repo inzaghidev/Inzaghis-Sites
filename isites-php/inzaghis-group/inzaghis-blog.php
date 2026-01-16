@@ -14,7 +14,7 @@
     <div class="container-top"></div>
     <section class="inzaghis-group-pages inzaghisblog-slider">
       <div class="page-wrapper inzagroup-pages">
-        <h1 class="my-4 page-title">Inzaghi's Blog</h1>
+        <h1 class="my-4 page-title">8️⃣🎂 Inzaghi's Blog</h1>
         <div
           class="bg-white shadow-xl rounded-lg p-6 ring-1 ring-yellow-500 p-6"
         >
