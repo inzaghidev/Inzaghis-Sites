@@ -1,5 +1,6 @@
-/* REDESIGN CSS PROPERTIES */
-/* UNDER CONSTRUCTION IN PROGRESS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   box-sizing: border-box;
