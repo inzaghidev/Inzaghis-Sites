@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* REDESIGN CSS PROPERTIES */
+/* UNDER CONSTRUCTION IN PROGRESS */
 
 * {
   box-sizing: border-box;
@@ -42,7 +41,6 @@ html {
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
-/* Default Styles for Larger Screens */
 .w-layout-blockcontainer {
   max-width: 728px;
 }
@@ -267,10 +265,11 @@ svg:not(:root) {
   color: var(--color-white);
   border-radius: 8px;
   text-decoration: none;
-  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow:
+    var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
   box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
 }
 
@@ -305,10 +304,11 @@ svg:not(:root) {
   color: var(--color-white);
   border-radius: 8px;
   text-decoration: none;
-  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  --tw-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow:
+    var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
   box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
 }
 
@@ -1281,13 +1281,6 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.instagram,
-.tiktok,
-.youtube,
-.twitter {
-  max-width: 200px;
-}
-
 .socmed {
   background-color: rgba(255, 227, 227, 0.8);
 }
@@ -1395,7 +1388,7 @@ svg:not(:root) {
 }
 
 /* Responsive Styles for Tablet */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1140px) {
   .w-layout-blockcontainer {
     max-width: 90%; /* Adjust as needed */
     margin: 0 auto; /* Center-align the container */
@@ -1568,10 +1561,11 @@ svg:not(:root) {
     color: var(--color-white);
     border-radius: 8px;
     text-decoration: none;
-    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-      0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow:
+      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow:
+      var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+      var(--tw-shadow);
     box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
   }
 
@@ -2040,13 +2034,6 @@ svg:not(:root) {
     justify-content: center;
   }
 
-  .instagram,
-  .tiktok,
-  .youtube,
-  .twitter {
-    max-width: 200px;
-  }
-
   .socmed-name {
     margin-bottom: var(--margin-bottom-12);
     text-align: center;
@@ -2309,10 +2296,11 @@ svg:not(:root) {
     background-color: #555555;
     color: var(--color-white);
     text-decoration: none;
-    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-      0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow:
+      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow:
+      var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+      var(--tw-shadow);
     box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
   }
 
@@ -2339,10 +2327,11 @@ svg:not(:root) {
     background-color: #555555;
     color: var(--color-white);
     text-decoration: none;
-    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-      0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow:
+      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow:
+      var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+      var(--tw-shadow);
     box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
   }
 
@@ -2780,14 +2769,6 @@ svg:not(:root) {
 
   .inzaghismedia {
     display: block;
-  }
-
-  .instagram,
-  .tiktok,
-  .youtube,
-  .twitter {
-    max-width: 200px;
-    margin: 0 auto;
   }
 
   .socmed-name {
