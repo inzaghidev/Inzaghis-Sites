@@ -332,7 +332,7 @@ li a:hover::after {
   cursor: pointer;
   border-radius: 6px;
   letter-spacing: 0.25px;
-  padding: 8px 18px 8px 18px;
+  padding: 8px 16px 8px 16px;
   font-size: 14px;
   line-height: 20px;
   cursor: pointer;

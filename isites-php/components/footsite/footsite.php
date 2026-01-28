@@ -75,8 +75,8 @@
                             <li><a href="https://inzaghiposuma.wordpress.com/blog-posts" class="text-decoration-none" target="_blank">WordPress Blog</a></li>
                             <li><a href="https://medium.com/@izzumiposhaf29" class="text-decoration-none">Inzaghi's Sites Blog</a></li>
                             <li><a href="https://linktr.ee/inzaghigroup" class="text-decoration-none" target="_blank">Linktree Inzaghi's Group</a></li>
-                            <li><a href="https://inzaghi.wuaze.com" class="text-decoration-none text-success"><b>Switch to New UI (Current)</b></a></li>
-                            <li><a href="https://preview.inzaghi.wuaze.com" class="text-decoration-none text-info"><b>Go to the Experimental (Preview)</b></a></li>
+                            <li><a href="https://old.inzaghi.wuaze.com" class="text-decoration-none text-success"><b>Back to Old UI (Legacy)</b></a></li>
+                            <li><a href="https://inzaghi.wuaze.com" class="text-decoration-none text-primary"><b>Back to the Main Domain Site (Current)</b></a></li>
                         </ul>
                         <a class="github-button" href="https://github.com/inzaghidev/Inzaghis-Sites" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Look at @inzaghidev">Look at @inzaghidev</a>
                     </nav>
@@ -85,7 +85,7 @@
         </section>
         <section class="footer-bottom">
             <div class="footer-copyright">
-                © 2025 Inzaghi's Corp. (InzaTech) All rights reserved.
+                © 2026 Inzaghi's Corp. (InzaTech) All rights reserved.
             </div>
         </section>
     </div>
