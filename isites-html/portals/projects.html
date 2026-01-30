@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -141,31 +141,25 @@
 
                 // Loop through the apps data and create the HTML elements
                 apps.forEach((app) => {
-                  const column = $("<div></div>").addClass(
-                    "col-md-4 col-sm-6 mb-4"
-                  );
-                  const card = $("<div></div>").addClass(
-                    "card card-apps h-100 shadow-lg border border-success card-animated"
-                  );
-                  const cardBody = $("<div></div>").addClass(
-                    "card-body card-apps-body"
-                  );
+                  const col = document.createElement("div");
+                  col.className = "col-md-4 col-sm-6 mb-4";
 
-                  const cardTitle = $("<h5></h5>")
-                    .addClass("card-apps-title")
-                    .text(app.title);
-                  const cardText = $("<p></p>")
-                    .addClass("card-text card-apps-text card-description")
-                    .text(app.text);
-                  const cardLink = $("<a></a>")
-                    .addClass("btn btn-primary apps-button")
-                    .attr("href", app.link)
-                    .text("Click here");
+                  col.innerHTML = `
+                    <div class="card card-apps h-100 shadow-lg border border-success card-animated">
+                      <div class="card-body card-apps-body">
+                        <h5 class="card-apps-title">${app.title}</h5>
+                        <p class="card-text card-apps-text card-description">
+                          ${app.text}
+                        </p>
+                        <a href="${app.link}" class="btn btn-primary apps-button">
+                          Click here
+                        </a>
+                      </div>
+                    </div>
+                  `;
 
-                  cardBody.append(cardTitle, cardText, cardLink);
-                  card.append(cardBody);
-                  column.append(card);
-                  appContainer.append(column);
+                  // Append the created column to the container so it becomes visible on the page
+                  appContainer.append(col);
                 });
               });
             </script>
