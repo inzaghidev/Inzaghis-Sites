@@ -1,0 +1,41 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24"
+  width="44"
+  height="44"
+  fill="none"
+>
+  <defs>
+    <linearGradient
+      id="gradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="100%"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0%" stop-color="#f58529" />
+      <stop offset="30%" stop-color="#dd2a7b" />
+      <stop offset="60%" stop-color="#8134af" />
+      <stop offset="100%" stop-color="#515bd4" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+    stroke="url(#gradient)"
+    stroke-width="1.5"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z"
+    stroke="url(#gradient)"
+    stroke-width="1.5"
+  />
+  <path
+    d="M17.5078 6.5L17.4988 6.5"
+    stroke="url(#gradient)"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
