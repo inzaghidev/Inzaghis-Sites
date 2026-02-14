@@ -1,0 +1,40 @@
+{
+  "apps": [
+    {
+      "name": "Converters",
+      "imgSrc": "/assets/images/converters-by-pages-apps.png",
+      "description": "Portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa, Panjang, dan Sistem Bilangan",
+      "link": "/apps/converters"
+    },
+    {
+      "name": "Calculators",
+      "imgSrc": "/assets/images/calculators-by-pages-apps.png",
+      "description": "Kumpulan Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, dan Keuangan",
+      "link": "/apps/calculators"
+    },
+    {
+      "name": "Generators",
+      "imgSrc": "/assets/images/generators-by-pages-apps.png",
+      "description": "Aplikasi untuk membuat dan mengenerasi Text Generator hingga Image Generator",
+      "link": "/apps/generators"
+    },
+    {
+      "name": "Formatters",
+      "imgSrc": "/assets/images/formatters-by-pages-apps.png",
+      "description": "Aplikasi untuk melakukan Formatting seperti XML, JSON, dan pemformatan lainnya",
+      "link": "/apps/formatters"
+    },
+    {
+      "name": "File Converter",
+      "imgSrc": "/assets/images/file-converters-by-pages-apps.png",
+      "description": "Portal untuk konversi format File seperti JPG, PNG, DOCX, PDF, dan PPT",
+      "link": "/apps/file-converter"
+    },
+    {
+      "name": "Utilities",
+      "imgSrc": "/assets/images/utilities-by-pages-apps.png",
+      "description": "Kumpulan Aplikasi Utilitas untuk kebutuhan sehari-hari",
+      "link": "/apps/utilities"
+    }
+  ]
+}

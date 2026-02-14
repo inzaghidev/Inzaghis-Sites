@@ -1,6 +1,11 @@
 import { useState } from "react";
+import { ThemeProvider } from "./context/ThemeContext";
 import AppRouter from "./router/AppRouter.jsx";
 
 export default function App() {
-  return <AppRouter />;
+  return (
+    <ThemeProvider>
+      <AppRouter />
+    </ThemeProvider>
+  );
 }

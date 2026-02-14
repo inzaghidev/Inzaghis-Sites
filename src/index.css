@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
+/* @import "./styles/reset.css"; */
+@import "./styles/variables.css";
+@import "./styles/form.css";
+
+@import "./components/layout/Navbar.module.css";
+@import "./components/layout/Footer.module.css";
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-family: "Inter", "Helvetica Neue", Helvetica, sans-serif;
+  --font-family-heading: "Poppins", "Inter", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -21,12 +29,12 @@
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition-speed);
 }
 a:hover {
-  color: #535bf2;
+  color: #0d47a1;
 }
 
 body {
@@ -49,7 +57,6 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }

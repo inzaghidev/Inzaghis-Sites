@@ -5,7 +5,7 @@ export default function About() {
         <div className="page-title">
           <h1 className="page-title">ABOUT</h1>
         </div>
-        <div className="welcome-wrapper">
+        <div className="welcome-wrapper text-black">
           <div className="welcome-to-inzaghis-sites">
             <div className="welcome-description">
               <p className="about-inzites-description">
@@ -57,7 +57,7 @@ export default function About() {
             <img
               src="../assets/images/inzaghis-sites-by-inzaghis-group-corp.png"
               alt="Inzaghi's Sites"
-              style="width: 600px"
+              className="w-[600px]"
             />
           </div>
         </div>

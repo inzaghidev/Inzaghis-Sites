@@ -1,0 +1,230 @@
+/* CSS Variables - Design System */
+
+:root {
+  /* ========== Colors ========== */
+  
+  /* Primary Colors */
+  --color-primary-50: #e3f2fd;
+  --color-primary-100: #bbdefb;
+  --color-primary-200: #90caf9;
+  --color-primary-300: #64b5f6;
+  --color-primary-400: #42a5f5;
+  --color-primary-500: #1a73e8;
+  --color-primary-600: #1565c0;
+  --color-primary-700: #0d47a1;
+  --color-primary-800: #0a3d8f;
+  --color-primary-900: #08306b;
+
+  /* Secondary Colors */
+  --color-secondary-50: #f9fafb;
+  --color-secondary-100: #f1f3f4;
+  --color-secondary-200: #e8eaed;
+  --color-secondary-300: #dadce0;
+  --color-secondary-400: #bdc1c6;
+  --color-secondary-500: #9aa0a6;
+  --color-secondary-600: #80868b;
+  --color-secondary-700: #5f6368;
+  --color-secondary-800: #3c4043;
+  --color-secondary-900: #202124;
+
+  /* Semantic Colors */
+  --color-success: #34a853;
+  --color-success-light: #81c995;
+  --color-success-dark: #1e8e3e;
+  
+  --color-warning: #fbbc04;
+  --color-warning-light: #fce283;
+  --color-warning-dark: #f9ab00;
+  
+  --color-error: #ea4335;
+  --color-error-light: #f28b82;
+  --color-error-dark: #c5221f;
+  
+  --color-info: #4285f4;
+  --color-info-light: #8ab4f8;
+  --color-info-dark: #1967d2;
+
+  /* Neutral Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-50: #fafafa;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #eeeeee;
+  --color-gray-300: #e0e0e0;
+  --color-gray-400: #bdbdbd;
+  --color-gray-500: #9e9e9e;
+  --color-gray-600: #757575;
+  --color-gray-700: #616161;
+  --color-gray-800: #424242;
+  --color-gray-900: #212121;
+
+  /* Background Colors */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-bg-tertiary: #f1f3f4;
+  
+  /* Text Colors */
+  --color-text-primary: #202124;
+  --color-text-secondary: #5f6368;
+  --color-text-tertiary: #9aa0a6;
+  --color-text-inverse: #ffffff;
+
+  /* Border Colors */
+  --color-border-primary: #dadce0;
+  --color-border-secondary: #e8eaed;
+  --color-border-tertiary: #f1f3f4;
+
+  /* ========== Typography ========== */
+  
+  /* Font Families */
+  --font-family-primary: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-secondary: "Poppins", "Inter", sans-serif;
+  --font-family-mono: "Fira Code", "Courier New", monospace;
+
+  /* Font Sizes */
+  --font-size-xs: 0.75rem;      /* 12px */
+  --font-size-sm: 0.875rem;     /* 14px */
+  --font-size-base: 1rem;       /* 16px */
+  --font-size-lg: 1.125rem;     /* 18px */
+  --font-size-xl: 1.25rem;      /* 20px */
+  --font-size-2xl: 1.5rem;      /* 24px */
+  --font-size-3xl: 1.875rem;    /* 30px */
+  --font-size-4xl: 2.25rem;     /* 36px */
+  --font-size-5xl: 3rem;        /* 48px */
+  --font-size-6xl: 3.75rem;     /* 60px */
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Line Heights */
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+  --line-height-loose: 2;
+
+  /* ========== Spacing ========== */
+  
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;   /* 4px */
+  --spacing-2: 0.5rem;    /* 8px */
+  --spacing-3: 0.75rem;   /* 12px */
+  --spacing-4: 1rem;      /* 16px */
+  --spacing-5: 1.25rem;   /* 20px */
+  --spacing-6: 1.5rem;    /* 24px */
+  --spacing-8: 2rem;      /* 32px */
+  --spacing-10: 2.5rem;   /* 40px */
+  --spacing-12: 3rem;     /* 48px */
+  --spacing-16: 4rem;     /* 64px */
+  --spacing-20: 5rem;     /* 80px */
+  --spacing-24: 6rem;     /* 96px */
+
+  /* ========== Border Radius ========== */
+  
+  --radius-none: 0;
+  --radius-sm: 0.25rem;   /* 4px */
+  --radius-base: 0.5rem;  /* 8px */
+  --radius-md: 0.75rem;   /* 12px */
+  --radius-lg: 1rem;      /* 16px */
+  --radius-xl: 1.5rem;    /* 24px */
+  --radius-2xl: 2rem;     /* 32px */
+  --radius-full: 9999px;
+
+  /* ========== Shadows ========== */
+  
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  /* ========== Transitions ========== */
+  
+  --transition-fast: 150ms;
+  --transition-base: 200ms;
+  --transition-slow: 300ms;
+  --transition-slower: 500ms;
+  
+  --transition-timing-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-timing-in: cubic-bezier(0.4, 0, 1, 1);
+  --transition-timing-out: cubic-bezier(0, 0, 0.2, 1);
+  --transition-timing-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ========== Z-Index ========== */
+  
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1020;
+  --z-index-fixed: 1030;
+  --z-index-modal-backdrop: 1040;
+  --z-index-modal: 1050;
+  --z-index-popover: 1060;
+  --z-index-tooltip: 1070;
+
+  /* ========== Container ========== */
+  
+  --container-max-width: 1280px;
+  --container-padding: 1rem;
+
+  /* ========== Navbar ========== */
+  
+  --navbar-height: 4rem;
+  --navbar-bg: rgba(255, 255, 255, 0.6);
+  --navbar-bg-scrolled: rgba(255, 255, 255, 0.95);
+  --navbar-text: var(--color-text-primary);
+  --navbar-hover: #c1e0d1;
+
+  /* ========== Footer ========== */
+  
+  --footer-bg: radial-gradient(circle, rgba(217, 208, 235, 1) 0%, rgba(235, 235, 238, 1) 100%);
+}
+
+/* ========== Dark Mode Variables ========== */
+
+[data-theme="dark"] {
+  /* Colors */
+  --color-bg-primary: #1a1a1a;
+  --color-bg-secondary: #2d2d2d;
+  --color-bg-tertiary: #3a3a3a;
+  
+  --color-text-primary: #e8eaed;
+  --color-text-secondary: #9aa0a6;
+  --color-text-tertiary: #5f6368;
+  --color-text-inverse: #202124;
+
+  --color-border-primary: #3a3a3a;
+  --color-border-secondary: #2d2d2d;
+  --color-border-tertiary: #232323;
+
+  /* Navbar */
+  --navbar-bg: rgba(32, 32, 32, 0.6);
+  --navbar-bg-scrolled: rgba(32, 32, 32, 0.95);
+  --navbar-text: #e8eaed;
+  --navbar-hover: #203c2e;
+
+  /* Footer */
+  --footer-bg: radial-gradient(circle, rgba(32, 32, 36, 1) 0%, rgba(45, 45, 50, 1) 100%);
+
+  /* Shadows (lighter for dark mode) */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.4), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+}
+
+/* ========== Responsive Breakpoints (for reference in media queries) ========== */
+
+/*
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+*/
