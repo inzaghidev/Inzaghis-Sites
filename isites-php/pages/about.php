@@ -62,7 +62,7 @@
           <img
             src="../assets/images/inzaghis-sites-by-inzaghis-group-corp.png"
             alt="Inzaghi's Sites"
-            style="width: 600px"
+            class="w-[600px]"
           />
         </div>
       </div>
