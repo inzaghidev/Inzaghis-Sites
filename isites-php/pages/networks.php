@@ -30,7 +30,7 @@
       </div>
     </section>
   </section>
-  <section class="inzaghisblog-slider">
+  <section class="inzaghis-blog">
     <div class="inzaghisblog-container">
       <section class="group-wrapper">
         <section class="group-content">
@@ -185,7 +185,7 @@
       </div>
     </div>
   </section>
-  <section class="inzaghismedia-info">
+  <section class="inzaghis-media">
     <div class="inzaghis-media-container">
       <section class="group-wrapper">
         <section class="group-content reverse-content">

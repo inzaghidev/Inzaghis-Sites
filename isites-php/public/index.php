@@ -437,7 +437,7 @@
     </script>
     <script src="../js/slider.js"></script>
   </section>
-  <section class="inzaghis-blog-slider">
+  <section class="inzaghis-blog-home">
     <div class="inzaghis-blog-container">
       <h2 class="title-heading text-yellow-600">Our Blog</h2>
       <div class="text-container mb-8">
@@ -582,7 +582,7 @@
       </div>
     </div>
   </section>
-  <section class="inzaghis-media-info">
+  <section class="inzaghis-media-home">
     <div class="inzaghis-media-container">
       <h2 class="title-heading text-red-600">Our Social Media</h2>
       <div class="text-container mb-8">

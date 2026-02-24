@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* REDESIGN CSS PROPERTIES */
+/* UNDER CONSTRUCTION IN PROGRESS */
 
 * {
   box-sizing: border-box;
@@ -242,178 +241,6 @@ svg:not(:root) {
   padding: var(--padding-40);
 }
 
-.inzagroup-pages {
-  min-width: 300px;
-}
-
-.main-button {
-  display: inline-block;
-  padding: 12px 20px;
-  font-size: var(--font-size-12);
-  font-family: var(--font-family);
-  line-height: 20px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  border-radius: 8px;
-  background-color: #1a1b1f;
-  color: #fff;
-  transition: all 0.2s;
-  text-decoration: none;
-}
-
-.main-button:hover {
-  background-color: #555555;
-  color: var(--color-white);
-  border-radius: 8px;
-  text-decoration: none;
-  --tw-shadow:
-    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  box-shadow:
-    var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
-    var(--tw-shadow);
-  box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
-}
-
-.main-button:focus {
-  opacity: 0.85;
-  box-shadow: none;
-  box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
-}
-
-.main-button:active {
-  opacity: 0.85;
-  box-shadow: none;
-}
-
-.description-button {
-  display: inline-block;
-  padding: 10px 16px;
-  font-size: var(--font-size-12);
-  font-family: var(--font-family);
-  line-height: 20px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border-radius: 8px;
-  background-color: #1a1b1f;
-  color: #fff;
-  transition: all 0.2s;
-  text-decoration: none;
-}
-
-.description-button:hover {
-  background-color: #555555;
-  color: var(--color-white);
-  border-radius: 8px;
-  text-decoration: none;
-  --tw-shadow:
-    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  box-shadow:
-    var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
-    var(--tw-shadow);
-  box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
-}
-
-.description-button:focus {
-  opacity: 0.85;
-  box-shadow: none;
-  box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
-}
-
-.description-button:active {
-  opacity: 0.85;
-  box-shadow: none;
-}
-
-.about-inzaghis-sites {
-  background: linear-gradient(
-    270deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(237, 241, 238, 1) 40%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  border-bottom: 1px solid #e4ebf3;
-  padding: 60px 30px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.page-background {
-  background: linear-gradient(
-    270deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(237, 241, 238, 1) 40%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  border-bottom: 1px solid #e4ebf3;
-  padding: 60px 30px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.inzaghis-group-pages {
-  background-color: #f5f7fa;
-  border-bottom: 1px solid #e4ebf3;
-  padding: 60px 30px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.welcome {
-  background: linear-gradient(
-    270deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(237, 241, 238, 1) 40%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  border-bottom: 1px solid #e4ebf3;
-  padding: 4em 2em;
-  padding-top: 10em;
-  padding-bottom: 5em;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 5;
-}
-
-.welcome-container {
-  max-width: 1440px;
-  /*padding: 60px 30px;*/
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.welcome-title {
-  width: 100%;
-  max-width: 1080px;
-  margin: 0 0.5em auto;
-  margin-bottom: var(--margin-bottom-32);
-  font-family: var(--font-family);
-  font-size: 48px;
-  font-weight: 700;
-  text-align: left;
-}
-
-.welcome-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.welcome-description {
-  padding: var(--padding-20);
-  border-radius: 8px;
-}
-
-.welcome-to-inzaghis-sites {
-  flex: 1;
-  /*padding: var(--padding-20);*/
-}
-
 .page-container {
   max-width: 1680px;
   position: relative;
@@ -464,146 +291,251 @@ svg:not(:root) {
   margin-right: 40px;
 }
 
-.inzaghis-sites-description {
-  font-size: var(--font-size-16);
-  line-height: 1.6;
-  margin-bottom: 40px;
-  font-family: var(--font-family);
-}
-
-.about-inzites-description {
-  font-size: var(--font-size-14);
-  line-height: 1.6;
-  margin-bottom: 40px;
-  font-family: var(--font-family);
-}
-
-.is-desc {
-  font-size: var(--font-size-14);
-  line-height: 1.6;
-  margin-bottom: var(--margin-bottom-20);
-  font-family: var(--font-family);
-}
-
-.welcome-image-to-inzaghis-sites img {
-  max-width: 100%;
-  height: auto;
-  float: right;
-}
-
-.about-us {
-  background: linear-gradient(
-    270deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(239, 231, 254, 1) 40%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  border-bottom: 1px solid #e4ebf3;
-  padding: 60px 30px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about-us-container {
-  max-width: 1680px;
-  padding: 60px 30px;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about-us-title {
-  width: 100%;
-  max-width: 1080px;
-  margin: 0 auto;
+.title-heading {
   text-align: center;
-}
-
-.about-us-title {
-  margin-bottom: var(--margin-bottom-32);
   font-family: var(--font-family);
-  font-size: 40px;
-  font-weight: 700;
+  font-size: var(--font-size-36);
+  font-weight: bold;
 }
 
-.about-us-wrapper {
+.centered-subheading {
+  text-align: center;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--font-family);
+  font-size: var(--font-size-16);
+}
+
+.left-subheading {
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: var(--margin-bottom-20);
+  font-size: var(--font-size-14);
+  font-family: var(--font-family);
+}
+
+.text-description {
+  text-align: left;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--font-family);
+  font-size: var(--font-size-16);
+}
+
+.btn.btn-primary,
+.btn.btn-primary:hover {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; /* Menengahkan tombol */
+  text-align: center;
+  border-radius: 6px !important;
+}
+
+/* Optional: Style the button on hover */
+.btn.btn-primary:hover {
+  background-color: #ee0f0f;
+  border-color: #ee0f0f;
+}
+
+.btn.btn-secondary,
+.btn.btn-secondary:hover {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; /* Menengahkan tombol */
+  text-align: center;
+  border-radius: 6px !important;
+}
+
+/* Optional: Style the button on hover */
+.btn.btn-secondary:hover {
+  background-color: #ff6600;
+  border-color: #ff6600;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.row-text {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  /*max-width: 100%;*/
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 
-.about-us-to-inzaghis-group {
-  flex: 1;
-  /*padding: var(--padding-20);*/
+.logo-grid {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 40px;
+  grid-template-rows: auto auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-columns: 1fr;
+  align-items: center;
+  justify-items: center;
 }
 
-.about-us-description {
-  padding: var(--padding-20);
+.animated {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+/*
+  ===== Utilities & Components =====
+*/
+
+.main-button {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: var(--font-size-12);
+  font-family: var(--font-family);
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
   border-radius: 8px;
+  background-color: #1a1b1f;
+  color: #fff;
+  transition: all 0.2s;
+  text-decoration: none;
 }
 
-.about-us-image-to-inzaghis-group img {
+.main-button:hover {
+  background-color: #555555;
+  color: var(--color-white);
+  border-radius: 8px;
+  text-decoration: none;
+  --tw-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow:
+    var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
+  box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
+}
+
+.main-button:active {
+  opacity: 0.85;
+  box-shadow: none;
+}
+
+.group-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: var(--padding-20);
+  box-sizing: border-box;
+}
+
+.group-content {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.group-title {
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.group-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.group-image img {
   max-width: 100%;
   height: auto;
   float: right;
 }
 
-.card-grid-container {
-  padding: var(--padding-10);
-  margin-left: auto;
-  margin-right: auto;
+.row-text {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 
-.card-apps-title {
-  text-align: left;
-  font-family: var(--font-family);
-  font-size: var(--font-size-24);
-  font-weight: bold;
-}
-
-.card-apps {
-  border-radius: 6px !important;
-}
-
-.card-img-apps {
-  border-top-left-radius: 5px !important;
-  border-top-right-radius: 5px !important;
+.text-container {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--margin-top-20);
+  display: flex;
 }
 
 .card-name {
   font-family: var(--font-family);
 }
 
-.card-description {
+.socmed-card {
+  position: relative;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
-  justify-content: space-between;
-  margin-bottom: 8vh;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgba(255, 255, 255, 0.6);
+  background-clip: border-box;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 0.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
-.card-apps-text {
+.socmed-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socmed-name {
+  margin-bottom: var(--margin-bottom-12);
+  text-align: center;
   font-family: var(--font-family);
+  font-weight: 600;
+  font-size: var(--font-size-28);
+}
+
+.socmed-description {
+  margin-top: var(--margin-top-20);
+  margin-bottom: var(--margin-bottom-20);
+  text-align: center;
   font-size: var(--font-size-14);
-}
-
-.card-apps-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.page-apps-card {
-  color: #28a745;
-}
-
-.swiper-container {
-  overflow: hidden !important;
-  max-width: 1200px;
-  width: 100%;
-  padding: 40px 30px;
-  margin: auto;
+  font-family: var(--font-family);
+  word-wrap: break-word;
 }
 
 .swiper {
@@ -612,6 +544,14 @@ svg:not(:root) {
   box-sizing: border-box;
   position: relative !important; /* Tambahkan agar overflow terlihat */
   overflow: visible !important; /* Ubah overflow agar elemen navigasi tidak terpotong */
+}
+
+.swiper-container {
+  overflow: hidden !important;
+  max-width: 1200px;
+  width: 100%;
+  padding: 40px 30px;
+  margin: auto;
 }
 
 .swiper-slide {
@@ -652,6 +592,11 @@ svg:not(:root) {
   left: -30px !important;
 }
 
+.hcg-slider {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 #hcg-slider-1 {
   margin-left: auto;
   margin-right: auto;
@@ -661,11 +606,6 @@ svg:not(:root) {
 #hcg-slider-1 .hcg-slide-container {
   width: auto;
   height: auto;
-}
-
-.hcg-slider {
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Tambahan styling untuk memastikan elemen terpusat */
@@ -776,25 +716,108 @@ svg:not(:root) {
   left: 5px;
   background-color: rgba(255, 255, 255, 0.7);
 }
-/************CSS Animation***********/
 
-.animated {
-  animation-name: fadeIn;
-  animation-duration: 1s;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.fadeIn {
-  animation-name: fadeIn;
+/*
+  ===== Main Page (Home) =====
+*/
+
+.description-button {
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: var(--font-size-12);
+  font-family: var(--font-family);
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background-color: #1a1b1f;
+  color: #fff;
+  transition: all 0.2s;
+  text-decoration: none;
 }
 
-/* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
+.description-button:hover {
+  background-color: #555555;
+  color: var(--color-white);
+  border-radius: 8px;
+  text-decoration: none;
+  --tw-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow:
+    var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
+  box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
+}
+
+.description-button:focus {
+  opacity: 0.85;
+  box-shadow: none;
+  box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
+}
+
+.description-button:active {
+  opacity: 0.85;
+  box-shadow: none;
+}
+
+.welcome {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border-bottom: 1px solid #e4ebf3;
+  padding: 4em 2em;
+  padding-top: 10em;
+  padding-bottom: 5em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 5;
+}
+
+.welcome-container {
+  max-width: 1680px;
+  /*padding: 60px 30px;*/
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcome-title {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 0.5em auto;
+  margin-bottom: var(--margin-bottom-32);
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.welcome-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-description {
+  padding: var(--padding-20);
+  border-radius: 8px;
+}
+
+.welcome-to-inzaghis-sites {
+  flex: 1;
+  /*padding: var(--padding-20);*/
+}
+
+.welcome-image-to-inzaghis-sites img {
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
 
 .banner-info {
   background: linear-gradient(
@@ -828,10 +851,91 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.apps-portals-container {
-  max-width: 1280px;
+.inzaghis-blog-home {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
+
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.inzaghis-media-home {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
+  margin-left: auto;
+  margin-right: auto;
+
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+/*
+  ===== Page Apps =====
+*/
+
+.card-grid-container {
+  padding: var(--padding-10);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-apps {
+  border-radius: 6px !important;
+}
+
+.card-apps-title {
+  text-align: left;
+  font-family: var(--font-family);
+  font-size: var(--font-size-24);
+  font-weight: bold;
+}
+
+.card-apps-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 8vh;
+}
+
+.card-img-apps {
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-animated {
+  transition: all 500ms !important;
+}
+
+.card-animated:hover {
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.2),
+    0 10px 10px -5px rgba(0, 0, 0, 0.1) !important;
+
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .apps-portals-wrapper {
@@ -848,98 +952,67 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.inzaghis-blog-slider {
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-  padding: var(--padding-20);
+.apps-portals-container {
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-
-  background: linear-gradient(
-    270deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(237, 241, 238, 1) 40%,
-    rgba(255, 255, 255, 1) 100%
-  );
 }
 
-#inzaghis-blog-embed {
-  height: 1500px;
-  width: 100%;
+.apps-button {
+  position: absolute;
+  bottom: 20px;
+  right: 2em;
+  left: 2em;
 }
 
-#inzaghis-media-embed {
-  height: 800px;
-  width: 400px;
+.button-link {
+  color: var(--color-white);
 }
 
-.title-heading {
-  text-align: center;
+.button-link:hover {
+  color: #c7c7c7;
+  text-decoration: none;
+}
+
+/*
+  ===== Portals =====
+*/
+
+.card-portals {
+}
+
+.card-portals-body {
+}
+
+.card-portals-name {
+}
+
+.card-portals-wrapper {
+}
+
+.card-img-portals-wrapper {
+}
+
+.card-img-portals {
+}
+
+.portal-button {
+  position: absolute;
+  bottom: 20px;
+  right: 2em;
+}
+
+.card-text-container {
+  padding: initial !important;
+}
+
+/*
+  ===== Page Apps & Portals =====
+*/
+
+.card-apps-text {
   font-family: var(--font-family);
-  font-size: var(--font-size-36);
-  font-weight: bold;
-}
-
-.centered-subheading {
-  text-align: center;
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: var(--font-family);
-  font-size: var(--font-size-16);
-}
-
-.text-description {
-  text-align: left;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: var(--font-family);
-  font-size: var(--font-size-16);
-}
-
-.left-subheading {
-  text-align: left;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: var(--margin-bottom-20);
   font-size: var(--font-size-14);
-  font-family: var(--font-family);
-}
-
-.group-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: var(--padding-20);
-  box-sizing: border-box;
-  max-width: max-content;
-}
-
-.group-content {
-  display: flex;
-  align-items: center;
-  max-width: 100%;
-}
-
-.reverse-content {
-  flex-direction: row-reverse;
-}
-
-.group-button {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.group-title {
-  text-align: center;
-  font-family: var(--font-family);
-  font-size: 34px;
-  font-weight: bold;
 }
 
 .title-page {
@@ -948,47 +1021,238 @@ svg:not(:root) {
   font-weight: bold;
 }
 
-.group-image img {
+.page-apps-card {
+  color: #28a745;
+}
+
+/*
+  ===== Pages (Comon Pages) =====
+*/
+
+.card-grid-container {
+  padding: var(--padding-10);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-apps {
+  border-radius: 6px !important;
+}
+
+.card-apps-title {
+  text-align: left;
+  font-family: var(--font-family);
+  font-size: var(--font-size-24);
+  font-weight: bold;
+}
+
+.card-apps-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 8vh;
+}
+
+.card-img-apps {
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+}
+
+.card-animated {
+  transition: all 500ms !important;
+}
+
+.page-apps-card {
+  color: #28a745;
+}
+
+.is-desc {
+  font-size: var(--font-size-14);
+  line-height: 1.6;
+  margin-bottom: var(--margin-bottom-20);
+  font-family: var(--font-family);
+}
+
+.about-inzaghis-sites {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border-bottom: 1px solid #e4ebf3;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-background {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 241, 238, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border-bottom: 1px solid #e4ebf3;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(239, 231, 254, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border-bottom: 1px solid #e4ebf3;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us-container {
+  max-width: 1680px;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us-title {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-us-title {
+  margin-bottom: var(--margin-bottom-32);
+  font-family: var(--font-family);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.about-us-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /*max-width: 100%;*/
+}
+
+.about-us-to-inzaghis-group {
+  flex: 1;
+  /*padding: var(--padding-20);*/
+}
+
+.about-us-description {
+  padding: var(--padding-20);
+  border-radius: 8px;
+}
+
+.about-us-image-to-inzaghis-group img {
   max-width: 100%;
   height: auto;
   float: right;
 }
 
-.btn.btn-primary,
-.btn.btn-primary:hover {
-  cursor: pointer;
-  display: block;
-  margin: 0 auto; /* Menengahkan tombol */
-  text-align: center;
-  border-radius: 6px !important;
+.inzaghis-sites-description {
+  font-size: var(--font-size-16);
+  line-height: 1.6;
+  margin-bottom: 40px;
+  font-family: var(--font-family);
 }
 
-/* Optional: Style the button on hover */
-.btn.btn-primary:hover {
-  background-color: #ee0f0f;
-  border-color: #ee0f0f;
+.about-inzites-description {
+  font-size: var(--font-size-14);
+  line-height: 1.6;
+  margin-bottom: 40px;
+  font-family: var(--font-family);
 }
 
-.btn.btn-secondary,
-.btn.btn-secondary:hover {
-  cursor: pointer;
-  display: block;
-  margin: 0 auto; /* Menengahkan tombol */
-  text-align: center;
-  border-radius: 6px !important;
+/*
+  ===== Networks (Inzaghi's Group / InzaTech) =====
+*/
+
+.inzaghis-group-pages {
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #e4ebf3;
+  padding: 60px 30px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Optional: Style the button on hover */
-.btn.btn-secondary:hover {
-  background-color: #ff6600;
-  border-color: #ff6600;
-}
-
-.inzaghisblog-slider {
+.inzaghis-group-network {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(239, 231, 254, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
   height: auto;
   display: flex;
   justify-content: space-around;
-  padding: var(--padding-40);
+  padding: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghis-group-wrapper {
+  max-width: 820px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inzaghis-group-heading {
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.inzaghis-group-network-description {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: var(--margin-bottom-20);
+  display: flex;
+}
+
+.inzaghis-group-description {
+  width: 100%;
+  max-width: 1080px;
+  font-size: var(--font-size-16);
+  line-height: 1.6;
+  margin-bottom: var(--margin-bottom-20);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: var(--font-family);
+}
+
+.inzaghis-group-container {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--margin-top-20);
+  display: flex;
+}
+
+.inzaghis-blog {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
 
@@ -1000,13 +1264,29 @@ svg:not(:root) {
   );
 }
 
+.reverse-content {
+  flex-direction: row-reverse;
+}
+
+.inzaghisblog {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-text {
+  align-items: stretch;
+}
+
 .inzaghisblog-description {
   max-width: 600px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.inzaghismedia-info {
+.inzaghis-media {
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -1021,16 +1301,13 @@ svg:not(:root) {
   );
 }
 
-.inzaghismedia-slider {
-  background: linear-gradient(
-    270deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 227, 227, 1) 40%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  height: auto;
-  display: flex;
-  justify-content: space-around;
+#inzaghis-media-embed {
+  height: 800px;
+  width: 400px;
+}
+
+.inzaghis-media-container {
+  max-width: 1200px;
   padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
@@ -1040,6 +1317,31 @@ svg:not(:root) {
   max-width: 600px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.inzaghismedia {
+  margin-top: var(--margin-top-20);
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-name {
+  margin-top: var(--margin-top-12);
+  margin-bottom: var(--margin-bottom-12);
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: var(--font-size-28);
+}
+
+.blog-description {
+  margin-top: var(--margin-top-20);
+  margin-bottom: var(--margin-bottom-20);
+  font-size: var(--font-size-14);
+  font-family: var(--font-family);
+  word-wrap: break-word;
 }
 
 .inzaghis-dev {
@@ -1162,231 +1464,41 @@ svg:not(:root) {
   margin-right: auto;
 }
 
-.about-us-to-inzaghis-group {
-  flex: 1;
-  /*padding: var(--padding-20);*/
-}
-
-.inzaghisblog {
-  margin-top: 30px;
+.inzaghisblog-slider {
+  background-color: #fff6f0;
+  height: auto;
   display: flex;
   justify-content: space-around;
+  padding: var(--padding-40);
   margin-left: auto;
   margin-right: auto;
 }
 
-.blog-text {
-  align-items: stretch;
-}
-
-.blog-name {
-  margin-top: var(--margin-top-12);
-  margin-bottom: var(--margin-bottom-12);
-  text-align: center;
-  font-family: var(--font-family);
-  font-weight: 600;
-  font-size: var(--font-size-28);
-}
-
-.apps-button {
-  position: absolute;
-  bottom: 20px;
-  right: 2em;
-  left: 2em;
-}
-
-.primary-button {
-  position: absolute;
-  bottom: 20px;
-  right: 2em;
-  left: 2em;
-}
-
-.secondary-button {
-  position: absolute;
-  bottom: 20px;
-  right: 2em;
-  left: 2em;
-}
-
-.button-link {
-  color: var(--color-white);
-}
-
-.button-link:hover {
-  color: #c7c7c7;
-  text-decoration: none;
-}
-
-.blog-description {
-  margin-top: var(--margin-top-20);
-  margin-bottom: var(--margin-bottom-20);
-  font-size: var(--font-size-14);
-  font-family: var(--font-family);
-  word-wrap: break-word;
-}
-
-.inzaghis-media-info {
+.inzaghismedia-slider {
+  background-color: #fff0f0;
   height: auto;
   display: flex;
   justify-content: space-around;
   padding: var(--padding-20);
   margin-left: auto;
   margin-right: auto;
-
-  background: linear-gradient(
-    270deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(237, 241, 238, 1) 40%,
-    rgba(255, 255, 255, 1) 100%
-  );
 }
 
-.inzaghis-media-container {
-  max-width: 1200px;
-  padding: var(--padding-20);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.socmed-icon {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  margin-bottom: 16px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.socmed-card {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: rgba(255, 255, 255, 0.6);
-  background-clip: border-box;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(5px);
-  border-radius: 0.5rem;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-}
-
-.inzaghismedia {
-  margin-top: var(--margin-top-20);
-  display: flex;
-  justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.socmed {
-  background-color: rgba(255, 227, 227, 0.8);
-}
-
-.socmed-name {
-  margin-bottom: var(--margin-bottom-12);
-  text-align: center;
-  font-family: var(--font-family);
-  font-weight: 600;
-  font-size: var(--font-size-28);
-}
-
-.socmed-description {
-  margin-top: var(--margin-top-20);
-  margin-bottom: var(--margin-bottom-20);
-  text-align: center;
-  font-size: var(--font-size-14);
-  font-family: var(--font-family);
-  word-wrap: break-word;
-}
-
-.inzaghis-group-network {
-  background: linear-gradient(
-    270deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(239, 231, 254, 1) 40%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-  padding: 60px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.inzaghis-group-wrapper {
-  max-width: 820px;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.inzaghis-group-heading {
-  text-align: center;
-  font-family: var(--font-family);
-  font-size: 34px;
-  font-weight: bold;
-}
-
-.inzaghis-group-network-description {
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: var(--margin-bottom-20);
-  display: flex;
-}
-
-.network-card {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1360px;
-}
-
-.inzaghis-group-description {
+#inzaghis-blog-embed {
+  height: 1500px;
   width: 100%;
-  max-width: 1080px;
-  font-size: var(--font-size-16);
-  line-height: 1.6;
-  margin-bottom: var(--margin-bottom-20);
-  margin-left: 10px;
-  margin-right: 10px;
-  font-family: var(--font-family);
 }
 
-.inzaghis-group-container {
-  justify-content: space-between;
-  align-items: center;
-  margin-top: var(--margin-top-20);
-  display: flex;
+#inzaghis-media-embed {
+  height: 800px;
+  width: 400px;
 }
 
-.text-container {
-  justify-content: space-between;
-  align-items: center;
-  margin-top: var(--margin-top-20);
-  margin-bottom: var(--margin-top-20);
-  display: flex;
+.inzagroup-pages {
+  min-width: 300px;
 }
 
-.logo-grid {
-  display: grid;
-  grid-column-gap: 50px;
-  grid-row-gap: 40px;
-  grid-template-rows: auto auto;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-columns: 1fr;
-  align-items: center;
-  justify-items: center;
-}
-
-.logo-icon {
-  height: 4rem;
-  grid-row: auto;
-}
+/**/
 
 /* Responsive Styles for Tablet */
 @media screen and (max-width: 1140px) {
@@ -1404,153 +1516,107 @@ svg:not(:root) {
     background-color: var(--background-color);
   }
 
-  dl {
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
+  .page-container {
+    max-width: 1680px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  dt {
-    margin-left: 0.8em;
-  }
-
-  dd {
-    display: block;
-    margin-left: 1em;
-  }
-
-  ul {
-    margin-top: var(--margin-top-20);
-    margin-bottom: var(--margin-bottom-10);
-    list-style-type: disc;
-    padding-left: 40px;
-  }
-
-  li {
-    display: inline;
-    margin-bottom: var(--margin-bottom-10);
-  }
-
-  p {
-    margin-bottom: var(--margin-bottom-10);
-  }
-
-  h1 {
-    margin-top: var(--margin-top-20);
-    margin-bottom: var(--margin-bottom-15);
-    font-size: 44px;
-    font-weight: 400;
-    line-height: 62px;
-    font-family: Arial, sans-serif;
-  }
-
-  h2 {
-    margin-top: var(--margin-top-10);
-    margin-bottom: var(--margin-bottom-10);
-    font-size: var(--font-size-36);
-    font-weight: 400;
-    line-height: 50px;
-    font-family: Arial, sans-serif;
-  }
-
-  h3 {
-    margin-top: var(--margin-top-10);
-    margin-bottom: var(--margin-bottom-10);
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 46px;
-    font-family: Arial, sans-serif;
-  }
-
-  h4 {
-    margin-top: var(--margin-top-10);
-    margin-bottom: var(--margin-bottom-10);
-    font-size: var(--font-size-24);
-    font-weight: 400;
-    line-height: 38px;
-    font-family: Arial, sans-serif;
-  }
-
-  h5 {
-    margin-top: var(--margin-top-10);
-    margin-bottom: var(--margin-bottom-10);
-    font-size: var(--font-size-20);
-    font-weight: 500;
-    line-height: 34px;
-    font-family: Arial, sans-serif;
-  }
-
-  h6 {
-    margin-top: var(--margin-top-10);
-    margin-bottom: var(--margin-bottom-10);
-    font-size: var(--font-size-16);
-    font-weight: 500;
-    line-height: 28px;
-    font-family: Arial, sans-serif;
-  }
-
-  a {
-    color: #1a1b1f;
-    text-decoration: none;
-    transition: opacity 0.2s;
-    display: block;
-    font-size: var(--font-size-16);
-  }
-
-  a:hover {
-    color: #32343a;
-  }
-
-  a:active {
-    color: #43464d;
-  }
-
-  img {
-    display: block;
-  }
-
-  .image {
-    margin-left: 0;
-    padding-bottom: 10px;
-  }
-
-  label {
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: var(--margin-bottom-10);
-    font-size: var(--font-size-14);
-    font-weight: 500px;
-    line-height: 20px;
-  }
-
-  blockquote {
-    border-left: 5px solid #e2e2e2;
-    margin-top: var(--margin-top-25);
-    margin-bottom: var(--margin-bottom-25);
-    padding: 15px 30px;
-    font-size: var(--font-size-20);
-    line-height: 34px;
-  }
-
-  figcaption {
-    opacity: 1;
+  .page-title {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-bottom: var(--margin-bottom-32);
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 700;
     text-align: center;
-    margin-top: var(--margin-top-5);
+  }
+
+  .page-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .page-description {
+    padding: var(--padding-20);
+    border-radius: 8px;
+  }
+
+  .content-description {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .title-heading {
+    text-align: center;
+    font-family: var(--font-family);
+  }
+
+  .centered-subheading {
+    text-align: center;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--font-family);
     font-size: var(--font-size-14);
-    line-height: 26px;
   }
 
-  .arrow-embed {
-    margin-left: 2px;
+  .text-description {
+    text-align: left;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
   }
 
-  svg:not(:root) {
-    overflow: hidden;
+  .left-subheading {
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--font-family);
+    font-size: var(--font-size-14);
   }
 
-  :not(svg) {
-    transform-origin: 0px 0px;
+  .btn.btn-primary,
+  .btn.btn-primary:hover {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Menengahkan tombol */
+    text-align: center;
   }
+
+  /* Optional: Style the button on hover */
+  .btn.btn-primary:hover {
+    background-color: #ee0f0f;
+    border-color: #ee0f0f;
+  }
+
+  .btn.btn-secondary,
+  .btn.btn-secondary:hover {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Menengahkan tombol */
+    text-align: center;
+  }
+
+  /* Optional: Style the button on hover */
+  .btn.btn-secondary:hover {
+    background-color: #ff6600;
+    border-color: #ff6600;
+  }
+
+  .logo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /*
+  ===== Utilities & Components =====
+*/
 
   .main-button {
     border-radius: 8px;
@@ -1576,20 +1642,63 @@ svg:not(:root) {
     box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
   }
 
-  .about-inzaghis-sites {
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(237, 241, 238, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-    border-bottom: 1px solid #e4ebf3;
-    max-width: 1680px;
-    padding: 60px 30px;
-    position: relative;
+  .group-title {
+    text-align: center;
+  }
+
+  .group-image img {
+    box-sizing: content-box;
+    width: 100%;
+    height: auto;
+  }
+
+  .text-container {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--margin-top-20);
+  }
+
+  .group-image img {
+    box-sizing: content-box;
+    width: 100%;
+    height: auto;
+  }
+
+  .socmed-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
   }
+
+  .socmed-name {
+    margin-bottom: var(--margin-bottom-12);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: var(--font-size-24);
+  }
+
+  .socmed-description {
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-20);
+    text-align: center;
+    font-size: var(--font-size-14);
+    font-family: var(--font-family);
+    word-wrap: break-word;
+  }
+
+  .swiper-pagination {
+    top: 10px !important;
+    position: relative !important;
+    z-index: 9 !important;
+  }
+
+  /*
+  ===== Main Page (Home) =====
+*/
 
   .welcome {
     background: linear-gradient(
@@ -1641,52 +1750,119 @@ svg:not(:root) {
     /*padding: var(--padding-20);*/
   }
 
-  .page-container {
-    max-width: 1680px;
-    position: relative;
+  .welcome-image-to-inzaghis-sites img {
+    max-width: 100%;
+    height: auto;
+    float: right;
+  }
+
+  .slider-container {
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .page-title {
-    width: 100%;
-    max-width: 1080px;
-    margin: 0 auto;
-    margin-bottom: var(--margin-bottom-32);
-    font-family: var(--font-family);
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-  }
-
-  .page-wrapper {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .page-description {
+  .inzaghis-blog-home {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
     padding: var(--padding-20);
-    border-radius: 8px;
+    max-width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
   }
 
-  .content-description {
-    margin-left: 20px;
-    margin-right: 20px;
+  .inzaghis-media-info {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-20);
+    margin-left: auto;
+    margin-right: auto;
+
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
   }
 
-  .inzaghis-sites-description {
-    font-size: var(--font-size-14);
-    line-height: 1.6;
-    margin-bottom: 40px;
-    font-family: var(--font-family);
+  /*
+  ===== Page Apps =====
+*/
+
+  .card-grid-container {
+    padding: var(--padding-10);
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .about-inzites-description {
-    font-size: var(--font-size-14);
-    line-height: 1.6;
-    margin-bottom: 40px;
-    font-family: var(--font-family);
+  .apps-portals-wrapper {
+    background-color: #f5faf5;
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .apps-portals-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button-link {
+    color: var(--color-white);
+  }
+
+  .button-link:hover {
+    color: #c7c7c7;
+    text-decoration: none;
+  }
+
+  /*
+  ===== Portals =====
+*/
+
+  .card-portals-body {
+    max-width: 60%;
+  }
+
+  .card-img-portals-wrapper {
+    max-width: 40%;
+  }
+
+  /*
+  ===== Page Apps & Portals =====
+*/
+
+  /*
+  ===== Pages (Comon Pages) =====
+*/
+
+  .card-grid-container {
+    padding: var(--padding-10);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 12vh;
   }
 
   .is-desc {
@@ -1696,10 +1872,19 @@ svg:not(:root) {
     font-family: var(--font-family);
   }
 
-  .welcome-image-to-inzaghis-sites img {
-    max-width: 100%;
-    height: auto;
-    float: right;
+  .about-inzaghis-sites {
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    border-bottom: 1px solid #e4ebf3;
+    max-width: 1680px;
+    padding: 60px 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .about-us {
@@ -1755,6 +1940,24 @@ svg:not(:root) {
     border-radius: 8px;
   }
 
+  .inzaghis-sites-description {
+    font-size: var(--font-size-14);
+    line-height: 1.6;
+    margin-bottom: 40px;
+    font-family: var(--font-family);
+  }
+
+  .about-inzites-description {
+    font-size: var(--font-size-14);
+    line-height: 1.6;
+    margin-bottom: 40px;
+    font-family: var(--font-family);
+  }
+
+  /*
+  ===== Networks (Inzaghi's Group / InzaTech) =====
+*/
+
   .inzaghis-group-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
@@ -1768,288 +1971,6 @@ svg:not(:root) {
     justify-content: space-between;
     align-items: center;
     margin-top: var(--margin-top-20);
-  }
-
-  .text-container {
-    justify-content: space-between;
-    align-items: center;
-    margin-top: var(--margin-top-20);
-    margin-bottom: var(--margin-top-20);
-  }
-
-  .about-us-image-to-inzaghis-group img {
-    max-width: 100%;
-    height: auto;
-    float: right;
-  }
-
-  .card-grid-container {
-    padding: var(--padding-10);
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .card-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 12vh;
-  }
-
-  /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
-
-  .slider-container {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .apps-portals-container {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .apps-portals-wrapper {
-    background-color: #f5faf5;
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(237, 241, 238, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .inzaghis-blog-slider {
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    padding: var(--padding-20);
-    max-width: 1680px;
-    margin-left: auto;
-    margin-right: auto;
-
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(237, 241, 238, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-  }
-
-  #inzaghis-blog-embed {
-    height: 1200px;
-    width: 100%;
-  }
-
-  .title-heading {
-    text-align: center;
-    font-family: var(--font-family);
-  }
-
-  .centered-subheading {
-    text-align: center;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: var(--font-family);
-    font-size: var(--font-size-14);
-  }
-
-  .text-description {
-    text-align: left;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: var(--font-family);
-    font-size: var(--font-size-14);
-  }
-
-  .group-title {
-    text-align: center;
-  }
-
-  .left-subheading {
-    text-align: left;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: var(--font-family);
-    font-size: var(--font-size-14);
-  }
-
-  .group-image img {
-    box-sizing: content-box;
-    width: 100%;
-    height: auto;
-  }
-
-  .btn.btn-primary,
-  .btn.btn-primary:hover {
-    cursor: pointer;
-    display: block;
-    margin: 0 auto; /* Menengahkan tombol */
-    text-align: center;
-  }
-
-  /* Optional: Style the button on hover */
-  .btn.btn-primary:hover {
-    background-color: #ee0f0f;
-    border-color: #ee0f0f;
-  }
-
-  .btn.btn-secondary,
-  .btn.btn-secondary:hover {
-    cursor: pointer;
-    display: block;
-    margin: 0 auto; /* Menengahkan tombol */
-    text-align: center;
-  }
-
-  /* Optional: Style the button on hover */
-  .btn.btn-secondary:hover {
-    background-color: #ff6600;
-    border-color: #ff6600;
-  }
-
-  .inzaghisblog-slider {
-    padding: var(--padding-10);
-    height: auto;
-    padding: var(--padding-40);
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(255, 246, 240, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-  }
-
-  .inzaghisblog-description {
-    max-width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: var(--margin-top-20);
-  }
-
-  .inzaghisblog {
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-  }
-
-  .inzaghismedia-info {
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    padding: var(--padding-20);
-    margin-left: auto;
-    margin-right: auto;
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(255, 227, 227, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-  }
-
-  .inzaghismedia-slider {
-    padding: var(--padding-10);
-    height: auto;
-  }
-
-  .inzaghismedia-description {
-    max-width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: var(--margin-top-20);
-  }
-
-  .blog-name {
-    margin-top: var(--margin-top-12);
-    margin-bottom: var(--margin-bottom-12);
-    text-align: center;
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: var(--font-size-20);
-  }
-
-  .button-link {
-    color: var(--color-white);
-  }
-
-  .button-link:hover {
-    color: #c7c7c7;
-    text-decoration: none;
-  }
-
-  .blog-description {
-    margin-top: var(--margin-top-20);
-    margin-bottom: var(--margin-bottom-20);
-    font-size: var(--font-size-14);
-    font-family: var(--font-family);
-    word-wrap: break-word;
-  }
-
-  .inzaghis-media-info {
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    padding: var(--padding-20);
-    margin-left: auto;
-    margin-right: auto;
-
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(237, 241, 238, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-  }
-
-  .inzaghis-media-container {
-    max-width: 1080px;
-    padding: var(--padding-20);
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .socmed-icon {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    margin-bottom: 16px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .inzaghismedia {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-  }
-
-  .socmed-name {
-    margin-bottom: var(--margin-bottom-12);
-    text-align: center;
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: var(--font-size-24);
-  }
-
-  .socmed-description {
-    margin-top: var(--margin-top-20);
-    margin-bottom: var(--margin-bottom-20);
-    text-align: center;
-    font-size: var(--font-size-14);
-    font-family: var(--font-family);
-    word-wrap: break-word;
   }
 
   .inzaghis-group-network {
@@ -2085,17 +2006,102 @@ svg:not(:root) {
     display: flex;
   }
 
-  .logo-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .inzaghis-blog {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-20);
+    max-width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 246, 240, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
   }
 
-  .logo-icon {
-    height: 4rem;
-    grid-row: auto;
+  .inzaghisblog {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .inzaghisblog-description {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: var(--margin-top-20);
+  }
+
+  .inzaghis-media {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-20);
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 227, 227, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+
+  .inzaghis-media-container {
+    max-width: 1080px;
+    padding: var(--padding-20);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inzaghismedia {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+
+  .blog-name {
+    margin-top: var(--margin-top-12);
+    margin-bottom: var(--margin-bottom-12);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: var(--font-size-20);
+  }
+
+  .blog-description {
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-20);
+    font-size: var(--font-size-14);
+    font-family: var(--font-family);
+    word-wrap: break-word;
+  }
+
+  .inzaghisblog-slider {
+    padding: var(--padding-10);
+    height: auto;
+    padding: var(--padding-40);
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inzaghismedia-slider {
+    padding: var(--padding-10);
+    height: auto;
+  }
+
+  #inzaghis-blog-embed {
+    height: 1200px;
+    width: 100%;
   }
 }
 
-/* Responsive Styles for Mobile */
 @media screen and (max-width: 720px) {
   .w-layout-blockcontainer {
     max-width: 90%; /* Adjust as needed */
@@ -2232,179 +2238,8 @@ svg:not(:root) {
     padding-bottom: 10px;
   }
 
-  label {
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: var(--margin-bottom-10);
-    font-size: var(--font-size-14);
-    font-weight: 500px;
-    line-height: 20px;
-  }
-
-  blockquote {
-    border-left: 5px solid #e2e2e2;
-    margin-top: var(--margin-top-25);
-    margin-bottom: var(--margin-bottom-25);
-    padding: 15px 30px;
-    font-size: var(--font-size-20);
-    line-height: 34px;
-  }
-
-  figcaption {
-    opacity: 1;
-    text-align: center;
-    margin-top: var(--margin-top-5);
-    font-size: var(--font-size-14);
-    line-height: 26px;
-  }
-
-  .arrow-embed {
-    margin-left: 2px;
-  }
-
-  svg:not(:root) {
-    overflow: hidden;
-  }
-
-  :not(svg) {
-    transform-origin: 0px 0px;
-  }
-
   .container-top {
-    padding: 3em;
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(237, 241, 238, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-  }
-
-  .main-button {
-    display: inline-block;
-    padding: 12px 20px;
-    font-size: var(--font-size-12);
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    background-color: #1a1b1f;
-    color: #fff;
-    transition: all 0.2s;
-    text-decoration: none; /* Added */
-  }
-
-  .main-button:hover {
-    background-color: #555555;
-    color: var(--color-white);
-    text-decoration: none;
-    --tw-shadow:
-      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    box-shadow:
-      var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
-      var(--tw-shadow);
-    box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
-  }
-
-  .main-button:focus {
-    opacity: 0.85;
-    box-shadow: none;
-    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
-  }
-
-  .description-button {
-    display: inline-block;
-    padding: 10px 16px;
-    font-size: var(--font-size-12);
-    line-height: 20px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    background-color: #1a1b1f;
-    color: #fff;
-    transition: all 0.2s;
-    text-decoration: none; /* Added */
-  }
-
-  .description-button:hover {
-    background-color: #555555;
-    color: var(--color-white);
-    text-decoration: none;
-    --tw-shadow:
-      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    box-shadow:
-      var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
-      var(--tw-shadow);
-    box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
-  }
-
-  .description-button:focus {
-    opacity: 0.85;
-    box-shadow: none;
-    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
-  }
-
-  .about-inzaghis-sites {
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(237, 241, 238, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-    border-bottom: 1px solid #e4ebf3;
-    max-width: 1680px;
-    padding: 60px 30px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .welcome {
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(237, 241, 238, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-    border-bottom: 1px solid #e4ebf3;
-    padding: 60px 30px;
-    padding-top: 10em;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .welcome-container {
-    max-width: max-content;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .welcome-title {
-    width: 100%;
-    max-width: 1080px;
-    margin: 0 0.5em auto;
-    margin-bottom: var(--margin-bottom-32);
-    font-family: var(--font-family);
-    font-size: 40px;
-    font-weight: 700;
-    text-align: left;
-  }
-
-  .welcome-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .welcome-description {
-    padding: var(--padding-20);
-    border-radius: 8px;
-  }
-
-  .welcome-to-inzaghis-sites {
-    flex: 1;
-    /*padding: var(--padding-20);*/
+    padding: 2.5em;
   }
 
   .page-container {
@@ -2440,18 +2275,403 @@ svg:not(:root) {
     margin-top: 15px;
   }
 
-  .inzaghis-sites-description {
-    font-size: var(--font-size-14);
-    line-height: 1.6;
-    margin-bottom: 40px;
+  .title-heading {
+    text-align: center;
     font-family: var(--font-family);
   }
 
-  .about-inzites-description {
-    font-size: var(--font-size-14);
-    line-height: 1.6;
-    margin-bottom: 40px;
+  .centered-subheading {
+    text-align: center;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: var(--font-family);
+  }
+
+  .left-subheading {
+    text-align: left;
+    max-width: 800px;
+    margin-left: 10px;
+    margin-right: auto;
+    font-family: var(--font-family);
+  }
+
+  .group-content {
+    display: block;
+    max-width: 100%;
+  }
+
+  .btn.btn-primary,
+  .btn.btn-primary:hover {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Menengahkan tombol */
+    text-align: center;
+  }
+
+  /* Optional: Style the button on hover */
+  .btn.btn-primary:hover {
+    background-color: #ee0f0f;
+    border-color: #ee0f0f;
+  }
+
+  .btn.btn-secondary,
+  .btn.btn-secondary:hover {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Menengahkan tombol */
+    text-align: center;
+  }
+
+  /* Optional: Style the button on hover */
+  .btn.btn-secondary:hover {
+    background-color: #ff6600;
+    border-color: #ff6600;
+  }
+
+  .logo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-grid img {
+    max-height: 60px;
+    width: auto;
+  }
+
+  /*
+  ===== Utilities & Components =====
+*/
+
+  .main-button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: var(--font-size-12);
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #1a1b1f;
+    color: #fff;
+    transition: all 0.2s;
+    text-decoration: none; /* Added */
+  }
+
+  .main-button:hover {
+    background-color: #555555;
+    color: var(--color-white);
+    text-decoration: none;
+    --tw-shadow:
+      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow:
+      var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+      var(--tw-shadow);
+    box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
+  }
+
+  .main-button:focus {
+    opacity: 0.85;
+    box-shadow: none;
+    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
+  }
+
+  .group-content {
+    display: block;
+    max-width: 100%;
+  }
+
+  .group-title {
+    text-align: center;
+  }
+
+  .group-image img {
+    box-sizing: content-box;
+    width: 50%;
+    height: auto;
+    float: none;
+  }
+
+  .text-container {
+    justify-content: space-between;
+    margin-top: var(--margin-top-20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .group-image img {
+    box-sizing: content-box;
+    width: 50%;
+    height: auto;
+    float: none;
+  }
+
+  .socmed-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .socmed-name {
+    margin-bottom: var(--margin-bottom-12);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: var(--font-size-28);
+  }
+
+  .socmed-description {
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-20);
+    text-align: center;
+    font-size: var(--font-size-14);
+    font-family: var(--font-family);
+    word-wrap: break-word;
+  }
+
+  .swiper-container {
+    padding: 20px 0 20px 30px !important;
+  }
+
+  .resume-wrapper {
+    padding: 15px !important;
+    margin-bottom: var(--margin-bottom-10);
+  }
+
+  .resume-header,
+  .resume-body,
+  .resume-footer {
+    padding: 0 !important; /* Kurangi padding untuk menghemat ruang */
+  }
+
+  .resume-profile-image {
+    width: 100% !important; /* Buat gambar profil memenuhi lebar kolom */
+    max-width: 100px; /* Maksimalkan ukuran gambar */
+  }
+
+  .resume-title h2 {
+    font-size: 1.5rem !important; /* Kurangi ukuran font di layar kecil */
+  }
+
+  .resume-tagline {
+    font-size: 0.9rem !important; /* Kurangi ukuran tagline */
+  }
+
+  .resume-contact ul {
+    padding: 0 !important;
+    font-size: 0.85rem; /* Kurangi ukuran font pada kontak */
+  }
+
+  .resume-aside {
+    padding: 10px !important; /* Kurangi padding pada aside */
+  }
+
+  .resume-footer {
+    padding-top: 10px;
+  }
+
+  /*
+  ===== Main Page (Home) =====
+*/
+
+  .banner-info {
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    padding: 60px 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slider-carousel {
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    padding: 60px 20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .apps-portals-wrapper {
+    background-color: #f5faf5;
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    max-width: 1680px;
+    padding: 60px 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .description-button {
+    display: inline-block;
+    padding: 10px 16px;
+    font-size: var(--font-size-12);
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #1a1b1f;
+    color: #fff;
+    transition: all 0.2s;
+    text-decoration: none; /* Added */
+  }
+
+  .description-button:hover {
+    background-color: #555555;
+    color: var(--color-white);
+    text-decoration: none;
+    --tw-shadow:
+      0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow:
+      var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+      var(--tw-shadow);
+    box-shadow: 0 10px 15px rgba(17, 24, 39, 0.2);
+  }
+
+  .description-button:focus {
+    opacity: 0.85;
+    box-shadow: none;
+    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.5);
+  }
+
+  .welcome {
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    border-bottom: 1px solid #e4ebf3;
+    padding: 60px 30px;
+    padding-top: 10em;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .welcome-container {
+    max-width: max-content;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .welcome-title {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-bottom: var(--margin-bottom-32);
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .welcome-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .welcome-description {
+    padding: var(--padding-20);
+    border-radius: 8px;
+  }
+
+  .welcome-to-inzaghis-sites {
+    flex: 1;
+    /*padding: var(--padding-20);*/
+  }
+
+  .welcome-image-to-inzaghis-sites img {
+    max-width: 100%;
+    height: auto;
+    float: right;
+  }
+
+  .inzaghis-blog-home {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-20);
+    max-width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*
+  ===== Page Apps =====
+*/
+
+  .apps-portals-wrapper {
+    background-color: #f5faf5;
+    border-bottom: 1px solid #e4f3e5;
+    max-width: 1680px;
+    padding: 60px 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button-link {
+    color: var(--color-white);
+  }
+
+  .button-link:hover {
+    color: #c7c7c7;
+    text-decoration: none;
+  }
+
+  /*
+  ===== Portals =====
+*/
+
+  .card-portals {
+  }
+
+  .card-portals-body {
+  }
+
+  .card-portals-name {
+  }
+
+  .card-img-portals-wrapper {
+  }
+
+  .card-img-portals {
+  }
+
+  .card-text-container {
+  }
+
+  /*
+  ===== Page Apps & Portals =====
+*/
+
+  /*
+  ===== Pages (Comon Pages) =====
+*/
+
+  .card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 16vh;
   }
 
   .is-desc {
@@ -2461,15 +2681,19 @@ svg:not(:root) {
     font-family: var(--font-family);
   }
 
-  .about-inzaghis-sites-button {
-    align-items: center;
-    text-align: center;
-  }
-
-  .welcome-image-to-inzaghis-sites img {
-    max-width: 100%;
-    height: auto;
-    float: right;
+  .about-inzaghis-sites {
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(237, 241, 238, 1) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    border-bottom: 1px solid #e4ebf3;
+    max-width: 1680px;
+    padding: 60px 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .about-us {
@@ -2525,6 +2749,24 @@ svg:not(:root) {
     border-radius: 8px;
   }
 
+  .inzaghis-sites-description {
+    font-size: var(--font-size-14);
+    line-height: 1.6;
+    margin-bottom: 40px;
+    font-family: var(--font-family);
+  }
+
+  .about-inzites-description {
+    font-size: var(--font-size-14);
+    line-height: 1.6;
+    margin-bottom: var(--margin-bottom-20);
+    font-family: var(--font-family);
+  }
+
+  /*
+  ===== Networks (Inzaghi's Group / InzaTech) =====
+*/
+
   .inzaghis-group-description {
     font-size: var(--font-size-14);
     line-height: 1.6;
@@ -2545,248 +2787,6 @@ svg:not(:root) {
   .inzaghis-group-button {
     align-items: center;
     text-align: center;
-  }
-
-  .text-container {
-    justify-content: space-between;
-    margin-top: var(--margin-top-25);
-    margin-bottom: var(--margin-bottom-25);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .about-us-image-to-inzaghis-group img {
-    max-width: 100%;
-    height: auto;
-    float: right;
-  }
-
-  .card-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 16vh;
-  }
-
-  /* sizes="(max-width: 479px) 94vw, (max-width: 767px) 95vw, (max-width: 991px) 92vw, 43vw" */
-
-  .banner-info {
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(237, 241, 238, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-    padding: 60px 20px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .slider-carousel {
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(237, 241, 238, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-    padding: 60px 20px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .apps-portals-wrapper {
-    background-color: #f5faf5;
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(237, 241, 238, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-    max-width: 1680px;
-    padding: 60px 0;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .inzaghis-blog-slider {
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    padding: var(--padding-20);
-    max-width: 1680px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #inzaghis-blog-embed {
-    height: 1000px;
-    width: 100%;
-  }
-
-  .title-heading {
-    text-align: center;
-    font-family: var(--font-family);
-  }
-
-  .centered-subheading {
-    text-align: center;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: var(--font-family);
-  }
-
-  .text-description {
-    margin-bottom: 20px;
-  }
-
-  .group-title {
-    text-align: center;
-  }
-
-  .left-subheading {
-    text-align: left;
-    max-width: 800px;
-    margin-left: 10px;
-    margin-right: auto;
-    font-family: var(--font-family);
-  }
-
-  .group-content {
-    display: block;
-    max-width: 100%;
-  }
-
-  .group-image img {
-    box-sizing: content-box;
-    width: 50%;
-    height: auto;
-    float: none;
-  }
-
-  .btn.btn-primary,
-  .btn.btn-primary:hover {
-    cursor: pointer;
-    display: block;
-    margin: 0 auto; /* Menengahkan tombol */
-    text-align: center;
-  }
-
-  /* Optional: Style the button on hover */
-  .btn.btn-primary:hover {
-    background-color: #ee0f0f;
-    border-color: #ee0f0f;
-  }
-
-  .btn.btn-secondary,
-  .btn.btn-secondary:hover {
-    cursor: pointer;
-    display: block;
-    margin: 0 auto; /* Menengahkan tombol */
-    text-align: center;
-  }
-
-  /* Optional: Style the button on hover */
-  .btn.btn-secondary:hover {
-    background-color: #ff6600;
-    border-color: #ff6600;
-  }
-
-  .inzaghisblog-slider {
-    padding: var(--padding-10);
-    height: auto;
-  }
-
-  .inzaghisblog {
-    display: block;
-  }
-
-  .blog-name {
-    margin-top: var(--margin-top-12);
-    margin-bottom: var(--margin-bottom-12);
-    text-align: center;
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: var(--font-size-28);
-  }
-
-  .button-link {
-    color: var(--color-white);
-  }
-
-  .button-link:hover {
-    color: #c7c7c7;
-    text-decoration: none;
-  }
-
-  .blog-description {
-    margin-top: var(--margin-top-20);
-    margin-bottom: var(--margin-bottom-20);
-    text-align: left;
-    font-family: var(--font-family);
-    word-wrap: break-word;
-  }
-
-  .inzaghismedia-info {
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    padding: var(--padding-20);
-    margin-left: auto;
-    margin-right: auto;
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(255, 227, 227, 1) 40%,
-      rgba(255, 255, 255, 1) 100%
-    );
-  }
-
-  .inzaghismedia-slider {
-    padding: var(--padding-10);
-    height: auto;
-  }
-
-  .inzaghis-media-container {
-    max-width: 1080px;
-    padding: var(--padding-20);
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .socmed-icon {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    margin-bottom: 16px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .inzaghismedia {
-    display: block;
-  }
-
-  .socmed-name {
-    margin-bottom: var(--margin-bottom-12);
-    text-align: center;
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: var(--font-size-28);
-  }
-
-  .socmed-description {
-    margin-top: var(--margin-top-20);
-    margin-bottom: var(--margin-bottom-20);
-    text-align: center;
-    font-size: var(--font-size-14);
-    font-family: var(--font-family);
-    word-wrap: break-word;
   }
 
   .inzaghis-group-network {
@@ -2824,17 +2824,69 @@ svg:not(:root) {
     padding-bottom: 10px;
   }
 
-  .logo-grid {
-    grid-template-columns: 1fr;
+  .inzaghis-blog {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-20);
+    max-width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .logo-grid img {
-    max-height: 60px;
-    width: auto;
+  .inzaghisblog {
+    display: block;
   }
 
-  .logo-icon {
-    height: 4rem;
-    grid-row: auto;
+  .inzaghis-media {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-20);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inzaghis-media-container {
+    max-width: 1080px;
+    padding: var(--padding-20);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inzaghismedia {
+    display: block;
+  }
+
+  .blog-name {
+    margin-top: var(--margin-top-12);
+    margin-bottom: var(--margin-bottom-12);
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: var(--font-size-28);
+  }
+
+  .blog-description {
+    margin-top: var(--margin-top-20);
+    margin-bottom: var(--margin-bottom-20);
+    text-align: left;
+    font-family: var(--font-family);
+    word-wrap: break-word;
+  }
+
+  .inzaghisblog-slider {
+    padding: var(--padding-10);
+    height: auto;
+  }
+
+  .inzaghismedia-slider {
+    padding: var(--padding-10);
+    height: auto;
+  }
+
+  #inzaghis-blog-embed {
+    height: 1000px;
+    width: 100%;
   }
 }
