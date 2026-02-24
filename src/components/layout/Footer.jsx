@@ -113,11 +113,11 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 font-inter">
-      <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <footer className="footer">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-2 font-Inter">
         <div className="lg:flex lg:items-start lg:gap-8">
           {/* Logo Section */}
-          <section className="inzaghis-corp-logo flex justify-center md:justify-start text-teal-600 dark:text-teal-400">
+          <section className="inzaghis-corp-logo flex justify-center md:justify-start text-teal-600">
             <Link to="/">
               <img
                 src="/icons/inzaghis-corp-logo-vertical-transparent.png"
@@ -131,7 +131,7 @@ export default function Footer() {
           <div className="text-center md:text-left mt-8 grid grid-cols-2 gap-8 md:grid-cols-3 md:gap-y-12 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
             {/* Portals Section */}
             <div className="col-span-2 sm:col-span-1">
-              <p className="footer-title font-medium text-xl font-semibold text-gray-900 dark:text-white uppercase">
+              <p className="footer-title font-medium text-xl font-semibold text-gray-900 uppercase">
                 {footerSections.portals.title}
               </p>
               <ul className="mt-6 space-y-4 text-sm">
@@ -161,7 +161,7 @@ export default function Footer() {
 
             {/* Apps & Tools Section */}
             <div className="col-span-2 sm:col-span-1">
-              <p className="footer-title font-medium text-xl font-semibold text-gray-900 dark:text-white uppercase">
+              <p className="footer-title font-medium text-xl font-semibold text-gray-900 uppercase">
                 {footerSections.apps.title}
               </p>
               <ul className="mt-6 space-y-4 text-sm">
@@ -180,7 +180,7 @@ export default function Footer() {
 
             {/* Networks Section */}
             <div className="col-span-2 sm:col-span-1">
-              <p className="footer-title font-medium text-xl font-semibold text-gray-900 dark:text-white uppercase">
+              <p className="footer-title font-medium text-xl font-semibold text-gray-900 uppercase">
                 {footerSections.networks.title}
               </p>
               <ul className="mt-6 space-y-4 text-sm">
@@ -210,7 +210,7 @@ export default function Footer() {
 
             {/* Special Pages Section */}
             <div className="col-span-2 sm:col-span-1">
-              <p className="footer-title font-medium text-xl font-semibold text-gray-900 dark:text-white uppercase">
+              <p className="footer-title font-medium text-xl font-semibold text-gray-900 uppercase">
                 {footerSections.special.title}
               </p>
               <ul className="mt-6 space-y-4 text-sm">
@@ -240,7 +240,7 @@ export default function Footer() {
 
             {/* Quick Links Section */}
             <div className="col-span-2 sm:col-span-1">
-              <p className="footer-title font-medium text-xl font-semibold text-gray-900 dark:text-white uppercase">
+              <p className="footer-title font-medium text-xl font-semibold text-gray-900 uppercase">
                 {footerSections.quick.title}
               </p>
               <ul className="mt-6 space-y-4 text-sm">

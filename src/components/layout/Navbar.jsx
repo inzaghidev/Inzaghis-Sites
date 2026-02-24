@@ -153,7 +153,7 @@ export default function Navbar() {
                   className="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] flex items-center gap-2 rounded-lg"
                   aria-expanded={dropdown === "portals"}
                 >
-                  <span className="pointer-events-none">Portals</span>
+                  <Link to="/portals">Portals</Link>
                   <svg
                     className={`w-3 h-3 transition-transform duration-200 ${dropdown === "portals" ? "rotate-180" : ""}`}
                     xmlns="http://www.w3.org/2000/svg"
@@ -247,7 +247,7 @@ export default function Navbar() {
                   className="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] flex items-center gap-2 rounded-lg"
                   aria-expanded={dropdown === "apps"}
                 >
-                  <span className="pointer-events-none">Apps</span>
+                  <Link to="/apps">Apps</Link>
                   <svg
                     className={`w-3 h-3 transition-transform duration-200 ${dropdown === "apps" ? "rotate-180" : ""}`}
                     xmlns="http://www.w3.org/2000/svg"
@@ -390,7 +390,7 @@ export default function Navbar() {
                   className="dropdown-toggle py-2 px-3 hover:bg-[#c1e0d1] flex items-center gap-2 rounded-lg"
                   aria-expanded={dropdown === "group"}
                 >
-                  <span className="pointer-events-none">Inzaghi's Group</span>
+                  <Link to="/networks">Inzaghi's Group</Link>
                   <svg
                     className={`w-3 h-3 transition-transform duration-200 ${dropdown === "group" ? "rotate-180" : ""}`}
                     xmlns="http://www.w3.org/2000/svg"

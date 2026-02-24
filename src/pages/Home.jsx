@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import { useMemo } from "react";
 
@@ -90,40 +91,35 @@ export default function Home() {
   );
 
   return (
-    <main className="max-w-7xl mx-auto px-6 py-12 space-y-12">
+    <main className="max-w-7xl mx-auto">
       {/* Hero / Welcome */}
-      <section className="welcome bg-white rounded-xl shadow-lg p-8">
-        <div className="welcome-container flex flex-col md:flex-row items-center gap-8">
+      <section className="welcome">
+        <div className="welcome-container">
           <div className="flex-1">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
+            <h1 className="welcome-title text-4xl md:text-5xl font-bold text-gray-800 font-[Inter]">
               WELCOME TO INZAGHI'S SITES!
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              Inzaghi's Sites merupakan platform layanan situs web untuk
-              mengakses semua layanan Inzaghi's Group. Dapatkan akses cepat ke
-              Apps, Portals, dokumentasi, dan sumber daya lain yang membantu
-              produktivitas Anda.
+              Inzaghi's Sites merupakan Platform Layanan Situs Web untuk dapat
+              diakses ke semua layanan Inzaghi's Group.
+              <br />
+              <br />
+              Inzaghi's Sites juga memudahkan Anda untuk mengakses Aplikasi dan
+              Portal apapun yang berbasis Web seperti yang tersedia pada Portals
+              dan Apps seperti Widget, Tutorial Teknologi, Konverter,
+              Kalkulator, Generator, dan lain-lainnya.
             </p>
-            <div className="mt-6 flex gap-4">
-              <Link
-                to="/about"
-                className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700"
-              >
+            <div className="group-button about-inzaghis-sites-button mt-6 flex gap-4">
+              <Link to="/about" className="main-button">
                 ABOUT
-              </Link>
-              <Link
-                to="/apps"
-                className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
-              >
-                APPS
               </Link>
             </div>
           </div>
 
-          <div className="w-full md:w-1/2 flex justify-center">
+          <div className="welcome-image-to-inzaghis-sites w-full md:w-1/2 flex justify-center">
             <img
-              alt="Inzaghi's Sites illustration"
-              src="/assets/images/website-illustration-transparent-3d.png"
+              alt="Inzaghi's Sites Illustration"
+              src="images/website-illustration-transparent-3d.png"
               className="w-80 md:w-96 object-contain"
             />
           </div>
@@ -132,8 +128,8 @@ export default function Home() {
 
       {/* Branch Versions */}
       <section className="banner-info">
-        <div className="bg-white rounded-xl shadow-xl p-6">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+        <div className="slider-container bg-white rounded-xl shadow-xl p-6">
+          <h2 className="title-heading text-2xl font-semibold text-gray-800 mb-2">
             Branch Subdomains (Another Versions)
           </h2>
           <p className="text-gray-600 mb-4">
