@@ -1029,11 +1029,6 @@ svg:not(:root) {
   color: #28a745;
 }
 
-.apps-portals-container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .is-desc {
   font-size: var(--font-size-14);
   line-height: 1.6;
@@ -1651,12 +1646,6 @@ svg:not(:root) {
   .apps-portals-wrapper {
     background-color: #f5faf5;
     border-bottom: 1px solid #e4f3e5;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .apps-portals-container {
-    max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
   }
