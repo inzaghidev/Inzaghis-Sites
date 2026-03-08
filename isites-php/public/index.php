@@ -134,6 +134,27 @@
               Branch pada Repository GitHub kami.
             </p>
           </li>
+          <li class="list-group-item card-body">
+            <div class="text-black row -mx-1">
+              <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
+                ⚛️ React.js (Coming Soon)
+              </h3>
+              <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
+                <a
+                  href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-react"
+                  target="_blank"
+                  class="btn btn-primary col-12 col-md-10"
+                  >Click here</a
+                >
+                <br />
+              </section>
+            </div>
+            <p class="card-text is-desc">
+              Pada Branch ini, juga akan dibangun dan dikembangkan ulang
+              dengan menggunakan React.js. Untuk sementara, masih tersedia di
+              dalam Branch pada Repository GitHub kami.
+            </p>
+          </li>
         </ul>
       </div>
     </div>
