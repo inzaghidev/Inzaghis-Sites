@@ -1,3 +1,5 @@
+<!-- UNDER CONSTRUCTION -->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -95,60 +97,212 @@
             </div>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
             <script>
-              $(document).ready(function () {
-                // Data for the apps
-                const apps = [
-                  {
-                    title: "Basic Converters",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-                    link: "#",
-                  },
-                  {
-                    title: "Engineering Converters",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    link: "#",
-                  },
-                  {
-                    title: "Electricity Converters",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    link: "#",
-                  },
-                  {
-                    title: "Fluid Converters",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-                    link: "#",
-                  },
-                  {
-                    title: "Light Converters",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    link: "#",
-                  },
-                ];
+              const sections = [
+                {
+                  section: "Basic Converters",
+                  description:
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                  columnClass: "col-md-4 col-sm-6 mb-4",
+                  apps: [
+                    {
+                      title: "Konversi Panjang",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "Konversi Massa/Berat",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "Konversi Luas",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "Konversi Volume",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "Konversi Waktu",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "Konversi Kecepatan",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "Konversi Suhu",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 8",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 9",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                  ],
+                },
+                {
+                  section: "Engineering Converters",
+                  description:
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                  columnClass: "col-md-4 col-sm-6 mb-4",
+                  apps: [
+                    {
+                      title: "App 1",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 2",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 3",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                  ],
+                },
+                {
+                  section: "Electricity Converters",
+                  description:
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                  columnClass: "col-md-4 col-sm-6 mb-4",
+                  apps: [
+                    {
+                      title: "App 1",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 2",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 3",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 4",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 5",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 6",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                  ],
+                },
+                {
+                  section: "Light Converters",
+                  description:
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                  columnClass: "col-md-4 col-sm-6 mb-4",
+                  apps: [
+                    {
+                      title: "App 1",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 2",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 3",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                  ],
+                },
+                {
+                  section: "Section 5",
+                  description:
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                  columnClass: "col-md-4 col-sm-6 mb-4",
+                  apps: [
+                    {
+                      title: "App 1",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 2",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                  ],
+                },
+              ];
 
-                // Get the container where the cards will be appended
-                const appContainer = $("#app-container");
+              let container = document.getElementById("sections-container");
+              if (!container) {
+                container = document.createElement("div");
+                container.id = "sections-container";
+                const pagesSection = document.querySelector("section.pages");
+                if (pagesSection) {
+                  // insert container before the script so styles/layout remain consistent
+                  pagesSection.appendChild(container);
+                } else {
+                  document.body.appendChild(container);
+                }
+              }
 
-                apps.forEach((app) => {
+              sections.forEach((sec) => {
+                const sectionEl = document.createElement("div");
+                sectionEl.className =
+                  "card-body card-apps card shadow-lg bg-white mb-4";
+
+                sectionEl.innerHTML = `
+                  <div class="card-grid-container">
+                    <h2 class="col">${sec.section}</h2>
+                    <div class="text-container col">
+                      <p class="is-desc">${sec.description}</p>
+                    </div>
+                    <div class="row"></div>
+                  </div>
+                `;
+
+                const row = sectionEl.querySelector(".row");
+
+                sec.apps.forEach((app) => {
                   const col = document.createElement("div");
-                  col.className = "col-md-4 col-sm-6 mb-4";
+                  col.className = sec.columnClass;
 
                   col.innerHTML = `
                     <div class="card card-apps h-100 shadow-lg border border-success card-animated">
                       <div class="card-body card-apps-body">
                         <h5 class="card-apps-title">${app.title}</h5>
-                        <p class="card-text card-apps-text card-description">
-                          ${app.text}
-                        </p>
-                        <a href="${app.link}" class="btn btn-primary apps-button">
-                          Click here
-                        </a>
+                        <p class="card-text card-apps-text card-description">${app.text}</p>
+                        <a href="${app.link}" class="btn btn-primary apps-button">Click here</a>
                       </div>
                     </div>
                   `;
 
-                  // Append the created column to the container so it becomes visible on the page
-                  appContainer.append(col);
+                  row.appendChild(col);
                 });
+
+                container.appendChild(sectionEl);
               });
             </script>
           </section>
