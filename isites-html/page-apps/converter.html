@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<!-- UNDER CONSTRUCTION -->
+
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -86,63 +88,224 @@
               Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian
               dari Aplikasi Konverter ini akan sedikit menggunakan API.
             </p>
-            <div class="card-grid-container">
-              <div
-                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 -mx-4 sm:mx-0"
-                id="app-container"
-              >
-                <!-- Dynamic content will be inserted here -->
-              </div>
-            </div>
             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <div id="sections-container">
+              <!-- Dynamic content will be inserted here -->
+            </div>
             <script>
-              $(document).ready(function () {
-                // Data for the apps
-                const apps = [
-                  {
-                    title: "Basic Converters",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-                    link: "#",
-                  },
-                  {
-                    title: "Engineering Converters",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    link: "#",
-                  },
-                  {
-                    title: "Electricity Converters",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    link: "#",
-                  },
-                  {
-                    title: "Fluid Converters",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
-                    link: "#",
-                  },
-                  {
-                    title: "Light Converters",
-                    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    link: "#",
-                  },
-                ];
+              const sections = [
+                {
+                  section: "Basic Converters",
+                  description:
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                  icon: "../assets/icons/ico-icon.svg",
+                  apps: [
+                    {
+                      title: "Konversi Panjang",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "Konversi Massa/Berat",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "Konversi Luas",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "Konversi Volume",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "Konversi Waktu",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "Konversi Kecepatan",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "Konversi Suhu",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 8",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 9",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                  ],
+                },
+                {
+                  section: "Engineering Converters",
+                  description:
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                  icon: "../assets/icons/ico-icon.svg",
+                  apps: [
+                    {
+                      title: "App 1",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 2",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 3",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                  ],
+                },
+                {
+                  section: "Electricity Converters",
+                  description:
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                  icon: "../assets/icons/ico-icon.svg",
+                  apps: [
+                    {
+                      title: "App 1",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 2",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 3",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 4",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 5",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 6",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                  ],
+                },
+                {
+                  section: "Light Converters",
+                  description:
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                  icon: "../assets/icons/ico-icon.svg",
+                  apps: [
+                    {
+                      title: "App 1",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 2",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 3",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                  ],
+                },
+                {
+                  section: "Section 5",
+                  description:
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                  icon: "../assets/icons/ico-icon.svg",
+                  apps: [
+                    {
+                      title: "App 1",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                    {
+                      title: "App 2",
+                      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                      link: "#",
+                    },
+                  ],
+                },
+              ];
 
-                // Get the container where the cards will be appended
-                const appContainer = $("#app-container");
+              const container = document.getElementById("sections-container");
 
-                // Loop through the apps data and create the HTML elements
-                apps.forEach((app) => {
-                  const card = $(`
-                    <div class="bg-white hover:bg-[#edf5ef] shadow-md flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-500 border border-indigo-100 rounded-lg shadow hover:shadow-xl duration-500">
-                      <h5 class="card-apps-title text-2xl font-bold text-black">${app.title}</h5>
-                      <p class="card-apps-text text-gray-600 mt-2 !mb-4 mb-auto">${app.text}</p>
-                      <a href="${app.link}" class="flex justify-center bg-blue-600 text-white mx-2 py-2 px-4 rounded-lg hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 shadow hover:shadow-lg">
-                        <button class="inline-block">Click here</button>
-                      </a>
+              sections.forEach((sec) => {
+                const sectionEl = document.createElement("div");
+                sectionEl.className =
+                  "card-apps bg-gray-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-30 border border-gray-100 shadow-xl flex flex-col justify-between p-6 mb-8 ring-1 ring-green-500";
+
+                sectionEl.innerHTML = `
+                <div class="card-grid-container">
+                  <div class="flex justify-between flex-wrap gap-2 mb-4 w-full">
+                    <div class="flex items-center">
+                      <img src="${sec.icon}" width="44" height="44" />
+                      <span class="text-3xl ml-3 text-gray-700 font-bold font-[Inter]">
+                        ${sec.section}
+                      </span>
                     </div>
-                  `);
+                  </div>
 
-                  appContainer.append(card);
+                  <div class="text-container">
+                    <p class="is-desc">
+                      ${sec.description}
+                    </p>
+                  </div>
+
+                  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"></div>
+                </div>
+              `;
+
+                const grid = sectionEl.querySelector(".grid");
+
+                sec.apps.forEach((app) => {
+                  const card = document.createElement("div");
+
+                  card.className =
+                    "bg-white hover:bg-green-50 shadow-md flex flex-col justify-between rounded-lg p-6 ring-1 ring-green-500 border border-indigo-100 rounded-lg shadow hover:shadow-xl transition-all transition transform hover:-translate-y-1 duration-500";
+
+                  card.innerHTML = `
+                  <h5 class="card-apps-title text-2xl font-bold text-black">
+                    ${app.title}
+                  </h5>
+
+                  <p class="card-apps-text text-gray-600 mt-2 !mb-4 mb-auto">
+                    ${app.text}
+                  </p>
+
+                  <a href="${app.link}"
+                    class="flex justify-center bg-blue-600 text-white mx-2 py-2 px-4 rounded-lg hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 shadow hover:shadow-lg">
+                    Click here
+                  </a>
+                `;
+
+                  grid.appendChild(card);
                 });
+
+                container.appendChild(sectionEl);
               });
             </script>
           </section>
