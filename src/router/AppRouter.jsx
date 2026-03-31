@@ -7,6 +7,7 @@ import Contact from "../pages/Contact.jsx";
 import Profile from "../pages/Profile.jsx";
 import Disclaimer from "../pages/Disclaimer.jsx";
 import PrivacyPolicy from "../pages/PrivacyPolicy.jsx";
+import Networks from "../pages/Networks.jsx";
 
 export default function AppRouter() {
   return (
@@ -21,6 +22,7 @@ export default function AppRouter() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/apps" element={<Apps />} />
           <Route path="/portals" element={<Portals />} />
+          <Route path="/networks" element={<Networks />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
