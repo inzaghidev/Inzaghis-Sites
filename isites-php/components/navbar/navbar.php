@@ -208,7 +208,7 @@
               <span>Blogs</span>
               <span
                 :class="dropdownOpen 
-                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-gray-100 text-gray-800' 
+                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-[#daede4] text-gray-800' 
                   : 'relative py-1 px-1 inline-flex items-center rounded-md'"
                 class="transition-colors duration-200"
               >
@@ -228,7 +228,7 @@
               <a href="<?php echo $pathToWebRoot.'/portals/'; ?>">Portals</a>
               <span
                 :class="dropdownOpen 
-                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-gray-100 text-gray-800' 
+                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-[#daede4] text-gray-800' 
                   : 'relative py-1 px-1 inline-flex items-center rounded-md'"
                 class="transition-colors duration-200"
               >
@@ -255,7 +255,7 @@
               <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a>
               <span
                 :class="dropdownOpen 
-                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-gray-100 text-gray-800' 
+                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-[#daede4] text-gray-800' 
                   : 'relative py-1 px-1 inline-flex items-center rounded-md'"
                 class="transition-colors duration-200"
               >
@@ -283,7 +283,7 @@
               <span>About &amp; Profile</span>
               <span
                 :class="dropdownOpen 
-                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-gray-100 text-gray-800' 
+                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-[#daede4] text-gray-800' 
                   : 'relative py-1 px-1 inline-flex items-center rounded-md'"
                 class="transition-colors duration-200"
               >
@@ -303,7 +303,7 @@
               <a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a>
               <span
                 :class="dropdownOpen 
-                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-gray-100 text-gray-800' 
+                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-[#daede4] text-gray-800' 
                   : 'relative py-1 px-1 inline-flex items-center rounded-md'"
                 class="transition-colors duration-200"
               >
@@ -327,7 +327,7 @@
               <span>Switch to</span>
               <span
                 :class="dropdownOpen 
-                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-gray-100 text-gray-800' 
+                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-[#daede4] text-gray-800' 
                   : 'relative py-1 px-1 inline-flex items-center rounded-md'"
                 class="transition-colors duration-200"
               >
@@ -599,7 +599,7 @@
               <span>Blogs</span>
               <span
                 :class="dropdownOpen 
-                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-gray-100 text-gray-800' 
+                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-[#daede4] text-gray-800' 
                   : 'relative py-1 px-1 inline-flex items-center rounded-md'"
                 class="transition-colors duration-200"
               >
@@ -619,7 +619,7 @@
               <a href="<?php echo $pathToWebRoot.'/portals/'; ?>">Portals</a>
               <span
                 :class="dropdownOpen 
-                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-gray-100 text-gray-800' 
+                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-[#daede4] text-gray-800' 
                   : 'relative py-1 px-1 inline-flex items-center rounded-md'"
                 class="transition-colors duration-200"
               >
@@ -646,7 +646,7 @@
               <a href="<?php echo $pathToWebRoot.'/page-apps/'; ?>">Apps</a>
               <span
                 :class="dropdownOpen 
-                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-gray-100 text-gray-800' 
+                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-[#daede4] text-gray-800' 
                   : 'relative py-1 px-1 inline-flex items-center rounded-md'"
                 class="transition-colors duration-200"
               >
@@ -674,7 +674,7 @@
               <span>About &amp; Profile</span>
               <span
                 :class="dropdownOpen 
-                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-gray-100 text-gray-800' 
+                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-[#daede4] text-gray-800' 
                   : 'relative py-1 px-1 inline-flex items-center rounded-md'"
                 class="transition-colors duration-200"
               >
@@ -694,7 +694,7 @@
               <a href="<?php echo $pathToWebRoot.'/pages/networks.php'; ?>">Inzaghi's Group</a>
               <span
                 :class="dropdownOpen 
-                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-gray-100 text-gray-800' 
+                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-[#daede4] text-gray-800' 
                   : 'relative py-1 px-1 inline-flex items-center rounded-md'"
                 class="transition-colors duration-200"
               >
@@ -718,7 +718,7 @@
               <span>Switch to</span>
               <span
                 :class="dropdownOpen 
-                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-gray-100 text-gray-800' 
+                  ? 'relative py-1 px-1 inline-flex items-center rounded-md border border-gray-200 bg-[#daede4] text-gray-800' 
                   : 'relative py-1 px-1 inline-flex items-center rounded-md'"
                 class="transition-colors duration-200"
               >
