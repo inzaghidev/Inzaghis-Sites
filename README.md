@@ -28,7 +28,8 @@ The following are a List of Versions of Inzaghi's Sites :
 | 12  | Inzaghis-Sites-newUI                    | Lorem Ipsum     | Main     | [Click here](https://github.com/inzaghidev/Inzaghis-Sites/tree/main)                                      |
 | 13  | Inzaghis-Sites-Future                   | Lorem Ipsum     | Future   | [Click here](/xxxx/)                                                                                      |
 | 14  | Inzaghis-sites-laravel (isites-laravel) | Lorem Ipsum     | Future   | [Click here](https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel)                            |
-| 15  | Lorem Ipsum                             | Lorem Ipsum     | xxxx     | [Click here](/xxxx/)                                                                                      |
+| 15  | Inzaghis-sites-react (isites-react)     | Lorem Ipsum     | Future   | [Click here](https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-react)                              |
+| 16  | Lorem Ipsum                             | Lorem Ipsum     | xxxx     | [Click here](/xxxx/)                                                                                      |
 
 ## Inzaghi's Sites Version History Images
 
