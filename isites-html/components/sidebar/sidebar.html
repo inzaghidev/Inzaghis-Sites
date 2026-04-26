@@ -91,6 +91,72 @@
         </li>
       </ul>
     </li>
+    <li class="nav-item nav-group">
+      <a class="nav-link nav-group-toggle" href="#">
+        <i class="nav-icon cil-swap-horizontal"></i> Converters
+      </a>
+      <ul class="nav-group-items">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <span class="nav-icon"><span class="nav-icon-bullet"></span></span> Common Converters
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <span class="nav-icon"><span class="nav-icon-bullet"></span></span> Engineering Converters
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <span class="nav-icon"><span class="nav-icon-bullet"></span></span> Electricity Converters
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-item nav-group">
+      <a class="nav-link nav-group-toggle" href="#">
+        <i class="nav-icon cil-calculator"></i> Calculators
+      </a>
+      <ul class="nav-group-items">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <span class="nav-icon"><span class="nav-icon-bullet"></span></span> Calculations Calculator
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <span class="nav-icon"><span class="nav-icon-bullet"></span></span> Mathematics Calculator
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <span class="nav-icon"><span class="nav-icon-bullet"></span></span> Statistics Calculator
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-item nav-group">
+      <a class="nav-link nav-group-toggle" href="#">
+        <i class="nav-icon cil-text"></i> Formatters
+      </a>
+      <ul class="nav-group-items">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <span class="nav-icon"><span class="nav-icon-bullet"></span></span> Text Formatters
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <span class="nav-icon"><span class="nav-icon-bullet"></span></span> Code Formatters
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <span class="nav-icon"><span class="nav-icon-bullet"></span></span> Beautifiers
+          </a>
+        </li>
+      </ul>
+    </li>
     <li class="nav-item mt-5">
       <a class="nav-link" href="https://coreui.io">
         <i class="nav-icon cil-cloud-download"></i> Download CoreUI</a>
@@ -106,5 +172,14 @@
     <button class="sidebar-toggler" type="button"></button>
   </div>
 </div>
+
+<script>
+  document.querySelectorAll(".nav-group-toggle").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const menu = btn.nextElementSibling;
+      menu.classList.toggle("hidden");
+    });
+  });
+</script>
 
 <!-- https://coreui.io/bootstrap/docs/components/sidebar -->
