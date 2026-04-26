@@ -52,7 +52,228 @@
   src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
 ></script>
 
-<div
+
+<div class="w-64 h-screen flex flex-col bg-white border-r border-solid border-gray-300 font-sans">
+  
+  <!-- Header -->
+  <div class="px-6 py-4 border-b border-solid border-gray-300">
+    <div class="text-gray-700 font-medium text-lg">
+      Sidebar
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <ul class="flex-1 overflow-y-auto px-2 py-2">
+
+    <!-- Title -->
+    <li class="px-4 pt-6 pb-2 text-xs font-bold text-gray-400 uppercase">
+      Nav Title
+    </li>
+
+    <!-- Item -->
+    <li>
+      <a href="#"
+        class="flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 bg-gray-100 font-medium">
+        <span class="w-5 h-5 flex items-center justify-center mr-4">
+          <i class="cil-speedometer"></i>
+        </span>
+        Nav item
+      </a>
+    </li>
+
+    <!-- Item with Badge -->
+    <li>
+      <a href="#"
+        class="flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100">
+        <span class="w-5 h-5 flex items-center justify-center mr-4">
+          <i class="cil-speedometer"></i>
+        </span>
+        With badge
+        <span class="ml-auto text-xs font-bold px-2 py-1 rounded bg-indigo-600 text-white">
+          NEW
+        </span>
+      </a>
+    </li>
+
+    <!-- Dropdown Group -->
+    <li>
+      <button
+        class="w-full flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100 nav-group-toggle">
+        
+        <span class="w-5 h-5 flex items-center justify-center mr-4">
+          <i class="cil-puzzle"></i>
+        </span>
+
+        Nav dropdown
+      </button>
+
+      <!-- Sub Menu -->
+      <ul class="ml-8 mt-1 space-y-1 hidden nav-group-items">
+        <li>
+          <a href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
+            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+            Nav dropdown item
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
+            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+            Nav dropdown item
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- Converters Group -->
+    <li>
+      <button
+        class="w-full flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100 nav-group-toggle">
+        <span class="w-5 h-5 flex items-center justify-center mr-4">
+          <i class="cil-swap-horizontal"></i>
+        </span>
+        Converters
+      </button>
+      <ul class="ml-8 mt-1 space-y-1 hidden nav-group-items">
+        <li>
+          <a href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
+            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+            Common Converters
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
+            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+            Engineering Converters
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
+            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+            Electricity Converters
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- Calculators Group -->
+    <li>
+      <button
+        class="w-full flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100 nav-group-toggle">
+        <span class="w-5 h-5 flex items-center justify-center mr-4">
+          <i class="cil-calculator"></i>
+        </span>
+        Calculators
+      </button>
+      <ul class="ml-8 mt-1 space-y-1 hidden nav-group-items">
+        <li>
+          <a href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
+            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+            Calculations Calculator
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
+            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+            Mathematics Calculator
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
+            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+            Statistics Calculator
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- Formatters Group -->
+    <li>
+      <button
+        class="w-full flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100 nav-group-toggle">
+        <span class="w-5 h-5 flex items-center justify-center mr-4">
+          <i class="cil-text"></i>
+        </span>
+        Formatters
+      </button>
+      <ul class="ml-8 mt-1 space-y-1 hidden nav-group-items">
+        <li>
+          <a href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
+            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+            Text Formatters
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
+            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+            Code Formatters
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
+            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+            Beautifiers
+          </a>
+        </li>
+      </ul>
+    </li>
+
+    <!-- Spacer -->
+    <li class="mt-10"></li>
+
+    <!-- External Links -->
+    <li>
+      <a href="https://coreui.io"
+        class="flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100">
+        <span class="w-5 h-5 flex items-center justify-center mr-4">
+          <i class="cil-cloud-download"></i>
+        </span>
+        Download CoreUI
+      </a>
+    </li>
+
+    <li>
+      <a href="https://coreui.io/pro/"
+        class="flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100">
+        <span class="w-5 h-5 flex items-center justify-center mr-4">
+          <i class="cil-layers"></i>
+        </span>
+        Try CoreUI <strong class="ml-1">PRO</strong>
+      </a>
+    </li>
+
+  </ul>
+
+  <!-- Footer -->
+  <div class="border-t border-solid border-gray-300 p-2 flex">
+    <button
+      class="px-4 py-2 text-gray-500 hover:text-gray-700 opacity-70 hover:opacity-100 transition">
+      &#x21E4;
+    </button>
+  </div>
+
+</div>
+
+<script>
+  document.querySelectorAll(".nav-group-toggle").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const menu = btn.nextElementSibling;
+      menu.classList.toggle("hidden");
+    });
+  });
+</script>
+
+<!-- <div
   class="relative flex h-[100vh] w-full max-w-[20rem] flex-col bg-white bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5"
 >
   <div class="p-4 mb-2">
@@ -391,6 +612,6 @@
       Log Out
     </div>
   </nav>
-</div>
+</div> -->
 
 <!-- https://www.material-tailwind.com/docs/html/sidebar -->
