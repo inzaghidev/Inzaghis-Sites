@@ -15,9 +15,9 @@
             <br />
             <br />
             Inzaghi's Sites juga memudahkan Anda untuk mengakses Aplikasi
-            apapun yang berbasis Web seperti yang tersedia pada Pages Apps
-            seperti Halaman, Widget, Konverter, Kalkulator, dan
-            lain-lainnya.
+            dan Portal apapun yang berbasis Web seperti yang tersedia pada
+            Portals dan Apps seperti Widget, Tutorial Teknologi, Konverter,
+            Kalkulator, Generator, dan lain-lainnya.
           </p>
           <section class="group-button about-inzaghis-sites-button">
             <a href="../about" class="main-button">ABOUT</a>

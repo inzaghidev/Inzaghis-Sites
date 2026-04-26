@@ -110,12 +110,12 @@
                             </div>
                         </div>
                         <nav class="nav-dropdown-list nav-dropdown-list--open">
-                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-blog'; ?>" class="dropdown-link">Inzaghi's Blog</a>
-                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-media'; ?>" class="dropdown-link">Inzaghi's Media</a>
-                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-dev'; ?>" class="dropdown-link">Inzaghi's Dev</a>
-                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-archives'; ?>" class="dropdown-link">Inzaghi's Archives</a>
-                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-app'; ?>" class="dropdown-link">Inzaghi's App</a>
-                            <a href="<?php echo $pathToWebRoot.'/inzaghis-group/inzaghis-ai'; ?>" class="dropdown-link">Inzaghi's AI</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-blog/'; ?>" class="dropdown-link">Inzaghi's Blog</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-media/'; ?>" class="dropdown-link">Inzaghi's Media</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-dev/'; ?>" class="dropdown-link">Inzaghi's Dev</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-archives/'; ?>" class="dropdown-link">Inzaghi's Archives</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-app/'; ?>" class="dropdown-link">Inzaghi's App</a>
+                            <a href="<?php echo $pathToWebRoot.'/inzaghis-ai/'; ?>" class="dropdown-link">Inzaghi's AI</a>
                         </nav>
                         </div>
                     </li>

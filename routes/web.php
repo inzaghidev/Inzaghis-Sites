@@ -68,6 +68,12 @@ Route::get('/portals', function () {
 });
 
 
+Route::get('/inzaghis-blog', function () {
+    return view('/inzaghis-group/inzaghis-blog', [
+        'page_title' => "Inzaghi's Blog"
+    ]);
+});
+
 // Route::get('/apps', function () {
 //     $apps = [
 //         [
