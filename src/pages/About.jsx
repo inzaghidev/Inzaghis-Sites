@@ -58,7 +58,7 @@ export default function About() {
             </div>
             <div className="welcome-image-to-inzaghis-sites">
               <img
-                src="/assets/images/inzaghis-sites-by-inzaghis-group-corp.png"
+                src="/images/inzaghis-sites-by-inzaghis-group-corp.png"
                 alt="Inzaghi's Sites"
                 className="w-[600px]"
               />

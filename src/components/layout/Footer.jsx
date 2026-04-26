@@ -7,7 +7,7 @@ export default function Footer() {
         <section className="footer-wrapper mb-10">
           <section className="inzaghis-corp-logo !mb-10">
             <Link to="/" id="logo">
-              <img src="/assets/icons/inzaghis-corp-logo-vertical-transparent.png" className="h-16 w-auto" id="logo-foot" alt="logo" />
+              <img src="/icons/inzaghis-corp-logo-vertical-transparent.png" className="h-16 w-auto" id="logo-foot" alt="logo" />
             </Link>
           </section>
           <section className="footer-grid mx-0 lg:mx-2 mb-5 md:mb-6 lg:mb-2 text-left">

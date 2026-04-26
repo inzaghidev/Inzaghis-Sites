@@ -22,7 +22,7 @@ export default function Networks() {
             </div>
             <div className="about-us-image-to-inzaghis-group">
               <img
-                src="/assets/images/inzaghis-group-partners.png"
+                src="/images/inzaghis-group-partners.png"
                 alt="Inzaghi's Sites"
                 style={{ width: "600px" }}
               />
@@ -37,7 +37,7 @@ export default function Networks() {
             <section className="group-content">
               <section className="group-image">
                 <img
-                  src="/assets/images/inzaghis-blog-by-inzaghis-group-corp.png"
+                  src="/images/inzaghis-blog-by-inzaghis-group-corp.png"
                   alt="Inzaghi's Blog"
                   style={{ width: "600px" }}
                 />
@@ -62,7 +62,7 @@ export default function Networks() {
                 <div className="relative flex flex-col text-gray-700 bg-[#fff6f0] hover:bg-gray-100 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-80 backdrop-filter backdrop-blur-xl ring-1 ring-gray-300">
                   <div className="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                     <img
-                      src="/assets/images/inzaghis-blog-legacy.png"
+                      src="/images/inzaghis-blog-legacy.png"
                       alt="Inzaghi's Blog Legacy"
                       className="w-full h-full object-cover"
                     />
@@ -88,7 +88,7 @@ export default function Networks() {
                 <div className="relative flex flex-col text-gray-700 bg-[#fff6f0] hover:bg-gray-100 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-80 backdrop-filter backdrop-blur-xl ring-1 ring-gray-300">
                   <div className="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                     <img
-                      src="/assets/images/teknoblog-by-inzaghis-blog.png"
+                      src="/images/teknoblog-by-inzaghis-blog.png"
                       alt="Teknoblog - Inzaghi's Blog"
                       className="w-full h-full object-cover"
                     />
@@ -114,7 +114,7 @@ export default function Networks() {
                 <div className="relative flex flex-col text-gray-700 bg-[#fff6f0] hover:bg-gray-100 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-80 backdrop-filter backdrop-blur-xl ring-1 ring-gray-300">
                   <div className="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
                     <img
-                      src="/assets/images/miniblog-by-inzaghis-blog.png"
+                      src="/images/miniblog-by-inzaghis-blog.png"
                       alt="Miniblog - Inzaghi's Blog"
                       className="w-full h-full object-cover"
                     />
@@ -147,7 +147,7 @@ export default function Networks() {
             <section className="group-content reverse-content">
               <section className="group-image">
                 <img
-                  src="/assets/images/inzaghis-media-by-inzaghis-group-corp.png"
+                  src="/images/inzaghis-media-by-inzaghis-group-corp.png"
                   alt="Inzaghi's Media"
                   style={{ width: "600px" }}
                 />
@@ -168,7 +168,7 @@ export default function Networks() {
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-4 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-300">
                 <div className="p-6 mb-auto">
-                  <img src="/assets/icons/instagram-logo-withcolor.svg" alt="Instagram Logo" width="44" height="44" />
+                  <img src="/icons/instagram-logo-withcolor.svg" alt="Instagram Logo" width="44" height="44" />
                   <h5 className="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl mt-4">
                     Instagram
                   </h5>
@@ -187,7 +187,7 @@ export default function Networks() {
               </div>
               <div className="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-4 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-300">
                 <div className="p-6 mb-auto">
-                  <img src="/assets/icons/tiktok-logo-withcolor.svg" alt="TikTok Logo" width="44" height="44" />
+                  <img src="/icons/tiktok-logo-withcolor.svg" alt="TikTok Logo" width="44" height="44" />
                   <h5 className="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl mt-4">
                     TikTok
                   </h5>
@@ -207,7 +207,7 @@ export default function Networks() {
               </div>
               <div className="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-4 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-300">
                 <div className="p-6 mb-auto">
-                  <img src="/assets/icons/youtube-logo-withcolor.svg" alt="YouTube Logo" width="44" height="44" />
+                  <img src="/icons/youtube-logo-withcolor.svg" alt="YouTube Logo" width="44" height="44" />
                   <h5 className="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl mt-4">
                     YouTube
                   </h5>
@@ -234,7 +234,7 @@ export default function Networks() {
           <section className="group-content">
             <section className="group-image">
               <img
-                src="/assets/images/inzaghis-dev-by-inzaghis-group-corp.png"
+                src="/images/inzaghis-dev-by-inzaghis-group-corp.png"
                 alt="Inzaghi's Dev"
                 style={{ width: "600px" }}
               />
@@ -259,7 +259,7 @@ export default function Networks() {
           <section className="group-content reverse-content">
             <section className="group-image">
               <img
-                src="/assets/images/inzaghis-app-by-inzaghis-group-corp.png"
+                src="/images/inzaghis-app-by-inzaghis-group-corp.png"
                 alt="Inzaghi's App"
                 style={{ width: "600px" }}
               />
@@ -285,7 +285,7 @@ export default function Networks() {
           <section className="group-content">
             <section className="group-image">
               <img
-                src="/assets/images/inzaghis-archives-by-inzaghis-group-corp.png"
+                src="/images/inzaghis-archives-by-inzaghis-group-corp.png"
                 alt="Inzaghi's Archives"
                 style={{ width: "600px" }}
               />
@@ -313,7 +313,7 @@ export default function Networks() {
           <section className="group-content reverse-content">
             <section className="group-image">
               <img
-                src="/assets/images/inzaghis-ai-by-inzaghis-group-corp.png"
+                src="/images/inzaghis-ai-by-inzaghis-group-corp.png"
                 alt="Inzaghi's AI"
                 style={{ width: "600px" }}
               />

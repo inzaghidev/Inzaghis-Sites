@@ -127,75 +127,172 @@ export default function Home() {
       </section>
 
       {/* Branch Versions */}
-      <section className="banner-info">
-        <div className="slider-container bg-white rounded-xl shadow-xl p-6">
-          <h2 className="title-heading text-2xl font-semibold text-gray-800 mb-2">
-            Branch Subdomains (Another Versions)
-          </h2>
-          <p className="text-gray-600 mb-4">
-            Untuk melihat versi lainnya dari situs ini, lihat beberapa
-            tautan/branch di bawah.
-          </p>
-
-          <div className="space-y-4">
-            <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg border">
-              <div className="flex items-center gap-4">
-                <div className="text-3xl">🌿</div>
-                <div>
-                  <div className="text-lg font-bold">Main Branch (New UI)</div>
-                  <div className="text-sm text-gray-600">
-                    Stabil, menggunakan tampilan UI baru.
-                  </div>
+  <section className="banner-info">
+    <div className="slider-container">
+      <h2 className="title-heading">Branch Subdomains (Another Versions)</h2>
+      <p className="centered-subheading m-4">
+        Untuk melihat Versi lainnya dari Situs ini, silakan lihat dari
+        beberapa Tautan/Link di bawah ini.
+      </p>
+      <div
+        className="block relative flex flex-col my-6 bg-white border border-gray-200 rounded-lg shadow-xl w-full mx-auto ring-1 ring-green-500 hover:shadow-2xl"
+      >
+        <div className="p-4">
+          <div className="mb-4 flex items-center justify-between">
+            <h5 className="text-slate-800 text-lg font-semibold">Versions</h5>
+          </div>
+          <hr className="my-2 border-t border-green-500" />
+          <div className="divide-y divide-slate-200">
+            <div className="items-center justify-between pb-3 pt-3 last:pb-0">
+              <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
+                <div className="flex items-center">
+                  <img
+                    src="../assets/icons/git-branch.svg"
+                    alt="Git Branch Icon"
+                    width="44"
+                    height="44"
+                  />
+                  <span
+                    className="text-2xl ml-3 text-gray-700 font-bold font-[Inter]"
+                    >Main Branch (New UI)</span
+                  >
                 </div>
+                <button type="button">
+                  <a
+                    href="https://inzaghi.wuaze.com"
+                    className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >Click here</a
+                  >
+                </button>
               </div>
-              <a
-                href="https://inzaghi.wuaze.com"
-                className="bg-blue-700 text-white px-4 py-2 rounded-lg"
-              >
-                Click here
-              </a>
+              <p className="is-desc">
+                Merupakan Cabang/Branch Utama dari Website Platform ini, yang
+                sifatnya Stabil, dan sudah menggunakan Tampilan UI Baru.
+              </p>
+              <hr className="my-2 border-t border-gray" />
             </div>
-
-            <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg border">
-              <div className="flex items-center gap-4">
-                <div className="text-3xl">🔬</div>
-                <div>
-                  <div className="text-lg font-bold">
-                    Beta Future (Old UI - Temporary)
-                  </div>
-                  <div className="text-sm text-gray-600">
-                    Branch pratinjau untuk fitur baru.
-                  </div>
+            <div className="items-center justify-between pb-3 pt-3 last:pb-0">
+              <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
+                <div className="flex items-center">
+                  <img
+                    src="../assets/icons/rocket-01.svg"
+                    alt="Rocket Icon 1"
+                    width="44"
+                    height="44"
+                  />
+                  <span
+                    className="text-2xl ml-3 text-gray-700 font-bold font-[Inter]"
+                    >Beta Future (Old UI - Temporary)</span
+                  >
                 </div>
+                <button type="button">
+                  <a
+                    href="https://preview.inzaghi.wuaze.com"
+                    className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >Click here</a
+                  >
+                </button>
               </div>
-              <a
-                href="https://preview.inzaghi.wuaze.com"
-                className="bg-blue-700 text-white px-4 py-2 rounded-lg"
-              >
-                Click here
-              </a>
+              <p className="is-desc">
+                Merupakan Cabang/Branch yang didesain untuk melakukan Uji-Coba
+                Fitur Baru secara Pratinjau (Preview). Untuk sementara, Branch
+                ini masih menggunakan Tampilan UI Lama, hingga dimatangkan
+                akan menggunakan Tampilan UI Baru.
+              </p>
+              <hr className="my-2 border-t border-gray" />
             </div>
-
-            <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg border">
-              <div className="flex items-center gap-4">
-                <div className="text-3xl">📦</div>
-                <div>
-                  <div className="text-lg font-bold">Master (Old UI)</div>
-                  <div className="text-sm text-gray-600">
-                    Branch lama yang masih tersedia.
-                  </div>
+            <div className="items-center justify-between pb-3 pt-3 last:pb-0">
+              <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
+                <div className="flex items-center">
+                  <img
+                    src="../assets/icons/square-arrow-down-double.svg"
+                    alt="Square Arrow Down Double"
+                    width="44"
+                    height="44"
+                  />
+                  <span
+                    className="text-2xl ml-3 text-gray-700 font-bold font-[Inter]"
+                    >Master (Old UI)</span
+                  >
                 </div>
+                <button type="button">
+                  <a
+                    href="https://old.inzaghi.wuaze.com"
+                    className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >Click here</a
+                  >
+                </button>
               </div>
-              <a
-                href="https://old.inzaghi.wuaze.com"
-                className="bg-blue-700 text-white px-4 py-2 rounded-lg"
-              >
-                Click here
-              </a>
+              <p className="is-desc">
+                Merupakan Cabang dari Inzaghi's Sites yang masih menggunakan
+                Tampilan UI Lama. Mirip seperti pada Main Branch, hanya saja
+                masih menggunakan Tampilan Lama.
+              </p>
+              <hr className="my-2 border-t border-gray" />
+            </div>
+            <div className="items-center justify-between pb-3 pt-3 last:pb-0">
+              <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
+                <div className="flex items-center">
+                  <img
+                    src="../assets/icons/web-design-02.svg"
+                    alt="Web Design"
+                    width="44"
+                    height="44"
+                  />
+                  <span
+                    className="text-2xl ml-3 text-gray-700 font-bold font-[Inter]"
+                    >Laravel (Coming Soon)</span
+                  >
+                </div>
+                <button type="button">
+                  <a
+                    href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel"
+                    target="_blank"
+                    className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >Click here</a
+                  >
+                </button>
+              </div>
+              <p className="is-desc">
+                Pada Branch ini, akan dibangun dan dikembangkan ulang dengan
+                menggunakan Laravel. Untuk sementara, masih tersedia di dalam
+                Branch pada Repository GitHub kami.
+              </p>
+            </div>
+            <div className="items-center justify-between pb-3 pt-3 last:pb-0">
+              <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
+                <div className="flex items-center">
+                  <img
+                    src="../assets/icons/atom-02.svg"
+                    alt="Web Design"
+                    width="44"
+                    height="44"
+                  />
+                  <span
+                    className="text-2xl ml-3 text-gray-700 font-bold font-[Inter]"
+                    >React.js (Coming Soon)</span
+                  >
+                </div>
+                <button type="button">
+                  <a
+                    href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-react"
+                    target="_blank"
+                    className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >Click here</a
+                  >
+                </button>
+              </div>
+              <p className="is-desc">
+                Pada Branch ini, juga akan dibangun dan dikembangkan ulang
+                dengan menggunakan React.js. Untuk sementara, masih tersedia
+                di dalam Branch pada Repository GitHub kami.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
       {/* Portals */}
       <section className="slider-carousel">

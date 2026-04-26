@@ -9,7 +9,7 @@ export default function Profile() {
               <div className="bg-white shadow-xl rounded-lg p-6 ring-1 ring-green-500">
                 <div className="flex flex-col items-center">
                   <img
-                    src="/assets/images/inzaghi-posuma-alkahfi.jpg"
+                    src="/images/inzaghi-posuma-alkahfi.jpg"
                     alt="Inzaghi Posuma Al Kahfi"
                     className="w-36 h-48 bg-gray-300 rounded-lg mb-4 shrink-0 object-cover"
                   />
