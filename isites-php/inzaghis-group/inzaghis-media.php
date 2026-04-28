@@ -101,11 +101,10 @@
               </div>
               <div
                 class="sk-ww-youtube-channel-videos"
-                data-embed-id="25487921"
+                data-embed-id="25676479"
               ></div>
               <script
                 src="https://widgets.sociablekit.com/youtube-channel-videos/widget.js"
-                async
                 defer
               ></script>
               <div class="text-black row my-4 -mx-1">
@@ -128,10 +127,9 @@
                   hingga Postingan-postingan dari Inzaghi's Blog.
                 </p>
               </div>
-              <div class="sk-ww-twitter-feed" data-embed-id="25488132"></div>
+              <div class="sk-ww-twitter-feed" data-embed-id="25676338"></div>
               <script
                 src="https://widgets.sociablekit.com/twitter-feed/widget.js"
-                async
                 defer
               ></script>
               <div class="text-black row my-4 -mx-1">
@@ -153,10 +151,9 @@
                   Inzaghi's Blog.
                 </p>
               </div>
-              <div class="sk-ww-threads-posts" data-embed-id="25488134"></div>
+              <div class="sk-ww-threads-posts" data-embed-id="25676359"></div>
               <script
                 src="https://widgets.sociablekit.com/threads-posts/widget.js"
-                async
                 defer
               ></script>
             </div>
