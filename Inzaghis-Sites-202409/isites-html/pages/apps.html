@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -248,12 +248,12 @@
           $.each(apps, function (index, app) {
             // Buat elemen kolom
             const column = $("<div></div>").addClass(
-              "col-lg-3 col-md-4 col-sm-6 mb-4"
+              "col-lg-3 col-md-4 col-sm-6 mb-4",
             );
 
             // Buat elemen card
             const card = $("<div></div>").addClass(
-              "card h-100 border-success shadow"
+              "card h-100 border-success shadow",
             );
 
             // Buat elemen link
@@ -270,7 +270,7 @@
 
             // Buat elemen body card
             const cardBody = $("<div></div>").addClass(
-              "card-body card-apps-body"
+              "card-body card-apps-body",
             );
 
             // Buat elemen card-apps
@@ -278,7 +278,7 @@
 
             // Buat elemen judul card
             const title = $("<h4></h4>").addClass(
-              "card-title text-title card-name page-apps-card"
+              "card-title text-title card-name page-apps-card",
             );
             const titleLink = $("<a></a>").text(app.name);
             title.append(titleLink);
@@ -290,7 +290,7 @@
 
             // Buat elemen tombol
             const button = $("<button></button>").addClass(
-              "btn btn-primary btn-md apps-button"
+              "btn btn-primary btn-md apps-button",
             );
             const buttonLink = $("<a></a>")
               .addClass("blog-link")
