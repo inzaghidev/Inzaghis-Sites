@@ -48,7 +48,7 @@
                   </li>
                   <li class="mb-2">
                     <i class="fas fa-globe fa-fw fa-lg me-2"></i>
-                    <a class="resume-link" href="#">www.yourwebsite.com</a>
+                    <a class="resume-link" target="_blank" href="#">www.yourwebsite.com</a>
                   </li>
                   <li class="mb-0">
                     <i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i
@@ -75,10 +75,16 @@
               </div>
               <div class="col col-md-7 col-lg-9 col-xl-9 text-start">
                 <p class="mb-0">
-                  I'm majoring of Information Technology (IT) College Student in
-                  Pradita University. And I am a Programmer, Developer, UI/UX
-                  Designer, Bloggers, and Content Creator. Candidate for Chief
-                  Executive Officer (CEO) of Inzaghi's Corp. (Inzaghi's Group).
+                  I'm Inzaghi Posuma Al Kahfi, a Fresher Graduate in
+                  Information Technology Student at Pradita University
+                  (Tangerang, Banten, Indonesia) with hands-on experience in
+                  Web and Mobile Development, IoT Projects, and Data-driven
+                  Applications. I'm also a Passionate Software Engineer and
+                  Full-stack Developer with hands-on experience in Web and
+                  Mobile App Development, utilizing Laravel (PHP), React.js,
+                  Flutter (Dart), JavaScript, and Python. Candidate for Chief
+                  Executive Officer (CEO) of Inzaghi’s Group (InzaTech
+                  Poshaf).
                 </p>
               </div>
               <!--//col-->
@@ -98,7 +104,7 @@
                       <h4
                         class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
                       >
-                        Senior Software Engineer
+                        Web Developer
                       </h4>
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
@@ -132,7 +138,7 @@
                       <h4
                         class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
                       >
-                        Lead Software Developer
+                        Web Developer
                       </h4>
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
@@ -161,7 +167,7 @@
                       <h4
                         class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
                       >
-                        Senior Software Developer
+                        Web Developer
                       </h4>
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
@@ -184,7 +190,7 @@
                       <h4
                         class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
                       >
-                        Senior Developer
+                        Web Developer
                       </h4>
                       <div
                         class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
@@ -194,54 +200,10 @@
                     </div>
                     <div class="item-content">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus.
-                      </p>
-                    </div>
-                  </div>
-                  <!--//item-->
-                  <div class="item">
-                    <div class="item-heading row align-items-center mb-2">
-                      <h4
-                        class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
-                      >
-                        Backend Developer
-                      </h4>
-                      <div
-                        class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
-                      >
-                        ABC Company | 2018 - 2019
-                      </div>
-                    </div>
-                    <div class="item-content">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient
-                        montes, nascetur ridiculus mus.
-                      </p>
-                    </div>
-                  </div>
-                  <!--//item-->
-                  <div class="item">
-                    <div class="item-heading row align-items-center mb-2">
-                      <h4
-                        class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
-                      >
-                        Frontend Developer
-                      </h4>
-                      <div
-                        class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
-                      >
-                        ABC Company | 2017 - 2018
-                      </div>
-                    </div>
-                    <div class="item-content">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit. Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed finibus est vitae tortor ullamcorper, ut
+                        vestibulum velit convallis. Aenean posuere risus non
+                        velit egestas suscipit.
                       </p>
                     </div>
                   </div>
@@ -428,7 +390,7 @@
                         <a href="https://inzaghiposuma.blogspot.com/p/contact-and-profile.html" target="_blank" class="button-link">Contact</a>
                       </button>
                       <button type="button" class="btn btn-secondary">
-                        <a href="#" target="_blank" class="button-link">Resume</a>
+                        <a href="https://portofolio-inzaghi-posuma.vercel.app" target="_blank" class="button-link">Portofolio</a>
                       </button>
                     </ul>
                   </section>
@@ -445,7 +407,7 @@
               class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted"
             >
               <li class="list-inline-item mb-lg-0 me-3">
-                <a class="resume-link" href="#">
+                <a class="resume-link" target="_blank" href="#">
                   <i
                     class="fa-brands fa-github-square fa-2x me-2"
                     data-fa-transform="down-4"
@@ -456,24 +418,35 @@
                 </a>
               </li>
               <li class="list-inline-item mb-lg-0 me-3">
-                <a class="resume-link" href="#">
+                <a class="resume-link" target="_blank" href="https://www.linkedin.com/in/inzaghi-posuma-al-kahfi-b2613528b">
                   <i
                     class="fa-brands fa-linkedin fa-2x me-2"
                     data-fa-transform="down-4"
                   ></i>
                   <span class="d-none d-lg-inline-block text-muted"
-                    >linkedin.com/in/username</span
+                    >linkedin.com/in/inzaghi-posuma-al-kahfi-b2613528b</span
                   >
                 </a>
               </li>
               <li class="list-inline-item mb-lg-0 me-lg-3">
-                <a class="resume-link" href="#">
+                <a class="resume-link" target="_blank" href="https://x.com/lPosumA0209">
                   <i
                     class="fa-brands fa-square-x-twitter fa-2x me-2"
                     data-fa-transform="down-4"
                   ></i>
                   <span class="d-none d-lg-inline-block text-muted"
-                    >@twittername</span
+                    >@lPosumA0209</span
+                  >
+                </a>
+              </li>
+              <li class="list-inline-item mb-lg-0 me-lg-3">
+                <a class="resume-link" target="_blank" href="https://www.instagram.com/inzaghiposuma">
+                  <i
+                    class="fa-brands fa-square-instagram fa-2x me-2"
+                    data-fa-transform="down-4"
+                  ></i>
+                  <span class="d-none d-lg-inline-block text-muted"
+                    >@inzaghiposuma</span
                   >
                 </a>
               </li>
