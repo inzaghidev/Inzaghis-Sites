@@ -50,8 +50,6 @@
                 async
                 defer
               ></script>
-              <!-- <div class="tagembed-widget" style="width:100%;height:100%;overflow:auto;" data-widget-id="323643" data-website="1"></div>
-              <script src="https://widget.tagembed.com/embed.min.js" type="text/javascript"></script> -->
               <div class="text-black row my-4 -mx-1">
                 <h2 class="col-7 col-sm-8 col-md-9 col-lg-10">
                   <i class="fa-brands fa-tiktok"></i> TikTok
