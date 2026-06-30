@@ -19,7 +19,7 @@
               <p class="text-gray-700">Software Developer</p>
               <div class="mt-6 flex flex-wrap gap-4 justify-center">
                 <a
-                  href="https://inzaghiposuma.blogspot.com/p/contact-and-profile.html"
+                  href="https://enzatech.blogspot.com/p/contact-and-profile.html"
                   target="_blank"
                   class="bg-blue-500 hover:bg-blue-600 text-white hover:text-white py-2 px-4 rounded-lg focus:ring-4 focus:ring-blue-300"
                   >Contact</a
