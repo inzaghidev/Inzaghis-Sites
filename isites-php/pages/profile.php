@@ -387,7 +387,7 @@
                     <br />
                     <ul class="resume-interests-list row row-cols-sm-6 row-cols-md-3 mb-0">
                       <button type="button" class="btn btn-primary">
-                        <a href="https://inzaghiposuma.blogspot.com/p/contact-and-profile.html" target="_blank" class="button-link">Contact</a>
+                        <a href="https://enzatech.blogspot.com/p/contact-and-profile.html" target="_blank" class="button-link">Contact</a>
                       </button>
                       <button type="button" class="btn btn-secondary">
                         <a href="https://portofolio-inzaghi-posuma.vercel.app" target="_blank" class="button-link">Portofolio</a>
