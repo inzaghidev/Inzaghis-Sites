@@ -66,6 +66,43 @@
         // Memuat footer ke dalam halaman
         $("#footer-container").load("../layouts/footer.html");
       });
+
+      // Blogger API
+
+      // const API_KEY = "AIzaSyCIazsoHynwSpPV-QDYmFIS1fhzYAa2oyc";
+      // const BLOG_ID = "8444673175287512214";
+
+      // fetch(
+      //   `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts?key=${API_KEY}`,
+      // )
+      //   .then((res) => res.json())
+      //   .then((data) => {
+      //     let html = "";
+
+      //     data.items.forEach((post) => {
+      //       html += `
+      //         <article class="blog-post">
+      //           <h2>${post.title}</h2>
+      //           <div class="blog-content">
+      //             ${post.content}
+      //           </div>
+      //         </article>
+      //       `;
+      //     });
+
+      //     document.getElementById("posts").innerHTML = html;
+      //   });
+
+      // fetch(url)
+      //   .then((res) => res.json())
+      //   .then((data) => {
+      //     console.log(data);
+
+      //     if (data.error) {
+      //       console.error(data.error);
+      //       return;
+      //     }
+      //   });
     </script>
   </head>
   <body>
@@ -120,6 +157,9 @@
                   tempat untuk memposting apapun itu.
                 </p>
               </div>
+              <br />
+              <!-- <div id="posts"></div> -->
+              <br />
               <iframe
                 src="https://inzaghiposuma.blogspot.com"
                 id="inzaghis-blog-embed"
