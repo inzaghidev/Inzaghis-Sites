@@ -2275,6 +2275,22 @@ svg:not(:root) {
     padding: 10px !important; /* Kurangi padding pada aside */
   }
 
+  .resume-contact-actions {
+    margin-top: 0.5rem;
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .resume-contact-actions .btn,
+  .resume-contact-actions .btn-group,
+  .resume-contact-actions .dropdown {
+    width: 100%;
+  }
+
+  .resume-contact-actions .btn {
+    min-height: 3.25rem;
+  }
+
   .resume-footer {
     padding-top: 10px;
   }
