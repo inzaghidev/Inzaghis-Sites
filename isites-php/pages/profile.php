@@ -370,31 +370,56 @@
                     </li>
                   </ul>
                 </section>
-                <!--//certificates-section-->
+                <!--//contact-and-portofolio-section-->
                 <section class="skills-section py-3">
-                  <h3 class="text-uppercase resume-section-heading mb-4">
-                    Interests
-                  </h3>
-                  <ul class="list-unstyled resume-interests-list mb-0">
-                    <li class="mb-2">Climbing</li>
-                    <li class="mb-2">Snowboarding</li>
-                    <li class="mb-2">Photography</li>
-                    <li>Travelling</li>
-                  </ul>
-                </section>
-                <section class="skills-section py-3">
-                    <h3 class="item-title">CONTACT</h3>
+                  <h3 class="item-title">CONTACT</h3>
+                  <div class="resume-contact-actions">
                     <br />
-                    <ul class="resume-interests-list row row-cols-sm-6 row-cols-md-3 mb-0">
-                      <button type="button" class="btn btn-primary">
-                        <a href="https://enzatech.blogspot.com/p/contact-and-profile.html" target="_blank" class="button-link">Contact</a>
+                    <a
+                      class="btn btn-primary btn-block"
+                      href="https://enzatech.blogspot.com/p/contact-and-profile.html"
+                      target="_blank"
+                    >
+                      Contact
+                    </a>
+                    <br />
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-secondary dropdown-toggle btn-block text-start"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Portofolio & CV
                       </button>
-                      <button type="button" class="btn btn-secondary">
-                        <a href="https://portofolio-inzaghi-posuma.vercel.app" target="_blank" class="button-link">Portofolio</a>
-                      </button>
-                    </ul>
-                  </section>
-                <!--//certificates-section-->
+                      <div
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton"
+                      >
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://portofolio-inzaghi-posuma.vercel.app"
+                          >Portofolio</a
+                        >
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/1s69MrQIbtc12pf-25gsolZdGvMQrUOXG/view"
+                          >ATS CV/Resume (With Profile Photo)</a
+                        >
+                        <a
+                          class="dropdown-item"
+                          target="_blank"
+                          href="https://drive.google.com/file/d/1Fv3V5T4pcrOZfuDAQkJKAastUQwzSU8U/view"
+                          >CV/Resume ATS-Friendly</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </section>
               </aside>
               <!--//resume-aside-->
             </div>
