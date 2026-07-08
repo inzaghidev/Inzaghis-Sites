@@ -17,19 +17,63 @@
                  
               <h1 class="text-xl font-bold">Inzaghi Posuma Al Kahfi</h1>
               <p class="text-gray-700">Software Developer</p>
-              <div class="mt-6 flex flex-wrap gap-4 justify-center">
+              <div
+                class="mt-6 flex flex-wrap gap-4 justify-center items-stretch"
+              >
                 <a
                   href="https://enzatech.blogspot.com/p/contact-and-profile.html"
                   target="_blank"
-                  class="bg-blue-500 hover:bg-blue-600 text-white hover:text-white py-2 px-4 rounded-lg focus:ring-4 focus:ring-blue-300"
+                  class="inline-flex w-full justify-center gap-x-1.5 py-3 px-3 min-w-[200px] rounded-lg bg-blue-500 hover:bg-blue-600 text-white focus:ring-4 focus:ring-blue-300"
                   >Contact</a
                 >
-                <a
-                  href="https://portofolio-inzaghi-posuma.vercel.app"
-                  target="_blank"
-                  class="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded-lg focus:ring-4 focus:ring-gray-200"
-                  >Portofolio</a
+                <el-dropdown
+                  class="inline-flex min-w-[200px] justify-center w-full"
                 >
+                  <button
+                    class="inline-flex w-full justify-center gap-x-1.5 rounded-lg bg-gray-300 px-3 py-3 text-sm font-semibold text-gray-700 shadow-xs inset-ring-1 inset-ring-gray-300 hover:bg-gray-400"
+                  >
+                    Portofolio & CV
+                    <svg
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      data-slot="icon"
+                      aria-hidden="true"
+                      class="-mr-1 size-5 text-gray-700"
+                    >
+                      <path
+                        d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                        clip-rule="evenodd"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                  <el-menu
+                    anchor="bottom end"
+                    popover
+                    class="w-full max-w-max sm:min-w-[200px] origin-top-right rounded-lg bg-gray-100 shadow-xl outline-1 outline-black/5 transition transition-discrete [--anchor-gap:--spacing(2)] data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in"
+                  >
+                    <div class="py-1">
+                      <a
+                        href="https://portofolio-inzaghi-posuma.vercel.app"
+                        target="_blank"
+                        class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-300 focus:text-gray-900 focus:outline-hidden"
+                        >Portofolio</a
+                      >
+                      <a
+                        href="https://drive.google.com/file/d/1s69MrQIbtc12pf-25gsolZdGvMQrUOXG/view"
+                        target="_blank"
+                        class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-300 focus:text-gray-900 focus:outline-hidden"
+                        >ATS CV/Resume (With Profile Photo)</a
+                      >
+                      <a
+                        href="https://drive.google.com/file/d/1Fv3V5T4pcrOZfuDAQkJKAastUQwzSU8U/view"
+                        target="_blank"
+                        class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-300 focus:text-gray-900 focus:outline-hidden"
+                        >CV/Resume ATS-Friendly</a
+                      >
+                    </div>
+                  </el-menu>
+                </el-dropdown>
               </div>
             </div>
             <hr class="my-6 border-t border-gray-300" />

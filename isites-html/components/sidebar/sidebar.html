@@ -41,6 +41,8 @@
 />
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="../../jquery/jquery-3.7.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/js/bootstrap.min.js"></script>
 <script src="https://unpkg.com/feather-icons"></script>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <script
@@ -52,19 +54,16 @@
   src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
 ></script>
 
-
-<div class="w-64 h-screen flex flex-col bg-white border-r border-solid border-gray-300 font-sans">
-  
+<div
+  class="w-64 h-screen flex flex-col bg-white border-r border-solid border-gray-300 font-sans"
+>
   <!-- Header -->
   <div class="px-6 py-4 border-b border-solid border-gray-300">
-    <div class="text-gray-700 font-medium text-lg">
-      Sidebar
-    </div>
+    <div class="text-gray-700 font-medium text-lg">Sidebar</div>
   </div>
 
   <!-- Navigation -->
   <ul class="flex-1 overflow-y-auto px-2 py-2">
-
     <!-- Title -->
     <li class="px-4 pt-6 pb-2 text-xs font-bold text-gray-400 uppercase">
       Nav Title
@@ -72,8 +71,10 @@
 
     <!-- Item -->
     <li>
-      <a href="#"
-        class="flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 bg-gray-100 font-medium">
+      <a
+        href="#"
+        class="flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 bg-gray-100 font-medium"
+      >
         <span class="w-5 h-5 flex items-center justify-center mr-4">
           <i class="cil-speedometer"></i>
         </span>
@@ -83,13 +84,17 @@
 
     <!-- Item with Badge -->
     <li>
-      <a href="#"
-        class="flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100">
+      <a
+        href="#"
+        class="flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100"
+      >
         <span class="w-5 h-5 flex items-center justify-center mr-4">
           <i class="cil-speedometer"></i>
         </span>
         With badge
-        <span class="ml-auto text-xs font-bold px-2 py-1 rounded bg-indigo-600 text-white">
+        <span
+          class="ml-auto text-xs font-bold px-2 py-1 rounded bg-indigo-600 text-white"
+        >
           NEW
         </span>
       </a>
@@ -98,8 +103,8 @@
     <!-- Dropdown Group -->
     <li>
       <button
-        class="w-full flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100 nav-group-toggle">
-        
+        class="w-full flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100 nav-group-toggle"
+      >
         <span class="w-5 h-5 flex items-center justify-center mr-4">
           <i class="cil-puzzle"></i>
         </span>
@@ -110,16 +115,24 @@
       <!-- Sub Menu -->
       <ul class="ml-8 mt-1 space-y-1 hidden nav-group-items">
         <li>
-          <a href="#"
-            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
-            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+          <a
+            href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md"
+          >
+            <span
+              class="w-2 h-2 border border-gray-500 rounded-full mr-3"
+            ></span>
             Nav dropdown item
           </a>
         </li>
         <li>
-          <a href="#"
-            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
-            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+          <a
+            href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md"
+          >
+            <span
+              class="w-2 h-2 border border-gray-500 rounded-full mr-3"
+            ></span>
             Nav dropdown item
           </a>
         </li>
@@ -129,7 +142,8 @@
     <!-- Converters Group -->
     <li>
       <button
-        class="w-full flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100 nav-group-toggle">
+        class="w-full flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100 nav-group-toggle"
+      >
         <span class="w-5 h-5 flex items-center justify-center mr-4">
           <i class="cil-swap-horizontal"></i>
         </span>
@@ -137,23 +151,35 @@
       </button>
       <ul class="ml-8 mt-1 space-y-1 hidden nav-group-items">
         <li>
-          <a href="#"
-            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
-            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+          <a
+            href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md"
+          >
+            <span
+              class="w-2 h-2 border border-gray-500 rounded-full mr-3"
+            ></span>
             Common Converters
           </a>
         </li>
         <li>
-          <a href="#"
-            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
-            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+          <a
+            href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md"
+          >
+            <span
+              class="w-2 h-2 border border-gray-500 rounded-full mr-3"
+            ></span>
             Engineering Converters
           </a>
         </li>
         <li>
-          <a href="#"
-            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
-            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+          <a
+            href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md"
+          >
+            <span
+              class="w-2 h-2 border border-gray-500 rounded-full mr-3"
+            ></span>
             Electricity Converters
           </a>
         </li>
@@ -163,7 +189,8 @@
     <!-- Calculators Group -->
     <li>
       <button
-        class="w-full flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100 nav-group-toggle">
+        class="w-full flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100 nav-group-toggle"
+      >
         <span class="w-5 h-5 flex items-center justify-center mr-4">
           <i class="cil-calculator"></i>
         </span>
@@ -171,23 +198,35 @@
       </button>
       <ul class="ml-8 mt-1 space-y-1 hidden nav-group-items">
         <li>
-          <a href="#"
-            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
-            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+          <a
+            href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md"
+          >
+            <span
+              class="w-2 h-2 border border-gray-500 rounded-full mr-3"
+            ></span>
             Calculations Calculator
           </a>
         </li>
         <li>
-          <a href="#"
-            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
-            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+          <a
+            href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md"
+          >
+            <span
+              class="w-2 h-2 border border-gray-500 rounded-full mr-3"
+            ></span>
             Mathematics Calculator
           </a>
         </li>
         <li>
-          <a href="#"
-            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
-            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+          <a
+            href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md"
+          >
+            <span
+              class="w-2 h-2 border border-gray-500 rounded-full mr-3"
+            ></span>
             Statistics Calculator
           </a>
         </li>
@@ -197,7 +236,8 @@
     <!-- Formatters Group -->
     <li>
       <button
-        class="w-full flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100 nav-group-toggle">
+        class="w-full flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100 nav-group-toggle"
+      >
         <span class="w-5 h-5 flex items-center justify-center mr-4">
           <i class="cil-text"></i>
         </span>
@@ -205,23 +245,35 @@
       </button>
       <ul class="ml-8 mt-1 space-y-1 hidden nav-group-items">
         <li>
-          <a href="#"
-            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
-            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+          <a
+            href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md"
+          >
+            <span
+              class="w-2 h-2 border border-gray-500 rounded-full mr-3"
+            ></span>
             Text Formatters
           </a>
         </li>
         <li>
-          <a href="#"
-            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
-            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+          <a
+            href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md"
+          >
+            <span
+              class="w-2 h-2 border border-gray-500 rounded-full mr-3"
+            ></span>
             Code Formatters
           </a>
         </li>
         <li>
-          <a href="#"
-            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md">
-            <span class="w-2 h-2 border border-gray-500 rounded-full mr-3"></span>
+          <a
+            href="#"
+            class="flex items-center px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 rounded-md"
+          >
+            <span
+              class="w-2 h-2 border border-gray-500 rounded-full mr-3"
+            ></span>
             Beautifiers
           </a>
         </li>
@@ -233,8 +285,10 @@
 
     <!-- External Links -->
     <li>
-      <a href="https://coreui.io"
-        class="flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100">
+      <a
+        href="https://coreui.io"
+        class="flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100"
+      >
         <span class="w-5 h-5 flex items-center justify-center mr-4">
           <i class="cil-cloud-download"></i>
         </span>
@@ -243,25 +297,26 @@
     </li>
 
     <li>
-      <a href="https://coreui.io/pro/"
-        class="flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100">
+      <a
+        href="https://coreui.io/pro/"
+        class="flex items-center px-4 py-2 mx-2 my-1 rounded-md text-gray-600 hover:bg-gray-100"
+      >
         <span class="w-5 h-5 flex items-center justify-center mr-4">
           <i class="cil-layers"></i>
         </span>
         Try CoreUI <strong class="ml-1">PRO</strong>
       </a>
     </li>
-
   </ul>
 
   <!-- Footer -->
   <div class="border-t border-solid border-gray-300 p-2 flex">
     <button
-      class="px-4 py-2 text-gray-500 hover:text-gray-700 opacity-70 hover:opacity-100 transition">
+      class="px-4 py-2 text-gray-500 hover:text-gray-700 opacity-70 hover:opacity-100 transition"
+    >
       &#x21E4;
     </button>
   </div>
-
 </div>
 
 <script>
