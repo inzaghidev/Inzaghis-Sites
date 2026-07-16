@@ -514,7 +514,7 @@ export default function Footer() {
                 data-size="large"
                 aria-label="Look at @inzaghidev"
               >
-                Follow @buttons
+                Look at @inzaghidev
               </GitHubButton>
             </div>
           </div>
