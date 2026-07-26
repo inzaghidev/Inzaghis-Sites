@@ -476,7 +476,7 @@ export default function Footer() {
 
                 <li>
                   <a
-                    href="https://github.com/inzaghidev"
+                    href="https://open.spotify.com/user/31h7fde74y7or2zf4unyyerbopf4"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"

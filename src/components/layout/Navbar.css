@@ -1,0 +1,244 @@
+.siteNav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.75);
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+}
+
+.siteNavInner {
+  max-width: 1280px;
+  min-height: 80px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.siteNavBrand {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+.siteNavBrand img {
+  display: block;
+  width: auto;
+  height: 56px;
+}
+.siteNavLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  flex: 1;
+}
+.siteNavLink {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: #475569;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 13px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  text-decoration: none;
+  transition:
+    color 0.18s ease,
+    background-color 0.18s ease;
+}
+.siteNavLink:hover {
+  color: #0f172a;
+  background: #c1e0d1;
+}
+.siteNavLink.active {
+  color: #059669;
+  background: #cfefdf;
+}
+.siteNavMenu {
+  position: relative;
+}
+.siteNavMenuButton {
+  font-family: inherit;
+}
+.siteNavChevron {
+  width: 15px;
+  height: 15px;
+  transition: transform 0.18s ease;
+}
+.siteNavChevron.isOpen {
+  transform: rotate(180deg);
+}
+.siteNavDropdown {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  min-width: 210px;
+  padding: 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 16px 30px rgba(15, 23, 42, 0.14);
+}
+.siteNavMenu:nth-last-child(-n + 2) .siteNavDropdown {
+  right: 0;
+  left: auto;
+}
+.siteNavDropdownLink {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 9px;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    background-color 0.18s ease,
+    color 0.18s ease;
+}
+.siteNavDropdownLink:hover {
+  color: #0f172a;
+  background: #f1f5f9;
+}
+.siteNavDivider {
+  height: 1px;
+  margin: 6px 2px;
+  background: #e2e8f0;
+}
+.siteNavAllLink {
+  color: #059669;
+  font-weight: 750;
+}
+.siteNavActions {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+.siteNavSignIn {
+  padding: 13px 25px;
+  border: 1px solid #0f172a;
+  border-radius: 13px;
+  color: #fff;
+  background: #020b20;
+  box-shadow: 0 5px 13px rgba(15, 23, 42, 0.16);
+  font-size: 13px;
+  font-weight: 750;
+  text-decoration: none;
+  transition:
+    transform 0.18s ease,
+    background-color 0.18s ease;
+}
+.siteNavSignIn:hover {
+  color: #fff;
+  background: #18233a;
+  transform: translateY(-1px);
+}
+.siteNavMobileToggle {
+  display: none;
+  width: 42px;
+  height: 42px;
+  margin-left: 8px;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+}
+.siteNavMobileToggle:hover {
+  background: #eef2f5;
+}
+.siteNavMobileToggle span {
+  display: block;
+  width: 21px;
+  height: 2px;
+  margin: 4px auto;
+  border-radius: 999px;
+  background: #1e293b;
+}
+
+@media (max-width: 1120px) {
+  .siteNavInner {
+    padding: 0 18px;
+    gap: 12px;
+  }
+  .siteNavLink {
+    padding: 10px 9px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 960px) {
+  .siteNavInner {
+    min-height: 72px;
+  }
+  .siteNavBrand img {
+    height: 48px;
+  }
+  .siteNavMobileToggle {
+    display: block;
+  }
+  .siteNavLinks {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 16px;
+    left: 16px;
+    max-height: calc(100vh - 88px);
+    padding: 10px;
+    overflow: auto;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 16px 30px rgba(15, 23, 42, 0.14);
+  }
+  .siteNavLinks.mobileOpen {
+    display: block;
+  }
+  .siteNavLink,
+  .siteNavMenuButton {
+    width: 100%;
+    justify-content: space-between;
+    padding: 13px 14px;
+    font-size: 14px;
+  }
+  .siteNavMenu {
+    width: 100%;
+  }
+  .siteNavDropdown {
+    position: static;
+    min-width: 0;
+    margin: 4px 0 8px;
+    padding: 5px;
+    box-shadow: none;
+    background: #f8fafc;
+    border-radius: 10px;
+  }
+  .siteNavDropdownLink {
+    padding: 10px 14px;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 480px) {
+  .siteNavInner {
+    padding: 0 14px;
+  }
+  .siteNavBrand img {
+    height: 44px;
+  }
+  .siteNavSignIn {
+    padding: 11px 14px;
+  }
+}

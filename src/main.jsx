@@ -4,6 +4,7 @@ import "./index.css";
 import "./assets/css/style.css";
 import "./assets/css/navbar.css";
 import "./assets/css/footsite.css";
+import "./styles/site-pages.css";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
