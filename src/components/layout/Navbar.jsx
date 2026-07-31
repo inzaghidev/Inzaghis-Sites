@@ -6,8 +6,14 @@ const menus = [
   {
     label: "Blogs",
     items: [
-      { label: "Inzaghi's Group Blog", href: "https://medium.com/@izzumiposhaf29" },
-      { label: "WordPress Blog", href: "https://inzaghiposuma.wordpress.com/blog-posts" },
+      {
+        label: "Inzaghi's Group Blog",
+        href: "https://medium.com/@izzumiposhaf29",
+      },
+      {
+        label: "WordPress Blog",
+        href: "https://inzaghiposuma.wordpress.com/blog-posts",
+      },
     ],
   },
   {
@@ -24,7 +30,7 @@ const menus = [
       { label: "Muslims Portal", to: "/portals/muslim-portal" },
       { label: "Miscellaneous", to: "/portals/miscellaneous" },
     ],
-    allLabel: "Semua Portal",
+    allLabel: "All Portals",
   },
   {
     label: "Apps",
@@ -38,7 +44,7 @@ const menus = [
       { label: "Utilities", to: "/apps/utilities" },
       { label: "Tester Tools", to: "/apps/tester-tools" },
     ],
-    allLabel: "Semua Aplikasi",
+    allLabel: "All Apps",
   },
   {
     label: "About & Profile",
@@ -53,18 +59,25 @@ const menus = [
     label: "Inzaghi's Group",
     to: "/networks",
     items: [
-      { label: "Inzaghi's Blog", href: "/inzaghis-group/inzaghis-blog.php" },
-      { label: "Inzaghi's Media", href: "/inzaghis-group/inzaghis-media.php" },
-      { label: "Inzaghi's Dev", href: "/inzaghis-group/inzaghis-dev.php" },
-      { label: "Inzaghi's Archives", href: "/inzaghis-group/inzaghis-archives.php" },
-      { label: "Inzaghi's App", href: "/inzaghis-group/inzaghis-app.php" },
-      { label: "Inzaghi's AI", href: "/inzaghis-group/inzaghis-ai.php" },
+      { label: "Inzaghi's Blog", href: "/inzaghis-group/inzaghis-blog" },
+      { label: "Inzaghi's Media", href: "/inzaghis-group/inzaghis-media" },
+      { label: "Inzaghi's Dev", href: "/inzaghis-group/inzaghis-dev" },
+      {
+        label: "Inzaghi's Archives",
+        href: "/inzaghis-group/inzaghis-archives",
+      },
+      { label: "Inzaghi's App", href: "/inzaghis-group/inzaghis-app" },
+      { label: "Inzaghi's AI", href: "/inzaghis-group/inzaghis-ai" },
     ],
+    allLabel: "All Networks",
   },
   {
     label: "Switch to",
     items: [
-      { label: "Old Inzaghi's Sites", href: "https://sites.google.com/view/inzaghis-sites" },
+      {
+        label: "Old Inzaghi's Sites",
+        href: "https://sites.google.com/view/inzaghis-sites",
+      },
       { label: "WordPress Site", href: "https://inzaghiposuma.wordpress.com/" },
       { label: "Preview (Webflow)", href: "https://inzaghi-site.webflow.io" },
     ],
@@ -73,17 +86,32 @@ const menus = [
 
 function Chevron({ open }) {
   return (
-    <svg className={`siteNavChevron ${open ? "isOpen" : ""}`} viewBox="0 0 24 24" aria-hidden="true">
-      <path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    <svg
+      className={`siteNavChevron ${open ? "isOpen" : ""}`}
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+      <path
+        d="m6 9 6 6 6-6"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }
 
 function NavItem({ item, onNavigate }) {
   return item.to ? (
-    <Link to={item.to} onClick={onNavigate} className="siteNavDropdownLink">{item.label}</Link>
+    <Link to={item.to} onClick={onNavigate} className="siteNavDropdownLink">
+      {item.label}
+    </Link>
   ) : (
-    <a href={item.href} onClick={onNavigate} className="siteNavDropdownLink">{item.label}</a>
+    <a href={item.href} onClick={onNavigate} className="siteNavDropdownLink">
+      {item.label}
+    </a>
   );
 }
 
@@ -101,43 +129,106 @@ export default function Navbar() {
     return () => document.removeEventListener("mousedown", closeOnOutsideClick);
   }, []);
 
-  const toggleMenu = (label) => setActiveMenu((current) => current === label ? null : label);
-  const isCurrent = (path) => path === "/" ? location.pathname === path : location.pathname.startsWith(path);
-  const closeAll = () => { setActiveMenu(null); setMobileOpen(false); };
+  const toggleMenu = (label) =>
+    setActiveMenu((current) => (current === label ? null : label));
+  const isCurrent = (path) =>
+    path === "/"
+      ? location.pathname === path
+      : location.pathname.startsWith(path);
+  const closeAll = () => {
+    setActiveMenu(null);
+    setMobileOpen(false);
+  };
 
   return (
     <header className="siteNav" ref={navRef}>
       <div className="siteNavInner">
-        <Link to="/" className="siteNavBrand" aria-label="Inzaghi's Sites home" onClick={closeAll}>
-          <img src="/icons/inzaghis-sites-logo-vertical-transparent.png" alt="Inzaghi's Sites" />
+        <Link
+          to="/"
+          className="siteNavBrand"
+          aria-label="Inzaghi's Sites home"
+          onClick={closeAll}
+        >
+          <img
+            src="/icons/inzaghis-sites-logo-vertical-transparent.png"
+            alt="Inzaghi's Sites"
+          />
         </Link>
 
-        <nav className={`siteNavLinks ${mobileOpen ? "mobileOpen" : ""}`} aria-label="Main navigation">
-          <Link to="/" className={`siteNavLink ${isCurrent("/") ? "active" : ""}`} onClick={closeAll}>Home</Link>
+        <nav
+          className={`siteNavLinks ${mobileOpen ? "mobileOpen" : ""}`}
+          aria-label="Main navigation"
+        >
+          <Link
+            to="/"
+            className={`siteNavLink ${isCurrent("/") ? "active" : ""}`}
+            onClick={closeAll}
+          >
+            Home
+          </Link>
           {menus.map((menu) => {
             const open = activeMenu === menu.label;
             const menuIsCurrent = menu.to && isCurrent(menu.to);
             return (
               <div className="siteNavMenu" key={menu.label}>
-                <button type="button" className={`siteNavLink siteNavMenuButton ${menuIsCurrent ? "active" : ""}`} onClick={() => toggleMenu(menu.label)} aria-expanded={open}>
-                  {menu.label}<Chevron open={open} />
+                <button
+                  type="button"
+                  className={`siteNavLink siteNavMenuButton ${menuIsCurrent ? "active" : ""}`}
+                  onClick={() => toggleMenu(menu.label)}
+                  aria-expanded={open}
+                >
+                  {menu.label}
+                  <Chevron open={open} />
                 </button>
                 {open && (
                   <div className="siteNavDropdown">
-                    {menu.items.map((item) => <NavItem item={item} onNavigate={closeAll} key={item.label} />)}
-                    {menu.allLabel && <><div className="siteNavDivider" /><Link className="siteNavDropdownLink siteNavAllLink" to={menu.to} onClick={closeAll}>{menu.allLabel}</Link></>}
+                    {menu.items.map((item) => (
+                      <NavItem
+                        item={item}
+                        onNavigate={closeAll}
+                        key={item.label}
+                      />
+                    ))}
+                    {menu.allLabel && (
+                      <>
+                        <div className="siteNavDivider" />
+                        <Link
+                          className="siteNavDropdownLink siteNavAllLink"
+                          to={menu.to}
+                          onClick={closeAll}
+                        >
+                          {menu.allLabel}
+                        </Link>
+                      </>
+                    )}
                   </div>
                 )}
               </div>
             );
           })}
-          <Link to="/contact" className={`siteNavLink ${isCurrent("/contact") ? "active" : ""}`} onClick={closeAll}>Contact</Link>
+          <Link
+            to="/contact"
+            className={`siteNavLink ${isCurrent("/contact") ? "active" : ""}`}
+            onClick={closeAll}
+          >
+            Contact
+          </Link>
         </nav>
 
         <div className="siteNavActions">
-          <a className="siteNavSignIn" href="/includes/login-page.php">Sign in</a>
-          <button type="button" className="siteNavMobileToggle" onClick={() => setMobileOpen((open) => !open)} aria-label="Toggle navigation" aria-expanded={mobileOpen}>
-            <span /><span /><span />
+          <a className="siteNavSignIn" href="/includes/login-page">
+            Sign in
+          </a>
+          <button
+            type="button"
+            className="siteNavMobileToggle"
+            onClick={() => setMobileOpen((open) => !open)}
+            aria-label="Toggle navigation"
+            aria-expanded={mobileOpen}
+          >
+            <span />
+            <span />
+            <span />
           </button>
         </div>
       </div>

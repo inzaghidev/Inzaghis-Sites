@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Networks() {
   return (
     <>
-      <div className="container-top"></div>
+      {/* <div className="container-top"></div> */}
       <section className="about-us">
         <section className="about-us-container">
           <div className="about-us-title">
@@ -14,9 +14,9 @@ export default function Networks() {
               <div className="about-us-description">
                 <p className="inzaghis-group-description">
                   Inzaghi's Group merupakan Layanan Konten Multifungsi seperti
-                  Inzaghi's Blog, Inzaghi's Sites, Inzaghi's Media, Inzaghi's Dev,
-                  Inzaghi's App, Inzaghi's Archives, Inzaghi's AI, dan Inzaghi's
-                  Shop.
+                  Inzaghi's Blog, Inzaghi's Sites, Inzaghi's Media, Inzaghi's
+                  Dev, Inzaghi's App, Inzaghi's Archives, Inzaghi's AI, dan
+                  Inzaghi's Shop.
                 </p>
               </div>
             </div>
@@ -45,13 +45,18 @@ export default function Networks() {
               <section className="inzaghisblog-description">
                 <h2 className="group-title">Inzaghi's Blog</h2>
                 <p className="left-subheading mt-3">
-                  Inzaghi's Blog merupakan Platform Blogging sebagai tempat untuk
-                  berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog
-                  lebih menggunakan Platform Blogger, agar lebih mudah dan
+                  Inzaghi's Blog merupakan Platform Blogging sebagai tempat
+                  untuk berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's
+                  Blog lebih menggunakan Platform Blogger, agar lebih mudah dan
                   praktis.
                 </p>
                 <section className="group-button mt-4">
-                  <a href="/inzaghis-group/inzaghis-blog.php" className="main-button">Click here</a>
+                  <a
+                    href="/inzaghis-group/inzaghis-blog"
+                    className="main-button"
+                  >
+                    Click here
+                  </a>
                 </section>
               </section>
             </section>
@@ -77,7 +82,14 @@ export default function Networks() {
                     </p>
                     <div className="mt-4">
                       <button className="align-middle select-none font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none focus:ring-4 focus:outline-none focus:ring-yellow-500">
-                        <a href="https://inzaghiposuma.blogspot.com" target="_blank" rel="noreferrer" className="button-link">Klik di sini</a>
+                        <a
+                          href="https://inzaghiposuma.blogspot.com"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="button-link"
+                        >
+                          Klik di sini
+                        </a>
                       </button>
                     </div>
                   </div>
@@ -99,11 +111,19 @@ export default function Networks() {
                     </h5>
                     <p className="blog-description mb-auto block text-base antialiased font-light leading-relaxed text-inherit">
                       Merupakan Pindahan dari Blog Lama yang bernama Inzaghi's
-                      Blog (Legacy), dan Artikel yang dikhususkan tentang Teknologi.
+                      Blog (Legacy), dan Artikel yang dikhususkan tentang
+                      Teknologi.
                     </p>
                     <div className="mt-4">
                       <button className="align-middle select-none font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none focus:ring-4 focus:outline-none focus:ring-yellow-500">
-                        <a href="https://enzatech.blogspot.com" target="_blank" rel="noreferrer" className="button-link">Klik di sini</a>
+                        <a
+                          href="https://enzatech.blogspot.com"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="button-link"
+                        >
+                          Klik di sini
+                        </a>
                       </button>
                     </div>
                   </div>
@@ -130,7 +150,14 @@ export default function Networks() {
                     </p>
                     <div className="mt-4">
                       <button className="align-middle select-none font-bold text-center uppercase transition-all text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none focus:ring-4 focus:outline-none focus:ring-yellow-500">
-                        <a href="https://enzashorts.blogspot.com" target="_blank" rel="noreferrer" className="button-link">Klik di sini</a>
+                        <a
+                          href="https://enzashorts.blogspot.com"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="button-link"
+                        >
+                          Klik di sini
+                        </a>
                       </button>
                     </div>
                   </div>
@@ -159,7 +186,12 @@ export default function Networks() {
                   terutama seputar IT.
                 </p>
                 <section className="group-button mt-4">
-                  <a href="/inzaghis-group/inzaghis-media.php" className="main-button">Click here</a>
+                  <a
+                    href="/inzaghis-group/inzaghis-media"
+                    className="main-button"
+                  >
+                    Click here
+                  </a>
                 </section>
               </section>
             </section>
@@ -168,7 +200,12 @@ export default function Networks() {
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-4 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-300">
                 <div className="p-6 mb-auto">
-                  <img src="/icons/instagram-logo-withcolor.svg" alt="Instagram Logo" width="44" height="44" />
+                  <img
+                    src="/icons/instagram-logo-withcolor.svg"
+                    alt="Instagram Logo"
+                    width="44"
+                    height="44"
+                  />
                   <h5 className="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl mt-4">
                     Instagram
                   </h5>
@@ -179,7 +216,12 @@ export default function Networks() {
                 </div>
                 <div className="p-6 pt-0">
                   <div className="btn flex justify-center mt-4">
-                    <a href="https://www.instagram.com/enzapost" target="_blank" rel="noreferrer" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2">
+                    <a
+                      href="https://www.instagram.com/enzapost"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
+                    >
                       @enzapost
                     </a>
                   </div>
@@ -187,7 +229,12 @@ export default function Networks() {
               </div>
               <div className="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-4 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-300">
                 <div className="p-6 mb-auto">
-                  <img src="/icons/tiktok-logo-withcolor.svg" alt="TikTok Logo" width="44" height="44" />
+                  <img
+                    src="/icons/tiktok-logo-withcolor.svg"
+                    alt="TikTok Logo"
+                    width="44"
+                    height="44"
+                  />
                   <h5 className="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl mt-4">
                     TikTok
                   </h5>
@@ -199,7 +246,12 @@ export default function Networks() {
                 </div>
                 <div className="p-6 pt-0">
                   <div className="btn flex justify-center mt-4">
-                    <a href="https://www.tiktok.com/@enzapostmedia" target="_blank" rel="noreferrer" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2">
+                    <a
+                      href="https://www.tiktok.com/@enzapostmedia"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
+                    >
                       @enzapostmedia
                     </a>
                   </div>
@@ -207,7 +259,12 @@ export default function Networks() {
               </div>
               <div className="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-4 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-300">
                 <div className="p-6 mb-auto">
-                  <img src="/icons/youtube-logo-withcolor.svg" alt="YouTube Logo" width="44" height="44" />
+                  <img
+                    src="/icons/youtube-logo-withcolor.svg"
+                    alt="YouTube Logo"
+                    width="44"
+                    height="44"
+                  />
                   <h5 className="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl mt-4">
                     YouTube
                   </h5>
@@ -218,7 +275,12 @@ export default function Networks() {
                 </div>
                 <div className="p-6 pt-0">
                   <div className="btn flex justify-center mt-4">
-                    <a href="https://www.youtube.com/@enzavlogpost" target="_blank" rel="noreferrer" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2">
+                    <a
+                      href="https://www.youtube.com/@enzavlogpost"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
+                    >
                       Inzaghi's Media
                     </a>
                   </div>
@@ -247,7 +309,14 @@ export default function Networks() {
                 Dasar, hingga API.
               </p>
               <section className="group-button mt-4">
-                <a href="https://github.com/inzaghidev" className="main-button" target="_blank" rel="noreferrer">Click here</a>
+                <a
+                  href="https://github.com/inzaghidev"
+                  className="main-button"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Click here
+                </a>
               </section>
             </section>
           </section>
@@ -268,12 +337,15 @@ export default function Networks() {
               <h2 className="group-title">Inzaghi's App</h2>
               <p className="left-subheading mt-3">
                 Inzaghi's App merupakan Aplikasi Konten-konten yang menyajikan
-                apapun dengan Tampilan Versi Mobile dari Inzaghi's Sites, seperti
-                Inzaghi's Blog, Inzaghi's Media, dan Inzaghi's Group. Nantinya,
-                Inzaghi's App akan tersedia dalam Versi Android dan iOS.
+                apapun dengan Tampilan Versi Mobile dari Inzaghi's Sites,
+                seperti Inzaghi's Blog, Inzaghi's Media, dan Inzaghi's Group.
+                Nantinya, Inzaghi's App akan tersedia dalam Versi Android dan
+                iOS.
               </p>
               <section className="group-button mt-4">
-                <a href="/inzaghis-group/inzaghis-app.php" className="main-button">Click here</a>
+                <a href="/inzaghis-group/inzaghis-app" className="main-button">
+                  Click here
+                </a>
               </section>
             </section>
           </section>
@@ -296,12 +368,19 @@ export default function Networks() {
                 Inzaghi's Archives merupakan Pengarsipan File-file dalam bentuk
                 Dokumen seperti Dokumen/Word (.doc), Excel (.xls),
                 PowerPoint/Slide/Presentasi/PPT (.ppt), PDF (.pdf), dan File
-                berbentuk Zip (.zip dan .rar). File-file Dokumen yang disimpan di
-                Inzaghi's Archives untuk ditampilkan beberapa Layanan seperti
+                berbentuk Zip (.zip dan .rar). File-file Dokumen yang disimpan
+                di Inzaghi's Archives untuk ditampilkan beberapa Layanan seperti
                 Inzaghi's Blog dan Inzaghi's Sites.
               </p>
               <section className="group-button mt-4">
-                <a href="https://drive.google.com/drive/folders/1gAMLO2AdXqsp75ymexKwXllKbLMTfhxa" className="main-button" target="_blank" rel="noreferrer">Click here</a>
+                <a
+                  href="https://drive.google.com/drive/folders/1gAMLO2AdXqsp75ymexKwXllKbLMTfhxa"
+                  className="main-button"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Click here
+                </a>
               </section>
             </section>
           </section>
@@ -324,12 +403,14 @@ export default function Networks() {
                 Inzaghi's AI merupakan Platform berbasis Kecerdasan Buatan (AI)
                 yang akan tersedia di Inzaghi's Sites (Web) dan Inzaghi's App
                 (Mobile). Inzaghi's AI juga menyediakan Chatbot Artificial
-                Intelligence (AI) seperti ChatGPT/Gemini, Image Generator berbasis
-                AI, hingga Tools/Aplikasi lainnya yang berbasis AI dan menggunakan
-                AI-API Key apapun.
+                Intelligence (AI) seperti ChatGPT/Gemini, Image Generator
+                berbasis AI, hingga Tools/Aplikasi lainnya yang berbasis AI dan
+                menggunakan AI-API Key apapun.
               </p>
               <section className="group-button mt-4">
-                <a href="/inzaghis-group/inzaghis-ai.php" className="main-button">Click here</a>
+                <a href="/inzaghis-group/inzaghis-ai" className="main-button">
+                  Click here
+                </a>
               </section>
             </section>
           </section>
