@@ -33,7 +33,7 @@
                   :
                 </p>
                 <a
-                  href="https://sites.google.com/view/inzaghis-sites/blog-page"
+                  href="https://sites.google.com/view/inzaghis-sites/pages/inzaghis-blog"
                   target="_blank"
                   class="btn btn-outline-light description-button"
                   >Click here</a
