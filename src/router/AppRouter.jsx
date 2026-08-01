@@ -8,6 +8,8 @@ import Profile from "../pages/Profile.jsx";
 import Disclaimer from "../pages/Disclaimer.jsx";
 import PrivacyPolicy from "../pages/PrivacyPolicy.jsx";
 import Networks from "../pages/Networks.jsx";
+import InzaghisBlog from "../pages/inzaghis-group/InzaghisBlog.jsx";
+import InzaghisMedia from "../pages/inzaghis-group/InzaghisMedia.jsx";
 
 export default function AppRouter() {
   return (
@@ -23,6 +25,14 @@ export default function AppRouter() {
           <Route path="/apps" element={<Apps />} />
           <Route path="/portals" element={<Portals />} />
           <Route path="/networks" element={<Networks />} />
+          <Route
+            path="/inzaghis-group/inzaghis-blog"
+            element={<InzaghisBlog />}
+          />
+          <Route
+            path="/inzaghis-group/inzaghis-media"
+            element={<InzaghisMedia />}
+          />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
