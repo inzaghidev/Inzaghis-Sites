@@ -22,9 +22,9 @@
             <h2 class="text-4xl font-bold mb-4 font-[Inter]">Description</h2>
             <p class="text-black text-sm font-[Inter]">
               Inzaghi's Blog merupakan Platform Blogging sebagai tempat untuk
-              berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog lebih
-              menggunakan Platform Blogger, agar lebih mudah dan praktis. Untuk
-              melihat Halaman ini di Google Sites, silakan klik di sini :
+              berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog
+              lebih menggunakan Platform Blogger, agar lebih mudah dan praktis.
+              Untuk melihat Halaman ini di Google Sites, silakan lihat di sini :
             </p>
             <br />
             <section class="group-button">
@@ -33,6 +33,20 @@
                 target="_blank"
                 class="btn btn-outline-light description-button"
                 >Click here</a
+              >
+            </section>
+            <br />
+            <p class="text-black text-sm font-[Inter]">
+              Untuk melihat Inzaghi's Blog Aggregator yang ditarik Data
+              Postingan-nya menggunakan API Blogger, silakan lihat di sini :
+            </p>
+            <br />
+            <section class="group-button">
+              <a
+                href="https://inzaghis-blog-aggregator.vercel.app/"
+                target="_blank"
+                class="btn btn-outline-light description-button"
+                >Inzaghi's Blog Aggregator</a
               >
             </section>
             <hr class="my-6 border-t border-gray-500" />

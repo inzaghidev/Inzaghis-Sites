@@ -14,9 +14,18 @@
             <h2 class="text-4xl font-bold mb-4 font-[Inter]">Description</h2>
             <p class="text-black text-sm font-[Inter]">
               Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
-              terutama seputar IT.
+              terutama seputar IT. Untuk melihat Halaman ini di Google Sites,
+              silakan lihat di sini :
             </p>
             <br />
+            <section class="group-button">
+              <a
+                href="https://sites.google.com/view/inzaghis-sites/pages/inzaghis-media"
+                target="_blank"
+                class="btn btn-outline-light description-button"
+                >Click here</a
+              >
+            </section>
             <hr class="my-6 border-t border-gray-500" />
           </div>
           <br />
