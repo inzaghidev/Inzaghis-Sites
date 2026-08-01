@@ -24,19 +24,29 @@
               <div class="card-body">
                 <h2 class="card-title">Description</h2>
                 <p class="card-text is-desc">
-                  Inzaghi's Blog merupakan Platform Blogging sebagai tempat untuk
-                  berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's Blog
-                  lebih menggunakan Platform Blogger, agar lebih mudah dan
-                  praktis.
-                  <br />
-                  Untuk melihat Halaman ini di Google Sites, silakan klik di sini
-                  :
+                  Inzaghi's Blog merupakan Platform Blogging sebagai tempat
+                  untuk berbagi Ilmu Pengetahuan, terutama seputar IT. Inzaghi's
+                  Blog lebih menggunakan Platform Blogger, agar lebih mudah dan
+                  praktis. Untuk melihat Halaman ini di Google Sites, silakan
+                  lihat di sini :
                 </p>
                 <a
                   href="https://sites.google.com/view/inzaghis-sites/pages/inzaghis-blog"
                   target="_blank"
                   class="btn btn-outline-light description-button"
                   >Click here</a
+                >
+                <br />
+                <br />
+                <p class="card-text is-desc">
+                  Untuk melihat Inzaghi's Blog Aggregator yang ditarik Data
+                  Postingan-nya menggunakan API Blogger, silakan lihat di sini :
+                </p>
+                <a
+                  href="https://inzaghis-blog-aggregator.vercel.app/"
+                  target="_blank"
+                  class="btn btn-outline-light description-button"
+                  >Inzaghi's Blog Aggregator</a
                 >
               </div>
             </div>

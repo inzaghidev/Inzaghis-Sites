@@ -19,8 +19,14 @@
                 <h2 class="card-title">Description</h2>
                 <p class="card-text is-desc">
                   Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
-                  terutama seputar IT.
+                  terutama seputar IT. Untuk melihat Halaman ini di Google Sites, silakan lihat di sini :
                 </p>
+                <a
+                  href="https://sites.google.com/view/inzaghis-sites/pages/inzaghis-media"
+                  target="_blank"
+                  class="btn btn-outline-light description-button"
+                  >Click here</a
+                >
               </div>
             </div>
             <div class="page-description">
