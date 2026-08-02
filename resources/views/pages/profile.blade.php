@@ -60,11 +60,16 @@
             </div>
             <div class="col col-md-7 col-lg-9 col-xl-9 text-start">
               <p class="mb-0">
-                I'm majoring of Information Technology (IT) College Student
-                in Pradita University. And I am a Programmer, Developer,
-                UI/UX Designer, Bloggers, and Content Creator. Candidate for
-                Chief Executive Officer (CEO) of Inzaghi's Corp. (Inzaghi's
-                Group).
+                I'm Inzaghi Posuma Al Kahfi, a Fresher Graduate in
+                Information Technology Student at Pradita University
+                (Tangerang, Banten, Indonesia) with hands-on experience in
+                Web and Mobile Development, IoT Projects, and Data-driven
+                Applications. I'm also a Passionate Software Engineer and
+                Full-stack Developer with hands-on experience in Web and
+                Mobile App Development, utilizing Laravel (PHP), React.js,
+                Flutter (Dart), JavaScript, and Python. Candidate for Chief
+                Executive Officer (CEO) of Inzaghi’s Group (InzaTech
+                Poshaf).
               </p>
             </div>
             <!--//col-->
@@ -441,7 +446,7 @@
             class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted"
           >
             <li class="list-inline-item mb-lg-0 me-3">
-              <a class="resume-link" href="#">
+              <a class="resume-link" target="_blank" href="#">
                 <i
                   class="fa-brands fa-github-square fa-2x me-2"
                   data-fa-transform="down-4"
@@ -452,24 +457,35 @@
               </a>
             </li>
             <li class="list-inline-item mb-lg-0 me-3">
-              <a class="resume-link" href="#">
+              <a class="resume-link" target="_blank" href="https://www.linkedin.com/in/inzaghi-posuma-al-kahfi-b2613528b">
                 <i
                   class="fa-brands fa-linkedin fa-2x me-2"
                   data-fa-transform="down-4"
                 ></i>
                 <span class="d-none d-lg-inline-block text-muted"
-                  >linkedin.com/in/username</span
+                  >linkedin.com/in/inzaghi-posuma-al-kahfi-b2613528b</span
                 >
               </a>
             </li>
             <li class="list-inline-item mb-lg-0 me-lg-3">
-              <a class="resume-link" href="#">
+              <a class="resume-link" target="_blank" href="https://x.com/lPosumA0209">
                 <i
                   class="fa-brands fa-square-x-twitter fa-2x me-2"
                   data-fa-transform="down-4"
                 ></i>
                 <span class="d-none d-lg-inline-block text-muted"
-                  >@twittername</span
+                  >@lPosumA0209</span
+                >
+              </a>
+            </li>
+            <li class="list-inline-item mb-lg-0 me-lg-3">
+              <a class="resume-link" target="_blank" href="https://www.instagram.com/inzaghiposuma">
+                <i
+                  class="fa-brands fa-square-instagram fa-2x me-2"
+                  data-fa-transform="down-4"
+                ></i>
+                <span class="d-none d-lg-inline-block text-muted"
+                  >@inzaghiposuma</span
                 >
               </a>
             </li>

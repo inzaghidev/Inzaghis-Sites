@@ -67,12 +67,21 @@ Route::get('/portals', function () {
     ]);
 });
 
+$pages = [
+    '/inzaghis-blog' => ['view' => 'inzaghis-group.inzaghis-blog', 'title' => "Inzaghi's Blog"],
+    '/inzaghis-media' => ['view' => 'inzaghis-group.inzaghis-media', 'title' => "Inzaghi's Media"],
+    '/inzaghis-dev' => ['view' => 'inzaghis-group.inzaghis-dev', 'title' => "Inzaghi's Dev"],
+    '/inzaghis-archives' => ['view' => 'inzaghis-group.inzaghis-archives', 'title' => "Inzaghi's Archives"],
+    '/inzaghis-ai' => ['view' => 'inzaghis-group.inzaghis-ai', 'title' => "Inzaghi's AI"],
+    '/inzaghis-app' => ['view' => 'inzaghis-group.inzaghis-app', 'title' => "Inzaghi's App"],
+];
 
-Route::get('/inzaghis-blog', function () {
-    return view('/inzaghis-group/inzaghis-blog', [
-        'page_title' => "Inzaghi's Blog"
+foreach ($pages as $uri => $page) {
+    Route::view($uri, $page['view'], [
+        'page_title' => $page['title']
     ]);
-});
+}
+
 
 // Route::get('/apps', function () {
 //     $apps = [
