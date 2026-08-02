@@ -1,7 +1,7 @@
 <div class="nav-header" id="navHeader">
     <nav class="navbar" id="navbar">
         <a href="<?php echo $pathToWebRoot.'/'; ?>" id="logo">
-            <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-vertical-transparent.png'; ?>" title="Inzaghi&apos;s Sites" height="60px" alt="logo" />
+            <img src="<?php echo $pathToWebRoot.'/assets/icons/inzaghis-sites-logo-dengan-hut-ri-81.png'; ?>" title="Inzaghi&apos;s Sites | Dirgahayu Republik Indonesia! #81" height="60px" alt="logo" />
         </a>
         <div class="nav-menu-container">
             <div class="nav-menu">
