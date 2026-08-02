@@ -411,23 +411,23 @@
               <section class="skills-section py-3">
                 <h3 class="item-title">CONTACT</h3>
                 <br />
-                <ul
-                  class="resume-interests-list row row-cols-sm-6 row-cols-md-3 mb-0"
-                >
-                  <button type="button" class="btn btn-primary">
-                    <a
-                      href="https://inzaghiposuma.blogspot.com/p/contact-and-profile.html"
-                      target="_blank"
-                      class="button-link"
-                      >Contact</a
-                    >
-                  </button>
-                  <button type="button" class="btn btn-secondary">
-                    <a href="#" target="_blank" class="button-link"
-                      >Resume</a
-                    >
-                  </button>
-                </ul>
+                <div class="resume-contact-actions">
+                  <br>
+                  <a class="btn btn-primary btn-block" href="https://enzatech.blogspot.com/p/contact-and-profile.html" target="_blank">
+                    Contact
+                  </a>
+                  <br>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle btn-block text-start" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Portofolio &amp; CV
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" target="_blank" href="https://portofolio-inzaghi-posuma.vercel.app">Portofolio</a>
+                      <a class="dropdown-item" target="_blank" href="https://drive.google.com/file/d/1s69MrQIbtc12pf-25gsolZdGvMQrUOXG/view">ATS CV/Resume (With Profile Photo)</a>
+                      <a class="dropdown-item" target="_blank" href="https://drive.google.com/file/d/1Fv3V5T4pcrOZfuDAQkJKAastUQwzSU8U/view">CV/Resume ATS-Friendly</a>
+                    </div>
+                  </div>
+                </div>
               </section>
             </aside>
             <!--//resume-aside-->
