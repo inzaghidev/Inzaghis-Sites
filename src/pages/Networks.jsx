@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 export default function Networks() {
   return (
     <>
+      <Helmet>
+        <title>Inzaghi's Group Network - Inzaghi's Sites</title>
+      </Helmet>
       {/* <div className="container-top"></div> */}
       <section className="about-us">
         <section className="about-us-container">

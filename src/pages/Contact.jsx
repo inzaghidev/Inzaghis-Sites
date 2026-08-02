@@ -1,6 +1,11 @@
+import { Helmet } from "react-helmet-async";
+
 export default function Contact() {
   return (
     <>
+      <Helmet>
+        <title>Contact - Inzaghi's Sites</title>
+      </Helmet>
       <div className="container-top"></div>
       <section
         className="page-background page-sub-container-full bg-gray-50 light:bg-slate-800"
@@ -18,8 +23,8 @@ export default function Contact() {
             <div className="grid md:grid-cols-2">
               <div className="h-full pr-6">
                 <p className="font-['Inter'] mt-3 mb-12 text-md text-gray-600 dark:text-slate-600">
-                  Do you have any questions? Please do not hesitate to contact us
-                  directly. Our team will come back to you within a matter of
+                  Do you have any questions? Please do not hesitate to contact
+                  us directly. Our team will come back to you within a matter of
                   hours to help you.
                 </p>
                 <ul className="mb-6 md:mb-0">

@@ -14,6 +14,11 @@ const menus = [
         label: "WordPress Blog",
         href: "https://inzaghiposuma.wordpress.com/blog-posts",
       },
+      {
+        label: "Inzaghi's Blog Aggregator",
+        target: "_blank",
+        href: "https://inzaghis-blog-aggregator.vercel.app",
+      },
     ],
   },
   {
@@ -104,13 +109,25 @@ function Chevron({ open }) {
 }
 
 function NavItem({ item, onNavigate }) {
-  return item.to ? (
-    <Link to={item.to} onClick={onNavigate} className="siteNavDropdownLink">
-      {item.label}
-    </Link>
-  ) : (
-    <a href={item.href} onClick={onNavigate} className="siteNavDropdownLink">
-      {item.label}
+  if (item.to) {
+    return (
+      <Link to={item.to} onClick={onNavigate} className="siteNavDropdownLink">
+        {item.label}
+      </Link>
+    );
+  }
+
+  const { label, href, to, ...props } = item;
+
+  return (
+    <a
+      href={href}
+      onClick={onNavigate}
+      className="siteNavDropdownLink"
+      {...props}
+      rel={props.target === "_blank" ? "noopener noreferrer" : props.rel}
+    >
+      {label}
     </a>
   );
 }
