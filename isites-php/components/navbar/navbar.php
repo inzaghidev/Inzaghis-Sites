@@ -23,6 +23,7 @@
                             <nav class="nav-dropdown-list nav-dropdown-list--open">
                                 <a href="https://medium.com/@izzumiposhaf29" class="dropdown-link">Inzaghi's Group Blog</a>
                                 <a href="https://inzaghiposuma.wordpress.com/blog-posts" class="dropdown-link">WordPress Blog</a>
+                                <a href="https://inzaghis-blog-aggregator.vercel.app" target="_blank" class="dropdown-link">Inzaghi's Blog Aggregator</a>
                             </nav>
                         </div>
                     </li>
