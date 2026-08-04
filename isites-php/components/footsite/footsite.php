@@ -75,6 +75,7 @@
                             <li><a href="https://inzaghiposuma.wordpress.com/blog-posts" class="text-gray-800 hover:text-blue-800" target="_blank">WordPress Blog</a></li>
                             <li><a href="https://medium.com/@izzumiposhaf29" class="text-gray-800 hover:text-blue-800">Inzaghi's Sites Blog</a></li>
                             <li><a href="https://linktr.ee/inzaghigroup" class="text-gray-800 hover:text-blue-800" target="_blank">Linktree Inzaghi's Group</a></li>
+                            <li><a href="https://inzaghis-blog-aggregator.vercel.app" class="text-gray-800 hover:text-blue-800" target="_blank">Inzaghi's Blog Aggregator</a></li>
                             <li><a href="https://old.inzaghi.wuaze.com" class="font-semibold text-green-900 hover:text-green-600"><b>Back to Old UI (Legacy)</b></a></li>
                             <li><a href="https://preview.inzaghi.wuaze.com" class="font-semibold text-pink-900 hover:text-pink-600"><b>Go to the Experimental (Preview)</b></a></li>
                         </ul>

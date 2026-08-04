@@ -46,6 +46,7 @@
           >
             <a href="https://medium.com/@izzumiposhaf29" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's Group Blog</a>
             <a href="https://inzaghiposuma.wordpress.com/blog-posts" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">WordPress Blog</a>
+            <a href="https://inzaghis-blog-aggregator.vercel.app" target="_blank" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's Blog Aggregator</a>
           </div>
         </div>
         <div class="relative group" @mouseenter="dropdown = 'portals'" @mouseleave="dropdown = null">
@@ -221,6 +222,7 @@
             <div x-show="dropdownOpen" x-transition="" @click.away="dropdownOpen = false" class="nav-drpdwn-list w-full px-2 py-2 mt-2 mb-2 rounded-lg shadow-lg bg-[#dadeda] dark-mode:bg-[#222522]" style="display: none;">
               <a href="https://medium.com/@izzumiposhaf29" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's Group Blog</a>
               <a href="https://inzaghiposuma.wordpress.com/blog-posts" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">WordPress Blog</a>
+              <a href="https://inzaghis-blog-aggregator.vercel.app" target="_blank" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's Blog Aggregator</a>
             </div>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
@@ -437,6 +439,7 @@
           >
             <a href="https://medium.com/@izzumiposhaf29" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's Group Blog</a>
             <a href="https://inzaghiposuma.wordpress.com/blog-posts" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">WordPress Blog</a>
+            <a href="https://inzaghis-blog-aggregator.vercel.app" target="_blank" class="block px-4 py-2 mt-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none focus:shadow-outline">Inzaghi's Blog Aggregator</a>
           </div>
         </div>
         <div class="relative group" @mouseenter="dropdown = 'portals'" @mouseleave="dropdown = null">
@@ -612,6 +615,7 @@
             <div x-show="dropdownOpen" x-transition="" @click.away="dropdownOpen = false" class="nav-drpdwn-list w-full px-2 py-2 mt-2 mb-2 rounded-lg shadow-lg bg-[#dadeda] dark-mode:bg-[#222522]" style="display: none;">
               <a href="https://medium.com/@izzumiposhaf29" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's Group Blog</a>
               <a href="https://inzaghiposuma.wordpress.com/blog-posts" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">WordPress Blog</a>
+              <a href="https://inzaghis-blog-aggregator.vercel.app" target="_blank" class="block px-4 py-2 text-sm font-normal bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-gray-200 dark-mode:text-gray-200 hover:text-gray-900 hover:bg-white focus:bg-green-100 focus:outline-none">Inzaghi's Blog Aggregator</a>
             </div>
           </div>
           <div x-data="{ dropdownOpen: false }" class="relative pt-1">
