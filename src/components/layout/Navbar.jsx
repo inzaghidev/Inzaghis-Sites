@@ -183,6 +183,13 @@ export default function Navbar() {
           >
             Home
           </Link>
+          <Link
+            to="/contact"
+            className={`siteNavLink ${isCurrent("/contact") ? "active" : ""}`}
+            onClick={closeAll}
+          >
+            Contact
+          </Link>
           {menus.map((menu) => {
             const open = activeMenu === menu.label;
             const menuIsCurrent = menu.to && isCurrent(menu.to);
@@ -223,13 +230,6 @@ export default function Navbar() {
               </div>
             );
           })}
-          <Link
-            to="/contact"
-            className={`siteNavLink ${isCurrent("/contact") ? "active" : ""}`}
-            onClick={closeAll}
-          >
-            Contact
-          </Link>
         </nav>
 
         <div className="siteNavActions">

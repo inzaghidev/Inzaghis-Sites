@@ -1,4 +1,6 @@
-# React + Vite
+# Inzaghi's Sites (React + Vite)
+
+This Repository is for storing all Source Codes from Inzaghi's Sites.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

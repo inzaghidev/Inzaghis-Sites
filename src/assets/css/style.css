@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
 :root {
   --font-family: "Inter", "Helvetica Neue", Helvetica, sans-serif;
   --background-color: var(--color-white);

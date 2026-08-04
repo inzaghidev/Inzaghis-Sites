@@ -11,14 +11,21 @@ export default function InzaghisMedia() {
           <h1 className="my-4 page-title">📰 Inzaghi's Media</h1>
           <div className="bg-white shadow-xl rounded-lg p-6 ring-1 ring-red-400">
             <div className="card-apps">
-              <h2 className="text-4xl font-bold mb-4 font-[Inter]">
-                Description
-              </h2>
+              <h2 className="text-4xl font-bold mb-4 font-[Inter]">Description</h2>
               <p className="text-black text-sm font-[Inter]">
                 Inzaghi's Media merupakan Platform Layanan untuk Sharing Ilmu,
-                terutama seputar IT.
+                terutama seputar IT. Untuk melihat Halaman ini di Google Sites,
+                silakan lihat di sini :
               </p>
               <br />
+              <section className="group-button">
+                <a
+                  href="https://sites.google.com/view/inzaghis-sites/pages/inzaghis-media"
+                  target="_blank"
+                  className="btn btn-outline-light description-button"
+                  >Click here</a
+                >
+              </section>
               <hr className="my-6 border-t border-gray-500" />
             </div>
             <br />
@@ -26,7 +33,7 @@ export default function InzaghisMedia() {
               <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
                 <div className="flex items-center">
                   <img
-                    src="../assets/icons/instagram-logo.svg"
+                    src="../public/icons/instagram-logo.svg"
                     alt="Instagram Logo"
                     width="44"
                     height="44"
@@ -62,7 +69,7 @@ export default function InzaghisMedia() {
               <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
                 <div className="flex items-center">
                   <img
-                    src="../assets/icons/tiktok-logo.svg"
+                    src="../public/icons/tiktok-logo.svg"
                     alt="TikTok Logo"
                     width="44"
                     height="44"
@@ -98,7 +105,7 @@ export default function InzaghisMedia() {
               <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
                 <div className="flex items-center">
                   <img
-                    src="../assets/icons/youtube-logo.svg"
+                    src="../public/icons/youtube-logo.svg"
                     alt="YouTube Logo"
                     width="44"
                     height="44"
@@ -136,7 +143,7 @@ export default function InzaghisMedia() {
               <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
                 <div className="flex items-center">
                   <img
-                    src="../assets/icons/x-twitter-logo.svg"
+                    src="../public/icons/x-twitter-logo.svg"
                     alt="X Logo"
                     width="44"
                     height="44"
@@ -174,7 +181,7 @@ export default function InzaghisMedia() {
               <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
                 <div className="flex items-center">
                   <img
-                    src="../assets/icons/threads-logo.svg"
+                    src="../public/icons/threads-logo.svg"
                     alt="Threads Logo"
                     width="44"
                     height="44"

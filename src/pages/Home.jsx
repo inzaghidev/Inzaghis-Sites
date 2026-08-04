@@ -86,7 +86,7 @@ export default function Home() {
             <h1>
               Welcome to
               <br />
-              Inzaghi&apos;s Sites.
+              Inzaghi&apos;s Sites!
             </h1>
             <p className="siteLead">
               Akses aplikasi, portal, dan jaringan digital Inzaghi&apos;s Group
