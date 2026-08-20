@@ -89,7 +89,7 @@
                     <h4
                       class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
                     >
-                      Senior Software Engineer
+                      Web Developer
                     </h4>
                     <div
                       class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
@@ -123,7 +123,7 @@
                     <h4
                       class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
                     >
-                      Lead Software Developer
+                      Web Developer
                     </h4>
                     <div
                       class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
@@ -152,7 +152,7 @@
                     <h4
                       class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
                     >
-                      Senior Software Developer
+                      Web Developer
                     </h4>
                     <div
                       class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
@@ -175,7 +175,7 @@
                     <h4
                       class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
                     >
-                      Senior Developer
+                      Web Developer
                     </h4>
                     <div
                       class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
@@ -185,54 +185,10 @@
                   </div>
                   <div class="item-content">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing
-                      elit. Aenean commodo ligula eget dolor. Aenean massa.
-                      Cum sociis natoque penatibus.
-                    </p>
-                  </div>
-                </div>
-                <!--//item-->
-                <div class="item">
-                  <div class="item-heading row align-items-center mb-2">
-                    <h4
-                      class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
-                    >
-                      Backend Developer
-                    </h4>
-                    <div
-                      class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
-                    >
-                      ABC Company | 2018 - 2019
-                    </div>
-                  </div>
-                  <div class="item-content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing
-                      elit. Aenean commodo ligula eget dolor. Aenean massa.
-                      Cum sociis natoque penatibus et magnis dis parturient
-                      montes, nascetur ridiculus mus.
-                    </p>
-                  </div>
-                </div>
-                <!--//item-->
-                <div class="item">
-                  <div class="item-heading row align-items-center mb-2">
-                    <h4
-                      class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"
-                    >
-                      Frontend Developer
-                    </h4>
-                    <div
-                      class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"
-                    >
-                      ABC Company | 2017 - 2018
-                    </div>
-                  </div>
-                  <div class="item-content">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing
-                      elit. Aenean commodo ligula eget dolor. Aenean massa.
-                      Cum sociis natoque penatibus.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit. Sed finibus est vitae tortor ullamcorper, ut
+                      vestibulum velit convallis. Aenean posuere risus non
+                      velit egestas suscipit.
                     </p>
                   </div>
                 </div>
@@ -402,18 +358,6 @@
               </section>
               <!--//certificates-section-->
               <section class="skills-section py-3">
-                <h3 class="text-uppercase resume-section-heading mb-4">
-                  Interests
-                </h3>
-                <ul class="list-unstyled resume-interests-list mb-0">
-                  <li class="mb-2">Climbing</li>
-                  <li class="mb-2">Snowboarding</li>
-                  <li class="mb-2">Photography</li>
-                  <li>Travelling</li>
-                </ul>
-              </section>
-              <!--//certificates-section-->
-              <section class="skills-section py-3">
                 <h3 class="item-title">CONTACT</h3>
                 <br />
                 <div class="resume-contact-actions">
@@ -423,13 +367,32 @@
                   </a>
                   <br>
                   <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle btn-block text-start" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button
+                      class="btn btn-secondary dropdown-toggle btn-block text-start"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
                       Portofolio &amp; CV
                     </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" target="_blank" href="https://portofolio-inzaghi-posuma.vercel.app">Portofolio</a>
-                      <a class="dropdown-item" target="_blank" href="https://drive.google.com/file/d/1s69MrQIbtc12pf-25gsolZdGvMQrUOXG/view">ATS CV/Resume (With Profile Photo)</a>
-                      <a class="dropdown-item" target="_blank" href="https://drive.google.com/file/d/1Fv3V5T4pcrOZfuDAQkJKAastUQwzSU8U/view">CV/Resume ATS-Friendly</a>
+                    <div
+                      class="dropdown-menu w-100"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a
+                        class="dropdown-item"
+                        target="_blank"
+                        href="https://portofolio-inzaghi-posuma.vercel.app"
+                        >Portofolio</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        target="_blank"
+                        href="https://drive.google.com/file/d/11A2emY6ZicngDT8y8AinzfMLpwFs3mhq/view"
+                        >ATS CV/Resume</a
+                      >
                     </div>
                   </div>
                 </div>

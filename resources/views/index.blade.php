@@ -42,6 +42,19 @@
       Untuk melihat Versi lainnya dari Situs ini, silakan lihat dari
       beberapa Tautan/Link di bawah ini.
     </p>
+    <div class="alert alert-danger card border">
+      <strong
+        >This Project will be Retired Soon! And will be Merged into the
+        InzaTech Platform.</strong
+      >
+      <br />
+      Nantinya, Proyek Inzaghi's Sites ini akan segera dihentikan, dan akan
+      digabungkan ke dalam Platform InzaTech. Nantikan Kehadiran Plaform
+      InzaTech yang akan menyediakan berbagai macam Layanan dan Fitur yang
+      lebih lengkap, canggih, dan modern untuk memenuhi kebutuhan Anda di
+      bidang Teknologi Informasi.
+      <strong>Coming Soon in September 2026!</strong>
+    </div>
     <div class="card border shadow-lg rounded-lg border-success">
       <div class="card-header">Versions</div>
       <ul class="list-group list-group-flush rounded-lg">
