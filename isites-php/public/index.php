@@ -95,7 +95,7 @@
             <div
               class="mt-1 text-sm text-green-600 dark:text-green-700 font-bold font-[Inter]"
             >
-              Coming Soon in Summer 2026!
+              Coming Soon in September 2026!
             </div>
           </div>
         </div>
