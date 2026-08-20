@@ -61,7 +61,7 @@
         InzaTech yang akan menyediakan berbagai macam Layanan dan Fitur yang
         lebih lengkap, canggih, dan modern untuk memenuhi kebutuhan Anda di
         bidang Teknologi Informasi.
-        <strong>Coming Soon in Summer 2026!</strong>
+        <strong>Coming Soon in September 2026!</strong>
       </div>
       <div class="card border shadow-lg rounded-lg border-success">
         <div class="card-header">Versions</div>
