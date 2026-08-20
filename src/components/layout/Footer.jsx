@@ -332,6 +332,15 @@ export default function Footer() {
                     Linktree Inzaghi's Group
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://inzaghis-blog-aggregator.vercel.app"
+                    target="_blank"
+                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                  >
+                    Inzaghi's Blog Aggregator
+                  </a>
+                </li>
               </ul>
             </div>
 

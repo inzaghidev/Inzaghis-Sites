@@ -168,7 +168,7 @@
   background: #1e293b;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1280px) {
   .siteNavInner {
     padding: 0 18px;
     gap: 12px;
@@ -179,7 +179,7 @@
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1024px) {
   .siteNavInner {
     min-height: 72px;
   }
@@ -231,7 +231,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .siteNavInner {
     padding: 0 14px;
   }

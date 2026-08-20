@@ -139,14 +139,12 @@ export default function Home() {
                           Main Branch (New UI)
                         </span>
                       </div>
-                      <button type="button">
-                        <a
-                          href="https://inzaghi.wuaze.com"
-                          className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        >
-                          Click here
-                        </a>
-                      </button>
+                      <a
+                        href="https://inzaghi.wuaze.com"
+                        className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                      >
+                        Click here
+                      </a>
                     </div>
                     <p className="is-desc">
                       Merupakan Cabang/Branch Utama dari Website Platform ini,
@@ -168,14 +166,12 @@ export default function Home() {
                           Beta Future (Old UI - Temporary)
                         </span>
                       </div>
-                      <button type="button">
-                        <a
-                          href="https://preview.inzaghi.wuaze.com"
-                          className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        >
-                          Click here
-                        </a>
-                      </button>
+                      <a
+                        href="https://preview.inzaghi.wuaze.com"
+                        className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                      >
+                        Click here
+                      </a>
                     </div>
                     <p className="is-desc">
                       Merupakan Cabang/Branch yang didesain untuk melakukan
@@ -198,14 +194,12 @@ export default function Home() {
                           Master (Old UI)
                         </span>
                       </div>
-                      <button type="button">
-                        <a
-                          href="https://old.inzaghi.wuaze.com"
-                          className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        >
-                          Click here
-                        </a>
-                      </button>
+                      <a
+                        href="https://old.inzaghi.wuaze.com"
+                        className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                      >
+                        Click here
+                      </a>
                     </div>
                     <p className="is-desc">
                       Merupakan Cabang dari Inzaghi's Sites yang masih
@@ -227,15 +221,13 @@ export default function Home() {
                           Laravel (Coming Soon)
                         </span>
                       </div>
-                      <button type="button">
-                        <a
-                          href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel"
-                          target="_blank"
-                          className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        >
-                          Click here
-                        </a>
-                      </button>
+                      <a
+                        href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel"
+                        target="_blank"
+                        className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                      >
+                        Click here
+                      </a>
                     </div>
                     <p className="is-desc">
                       Pada Branch ini, akan dibangun dan dikembangkan ulang
@@ -256,15 +248,13 @@ export default function Home() {
                           React.js (Coming Soon)
                         </span>
                       </div>
-                      <button type="button">
-                        <a
-                          href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-react"
-                          target="_blank"
-                          className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                        >
-                          Click here
-                        </a>
-                      </button>
+                      <a
+                        href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-react"
+                        target="_blank"
+                        className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                      >
+                        Click here
+                      </a>
                     </div>
                     <p className="is-desc">
                       Pada Branch ini, juga akan dibangun dan dikembangkan ulang

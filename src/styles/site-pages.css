@@ -319,6 +319,16 @@ footer li { display: block; list-style: none; padding-left: 0; }
   font-size: 0.9rem;
   text-align: center;
 }
+@keyframes dropdownIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 .profileActions {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -327,6 +337,9 @@ footer li { display: block; list-style: none; padding-left: 0; }
 }
 .profileActions a {
   padding: 10px;
+  font-size: 0.8rem;
+}
+.profileActions > div {
   font-size: 0.8rem;
 }
 .profileBlock {
