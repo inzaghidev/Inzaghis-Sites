@@ -117,6 +117,53 @@ export default function Home() {
               Untuk melihat Versi lainnya dari Situs ini, silakan lihat dari
               beberapa Tautan/Link di bawah ini.
             </p>
+            <div
+              class="bg-pink-600/20 border border-pink-100 text-sm text-pink-800 rounded-lg p-4 dark:bg-pink-500/20 dark:border-pink-900 dark:text-pink-500"
+              role="alert"
+              tabindex="-1"
+              aria-labelledby="hs-with-description-label"
+            >
+              <div class="flex">
+                <div class="shrink-0">
+                  <svg
+                    class="shrink-0 size-4 mt-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 16v-4" />
+                    <path d="M12 8h.01" />
+                  </svg>
+                </div>
+                <div class="ms-4">
+                  <h3
+                    id="hs-with-description-label"
+                    class="text-lg font-semibold font-[Inter]"
+                  >
+                    This Project will be Retired Soon! And will be Merged into
+                    the InzaTech Platform.
+                  </h3>
+                  <div class="mt-1 text-sm text-green-600 dark:text-green-700 font-[Inter]">
+                    Nantinya, Proyek Inzaghi's Sites ini akan segera dihentikan,
+                    dan akan digabungkan ke dalam Platform InzaTech. Nantikan
+                    Kehadiran Plaform InzaTech yang akan menyediakan berbagai
+                    macam Layanan dan Fitur yang lebih lengkap, canggih, dan
+                    modern untuk memenuhi kebutuhan Anda di bidang Teknologi
+                    Informasi.
+                  </div>
+                  <div class="mt-1 text-sm text-green-600 dark:text-green-700 font-bold font-[Inter]">
+                    Coming Soon in September 2026!
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="block relative flex flex-col my-6 bg-white border border-gray-200 rounded-lg shadow-xl w-full mx-auto ring-1 ring-green-500 hover:shadow-2xl">
               <div className="p-4">
                 <div className="mb-4 flex items-center justify-between">
