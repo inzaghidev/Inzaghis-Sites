@@ -141,10 +141,12 @@
         </li>
         <li class="list-group-item card-body">
           <div class="text-black row -mx-1">
-            <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">Branch 5</h3>
+            <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
+              ⚛️ React.js (Coming Soon)
+            </h3>
             <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
               <a
-                href="#"
+                href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-react"
                 target="_blank"
                 class="btn btn-primary col-12 col-md-10"
                 >Click here</a
@@ -153,13 +155,60 @@
             </section>
           </div>
           <p class="card-text is-desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Pada Branch ini, juga akan dibangun dan dikembangkan ulang
+            dengan menggunakan React.js. Untuk sementara, masih tersedia di
+            dalam Branch pada Repository GitHub kami.
           </p>
         </li>
       </ul>
     </div>
   </div>
+</section>
+<section class="slider-carousel shadow">
+  <div class="slider-container">
+    <h2 class="title-heading">Portals</h2>
+    <div class="text-container">
+      <p class="text-description">
+        Portals merupakan Halaman Portal yang tersedia untuk berbagai
+        kebutuhan apapun seperti Widgets, Tutorial Teknologi, Materi
+        Pembelajaran, dan lainnya.
+      </p>
+      <section class="group-button">
+        <a href="../portals" class="main-button">Click here</a>
+      </section>
+    </div>
+    <section class="group-content">
+      <div id="hcg-slider-1" class="hcg-slider">
+        <div class="hcg-slide-container">
+          <div class="hcg-slider-body card border border-success shadow">
+            <a class="hcg-slides animated" style="display: flex">
+              <span class="hcg-slide-number">1/6</span>
+              <img src="{{URL::asset('assets/images/widgets-by-portals.png')}}" alt="" />
+              <span class="hcg-slide-text">Widgets</span>
+            </a>
+          </div>
+          <a href="#" id="hcg-slide-prev">&#10094;</a>
+          <a href="#" id="hcg-slide-next">&#10095;</a>
+        </div>
+        <div class="hcg-slide-dot-control"></div>
+      </div>
+      <section
+        class="content-description border border-success card h-100 shadow opacity-75 p-3"
+      >
+        <!--section class="content-description"-->
+        <h2 class="group-title">Widgets</h2>
+        <p class="left-subheading">
+          Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
+          Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang
+          heboh saat ini.
+        </p>
+        <button type="button" class="btn btn-primary btn-md">
+          <a href="../portals/widgets" class="button-link">Click here</a>
+        </button>
+      </section>
+    </section>
+  </div>
+  <script src="{{URL::asset('src/js.slider.js')}}"></script>
 </section>
 <section class="slider-carousel shadow">
   <div class="slider-container">
@@ -171,7 +220,7 @@
         Kalkulator, Generator, Formatter, dan lainnya.
       </p>
       <section class="group-button">
-        <a href="../pages/apps" class="main-button">Click here</a>
+        <a href="../apps" class="main-button">Click here</a>
       </section>
     </div>
     <section class="group-content">
@@ -200,7 +249,7 @@
           Konverter ini akan sedikit menggunakan API.
         </p>
         <button type="button" class="btn btn-primary btn-md">
-          <a href="../apps/converter.php" class="button-link">Click here</a>
+          <a href="../apps/converter" class="button-link">Click here</a>
         </button>
       </section>
     </section>
@@ -217,7 +266,7 @@
         Pembelajaran, dan lainnya.
       </p>
       <section class="group-button">
-        <a href="../pages/portals.php" class="main-button">Click here</a>
+        <a href="../portals" class="main-button">Click here</a>
       </section>
     </div>
     <section class="group-content">
@@ -239,63 +288,63 @@
             imgSrc: "../assets/images/widgets-by-portals.png",
             description:
               "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
-            link: "../portals/widgets.php",
+            link: "../portals/widgets",
           },
           {
             name: "Technology Tutorials",
             imgSrc: "../assets/images/tech-tutorials-by-portals.png",
             description:
               "Merupakan kumpulan dari berbagai macam Teknologi apapun dalam bidang IT, dan sebagai Pembelajaran untuk berbagai macam Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu Komputer, Analisis Data, dan lainnya.",
-            link: "../portals/tech-tutorials.php",
+            link: "../portals/tech-tutorials",
           },
           {
             name: "IT Project Lists",
             imgSrc: "../assets/images/it-project-lists-by-portals.png",
             description:
               "Merupakan kumpulan dari berbagai macam Proyek apapun dalam bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis Data, AI/ML, IoT, dan lainnya.",
-            link: "../portals/projects.php",
+            link: "../portals/projects",
           },
           {
             name: "Career Portal",
             imgSrc: "../assets/images/career-portal-by-portals.png",
             description:
               "Merupakan kumpulan dari pertanyaan-pertanyaan Wawancara seperti Wawancara Kerja, Magang, User Interview, Wawancara Teknis (Technical Interview), dan lain-lain.",
-            link: "../portals/career-portal.php",
+            link: "../portals/career-portal",
           },
           {
             name: "Learning Materials",
             imgSrc: "../assets/images/learning-materials-by-portals.png",
             description:
               "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik InformatiKa dan Umum/MKDU). Pada Portal ini juga menyediakan berbagai macam Kumpulan Materi dan Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
-            link: "../portals/learning-materials.php",
+            link: "../portals/learning-materials",
           },
           {
             name: "Entertainment Portal",
             imgSrc: "../assets/images/entertainment-portal-by-portals.png",
             description:
               "Merupakan Portal untuk Pusat Hiburan seperti Kumpulan Video dan Live Streaming di YouTube, Kumpulan Akun-akun Media Sosial, hingga Kumpulan Playlist Lagu seperti Spotify.",
-            link: "../portals/entertainment-portal.php",
+            link: "../portals/entertainment-portal",
           },
           {
             name: "Link Pages",
             imgSrc: "../assets/images/link-pages-by-portals.png",
             description:
               "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
-            link: "../portals/link-pages.php",
+            link: "../portals/link-pages",
           },
           {
             name: "Muslims Portal",
             imgSrc: "../assets/images/muslim-portal-by-portals.png",
             description:
               "Merupakan Portal untuk Kumpulan Pusat Keagamaan dan Peribadatan Islam, seperti Jadwal Shalat & Puasa, Kalender Hijriah, Kompas Arah Kiblat, hingga Al-Qur'an Digital.",
-            link: "../portals/muslim-portal.php",
+            link: "../portals/muslim-portal",
           },
           {
             name: "Miscellaneous",
             imgSrc: "../assets/images/miscellaneous-by-portals.png",
             description:
               "Merupakan Halaman lainnya yang tidak termasuk dari Kategori di Portal ini, dan juga tersedia untuk Halaman apa saja.",
-            link: "../portals/miscellaneous.php",
+            link: "../portals/miscellaneous",
           },
           {
             name: "Lorem Ipsum",
@@ -350,7 +399,7 @@
         Kalkulator, Generator, Formatter, dan lainnya.
       </p>
       <section class="group-button">
-        <a href="../pages/apps.php" class="main-button">Click here</a>
+        <a href="../apps" class="main-button">Click here</a>
       </section>
     </div>
     <section class="group-content">
@@ -372,49 +421,49 @@
             imgSrc: "../assets/images/converters-by-pages-apps.png",
             description:
               "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
-            link: "../apps/converter.php",
+            link: "../apps/converter",
           },
           {
             name: "Calculators",
             imgSrc: "../assets/images/calculators-by-pages-apps.png",
             description:
               "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
-            link: "../apps/calculators.php",
+            link: "../apps/calculators",
           },
           {
             name: "Generators",
             imgSrc: "../assets/images/generators-by-pages-apps.png",
             description:
               "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
-            link: "../apps/generators.php",
+            link: "../apps/generators",
           },
           {
             name: "Formatters",
             imgSrc: "../assets/images/formatters-by-pages-apps.png",
             description:
               "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
-            link: "../apps/formatters.php",
+            link: "../apps/formatters",
           },
           {
             name: "File Converter",
             imgSrc: "../assets/images/file-converters-by-pages-apps.png",
             description:
               "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
-            link: "../apps/file-converter.php",
+            link: "../apps/file-converter",
           },
           {
             name: "Utilities",
             imgSrc: "../assets/images/utilities-by-pages-apps.png",
             description:
               "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
-            link: "../apps/utilities.php",
+            link: "../apps/utilities",
           },
           {
             name: "Tester Tools",
             imgSrc: "../assets/images/tester-tools-by-pages-apps.png",
             description:
               "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
-            link: "../apps/tester-tools.php",
+            link: "../apps/tester-tools",
           },
         ],
       };
@@ -463,8 +512,7 @@
       </p>
       <section class="group-button">
         <a
-          href="../inzaghis-group/inzaghis-blog.php"
-          target="_blank"
+          href="../inzaghis-blog"
           class="main-button"
           >Click here</a
         >
@@ -575,8 +623,7 @@
       </p>
       <section class="group-button">
         <a
-          href="../inzaghis-group/inzaghis-media.php"
-          target="_blank"
+          href="../inzaghis-media"
           class="main-button"
           >Click here</a
         >
