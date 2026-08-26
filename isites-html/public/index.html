@@ -1269,14 +1269,57 @@
                       >Laravel (Coming Soon)</span
                     >
                   </div>
-                  <button type="button">
-                    <a
-                      href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel"
-                      target="_blank"
-                      class="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                      >Click here</a
+                  <div
+                    x-data="{ open: false }"
+                    class="relative inline-flex min-w-[100px] sm:min-w-1"
+                  >
+                    <button
+                      @click="open = !open"
+                      type="button"
+                      class="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white dark:bg-blue-600 dark:hover:bg-blue-700"
                     >
-                  </button>
+                      Click here
+                      <svg
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        data-slot="icon"
+                        aria-hidden="true"
+                        class="-mr-1 size-4 md:size-5 text-white transition-transform duration-200"
+                        :class="{ 'rotate-180': open }"
+                      >
+                        <path
+                          d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                          clip-rule="evenodd"
+                          fill-rule="evenodd"
+                        />
+                      </svg>
+                    </button>
+                    <div
+                      x-show="open"
+                      x-transition:enter="transition ease-out duration-100"
+                      x-transition:enter-start="opacity-0 scale-95"
+                      x-transition:enter-end="opacity-100 scale-100"
+                      x-transition:leave="transition ease-in duration-75"
+                      x-transition:leave-start="opacity-100 scale-100"
+                      x-transition:leave-end="opacity-0 scale-95"
+                      class="absolute left-0 sm:left-auto sm:right-0 top-full z-50 mt-1 w-48 rounded-lg bg-gray-100 shadow-xl outline outline-1 outline-black/5"
+                      style="display: none"
+                    >
+                      <div class="py-1">
+                        <a
+                          href="https://inzaghi.infinityfreeapp.com"
+                          class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 hover:text-gray-900"
+                          >Link</a
+                        >
+                        <a
+                          href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel"
+                          target="_blank"
+                          class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 hover:text-gray-900"
+                          >Repository</a
+                        >
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <p class="is-desc">
                   Pada Branch ini, akan dibangun dan dikembangkan ulang dengan
@@ -1299,14 +1342,57 @@
                       >React.js (Coming Soon)</span
                     >
                   </div>
-                  <button type="button">
-                    <a
-                      href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-react"
-                      target="_blank"
-                      class="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                      >Click here</a
+                  <div
+                    x-data="{ open: false }"
+                    class="relative inline-flex min-w-[100px] sm:min-w-1"
+                  >
+                    <button
+                      @click="open = !open"
+                      type="button"
+                      class="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white dark:bg-blue-600 dark:hover:bg-blue-700"
                     >
-                  </button>
+                      Click here
+                      <svg
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        data-slot="icon"
+                        aria-hidden="true"
+                        class="-mr-1 size-4 md:size-5 text-white transition-transform duration-200"
+                        :class="{ 'rotate-180': open }"
+                      >
+                        <path
+                          d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                          clip-rule="evenodd"
+                          fill-rule="evenodd"
+                        />
+                      </svg>
+                    </button>
+                    <div
+                      x-show="open"
+                      x-transition:enter="transition ease-out duration-100"
+                      x-transition:enter-start="opacity-0 scale-95"
+                      x-transition:enter-end="opacity-100 scale-100"
+                      x-transition:leave="transition ease-in duration-75"
+                      x-transition:leave-start="opacity-100 scale-100"
+                      x-transition:leave-end="opacity-0 scale-95"
+                      class="absolute left-0 sm:left-auto sm:right-0 top-full z-50 mt-1 w-48 rounded-lg bg-gray-100 shadow-xl outline outline-1 outline-black/5"
+                      style="display: none"
+                    >
+                      <div class="py-1">
+                        <a
+                          href="https://inzaghis-sites.vercel.app"
+                          class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 hover:text-gray-900"
+                          >Link</a
+                        >
+                        <a
+                          href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-react"
+                          target="_blank"
+                          class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300 hover:text-gray-900"
+                          >Repository</a
+                        >
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <p class="is-desc">
                   Pada Branch ini, juga akan dibangun dan dikembangkan ulang
