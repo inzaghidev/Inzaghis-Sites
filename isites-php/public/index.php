@@ -132,12 +132,27 @@
                 🛠️ Laravel (Coming Soon)
               </h3>
               <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
-                <a
-                  href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel"
-                  target="_blank"
-                  class="btn btn-primary col-12 col-md-10"
-                  >Click here</a
-                >
+                <div class="dropdown">
+                  <button
+                    class="btn btn-primary dropdown-toggle col-12 col-md-10"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Click here
+                  </button>
+                  <div
+                    class="dropdown-menu w-100"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="https://inzaghi.infinityfreeapp.com">Link</a>
+                    <a class="dropdown-item" target="_blank" href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel"
+                      >Repository</a
+                    >
+                  </div>
+                </div>
                 <br />
               </section>
             </div>
@@ -153,12 +168,27 @@
                 ⚛️ React.js (Coming Soon)
               </h3>
               <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
-                <a
-                  href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-react"
-                  target="_blank"
-                  class="btn btn-primary col-12 col-md-10"
-                  >Click here</a
-                >
+                <div class="dropdown">
+                  <button
+                    class="btn btn-primary dropdown-toggle col-12 col-md-10"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Click here
+                  </button>
+                  <div
+                    class="dropdown-menu w-100"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="https://inzaghis-sites.vercel.app">Link</a>
+                    <a class="dropdown-item" target="_blank" href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-react"
+                      >Repository</a
+                    >
+                  </div>
+                </div>
                 <br />
               </section>
             </div>
