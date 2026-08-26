@@ -117,7 +117,7 @@ function NavItem({ item, onNavigate }) {
     );
   }
 
-  const { label, href, to, ...props } = item;
+  const { label, href, ...props } = item;
 
   return (
     <a

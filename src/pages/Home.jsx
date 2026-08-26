@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
@@ -70,6 +72,35 @@ function Collection({ title, description, items }) {
         ))}
       </div>
     </section>
+  );
+}
+
+function BranchMenu({ liveUrl, repositoryUrl }) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div className="branchMenu">
+      <button
+        type="button"
+        className="branchButton branchMenuToggle"
+        aria-expanded={open}
+        onClick={() => setOpen((isOpen) => !isOpen)}
+      >
+        Click here
+        <ChevronDown
+          aria-hidden="true"
+          className={`branchMenuIcon${open ? " isOpen" : ""}`}
+        />
+      </button>
+      {open && (
+        <div className="branchMenuDropdown">
+          <a href={liveUrl}>Link</a>
+          <a href={repositoryUrl} target="_blank" rel="noreferrer">
+            Repository
+          </a>
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -188,7 +219,7 @@ export default function Home() {
                       </div>
                       <a
                         href="https://inzaghi.wuaze.com"
-                        className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        className="branchButton inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                       >
                         Click here
                       </a>
@@ -215,7 +246,7 @@ export default function Home() {
                       </div>
                       <a
                         href="https://preview.inzaghi.wuaze.com"
-                        className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        className="branchButton inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                       >
                         Click here
                       </a>
@@ -243,7 +274,7 @@ export default function Home() {
                       </div>
                       <a
                         href="https://old.inzaghi.wuaze.com"
-                        className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        className="branchButton inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                       >
                         Click here
                       </a>
@@ -268,13 +299,10 @@ export default function Home() {
                           Laravel (Coming Soon)
                         </span>
                       </div>
-                      <a
-                        href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel"
-                        target="_blank"
-                        className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                      >
-                        Click here
-                      </a>
+                      <BranchMenu
+                        liveUrl="https://inzaghi.infinityfreeapp.com"
+                        repositoryUrl="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-laravel"
+                      />
                     </div>
                     <p className="is-desc">
                       Pada Branch ini, akan dibangun dan dikembangkan ulang
@@ -295,13 +323,10 @@ export default function Home() {
                           React.js (Coming Soon)
                         </span>
                       </div>
-                      <a
-                        href="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-react"
-                        target="_blank"
-                        className="inline-flex items-center px-4 py-2 md:px-6 lg:py-2.5 xl:px-8 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-gray-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                      >
-                        Click here
-                      </a>
+                      <BranchMenu
+                        liveUrl="https://inzaghis-sites.vercel.app"
+                        repositoryUrl="https://github.com/inzaghidev/Inzaghis-Sites/tree/isites-react"
+                      />
                     </div>
                     <p className="is-desc">
                       Pada Branch ini, juga akan dibangun dan dikembangkan ulang

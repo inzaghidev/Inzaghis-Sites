@@ -121,6 +121,70 @@ footer li {
   margin: 10px 0 0;
   color: #64748b;
 }
+.branchButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #2563eb;
+  text-decoration: none;
+  transition: background-color 0.18s ease;
+}
+.branchButton:hover {
+  color: #fff;
+  background: #1d4ed8;
+}
+.branchMenu {
+  position: relative;
+  display: inline-flex;
+}
+.branchMenuToggle {
+  gap: 4px;
+  padding: 13px 20px;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 750;
+}
+.branchMenuIcon {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+.branchMenuIcon.isOpen {
+  transform: rotate(180deg);
+}
+.branchMenuDropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 50;
+  width: min(192px, calc(100vw - 32px));
+  padding: 4px 0;
+  border-radius: 10px;
+  background: #f3f4f6;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.16);
+  outline: 1px solid rgba(0, 0, 0, 0.05);
+}
+.branchMenuDropdown a {
+  display: block;
+  padding: 8px 16px;
+  color: #374151;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+.branchMenuDropdown a:hover {
+  color: #111827;
+  background: #d1d5db;
+}
+@media (min-width: 640px) {
+  .branchMenuDropdown {
+    right: 0;
+    left: auto;
+  }
+}
 .siteTextLink {
   color: #059669;
   font-size: 0.88rem;
