@@ -208,7 +208,7 @@ export default function Home() {
                     <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
                       <div className="flex items-center">
                         <img
-                          src="/public/icons/git-branch.svg"
+                          src="/icons/git-branch.svg"
                           alt="Git Branch Icon"
                           width="44"
                           height="44"
@@ -235,7 +235,7 @@ export default function Home() {
                     <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
                       <div className="flex items-center">
                         <img
-                          src="/public/icons/rocket-01.svg"
+                          src="/icons/rocket-01.svg"
                           alt="Rocket Icon 1"
                           width="44"
                           height="44"
@@ -263,7 +263,7 @@ export default function Home() {
                     <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
                       <div className="flex items-center">
                         <img
-                          src="/public/icons/square-arrow-down-double.svg"
+                          src="/icons/square-arrow-down-double.svg"
                           alt="Square Arrow Down Double"
                           width="44"
                           height="44"
@@ -290,7 +290,7 @@ export default function Home() {
                     <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
                       <div className="flex items-center">
                         <img
-                          src="/public/icons/web-design-02.svg"
+                          src="/icons/web-design-02.svg"
                           alt="Web Design"
                           width="44"
                           height="44"
@@ -314,7 +314,7 @@ export default function Home() {
                     <div className="flex justify-between flex-wrap gap-2 mb-4 w-full">
                       <div className="flex items-center">
                         <img
-                          src="/public/icons/atom-02.svg"
+                          src="/icons/atom-02.svg"
                           alt="Web Design"
                           width="44"
                           height="44"
