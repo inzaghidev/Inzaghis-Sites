@@ -26,43 +26,43 @@
     //     "name" => "Converters",
     //     "imgSrc" => "../assets/images/converters-by-pages-apps.png",
     //     "description" => "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
-    //     "link" => "../page-apps/converter.php"
+    //     "link" => "../apps/converter"
     //   ],
     //   [
     //     "name" => "Calculators",
     //     "imgSrc" => "../assets/images/calculators-by-pages-apps.png",
     //     "description" => "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
-    //     "link" => "../page-apps/calculators.php"
+    //     "link" => "../apps/calculators"
     //   ],
     //   [
     //     "name" => "Generators",
     //     "imgSrc" => "../assets/images/generators-by-pages-apps.png",
     //     "description" => "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
-    //     "link" => "../page-apps/generators.php"
+    //     "link" => "../apps/generators"
     //   ],
     //   [
     //     "name" => "Formatters",
     //     "imgSrc" => "../assets/images/formatters-by-pages-apps.png",
     //     "description" => "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
-    //     "link" => "../page-apps/formatters.php"
+    //     "link" => "../apps/formatters"
     //   ],
     //   [
     //     "name" => "File Converter",
     //     "imgSrc" => "../assets/images/file-converters-by-pages-apps.png",
     //     "description" => "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
-    //     "link" => "../page-apps/file-converter.php"
+    //     "link" => "../apps/file-converter"
     //   ],
     //   [
     //     "name" => "Utilities",
     //     "imgSrc" => "../assets/images/utilities-by-pages-apps.png",
     //     "description" => "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
-    //     "link" => "../page-apps/utilities.php"
+    //     "link" => "../apps/utilities"
     //   ],
     //   [
     //     "name" => "Tester Tools",
     //     "imgSrc" => "../assets/images/tester-tools-by-pages-apps.png",
     //     "description" => "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
-    //     "link" => "../page-apps/tester-tools.php"
+    //     "link" => "../apps/tester-tools"
     //   ],
     //   [
     //     "name" => "Coming Soon",

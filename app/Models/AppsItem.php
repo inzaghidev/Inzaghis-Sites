@@ -24,43 +24,43 @@ class AppsItem
                 "Converters",
                 "../assets/images/converters-by-pages-apps.png",
                 "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
-                "../page-apps/converter.php"
+                "../apps/converter"
             ),
             new self(
                 "Calculators",
                 "../assets/images/calculators-by-pages-apps.png",
                 "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
-                "../page-apps/calculators.php"
+                "../apps/calculators"
             ),
             new self(
                 "Generators",
                 "../assets/images/generators-by-pages-apps.png",
                 "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
-                "../page-apps/generators.php"
+                "../apps/generators"
             ),
             new self(
                 "Formatters",
                 "../assets/images/formatters-by-pages-apps.png",
                 "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
-                "../page-apps/formatters.php"
+                "../apps/formatters"
             ),
             new self(
                 "File Converter",
                 "../assets/images/file-converters-by-pages-apps.png",
                 "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
-                "../page-apps/file-converter.php"
+                "../apps/file-converter"
             ),
             new self(
                 "Utilities",
                 "../assets/images/utilities-by-pages-apps.png",
                 "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
-                "../page-apps/utilities.php"
+                "../apps/utilities"
             ),
             new self(
                 "Tester Tools",
                 "../assets/images/tester-tools-by-pages-apps.png",
                 "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
-                "../page-apps/tester-tools.php"
+                "../apps/tester-tools"
             ),
             new self(
                 "Coming Soon",
