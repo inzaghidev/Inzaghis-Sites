@@ -168,6 +168,7 @@ export default function Navbar() {
         >
           <img
             src="/icons/inzaghis-sites-logo-vertical-transparent.png"
+            title="Inzaghi's Sites"
             alt="Inzaghi's Sites"
           />
         </Link>

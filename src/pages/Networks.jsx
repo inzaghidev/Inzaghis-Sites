@@ -201,92 +201,156 @@ export default function Networks() {
             </section>
           </section>
           <div className="container inzaghismedia mx-auto">
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-4 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-300">
-                <div className="p-6 mb-auto">
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-400">
+                <div class="p-6 mb-auto">
                   <img
-                    src="/icons/instagram-logo-withcolor.svg"
+                    src="../icons/instagram-logo-withcolor.svg"
                     alt="Instagram Logo"
                     width="44"
                     height="44"
                   />
-                  <h5 className="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl mt-4">
+                  <h5 class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl">
                     Instagram
                   </h5>
-                  <p className="socmed-description block antialiased leading-relaxed text-inherit">
+                  <p class="socmed-description block antialiased leading-relaxed text-inherit">
                     Sebagai Postingan berbentuk Gambar Persegi dan sebagai
                     Asisten dari Inzaghi's Blog.
                   </p>
                 </div>
-                <div className="p-6 pt-0">
-                  <div className="btn flex justify-center mt-4">
-                    <a
-                      href="https://www.instagram.com/enzapost"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
-                    >
-                      @enzapost
-                    </a>
+                <div class="p-6 pt-0">
+                  <div class="btn flex justify-center mt-4">
+                    <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2.5 py-1 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                      <a
+                        href="https://www.instagram.com/enzapost"
+                        target="_blank"
+                        class="button-link px-3.5 py-1.5"
+                      >
+                        @enzapost
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
-              <div className="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-4 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-300">
-                <div className="p-6 mb-auto">
+              <div class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-400">
+                <div class="p-6 mb-auto">
                   <img
-                    src="/icons/tiktok-logo-withcolor.svg"
+                    src="../icons/tiktok-logo-withcolor.svg"
                     alt="TikTok Logo"
                     width="44"
                     height="44"
                   />
-                  <h5 className="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl mt-4">
+                  <h5 class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl">
                     TikTok
                   </h5>
-                  <p className="socmed-description block antialiased leading-relaxed text-inherit">
+                  <p class="socmed-description block antialiased leading-relaxed text-inherit">
                     Sebagai Postingan berbentuk Video Vertikal (Portrait) yang
                     dapat di-Scrolling seperti Video Tutorial/Tips dan Informasi
                     Singkat.
                   </p>
                 </div>
-                <div className="p-6 pt-0">
-                  <div className="btn flex justify-center mt-4">
-                    <a
-                      href="https://www.tiktok.com/@enzapostmedia"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
-                    >
-                      @enzapostmedia
-                    </a>
+                <div class="p-6 pt-0">
+                  <div class="btn flex justify-center mt-4">
+                    <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2.5 py-1 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                      <a
+                        href="https://www.tiktok.com/@enzapostmedia"
+                        target="_blank"
+                        class="button-link px-3.5 py-1.5"
+                      >
+                        @enzapostmedia
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
-              <div className="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-4 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-300">
-                <div className="p-6 mb-auto">
+              <div class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-400">
+                <div class="p-6 mb-auto">
                   <img
-                    src="/icons/youtube-logo-withcolor.svg"
+                    src="../icons/youtube-logo-withcolor.svg"
                     alt="YouTube Logo"
                     width="44"
                     height="44"
                   />
-                  <h5 className="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl mt-4">
+                  <h5 class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl">
                     YouTube
                   </h5>
-                  <p className="socmed-description block antialiased leading-relaxed text-inherit">
+                  <p class="socmed-description block antialiased leading-relaxed text-inherit">
                     Sebagai sebuah Channel yang berbentuk Video seperti
                     Tutorial, Video Shorts, hingga Demo Aplikasi/Project.
                   </p>
                 </div>
-                <div className="p-6 pt-0">
-                  <div className="btn flex justify-center mt-4">
-                    <a
-                      href="https://www.youtube.com/@enzavlogpost"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
-                    >
-                      Inzaghi's Media
-                    </a>
+                <div class="p-6 pt-0">
+                  <div class="btn flex justify-center mt-4">
+                    <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2.5 py-1 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                      <a
+                        href="https://www.youtube.com/@enzavlogpost"
+                        target="_blank"
+                        class="button-link px-3.5 py-1.5"
+                      >
+                        Inzaghi's Media
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-400">
+                <div class="p-6 mb-auto">
+                  <img
+                    src="../icons/x-twitter-logo.svg"
+                    alt="X Logo"
+                    width="44"
+                    height="44"
+                  />
+                  <h5 class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl">
+                    X (Twitter)
+                  </h5>
+                  <p class="socmed-description block antialiased leading-relaxed text-inherit">
+                    Sebagai Postingan berbentuk Repost/Retweet, Utasan/Tulisan,
+                    hingga Postingan-postingan dari Inzaghi's Blog.
+                  </p>
+                </div>
+                <div class="p-6 pt-0">
+                  <div class="btn flex justify-center mt-4">
+                    <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2.5 py-1 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                      <a
+                        href="https://x.com/InzaTechMedia"
+                        target="_blank"
+                        class="button-link px-3.5 py-1.5"
+                      >
+                        @InzaTechMedia
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="relative flex flex-col mt-6 text-gray-700 bg-red-200 shadow-lg bg-clip-border bg-opacity-40 backdrop-filter backdrop-blur-xl rounded-xl ring-2 ring-red-200 hover:ring-3 hover:ring-red-300 hover:bg-red-200 w-full transition-all duration-400">
+                <div class="p-6 mb-auto">
+                  <img
+                    src="../icons/threads-logo.svg"
+                    alt="Threads Logo"
+                    width="44"
+                    height="44"
+                  />
+                  <h5 class="socmed-name block mb-2 antialiased font-semibold leading-snug tracking-normal text-blue-gray-900 text-3xl">
+                    Threads
+                  </h5>
+                  <p class="socmed-description block antialiased leading-relaxed text-inherit">
+                    Sama seperti di X, Sebagai Postingan berbentuk Repost,
+                    Utasan/Tulisan, hingga Postingan-postingan dari Instagram
+                    dan Inzaghi's Blog.
+                  </p>
+                </div>
+                <div class="p-6 pt-0">
+                  <div class="btn flex justify-center mt-4">
+                    <button class="text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-2.5 py-1 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                      <a
+                        href="https://www.threads.net/@enzapost"
+                        target="_blank"
+                        class="button-link px-3.5 py-1.5"
+                      >
+                        @enzapost
+                      </a>
+                    </button>
                   </div>
                 </div>
               </div>
