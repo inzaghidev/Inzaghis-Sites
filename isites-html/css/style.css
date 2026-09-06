@@ -481,53 +481,6 @@ svg:not(:root) {
   display: flex;
 }
 
-/* #posts {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-#posts article {
-  margin-bottom: 50px;
-}
-
-#posts h2 {
-  margin-bottom: 15px;
-  line-height: 1.4;
-}
-
-#posts img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-#posts p {
-  line-height: 1.8;
-  margin-bottom: 16px;
-}
-
-#posts a {
-  color: #2563eb;
-}
-
-#posts iframe {
-  max-width: 100%;
-}
-
-#posts table {
-  width: 100%;
-  overflow-x: auto;
-}
-
-.blog-post {
-  background: #fff;
-  padding: 24px;
-  margin-bottom: 30px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-} */
-
 .card-name {
   margin-bottom: var(--margin-bottom-12);
   text-align: center;
@@ -1697,12 +1650,6 @@ svg:not(:root) {
     margin-right: auto;
   }
 
-  .apps-portals-container {
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .button-link {
     color: var(--color-white);
   }
@@ -1743,6 +1690,12 @@ svg:not(:root) {
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 12vh;
+  }
+
+  .apps-portals-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .is-desc {

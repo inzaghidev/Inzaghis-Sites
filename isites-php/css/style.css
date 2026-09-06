@@ -1650,12 +1650,6 @@ svg:not(:root) {
     margin-right: auto;
   }
 
-  .apps-portals-container {
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .button-link {
     color: var(--color-white);
   }
@@ -1696,6 +1690,12 @@ svg:not(:root) {
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 12vh;
+  }
+
+  .apps-portals-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .is-desc {

@@ -1,14 +1,52 @@
+<!-- UNDER CONSTRUCTION! -->
+
 <?php
   $page_title = "Pages";
   include('../layouts/header.php');
   include('../components/navbar/navbar.php');
   $data = json_decode(file_get_contents('../data/apps-data.json'), true);
 
-  if (isset($data['pages'])) {
-      $apps = $data['pages'];
-  } else {
-      $apps = []; // Atau tangani kesalahan dengan lebih baik sesuai kebutuhan Anda
-  }
+  $sections = [
+    [
+      "section" => "Section 1",
+      "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "columnClass" => "col-md-4 col-sm-6 mb-4",
+      "apps" => [
+        [
+          "title" => "App 1",
+          "text" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "link" => "#"
+        ],
+        [
+          "title" => "App 2",
+          "text" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "link" => "#"
+        ],
+        [
+          "title" => "App 3",
+          "text" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "link" => "#"
+        ]
+      ]
+    ],
+    [
+      "section" => "Section 2",
+      "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "columnClass" => "col-md-4 col-sm-6 mb-4",
+      "apps" => [
+        [
+          "title" => "App 1",
+          "text" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "link" => "#"
+        ],
+        [
+          "title" => "App 2",
+          "text" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "link" => "#"
+        ]
+      ]
+    ]
+  ];
 ?>
 
 <div class="container-top"></div>
@@ -41,29 +79,33 @@
             // Tampilkan deskripsi yang ditemukan
             echo $foundDescription;
           ?>
+
+          <?php foreach ($sections as $section): ?>
+            <div class="card-body card-apps card shadow-lg bg-white mb-4">
+              <div class="card-grid-container">
+                <h2 class="col"><?= $section['section'] ?></h2>
+                <div class="text-container col">
+                  <p class="is-desc"><?= $section['description'] ?></p>
+                </div>
+                <div class="row">
+                  <?php
+                    foreach ($section['apps'] as $app) {
+                      echo '<div class="' . $section['columnClass'] . '">';
+                      echo '  <div class="card card-apps h-100 shadow-lg border border-success card-animated">';
+                      echo '    <div class="card-body card-apps-body">';
+                      echo '      <h5 class="card-apps-title">' . $app["title"] . '</h5>';
+                      echo '      <p class="card-text card-apps-text card-description">' . $app["text"] . '</p>';
+                      echo '      <a href="' . $app["link"] . '" class="btn btn-primary apps-button">Click here</a>';
+                      echo '    </div>';
+                      echo '  </div>';
+                      echo '</div>';
+                    }
+                  ?>
+                </div>
+              </div>
+            </div>
+          <?php endforeach ?>
         </p>
-        <div class="card-grid-container">
-          <div class="row">
-            <?php
-              // Loop through each app data and create the HTML structure
-              foreach ($apps as $app) {
-                $title = isset($app['title']) ? $app['title'] : 'N/A';
-                $text = isset($app['text']) ? $app['text'] : '';
-                $link = isset($app['link']) ? $app['link'] : '#';
-                
-                echo '<div class="col-md-4 col-sm-6 mb-4">';
-                echo '  <div class="card card-apps h-100 shadow-lg border border-success card-animated">';
-                echo '    <div class="card-body card-apps-body">';
-                echo '      <h5 class="card-apps-title">' . $app["title"] . '</h5>';
-                echo '      <p class="card-text card-apps-text card-description">' . $app["text"] . '</p>';
-                echo '      <a href="' . $app["link"] . '" class="btn btn-primary apps-button">Click here</a>';
-                echo '    </div>';
-                echo '  </div>';
-                echo '</div>';
-              }
-            ?>
-          </div>
-        </div>
       </section>
     </div>
   </div>
