@@ -319,7 +319,7 @@ export default function Home() {
                           height="44"
                         />
                         <span className="text-2xl ml-3 text-gray-700 font-bold font-[Inter]">
-                          React.js (New Soon)
+                          React.js (New UI)
                         </span>
                       </div>
                       <BranchMenu

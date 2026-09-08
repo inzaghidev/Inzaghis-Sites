@@ -43,7 +43,8 @@ export default function About() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Situs awal di 000webhost
+                Situs awal di 000webhost (Tidak dapat diakses lagi karena telah
+                ditutup oleh Hostinger)
               </a>
               <a
                 href="https://inzaghi.wuaze.com"
