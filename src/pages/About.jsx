@@ -21,14 +21,16 @@ export default function About() {
           <article className="siteCopyCard">
             <h2>Satu pintu untuk seluruh layanan</h2>
             <p>
-              Inzaghi&apos;s Sites merupakan platform layanan situs web untuk
-              mengakses seluruh layanan Inzaghi&apos;s Group, termasuk
-              Inzaghi&apos;s Blog, Inzaghi&apos;s Media, dan Inzaghi&apos;s Dev.
+              Inzaghi's Sites yang baru ini digunakan sebagai Situs Web untuk
+              mengakses Konten-konten apapun, baik itu dari Inzaghi's Blog
+              maupun di Inzaghi's Media. Dan juga, Situs kami di sini akan
+              menggantikan Website yang lama di Google Sites.
             </p>
             <p>
-              Situs ini memudahkan akses ke berbagai aplikasi dan portal
-              berbasis web, seperti widget, tutorial teknologi, konverter,
-              kalkulator, generator, dan banyak lagi.
+              Inzaghi's Sites juga memudahkan Anda untuk mengakses Aplikasi dan
+              Portal apapun yang berbasis Web seperti yang tersedia pada Portals
+              dan Apps seperti Widget, Tutorial Teknologi, Konverter,
+              Kalkulator, Generator, dan lain-lainnya.
             </p>
             <p>
               Versi baru Inzaghi&apos;s Sites menggantikan situs lama dan terus

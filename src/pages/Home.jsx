@@ -296,7 +296,7 @@ export default function Home() {
                           height="44"
                         />
                         <span className="text-2xl ml-3 text-gray-700 font-bold font-[Inter]">
-                          Laravel (Coming Soon)
+                          Laravel (Old UI)
                         </span>
                       </div>
                       <BranchMenu
@@ -305,9 +305,8 @@ export default function Home() {
                       />
                     </div>
                     <p className="is-desc">
-                      Pada Branch ini, akan dibangun dan dikembangkan ulang
-                      dengan menggunakan Laravel. Untuk sementara, masih
-                      tersedia di dalam Branch pada Repository GitHub kami.
+                      Merupakan Cabang/Branch Inzaghi's Sites yang dibangun
+                      dengan menggunakan Laravel, yang sifatnya Eksperimental.
                     </p>
                   </div>
                   <div className="items-center justify-between pb-3 pt-3 last:pb-0">
@@ -320,7 +319,7 @@ export default function Home() {
                           height="44"
                         />
                         <span className="text-2xl ml-3 text-gray-700 font-bold font-[Inter]">
-                          React.js (Coming Soon)
+                          React.js (New Soon)
                         </span>
                       </div>
                       <BranchMenu
@@ -329,9 +328,8 @@ export default function Home() {
                       />
                     </div>
                     <p className="is-desc">
-                      Pada Branch ini, juga akan dibangun dan dikembangkan ulang
-                      dengan menggunakan React.js. Untuk sementara, masih
-                      tersedia di dalam Branch pada Repository GitHub kami.
+                      Merupakan Cabang/Branch Inzaghi's Sites yang dibangun
+                      dengan menggunakan React.js, yang sifatnya Eksperimental.
                     </p>
                   </div>
                 </div>
@@ -654,8 +652,9 @@ export default function Home() {
             <p className="siteEyebrow">INZAGHI'S GROUP</p>
             <h2>Terhubung dengan jaringan kami.</h2>
             <p>
-              Temukan berbagai layanan konten, teknologi, dan platform kreatif
-              dari Inzaghi&apos;s Group.
+              Inzaghi's Group (Inzaghi's Corp / InzaTech) merupakan Layanan
+              Konten yang berbasis Teknologi dan Sains yang memudahkan Anda
+              untuk mengakses Informasi yang bermanfaat.
             </p>
             <Link className="sitePrimaryButton" to="/networks">
               Lihat jaringan
