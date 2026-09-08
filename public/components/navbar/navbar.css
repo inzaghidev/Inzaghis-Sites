@@ -52,10 +52,11 @@
     position: fixed;
     /* top: 0; */
     z-index: 10;
-    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
-        0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow:
+        0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 4px 6px -1px #fff, 0 2px 4px -2px #fff;
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    box-shadow:
+        var(--tw-ring-offset-shadow, 0 0 #0000),
         var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     border-style: solid;
 }
@@ -400,7 +401,9 @@ li a:hover::after {
     .nav-menu-container {
         order: 5;
         width: 100vw;
-        transition: all, transform 400ms;
+        transition:
+            all,
+            transform 400ms;
         transform: translateY(0px) translateX(0px);
     }
 

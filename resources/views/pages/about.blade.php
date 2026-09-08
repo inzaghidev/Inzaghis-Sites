@@ -42,7 +42,7 @@
               >. Mulai Tanggal 12 Agustus 2024 (7 Shafar 1446 H), Inzaghi's
               Sites Resmi Pindah ke Situs Barunya di InfinityFree, dikarenakan
               di Situs Percobaan kami di 000webhost sudah tidak dapat diakses
-              lagi.
+              lagi dan telah ditutup oleh Hostinger.
           </p>
         </div>
       </div>

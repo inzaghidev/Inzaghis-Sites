@@ -121,7 +121,7 @@
         <li class="list-group-item card-body">
           <div class="text-black row -mx-1">
             <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
-              🛠️ Laravel (Coming Soon)
+              🛠️ Laravel (Old UI)
             </h3>
             <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
               <div class="dropdown">
@@ -156,15 +156,14 @@
             </section>
           </div>
           <p class="card-text is-desc">
-            Pada Branch ini, akan dibangun dan dikembangkan ulang dengan
-            menggunakan Laravel. Untuk sementara, masih tersedia di dalam
-            Branch pada Repository GitHub kami.
+            Merupakan Cabang/Branch Inzaghi's Sites yang dibangun dengan
+            menggunakan Laravel, yang sifatnya Eksperimental.
           </p>
         </li>
         <li class="list-group-item card-body">
           <div class="text-black row -mx-1">
             <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
-              ⚛️ React.js (Coming Soon)
+              ⚛️ React.js (New UI)
             </h3>
             <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
               <div class="dropdown">
@@ -199,9 +198,8 @@
             </section>
           </div>
           <p class="card-text is-desc">
-            Pada Branch ini, juga akan dibangun dan dikembangkan ulang
-            dengan menggunakan React.js. Untuk sementara, masih tersedia di
-            dalam Branch pada Repository GitHub kami.
+            Merupakan Cabang/Branch Inzaghi's Sites yang dibangun dengan
+            menggunakan React.js, yang sifatnya Eksperimental.
           </p>
         </li>
       </ul>
@@ -829,66 +827,28 @@
 </section>
 <section class="inzaghis-group-network shadow">
   <div class="inzaghis-group-wrapper">
-    <div class="inzaghis-group-network-description">
-      <h2 class="inzaghis-group-heading">Inzaghi's Group Network</h2>
-      <div class="inzaghis-group-container">
-        <img
-          src="{{URL::asset('assets/icons/inzaghis-group-logo-vertical-transparent.png')}}"
-          height="60px"
-          alt="logo"
-        />
-        <p class="inzaghis-group-description">
-          Inzaghi's Group (Inzaghi's Corp) merupakan Layanan Konten yang
-          berbasis Teknologi dan Sains yang memudahkan Anda untuk mengakses
-          Informasi yang bermanfaat.
-        </p>
-        <section class="group-button inzaghis-group-button">
-          <a href="../networks" class="main-button">DETAILS</a>
+    <section class="group-wrapper">
+      <section class="group-content reverse-content">
+        <section class="group-image">
+          <img
+            src="{{URL::asset('assets/images/inzaghis-group-partners.png')}}"
+            alt="Inzaghi's Group"
+            style="width: 600px"
+          />
         </section>
-      </div>
-    </div>
-    <div class="logo-grid">
-      <img
-        src="{{URL::asset('assets/icons/inzaghis-blog-logo-vertical-transparent.png')}}"
-        height="60px"
-        alt="logo"
-      />
-      <img
-        src="{{URL::asset('assets/icons/inzaghis-sites-logo-vertical-transparent.png')}}"
-        height="60px"
-        alt="logo"
-      />
-      <img
-        src="{{URL::asset('assets/icons/inzaghis-media-logo-vertical-transparent.png')}}"
-        height="60px"
-        alt="logo"
-      />
-      <img
-        src="{{URL::asset('assets/icons/inzaghis-dev-logo-vertical-transparent.png')}}"
-        height="60px"
-        alt="logo"
-      />
-      <img
-        src="{{URL::asset('assets/icons/inzaghis-archives-logo-vertical-transparent.png')}}"
-        height="60px"
-        alt="logo"
-      />
-      <img
-        src="{{URL::asset('assets/icons/inzaghis-app-logo-vertical-transparent.png')}}"
-        height="60px"
-        alt="logo"
-      />
-      <img
-        src="{{URL::asset('assets/icons/inzaghis-ai-logo-vertical-transparent.png')}}"
-        height="60px"
-        alt="logo"
-      />
-      <img
-        src="{{URL::asset('assets/icons/inzaghis-shop-logo-vertical-transparent.png')}}"
-        height="60px"
-        alt="logo"
-      />
-    </div>
+        <section class="inzaghismedia-description">
+          <h2 class="group-title">Inzaghi's Group Network</h2>
+          <p class="inzaghis-group-description">
+            Inzaghi's Group (Inzaghi's Corp / InzaTech) merupakan Layanan
+            Konten yang berbasis Teknologi dan Sains yang memudahkan Anda
+            untuk mengakses Informasi yang bermanfaat.
+          </p>
+          <section class="group-button">
+            <a href="../networks" class="main-button">Details</a>
+          </section>
+        </section>
+      </section>
+    </section>
   </div>
 </section>
 @endsection

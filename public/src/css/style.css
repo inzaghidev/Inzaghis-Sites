@@ -862,7 +862,8 @@ svg:not(:root) {
 }
 
 .card-animated:hover {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2),
+    box-shadow:
+        0 20px 25px -5px rgba(0, 0, 0, 0.2),
         0 10px 10px -5px rgba(0, 0, 0, 0.1) !important;
 
     background: rgba(255, 255, 255, 0.4);
@@ -1156,11 +1157,10 @@ svg:not(:root) {
 }
 
 .inzaghis-group-wrapper {
-    max-width: 820px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .inzaghis-group-heading {
@@ -1179,12 +1179,13 @@ svg:not(:root) {
 
 .inzaghis-group-description {
     width: 100%;
+    text-align: left;
     max-width: 1080px;
     font-size: var(--font-size-16);
     line-height: 1.6;
     margin-bottom: var(--margin-bottom-20);
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: var(--font-family);
 }
 
@@ -1248,6 +1249,7 @@ svg:not(:root) {
     max-width: 600px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: var(--margin-top-20);
 }
 
 .inzaghismedia {
@@ -1807,11 +1809,13 @@ svg:not(:root) {
 */
 
     .inzaghis-group-description {
+        text-align: left;
+        max-width: 800px;
         font-size: var(--font-size-14);
         line-height: 1.6;
         margin-bottom: var(--margin-bottom-20);
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: auto;
+        margin-right: auto;
         font-family: var(--font-family);
     }
 
@@ -1833,11 +1837,10 @@ svg:not(:root) {
     }
 
     .inzaghis-group-wrapper {
-        max-width: 820px;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .inzaghis-group-network-description {
@@ -2520,12 +2523,14 @@ svg:not(:root) {
 */
 
     .inzaghis-group-description {
+        text-align: left;
+        max-width: 800px;
         font-size: var(--font-size-14);
         line-height: 1.6;
         margin-top: var(--margin-top-20);
         margin-bottom: var(--margin-bottom-20);
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: auto;
+        margin-right: auto;
         font-family: var(--font-family);
     }
 
@@ -2557,10 +2562,10 @@ svg:not(:root) {
     }
 
     .inzaghis-group-wrapper {
-        max-width: 820px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .inzaghis-group-network-description {
