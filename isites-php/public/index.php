@@ -129,7 +129,7 @@
           <li class="list-group-item card-body">
             <div class="text-black row -mx-1">
               <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
-                🛠️ Laravel (Coming Soon)
+                🛠️ Laravel (Old UI)
               </h3>
               <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
                 <div class="dropdown">
@@ -157,15 +157,14 @@
               </section>
             </div>
             <p class="card-text is-desc">
-              Pada Branch ini, akan dibangun dan dikembangkan ulang dengan
-              menggunakan Laravel. Untuk sementara, masih tersedia di dalam
-              Branch pada Repository GitHub kami.
+              Merupakan Cabang/Branch Inzaghi's Sites yang dibangun dengan
+              menggunakan Laravel, yang sifatnya Eksperimental.
             </p>
           </li>
           <li class="list-group-item card-body">
             <div class="text-black row -mx-1">
               <h3 class="col-7 col-sm-8 col-md-9 col-lg-10">
-                ⚛️ React.js (Coming Soon)
+                ⚛️ React.js (New UI)
               </h3>
               <section class="group-button col-5 col-sm-4 col-md-3 col-lg-2">
                 <div class="dropdown">
@@ -193,9 +192,8 @@
               </section>
             </div>
             <p class="card-text is-desc">
-              Pada Branch ini, juga akan dibangun dan dikembangkan ulang
-              dengan menggunakan React.js. Untuk sementara, masih tersedia di
-              dalam Branch pada Repository GitHub kami.
+              Merupakan Cabang/Branch Inzaghi's Sites yang dibangun dengan
+              menggunakan React.js, yang sifatnya Eksperimental.
             </p>
           </li>
         </ul>
@@ -742,9 +740,9 @@
             alt="logo"
           />
           <p class="inzaghis-group-description">
-            Inzaghi's Group (Inzaghi's Corp) merupakan Layanan Konten yang
-            berbasis Teknologi dan Sains yang memudahkan Anda untuk mengakses
-            Informasi yang bermanfaat.
+            Inzaghi's Group (Inzaghi's Corp / InzaTech) merupakan Layanan
+            Konten yang berbasis Teknologi dan Sains yang memudahkan Anda
+            untuk mengakses Informasi yang bermanfaat.
           </p>
             <section class="group-button inzaghis-group-button">
               <a href="../pages/networks.php" class="main-button">DETAILS</a>
