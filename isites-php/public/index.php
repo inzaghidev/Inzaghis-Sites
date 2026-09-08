@@ -207,7 +207,7 @@
                   />
                   <span
                     class="text-2xl ml-3 text-gray-700 font-bold font-[Inter]"
-                    >Laravel (Coming Soon)</span
+                    >Laravel (Old UI)</span
                   >
                 </div>
                 <div
@@ -263,9 +263,8 @@
                 </div>
               </div>
               <p class="is-desc">
-                Pada Branch ini, akan dibangun dan dikembangkan ulang dengan
-                menggunakan Laravel. Untuk sementara, masih tersedia di dalam
-                Branch pada Repository GitHub kami.
+                Merupakan Cabang/Branch Inzaghi's Sites yang dibangun dengan
+                menggunakan Laravel, yang sifatnya Eksperimental.
               </p>
             </div>
             <div class="items-center justify-between pb-3 pt-3 last:pb-0">
@@ -279,7 +278,7 @@
                   />
                   <span
                     class="text-2xl ml-3 text-gray-700 font-bold font-[Inter]"
-                    >React.js (Coming Soon)</span
+                    >React.js (New UI)</span
                   >
                 </div>
                 <div
@@ -335,9 +334,8 @@
                 </div>
               </div>
               <p class="is-desc">
-                Pada Branch ini, juga akan dibangun dan dikembangkan ulang
-                dengan menggunakan React.js. Untuk sementara, masih tersedia
-                di dalam Branch pada Repository GitHub kami.
+                Merupakan Cabang/Branch Inzaghi's Sites yang dibangun dengan
+                menggunakan React.js, yang sifatnya Eksperimental.
               </p>
             </div>
           </div>
@@ -960,66 +958,28 @@
   </section>
   <section class="inzaghis-group-network">
     <div class="inzaghis-group-wrapper">
-      <div class="inzaghis-group-network-description">
-        <h2 class="inzaghis-group-heading">Inzaghi's Group Network</h2>
-        <div class="inzaghis-group-container">
-          <img
-            src="../assets/icons/inzaghis-group-logo-vertical-transparent.png"
-            class="logo-icon h-16 w-auto"
-            alt="logo"
-          />
-          <p class="inzaghis-group-description">
-            Inzaghi's Group (Inzaghi's Corp) merupakan Layanan Konten yang
-            berbasis Teknologi dan Sains yang memudahkan Anda untuk mengakses
-            Informasi yang bermanfaat.
-          </p>
-            <section class="group-button inzaghis-group-button">
-              <a href="../pages/networks.php" class="main-button">DETAILS</a>
+      <section class="group-wrapper">
+        <section class="group-content reverse-content">
+          <section class="group-image">
+            <img
+              src="../assets/images/inzaghis-group-partners.png"
+              alt="Inzaghi's Group"
+              style="width: 600px"
+            />
+          </section>
+          <section class="inzaghismedia-description">
+            <h2 class="group-title">Inzaghi's Group Network</h2>
+            <p class="inzaghis-group-description">
+              Inzaghi's Group (Inzaghi's Corp) merupakan Layanan Konten yang
+              berbasis Teknologi dan Sains yang memudahkan Anda untuk
+              mengakses Informasi yang bermanfaat.
+            </p>
+            <section class="group-button">
+              <a href="../pages/networks.html" class="main-button">Details</a>
             </section>
-        </div>
-      </div>
-      <div class="logo-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-        <img
-          src="../assets/icons/inzaghis-blog-logo-vertical-transparent.png"
-          class="logo-icon h-16 w-auto"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-sites-logo-vertical-transparent.png"
-          class="logo-icon h-16 w-auto"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-media-logo-vertical-transparent.png"
-          class="logo-icon h-16 w-auto"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-dev-logo-vertical-transparent.png"
-          class="logo-icon h-16 w-auto"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-archives-logo-vertical-transparent.png"
-          class="logo-icon h-16 w-auto"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-app-logo-vertical-transparent.png"
-          class="logo-icon h-16 w-auto"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-ai-logo-vertical-transparent.png"
-          class="logo-icon h-16 w-auto"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-shop-logo-vertical-transparent.png"
-          class="logo-icon h-16 w-auto"
-          alt="logo"
-        />
-      </div>
+          </section>
+        </section>
+      </section>
     </div>
   </section>
 <?php
