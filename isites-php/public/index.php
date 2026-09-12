@@ -975,7 +975,7 @@
               mengakses Informasi yang bermanfaat.
             </p>
             <section class="group-button">
-              <a href="../pages/networks.html" class="main-button">Details</a>
+              <a href="../pages/networks.php" class="main-button">Details</a>
             </section>
           </section>
         </section>

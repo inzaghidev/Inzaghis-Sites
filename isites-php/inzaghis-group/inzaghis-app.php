@@ -18,7 +18,7 @@
           </p>
           <section class="group-button">
             <a
-              href="#"
+              href="https://github.com/inzaghidev/Inzaghis-App"
               target="_blank"
               class="main-button"
               >Click here</a
