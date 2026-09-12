@@ -18,7 +18,7 @@
               Inzaghi's App akan tersedia dalam Versi Android dan iOS.
             </p>
             <section class="group-button">
-              <a href="#" target="_blank" class="main-button">Click here</a>
+              <a href="https://github.com/inzaghidev/Inzaghis-App" target="_blank" class="main-button">Click here</a>
             </section>
           </div>
           <section class="group-content">
