@@ -731,66 +731,28 @@
   </section>
   <section class="inzaghis-group-network shadow">
     <div class="inzaghis-group-wrapper">
-      <div class="inzaghis-group-network-description">
-        <h2 class="inzaghis-group-heading">Inzaghi's Group Network</h2>
-        <div class="inzaghis-group-container">
-          <img
-            src="../assets/icons/inzaghis-group-logo-vertical-transparent.png"
-            height="60px"
-            alt="logo"
-          />
-          <p class="inzaghis-group-description">
-            Inzaghi's Group (Inzaghi's Corp / InzaTech) merupakan Layanan
-            Konten yang berbasis Teknologi dan Sains yang memudahkan Anda
-            untuk mengakses Informasi yang bermanfaat.
-          </p>
-            <section class="group-button inzaghis-group-button">
-              <a href="../pages/networks.php" class="main-button">DETAILS</a>
+      <section class="group-wrapper">
+        <section class="group-content reverse-content">
+          <section class="group-image">
+            <img
+              src="../assets/images/inzaghis-group-partners.png"
+              alt="Inzaghi's Group"
+              style="width: 600px"
+            />
+          </section>
+          <section class="inzaghismedia-description">
+            <h2 class="group-title">Inzaghi's Group Network</h2>
+            <p class="inzaghis-group-description">
+              Inzaghi's Group (Inzaghi's Corp / InzaTech) merupakan Layanan
+              Konten yang berbasis Teknologi dan Sains yang memudahkan Anda
+              untuk mengakses Informasi yang bermanfaat.
+            </p>
+            <section class="group-button">
+              <a href="../pages/networks.php" class="main-button">Details</a>
             </section>
-        </div>
-      </div>
-      <div class="logo-grid">
-        <img
-          src="../assets/icons/inzaghis-blog-logo-vertical-transparent.png"
-          height="60px"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-sites-logo-vertical-transparent.png"
-          height="60px"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-media-logo-vertical-transparent.png"
-          height="60px"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-dev-logo-vertical-transparent.png"
-          height="60px"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-archives-logo-vertical-transparent.png"
-          height="60px"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-app-logo-vertical-transparent.png"
-          height="60px"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-ai-logo-vertical-transparent.png"
-          height="60px"
-          alt="logo"
-        />
-        <img
-          src="../assets/icons/inzaghis-shop-logo-vertical-transparent.png"
-          height="60px"
-          alt="logo"
-        />
-      </div>
+          </section>
+        </section>
+      </section>
     </div>
   </section>
 <?php
