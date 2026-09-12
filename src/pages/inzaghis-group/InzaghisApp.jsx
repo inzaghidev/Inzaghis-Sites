@@ -21,7 +21,11 @@ export default function InzagisApp() {
               Inzaghi's App akan tersedia dalam Versi Android dan iOS.
             </p>
             <section className="group-button">
-              <a href="#" target="_blank" className="main-button">
+              <a
+                href="https://github.com/inzaghidev/Inzaghis-App"
+                target="_blank"
+                className="main-button"
+              >
                 Click here
               </a>
             </section>
