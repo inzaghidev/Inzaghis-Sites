@@ -1,12 +1,5 @@
 @php
-    $webRoot = realpath(dirname(base_path())); // Laravel: base_path untuk root project
-    $serverRoot = realpath($_SERVER['DOCUMENT_ROOT']);
-
-    if ($webRoot === $serverRoot) {
-        $pathToWebRoot = "";
-    } else {
-        $pathToWebRoot = substr($webRoot, strlen($serverRoot) + 1);
-    }
+    $pathToWebRoot = request()->getBaseUrl();
 @endphp
 
 <!DOCTYPE html>
