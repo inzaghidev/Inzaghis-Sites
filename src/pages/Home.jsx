@@ -190,7 +190,7 @@ export default function Home() {
                     Informasi.
                   </div>
                   <div className="mt-1 text-sm text-green-600 dark:text-green-700 font-bold font-[Inter]">
-                    Coming Soon in September 2026!
+                    Coming Soon in October 2026!
                   </div>
                 </div>
               </div>
