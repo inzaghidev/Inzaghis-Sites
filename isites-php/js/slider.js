@@ -1,70 +1,80 @@
-const container = document.querySelector(".slider-container");
+document.querySelectorAll(".slider-carousel").forEach((carousel) => {
+  const track = carousel.querySelector(".carousel-track");
+  const previousButton = carousel.querySelector("[data-carousel-prev]");
+  const nextButton = carousel.querySelector("[data-carousel-next]");
+  const pagination = carousel.querySelector(".carousel-pagination");
 
-// Pastikan elemen swiper menyesuaikan lebar container
-const adjustSwiperWidth = () => {
-  const swiperElement = document.querySelector(".swiper");
-  const pagination = document.querySelector(".swiper-pagination");
-  const nextButton = document.querySelector(".swiper-button-next");
-  const prevButton = document.querySelector(".swiper-button-prev");
+  if (!track || !previousButton || !nextButton || !pagination) return;
 
-  if (swiperElement) {
-    const containerWidth = container.getBoundingClientRect().width;
+  let pageCount = 1;
 
-    swiperElement.style.maxWidth = `${containerWidth}px`;
-    pagination.style.maxWidth = `${containerWidth}px`;
+  const updateControls = () => {
+    const activePage = Math.min(
+      pageCount - 1,
+      Math.round(track.scrollLeft / track.clientWidth),
+    );
 
-    // Posisi navigasi di tengah
-    nextButton.style.right = "0px";
-    prevButton.style.left = "0px";
-  }
-};
+    previousButton.disabled = activePage === 0;
+    nextButton.disabled = activePage === pageCount - 1;
 
-// Panggil fungsi saat halaman dimuat dan ketika ukuran jendela berubah
-adjustSwiperWidth();
-window.addEventListener("resize", adjustSwiperWidth);
+    pagination.querySelectorAll(".carousel-page").forEach((page, index) => {
+      page.setAttribute("aria-current", String(index === activePage));
+    });
+  };
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Swiper Portals
-  const portalsSwiper = new Swiper(".portals-swiper", {
-    slidesPerView: 3,
-    spaceBetween: 25,
-    loop: true,
-    grabCursor: true,
-    pagination: {
-      el: ".swiper-pagination-portals",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".portals-swiper-button-next",
-      prevEl: ".portals-swiper-button-prev",
-    },
-    breakpoints: {
-      0: { slidesPerView: 1 },
-      480: { slidesPerView: 2 },
-      720: { slidesPerView: 3 },
-      1120: { slidesPerView: 4 },
-    },
+  const renderPagination = () => {
+    const firstSlide = track.querySelector(".carousel-slide");
+    const slideGap = parseFloat(getComputedStyle(track).columnGap) || 0;
+    const slideWidth =
+      firstSlide?.getBoundingClientRect().width ?? track.clientWidth;
+    const visibleSlides = Math.max(
+      1,
+      Math.round(track.clientWidth / (slideWidth + slideGap)),
+    );
+    pageCount = Math.max(1, Math.ceil(track.children.length / visibleSlides));
+    pagination.replaceChildren();
+    previousButton.hidden = pageCount === 1;
+    nextButton.hidden = pageCount === 1;
+    pagination.hidden = pageCount === 1;
+
+    for (let index = 0; index < pageCount; index += 1) {
+      const page = document.createElement("button");
+      page.className = "carousel-page";
+      page.type = "button";
+      page.setAttribute("aria-label", `Show page ${index + 1}`);
+      page.addEventListener("click", () => {
+        track.scrollTo({
+          left: Math.min(
+            index * track.clientWidth,
+            track.scrollWidth - track.clientWidth,
+          ),
+          behavior: "smooth",
+        });
+      });
+      pagination.appendChild(page);
+    }
+
+    updateControls();
+  };
+
+  previousButton.addEventListener("click", () => {
+    track.scrollBy({ left: -track.clientWidth, behavior: "smooth" });
   });
-
-  // Swiper Apps
-  const appsSwiper = new Swiper(".apps-swiper", {
-    slidesPerView: 3,
-    spaceBetween: 25,
-    loop: true,
-    grabCursor: true,
-    pagination: {
-      el: ".swiper-pagination-apps",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".apps-swiper-button-next",
-      prevEl: ".apps-swiper-button-prev",
-    },
-    breakpoints: {
-      0: { slidesPerView: 1 },
-      480: { slidesPerView: 2 },
-      720: { slidesPerView: 3 },
-      1120: { slidesPerView: 4 },
-    },
+  nextButton.addEventListener("click", () => {
+    track.scrollBy({ left: track.clientWidth, behavior: "smooth" });
   });
+  track.addEventListener("scroll", updateControls, { passive: true });
+  track.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+      event.preventDefault();
+      track.scrollBy({
+        left:
+          event.key === "ArrowRight" ? track.clientWidth : -track.clientWidth,
+        behavior: "smooth",
+      });
+    }
+  });
+  window.addEventListener("resize", renderPagination);
+
+  renderPagination();
 });

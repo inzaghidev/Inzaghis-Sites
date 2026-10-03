@@ -7,8 +7,6 @@
   $jsonData = file_get_contents($jsonFile);
   $appsData = json_decode($jsonData, true);
 ?>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <section class="welcome shadow">
     <div class="welcome-container">
       <div class="welcome-title">
@@ -214,14 +212,16 @@
         </section>
       </div>
       <section class="group-content">
-        <div class="row swiper-container">
-          <div class="swiper portals-swiper">
-            <div class="swiper-wrapper" id="portalsContainer"></div>
-          </div>
-          <div class="swiper-button-next portals-swiper-button-next"></div>
-          <div class="swiper-button-prev portals-swiper-button-prev"></div>
-          <div class="swiper-pagination swiper-pagination-portals"></div>
+        <div class="carousel-control-row">
+          <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous portals">
+            <i class="fas fa-chevron-left" aria-hidden="true"></i>
+          </button>
+          <div class="carousel-track" id="portalsContainer" tabindex="0" role="group" aria-label="Portals"></div>
+          <button class="carousel-button" type="button" data-carousel-next aria-label="Next portals">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </button>
         </div>
+        <div class="carousel-pagination" aria-label="Portals pages"></div>
       </section>
     
       <script>
@@ -304,9 +304,9 @@
        
         portalsData.apps.forEach((app) => {
           const slide = document.createElement("div");
-          slide.className = "swiper-slide";
+          slide.className = "carousel-slide";
           slide.innerHTML = `
-          <div class="card card-swiper card-apps h-100 border-success shadow">
+          <div class="card card-carousel card-apps h-100 border-success shadow">
             <a href="${app.link}">
               <img
                 src="${app.imgSrc}"
@@ -331,7 +331,6 @@
         });
       </script>
     </div>
-    <script src="../js/slider.js"></script>
   </section>
   <section class="slider-carousel shadow">
     <div class="slider-container">
@@ -347,14 +346,16 @@
         </section>
       </div>
       <section class="group-content">
-        <div class="row swiper-container">
-          <div class="swiper apps-swiper">
-            <div class="swiper-wrapper" id="appsContainer"></div>
-          </div>
-          <div class="swiper-button-next apps-swiper-button-next"></div>
-          <div class="swiper-button-prev apps-swiper-button-prev"></div>
-          <div class="swiper-pagination swiper-pagination-apps"></div>
+        <div class="carousel-control-row">
+          <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous apps">
+            <i class="fas fa-chevron-left" aria-hidden="true"></i>
+          </button>
+          <div class="carousel-track" id="appsContainer" tabindex="0" role="group" aria-label="Apps"></div>
+          <button class="carousel-button" type="button" data-carousel-next aria-label="Next apps">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </button>
         </div>
+        <div class="carousel-pagination" aria-label="Apps pages"></div>
       </section>
     
       <script>
@@ -416,9 +417,9 @@
       
         appsData.apps.forEach((app) => {
           const slide = document.createElement("div");
-          slide.className = "swiper-slide";
+          slide.className = "carousel-slide";
           slide.innerHTML = `
-          <div class="card card-swiper card-apps h-100 border-success shadow">
+          <div class="card card-carousel card-apps h-100 border-success shadow">
             <a href="${app.link}">
               <img
                 src="${app.imgSrc}"
@@ -464,7 +465,7 @@
         </section>
       </div>
       <div class="container inzaghisblog">
-        <div class="row">
+        <div class="row card-grid-row">
           <div class="col-md-4 col-sm-6 mb-4">
             <div class="card card-apps h-100 border-0 shadow">
               <img
@@ -576,7 +577,7 @@
         </section>
       </div>
       <div class="container inzaghismedia">
-        <div class="row">
+        <div class="row card-grid-row">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
               <div class="border-0 h-100 shadow opacity-75 socmed-card">
                 <img
