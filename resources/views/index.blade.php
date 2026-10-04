@@ -216,110 +216,20 @@
         Pembelajaran, dan lainnya.
       </p>
       <section class="group-button">
-        <a href="../portals" class="main-button">Click here</a>
+        <a href="../pages/portals" class="main-button">Click here</a>
       </section>
     </div>
     <section class="group-content">
-      <div id="hcg-slider-1" class="hcg-slider">
-        <div class="hcg-slide-container">
-          <div class="hcg-slider-body card border border-success shadow">
-            <a class="hcg-slides animated" style="display: flex">
-              <span class="hcg-slide-number">1/6</span>
-              <img src="{{URL::asset('assets/images/widgets-by-portals.png')}}" alt="" />
-              <span class="hcg-slide-text">Widgets</span>
-            </a>
-          </div>
-          <a href="#" id="hcg-slide-prev">&#10094;</a>
-          <a href="#" id="hcg-slide-next">&#10095;</a>
-        </div>
-        <div class="hcg-slide-dot-control"></div>
-      </div>
-      <section
-        class="content-description border border-success card h-100 shadow opacity-75 p-3"
-      >
-        <!--section class="content-description"-->
-        <h2 class="group-title">Widgets</h2>
-        <p class="left-subheading">
-          Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan
-          Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang
-          heboh saat ini.
-        </p>
-        <button type="button" class="btn btn-primary btn-md">
-          <a href="../portals/widgets" class="button-link">Click here</a>
+      <div class="carousel-control-row">
+        <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous portals">
+          <i class="fas fa-chevron-left" aria-hidden="true"></i>
         </button>
-      </section>
-    </section>
-  </div>
-  <script src="{{URL::asset('src/js.slider.js')}}"></script>
-</section>
-<section class="slider-carousel shadow">
-  <div class="slider-container">
-    <h2 class="title-heading">Apps</h2>
-    <div class="text-container">
-      <p class="text-description">
-        Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai
-        kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter,
-        Kalkulator, Generator, Formatter, dan lainnya.
-      </p>
-      <section class="group-button">
-        <a href="../apps" class="main-button">Click here</a>
-      </section>
-    </div>
-    <section class="group-content">
-      <div id="hcg-slider-1" class="hcg-slider">
-        <div class="hcg-slide-container">
-          <div class="hcg-slider-body card border border-success shadow">
-            <a class="hcg-slides animated" style="display: flex">
-              <span class="hcg-slide-number">1/6</span>
-              <img src="{{URL::asset('assets/images/converters-by-pages-apps.png')}}" alt="" />
-              <span class="hcg-slide-text">Converters</span>
-            </a>
-          </div>
-          <a href="#" id="hcg-slide-prev">&#10094;</a>
-          <a href="#" id="hcg-slide-next">&#10095;</a>
-        </div>
-        <div class="hcg-slide-dot-control"></div>
-      </div>
-      <section
-        class="content-description border border-success card h-100 shadow opacity-75 p-3"
-      >
-        <!--section class="content-description"-->
-        <h2 class="group-title">Converters</h2>
-        <p class="left-subheading">
-          Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa
-          (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi
-          Konverter ini akan sedikit menggunakan API.
-        </p>
-        <button type="button" class="btn btn-primary btn-md">
-          <a href="../apps/converter" class="button-link">Click here</a>
+        <div class="carousel-track" id="portalsContainer" tabindex="0" role="group" aria-label="Portals"></div>
+        <button class="carousel-button" type="button" data-carousel-next aria-label="Next portals">
+          <i class="fas fa-chevron-right" aria-hidden="true"></i>
         </button>
-      </section>
-    </section>
-  </div>
-  <script src="{{URL::asset('src/js.slider.js')}}"></script>
-</section>
-{{-- <section class="slider-carousel shadow">
-  <div class="slider-container">
-    <h2 class="title-heading">Portals</h2>
-    <div class="text-container">
-      <p class="text-description">
-        Portals merupakan Halaman Portal yang tersedia untuk berbagai
-        kebutuhan apapun seperti Widgets, Tutorial Teknologi, Materi
-        Pembelajaran, dan lainnya.
-      </p>
-      <section class="group-button">
-        <a href="../portals" class="main-button">Click here</a>
-      </section>
-    </div>
-    <section class="group-content">
-      <div class="row swiper-container">
-        <div class="swiper portals-swiper">
-          <div class="swiper-wrapper" id="portalsContainer"></div>
-        </div>
-        <div class="swiper-button-next portals-swiper-button-next"></div>
-        <div class="swiper-button-prev portals-swiper-button-prev"></div>
-        <div class="swiper-pagination swiper-pagination-portals"></div>
       </div>
+      <div class="carousel-pagination" aria-label="Portals pages"></div>
     </section>
   
     <script>
@@ -402,9 +312,9 @@
      
       portalsData.apps.forEach((app) => {
         const slide = document.createElement("div");
-        slide.className = "swiper-slide";
+        slide.className = "carousel-slide";
         slide.innerHTML = `
-        <div class="card card-swiper card-apps h-100 border-success shadow">
+        <div class="card card-carousel card-apps h-100 border-success shadow">
           <a href="${app.link}">
             <img
               src="${app.imgSrc}"
@@ -429,7 +339,6 @@
       });
     </script>
   </div>
-  <script src="../js/slider.js"></script>
 </section>
 <section class="slider-carousel shadow">
   <div class="slider-container">
@@ -441,18 +350,20 @@
         Kalkulator, Generator, Formatter, dan lainnya.
       </p>
       <section class="group-button">
-        <a href="../apps" class="main-button">Click here</a>
+        <a href="../pages/apps" class="main-button">Click here</a>
       </section>
     </div>
     <section class="group-content">
-      <div class="row swiper-container">
-        <div class="swiper apps-swiper">
-          <div class="swiper-wrapper" id="appsContainer"></div>
-        </div>
-        <div class="swiper-button-next apps-swiper-button-next"></div>
-        <div class="swiper-button-prev apps-swiper-button-prev"></div>
-        <div class="swiper-pagination swiper-pagination-apps"></div>
+      <div class="carousel-control-row">
+        <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous apps">
+          <i class="fas fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <div class="carousel-track" id="appsContainer" tabindex="0" role="group" aria-label="Apps"></div>
+        <button class="carousel-button" type="button" data-carousel-next aria-label="Next apps">
+          <i class="fas fa-chevron-right" aria-hidden="true"></i>
+        </button>
       </div>
+      <div class="carousel-pagination" aria-label="Apps pages"></div>
     </section>
   
     <script>
@@ -514,9 +425,9 @@
     
       appsData.apps.forEach((app) => {
         const slide = document.createElement("div");
-        slide.className = "swiper-slide";
+        slide.className = "carousel-slide";
         slide.innerHTML = `
-        <div class="card card-swiper card-apps h-100 border-success shadow">
+        <div class="card card-carousel card-apps h-100 border-success shadow">
           <a href="${app.link}">
             <img
               src="${app.imgSrc}"
@@ -541,8 +452,7 @@
       });
     </script>
   </div>
-  <script src="../js/slider.js"></script>
-</section> --}}
+</section>
 <section class="inzaghis-blog shadow">
   <div class="inzaghis-blog-container">
     <h2 class="title-heading">Our Blog</h2>
@@ -561,7 +471,7 @@
       </section>
     </div>
     <div class="container inzaghisblog">
-      <div class="row">
+      <div class="row card-grid-row">
         <div class="col-md-4 col-sm-6 mb-4">
           <div class="card card-apps h-100 border-0 shadow">
             <img
@@ -672,7 +582,7 @@
       </section>
     </div>
     <div class="container inzaghismedia">
-      <div class="row">
+      <div class="row card-grid-row">
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="border-0 h-100 shadow opacity-75 socmed-card">
               <img
