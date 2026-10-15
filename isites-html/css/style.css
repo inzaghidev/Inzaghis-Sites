@@ -531,58 +531,121 @@ svg:not(:root) {
   word-wrap: break-word;
 }
 
-.swiper-container {
-  /* overflow: hidden !important;
-  margin: 0 auto !important; */
+.carousel-control-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
   max-width: 1200px;
-  width: 100%;
-  padding: 20px 0 20px 30px !important;
+  margin: 0 auto;
+  padding: 20px 0 8px;
 }
 
-.swiper {
-  width: 100%;
-  max-width: 1280px;
-  box-sizing: border-box; /* Pastikan padding dihitung dalam lebar */
+.carousel-track {
+  display: flex;
+  flex: 1;
+  gap: 25px;
+  min-width: 0;
+  overflow-x: auto;
+  padding: 4px 2px 16px;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-color: #75808a #e8ecef;
+  scrollbar-width: thin;
 }
 
-.swiper-slide {
-  flex-shrink: 0;
-  width: auto !important; /* Atur lebar slide secara otomatis berdasarkan konten */
-  display: flex; /* Untuk memastikan tata letak kartu rapi */
-  justify-content: center; /* Pusatkan kartu */
-  box-sizing: border-box;
+.carousel-slide {
+  display: flex;
+  flex: 0 0 calc((100% - 75px) / 4);
+  min-width: 0;
+  scroll-snap-align: start;
 }
 
-.card-swiper {
+.card-carousel {
   width: 100%;
-  max-width: 300px;
-  flex-shrink: 0;
   overflow: hidden;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 
-.swiper-pagination {
-  top: 10px !important;
-  position: relative !important;
-  z-index: 9 !important;
+.carousel-button {
+  display: grid;
+  flex: 0 0 40px;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid #c8d0d6;
+  border-radius: 50%;
+  background: #fff;
+  color: #17232d;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-  color: #000;
-  position: absolute;
-  top: 52% !important;
-  transform: translateY(-50%);
-  z-index: 9 !important;
+.carousel-button:disabled {
+  opacity: 0.4;
+  cursor: default;
 }
 
-.swiper-button-next {
-  right: 10px !important;
+.carousel-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  min-height: 20px;
+  margin: 0 auto 12px;
 }
 
-.swiper-button-prev {
-  left: 10px !important;
+.carousel-page {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #aab4bc;
+  cursor: pointer;
+}
+
+.carousel-page[aria-current="true"] {
+  background: #24784c;
+  transform: scale(1.25);
+}
+
+@media (max-width: 1120px) {
+  .carousel-slide {
+    flex-basis: calc((100% - 50px) / 3);
+  }
+}
+
+@media (max-width: 719px) {
+  .carousel-track {
+    gap: 16px;
+  }
+
+  .carousel-slide {
+    flex-basis: calc((100% - 16px) / 2);
+  }
+}
+
+@media (max-width: 479px) {
+  .carousel-control-row {
+    gap: 6px;
+  }
+
+  .carousel-button {
+    flex-basis: 32px;
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .carousel-track {
+    gap: 12px;
+  }
+
+  .carousel-slide {
+    flex-basis: 100%;
+  }
 }
 
 .hcg-slider {
@@ -797,6 +860,10 @@ svg:not(:root) {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+}
+
+.slider-carousel .group-content {
+  display: block;
 }
 
 .banner-info {
@@ -1381,6 +1448,61 @@ svg:not(:root) {
 
 .inzagroup-pages {
   min-width: 300px;
+}
+
+.card-grid-row > [class*="col-"] {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 480px) {
+  .card-grid-row > [class*="col-"] {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 720px) {
+  .card-grid-row > [class*="col-"] {
+    flex-basis: 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width: 1121px) {
+  .card-grid-row > [class*="col-"] {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 720px) {
+  .inzaghisblog .card-grid-row > [class*="col-"] {
+    flex-basis: 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+.carousel-track > .carousel-slide {
+  flex-basis: 100%;
+}
+
+@media (min-width: 480px) {
+  .carousel-track > .carousel-slide {
+    flex-basis: calc((100% - 16px) / 2);
+  }
+}
+
+@media (min-width: 720px) {
+  .carousel-track > .carousel-slide {
+    flex-basis: calc((100% - 50px) / 3);
+  }
+}
+
+@media (min-width: 1121px) {
+  .carousel-track > .carousel-slide {
+    flex-basis: calc((100% - 75px) / 4);
+  }
 }
 
 /* Responsive Styles for Tablet */
