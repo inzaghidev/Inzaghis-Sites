@@ -7,8 +7,6 @@
   $jsonData = file_get_contents('../data/apps-data.json');
   $appsData = json_decode($jsonData, true);
 ?>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <section class="welcome">
     <div class="welcome-container">
       <div class="welcome-title">
@@ -356,18 +354,39 @@
           <a href="../pages/portals.php" class="main-button">Click here</a>
         </section>
       </div>
-      <section class="group-content">
-        <div class="swiper-container flex flex-wrap">
-          <div class="swiper portals-swiper">
-            <div class="swiper-wrapper" id="portalsContainer"></div>
-            <div class="swiper-button-next portals-swiper-button-next"></div>
-            <div class="swiper-button-prev portals-swiper-button-prev"></div>
-            <div class="swiper-pagination portals-swiper-pagination"></div>
+      <section class="group-content carousel-content">
+        <div class="carousel-controls">
+          <button
+            type="button"
+            id="portalsPrevBtn"
+            class="carousel-nav"
+            aria-label="Previous slide"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+            </svg>
+          </button>
+
+          <div class="carousel-viewport overflow-x-scroll" id="portalsSliderWrapper">
+            <div class="carousel-track" id="portalsContainer"></div>
           </div>
+
+          <button
+            type="button"
+            id="portalsNextBtn"
+            class="carousel-nav"
+            aria-label="Next slide"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </button>
         </div>
+
+        <div id="portalsDots" class="carousel-dots" aria-label="Portals carousel pagination"></div>
       </section>
     </div>
-  
+
     <script>
       const portalsData = {
         apps: [
@@ -420,13 +439,13 @@
               "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
             link: "../portals/link-pages.php",
           },
-            {
-              name: "Muslims Portal",
-              imgSrc: "../assets/images/muslim-portal-by-portals.png",
-              description:
-                "Merupakan Portal untuk Kumpulan Pusat Keagamaan dan Peribadatan Islam, seperti Jadwal Shalat & Puasa, Kalender Hijriah, Kompas Arah Kiblat, hingga Al-Qur'an Digital.",
-              link: "../portals/muslim-portal.php",
-            },
+          {
+            name: "Muslims Portal",
+            imgSrc: "../assets/images/muslim-portal-by-portals.png",
+            description:
+              "Merupakan Portal untuk Kumpulan Pusat Keagamaan dan Peribadatan Islam, seperti Jadwal Shalat & Puasa, Kalender Hijriah, Kompas Arah Kiblat, hingga Al-Qur'an Digital.",
+            link: "../portals/muslim-portal.php",
+          },
           {
             name: "Miscellaneous",
             imgSrc: "../assets/images/miscellaneous-by-portals.png",
@@ -443,12 +462,12 @@
           },
         ],
       };
-  
+
       const portalsContainer = document.getElementById("portalsContainer");
-  
+
       portalsData.apps.forEach((app) => {
         const slide = document.createElement("div");
-        slide.className = "swiper-slide w-full sm:w-1/2 lg:w-1/3 px-4 mb-4";
+        slide.className = "carousel-slide w-full sm:w-1/2 lg:w-1/3 px-4 mb-4";
         slide.innerHTML = `
           <div class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#f5faf5] ring-1 ring-gray-300">
             <div class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
@@ -480,7 +499,6 @@
         portalsContainer.appendChild(slide);
       });
     </script>
-    <script src="../js/slider.js"></script>
   </section>
   <section class="slider-carousel">
     <div class="slider-container">
@@ -495,18 +513,39 @@
           <a href="../pages/apps.php" class="main-button">Click here</a>
         </section>
       </div>
-      <section class="group-content">
-        <div class="swiper-container flex flex-wrap">
-          <div class="swiper apps-swiper">
-            <div class="swiper-wrapper" id="appsContainer"></div>
-            <div class="swiper-button-next apps-swiper-button-next"></div>
-            <div class="swiper-button-prev apps-swiper-button-prev"></div>
-            <div class="swiper-pagination apps-swiper-pagination"></div>
+      <section class="group-content carousel-content">
+        <div class="carousel-controls">
+          <button
+            type="button"
+            id="appsPrevBtn"
+            class="carousel-nav"
+            aria-label="Previous slide"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+            </svg>
+          </button>
+
+          <div class="carousel-viewport overflow-x-scroll" id="appsSliderWrapper">
+            <div class="carousel-track" id="appsContainer"></div>
           </div>
+
+          <button
+            type="button"
+            id="appsNextBtn"
+            class="carousel-nav"
+            aria-label="Next slide"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </button>
         </div>
+
+        <div id="appsDots" class="carousel-dots" aria-label="Apps carousel pagination"></div>
       </section>
     </div>
-  
+
     <script>
       const appsData = {
         apps: [
@@ -561,12 +600,12 @@
           },
         ],
       };
-  
+
       const appsContainer = document.getElementById("appsContainer");
-  
+
       appsData.apps.forEach((app) => {
         const slide = document.createElement("div");
-        slide.className = "swiper-slide w-full sm:w-1/2 lg:w-1/3 px-4 mb-4";
+        slide.className = "carousel-slide w-full sm:w-1/2 lg:w-1/3 px-4 mb-4";
         slide.innerHTML = `
           <div class="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#f5faf5] ring-1 ring-gray-300">
             <div class="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
