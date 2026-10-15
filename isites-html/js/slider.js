@@ -9,13 +9,17 @@ document.querySelectorAll(".slider-carousel").forEach((carousel) => {
   let pageCount = 1;
 
   const updateControls = () => {
-    const activePage = Math.min(
-      pageCount - 1,
-      Math.round(track.scrollLeft / track.clientWidth),
-    );
+    const maxScroll = track.scrollWidth - track.clientWidth;
+    const isAtEnd = maxScroll > 0 && track.scrollLeft >= maxScroll - 5;
+    const activePage = isAtEnd
+      ? pageCount - 1
+      : Math.min(
+          pageCount - 1,
+          Math.round(track.scrollLeft / track.clientWidth),
+        );
 
-    previousButton.disabled = activePage === 0;
-    nextButton.disabled = activePage === pageCount - 1;
+    previousButton.disabled = pageCount <= 1;
+    nextButton.disabled = pageCount <= 1;
 
     pagination.querySelectorAll(".carousel-page").forEach((page, index) => {
       page.setAttribute("aria-current", String(index === activePage));
@@ -57,21 +61,35 @@ document.querySelectorAll(".slider-carousel").forEach((carousel) => {
     updateControls();
   };
 
-  previousButton.addEventListener("click", () => {
-    track.scrollBy({ left: -track.clientWidth, behavior: "smooth" });
-  });
-  nextButton.addEventListener("click", () => {
-    track.scrollBy({ left: track.clientWidth, behavior: "smooth" });
-  });
+  const scrollNext = () => {
+    const maxScroll = track.scrollWidth - track.clientWidth;
+    if (track.scrollLeft >= maxScroll - 5) {
+      track.scrollTo({ left: 0, behavior: "smooth" });
+    } else {
+      track.scrollBy({ left: track.clientWidth, behavior: "smooth" });
+    }
+  };
+
+  const scrollPrev = () => {
+    const maxScroll = track.scrollWidth - track.clientWidth;
+    if (track.scrollLeft <= 5) {
+      track.scrollTo({ left: maxScroll, behavior: "smooth" });
+    } else {
+      track.scrollBy({ left: -track.clientWidth, behavior: "smooth" });
+    }
+  };
+
+  previousButton.addEventListener("click", scrollPrev);
+  nextButton.addEventListener("click", scrollNext);
   track.addEventListener("scroll", updateControls, { passive: true });
   track.addEventListener("keydown", (event) => {
     if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
       event.preventDefault();
-      track.scrollBy({
-        left:
-          event.key === "ArrowRight" ? track.clientWidth : -track.clientWidth,
-        behavior: "smooth",
-      });
+      if (event.key === "ArrowRight") {
+        scrollNext();
+      } else {
+        scrollPrev();
+      }
     }
   });
   window.addEventListener("resize", renderPagination);
