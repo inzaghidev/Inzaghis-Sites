@@ -75,9 +75,11 @@
                             <li><a href="https://inzaghiposuma.wordpress.com/blog-posts" class="text-decoration-none" target="_blank">WordPress Blog</a></li>
                             <li><a href="https://medium.com/@izzumiposhaf29" class="text-decoration-none">Inzaghi's Sites Blog</a></li>
                             <li><a href="https://linktr.ee/inzaghigroup" class="text-decoration-none" target="_blank">Linktree Inzaghi's Group</a></li>
-                            <li><a href="https://inzaghis-blog-aggregator.vercel.app" class="text-decoration-none" target="_blank">Inzaghi's Blog Aggregator</a></li>
+                            <li><a href="https://inzaghis-blog-aggregator.vercel.app" class="text-decoration-none text-danger" target="_blank"><b>Inzaghi's Blog Aggregator</b></a></li>
+                            <li><a href="https://inzatech.netlify.app" class="text-decoration-none text-info" target="_blank"><b>InzaTech Poshaf [NEW]</b></a></li>
+                            <br />
                             <li><a href="https://inzaghi.wuaze.com" class="text-decoration-none text-success"><b>Switch to New UI (Current)</b></a></li>
-                            <li><a href="https://preview.inzaghi.wuaze.com" class="text-decoration-none text-info"><b>Go to the Experimental (Preview)</b></a></li>
+                            <li><a href="https://preview.inzaghi.wuaze.com" class="text-decoration-none text-dark"><b>Go to the Experimental (Preview)</b></a></li>
                         </ul>
                         <a class="github-button" href="https://github.com/inzaghidev/Inzaghis-Sites" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="Look at @inzaghidev">Look at @inzaghidev</a>
                     </nav>
