@@ -26,7 +26,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/portals/widgets"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Widgets
                   </a>
@@ -35,7 +35,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/portals/tech-tutorials"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Technology Tutorials
                   </a>
@@ -44,7 +44,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/portals/projects"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     IT Project Lists
                   </a>
@@ -53,7 +53,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/portals/career-portal"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Career Portal
                   </a>
@@ -62,7 +62,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/portals/learning-materials"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Learning Materials
                   </a>
@@ -71,7 +71,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/portals/entertainment-portal"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Entertainment Portal
                   </a>
@@ -80,7 +80,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/portals/link-pages"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Link Pages
                   </a>
@@ -89,7 +89,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/portals/muslim-portal"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Muslims Portal
                   </a>
@@ -98,7 +98,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/portals/miscellaneous"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Miscellaneous
                   </a>
@@ -107,7 +107,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/portals"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Portal Lists
                   </a>
@@ -124,7 +124,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/apps/converter"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Converters
                   </a>
@@ -133,7 +133,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/apps/calculators"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Calculators
                   </a>
@@ -142,7 +142,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/apps/generators"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Generators
                   </a>
@@ -151,7 +151,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/apps/formatters"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Formatters
                   </a>
@@ -160,7 +160,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/apps/file-converter"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     File Converters
                   </a>
@@ -169,7 +169,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/apps/utilities"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Utilities
                   </a>
@@ -178,7 +178,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/apps/tester-tools"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Tester Tools
                   </a>
@@ -187,7 +187,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/apps"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     App Tools Lists
                   </a>
@@ -204,7 +204,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/inzaghis-group/inzaghis-blog"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Inzaghi's Blog
                   </a>
@@ -213,7 +213,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/inzaghis-group/inzaghis-media"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Inzaghi's Media
                   </a>
@@ -222,7 +222,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Inzaghi's Dev
                   </a>
@@ -231,7 +231,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="https://drive.google.com/drive/folders/1gAMLO2AdXqsp75ymexKwXllKbLMTfhxa"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Inzaghi's Archives
                   </a>
@@ -240,7 +240,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Inzaghi's AI
                   </a>
@@ -249,7 +249,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/networks"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Inzaghi's Group Network
                   </a>
@@ -266,7 +266,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/about"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     About
                   </a>
@@ -274,7 +274,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/profile"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Profile
                   </a>
@@ -282,7 +282,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="/contact"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Contact
                   </a>
@@ -291,7 +291,7 @@ export default function Footer() {
                   <a
                     href="https://medium.com/@izzumiposhaf29"
                     target="_blank"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Blog
                   </a>
@@ -309,7 +309,7 @@ export default function Footer() {
                   <a
                     href="https://inzaghiposuma.wordpress.com/blog-posts"
                     target="_blank"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     WordPress Blog
                   </a>
@@ -318,7 +318,7 @@ export default function Footer() {
                   <a
                     href="https://medium.com/@izzumiposhaf29"
                     target="_blank"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Inzaghi's Sites Blog
                   </a>
@@ -327,7 +327,7 @@ export default function Footer() {
                   <a
                     href="https://linktr.ee/inzaghigroup"
                     target="_blank"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     Linktree Inzaghi's Group
                   </a>
@@ -336,9 +336,18 @@ export default function Footer() {
                   <a
                     href="https://inzaghis-blog-aggregator.vercel.app"
                     target="_blank"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-orange-700! transition hover:text-orange-600! hover:opacity-75"
                   >
                     Inzaghi's Blog Aggregator
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://inzatech.netlify.app"
+                    target="_blank"
+                    className="text-indigo-600! transition hover:text-indigo-500! hover:opacity-75"
+                  >
+                    InzaTech Poshaf [NEW]
                   </a>
                 </li>
               </ul>
@@ -351,7 +360,7 @@ export default function Footer() {
                     href="https://www.instagram.com/enzapost"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     <span className="sr-only">Instagram</span>
 
@@ -390,7 +399,7 @@ export default function Footer() {
                     href="https://x.com/InzaTechMedia"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     <span className="sr-only">X (Twitter)</span>
 
@@ -410,7 +419,7 @@ export default function Footer() {
                     href="https://www.youtube.com/@enzavlogpost"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     <span className="sr-only">YouTube</span>
 
@@ -430,7 +439,7 @@ export default function Footer() {
                     href="https://www.tiktok.com/@enzapostmedia"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     <span className="sr-only">TikTok</span>
 
@@ -464,7 +473,7 @@ export default function Footer() {
                     href="https://github.com/inzaghidev"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     <span className="sr-only">GitHub</span>
 
@@ -488,7 +497,7 @@ export default function Footer() {
                     href="https://open.spotify.com/user/31h7fde74y7or2zf4unyyerbopf4"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-gray-700 transition hover:text-blue-600 hover:opacity-75"
+                    className="text-gray-700 transition hover:text-blue-600! hover:opacity-75"
                   >
                     <span className="sr-only">Spotify</span>
 

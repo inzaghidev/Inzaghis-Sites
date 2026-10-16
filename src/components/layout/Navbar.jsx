@@ -85,6 +85,7 @@ const menus = [
       },
       { label: "WordPress Site", href: "https://inzaghiposuma.wordpress.com/" },
       { label: "Preview (Webflow)", href: "https://inzaghi-site.webflow.io" },
+      { label: "InzaTech Poshaf [NEW]", href: "https://inzatech.netlify.app" },
     ],
   },
 ];
