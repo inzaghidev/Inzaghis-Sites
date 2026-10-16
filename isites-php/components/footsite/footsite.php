@@ -75,7 +75,9 @@
                             <li><a href="https://inzaghiposuma.wordpress.com/blog-posts" class="text-decoration-none" target="_blank">WordPress Blog</a></li>
                             <li><a href="https://medium.com/@izzumiposhaf29" class="text-decoration-none">Inzaghi's Sites Blog</a></li>
                             <li><a href="https://linktr.ee/inzaghigroup" class="text-decoration-none" target="_blank">Linktree Inzaghi's Group</a></li>
-                            <li><a href="https://inzaghis-blog-aggregator.vercel.app" class="text-decoration-none" target="_blank">Inzaghi's Blog Aggregator</a></li>
+                            <li><a href="https://inzaghis-blog-aggregator.vercel.app" class="text-decoration-none text-danger" target="_blank"><b>Inzaghi's Blog Aggregator</b></a></li>
+                            <li><a href="https://inzatech.netlify.app" class="text-decoration-none text-info" target="_blank"><b>InzaTech Poshaf [NEW]</b></a></li>
+                            <br />
                             <li><a href="https://old.inzaghi.wuaze.com" class="text-decoration-none text-success"><b>Back to Old UI (Legacy)</b></a></li>
                             <li><a href="https://inzaghi.wuaze.com" class="text-decoration-none text-primary"><b>Back to the Main Domain Site (Current)</b></a></li>
                         </ul>
