@@ -1,75 +1,369 @@
-import { useState } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
-const portals = [
-  [
-    "Widgets",
-    "Kumpulan widget serbaguna untuk berbagai kebutuhan.",
-    "/images/widgets-by-portals.png",
-    "/portals/widgets",
-  ],
-  [
-    "Technology Tutorials",
-    "Tutorial dan materi teknologi untuk pembelajaran IT.",
-    "/images/tech-tutorials-by-portals.png",
-    "/portals/tech-tutorials",
-  ],
-  [
-    "IT Project Lists",
-    "Daftar proyek IT sebagai inspirasi dan referensi.",
-    "/images/it-project-lists-by-portals.png",
-    "/portals/projects",
-  ],
-];
-const apps = [
-  [
-    "Converters",
-    "Konversi suhu, panjang, sistem bilangan, dan lainnya.",
-    "/images/converters-by-pages-apps.png",
-    "/apps/converters",
-  ],
-  [
-    "Calculators",
-    "Kalkulator sederhana, ilmiah, kesehatan, dan keuangan.",
-    "/images/calculators-by-pages-apps.png",
-    "/apps/calculators",
-  ],
-  [
-    "Generators",
-    "Generator teks, angka, dan berbagai kebutuhan lainnya.",
-    "/images/generators-by-pages-apps.png",
-    "/apps/generators",
-  ],
+const portalsData = [
+  {
+    name: "Widgets",
+    imgSrc: "/images/widgets-by-portals.png",
+    description:
+      "Merupakan kumpulan Widget Serbaguna untuk Anda yang membutuhkan Informasi seakurat mungkin. Widget di sini juga termasuk yang sedang heboh saat ini.",
+    link: "/portals/widgets",
+  },
+  {
+    name: "Technology Tutorials",
+    imgSrc: "/images/tech-tutorials-by-portals.png",
+    description:
+      "Merupakan kumpulan dari berbagai macam Teknologi apapun dalam bidang IT, dan sebagai Pembelajaran untuk berbagai macam Teknologi IT apapun seperti Pemrograman, Aplikasi, Ilmu Komputer, Analisis Data, dan lainnya.",
+    link: "/portals/tech-tutorials",
+  },
+  {
+    name: "IT Project Lists",
+    imgSrc: "/images/it-project-lists-by-portals.png",
+    description:
+      "Merupakan kumpulan dari berbagai macam Proyek apapun dalam bidang IT seperti Pemrograman, Aplikasi, UI/UX, Analisis Data, AI/ML, IoT, dan lainnya.",
+    link: "/portals/projects",
+  },
+  {
+    name: "Career Portal",
+    imgSrc: "/images/career-portal-by-portals.png",
+    description:
+      "Merupakan kumpulan dari pertanyaan-pertanyaan Wawancara seperti Wawancara Kerja, Magang, User Interview, Wawancara Teknis (Technical Interview), dan lain-lain.",
+    link: "/portals/career-portal",
+  },
+  {
+    name: "Learning Materials",
+    imgSrc: "/images/learning-materials-by-portals.png",
+    description:
+      "Merupakan bagian untuk kumpulan Materi Pembelajaran, khususnya untuk Materi Pelajaran Sekolah (Untuk SMA) dan Materi Perkuliahan (Teknik InformatiKa dan Umum/MKDU). Pada Portal ini juga menyediakan berbagai macam Kumpulan Materi dan Pertanyaan untuk persiapan Tugas Akhir seperti Skripsi, Tesis, dan Disertasi.",
+    link: "/portals/learning-materials",
+  },
+  {
+    name: "Entertainment Portal",
+    imgSrc: "/images/entertainment-portal-by-portals.png",
+    description:
+      "Merupakan Portal untuk Pusat Hiburan seperti Kumpulan Video dan Live Streaming di YouTube, Kumpulan Akun-akun Media Sosial, hingga Kumpulan Playlist Lagu seperti Spotify.",
+    link: "/portals/entertainment-portal",
+  },
+  {
+    name: "Link Pages",
+    imgSrc: "/images/link-pages-by-portals.png",
+    description:
+      "Merupakan kumpulan dari Tautan/Link yang berasal dari Situs Berita, Link Google, YouTube, GitHub, dan lainnya.",
+    link: "/portals/link-pages",
+  },
+  {
+    name: "Muslims Portal",
+    imgSrc: "/images/muslim-portal-by-portals.png",
+    description:
+      "Merupakan Portal untuk Kumpulan Pusat Keagamaan dan Peribadatan Islam, seperti Jadwal Shalat & Puasa, Kalender Hijriah, Kompas Arah Kiblat, hingga Al-Qur'an Digital.",
+    link: "/portals/muslim-portal",
+  },
+  {
+    name: "Miscellaneous",
+    imgSrc: "/images/miscellaneous-by-portals.png",
+    description:
+      "Merupakan Halaman lainnya yang tidak termasuk dari Kategori di Portal ini, dan juga tersedia untuk Halaman apa saja.",
+    link: "/portals/miscellaneous",
+  },
+  {
+    name: "Lorem Ipsum",
+    imgSrc: "https://via.placeholder.com/700x400",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius adipisci dicta dignissimos neque animi ea, veritatis, provident hic consequatur ut esse! Commodi ea consequatur accusantium, beatae qui deserunt tenetur ipsa.",
+    link: "#",
+  },
 ];
 
-function Collection({ title, description, items }) {
+const appsData = [
+  {
+    name: "Converters",
+    imgSrc: "/images/converters-by-pages-apps.png",
+    description:
+      "Merupakan portal untuk Aplikasi Konverter seperti Konversi Suhu, Massa (Berat), Panjang, Sistem Bilangan, dan lain-lain. Sebagian dari Aplikasi Konverter ini akan sedikit menggunakan API.",
+    link: "/apps/converters",
+  },
+  {
+    name: "Calculators",
+    imgSrc: "/images/calculators-by-pages-apps.png",
+    description:
+      "Merupakan kumpulan dari beberapa jenis Kalkulator seperti Kalkulator Sederhana, Ilmiah, Matematika, Kesehatan, Keuangan, hingga Kalkulator untuk Keseharian.",
+    link: "/apps/calculators",
+  },
+  {
+    name: "Generators",
+    imgSrc: "/images/generators-by-pages-apps.png",
+    description:
+      "Merupakan Aplikasi untuk membuat dan mengenerasi sesuatu seperti Text Generator hingga Image Generator, dan dapat dibuat secara acak.",
+    link: "/apps/generators",
+  },
+  {
+    name: "Formatters",
+    imgSrc: "/images/formatters-by-pages-apps.png",
+    description:
+      "Merupakan Aplikasi untuk melakukan Formatting seperti XML, JSON, dll, hingga melakukan Pemformatan apapun.",
+    link: "/apps/formatters",
+  },
+  {
+    name: "File Converter",
+    imgSrc: "/images/file-converters-by-pages-apps.png",
+    description:
+      "Merupakan portal untuk melakukan konversi format File apapun seperti JPG, PNG, DOCX, PDF, PPT, hingga TXT.",
+    link: "/apps/file-converter",
+  },
+  {
+    name: "Utilities",
+    imgSrc: "/images/utilities-by-pages-apps.png",
+    description:
+      "Merupakan portal untuk berbagai kumpulan Aplikasi untuk Utilitas atau kebutuhan sehari-hari seperti Pencarian IP Address, SSL Checker, Website Status Checker, Find and Replace, dan lainnya.",
+    link: "/apps/utilities",
+  },
+  {
+    name: "Tester Tools",
+    imgSrc: "/images/tester-tools-by-pages-apps.png",
+    description:
+      "Merupakan Aplikasi untuk Alat Uji Coba dan Simulator Online seperti Keyboard Tester, Mouse Tester, Sound Tester, dan lainnya.",
+    link: "/apps/tester-tools",
+  },
+];
+
+function CarouselSlider({ items, prefix, title, description, linkUrl }) {
+  const viewportRef = useRef(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [maxIndex, setMaxIndex] = useState(0);
+
+  const getSlidesPerView = useCallback(() => {
+    if (typeof window === "undefined") return 3;
+    const width = window.innerWidth;
+    if (width >= 1081) return 3;
+    if (width >= 640) return 2;
+    return 1;
+  }, []);
+
+  const calculateMaxIndex = useCallback(() => {
+    const spv = getSlidesPerView();
+    return Math.max(0, items.length - spv);
+  }, [items.length, getSlidesPerView]);
+
+  useEffect(() => {
+    const updateMax = () => {
+      setMaxIndex(calculateMaxIndex());
+    };
+    updateMax();
+    window.addEventListener("resize", updateMax);
+    return () => window.removeEventListener("resize", updateMax);
+  }, [calculateMaxIndex]);
+
+  const goToSlide = (index) => {
+    const maxIdx = calculateMaxIndex();
+    const clampedIndex = Math.max(0, Math.min(index, maxIdx));
+    setCurrentIndex(clampedIndex);
+
+    const viewport = viewportRef.current;
+    if (viewport && viewport.children[0]) {
+      const targetSlide = viewport.children[0].children[clampedIndex];
+      if (targetSlide) {
+        viewport.scrollTo({
+          left: targetSlide.offsetLeft,
+          behavior: "smooth",
+        });
+      }
+    }
+  };
+
+  const handlePrev = () => {
+    const maxIdx = calculateMaxIndex();
+    if (currentIndex > 0) {
+      goToSlide(currentIndex - 1);
+    } else {
+      goToSlide(maxIdx); // Loop around
+    }
+  };
+
+  const handleNext = () => {
+    const maxIdx = calculateMaxIndex();
+    if (currentIndex < maxIdx) {
+      goToSlide(currentIndex + 1);
+    } else {
+      goToSlide(0); // Loop around
+    }
+  };
+
+  const handleScroll = () => {
+    const viewport = viewportRef.current;
+    if (!viewport || !viewport.children[0]) return;
+    const maxIdx = calculateMaxIndex();
+    const scrollLeft = viewport.scrollLeft;
+    const slides = viewport.children[0].children;
+
+    if (!slides.length) return;
+
+    if (viewport.scrollLeft + viewport.clientWidth >= viewport.scrollWidth - 5) {
+      setCurrentIndex(maxIdx);
+      return;
+    }
+
+    let closestIndex = 0;
+    let minDiff = Infinity;
+    for (let i = 0; i <= maxIdx; i++) {
+      const slide = slides[i];
+      if (!slide) break;
+      const diff = Math.abs(slide.offsetLeft - scrollLeft);
+      if (diff < minDiff) {
+        minDiff = diff;
+        closestIndex = i;
+      }
+    }
+    setCurrentIndex(closestIndex);
+  };
+
   return (
-    <section className="siteSection">
-      <div className="siteSectionHeading">
-        <div>
-          <p className="siteEyebrow">EXPLORE</p>
-          <h2>{title}</h2>
-          <p>{description}</p>
+    <section className="slider-carousel">
+      <div className="slider-container">
+        <h2 className="title-heading text-green-700">{title}</h2>
+        <div className="text-container">
+          <p className="text-description">{description}</p>
+          <section className="group-button">
+            <Link to={linkUrl} className="main-button">
+              Click here
+            </Link>
+          </section>
         </div>
-        <Link to={`/${title.toLowerCase()}`} className="siteTextLink">
-          Lihat semua →
-        </Link>
-      </div>
-      <div className="siteCardGrid">
-        {items.map(([name, text, image, link]) => (
-          <article className="siteFeatureCard" key={name}>
-            <img src={image} alt={name} />
-            <div>
-              <h3>{name}</h3>
-              <p>{text}</p>
-              <Link to={link}>
-                Explore <span>→</span>
-              </Link>
+        <section className="group-content carousel-content">
+          <div className="carousel-controls">
+            <button
+              type="button"
+              id={`${prefix}PrevBtn`}
+              className="carousel-nav"
+              aria-label="Previous slide"
+              onClick={handlePrev}
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+            </button>
+            <div
+              className="carousel-viewport overflow-x-scroll"
+              id={`${prefix}SliderWrapper`}
+              ref={viewportRef}
+              onScroll={handleScroll}
+            >
+              <div className="carousel-track" id={`${prefix}Container`}>
+                {items.map((item, idx) => (
+                  <div
+                    key={idx}
+                    className="carousel-slide w-full sm:w-1/2 lg:w-1/3 px-4 mb-4"
+                  >
+                    <div className="relative flex flex-col text-gray-700 bg-gray-200 shadow-xl bg-clip-border rounded-xl h-full bg-opacity-50 backdrop-filter backdrop-blur-xl hover:bg-[#f5faf5] ring-1 ring-gray-300">
+                      <div className="relative mx-4 mt-4 overflow-hidden text-white shadow-md bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+                        {item.link.startsWith("http") ? (
+                          <a
+                            href={item.link}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <img
+                              src={item.imgSrc}
+                              alt={item.name}
+                              className="w-full h-full object-cover"
+                            />
+                          </a>
+                        ) : (
+                          <Link to={item.link}>
+                            <img
+                              src={item.imgSrc}
+                              alt={item.name}
+                              className="w-full h-full object-cover"
+                            />
+                          </Link>
+                        )}
+                      </div>
+                      <div className="p-4 text-center flex flex-col flex-grow justify-between">
+                        <div className="flex flex-col bg-transparent border border-gray-200 rounded-xl border-gray-300 sm:h-full p-6 sm:p-2 lg:p-4">
+                          <h5 className="card-name blog-name block mt-2 mb-4 text-2xl sm:text-2xl md:text-3xl antialiased font-semibold leading-snug tracking-normal text-green-700">
+                            {item.name}
+                          </h5>
+                          <p className="blog-description m-auto block text-xs md:text-sm text-left antialiased font-light leading-relaxed text-inherit">
+                            {item.description}
+                          </p>
+                          <div className="mt-4">
+                            {item.link.startsWith("http") ? (
+                              <a
+                                href={item.link}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="inline-block text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                              >
+                                Klik di sini
+                              </a>
+                            ) : (
+                              <Link
+                                to={item.link}
+                                className="inline-block text-white hover:text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                              >
+                                Klik di sini
+                              </Link>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
-          </article>
-        ))}
+            <button
+              type="button"
+              id={`${prefix}NextBtn`}
+              className="carousel-nav"
+              aria-label="Next slide"
+              onClick={handleNext}
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </button>
+          </div>
+          {maxIndex > 0 && (
+            <div
+              id={`${prefix}Dots`}
+              className="carousel-dots"
+              aria-label={`${title} carousel pagination`}
+            >
+              {Array.from({ length: maxIndex + 1 }).map((_, i) => (
+                <button
+                  key={i}
+                  type="button"
+                  className={`carousel-dot${i === currentIndex ? " is-active" : ""}`}
+                  aria-label={`Go to carousel position ${i + 1}`}
+                  aria-current={i === currentIndex ? "true" : "false"}
+                  onClick={() => goToSlide(i)}
+                />
+              ))}
+            </div>
+          )}
+        </section>
       </div>
     </section>
   );
@@ -337,15 +631,19 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <Collection
+        <CarouselSlider
+          prefix="portals"
           title="Portals"
-          description="Portal untuk widget, tutorial, materi pembelajaran, dan lainnya."
-          items={portals}
+          description="Portals merupakan Halaman Portal yang tersedia untuk berbagai kebutuhan apapun seperti Widgets, Tutorial Teknologi, Materi Pembelajaran, dan lainnya."
+          items={portalsData}
+          linkUrl="/portals"
         />
-        <Collection
+        <CarouselSlider
+          prefix="apps"
           title="Apps"
-          description="Aplikasi praktis untuk konversi, kalkulasi, generator, dan utilitas."
-          items={apps}
+          description="Pages Apps merupakan Halaman Aplikasi yang tersedia untuk berbagai kebutuhan. Pages Apps menyediakan berbagai Portal seperti Konverter, Kalkulator, Generator, Formatter, dan lainnya."
+          items={appsData}
+          linkUrl="/apps"
         />
         <section className="inzaghis-blog-home">
           <div className="inzaghis-blog-container">

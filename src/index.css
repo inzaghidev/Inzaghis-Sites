@@ -2907,3 +2907,144 @@ svg:not(:root) {
     width: 100%;
   }
 }
+
+/*
+  ===== Horizontal Scrollbar Carousel =====
+*/
+.carousel-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.carousel-controls {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.carousel-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  border-radius: 9999px;
+  background-color: #ffffff;
+  color: #374151;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  z-index: 10;
+}
+
+.carousel-nav:hover:not(:disabled) {
+  background-color: #f9fafb;
+  color: #111827;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.carousel-nav:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.carousel-nav svg {
+  width: 20px;
+  height: 20px;
+}
+
+.carousel-viewport {
+  flex: 1;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: #94a3b8 #e2e8f0;
+}
+
+/* Custom styled horizontal scrollbar */
+.carousel-viewport::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carousel-viewport::-webkit-scrollbar-track {
+  background: #e2e8f0;
+  border-radius: 9999px;
+}
+
+.carousel-viewport::-webkit-scrollbar-thumb {
+  background: #64748b;
+  border-radius: 9999px;
+}
+
+.carousel-viewport::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+.carousel-track {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 640px) {
+  .carousel-slide {
+    flex: 0 0 50%;
+    min-width: 50%;
+  }
+}
+
+@media (min-width: 1081px) {
+  .carousel-slide {
+    flex: 0 0 33.333333%;
+    min-width: 33.333333%;
+  }
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1.25rem;
+  width: 100%;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background-color: #cbd5e1;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+.carousel-dot:hover {
+  background-color: #94a3b8;
+}
+
+.carousel-dot.is-active,
+.carousel-dot[aria-current="true"] {
+  width: 24px;
+  background-color: #2563eb;
+  border-radius: 9999px;
+}
+
